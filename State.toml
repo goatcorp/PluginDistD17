@@ -4,6 +4,8 @@ built_commit = "aabb01e1ac5c0f83e3f746f028fa315fb6806a13"
 built_commit = "f9bb766e0e0ecd225513e8cb111c1206ead4fcfe"
 [channels.stable.plugins.cl_showpos]
 built_commit = "8ba2d9e6af9a0990d57693b73a3f311d7a70e3af"
+[channels.stable.plugins."Dalamud.RichPresence"]
+built_commit = "d335b9ca5452fd6fd3d8e5ec9ea27f00eab4fa49"
 [channels.testing-api6.plugins."XIVDeck.FFXIVPlugin"]
 built_commit = "db01e0eccae2f26daafeccda66eb70adf66610e7"
 [channels.testing-api6.plugins.BetterPlaytime]
