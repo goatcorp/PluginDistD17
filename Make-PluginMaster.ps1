@@ -36,12 +36,12 @@ function Is-Banned {
   return $false
 }
 
-Get-ChildItem -Path plugins -File -Recurse -Include *.json |
+Get-ChildItem -Path stable -File -Recurse -Include *.json |
 Foreach-Object {
   $content = Get-Content $_.FullName | ConvertFrom-Json
 
   $isBanned = Is-Banned -PluginName $content.InternalName -AssemblyVersion $content.AssemblyVersion
-  if ($notInclude.Contains($content.InternalName) -or $isBanned) { 
+  if ($notInclude.Contains($content.InternalName) -or $isBanned) {
     $content | add-member -Force -Name "IsHide" -value "True" -MemberType NoteProperty
   }
   else {
@@ -60,7 +60,7 @@ Foreach-Object {
     }
   }
 
-  $testingPath = Join-Path $thisPath -ChildPath "testing" | Join-Path -ChildPath $content.InternalName | Join-Path -ChildPath $_.Name
+  $testingPath = Join-Path $thisPath -ChildPath "testing-api6" | Join-Path -ChildPath $content.InternalName | Join-Path -ChildPath $_.Name
   if ($testingPath | Test-Path) {
     $testingContent = Get-Content $testingPath | ConvertFrom-Json
     $content | add-member -Force -Name "TestingAssemblyVersion" -value $testingContent.AssemblyVersion -MemberType NoteProperty
@@ -85,7 +85,7 @@ Foreach-Object {
 
   $internalName = $content.InternalName
 
-  $updateDate = git log -1 --pretty="format:%ct" plugins/$internalName/latest.zip
+  $updateDate = git log -1 --pretty="format:%ct" stable/$internalName/latest.zip
   if ($updateDate -eq $null) {
     $updateDate = 0;
   }
@@ -103,12 +103,12 @@ Foreach-Object {
   $output.Add($content)
 }
 
-Get-ChildItem -Path testing -File -Recurse -Include *.json |
+Get-ChildItem -Path testing-api6 -File -Recurse -Include *.json |
 Foreach-Object {
   $content = Get-Content $_.FullName | ConvertFrom-Json
 
   $isBanned = Is-Banned -PluginName $content.InternalName -AssemblyVersion $content.AssemblyVersion
-  if ($notInclude.Contains($content.InternalName) -or $isBanned) { 
+  if ($notInclude.Contains($content.InternalName) -or $isBanned) {
     $content | add-member -Force -Name "IsHide" -value "True" -MemberType NoteProperty
   }
   else {
@@ -135,7 +135,7 @@ Foreach-Object {
 
     $internalName = $content.InternalName
 
-    $updateDate = git log -1 --pretty="format:%ct" testing/$internalName/latest.zip
+    $updateDate = git log -1 --pretty="format:%ct" testing-api6/$internalName/latest.zip
     if ($updateDate -eq $null) {
       $updateDate = 0;
     }

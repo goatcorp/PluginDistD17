@@ -1,0 +1,144 @@
+[
+  {
+    "Author": "NotNite",
+    "Name": "cl_showpos",
+    "InternalName": "cl_showpos",
+    "AssemblyVersion": "1.0.5.1",
+    "Description": "Shows your exact position, rotation, and velocity on screen. Based off of the cl_showpos command from the Source Engine.",
+    "ApplicableVersion": "any",
+    "RepoUrl": "https://gitlab.com/jules/cl_showpos",
+    "Tags": [
+      "ui"
+    ],
+    "CategoryTags": [
+      "ui"
+    ],
+    "DalamudApiLevel": 6,
+    "LoadPriority": 0,
+    "Punchline": "Customizable, Source Engine-styled position info",
+    "IsHide": "False",
+    "IsTestingExclusive": "False",
+    "DownloadCount": 0,
+    "LastUpdate": "1659280563",
+    "DownloadLinkInstall": "https://kamori.goats.dev/Plugin/Download/cl_showpos?isUpdate=False&isTesting=False&branch=api6",
+    "DownloadLinkTesting": "https://kamori.goats.dev/Plugin/Download/cl_showpos?isUpdate=False&isTesting=True&branch=api6",
+    "DownloadLinkUpdate": "https://raw.githubusercontent.com/goatcorp/DalamudPlugins/api6/plugins/cl_showpos/latest.zip"
+  },
+  {
+    "Author": "goat",
+    "Name": "Wotsit",
+    "InternalName": "Dalamud.FindAnything",
+    "AssemblyVersion": "1.0.1.7",
+    "Description": "Adds a convenient quick search akin to Spotlight that lets you open game windows, teleport, find wiki articles, and more.\nPress Control + T to open the search window. This can be changed by searching for \"Wotsit Settings\".",
+    "ApplicableVersion": "any",
+    "Tags": [
+      "find",
+      "teleport",
+      "wiki"
+    ],
+    "DalamudApiLevel": 6,
+    "LoadPriority": 0,
+    "Punchline": "Find anything, go anywhere, in style.",
+    "IsHide": "True",
+    "IsTestingExclusive": "False",
+    "DownloadCount": 0,
+    "LastUpdate": "1659233687",
+    "DownloadLinkInstall": "https://kamori.goats.dev/Plugin/Download/Dalamud.FindAnything?isUpdate=False&isTesting=False&branch=api6",
+    "DownloadLinkTesting": "https://kamori.goats.dev/Plugin/Download/Dalamud.FindAnything?isUpdate=False&isTesting=True&branch=api6",
+    "DownloadLinkUpdate": "https://raw.githubusercontent.com/goatcorp/DalamudPlugins/api6/plugins/Dalamud.FindAnything/latest.zip"
+  },
+  {
+    "Author": "goat",
+    "Name": "Discord Rich Presence",
+    "InternalName": "Dalamud.RichPresence",
+    "AssemblyVersion": "2.0.0.5",
+    "Description": "This plugin allows you to show your zone, job, level, name, and world in your Discord status.",
+    "ApplicableVersion": "any",
+    "Tags": [
+      "Discord"
+    ],
+    "DalamudApiLevel": 6,
+    "LoadPriority": 0,
+    "Punchline": "Show your zone, job, level, name, and world in your Discord status",
+    "Changelog": "* Added party grouping support, will show people you group with on Discord if they also use the plugin\n* Now shows AFK status by default, can be disabled\n* Now shows queue position if Waitingway is installed",
+    "IsHide": "False",
+    "IsTestingExclusive": "False",
+    "DownloadCount": 0,
+    "LastUpdate": "1659281818",
+    "DownloadLinkInstall": "https://kamori.goats.dev/Plugin/Download/Dalamud.RichPresence?isUpdate=False&isTesting=False&branch=api6",
+    "DownloadLinkTesting": "https://kamori.goats.dev/Plugin/Download/Dalamud.RichPresence?isUpdate=False&isTesting=True&branch=api6",
+    "DownloadLinkUpdate": "https://raw.githubusercontent.com/goatcorp/DalamudPlugins/api6/plugins/Dalamud.RichPresence/latest.zip"
+  },
+  {
+    "Author": "perchbird",
+    "Name": "Damage Info",
+    "InternalName": "DamageInfoPlugin",
+    "AssemblyVersion": "1.0.0.0",
+    "Description": "Configurable options for in-game fly text color based on damage type, with additional settings for damage source and fly text decluttering options.",
+    "ApplicableVersion": "any",
+    "RepoUrl": "https://github.com/lmcintyre/DamageInfoPlugin",
+    "DalamudApiLevel": 6,
+    "LoadPriority": 0,
+    "Punchline": "Modifies in-game fly-text for more (or less) damage information.",
+    "IsHide": "True",
+    "IsTestingExclusive": "False",
+    "DownloadCount": 0,
+    "LastUpdate": "1659233687",
+    "DownloadLinkInstall": "https://kamori.goats.dev/Plugin/Download/DamageInfoPlugin?isUpdate=False&isTesting=False&branch=api6",
+    "DownloadLinkTesting": "https://kamori.goats.dev/Plugin/Download/DamageInfoPlugin?isUpdate=False&isTesting=True&branch=api6",
+    "DownloadLinkUpdate": "https://raw.githubusercontent.com/goatcorp/DalamudPlugins/api6/plugins/DamageInfoPlugin/latest.zip"
+  },
+  {
+    "Author": "Infi",
+    "Name": "Better Playtime",
+    "InternalName": "BetterPlaytime",
+    "AssemblyVersion": "0.0.1.0",
+    "Description": "Provides expanded functionality to seamlessly track total playtime.\nRequires only using /playtime once on each character (again to refresh the time),\n\n- Supports multiple characters,\n- Customisable output formats such as hours or minutes",
+    "ApplicableVersion": "any",
+    "RepoUrl": "https://github.com/Infiziert90/BetterPlaytime",
+    "Tags": [
+      "Playtime",
+      "plugin"
+    ],
+    "DalamudApiLevel": 6,
+    "LoadPriority": 0,
+    "Punchline": "Ever wanted detailed information on your playtime all the way down to the second?",
+    "IsHide": "False",
+    "DownloadCount": 0,
+    "TestingAssemblyVersion": "0.0.1.0",
+    "IsTestingExclusive": "True",
+    "LastUpdate": "1659277494",
+    "DownloadLinkInstall": "https://kamori.goats.dev/Plugin/Download/BetterPlaytime?isUpdate=False&isTesting=True&branch=api6",
+    "DownloadLinkTesting": "https://kamori.goats.dev/Plugin/Download/BetterPlaytime?isUpdate=False&isTesting=True&branch=api6",
+    "DownloadLinkUpdate": "https://raw.githubusercontent.com/goatcorp/DalamudPlugins/api6/plugins/BetterPlaytime/latest.zip"
+  },
+  {
+    "Author": "Kaz Wolfe",
+    "Name": "XIVDeck Game Plugin",
+    "InternalName": "XIVDeck.FFXIVPlugin",
+    "AssemblyVersion": "0.2.9",
+    "Description": "This plugin allows players to place virtually any hotbar-able action onto a Stream Deck, including hotbar slots themselves. Actions are called directly, meaning no keybinds or awkward settings are necessary.\n\nNote that the XIVDeck Stream Deck plugin must also be installed for this plugin to be useful. You can download the Stream Deck plugin from the linked GitHub repository, under the \"Releases\" section.\n\nPlease report all problems to KazWolfe#2896 in the Dalamud Support server or by opening an Issue on GitHub.",
+    "ApplicableVersion": "any",
+    "RepoUrl": "https://github.com/KazWolfe/XIVDeck/",
+    "Tags": [
+      "stream deck",
+      "ui",
+      "integrations",
+      "api"
+    ],
+    "CategoryTags": [
+      "UI"
+    ],
+    "DalamudApiLevel": 6,
+    "LoadPriority": 0,
+    "Punchline": "Integrate your Stream Deck with Final Fantasy XIV!",
+    "IsHide": "False",
+    "DownloadCount": 0,
+    "TestingAssemblyVersion": "0.2.9",
+    "IsTestingExclusive": "True",
+    "LastUpdate": "1659233687",
+    "DownloadLinkInstall": "https://kamori.goats.dev/Plugin/Download/XIVDeck.FFXIVPlugin?isUpdate=False&isTesting=True&branch=api6",
+    "DownloadLinkTesting": "https://kamori.goats.dev/Plugin/Download/XIVDeck.FFXIVPlugin?isUpdate=False&isTesting=True&branch=api6",
+    "DownloadLinkUpdate": "https://raw.githubusercontent.com/goatcorp/DalamudPlugins/api6/plugins/XIVDeck.FFXIVPlugin/latest.zip"
+  }
+]
