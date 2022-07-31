@@ -19,7 +19,7 @@
     "IsHide": "False",
     "IsTestingExclusive": "False",
     "DownloadCount": 0,
-    "LastUpdate": "1659280563",
+    "LastUpdate": "1659302144",
     "DownloadLinkInstall": "https://raw.githubusercontent.com/goatcorp/PluginDistD17/api6/cl_showpos/False/latest.zip",
     "DownloadLinkTesting": "https://raw.githubusercontent.com/goatcorp/PluginDistD17/api6/cl_showpos/True/latest.zip",
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/goatcorp/PluginDistD17/api6/plugins/cl_showpos/latest.zip"
@@ -28,7 +28,7 @@
     "Author": "goat",
     "Name": "Wotsit",
     "InternalName": "Dalamud.FindAnything",
-    "AssemblyVersion": "1.0.1.7",
+    "AssemblyVersion": "1.0.1.8",
     "Description": "Adds a convenient quick search akin to Spotlight that lets you open game windows, teleport, find wiki articles, and more.\nPress Control + T to open the search window. This can be changed by searching for \"Wotsit Settings\".",
     "ApplicableVersion": "any",
     "Tags": [
@@ -39,10 +39,10 @@
     "DalamudApiLevel": 6,
     "LoadPriority": 0,
     "Punchline": "Find anything, go anywhere, in style.",
-    "IsHide": "True",
+    "IsHide": "False",
     "IsTestingExclusive": "False",
     "DownloadCount": 0,
-    "LastUpdate": "1659233687",
+    "LastUpdate": "1659302144",
     "DownloadLinkInstall": "https://raw.githubusercontent.com/goatcorp/PluginDistD17/api6/Dalamud.FindAnything/False/latest.zip",
     "DownloadLinkTesting": "https://raw.githubusercontent.com/goatcorp/PluginDistD17/api6/Dalamud.FindAnything/True/latest.zip",
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/goatcorp/PluginDistD17/api6/plugins/Dalamud.FindAnything/latest.zip"
@@ -64,7 +64,7 @@
     "IsHide": "False",
     "IsTestingExclusive": "False",
     "DownloadCount": 0,
-    "LastUpdate": "1659281818",
+    "LastUpdate": "1659302144",
     "DownloadLinkInstall": "https://raw.githubusercontent.com/goatcorp/PluginDistD17/api6/Dalamud.RichPresence/False/latest.zip",
     "DownloadLinkTesting": "https://raw.githubusercontent.com/goatcorp/PluginDistD17/api6/Dalamud.RichPresence/True/latest.zip",
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/goatcorp/PluginDistD17/api6/plugins/Dalamud.RichPresence/latest.zip"
@@ -83,10 +83,29 @@
     "IsHide": "True",
     "IsTestingExclusive": "False",
     "DownloadCount": 0,
-    "LastUpdate": "1659233687",
+    "LastUpdate": "1659302144",
     "DownloadLinkInstall": "https://raw.githubusercontent.com/goatcorp/PluginDistD17/api6/DamageInfoPlugin/False/latest.zip",
     "DownloadLinkTesting": "https://raw.githubusercontent.com/goatcorp/PluginDistD17/api6/DamageInfoPlugin/True/latest.zip",
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/goatcorp/PluginDistD17/api6/plugins/DamageInfoPlugin/latest.zip"
+  },
+  {
+    "Author": "Pohky",
+    "Name": "Teleporter",
+    "InternalName": "TeleporterPlugin",
+    "AssemblyVersion": "2.0.1.8",
+    "Description": "Adds Chat Commands to Teleport to Aetherytes or Areas by Name.\ne.g. /tp Quarrymill or /tpm South Shroud\nSupports setting up an Alias for Aetherytes to be used with Teleporter Commands\ne.g. /tp home instead of /tp Estate Hall (Free Company)",
+    "ApplicableVersion": "any",
+    "RepoUrl": "https://github.com/pohky/TeleporterPlugin",
+    "DalamudApiLevel": 6,
+    "LoadPriority": 0,
+    "Punchline": "Chat Commands for Teleporting",
+    "IsHide": "False",
+    "IsTestingExclusive": "False",
+    "DownloadCount": 0,
+    "LastUpdate": "1659302144",
+    "DownloadLinkInstall": "https://raw.githubusercontent.com/goatcorp/PluginDistD17/api6/TeleporterPlugin/False/latest.zip",
+    "DownloadLinkTesting": "https://raw.githubusercontent.com/goatcorp/PluginDistD17/api6/TeleporterPlugin/True/latest.zip",
+    "DownloadLinkUpdate": "https://raw.githubusercontent.com/goatcorp/PluginDistD17/api6/plugins/TeleporterPlugin/latest.zip"
   },
   {
     "Author": "Infi",
@@ -107,7 +126,7 @@
     "DownloadCount": 0,
     "TestingAssemblyVersion": "0.0.1.0",
     "IsTestingExclusive": "True",
-    "LastUpdate": "1659277494",
+    "LastUpdate": "1659302144",
     "DownloadLinkInstall": "https://raw.githubusercontent.com/goatcorp/PluginDistD17/api6/BetterPlaytime/True/latest.zip",
     "DownloadLinkTesting": "https://raw.githubusercontent.com/goatcorp/PluginDistD17/api6/BetterPlaytime/True/latest.zip",
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/goatcorp/PluginDistD17/api6/plugins/BetterPlaytime/latest.zip"
@@ -136,7 +155,7 @@
     "DownloadCount": 0,
     "TestingAssemblyVersion": "0.2.9",
     "IsTestingExclusive": "True",
-    "LastUpdate": "1659233687",
+    "LastUpdate": "1659302144",
     "DownloadLinkInstall": "https://raw.githubusercontent.com/goatcorp/PluginDistD17/api6/XIVDeck.FFXIVPlugin/True/latest.zip",
     "DownloadLinkTesting": "https://raw.githubusercontent.com/goatcorp/PluginDistD17/api6/XIVDeck.FFXIVPlugin/True/latest.zip",
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/goatcorp/PluginDistD17/api6/plugins/XIVDeck.FFXIVPlugin/latest.zip"

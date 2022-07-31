@@ -61,7 +61,7 @@ Foreach-Object {
     }
   }
 
-  $testingPath = Join-Path $thisPath -ChildPath "testing-api6" | Join-Path -ChildPath $content.InternalName | Join-Path -ChildPath $_.Name
+  $testingPath = Join-Path $thisPath -ChildPath "testing-live" | Join-Path -ChildPath $content.InternalName | Join-Path -ChildPath $_.Name
   if ($testingPath | Test-Path) {
     $testingContent = Get-Content $testingPath | ConvertFrom-Json
     $content | add-member -Force -Name "TestingAssemblyVersion" -value $testingContent.AssemblyVersion -MemberType NoteProperty
@@ -104,7 +104,7 @@ Foreach-Object {
   $output.Add($content)
 }
 
-Get-ChildItem -Path testing-api6 -File -Recurse -Include *.json |
+Get-ChildItem -Path testing-live -File -Recurse -Include *.json |
 Foreach-Object {
   $content = Get-Content $_.FullName | ConvertFrom-Json
 
@@ -136,7 +136,7 @@ Foreach-Object {
 
     $internalName = $content.InternalName
 
-    $updateDate = git log -1 --pretty="format:%ct" testing-api6/$internalName/latest.zip
+    $updateDate = git log -1 --pretty="format:%ct" testing-live/$internalName/latest.zip
     if ($updateDate -eq $null) {
       $updateDate = 0;
     }
