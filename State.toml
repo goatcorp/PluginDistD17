@@ -1,12 +1,21 @@
-[channels.stable.plugins."Dalamud.FindAnything"]
-built_commit = "aabb01e1ac5c0f83e3f746f028fa315fb6806a13"
-[channels.stable.plugins.DamageInfoPlugin]
-built_commit = "f9bb766e0e0ecd225513e8cb111c1206ead4fcfe"
-[channels.stable.plugins.cl_showpos]
-built_commit = "8ba2d9e6af9a0990d57693b73a3f311d7a70e3af"
 [channels.stable.plugins."Dalamud.RichPresence"]
 built_commit = "d335b9ca5452fd6fd3d8e5ec9ea27f00eab4fa49"
-[channels.testing-api6.plugins."XIVDeck.FFXIVPlugin"]
+time_built = 2022-07-31T21:15:12.034
+[channels.stable.plugins."Dalamud.FindAnything"]
+built_commit = "040e0a59318dc483a5bea1dd3e7956387af71788"
+time_built = 2022-07-31T21:15:18.374
+[channels.stable.plugins.DamageInfoPlugin]
+built_commit = "f9bb766e0e0ecd225513e8cb111c1206ead4fcfe"
+time_built = 2022-07-31T21:15:22.864
+[channels.stable.plugins.cl_showpos]
+built_commit = "8ba2d9e6af9a0990d57693b73a3f311d7a70e3af"
+time_built = 2022-07-31T21:15:27.211
+[channels.stable.plugins.TeleporterPlugin]
+built_commit = "5866c7e0b0da098ae75e88948299fef837f74621"
+time_built = 2022-07-31T21:15:31.171
+[channels.testing-live.plugins."XIVDeck.FFXIVPlugin"]
 built_commit = "db01e0eccae2f26daafeccda66eb70adf66610e7"
-[channels.testing-api6.plugins.BetterPlaytime]
+time_built = 2022-07-31T21:15:38.204
+[channels.testing-live.plugins.BetterPlaytime]
 built_commit = "9e5f96c51b1e9318a0f9b142d30565b9439e0c9f"
+time_built = 2022-07-31T21:15:43.018
