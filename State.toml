@@ -7,4 +7,4 @@ built_commit = "347079fed6ee4bbc3db760d8e01d4c17bfa4aff8"
 [channels.testing-api6.plugins."XIVDeck.FFXIVPlugin"]
 built_commit = "db01e0eccae2f26daafeccda66eb70adf66610e7"
 [channels.testing-api6.plugins.BetterPlaytime]
-built_commit = "930e7b295f45b117809f8a84931ba0f0a38a78fa"
+built_commit = "9e5f96c51b1e9318a0f9b142d30565b9439e0c9f"
