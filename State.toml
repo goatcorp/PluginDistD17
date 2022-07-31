@@ -1,5 +1,5 @@
 [channels.stable.plugins."Dalamud.FindAnything"]
-built_commit = "aabb01e1ac5c0f83e3f746f028fa315fb6806a13"
+built_commit = "040e0a59318dc483a5bea1dd3e7956387af71788"
 [channels.stable.plugins.DamageInfoPlugin]
 built_commit = "f9bb766e0e0ecd225513e8cb111c1206ead4fcfe"
 [channels.stable.plugins.cl_showpos]
