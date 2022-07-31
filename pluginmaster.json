@@ -20,9 +20,9 @@
     "IsTestingExclusive": "False",
     "DownloadCount": 0,
     "LastUpdate": "1659280563",
-    "DownloadLinkInstall": "https://kamori.goats.dev/Plugin/Download/cl_showpos?isUpdate=False&isTesting=False&branch=api6",
-    "DownloadLinkTesting": "https://kamori.goats.dev/Plugin/Download/cl_showpos?isUpdate=False&isTesting=True&branch=api6",
-    "DownloadLinkUpdate": "https://raw.githubusercontent.com/goatcorp/DalamudPlugins/api6/plugins/cl_showpos/latest.zip"
+    "DownloadLinkInstall": "https://raw.githubusercontent.com/goatcorp/PluginDistD17/api6/cl_showpos/False/latest.zip",
+    "DownloadLinkTesting": "https://raw.githubusercontent.com/goatcorp/PluginDistD17/api6/cl_showpos/True/latest.zip",
+    "DownloadLinkUpdate": "https://raw.githubusercontent.com/goatcorp/PluginDistD17/api6/plugins/cl_showpos/latest.zip"
   },
   {
     "Author": "goat",
@@ -43,9 +43,9 @@
     "IsTestingExclusive": "False",
     "DownloadCount": 0,
     "LastUpdate": "1659233687",
-    "DownloadLinkInstall": "https://kamori.goats.dev/Plugin/Download/Dalamud.FindAnything?isUpdate=False&isTesting=False&branch=api6",
-    "DownloadLinkTesting": "https://kamori.goats.dev/Plugin/Download/Dalamud.FindAnything?isUpdate=False&isTesting=True&branch=api6",
-    "DownloadLinkUpdate": "https://raw.githubusercontent.com/goatcorp/DalamudPlugins/api6/plugins/Dalamud.FindAnything/latest.zip"
+    "DownloadLinkInstall": "https://raw.githubusercontent.com/goatcorp/PluginDistD17/api6/Dalamud.FindAnything/False/latest.zip",
+    "DownloadLinkTesting": "https://raw.githubusercontent.com/goatcorp/PluginDistD17/api6/Dalamud.FindAnything/True/latest.zip",
+    "DownloadLinkUpdate": "https://raw.githubusercontent.com/goatcorp/PluginDistD17/api6/plugins/Dalamud.FindAnything/latest.zip"
   },
   {
     "Author": "goat",
@@ -65,9 +65,9 @@
     "IsTestingExclusive": "False",
     "DownloadCount": 0,
     "LastUpdate": "1659281818",
-    "DownloadLinkInstall": "https://kamori.goats.dev/Plugin/Download/Dalamud.RichPresence?isUpdate=False&isTesting=False&branch=api6",
-    "DownloadLinkTesting": "https://kamori.goats.dev/Plugin/Download/Dalamud.RichPresence?isUpdate=False&isTesting=True&branch=api6",
-    "DownloadLinkUpdate": "https://raw.githubusercontent.com/goatcorp/DalamudPlugins/api6/plugins/Dalamud.RichPresence/latest.zip"
+    "DownloadLinkInstall": "https://raw.githubusercontent.com/goatcorp/PluginDistD17/api6/Dalamud.RichPresence/False/latest.zip",
+    "DownloadLinkTesting": "https://raw.githubusercontent.com/goatcorp/PluginDistD17/api6/Dalamud.RichPresence/True/latest.zip",
+    "DownloadLinkUpdate": "https://raw.githubusercontent.com/goatcorp/PluginDistD17/api6/plugins/Dalamud.RichPresence/latest.zip"
   },
   {
     "Author": "perchbird",
@@ -84,9 +84,9 @@
     "IsTestingExclusive": "False",
     "DownloadCount": 0,
     "LastUpdate": "1659233687",
-    "DownloadLinkInstall": "https://kamori.goats.dev/Plugin/Download/DamageInfoPlugin?isUpdate=False&isTesting=False&branch=api6",
-    "DownloadLinkTesting": "https://kamori.goats.dev/Plugin/Download/DamageInfoPlugin?isUpdate=False&isTesting=True&branch=api6",
-    "DownloadLinkUpdate": "https://raw.githubusercontent.com/goatcorp/DalamudPlugins/api6/plugins/DamageInfoPlugin/latest.zip"
+    "DownloadLinkInstall": "https://raw.githubusercontent.com/goatcorp/PluginDistD17/api6/DamageInfoPlugin/False/latest.zip",
+    "DownloadLinkTesting": "https://raw.githubusercontent.com/goatcorp/PluginDistD17/api6/DamageInfoPlugin/True/latest.zip",
+    "DownloadLinkUpdate": "https://raw.githubusercontent.com/goatcorp/PluginDistD17/api6/plugins/DamageInfoPlugin/latest.zip"
   },
   {
     "Author": "Infi",
@@ -108,9 +108,9 @@
     "TestingAssemblyVersion": "0.0.1.0",
     "IsTestingExclusive": "True",
     "LastUpdate": "1659277494",
-    "DownloadLinkInstall": "https://kamori.goats.dev/Plugin/Download/BetterPlaytime?isUpdate=False&isTesting=True&branch=api6",
-    "DownloadLinkTesting": "https://kamori.goats.dev/Plugin/Download/BetterPlaytime?isUpdate=False&isTesting=True&branch=api6",
-    "DownloadLinkUpdate": "https://raw.githubusercontent.com/goatcorp/DalamudPlugins/api6/plugins/BetterPlaytime/latest.zip"
+    "DownloadLinkInstall": "https://raw.githubusercontent.com/goatcorp/PluginDistD17/api6/BetterPlaytime/True/latest.zip",
+    "DownloadLinkTesting": "https://raw.githubusercontent.com/goatcorp/PluginDistD17/api6/BetterPlaytime/True/latest.zip",
+    "DownloadLinkUpdate": "https://raw.githubusercontent.com/goatcorp/PluginDistD17/api6/plugins/BetterPlaytime/latest.zip"
   },
   {
     "Author": "Kaz Wolfe",
@@ -137,8 +137,8 @@
     "TestingAssemblyVersion": "0.2.9",
     "IsTestingExclusive": "True",
     "LastUpdate": "1659233687",
-    "DownloadLinkInstall": "https://kamori.goats.dev/Plugin/Download/XIVDeck.FFXIVPlugin?isUpdate=False&isTesting=True&branch=api6",
-    "DownloadLinkTesting": "https://kamori.goats.dev/Plugin/Download/XIVDeck.FFXIVPlugin?isUpdate=False&isTesting=True&branch=api6",
-    "DownloadLinkUpdate": "https://raw.githubusercontent.com/goatcorp/DalamudPlugins/api6/plugins/XIVDeck.FFXIVPlugin/latest.zip"
+    "DownloadLinkInstall": "https://raw.githubusercontent.com/goatcorp/PluginDistD17/api6/XIVDeck.FFXIVPlugin/True/latest.zip",
+    "DownloadLinkTesting": "https://raw.githubusercontent.com/goatcorp/PluginDistD17/api6/XIVDeck.FFXIVPlugin/True/latest.zip",
+    "DownloadLinkUpdate": "https://raw.githubusercontent.com/goatcorp/PluginDistD17/api6/plugins/XIVDeck.FFXIVPlugin/latest.zip"
   }
 ]
