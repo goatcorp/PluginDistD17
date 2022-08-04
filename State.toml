@@ -26,6 +26,10 @@ effective_version = "0.2.9"
 built_commit = "9e5f96c51b1e9318a0f9b142d30565b9439e0c9f"
 time_built = 2022-08-01T18:57:19.616
 effective_version = "0.0.1.0"
+[channels.testing-live.plugins.Neko]
+built_commit = "b13b01605d592cc5ad29a2164e6e85d888a1c80a"
+time_built = 2022-08-04T18:57:11.549
+effective_version = "1.0.7.0"
 [channels.testing-net6.plugins.Accountant]
 built_commit = "711cb2b669636efda8fe98e25c01824c94c0cad8"
 time_built = 2022-08-04T18:43:38.840
