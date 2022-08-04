@@ -34,3 +34,15 @@ effective_version = "1.3.1.0"
 built_commit = "f183e37020827d9307d716f1468c1d0c5e591670"
 time_built = 2022-08-04T18:45:35.231
 effective_version = "1.7.0.0"
+[channels.testing-net6.plugins.TriadBuddy]
+built_commit = "fcd029fa1b3cb9a5c242302181f677024b75da90"
+time_built = 2022-08-04T18:47:45.068
+effective_version = "1.7.0.0"
+[channels.testing-net6.plugins.HarpHero]
+built_commit = "bb2599c267f8343de281deb6b678e5edefe10892"
+time_built = 2022-08-04T18:47:50.186
+effective_version = "1.7.0.0"
+[channels.testing-net6.plugins.DelvUI]
+built_commit = "e712198e5683696ee11e945b691141a3d664d1b9"
+time_built = 2022-08-04T18:47:58.558
+effective_version = "1.3.0.0"
