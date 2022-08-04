@@ -86,3 +86,7 @@ effective_version = "1.2.4.0"
 built_commit = "4b54b648dea6b6451a3eee424a5fed632bd85f9c"
 time_built = 2022-08-04T18:55:42.774
 effective_version = "1.0.5.3"
+[channels.testing-net6.plugins.HuntBuddy]
+built_commit = "5916964c597bd91e533dd1d8321fae3c575cbe0b"
+time_built = 2022-08-04T19:58:34.761
+effective_version = "0.9.2.0"
