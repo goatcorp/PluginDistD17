@@ -6,10 +6,6 @@ effective_version = "2.0.0.5"
 built_commit = "196628cdd5a9d4feb51a282028891dd82079d444"
 time_built = 2022-08-01T18:56:56.519
 effective_version = "1.0.1.9"
-[channels.stable.plugins.DamageInfoPlugin]
-built_commit = "f9bb766e0e0ecd225513e8cb111c1206ead4fcfe"
-time_built = 2022-08-01T18:57:01.004
-effective_version = "1.0.0.0"
 [channels.stable.plugins.cl_showpos]
 built_commit = "b4be40e624b100a9ef34df785ddebb4d86d531a1"
 time_built = 2022-08-01T18:57:05.204
