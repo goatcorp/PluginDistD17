@@ -26,6 +26,14 @@ effective_version = "0.1.0.6"
 built_commit = "d6f39bd4bb2418588faeb4271807e427193cc5de"
 time_built = 2022-08-09T22:25:00.637
 effective_version = "1.0.0.3"
+[channels.stable.plugins.NoTankYou]
+built_commit = "f894d7f4d60e202969069f8fcbd71e5c013fa97f"
+time_built = 2022-08-11T19:45:30.860
+effective_version = "4.0.5.3"
+[channels.stable.plugins.orchestrion]
+built_commit = "47dfd24acb6ee53a5e07acdba35e2b3dd6a5e088"
+time_built = 2022-08-11T19:45:37.007
+effective_version = "1.8.4.1"
 [channels.testing-live.plugins."XIVDeck.FFXIVPlugin"]
 built_commit = "db01e0eccae2f26daafeccda66eb70adf66610e7"
 time_built = 2022-08-01T18:57:15.469
@@ -42,91 +50,103 @@ effective_version = "1.0.7.0"
 built_commit = "30f3846cbb36c2173538ff6f5874b749c04aa687"
 time_built = 2022-08-07T09:43:18.132
 effective_version = "1.3.0.0"
+[channels.testing-live.plugins.DeathRoll]
+built_commit = "e817fcfe4d25cba2325d2249f85831bb378e6952"
+time_built = 2022-08-11T19:45:44.164
+effective_version = "0.0.4.0"
 [channels.testing-net6.plugins.Accountant]
 built_commit = "711cb2b669636efda8fe98e25c01824c94c0cad8"
 time_built = 2022-08-04T18:43:38.840
 effective_version = "1.3.1.0"
-[channels.testing-net6.plugins.GatherBuddy]
-built_commit = "e797b2038672eb0d8f66c593fb3185fb9ffc16d6"
-time_built = 2022-08-04T18:55:18.702
-effective_version = "3.1.4.15"
-[channels.testing-net6.plugins.WhatDidYouSay]
-built_commit = "31d60bb08d45e842b3bd351774b44877d01aba17"
-time_built = 2022-08-04T19:59:45.040
-effective_version = "1.0.0.3"
-[channels.testing-net6.plugins.ReadyCheckHelper]
-built_commit = "2e8c08264c173ddb9e75e95f9e1469bfd7b2b33f"
-time_built = 2022-08-04T19:59:39.073
-effective_version = "1.0.3.1"
-[channels.testing-net6.plugins.HuntBuddy]
-built_commit = "5916964c597bd91e533dd1d8321fae3c575cbe0b"
-time_built = 2022-08-04T19:58:34.761
-effective_version = "0.9.2.0"
-[channels.testing-net6.plugins.cl_showpos]
-built_commit = "4b54b648dea6b6451a3eee424a5fed632bd85f9c"
-time_built = 2022-08-04T18:55:42.774
-effective_version = "1.0.5.3"
-[channels.testing-net6.plugins.RezPls]
-built_commit = "5e99b5d4e9196a5d786a0719315856234281af4d"
-time_built = 2022-08-04T18:55:37.198
-effective_version = "1.2.4.0"
-[channels.testing-net6.plugins.ChatAlerts]
-built_commit = "086b155b5753e233fd4e23f769ee037e733b8fd3"
-time_built = 2022-08-04T18:55:31.098
-effective_version = "2.0.1.0"
-[channels.testing-net6.plugins.TPie]
-built_commit = "065c1b4383a8530c77a557678b20c340e18c828f"
-time_built = 2022-08-04T18:55:25.055
-effective_version = "1.5.0.0"
-[channels.testing-net6.plugins.WaymarkPresetPlugin]
-built_commit = "5bbc8193d18bb27568cef07e7512af09f3eb5e70"
-time_built = 2022-08-04T19:59:51.134
-effective_version = "1.4.3.1"
-[channels.testing-net6.plugins.Visibility]
-built_commit = "f89e14b8303b236b2f8222185f75537c42273898"
-time_built = 2022-08-04T18:54:56.523
-effective_version = "1.1.3.3"
-[channels.testing-net6.plugins.JobBars]
-built_commit = "469db6f2ee2c656169dfa2c9d4f7cc98a1bd7ba0"
-time_built = 2022-08-07T10:44:59.650
-effective_version = "1.2.2.4"
-[channels.testing-net6.plugins.Ffxiv2Mqtt]
-built_commit = "69cea6762f5466eeabdf1c5f779f77274998c869"
-time_built = 2022-08-04T18:54:50.413
-effective_version = "1.0.3.1"
-[channels.testing-net6.plugins.VFXEditor]
-built_commit = "4d1f6fd8b5bca4f58ae838700f5ef6f25023608f"
-time_built = 2022-08-04T18:54:44.160
-effective_version = "1.6.4.4"
-[channels.testing-net6.plugins.DelvUI]
-built_commit = "e712198e5683696ee11e945b691141a3d664d1b9"
-time_built = 2022-08-04T18:47:58.558
-effective_version = "1.3.0.0"
-[channels.testing-net6.plugins.HarpHero]
-built_commit = "bb2599c267f8343de281deb6b678e5edefe10892"
-time_built = 2022-08-04T18:47:50.186
+[channels.testing-net6.plugins.DeepDungeonDex]
+built_commit = "ebf4e500a59a44a23b87c46dbb89c8be9388eabf"
+time_built = 2022-08-10T23:37:44.804
+effective_version = "1.8.0.0"
+[channels.testing-net6.plugins.Browsingway]
+built_commit = "4d4f0d540adcd02b3ec20b6a2805423d03b5046e"
+time_built = 2022-08-10T20:06:14.078
+effective_version = "1.0.0.6"
+[channels.testing-net6.plugins.Distance]
+built_commit = "fcbde93beefe5b7effd07bebc0bbe06a48a4513b"
+time_built = 2022-08-04T19:59:56.994
+effective_version = "1.0.0.1"
+[channels.testing-net6.plugins.FlyTextFilter]
+built_commit = "b17449f2f79ab58408340e4d464bcfc1718d31c5"
+time_built = 2022-08-04T18:55:03.771
+effective_version = "4.1.0.0"
+[channels.testing-net6.plugins.PatMe]
+built_commit = "f183e37020827d9307d716f1468c1d0c5e591670"
+time_built = 2022-08-04T18:45:35.231
 effective_version = "1.7.0.0"
 [channels.testing-net6.plugins.TriadBuddy]
 built_commit = "fcd029fa1b3cb9a5c242302181f677024b75da90"
 time_built = 2022-08-04T18:47:45.068
 effective_version = "1.7.0.0"
-[channels.testing-net6.plugins.PatMe]
-built_commit = "f183e37020827d9307d716f1468c1d0c5e591670"
-time_built = 2022-08-04T18:45:35.231
+[channels.testing-net6.plugins.HarpHero]
+built_commit = "bb2599c267f8343de281deb6b678e5edefe10892"
+time_built = 2022-08-04T18:47:50.186
 effective_version = "1.7.0.0"
-[channels.testing-net6.plugins.FlyTextFilter]
-built_commit = "b17449f2f79ab58408340e4d464bcfc1718d31c5"
-time_built = 2022-08-04T18:55:03.771
-effective_version = "4.1.0.0"
-[channels.testing-net6.plugins.Distance]
-built_commit = "fcbde93beefe5b7effd07bebc0bbe06a48a4513b"
-time_built = 2022-08-04T19:59:56.994
-effective_version = "1.0.0.1"
-[channels.testing-net6.plugins.Browsingway]
-built_commit = "4d4f0d540adcd02b3ec20b6a2805423d03b5046e"
-time_built = 2022-08-10T20:06:14.078
-effective_version = "1.0.0.6"
-[channels.testing-net6.plugins.DeepDungeonDex]
-built_commit = "ebf4e500a59a44a23b87c46dbb89c8be9388eabf"
-time_built = 2022-08-10T23:37:44.804
-effective_version = "1.8.0.0"
+[channels.testing-net6.plugins.DelvUI]
+built_commit = "e712198e5683696ee11e945b691141a3d664d1b9"
+time_built = 2022-08-04T18:47:58.558
+effective_version = "1.3.0.0"
+[channels.testing-net6.plugins.VFXEditor]
+built_commit = "4d1f6fd8b5bca4f58ae838700f5ef6f25023608f"
+time_built = 2022-08-04T18:54:44.160
+effective_version = "1.6.4.4"
+[channels.testing-net6.plugins.Ffxiv2Mqtt]
+built_commit = "69cea6762f5466eeabdf1c5f779f77274998c869"
+time_built = 2022-08-04T18:54:50.413
+effective_version = "1.0.3.1"
+[channels.testing-net6.plugins.JobBars]
+built_commit = "469db6f2ee2c656169dfa2c9d4f7cc98a1bd7ba0"
+time_built = 2022-08-07T10:44:59.650
+effective_version = "1.2.2.4"
+[channels.testing-net6.plugins.Visibility]
+built_commit = "f89e14b8303b236b2f8222185f75537c42273898"
+time_built = 2022-08-04T18:54:56.523
+effective_version = "1.1.3.3"
+[channels.testing-net6.plugins.WaymarkPresetPlugin]
+built_commit = "5bbc8193d18bb27568cef07e7512af09f3eb5e70"
+time_built = 2022-08-04T19:59:51.134
+effective_version = "1.4.3.1"
+[channels.testing-net6.plugins.TPie]
+built_commit = "065c1b4383a8530c77a557678b20c340e18c828f"
+time_built = 2022-08-04T18:55:25.055
+effective_version = "1.5.0.0"
+[channels.testing-net6.plugins.ChatAlerts]
+built_commit = "086b155b5753e233fd4e23f769ee037e733b8fd3"
+time_built = 2022-08-04T18:55:31.098
+effective_version = "2.0.1.0"
+[channels.testing-net6.plugins.RezPls]
+built_commit = "5e99b5d4e9196a5d786a0719315856234281af4d"
+time_built = 2022-08-04T18:55:37.198
+effective_version = "1.2.4.0"
+[channels.testing-net6.plugins.cl_showpos]
+built_commit = "4b54b648dea6b6451a3eee424a5fed632bd85f9c"
+time_built = 2022-08-04T18:55:42.774
+effective_version = "1.0.5.3"
+[channels.testing-net6.plugins.HuntBuddy]
+built_commit = "5916964c597bd91e533dd1d8321fae3c575cbe0b"
+time_built = 2022-08-04T19:58:34.761
+effective_version = "0.9.2.0"
+[channels.testing-net6.plugins.ReadyCheckHelper]
+built_commit = "2e8c08264c173ddb9e75e95f9e1469bfd7b2b33f"
+time_built = 2022-08-04T19:59:39.073
+effective_version = "1.0.3.1"
+[channels.testing-net6.plugins.WhatDidYouSay]
+built_commit = "31d60bb08d45e842b3bd351774b44877d01aba17"
+time_built = 2022-08-04T19:59:45.040
+effective_version = "1.0.0.3"
+[channels.testing-net6.plugins.GatherBuddy]
+built_commit = "e797b2038672eb0d8f66c593fb3185fb9ffc16d6"
+time_built = 2022-08-04T18:55:18.702
+effective_version = "3.1.4.15"
+[channels.testing-net6.plugins.ChillFrames]
+built_commit = "82a9d27ab36727b62cbff5a0fb66b2364c908835"
+time_built = 2022-08-11T19:45:51.660
+effective_version = "1.5.0.0"
+[channels.testing-net6.plugins.SillyChat]
+built_commit = "9518de6cd4aaa0f7be4c4c462b204157647ed44e"
+time_built = 2022-08-11T19:45:59.842
+effective_version = "1.5.0.0"
