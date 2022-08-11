@@ -1,0 +1,16 @@
+name: Clear cache
+on:
+  push:
+  workflow_dispatch:
+concurrency: regenerate
+
+jobs:
+  generate:
+    name: Regenerate PluginMaster
+    if: github.repository == 'goatcorp/PluginDistD17'
+    runs-on: windows-2019
+    steps:
+      - name: Clear Web Services cache
+        run: curl -X POST --fail https://kamori.goats.dev/Plugin/ClearCache?key=$env:CACHE_CLEAR_KEY
+        env:
+          CACHE_CLEAR_KEY: ${{ secrets.CACHE_CLEAR_KEY }}
