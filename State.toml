@@ -109,114 +109,6 @@ built_commit = "711cb2b669636efda8fe98e25c01824c94c0cad8"
 time_built = 2022-08-04T18:43:38.840
 effective_version = "1.3.1.0"
 [channels.testing-net6.plugins.Accountant.changelogs]
-[channels.testing-net6.plugins.Echoglossian]
-built_commit = "d5e53bf5ca234d20c4cd5900162b0e21eb529707"
-time_built = 2022-08-19T21:51:08.343
-effective_version = "2.100.2208.1311"
-[channels.testing-net6.plugins.Echoglossian.changelogs."2.100.2208.1311"]
-time_released = 2022-08-19T21:51:08.343
-changelog = "Updated for Dalamud staging and minor invalid font char issue."
-[channels.testing-net6.plugins.DeepDungeonDex]
-built_commit = "ebf4e500a59a44a23b87c46dbb89c8be9388eabf"
-time_built = 2022-08-10T23:37:44.804
-effective_version = "1.8.0.0"
-[channels.testing-net6.plugins.DeepDungeonDex.changelogs]
-[channels.testing-net6.plugins.Browsingway]
-built_commit = "4d4f0d540adcd02b3ec20b6a2805423d03b5046e"
-time_built = 2022-08-10T20:06:14.078
-effective_version = "1.0.0.6"
-[channels.testing-net6.plugins.Browsingway.changelogs]
-[channels.testing-net6.plugins.Distance]
-built_commit = "fcbde93beefe5b7effd07bebc0bbe06a48a4513b"
-time_built = 2022-08-04T19:59:56.994
-effective_version = "1.0.0.1"
-[channels.testing-net6.plugins.Distance.changelogs]
-[channels.testing-net6.plugins.FlyTextFilter]
-built_commit = "b17449f2f79ab58408340e4d464bcfc1718d31c5"
-time_built = 2022-08-04T18:55:03.771
-effective_version = "4.1.0.0"
-[channels.testing-net6.plugins.FlyTextFilter.changelogs]
-[channels.testing-net6.plugins.PatMe]
-built_commit = "f183e37020827d9307d716f1468c1d0c5e591670"
-time_built = 2022-08-04T18:45:35.231
-effective_version = "1.7.0.0"
-[channels.testing-net6.plugins.PatMe.changelogs]
-[channels.testing-net6.plugins.TriadBuddy]
-built_commit = "fcd029fa1b3cb9a5c242302181f677024b75da90"
-time_built = 2022-08-04T18:47:45.068
-effective_version = "1.7.0.0"
-[channels.testing-net6.plugins.TriadBuddy.changelogs]
-[channels.testing-net6.plugins.HarpHero]
-built_commit = "bb2599c267f8343de281deb6b678e5edefe10892"
-time_built = 2022-08-04T18:47:50.186
-effective_version = "1.7.0.0"
-[channels.testing-net6.plugins.HarpHero.changelogs]
-[channels.testing-net6.plugins.DelvUI]
-built_commit = "cb616d2fd90591fca4fbe758762dbbf173d6e6ed"
-time_built = 2022-08-19T21:39:11.786
-effective_version = "1.4.0.0"
-[channels.testing-net6.plugins.DelvUI.changelogs]
-[channels.testing-net6.plugins.VFXEditor]
-built_commit = "4d1f6fd8b5bca4f58ae838700f5ef6f25023608f"
-time_built = 2022-08-04T18:54:44.160
-effective_version = "1.6.4.4"
-[channels.testing-net6.plugins.VFXEditor.changelogs]
-[channels.testing-net6.plugins.Ffxiv2Mqtt]
-built_commit = "3044b578966b6ab68ca76e61b5d7b0beb964f8b3"
-time_built = 2022-08-19T21:50:48.982
-effective_version = "1.0.3.2"
-[channels.testing-net6.plugins.Ffxiv2Mqtt.changelogs."1.0.3.2"]
-time_released = 2022-08-19T21:50:48.982
-changelog = "Can now subscribe to MQTT topics and have them displayed in game. Cleaned up IPC so it easier to publish messages."
-[channels.testing-net6.plugins.JobBars]
-built_commit = "469db6f2ee2c656169dfa2c9d4f7cc98a1bd7ba0"
-time_built = 2022-08-07T10:44:59.650
-effective_version = "1.2.2.4"
-[channels.testing-net6.plugins.JobBars.changelogs]
-[channels.testing-net6.plugins.CrossUp]
-built_commit = "8454550ba227a25dba96a6f2d0b10931167cf5c0"
-time_built = 2022-08-19T21:51:15.722
-effective_version = "0.3.3.1"
-[channels.testing-net6.plugins.CrossUp.changelogs."0.3.3.1"]
-time_released = 2022-08-19T21:51:15.722
-changelog = "Added feature to auto-fade the Cross Hotbar to a custom transparency outside of combat, and made changes so that the Expanded Hold bars should better match the Cross Hotbar's visibility state."
-[channels.testing-net6.plugins.Visibility]
-built_commit = "f89e14b8303b236b2f8222185f75537c42273898"
-time_built = 2022-08-04T18:54:56.523
-effective_version = "1.1.3.3"
-[channels.testing-net6.plugins.Visibility.changelogs]
-[channels.testing-net6.plugins.DailyDuty]
-built_commit = "d0267d1c7e11c7241d34d3f2c3fcb3b65a7adc7c"
-time_built = 2022-08-20T23:52:55.759
-effective_version = "2.1.0.0"
-[channels.testing-net6.plugins.DailyDuty.changelogs]
-[channels.testing-net6.plugins.TPie]
-built_commit = "065c1b4383a8530c77a557678b20c340e18c828f"
-time_built = 2022-08-04T18:55:25.055
-effective_version = "1.5.0.0"
-[channels.testing-net6.plugins.TPie.changelogs]
-[channels.testing-net6.plugins.NoTankYou]
-built_commit = "297e553753f4b6d0acdaf8f6ad967a5f7e997121"
-time_built = 2022-08-20T23:53:01.465
-effective_version = "4.1.0.0"
-[channels.testing-net6.plugins.NoTankYou.changelogs]
-[channels.testing-net6.plugins.ChatAlerts]
-built_commit = "086b155b5753e233fd4e23f769ee037e733b8fd3"
-time_built = 2022-08-04T18:55:31.098
-effective_version = "2.0.1.0"
-[channels.testing-net6.plugins.ChatAlerts.changelogs]
-[channels.testing-net6.plugins.ExtraChat]
-built_commit = "12c81bdceb4b1e5b41705a66a10f7d41dfcb91d9"
-time_built = 2022-08-20T22:22:22.247
-effective_version = "1.2.1.0"
-[channels.testing-net6.plugins.ExtraChat.changelogs."1.2.1.0"]
-time_released = 2022-08-20T22:22:22.247
-changelog = "Internal adjustments."
-[channels.testing-net6.plugins."XIVDeck.FFXIVPlugin"]
-built_commit = "1eb3660c7c163c8d1a38d0c531ebebcfa910477f"
-time_built = 2022-08-19T23:15:56.217
-effective_version = "0.2.11"
-[channels.testing-net6.plugins."XIVDeck.FFXIVPlugin".changelogs]
 [channels.testing-net6.plugins.WaymarkPresetPlugin]
 built_commit = "5bbc8193d18bb27568cef07e7512af09f3eb5e70"
 time_built = 2022-08-04T19:59:51.134
@@ -307,6 +199,65 @@ effective_version = "1.0.2.0"
 [channels.testing-net6.plugins.TheHeartOfTheParty.changelogs."1.0.2.0"]
 time_released = 2022-08-20T22:22:27.585
 changelog = "API 7"
+[channels.testing-net6.plugins."XIVDeck.FFXIVPlugin"]
+built_commit = "1eb3660c7c163c8d1a38d0c531ebebcfa910477f"
+time_built = 2022-08-19T23:15:56.217
+effective_version = "0.2.11"
+[channels.testing-net6.plugins."XIVDeck.FFXIVPlugin".changelogs]
+[channels.testing-net6.plugins.ExtraChat]
+built_commit = "12c81bdceb4b1e5b41705a66a10f7d41dfcb91d9"
+time_built = 2022-08-20T22:22:22.247
+effective_version = "1.2.1.0"
+[channels.testing-net6.plugins.ExtraChat.changelogs."1.2.1.0"]
+time_released = 2022-08-20T22:22:22.247
+changelog = "Internal adjustments."
+[channels.testing-net6.plugins.ChatAlerts]
+built_commit = "086b155b5753e233fd4e23f769ee037e733b8fd3"
+time_built = 2022-08-04T18:55:31.098
+effective_version = "2.0.1.0"
+[channels.testing-net6.plugins.ChatAlerts.changelogs]
+[channels.testing-net6.plugins.NoTankYou]
+built_commit = "297e553753f4b6d0acdaf8f6ad967a5f7e997121"
+time_built = 2022-08-20T23:53:01.465
+effective_version = "4.1.0.0"
+[channels.testing-net6.plugins.NoTankYou.changelogs]
+[channels.testing-net6.plugins.Echoglossian]
+built_commit = "d5e53bf5ca234d20c4cd5900162b0e21eb529707"
+time_built = 2022-08-19T21:51:08.343
+effective_version = "2.100.2208.1311"
+[channels.testing-net6.plugins.Echoglossian.changelogs."2.100.2208.1311"]
+time_released = 2022-08-19T21:51:08.343
+changelog = "Updated for Dalamud staging and minor invalid font char issue."
+[channels.testing-net6.plugins.DeepDungeonDex]
+built_commit = "ebf4e500a59a44a23b87c46dbb89c8be9388eabf"
+time_built = 2022-08-10T23:37:44.804
+effective_version = "1.8.0.0"
+[channels.testing-net6.plugins.DeepDungeonDex.changelogs]
+[channels.testing-net6.plugins.Browsingway]
+built_commit = "4d4f0d540adcd02b3ec20b6a2805423d03b5046e"
+time_built = 2022-08-10T20:06:14.078
+effective_version = "1.0.0.6"
+[channels.testing-net6.plugins.Browsingway.changelogs]
+[channels.testing-net6.plugins.Distance]
+built_commit = "fcbde93beefe5b7effd07bebc0bbe06a48a4513b"
+time_built = 2022-08-04T19:59:56.994
+effective_version = "1.0.0.1"
+[channels.testing-net6.plugins.Distance.changelogs]
+[channels.testing-net6.plugins.FlyTextFilter]
+built_commit = "b17449f2f79ab58408340e4d464bcfc1718d31c5"
+time_built = 2022-08-04T18:55:03.771
+effective_version = "4.1.0.0"
+[channels.testing-net6.plugins.FlyTextFilter.changelogs]
+[channels.testing-net6.plugins.PatMe]
+built_commit = "f183e37020827d9307d716f1468c1d0c5e591670"
+time_built = 2022-08-04T18:45:35.231
+effective_version = "1.7.0.0"
+[channels.testing-net6.plugins.PatMe.changelogs]
+[channels.testing-net6.plugins.TriadBuddy]
+built_commit = "fcd029fa1b3cb9a5c242302181f677024b75da90"
+time_built = 2022-08-04T18:47:45.068
+effective_version = "1.7.0.0"
+[channels.testing-net6.plugins.TriadBuddy.changelogs]
 [channels.testing-net6.plugins.EnemyListDebuffs]
 built_commit = "efc588c5c6df94095d914ae8ca855643ebf16812"
 time_built = 2022-08-20T23:58:43.344
@@ -314,3 +265,59 @@ effective_version = "0.3.5.0"
 [channels.testing-net6.plugins.EnemyListDebuffs.changelogs."0.3.5.0"]
 time_released = 2022-08-20T23:58:43.344
 changelog = "update for api7"
+[channels.testing-net6.plugins.HarpHero]
+built_commit = "bb2599c267f8343de281deb6b678e5edefe10892"
+time_built = 2022-08-04T18:47:50.186
+effective_version = "1.7.0.0"
+[channels.testing-net6.plugins.HarpHero.changelogs]
+[channels.testing-net6.plugins.VFXEditor]
+built_commit = "4d1f6fd8b5bca4f58ae838700f5ef6f25023608f"
+time_built = 2022-08-04T18:54:44.160
+effective_version = "1.6.4.4"
+[channels.testing-net6.plugins.VFXEditor.changelogs]
+[channels.testing-net6.plugins.Ffxiv2Mqtt]
+built_commit = "3044b578966b6ab68ca76e61b5d7b0beb964f8b3"
+time_built = 2022-08-19T21:50:48.982
+effective_version = "1.0.3.2"
+[channels.testing-net6.plugins.Ffxiv2Mqtt.changelogs."1.0.3.2"]
+time_released = 2022-08-19T21:50:48.982
+changelog = "Can now subscribe to MQTT topics and have them displayed in game. Cleaned up IPC so it easier to publish messages."
+[channels.testing-net6.plugins.JobBars]
+built_commit = "469db6f2ee2c656169dfa2c9d4f7cc98a1bd7ba0"
+time_built = 2022-08-07T10:44:59.650
+effective_version = "1.2.2.4"
+[channels.testing-net6.plugins.JobBars.changelogs]
+[channels.testing-net6.plugins.CrossUp]
+built_commit = "8454550ba227a25dba96a6f2d0b10931167cf5c0"
+time_built = 2022-08-19T21:51:15.722
+effective_version = "0.3.3.1"
+[channels.testing-net6.plugins.CrossUp.changelogs."0.3.3.1"]
+time_released = 2022-08-19T21:51:15.722
+changelog = "Added feature to auto-fade the Cross Hotbar to a custom transparency outside of combat, and made changes so that the Expanded Hold bars should better match the Cross Hotbar's visibility state."
+[channels.testing-net6.plugins.Visibility]
+built_commit = "f89e14b8303b236b2f8222185f75537c42273898"
+time_built = 2022-08-04T18:54:56.523
+effective_version = "1.1.3.3"
+[channels.testing-net6.plugins.Visibility.changelogs]
+[channels.testing-net6.plugins.DailyDuty]
+built_commit = "d0267d1c7e11c7241d34d3f2c3fcb3b65a7adc7c"
+time_built = 2022-08-20T23:52:55.759
+effective_version = "2.1.0.0"
+[channels.testing-net6.plugins.DailyDuty.changelogs]
+[channels.testing-net6.plugins.TPie]
+built_commit = "065c1b4383a8530c77a557678b20c340e18c828f"
+time_built = 2022-08-04T18:55:25.055
+effective_version = "1.5.0.0"
+[channels.testing-net6.plugins.TPie.changelogs]
+[channels.testing-net6.plugins.DelvUI]
+built_commit = "cb616d2fd90591fca4fbe758762dbbf173d6e6ed"
+time_built = 2022-08-19T21:39:11.786
+effective_version = "1.4.0.0"
+[channels.testing-net6.plugins.DelvUI.changelogs]
+[channels.testing-net6.plugins.StackSellPrice]
+built_commit = "2531bba850b58cfc2f83f089f34fbca8eb3f2616"
+time_built = 2022-08-21T10:57:25.221
+effective_version = "2.0.0.19722"
+[channels.testing-net6.plugins.StackSellPrice.changelogs."2.0.0.19722"]
+time_released = 2022-08-21T10:57:25.222
+changelog = "Update to net6"
