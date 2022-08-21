@@ -109,152 +109,6 @@ built_commit = "711cb2b669636efda8fe98e25c01824c94c0cad8"
 time_built = 2022-08-04T18:43:38.840
 effective_version = "1.3.1.0"
 [channels.testing-net6.plugins.Accountant.changelogs]
-[channels.testing-net6.plugins.PatMe]
-built_commit = "f183e37020827d9307d716f1468c1d0c5e591670"
-time_built = 2022-08-04T18:45:35.231
-effective_version = "1.7.0.0"
-[channels.testing-net6.plugins.PatMe.changelogs]
-[channels.testing-net6.plugins.TriadBuddy]
-built_commit = "fcd029fa1b3cb9a5c242302181f677024b75da90"
-time_built = 2022-08-04T18:47:45.068
-effective_version = "1.7.0.0"
-[channels.testing-net6.plugins.TriadBuddy.changelogs]
-[channels.testing-net6.plugins.EnemyListDebuffs]
-built_commit = "efc588c5c6df94095d914ae8ca855643ebf16812"
-time_built = 2022-08-20T23:58:43.344
-effective_version = "0.3.5.0"
-[channels.testing-net6.plugins.EnemyListDebuffs.changelogs."0.3.5.0"]
-time_released = 2022-08-20T23:58:43.344
-changelog = "update for api7"
-[channels.testing-net6.plugins.VFXEditor]
-built_commit = "4d1f6fd8b5bca4f58ae838700f5ef6f25023608f"
-time_built = 2022-08-04T18:54:44.160
-effective_version = "1.6.4.4"
-[channels.testing-net6.plugins.VFXEditor.changelogs]
-[channels.testing-net6.plugins.StackSellPrice]
-built_commit = "2531bba850b58cfc2f83f089f34fbca8eb3f2616"
-time_built = 2022-08-21T10:57:25.221
-effective_version = "2.0.0.19722"
-[channels.testing-net6.plugins.StackSellPrice.changelogs."2.0.0.19722"]
-time_released = 2022-08-21T10:57:25.222
-changelog = "Update to net6"
-[channels.testing-net6.plugins.Ffxiv2Mqtt]
-built_commit = "3044b578966b6ab68ca76e61b5d7b0beb964f8b3"
-time_built = 2022-08-19T21:50:48.982
-effective_version = "1.0.3.2"
-[channels.testing-net6.plugins.Ffxiv2Mqtt.changelogs."1.0.3.2"]
-time_released = 2022-08-19T21:50:48.982
-changelog = "Can now subscribe to MQTT topics and have them displayed in game. Cleaned up IPC so it easier to publish messages."
-[channels.testing-net6.plugins.JobBars]
-built_commit = "469db6f2ee2c656169dfa2c9d4f7cc98a1bd7ba0"
-time_built = 2022-08-07T10:44:59.650
-effective_version = "1.2.2.4"
-[channels.testing-net6.plugins.JobBars.changelogs]
-[channels.testing-net6.plugins.Distance]
-built_commit = "fcbde93beefe5b7effd07bebc0bbe06a48a4513b"
-time_built = 2022-08-04T19:59:56.994
-effective_version = "1.0.0.1"
-[channels.testing-net6.plugins.Distance.changelogs]
-[channels.testing-net6.plugins.CrossUp]
-built_commit = "8454550ba227a25dba96a6f2d0b10931167cf5c0"
-time_built = 2022-08-19T21:51:15.722
-effective_version = "0.3.3.1"
-[channels.testing-net6.plugins.CrossUp.changelogs."0.3.3.1"]
-time_released = 2022-08-19T21:51:15.722
-changelog = "Added feature to auto-fade the Cross Hotbar to a custom transparency outside of combat, and made changes so that the Expanded Hold bars should better match the Cross Hotbar's visibility state."
-[channels.testing-net6.plugins.DailyDuty]
-built_commit = "d0267d1c7e11c7241d34d3f2c3fcb3b65a7adc7c"
-time_built = 2022-08-20T23:52:55.759
-effective_version = "2.1.0.0"
-[channels.testing-net6.plugins.DailyDuty.changelogs]
-[channels.testing-net6.plugins.TPie]
-built_commit = "065c1b4383a8530c77a557678b20c340e18c828f"
-time_built = 2022-08-04T18:55:25.055
-effective_version = "1.5.0.0"
-[channels.testing-net6.plugins.TPie.changelogs]
-[channels.testing-net6.plugins.DelvUI]
-built_commit = "cb616d2fd90591fca4fbe758762dbbf173d6e6ed"
-time_built = 2022-08-19T21:39:11.786
-effective_version = "1.4.0.0"
-[channels.testing-net6.plugins.DelvUI.changelogs]
-[channels.testing-net6.plugins.Echoglossian]
-built_commit = "d5e53bf5ca234d20c4cd5900162b0e21eb529707"
-time_built = 2022-08-19T21:51:08.343
-effective_version = "2.100.2208.1311"
-[channels.testing-net6.plugins.Echoglossian.changelogs."2.100.2208.1311"]
-time_released = 2022-08-19T21:51:08.343
-changelog = "Updated for Dalamud staging and minor invalid font char issue."
-[channels.testing-net6.plugins.DeathRecap]
-built_commit = "89b0301ec2b01c16e440b7a7db0e626875b20ee8"
-time_built = 2022-08-21T13:49:45.670
-effective_version = "1.8.0.1"
-[channels.testing-net6.plugins.DeathRecap.changelogs."1.8.0.1"]
-time_released = 2022-08-21T13:49:45.670
-changelog = ".NET6 Update\n"
-[channels.testing-net6.plugins.EngageTimer]
-built_commit = "d3fb881ce7229631127a6a02adf2b5ad3a80d349"
-time_built = 2022-08-21T18:55:45.314
-effective_version = "2.2.2.2"
-[channels.testing-net6.plugins.EngageTimer.changelogs."2.2.2.2"]
-time_released = 2022-08-21T18:55:45.314
-changelog = "Updated for new Dalamud version"
-[channels.testing-net6.plugins.TextBoxStyler]
-built_commit = "e6368fec7d73afcdea12fbea8a5f564c06338d14"
-time_built = 2022-08-21T19:29:48.913
-effective_version = "1.1.4.0"
-[channels.testing-net6.plugins.TextBoxStyler.changelogs."1.1.4.0"]
-time_released = 2022-08-21T19:29:48.913
-changelog = "API 7"
-[channels.testing-net6.plugins.QuestMap]
-built_commit = "29a96a890680934862604ecaae60c83c98134f6d"
-time_built = 2022-08-21T19:29:55.120
-effective_version = "1.4.3.0"
-[channels.testing-net6.plugins.QuestMap.changelogs."1.4.3.0"]
-time_released = 2022-08-21T19:29:55.120
-changelog = "API 7"
-[channels.testing-net6.plugins.Visibility]
-built_commit = "f89e14b8303b236b2f8222185f75537c42273898"
-time_built = 2022-08-04T18:54:56.523
-effective_version = "1.1.3.3"
-[channels.testing-net6.plugins.Visibility.changelogs]
-[channels.testing-net6.plugins.Globetrotter]
-built_commit = "ccf2a725f7a0a2d9052f773146bdc7fb73bc87ee"
-time_built = 2022-08-21T19:30:00.183
-effective_version = "1.2.6"
-[channels.testing-net6.plugins.Globetrotter.changelogs."1.2.6"]
-time_released = 2022-08-21T19:30:00.183
-changelog = "API 7"
-[channels.testing-net6.plugins.FlyTextFilter]
-built_commit = "500bf7af7ac00137248c89cf8b7d4389397e67a4"
-time_built = 2022-08-21T16:29:10.759
-effective_version = "4.1.0.1"
-[channels.testing-net6.plugins.FlyTextFilter.changelogs."4.1.0.1"]
-time_released = 2022-08-21T16:29:10.759
-changelog = ".NET6 and API7 upgrade + split pet/chocobo in misc settings"
-[channels.testing-net6.plugins.Tourist]
-built_commit = "672cc6a8cf55844b5e7c374c3ef1d26d0cad675b"
-time_built = 2022-08-21T19:30:05.916
-effective_version = "1.2.8"
-[channels.testing-net6.plugins.Tourist.changelogs."1.2.8"]
-time_released = 2022-08-21T19:30:05.916
-changelog = "API 7"
-[channels.testing-net6.plugins.Browsingway]
-built_commit = "4d4f0d540adcd02b3ec20b6a2805423d03b5046e"
-time_built = 2022-08-10T20:06:14.078
-effective_version = "1.0.0.6"
-[channels.testing-net6.plugins.Browsingway.changelogs]
-[channels.testing-net6.plugins.HarpHero]
-built_commit = "bb2599c267f8343de281deb6b678e5edefe10892"
-time_built = 2022-08-04T18:47:50.186
-effective_version = "1.7.0.0"
-[channels.testing-net6.plugins.HarpHero.changelogs]
-[channels.testing-net6.plugins.InventoryTools]
-built_commit = "5d7ca583dac5f62870bac65a4bf3c91c0dc8ce62"
-time_built = 2022-08-17T06:23:07.941
-effective_version = "1.1.0.10"
-[channels.testing-net6.plugins.InventoryTools.changelogs."1.1.0.10"]
-time_released = 2022-08-17T06:23:07.941
-changelog = "Added a literal kitchen sink to the plogon."
 [channels.testing-net6.plugins.Glamaholic]
 built_commit = "f2a880f4a634eab7e37b29fe94a9a960a233b7a3"
 time_built = 2022-08-20T22:22:35.410
@@ -365,8 +219,159 @@ built_commit = "ebf4e500a59a44a23b87c46dbb89c8be9388eabf"
 time_built = 2022-08-10T23:37:44.804
 effective_version = "1.8.0.0"
 [channels.testing-net6.plugins.DeepDungeonDex.changelogs]
+[channels.testing-net6.plugins.InventoryTools]
+built_commit = "5d7ca583dac5f62870bac65a4bf3c91c0dc8ce62"
+time_built = 2022-08-17T06:23:07.941
+effective_version = "1.1.0.10"
+[channels.testing-net6.plugins.InventoryTools.changelogs."1.1.0.10"]
+time_released = 2022-08-17T06:23:07.941
+changelog = "Added a literal kitchen sink to the plogon."
+[channels.testing-net6.plugins.HarpHero]
+built_commit = "bb2599c267f8343de281deb6b678e5edefe10892"
+time_built = 2022-08-04T18:47:50.186
+effective_version = "1.7.0.0"
+[channels.testing-net6.plugins.HarpHero.changelogs]
+[channels.testing-net6.plugins.Browsingway]
+built_commit = "4d4f0d540adcd02b3ec20b6a2805423d03b5046e"
+time_built = 2022-08-10T20:06:14.078
+effective_version = "1.0.0.6"
+[channels.testing-net6.plugins.Browsingway.changelogs]
+[channels.testing-net6.plugins.Tourist]
+built_commit = "672cc6a8cf55844b5e7c374c3ef1d26d0cad675b"
+time_built = 2022-08-21T19:30:05.916
+effective_version = "1.2.8"
+[channels.testing-net6.plugins.Tourist.changelogs."1.2.8"]
+time_released = 2022-08-21T19:30:05.916
+changelog = "API 7"
+[channels.testing-net6.plugins.PatMe]
+built_commit = "f183e37020827d9307d716f1468c1d0c5e591670"
+time_built = 2022-08-04T18:45:35.231
+effective_version = "1.7.0.0"
+[channels.testing-net6.plugins.PatMe.changelogs]
+[channels.testing-net6.plugins.TriadBuddy]
+built_commit = "fcd029fa1b3cb9a5c242302181f677024b75da90"
+time_built = 2022-08-04T18:47:45.068
+effective_version = "1.7.0.0"
+[channels.testing-net6.plugins.TriadBuddy.changelogs]
+[channels.testing-net6.plugins.EnemyListDebuffs]
+built_commit = "efc588c5c6df94095d914ae8ca855643ebf16812"
+time_built = 2022-08-20T23:58:43.344
+effective_version = "0.3.5.0"
+[channels.testing-net6.plugins.EnemyListDebuffs.changelogs."0.3.5.0"]
+time_released = 2022-08-20T23:58:43.344
+changelog = "update for api7"
+[channels.testing-net6.plugins.VFXEditor]
+built_commit = "4d1f6fd8b5bca4f58ae838700f5ef6f25023608f"
+time_built = 2022-08-04T18:54:44.160
+effective_version = "1.6.4.4"
+[channels.testing-net6.plugins.VFXEditor.changelogs]
+[channels.testing-net6.plugins.StackSellPrice]
+built_commit = "2531bba850b58cfc2f83f089f34fbca8eb3f2616"
+time_built = 2022-08-21T10:57:25.221
+effective_version = "2.0.0.19722"
+[channels.testing-net6.plugins.StackSellPrice.changelogs."2.0.0.19722"]
+time_released = 2022-08-21T10:57:25.222
+changelog = "Update to net6"
+[channels.testing-net6.plugins.Ffxiv2Mqtt]
+built_commit = "3044b578966b6ab68ca76e61b5d7b0beb964f8b3"
+time_built = 2022-08-19T21:50:48.982
+effective_version = "1.0.3.2"
+[channels.testing-net6.plugins.Ffxiv2Mqtt.changelogs."1.0.3.2"]
+time_released = 2022-08-19T21:50:48.982
+changelog = "Can now subscribe to MQTT topics and have them displayed in game. Cleaned up IPC so it easier to publish messages."
+[channels.testing-net6.plugins.JobBars]
+built_commit = "469db6f2ee2c656169dfa2c9d4f7cc98a1bd7ba0"
+time_built = 2022-08-07T10:44:59.650
+effective_version = "1.2.2.4"
+[channels.testing-net6.plugins.JobBars.changelogs]
+[channels.testing-net6.plugins.Distance]
+built_commit = "fcbde93beefe5b7effd07bebc0bbe06a48a4513b"
+time_built = 2022-08-04T19:59:56.994
+effective_version = "1.0.0.1"
+[channels.testing-net6.plugins.Distance.changelogs]
+[channels.testing-net6.plugins.CrossUp]
+built_commit = "8454550ba227a25dba96a6f2d0b10931167cf5c0"
+time_built = 2022-08-19T21:51:15.722
+effective_version = "0.3.3.1"
+[channels.testing-net6.plugins.CrossUp.changelogs."0.3.3.1"]
+time_released = 2022-08-19T21:51:15.722
+changelog = "Added feature to auto-fade the Cross Hotbar to a custom transparency outside of combat, and made changes so that the Expanded Hold bars should better match the Cross Hotbar's visibility state."
 [channels.testing-net6.plugins.PriceCheck]
 built_commit = "3dad933e35edd559d604f26227ac7b426e94c5c3"
 time_built = 2022-08-21T20:14:06.157
 effective_version = "2.3.0.0"
 [channels.testing-net6.plugins.PriceCheck.changelogs]
+[channels.testing-net6.plugins.DailyDuty]
+built_commit = "d0267d1c7e11c7241d34d3f2c3fcb3b65a7adc7c"
+time_built = 2022-08-20T23:52:55.759
+effective_version = "2.1.0.0"
+[channels.testing-net6.plugins.DailyDuty.changelogs]
+[channels.testing-net6.plugins.DelvUI]
+built_commit = "cb616d2fd90591fca4fbe758762dbbf173d6e6ed"
+time_built = 2022-08-19T21:39:11.786
+effective_version = "1.4.0.0"
+[channels.testing-net6.plugins.DelvUI.changelogs]
+[channels.testing-net6.plugins.Echoglossian]
+built_commit = "d5e53bf5ca234d20c4cd5900162b0e21eb529707"
+time_built = 2022-08-19T21:51:08.343
+effective_version = "2.100.2208.1311"
+[channels.testing-net6.plugins.Echoglossian.changelogs."2.100.2208.1311"]
+time_released = 2022-08-19T21:51:08.343
+changelog = "Updated for Dalamud staging and minor invalid font char issue."
+[channels.testing-net6.plugins.DeathRecap]
+built_commit = "89b0301ec2b01c16e440b7a7db0e626875b20ee8"
+time_built = 2022-08-21T13:49:45.670
+effective_version = "1.8.0.1"
+[channels.testing-net6.plugins.DeathRecap.changelogs."1.8.0.1"]
+time_released = 2022-08-21T13:49:45.670
+changelog = ".NET6 Update\n"
+[channels.testing-net6.plugins.EngageTimer]
+built_commit = "d3fb881ce7229631127a6a02adf2b5ad3a80d349"
+time_built = 2022-08-21T18:55:45.314
+effective_version = "2.2.2.2"
+[channels.testing-net6.plugins.EngageTimer.changelogs."2.2.2.2"]
+time_released = 2022-08-21T18:55:45.314
+changelog = "Updated for new Dalamud version"
+[channels.testing-net6.plugins.TextBoxStyler]
+built_commit = "e6368fec7d73afcdea12fbea8a5f564c06338d14"
+time_built = 2022-08-21T19:29:48.913
+effective_version = "1.1.4.0"
+[channels.testing-net6.plugins.TextBoxStyler.changelogs."1.1.4.0"]
+time_released = 2022-08-21T19:29:48.913
+changelog = "API 7"
+[channels.testing-net6.plugins.QuestMap]
+built_commit = "29a96a890680934862604ecaae60c83c98134f6d"
+time_built = 2022-08-21T19:29:55.120
+effective_version = "1.4.3.0"
+[channels.testing-net6.plugins.QuestMap.changelogs."1.4.3.0"]
+time_released = 2022-08-21T19:29:55.120
+changelog = "API 7"
+[channels.testing-net6.plugins.Visibility]
+built_commit = "f89e14b8303b236b2f8222185f75537c42273898"
+time_built = 2022-08-04T18:54:56.523
+effective_version = "1.1.3.3"
+[channels.testing-net6.plugins.Visibility.changelogs]
+[channels.testing-net6.plugins.Globetrotter]
+built_commit = "ccf2a725f7a0a2d9052f773146bdc7fb73bc87ee"
+time_built = 2022-08-21T19:30:00.183
+effective_version = "1.2.6"
+[channels.testing-net6.plugins.Globetrotter.changelogs."1.2.6"]
+time_released = 2022-08-21T19:30:00.183
+changelog = "API 7"
+[channels.testing-net6.plugins.FlyTextFilter]
+built_commit = "500bf7af7ac00137248c89cf8b7d4389397e67a4"
+time_built = 2022-08-21T16:29:10.759
+effective_version = "4.1.0.1"
+[channels.testing-net6.plugins.FlyTextFilter.changelogs."4.1.0.1"]
+time_released = 2022-08-21T16:29:10.759
+changelog = ".NET6 and API7 upgrade + split pet/chocobo in misc settings"
+[channels.testing-net6.plugins.TPie]
+built_commit = "065c1b4383a8530c77a557678b20c340e18c828f"
+time_built = 2022-08-04T18:55:25.055
+effective_version = "1.5.0.0"
+[channels.testing-net6.plugins.TPie.changelogs]
+[channels.testing-net6.plugins.PlayerTrack]
+built_commit = "dd43ef8f53ff81a0f7b569b642455171230933e7"
+time_built = 2022-08-21T20:47:52.191
+effective_version = "2.6.1.0"
+[channels.testing-net6.plugins.PlayerTrack.changelogs]
