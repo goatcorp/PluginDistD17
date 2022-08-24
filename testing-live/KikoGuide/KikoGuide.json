@@ -2,8 +2,8 @@
   "Author": "BitsOfAByte",
   "Name": "Kiko Guide",
   "InternalName": "KikoGuide",
-  "AssemblyVersion": "1.3.0.0",
-  "Description": "Provides comprehensive guides for duty content such as Dungeons, Trials and Alliance Raids.\n\nKey features:\n- Automatically open a guide when entering a duty\n- Neat boss mechanic tables\n- A strategy \"TLDR\" mode\n- Completely spoiler-free\n- Built in guide editor\n& more to come!",
+  "AssemblyVersion": "1.4.0.0",
+  "Description": "Comprehensive guides for duty content such as Dungeons, Trials and Alliance Raids.\n\nKey features:\n- Automatically open a guide when entering a duty\n- Neat boss mechanic tables\n- A shortend strategy mode for easy reading\n- Anti-spoiler protections\n- Built in guide editor\n& more to come!",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/BitsOfAByte/KikoGuide",
   "Tags": [
@@ -11,7 +11,9 @@
     "Duties",
     "Guide"
   ],
-  "DalamudApiLevel": 6,
+  "DalamudApiLevel": 7,
   "LoadPriority": 0,
-  "Punchline": "The ultimate guidebook for in-game duties, great for sprouts & daily roulettes!"
+  "Punchline": "The ultimate guidebook for in-game duties, great for sprouts & daily roulettes!",
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "testing-live"
 }
