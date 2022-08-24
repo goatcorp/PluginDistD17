@@ -9,8 +9,10 @@
   "Tags": [
     "UI"
   ],
-  "DalamudApiLevel": 6,
+  "DalamudApiLevel": 7,
   "LoadPriority": 0,
   "Punchline": "Customizable ring-shaped hotbars",
-  "Changelog": "1.4.0.0\n- Added setting to automatically move the cursor to the center of the rings when they have a fixed position.\n- Keybinds can now be customized per job:\n\t+ This means you can use the same keybind for different rings as long as they are tied to different jobs.\n\t+ Added a new 'Edit Keybind' window to support this new functionallity."
+  "Changelog": "1.5.0.0\n- Added support for Patch 6.2 and Dalamud Api7.",
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "stable"
 }
