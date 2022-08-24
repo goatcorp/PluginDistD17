@@ -32,16 +32,6 @@ effective_version = "2.0.1.0"
 [channels.stable.plugins.ChatAlerts.changelogs."2.0.1.0"]
 time_released = 2022-08-24T00:50:45.260
 changelog = "Updated for Dalamud staging."
-[channels.stable.plugins.GatherBuddy]
-built_commit = "94d220908f5d7f9ad4cb4ba0a3c4203eb5d6416c"
-time_built = 2022-08-24T20:14:18.838
-effective_version = "3.1.4.15926"
-[channels.stable.plugins.GatherBuddy.changelogs."3.1.4.159"]
-time_released = 2022-08-24T00:22:18.349
-changelog = "Updated for Dalamud staging and fixed some stuff."
-[channels.stable.plugins.GatherBuddy.changelogs."3.1.4.15926"]
-time_released = 2022-08-24T20:14:18.838
-changelog = "Updated for Dalamud staging and fixed some stuff."
 [channels.stable.plugins.PatMe]
 built_commit = "70f7c7f4a7140012f3c74b4707938bffda716685"
 time_built = 2022-08-24T00:20:50.190
