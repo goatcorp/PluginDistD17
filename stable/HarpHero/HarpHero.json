@@ -1,0 +1,20 @@
+{
+  "Author": "MgAl2O4",
+  "Name": "Harp Hero",
+  "InternalName": "HarpHero",
+  "AssemblyVersion": "1.7.0.1",
+  "Description": "Assist mode for bards who want to play music but don't know how to.\n- does NOT play anything automatically\n- needs MIDI files to work\n- adapts MIDI tracks to fit in game limitations for you\n- you will be scored :O",
+  "ApplicableVersion": "any",
+  "Tags": [
+    "bard",
+    "music",
+    "performance",
+    "midi",
+    "harp"
+  ],
+  "DalamudApiLevel": 7,
+  "LoadPriority": 0,
+  "Punchline": "Bard performance assistant",
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "stable"
+}
