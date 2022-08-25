@@ -16,5 +16,5 @@
   "LoadPriority": 0,
   "Punchline": "Limit Framerate while out of combat",
   "_isDip17Plugin": true,
-  "_Dip17Channel": "testing-net6"
+  "_Dip17Channel": "testing-live"
 }
