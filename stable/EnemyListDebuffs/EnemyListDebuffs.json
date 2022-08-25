@@ -1,0 +1,14 @@
+{
+  "Author": "Felys",
+  "Name": "EnemyListDebuffs",
+  "InternalName": "EnemyListDebuffs",
+  "AssemblyVersion": "0.3.6.0",
+  "Description": "Displays your debuffs on the enemy list. Original implementation credit to aers.",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/Felys1998/EnemyListDebuffs",
+  "DalamudApiLevel": 7,
+  "LoadPriority": 0,
+  "Punchline": "Because tracking your DoTs shouldn't be difficult.",
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "stable"
+}
