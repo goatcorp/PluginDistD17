@@ -2,7 +2,7 @@
   "Author": "Tischel",
   "Name": "Inventory Search Bar",
   "InternalName": "InventorySearchBar",
-  "AssemblyVersion": "0.3.0.0",
+  "AssemblyVersion": "0.3.0.1",
   "Description": "Supports different types of filters to be able to find items by name, type, supported job or level requirements.\n\nSupported Inventories:\n\t- Character Inventory\n\t- Chocobo Saddle\n\t- Retainer Inventory\n\t- Armoury\n\n\nKnown Issues:\n\t- Premium Cocobo Saddle not yet supported",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Tischel/InventorySearchBar",
@@ -12,7 +12,7 @@
   "DalamudApiLevel": 7,
   "LoadPriority": 0,
   "Punchline": "Adds a search bar directly in the inventory window to filter items.",
-  "Changelog": "0.3.0.0\n- Added support for Patch 6.2 and Dalamud Api7.",
+  "Changelog": "0.3.0.1\n- Fixed plugin failing to install.",
   "_isDip17Plugin": true,
   "_Dip17Channel": "testing-live"
 }
