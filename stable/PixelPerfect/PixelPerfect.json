@@ -1,0 +1,25 @@
+{
+  "Author": "Haplo064",
+  "Name": "Pixel Perfect",
+  "InternalName": "PixelPerfect",
+  "AssemblyVersion": "2.0.0.1",
+  "Description": "Showing exactly where to stand since 2020.",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/Haplo064/PixelPerfect",
+  "Tags": [
+    "Hitbox",
+    "Overlay",
+    "Indicator"
+  ],
+  "DalamudApiLevel": 7,
+  "LoadPriority": 0,
+  "ImageUrls": [
+    "https://raw.githubusercontent.com/Haplo064/PixelPerfect/master/images/image1.png",
+    "https://raw.githubusercontent.com/Haplo064/PixelPerfect/master/images/image2.png",
+    "https://raw.githubusercontent.com/Haplo064/PixelPerfect/master/images/image3.png"
+  ],
+  "IconUrl": "https://raw.githubusercontent.com/Haplo064/PixelPerfect/master/images/icon.png",
+  "Punchline": "Reveals your hitbox, with customisable features.",
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "stable"
+}
