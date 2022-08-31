@@ -2,7 +2,7 @@
   "Author": "attick",
   "Name": "Mouseover Action",
   "InternalName": "MOAction",
-  "AssemblyVersion": "4.2.7.0",
+  "AssemblyVersion": "4.2.8.0",
   "Description": "This plugin lets you target friends or enemies like a macro, without the clunkiness of a macro. /pmoaction opens the configuration.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/attickdoor/MOActionPlugin",
