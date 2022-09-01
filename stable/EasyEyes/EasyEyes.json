@@ -1,0 +1,18 @@
+{
+  "Author": "ocealot",
+  "Name": "EasyEyes",
+  "InternalName": "EasyEyes",
+  "AssemblyVersion": "1.2.2.0",
+  "Description": "A plugin which can hide any VFX. Icon by PAPACHIN",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/0ceal0t/EasyEyes",
+  "Tags": [
+    "VFX",
+    "AVFX"
+  ],
+  "DalamudApiLevel": 7,
+  "LoadPriority": 69419,
+  "Punchline": "Hide annoying or distracting VFXs",
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "stable"
+}

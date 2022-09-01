@@ -2,7 +2,7 @@
   "Author": "JayceOfSpades",
   "Name": "Mini-Mappingway",
   "InternalName": "MiniMappingway",
-  "AssemblyVersion": "0.9.0.2",
+  "AssemblyVersion": "0.9.0.3",
   "Description": "A plugin to show your friends and FC members on the minimap. Customise the markers and toggle whether you want to see friends, FC members, or both, in the settings! IMPORTANT: If you have your minimap rotation locked, please enable 'Minimap Locked' in the settings.",
   "ApplicableVersion": "any",
   "Tags": [
