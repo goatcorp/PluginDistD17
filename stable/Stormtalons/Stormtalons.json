@@ -1,0 +1,14 @@
+{
+  "Author": "Chickenstew",
+  "Name": "Stormtalons",
+  "InternalName": "Stormtalons",
+  "AssemblyVersion": "1.0.0.0",
+  "Description": "Gives the value of current targets health in Stormtalons from the dead game Wildstar.",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/Chickenstew/Stormtalons",
+  "DalamudApiLevel": 7,
+  "LoadPriority": 69420,
+  "Punchline": "Gives the value of current targets health in Stormtalons from the dead game Wildstar.",
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "stable"
+}
