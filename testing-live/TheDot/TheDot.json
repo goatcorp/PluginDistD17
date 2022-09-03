@@ -1,0 +1,16 @@
+{
+  "Author": "eja-git",
+  "Name": "TheDot",
+  "InternalName": "TheDot",
+  "AssemblyVersion": "0.0.0.1",
+  "Description": "A dot to mark players hitbox",
+  "ApplicableVersion": "any",
+  "Tags": [
+    "thedot"
+  ],
+  "DalamudApiLevel": 7,
+  "LoadPriority": 0,
+  "Punchline": "A dot to mark players hitbox.",
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "testing-live"
+}
