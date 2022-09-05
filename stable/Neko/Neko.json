@@ -1,0 +1,25 @@
+{
+  "Author": "Meisterlala",
+  "Name": "Neko Fans",
+  "InternalName": "Neko",
+  "AssemblyVersion": "1.1.2",
+  "Description": "Shows you an image of a random neko character. Click on the image to view the next one.\nMultiple Image APIs are supported, allowing you to look at Catboys, Waifus, Cats, Dogs and more.\nWarning: You might see naughty images",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/Meisterlala/NekoFans",
+  "Tags": [
+    "anime",
+    "neko",
+    "waifu",
+    "miqote",
+    "image"
+  ],
+  "CategoryTags": [
+    "UI"
+  ],
+  "DalamudApiLevel": 7,
+  "LoadPriority": 0,
+  "IconUrl": "https://raw.githubusercontent.com/Meisterlala/NekoFans/master/icon.png",
+  "Punchline": "Frustrated in a dungeon? Look at a cute cat girl!",
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "stable"
+}
