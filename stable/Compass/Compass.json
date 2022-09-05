@@ -2,14 +2,14 @@
   "Author": "Chivalrik",
   "Name": "Compass",
   "InternalName": "Compass",
-  "AssemblyVersion": "1.26.0",
+  "AssemblyVersion": "1.26.1",
   "Description": "Check-out the repository for steps on how to report missing/wrong filter\nand hiding options. Have a look at the FAQ tab in the config window\nafter install for common caveats.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/fitzchivalrik/compass",
-  "DalamudApiLevel": 6,
+  "DalamudApiLevel": 7,
   "LoadPriority": 0,
   "Punchline": "Monodimensional compass for your adventures.",
-  "Changelog": "- feat: Update to .NET6\n- chore: Adjustments for D17, automatic plugin builds",
+  "Changelog": "- chore: Update to API 7",
   "_isDip17Plugin": true,
-  "_Dip17Channel": "testing-net6"
+  "_Dip17Channel": "stable"
 }
