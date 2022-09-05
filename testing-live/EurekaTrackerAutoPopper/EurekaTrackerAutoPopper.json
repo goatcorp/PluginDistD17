@@ -1,0 +1,19 @@
+{
+  "Author": "electr0sheep",
+  "Name": "Eureka Tracker Auto Popper",
+  "InternalName": "EurekaTrackerAutoPopper",
+  "AssemblyVersion": "0.0.0.2",
+  "Description": "Automatically pops NMs in the Eureka Tracker",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/electr0sheep/EurekaTrackerAutoPopper",
+  "Tags": [
+    "plugin",
+    "eureka",
+    "tracker"
+  ],
+  "DalamudApiLevel": 7,
+  "LoadPriority": 0,
+  "Punchline": "",
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "testing-live"
+}
