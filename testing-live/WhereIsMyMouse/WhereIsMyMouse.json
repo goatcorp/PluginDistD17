@@ -2,9 +2,10 @@
   "Author": "Marethyu",
   "Name": "Where's my mouse",
   "InternalName": "WhereIsMyMouse",
-  "AssemblyVersion": "0.0.0.2",
+  "AssemblyVersion": "0.0.0.3",
   "Description": "Add UI element on top of the mouse like circle to keep track of your mouse location during gameplay.\nOpen settings with /wmm",
   "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/Pythyu/WhereIsMyMouse",
   "Tags": [
     "mouse",
     "UI",
