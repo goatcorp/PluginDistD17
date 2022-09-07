@@ -1,0 +1,15 @@
+{
+  "Author": "Chivalrik",
+  "Name": "GentleTouch",
+  "InternalName": "GentleTouch",
+  "AssemblyVersion": "1.6.1",
+  "Description": "You need to configure patterns and triggers before it will work, \nopen the configuration window to do that. \nDS5 is currently unsupported. \nCurrently supported triggers are:\n- Cooldowns\n- Near Aether Current",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/fitzchivalrik/gentletouch",
+  "DalamudApiLevel": 7,
+  "LoadPriority": 0,
+  "Punchline": "Create vibration patterns for the controller and specify triggers to make it vibrate.",
+  "Changelog": "- chore: Update to API 7",
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "stable"
+}
