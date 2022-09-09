@@ -2,7 +2,7 @@
   "Author": "ascclemens",
   "Name": "Orange Guidance Tomestone",
   "InternalName": "OrangeGuidanceTomestone",
-  "AssemblyVersion": "1.5.0.0",
+  "AssemblyVersion": "1.6.1.0",
   "Description": "Dark Souls-like messaging system.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://git.anna.lgbt/ascclemens/OrangeGuidanceTomestone",
