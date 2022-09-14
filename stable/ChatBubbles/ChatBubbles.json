@@ -1,0 +1,26 @@
+{
+  "Author": "Haplo064, Khayle",
+  "Name": "Chat Bubbles",
+  "InternalName": "ChatBubbles",
+  "AssemblyVersion": "2.1.2.0",
+  "Description": "Using native chat bubble display, see who is talking about what in a more natural fashion.",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/Haplo064/ChatBubbles",
+  "Tags": [
+    "UI",
+    "Roleplay",
+    "RP",
+    "Bubbles",
+    "Chat"
+  ],
+  "DalamudApiLevel": 7,
+  "LoadPriority": 0,
+  "ImageUrls": [
+    "https://raw.githubusercontent.com/Haplo064/ChatBubbles/main/ChatBubbles/images/image1.png",
+    "https://raw.githubusercontent.com/Haplo064/ChatBubbles/main/ChatBubbles/images/image2.png"
+  ],
+  "IconUrl": "https://raw.githubusercontent.com/Haplo064/ChatBubbles/main/ChatBubbles/images/icon.png",
+  "Punchline": "Enables in-game chat bubbles.",
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "stable"
+}
