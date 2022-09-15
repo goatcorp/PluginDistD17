@@ -1,0 +1,21 @@
+{
+  "Author": "Lharz",
+  "Name": "CurrencyAlert",
+  "InternalName": "CurrencyAlert",
+  "AssemblyVersion": "0.4.0.0",
+  "Description": "/currencyalert: shows the configuration panel.",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/Lharz/xiv-currency-alert",
+  "Tags": [
+    "plugin",
+    "currency",
+    "tomestones",
+    "utility",
+    "other"
+  ],
+  "DalamudApiLevel": 7,
+  "LoadPriority": 0,
+  "Punchline": "Display alerts upon reaching configurable currencies thresholds (such as Poetics or PVP marks).",
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "stable"
+}
