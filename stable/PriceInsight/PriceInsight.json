@@ -2,7 +2,7 @@
   "Author": "Kouzukii",
   "Name": "Price Insight",
   "InternalName": "PriceInsight",
-  "AssemblyVersion": "2.1.1.1",
+  "AssemblyVersion": "2.2.0.0",
   "Description": "Whenever you mouseover an item, it will show you the NQ/HQ marketboard prices at the bottom as well as the most recent purchase.\nThe marketboard info will sometimes not be immediately available, you can move your mouse or tap the ctrl key to refresh the tooltip.\n",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/kouzukii/ffxiv-priceinsight",
@@ -23,5 +23,5 @@
   "IconUrl": "https://raw.githubusercontent.com/Kouzukii/ffxiv-priceinsight/master/PriceInsight/images/icon.png",
   "Punchline": "See item marketboard prices on hover!",
   "_isDip17Plugin": true,
-  "_Dip17Channel": "testing-live"
+  "_Dip17Channel": "stable"
 }
