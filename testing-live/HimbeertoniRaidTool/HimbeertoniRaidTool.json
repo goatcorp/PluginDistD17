@@ -2,7 +2,7 @@
   "Author": "Koenari",
   "Name": "Himbeertoni Raid Tool",
   "InternalName": "HimbeertoniRaidTool",
-  "AssemblyVersion": "0.5.1.31",
+  "AssemblyVersion": "0.5.2.32",
   "Description": "A collection of useful tools for RaidGroups, including loot management",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Koenari/HimbeertoniRaidTool/wiki",
@@ -20,7 +20,7 @@
   ],
   "IconUrl": "https://raw.githubusercontent.com/Koenari/HimbeertoniRaidTool/master/images/icon.png",
   "Punchline": "All you need for Raiding",
-  "Changelog": "You can now edit gear manually\nNew player experience should be better now",
+  "Changelog": "Several Ui improvements and fixes",
   "_isDip17Plugin": true,
   "_Dip17Channel": "testing-live"
 }
