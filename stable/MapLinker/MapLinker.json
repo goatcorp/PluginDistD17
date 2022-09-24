@@ -2,7 +2,7 @@
   "Author": "Bluefissure",
   "Name": "MapLinker",
   "InternalName": "MapLinker",
-  "AssemblyVersion": "1.1.7.1",
+  "AssemblyVersion": "1.1.7.2",
   "Description": "Automatically record the maplinks in chat and retrieval later.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Bluefissure/MapLinker",
