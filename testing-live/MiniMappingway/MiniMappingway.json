@@ -2,7 +2,7 @@
   "Author": "JayceOfSpades",
   "Name": "Mini-Mappingway",
   "InternalName": "MiniMappingway",
-  "AssemblyVersion": "0.9.1.0",
+  "AssemblyVersion": "0.9.1.1",
   "Description": "A plugin to show your friends and FC members on the minimap. Customise the markers and toggle whether you want to see friends, FC members, or both, in the settings!",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/jaycewhite/MiniMappingway",
