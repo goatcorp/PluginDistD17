@@ -2,7 +2,7 @@
   "Author": "Tischel",
   "Name": "TPie",
   "InternalName": "TPie",
-  "AssemblyVersion": "1.6.1.0",
+  "AssemblyVersion": "1.6.2.0",
   "Description": "Highly configurable hotbars that can be toggled with a keybind. They can be filled with Actions, Items, Gear Sets or Macros.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Tischel/TPie",
@@ -12,7 +12,7 @@
   "DalamudApiLevel": 7,
   "LoadPriority": 0,
   "Punchline": "Customizable ring-shaped hotbars",
-  "Changelog": "1.6.1.0\n- Fixed DelvUI not working properly with Penumbra v0.5.8.0 and their new Interface Collection.",
+  "Changelog": "1.6.2.0\n- Fixed high quality icons for items.",
   "_isDip17Plugin": true,
   "_Dip17Channel": "stable"
 }
