@@ -2,8 +2,8 @@
   "Author": "Rietty",
   "Name": "AutoMammet",
   "InternalName": "AutoMammet",
-  "AssemblyVersion": "1.2.0.0",
-  "Description": "Provides an easy copy and pastable CSV format you can use for island sanctuary spreadsheets. Provides options to export the popularity, future popularity and the current cycle's demand and shift values. Both as words and as numbers on a scale of -2 to 2. This plugin does not provide any calculations for Island Sanctuary, merely an export option for your ingame data.",
+  "AssemblyVersion": "1.2.0.1",
+  "Description": "Provides an easy copy and pastable CSV format you can use for island sanctuary spreadsheets. Provides options to export the popularity, future popularity and the current cycle's supply and demand shift values. Both as words and as numbers on a scale of -2 to 2. This plugin does not provide any calculations for Island Sanctuary, merely an export option for your ingame data. Information is exported to your clipboard, so you can paste into any other program.",
   "ApplicableVersion": "any",
   "Tags": [
     "island sanctuary",

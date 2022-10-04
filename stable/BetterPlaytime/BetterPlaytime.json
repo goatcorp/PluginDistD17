@@ -2,7 +2,7 @@
   "Author": "Infi",
   "Name": "Better Playtime",
   "InternalName": "BetterPlaytime",
-  "AssemblyVersion": "1.0.1.0",
+  "AssemblyVersion": "1.0.2.0",
   "Description": "Provides expanded functionality to seamlessly track total playtime.\nRequires only using /playtime once on each character (again to refresh the time),\n\n      - Supports multiple characters,\n      - Customisable output formats such as hours or minutes\n      - Automatic playtime tracking after played character got registered\n      - Simple window to see current session playtime",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Infiziert90/BetterPlaytime",
