@@ -2,7 +2,7 @@
   "Author": "Koenari",
   "Name": "Himbeertoni Raid Tool",
   "InternalName": "HimbeertoniRaidTool",
-  "AssemblyVersion": "1.0.2.35",
+  "AssemblyVersion": "1.0.2.36",
   "Description": "A collection of useful tools for RaidGroups, including loot management",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Koenari/HimbeertoniRaidTool/wiki",
@@ -20,7 +20,7 @@
   ],
   "IconUrl": "https://raw.githubusercontent.com/Koenari/HimbeertoniRaidTool/master/images/icon.png",
   "Punchline": "All you need for Raiding",
-  "Changelog": "new: improved deatils for loot results\nnew: you can now edit role priority\nnew: supports non standard group compositions",
+  "Changelog": "fix: loot results did not show",
   "_isDip17Plugin": true,
   "_Dip17Channel": "stable"
 }
