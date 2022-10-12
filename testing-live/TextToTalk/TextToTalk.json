@@ -1,0 +1,23 @@
+{
+  "Author": "karashiiro",
+  "Name": "TextToTalk",
+  "InternalName": "TextToTalk",
+  "AssemblyVersion": "1.17.0.0",
+  "Description": "Chat and game dialogue TTS. Use /tttconfig to configure the enabled channels and triggers/exceptions.",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/karashiiro/TextToTalk",
+  "Tags": [
+    "tts",
+    "trigger",
+    "triggers",
+    "voice",
+    "voices",
+    "speech",
+    "karashiiro"
+  ],
+  "DalamudApiLevel": 7,
+  "LoadPriority": 0,
+  "Punchline": "Chat and game dialogue TTS plugin.",
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "testing-live"
+}
