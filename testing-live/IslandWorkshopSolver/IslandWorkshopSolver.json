@@ -1,0 +1,20 @@
+{
+  "Author": "Mienna",
+  "Name": "Island Sanctuary Workshop Solver",
+  "InternalName": "IslandWorkshopSolver",
+  "AssemblyVersion": "1.0.0.0",
+  "Description": "This is a solver that takes in your supply data, island rank, and personal preferences to determine the best workshop loadout to make the most Seafarer's Cowries possible!'",
+  "ApplicableVersion": "any",
+  "Tags": [
+    "island sanctuary",
+    "workshop",
+    "plugin",
+    "helper",
+    "solver"
+  ],
+  "DalamudApiLevel": 7,
+  "LoadPriority": 0,
+  "Punchline": "Determines the best thing to craft tomorrow on your island workshop",
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "testing-live"
+}
