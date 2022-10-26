@@ -2,7 +2,7 @@
   "Author": "Mienna",
   "Name": "Beachcomber",
   "InternalName": "IslandWorkshopSolver",
-  "AssemblyVersion": "1.0.1.0",
+  "AssemblyVersion": "1.0.2.0",
   "Description": "This solver examines your Island Sanctuary data (including your Isleventory!) to provide recommendations to maximize your Seafarer's Cowrie earnings.\n\nDeveloped in conjunction with the Poking Paradise Workshop Team",
   "ApplicableVersion": "any",
   "Tags": [
