@@ -2,7 +2,7 @@
   "Author": "HappySprite",
   "Name": "Workshop Optimizer Plugin",
   "InternalName": "WorkshopOptimizerPlugin",
-  "AssemblyVersion": "0.1.7.0",
+  "AssemblyVersion": "0.2.2.0",
   "Description": "Use /wso after you visited your island.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/belzaru17/WorkshopOptimizerPlugin",
@@ -13,6 +13,12 @@
   ],
   "DalamudApiLevel": 7,
   "LoadPriority": 0,
+  "ImageUrls": [
+    "https://raw.githubusercontent.com/belzaru17/WorkshopOptimizerPlugin/main/Images/image1.png",
+    "https://raw.githubusercontent.com/belzaru17/WorkshopOptimizerPlugin/main/Images/image2.png",
+    "https://raw.githubusercontent.com/belzaru17/WorkshopOptimizerPlugin/main/Images/image3.png",
+    "https://raw.githubusercontent.com/belzaru17/WorkshopOptimizerPlugin/main/Images/image4.png"
+  ],
   "IconUrl": "https://raw.githubusercontent.com/belzaru17/WorkshopOptimizerPlugin/main/Images/icon.jpg",
   "Punchline": "Optimize Island Sanctuary Workshop orders.",
   "_isDip17Plugin": true,
