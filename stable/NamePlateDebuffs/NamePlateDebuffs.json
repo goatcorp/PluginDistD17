@@ -1,0 +1,14 @@
+{
+  "Author": "aers, JHerig, squidmade",
+  "Name": "NamePlateDebuffs",
+  "InternalName": "NamePlateDebuffs",
+  "AssemblyVersion": "1.0.0.0",
+  "Description": "Displays your debuffs on enemy nameplates.",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/jherig/NamePlateDebuffs",
+  "DalamudApiLevel": 7,
+  "LoadPriority": 0,
+  "Punchline": "Displays debuffs you cast on nameplates of enemies",
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "stable"
+}
