@@ -2,8 +2,8 @@
   "Author": "ocealot",
   "Name": "VFXEditor",
   "InternalName": "VFXEditor",
-  "AssemblyVersion": "1.6.5.3",
-  "Description": "View and modify vfxs, as well as create mods for them. Icon by PAPACHIN",
+  "AssemblyVersion": "1.7.0.0",
+  "Description": "VFX, ability, and animation editing plugin. Icon by PAPACHIN",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/0ceal0t/Dalamud-VFXEditor",
   "Tags": [

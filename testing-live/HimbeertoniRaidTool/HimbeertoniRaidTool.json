@@ -2,7 +2,7 @@
   "Author": "Koenari",
   "Name": "Himbeertoni Raid Tool",
   "InternalName": "HimbeertoniRaidTool",
-  "AssemblyVersion": "1.1.2.42",
+  "AssemblyVersion": "1.1.2.44",
   "Description": "A collection of useful tools for RaidGroups, including loot management",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Koenari/HimbeertoniRaidTool/wiki",
@@ -20,7 +20,7 @@
   ],
   "IconUrl": "https://raw.githubusercontent.com/Koenari/HimbeertoniRaidTool/master/images/icon.png",
   "Punchline": "All you need for Raiding",
-  "Changelog": "+ Added the ability to manually track items in inventory\n* Fixed tribe of chartacter not being saved\n* beautify Ui\n+ show if item can be bought / exchanged\n* Fixed a bug with BiS detection\n+ You can evaluate loot for all jobs in Solo groups",
+  "Changelog": "+ Shows cost if an item is obtainable from a shop\n* reworked item source system",
   "_isDip17Plugin": true,
   "_Dip17Channel": "testing-live"
 }
