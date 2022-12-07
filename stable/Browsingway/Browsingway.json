@@ -2,7 +2,7 @@
   "Author": "Styr1x",
   "Name": "Browsingway",
   "InternalName": "Browsingway",
-  "AssemblyVersion": "1.0.0.9",
+  "AssemblyVersion": "1.0.0.10",
   "Description": "Renders browser overlays in-game to enable playing in fullscreen (and G-SYNC) while having access to ACT overlays.\nUse the settings button below or the '/bw config' command to configure.\nBased on the BrowserHost plugin by ackwell.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Styr1x/Browsingway",
@@ -17,7 +17,7 @@
   "DalamudApiLevel": 7,
   "LoadPriority": 0,
   "Punchline": "Browser overlays rendered in-game.",
-  "Changelog": "Fix performance regression on certain system configurations (by karashiiro)",
+  "Changelog": "Fix render error when .net 6 runtime is not installed (by Jessidhia)",
   "_isDip17Plugin": true,
   "_Dip17Channel": "stable"
 }
