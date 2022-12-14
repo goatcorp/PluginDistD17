@@ -2,7 +2,7 @@
   "Author": "X'pahtalo",
   "Name": "Duty Tracker",
   "InternalName": "DutyTracker",
-  "AssemblyVersion": "0.0.0.3",
+  "AssemblyVersion": "0.0.0.4",
   "Description": "Track some duty info. /dt open the menu",
   "ApplicableVersion": "any",
   "Tags": [],

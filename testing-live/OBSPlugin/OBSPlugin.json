@@ -2,7 +2,7 @@
   "Author": "Bluefissure",
   "Name": "OBSPlugin",
   "InternalName": "OBSPlugin",
-  "AssemblyVersion": "1.0.2.1",
+  "AssemblyVersion": "1.0.2.2",
   "Description": "A plugin to control OBS by WebSocket, streaming with any UI modification is not recommended.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Bluefissure/Dalamud-OBS",
