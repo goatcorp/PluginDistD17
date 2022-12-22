@@ -2,8 +2,8 @@
   "Author": "MidoriKami",
   "Name": "Mappy",
   "InternalName": "Mappy",
-  "AssemblyVersion": "0.4.5.2",
-  "Description": "Want a map you can move to another screen? Integrate with other plugins? Heeeere's Mappy!",
+  "AssemblyVersion": "0.4.6.0",
+  "Description": "[Incomplete Plugin] Mappy's intended feature set is mostly implemented, some features do not work as intended, most work well.\nNo support will be provided for issues.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/MidoriKami/Mappy",
   "Tags": [
