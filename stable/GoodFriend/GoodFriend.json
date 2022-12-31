@@ -2,7 +2,7 @@
   "Author": "BitsOfAByte",
   "Name": "GoodFriend",
   "InternalName": "GoodFriend",
-  "AssemblyVersion": "1.4.5.2",
+  "AssemblyVersion": "1.4.5.3",
   "Description": "A client to communicate with any GoodFriend-Compatible API to send & receive notifications when your friends login and logout of the game (as long as they are using this plugin & are connected to the same instance).\n\nFeatures:\n- Privacy-focused in design, all data is completely anonymized before leaving your machine.\n- Support for \"friend codes\" to only receive and send notifications with others who share the same code.\n- Customizable login & logout messages\n- Basic & Bearer authentication support\n- Can show notifications in chat, as a toast, or as a pop-up\n- & more.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/BitsOfAByte/GoodFriend",
