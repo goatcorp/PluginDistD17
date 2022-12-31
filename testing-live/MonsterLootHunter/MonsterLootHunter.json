@@ -1,0 +1,22 @@
+{
+  "Author": "Daniel Guiomarino",
+  "Name": "Monster Loot Hunter",
+  "InternalName": "MonsterLootHunter",
+  "AssemblyVersion": "1.0.3.0",
+  "Description": "Adds a command to be able to search for specific loots and its location.",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/danielbrenom/MonsterLootHunter",
+  "Tags": [
+    "monster",
+    "loot",
+    "hunter",
+    "finder"
+  ],
+  "DalamudApiLevel": 7,
+  "LoadPriority": 0,
+  "IconUrl": "https://raw.githubusercontent.com/danielbrenom/MonsterLootHunter/main/images/icon.png",
+  "Punchline": "A monster loot finder plugin.",
+  "Changelog": "- API version bump \n- Code refactoring \n- Fix on loot tables empty\n- Plugin rework",
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "testing-live"
+}
