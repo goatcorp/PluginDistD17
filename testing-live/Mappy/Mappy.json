@@ -2,10 +2,9 @@
   "Author": "MidoriKami",
   "Name": "Mappy",
   "InternalName": "Mappy",
-  "AssemblyVersion": "0.4.6.0",
+  "AssemblyVersion": "0.4.6.1",
   "Description": "[Incomplete Plugin] Mappy's intended feature set is mostly implemented, some features do not work as intended, most work well.\nNo support will be provided for issues.",
   "ApplicableVersion": "any",
-  "RepoUrl": "https://github.com/MidoriKami/Mappy",
   "Tags": [
     "utility"
   ],
@@ -14,8 +13,11 @@
     "UI"
   ],
   "DalamudApiLevel": 7,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
   "LoadPriority": 0,
   "Punchline": "A more versatile ingame map",
+  "AcceptsFeedback": false,
   "_isDip17Plugin": true,
   "_Dip17Channel": "testing-live"
 }
