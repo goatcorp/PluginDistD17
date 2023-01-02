@@ -2,7 +2,7 @@
   "Author": "Zhyra",
   "Name": "PartyPlanner",
   "InternalName": "PartyPlanner",
-  "AssemblyVersion": "1.4.1.0",
+  "AssemblyVersion": "1.4.2.0",
   "Description": "PartyVerse.app, directly on your client!",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/ZhyraPlugins/PartyPlanner",
@@ -11,9 +11,12 @@
     "partyverse"
   ],
   "DalamudApiLevel": 7,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
   "LoadPriority": 0,
   "IconUrl": "https://raw.githubusercontent.com/ZhyraPlugins/PartyPlanner/master/PartyPlanner/images/icon.png",
   "Punchline": "PartyVerse.app, directly on your client!",
+  "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "stable"
 }
