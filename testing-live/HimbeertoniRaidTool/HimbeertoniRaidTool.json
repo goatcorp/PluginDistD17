@@ -2,7 +2,7 @@
   "Author": "Koenari",
   "Name": "Himbeertoni Raid Tool",
   "InternalName": "HimbeertoniRaidTool",
-  "AssemblyVersion": "1.1.2.47",
+  "AssemblyVersion": "1.1.2.51",
   "Description": "A collection of useful tools for RaidGroups, including loot management",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Koenari/HimbeertoniRaidTool/wiki",
@@ -12,6 +12,8 @@
     "Equipment"
   ],
   "DalamudApiLevel": 7,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
   "LoadPriority": 0,
   "ImageUrls": [
     "https://raw.githubusercontent.com/Koenari/HimbeertoniRaidTool/master/OtherResources/assets/loot_session.png",
@@ -20,7 +22,8 @@
   ],
   "IconUrl": "https://raw.githubusercontent.com/Koenari/HimbeertoniRaidTool/master/images/icon.png",
   "Punchline": "All you need for Raiding",
-  "Changelog": "+ new loot distribution\n+ includes guarranteed drops (eg. books)\n+ award items to players, no need to manually update them after loot distribution\n* revised lootsession Ui\n+ Shows cost if an item is obtainable from a shop\n* reworked item source system\n+ can track items in inventories\n+ you can now evaluate loot for alt jobs",
+  "Changelog": "fix: HP calculation\nadd: stat calculation for most levels\nlocalization: added JP (thanks to Refer)\nfix: load time reduced",
+  "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "testing-live"
 }
