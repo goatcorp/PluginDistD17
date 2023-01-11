@@ -2,13 +2,16 @@
   "Author": "ascclemens",
   "Name": "Globetrotter",
   "InternalName": "Globetrotter",
-  "AssemblyVersion": "1.2.7",
+  "AssemblyVersion": "1.2.8",
   "Description": "Automatically shows where treasure maps are located.\n\nIcon: Map by Adrien Coquet from the Noun Project",
   "ApplicableVersion": "any",
   "RepoUrl": "https://git.annaclemens.io/ascclemens/Globetrotter",
-  "DalamudApiLevel": 7,
+  "DalamudApiLevel": 8,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
   "LoadPriority": 0,
   "Punchline": "Automatically shows where treasure maps are located.",
+  "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "stable"
 }

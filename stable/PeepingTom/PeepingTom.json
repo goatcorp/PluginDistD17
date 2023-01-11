@@ -2,13 +2,16 @@
   "Author": "ascclemens",
   "Name": "Peeping Tom",
   "InternalName": "PeepingTom",
-  "AssemblyVersion": "1.7.12",
+  "AssemblyVersion": "1.7.13",
   "Description": "Shows who is currently or was previously targeting you.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://git.annaclemens.io/ascclemens/PeepingTom",
-  "DalamudApiLevel": 7,
+  "DalamudApiLevel": 8,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
   "LoadPriority": 0,
   "Punchline": "Shows who is currently or was previously targeting you.",
+  "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "stable"
 }

@@ -2,13 +2,16 @@
   "Author": "ascclemens",
   "Name": "Orange Guidance Tomestone",
   "InternalName": "OrangeGuidanceTomestone",
-  "AssemblyVersion": "1.6.2.0",
+  "AssemblyVersion": "1.6.3.0",
   "Description": "Dark Souls-like messaging system.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://git.anna.lgbt/ascclemens/OrangeGuidanceTomestone",
-  "DalamudApiLevel": 7,
+  "DalamudApiLevel": 8,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
   "LoadPriority": 0,
   "Punchline": "Leave messages like in Souls games. Great chest ahead.",
+  "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "stable"
 }
