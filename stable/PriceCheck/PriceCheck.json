@@ -2,7 +2,7 @@
   "Author": "kalilistic",
   "Name": "PriceCheck",
   "InternalName": "PriceCheck",
-  "AssemblyVersion": "2.3.4.0",
+  "AssemblyVersion": "2.4.0.0",
   "Description": "To check prices, hold your keybind and then hover over an item or via the item's context menu.\nThe prices are pulled from the crowd-sourced site Universalis.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/kalilistic/PriceCheck",
@@ -11,9 +11,12 @@
     "marketboard",
     "universalis"
   ],
-  "DalamudApiLevel": 7,
+  "DalamudApiLevel": 8,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
   "LoadPriority": 0,
   "Punchline": "Quickly price check your items.",
+  "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "stable"
 }
