@@ -2,13 +2,16 @@
   "Author": "Caraxi",
   "Name": "Simple Tweaks Plugin",
   "InternalName": "SimpleTweaksPlugin",
-  "AssemblyVersion": "1.7.9.1",
+  "AssemblyVersion": "1.8.0.0",
   "Description": "A collection of Quality of Life tweaks. Aiming to improve the experience without changing anything drastically.\nAll changes are toggleable, with everything disabled by default. Visit the Repo for a full list of tweaks. (Globe icon below)",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Caraxi/SimpleTweaksPlugin",
-  "DalamudApiLevel": 7,
+  "DalamudApiLevel": 8,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
   "LoadPriority": 0,
   "Punchline": "This was supposed to be simple...",
+  "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "stable"
 }
