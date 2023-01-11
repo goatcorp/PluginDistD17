@@ -2,10 +2,12 @@
   "Author": "goat, modded by Franz",
   "Name": "OwO",
   "InternalName": "owofy",
-  "AssemblyVersion": "1.4.2.0",
+  "AssemblyVersion": "1.4.3.0",
   "Description": "This plugin uwu's your chat.",
   "ApplicableVersion": "any",
-  "DalamudApiLevel": 7,
+  "DalamudApiLevel": 8,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
   "LoadPriority": 0,
   "ImageUrls": [
     "https://github.com/goaaats/dalamud-owo/raw/master/images/promo1.png",
@@ -16,6 +18,7 @@
   ],
   "IconUrl": "https://github.com/goaaats/dalamud-owo/raw/master/images/icon.png",
   "Punchline": "owo for your chat",
+  "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "stable"
 }

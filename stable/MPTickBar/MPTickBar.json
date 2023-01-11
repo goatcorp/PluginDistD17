@@ -2,7 +2,7 @@
   "Author": "Marconsou",
   "Name": "MP Tick Bar",
   "InternalName": "MPTickBar",
-  "AssemblyVersion": "1.4.1.4",
+  "AssemblyVersion": "1.4.1.5",
   "Description": "-Fast Fire III marker on the bar.\n-Autostarts the bar before combat starts.\n-Countdown with time offset.\n-Compatible with FFXIV Material UI.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/marconsou/mp-tick-bar",
@@ -14,9 +14,12 @@
     "black",
     "mage"
   ],
-  "DalamudApiLevel": 7,
+  "DalamudApiLevel": 8,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
   "LoadPriority": 0,
   "Punchline": "Visually tracks MP regeneration ticks (Black Mage only).",
+  "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "stable"
 }
