@@ -2,13 +2,16 @@
   "Author": "Aireil",
   "Name": "FlyTextFilter",
   "InternalName": "FlyTextFilter",
-  "AssemblyVersion": "4.1.1.1",
+  "AssemblyVersion": "4.1.2.2",
   "Description": "Filter fly texts and pop-ups texts based on multiple criteria and allow the adjustment of their positions.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Aireil/FlyTextFilter",
-  "DalamudApiLevel": 7,
+  "DalamudApiLevel": 8,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
   "LoadPriority": 0,
   "Punchline": "Filter fly texts and pop-ups texts based on multiple criteria and allow the adjustment of their positions.",
+  "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "stable"
 }
