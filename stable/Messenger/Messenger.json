@@ -2,13 +2,16 @@
   "Author": "NightmareXIV",
   "Name": "XIV Instant Messenger",
   "InternalName": "Messenger",
-  "AssemblyVersion": "1.2.0.9",
+  "AssemblyVersion": "1.2.1.0",
   "Description": "Features:\n- Opes a direct message window when you message someone or they message you\n- Each window contains your DM chat with certain person\n- Open and cycle through recent chats with a hotkey\n- Execute emote commands on a player from their DM window without needing to manually target them\n- Automatically record your chat log in an easy to read text file\n- Fully customizable styles",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/NightmareXIV/XIVInstantMessenger",
-  "DalamudApiLevel": 7,
+  "DalamudApiLevel": 8,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
   "LoadPriority": 0,
   "Punchline": "A direct message manager made in fashion of WoW Instant Messenger.",
+  "AcceptsFeedback": false,
   "_isDip17Plugin": true,
   "_Dip17Channel": "stable"
 }

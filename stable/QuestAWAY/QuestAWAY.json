@@ -1,14 +1,17 @@
 {
-  "Author": "Eternita, Chalkos",
+  "Author": "NightmareXIV, Chalkos",
   "Name": "QuestAWAY",
   "InternalName": "QuestAWAY",
   "AssemblyVersion": "2.0.0.1",
   "Description": "Removes unwanted icons from your map. Not only quests, any icons.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/NightmareXIV/QuestAWAY",
-  "DalamudApiLevel": 7,
+  "DalamudApiLevel": 8,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
   "LoadPriority": 0,
   "Punchline": "Removes unwanted icons from your map.",
+  "AcceptsFeedback": true,
   "_isDip17Plugin": true,
-  "_Dip17Channel": "testing-live"
+  "_Dip17Channel": "stable"
 }

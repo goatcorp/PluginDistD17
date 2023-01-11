@@ -1,14 +1,17 @@
 {
-  "Author": "Eternita",
+  "Author": "NightmareXIV",
   "Name": "EnemyListHP (former EnmityHp)",
   "InternalName": "EnmityHp",
-  "AssemblyVersion": "2.0.0.8",
+  "AssemblyVersion": "2.0.0.9",
   "Description": "Displays enemies hp in enemy list. Just does that, nothing else. ",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/NightmareXIV/EnmityHp",
-  "DalamudApiLevel": 7,
+  "DalamudApiLevel": 8,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
   "LoadPriority": 0,
   "Punchline": "Displays enemies hp in enemy list.",
+  "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "stable"
 }
