@@ -2,7 +2,7 @@
   "Author": "Caraxi & Ottermandias",
   "Name": "ChatAlerts",
   "InternalName": "ChatAlerts",
-  "AssemblyVersion": "2.0.1.0",
+  "AssemblyVersion": "2.0.2.0",
   "Description": "",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Ottermandias/ChatAlerts",
@@ -15,9 +15,12 @@
     "Roleplay",
     "Sound"
   ],
-  "DalamudApiLevel": 7,
+  "DalamudApiLevel": 8,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
   "LoadPriority": 0,
   "Punchline": "Play sounds and highlight text based on defined filters.",
+  "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "stable"
 }
