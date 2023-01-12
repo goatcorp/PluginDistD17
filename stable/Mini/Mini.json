@@ -1,0 +1,17 @@
+{
+  "Author": "NightmareXIV",
+  "Name": "Mini",
+  "InternalName": "Mini",
+  "AssemblyVersion": "2.0.0.8",
+  "Description": "Additionally can minimize game to tray or create game's tray icon",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/NightmareXIV/Mini",
+  "DalamudApiLevel": 8,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "LoadPriority": 0,
+  "Punchline": "Adds a button and a command to minimize your game into taskbar",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "stable"
+}
