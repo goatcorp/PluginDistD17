@@ -2,7 +2,7 @@
   "Author": "kalilistic",
   "Name": "SillyChat",
   "InternalName": "SillyChat",
-  "AssemblyVersion": "1.5.1.0",
+  "AssemblyVersion": "1.6.0.0",
   "Description": "Allows you to translate player and NPC chat messages/bubbles.\nSupported languages include: Pirate, Urianger, Leet, Pig Latin, and Turkey.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/kalilistic/SillyChat",
@@ -11,9 +11,12 @@
     "owo",
     "urianger"
   ],
-  "DalamudApiLevel": 7,
+  "DalamudApiLevel": 8,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
   "LoadPriority": 0,
   "Punchline": "Make chat more fun with translations like pirate and urianger.",
+  "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "stable"
 }

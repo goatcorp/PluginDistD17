@@ -2,7 +2,7 @@
   "Author": "kalilistic, karashiiro",
   "Name": "NeatNoter",
   "InternalName": "NeatNoter",
-  "AssemblyVersion": "2.3.2.0",
+  "AssemblyVersion": "2.4.0.0",
   "Description": "NeatNoter allows you to take notes without switching windows or any of that.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/kalilistic/NeatNoter",
@@ -12,10 +12,13 @@
     "tool",
     "overlay"
   ],
-  "DalamudApiLevel": 7,
+  "DalamudApiLevel": 8,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
   "LoadPriority": 0,
   "IconUrl": "https://github.com/goatcorp/DalamudPlugins/blob/api6/plugins/NeatNoter/images/icon.png",
   "Punchline": "A note-taking plugin.",
+  "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "stable"
 }
