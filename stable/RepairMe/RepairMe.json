@@ -2,7 +2,7 @@
   "Author": "Chalkos",
   "Name": "RepairMe",
   "InternalName": "RepairMe",
-  "AssemblyVersion": "1.0.1.13",
+  "AssemblyVersion": "1.0.1.14",
   "Description": "Helps you notice when your gear needs to be repaired or has materia to be extracted.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/chalkos/RepairMe",
@@ -14,7 +14,9 @@
     "Condition",
     "Gear"
   ],
-  "DalamudApiLevel": 7,
+  "DalamudApiLevel": 8,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
   "LoadPriority": 0,
   "ImageUrls": [
     "https://raw.githubusercontent.com/goatcorp/DalamudPluginsD17/main/stable/RepairMe/images/image1.png",
@@ -24,6 +26,7 @@
   ],
   "IconUrl": "https://raw.githubusercontent.com/goatcorp/DalamudPluginsD17/main/stable/RepairMe/images/icon.png",
   "Punchline": "Never forget to repair & extract materia again!",
+  "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "stable"
 }
