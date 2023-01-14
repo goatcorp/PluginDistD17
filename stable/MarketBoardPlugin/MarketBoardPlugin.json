@@ -2,13 +2,16 @@
   "Author": "fmauNeko",
   "Name": "Market board",
   "InternalName": "MarketBoardPlugin",
-  "AssemblyVersion": "1.1.0.0",
+  "AssemblyVersion": "1.2.0.0",
   "Description": "Browse the market board. /pmb to open.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/fmauNeko/MarketBoardPlugin",
-  "DalamudApiLevel": 7,
+  "DalamudApiLevel": 8,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
   "LoadPriority": 0,
   "Punchline": "Browse the market board from anywhere.",
+  "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "stable"
 }
