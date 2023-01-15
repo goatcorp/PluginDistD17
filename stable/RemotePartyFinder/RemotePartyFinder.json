@@ -2,13 +2,16 @@
   "Author": "ascclemens",
   "Name": "Remote Party Finder Uploader",
   "InternalName": "RemotePartyFinder",
-  "AssemblyVersion": "1.0.8.0",
+  "AssemblyVersion": "1.0.9.0",
   "Description": "Uploads the PF listings you retrieve to the crowdsourced Remote\nParty Finder website (https://xivpf.com/).",
   "ApplicableVersion": "any",
   "RepoUrl": "https://git.annaclemens.io/ascclemens/remote-party-finder",
-  "DalamudApiLevel": 7,
+  "DalamudApiLevel": 8,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
   "LoadPriority": 0,
   "Punchline": "Crowdsourced PF website (upload PF listings to xivpf.com)",
+  "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "stable"
 }

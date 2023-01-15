@@ -2,13 +2,16 @@
   "Author": "ascclemens",
   "Name": "Glamaholic",
   "InternalName": "Glamaholic",
-  "AssemblyVersion": "1.9.9.0",
+  "AssemblyVersion": "1.9.10.0",
   "Description": "Create and save as many glamour plates as you want. Activate up to 15 of them\nat once at the Glamour Dresser. Supports exporting and importing plates for\neasy sharing.\n",
   "ApplicableVersion": "any",
   "RepoUrl": "https://git.annaclemens.io/ascclemens/Glamaholic",
-  "DalamudApiLevel": 7,
+  "DalamudApiLevel": 8,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
   "LoadPriority": 0,
   "Punchline": "Save and swap your glamour plates.",
+  "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "stable"
 }
