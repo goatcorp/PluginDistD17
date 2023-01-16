@@ -2,8 +2,8 @@
   "Author": "Det",
   "Name": "Target Furniture",
   "InternalName": "TargetFurniture",
-  "AssemblyVersion": "1.0.1.6",
-  "Description": "Currently, the only possible way to select a housing item is to click it manually with your mouse over it, and that can be a problem if you have multiple items close to each other.\nThis plugin adds a new option when right-clicking an item from the Housing Menu that targets the item for you, saving you a lot of trouble.",
+  "AssemblyVersion": "1.0.1.7",
+  "Description": "Currently, the only possible way to select a housing item is to click the furniture itself, and this can be a problem if you have multiple items close to each other.\n\nThis plugin adds a new option in the Housing Menu that targets the furniture for you",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/InitialDet/TargetFurniture",
   "Tags": [
@@ -21,7 +21,7 @@
     "https://raw.githubusercontent.com/InitialDet/TargetFurniture/main/TargetFurniture/images/image1.png"
   ],
   "IconUrl": "https://raw.githubusercontent.com/InitialDet/TargetFurniture/main/TargetFurniture/images/icon.png",
-  "Punchline": "Adds an option that lets you Select/Move a housing item from the Housing Menu",
+  "Punchline": "You can now select furnitures from the Housing Menu",
   "Changelog": "6.3 update",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
