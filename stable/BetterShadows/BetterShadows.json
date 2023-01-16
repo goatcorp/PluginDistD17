@@ -2,7 +2,7 @@
   "Author": "Drahsid",
   "Name": "Better Shadows",
   "InternalName": "BetterShadows",
-  "AssemblyVersion": "1.0.0.8223",
+  "AssemblyVersion": "1.0.0.25075",
   "Description": "Directly adjust the distance of each shadow cascade! Now introducing 4k shadowmap!",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Drahsid/BetterShadows",
@@ -10,7 +10,7 @@
   "LoadRequiredState": 0,
   "LoadSync": false,
   "LoadPriority": 0,
-  "Punchline": "Take control of your shaodws!",
+  "Punchline": "Take control of your shadows!",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "stable"
