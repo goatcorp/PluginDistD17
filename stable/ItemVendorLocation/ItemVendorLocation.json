@@ -2,7 +2,7 @@
   "Author": "electr0sheep",
   "Name": "Item Vendor Location",
   "InternalName": "ItemVendorLocation",
-  "AssemblyVersion": "1.0.0.1",
+  "AssemblyVersion": "1.0.0.3",
   "Description": "Adds a context menu option for items that will show you where to find items you can buy off a vendor",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/electr0sheep/ItemVendorLocation",
@@ -11,9 +11,12 @@
     "plugin",
     "item"
   ],
-  "DalamudApiLevel": 7,
+  "DalamudApiLevel": 8,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
   "LoadPriority": 0,
   "Punchline": "Shows you where to buy vendor items",
+  "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "stable"
 }
