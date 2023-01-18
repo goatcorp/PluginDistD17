@@ -2,8 +2,8 @@
   "Author": "Meoiswa",
   "Name": "Tilted",
   "InternalName": "Tilted",
-  "AssemblyVersion": "1.0.0.0",
-  "Description": "Automatically adjusts the Third Person Camera Angle given certain conditions.",
+  "AssemblyVersion": "2.0.0.1",
+  "Description": "Automatically adjusts the Third Person Camera Angle/Distance given certain conditions.",
   "ApplicableVersion": "any",
   "Tags": [
     "UI",
