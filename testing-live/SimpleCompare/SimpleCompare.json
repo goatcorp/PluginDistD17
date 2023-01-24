@@ -1,0 +1,22 @@
+{
+  "Author": "53m1k0l0n, rennerdo30",
+  "Name": "SimpleCompare",
+  "InternalName": "SimpleCompare",
+  "AssemblyVersion": "2.0.0.0",
+  "Description": "Show simple item comparison when pressing SHIFT and hovering over item",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/53m1k0l0n/ffxiv-simplecompare",
+  "Tags": [
+    "compare",
+    "plugin"
+  ],
+  "DalamudApiLevel": 8,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "LoadPriority": 0,
+  "IconUrl": "https://raw.githubusercontent.com/53m1k0l0n/ffxiv-simplecompare/main/SimpleCompare/Images/icon.png",
+  "Punchline": "Simple item comparison",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "testing-live"
+}
