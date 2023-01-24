@@ -2,7 +2,7 @@
   "Author": "Chivalrik",
   "Name": "GentleTouch",
   "InternalName": "GentleTouch",
-  "AssemblyVersion": "1.6.2",
+  "AssemblyVersion": "1.6.3",
   "Description": "You need to configure patterns and triggers before it will work, \nopen the configuration window to do that. \nDS5 is currently unsupported. \nCurrently supported triggers are:\n- Cooldowns\n- Near Aether Current",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/fitzchivalrik/gentletouch",
@@ -11,7 +11,7 @@
   "LoadSync": false,
   "LoadPriority": 0,
   "Punchline": "Create vibration patterns for the controller and specify triggers to make it vibrate.",
-  "Changelog": "- chore: Update to API 8",
+  "Changelog": "- fix: Do not vibrate on already attuned Aether Currents",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "stable"
