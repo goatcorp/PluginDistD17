@@ -1,0 +1,23 @@
+{
+  "Author": "53m1k0l0n, srkizer",
+  "Name": "Quote of the Lobby",
+  "InternalName": "QuoteOfTheLobby",
+  "AssemblyVersion": "1.0.0.9",
+  "Description": "Displays a random dialogue, and/or the datacenter you'll be connecting to when you press GAME START.",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/53m1k0l0n/QuoteOfTheLobby",
+  "Tags": [
+    "qotd",
+    "lobby",
+    "datacenter"
+  ],
+  "DalamudApiLevel": 8,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "LoadPriority": 0,
+  "IconUrl": "https://raw.githubusercontent.com/53m1k0l0n/QuoteOfTheLobby/main/QuoteOfTheLobby/Image/icon.png",
+  "Punchline": "Simmer does the light before every login.",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "testing-live"
+}
