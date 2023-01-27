@@ -2,7 +2,7 @@
   "Author": "karashiiro",
   "Name": "TextToTalk",
   "InternalName": "TextToTalk",
-  "AssemblyVersion": "1.20.1.0",
+  "AssemblyVersion": "1.21.0.0",
   "Description": "Chat and game dialogue TTS. Use /tttconfig to configure the enabled channels and triggers/exceptions.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/karashiiro/TextToTalk",
@@ -19,9 +19,7 @@
   "LoadRequiredState": 0,
   "LoadSync": false,
   "LoadPriority": 0,
-  "ImageUrls": [
-    "https://raw.githubusercontent.com/karashiiro/TextToTalk/main/images/icon.png"
-  ],
+  "ImageUrls": [],
   "IconUrl": "https://raw.githubusercontent.com/karashiiro/TextToTalk/main/images/icon.png",
   "Punchline": "Chat and game dialogue TTS plugin.",
   "AcceptsFeedback": true,
