@@ -2,7 +2,7 @@
   "Author": "Daniel Guiomarino",
   "Name": "Monster Loot Hunter",
   "InternalName": "MonsterLootHunter",
-  "AssemblyVersion": "1.0.8.0",
+  "AssemblyVersion": "1.0.9.0",
   "Description": "Search for specific loot from monsters and NPCs and their location.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/danielbrenom/MonsterLootHunter",
@@ -17,7 +17,7 @@
   "LoadSync": false,
   "LoadPriority": 0,
   "Punchline": "A monster loot finder plugin.",
-  "Changelog": "- Cloth category added\n- Removed deprecated extraction\n- Duty drops added\n- Simple information for recipes, treasure maps, desynthesis and gathering\n- Plugin overhaul",
+  "Changelog": "- Removed material listing limitations\n- More context menu support",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "stable"
