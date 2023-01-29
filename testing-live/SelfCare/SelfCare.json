@@ -1,0 +1,24 @@
+{
+  "Author": "Chirp",
+  "Name": "SelfCare",
+  "InternalName": "SelfCare",
+  "AssemblyVersion": "0.1.0.0",
+  "Description": "Configurable reminders to hydrate and maintain a healthy posture.",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/chirpxiv/SelfCare",
+  "Tags": [
+    "SelfCare",
+    "posture",
+    "hydrate",
+    "water"
+  ],
+  "DalamudApiLevel": 8,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "LoadPriority": 0,
+  "IconUrl": "https://github.com/chirpxiv/SelfCare/raw/main/icon.png",
+  "Punchline": "Remember to check your posture!",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "testing-live"
+}

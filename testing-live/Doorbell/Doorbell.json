@@ -1,0 +1,17 @@
+{
+  "Author": "SoyaX",
+  "Name": "Doorbell",
+  "InternalName": "Doorbell",
+  "AssemblyVersion": "0.1.0.1",
+  "Description": "Play a chime when someone comes into a house, when they leave or when entering a house people are already inside.\n\nIcon by Flaticon",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/SoyaX/Doorbell",
+  "DalamudApiLevel": 8,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "LoadPriority": 0,
+  "Punchline": "Play a chime when someone comes into a house.",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "testing-live"
+}
