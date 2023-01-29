@@ -1,0 +1,24 @@
+{
+  "Author": "Snowy",
+  "Name": "Eureka Helper",
+  "InternalName": "EurekaHelper",
+  "AssemblyVersion": "0.0.0.1",
+  "Description": "A tool to assist you on your Eureka adventures. Type /eurekahelper to get started.",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/Snooooowy",
+  "Tags": [
+    "eureka",
+    "tracker"
+  ],
+  "CategoryTags": [
+    "utility"
+  ],
+  "DalamudApiLevel": 8,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "LoadPriority": 0,
+  "Punchline": "QoL for Eureka",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "testing-live"
+}
