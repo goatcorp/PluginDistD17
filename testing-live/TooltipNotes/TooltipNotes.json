@@ -2,7 +2,7 @@
   "Author": "Lore",
   "Name": "TooltipNotes",
   "InternalName": "TooltipNotes",
-  "AssemblyVersion": "0.1.1.0",
+  "AssemblyVersion": "0.1.1.1",
   "Description": "By Right-clicking an Item you can add a new note or edit an existing one",
   "ApplicableVersion": "any",
   "Tags": [
