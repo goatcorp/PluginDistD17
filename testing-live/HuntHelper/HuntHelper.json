@@ -1,0 +1,33 @@
+{
+  "Author": "imaginary-png",
+  "Name": "Hunt Helper",
+  "InternalName": "HuntHelper",
+  "AssemblyVersion": "1.0.0.1",
+  "Description": "Hunt map with spawns points, A-Rank train recorder (w/ export/import sharing), TTS, Chat notifications, Counters for S-Rank Spawns",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/imaginary-png/HuntHelper",
+  "Tags": [
+    "hunt",
+    "radar",
+    "the hunt",
+    "train",
+    "s rank",
+    "map",
+    "mob"
+  ],
+  "DalamudApiLevel": 8,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "LoadPriority": 0,
+  "ImageUrls": [
+    "https://raw.githubusercontent.com/imaginary-png/HuntHelper/main/Images/image1.png",
+    "https://raw.githubusercontent.com/imaginary-png/HuntHelper/main/Images/image2.png",
+    "https://raw.githubusercontent.com/imaginary-png/HuntHelper/main/Images/image3.png",
+    "https://raw.githubusercontent.com/imaginary-png/HuntHelper/main/Images/image4.png"
+  ],
+  "IconUrl": "https://raw.githubusercontent.com/imaginary-png/HuntHelper/main/Images/icon.png",
+  "Punchline": "basically a hunt radar + train recorder + notifications + s rank utils +++.",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "testing-live"
+}
