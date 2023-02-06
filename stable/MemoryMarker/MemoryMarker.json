@@ -1,0 +1,25 @@
+{
+  "Author": "MidoriKami",
+  "Name": "Memory Marker",
+  "InternalName": "MemoryMarker",
+  "AssemblyVersion": "0.1.0.2",
+  "Description": "Ever forget which waymark slot holds your pre-fight positions? Which waymarks are for pugs and not your static?\nWorry not! MemoryMarker has your back!\n\nLoads and Saves waymarks when changing zones. Allows you to rename presets in the waymark window.",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/MidoriKami/MemoryMarker",
+  "Tags": [
+    "Utility",
+    "UI"
+  ],
+  "CategoryTags": [
+    "Utility",
+    "UI"
+  ],
+  "DalamudApiLevel": 8,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "LoadPriority": 0,
+  "Punchline": "Simple Waymark Management with Renaming Features",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "stable"
+}
