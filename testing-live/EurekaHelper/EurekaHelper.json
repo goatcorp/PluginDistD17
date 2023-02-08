@@ -2,7 +2,7 @@
   "Author": "Snowy",
   "Name": "Eureka Helper",
   "InternalName": "EurekaHelper",
-  "AssemblyVersion": "0.0.0.3",
+  "AssemblyVersion": "0.0.0.4",
   "Description": "A tool to assist you on your Eureka adventures. Type /eurekahelper to get started.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/snooooowy/EurekaHelper",
