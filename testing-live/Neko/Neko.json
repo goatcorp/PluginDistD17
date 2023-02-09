@@ -2,8 +2,8 @@
   "Author": "Meisterlala",
   "Name": "Neko Fans",
   "InternalName": "Neko",
-  "AssemblyVersion": "1.1.4",
-  "Description": "Shows you an image of a random neko character. Click on the image to view the next one.\nYou can choose different image sources, allowing you to look at Catboys, Waifus, Cats, Dogs and more.\n\nSupported APIs:\nTwitter, Nekos.life, Catboys, Dog CEO, The Cat API, Pic.re, Waifu.im, Waifu.pics and shibe.online\n\nWarning: You might see naughty images",
+  "AssemblyVersion": "1.2.3",
+  "Description": "Shows you an image of a random neko character. Click on the image to view the next one.\nYou can choose different image sources, allowing you to look at Catboys, Waifus, Cats, Dogs and more.\n\nSupported APIs:\nTwitter, nekos.best, Nekos.life, Catboys, Dog CEO, The Cat API, Pic.re, Waifu.im, Waifu.pics and shibe.online\n\nWarning: You might see naughty images",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Meisterlala/NekoFans",
   "Tags": [
@@ -16,7 +16,7 @@
   "CategoryTags": [
     "UI"
   ],
-  "DalamudApiLevel": 7,
+  "DalamudApiLevel": 8,
   "LoadPriority": 0,
   "ImageUrls": [
     "https://raw.githubusercontent.com/Meisterlala/NekoFans/master/images/image1.png",
