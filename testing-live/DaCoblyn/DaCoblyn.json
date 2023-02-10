@@ -1,0 +1,22 @@
+{
+  "Author": "Munn",
+  "Name": "DaCoblyn",
+  "InternalName": "DaCoblyn",
+  "AssemblyVersion": "1.0.0.0",
+  "Description": "Translate tools that allow you to communicate with foreign friend that you doesn't know what they're saying.",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/thatismunn/xiv-coblyn",
+  "Tags": [
+    "plugin",
+    "translate"
+  ],
+  "DalamudApiLevel": 8,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "LoadPriority": 0,
+  "IconUrl": "https://raw.githubusercontent.com/thatismunn/xiv-coblyn/main/coblyn.png",
+  "Punchline": "Speak to your Japanese friend!",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "testing-live"
+}
