@@ -1,0 +1,23 @@
+{
+  "Author": "Infi",
+  "Name": "Hunty",
+  "InternalName": "Hunty",
+  "AssemblyVersion": "0.0.1.0",
+  "Description": "Never has it been that easy to finish your hunting log.",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/Infiziert90/Hunty",
+  "Tags": [
+    "hunting log"
+  ],
+  "CategoryTags": [
+    "jobs"
+  ],
+  "DalamudApiLevel": 8,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "LoadPriority": 0,
+  "Punchline": "Time to finish your log?",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "testing-live"
+}
