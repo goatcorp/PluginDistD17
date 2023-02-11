@@ -2,8 +2,8 @@
   "Author": "Mienna",
   "Name": "Beachcomber",
   "InternalName": "Beachcomber",
-  "AssemblyVersion": "1.0.4.1",
-  "Description": "This solver examines your Island Sanctuary data (including your Isleventory!) to provide recommendations to maximize your Seafarer's Cowrie earnings.\n\nMade in collaboration with the Overseas Casuals.",
+  "AssemblyVersion": "1.1.0.0",
+  "Description": "This solver examines your Island Sanctuary data (including your Isleventory!) to provide recommendations to maximize your Seafarer's Cowrie earnings. Use /cowries to open up the menu.\n\nMade in collaboration with the Overseas Casuals.",
   "ApplicableVersion": "any",
   "Tags": [
     "island sanctuary",
@@ -14,9 +14,12 @@
     "utility",
     "cowrie"
   ],
-  "DalamudApiLevel": 7,
+  "DalamudApiLevel": 8,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
   "LoadPriority": 0,
   "Punchline": "Determines the most profitable agenda for your Island Sanctuary workshop each cycle",
+  "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "testing-live"
 }
