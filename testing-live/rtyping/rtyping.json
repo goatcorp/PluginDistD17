@@ -1,0 +1,27 @@
+{
+  "Author": "apetih",
+  "Name": "RTyping",
+  "InternalName": "rtyping",
+  "AssemblyVersion": "0.0.1.4",
+  "Description": "Allows other people using this plugin to see your typing status when in the same party.",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/apetih/rtyping",
+  "Tags": [
+    "chat",
+    "indicator",
+    "typing"
+  ],
+  "CategoryTags": [
+    "ui",
+    "utility"
+  ],
+  "DalamudApiLevel": 8,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "LoadPriority": 0,
+  "IconUrl": "https://raw.githubusercontent.com/apetih/rtyping/main/res/img/icon.png",
+  "Punchline": "Let people know when you r typing.",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "testing-live"
+}

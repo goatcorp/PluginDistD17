@@ -2,7 +2,7 @@
   "Author": "Munn",
   "Name": "DaCoblyn",
   "InternalName": "DaCoblyn",
-  "AssemblyVersion": "1.0.0.0",
+  "AssemblyVersion": "1.0.2.1",
   "Description": "Translate tools that allow you to communicate with foreign friend that you doesn't know what they're saying.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/thatismunn/xiv-coblyn",
