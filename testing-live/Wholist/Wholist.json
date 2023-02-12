@@ -2,7 +2,7 @@
   "Author": "BitsOfAByte",
   "Name": "Wholist",
   "InternalName": "Wholist",
-  "AssemblyVersion": "0.2.1.0",
+  "AssemblyVersion": "0.3.0.0",
   "Description": "Show which players are nearby to you, alike to World of Warcraft's \"/who\" command.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/BitsOfAByte/Wholist",
