@@ -2,7 +2,7 @@
   "Author": "Infi, Sl0nderman",
   "Name": "Blue Mage Helper",
   "InternalName": "BlueMageHelper",
-  "AssemblyVersion": "2.0.2.0",
+  "AssemblyVersion": "2.0.3.0",
   "Description": "Adds monster names and coordinates to the \"Where to Learn\" section of your blue mage spellbook.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Infiziert90/BlueMageHelper",

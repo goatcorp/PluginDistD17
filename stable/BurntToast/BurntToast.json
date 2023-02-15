@@ -2,13 +2,16 @@
   "Author": "ascclemens",
   "Name": "Burnt Toast",
   "InternalName": "BurntToast",
-  "AssemblyVersion": "1.2.5",
+  "AssemblyVersion": "1.2.6",
   "Description": "Hides toast notifications you don't want to see.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://git.annaclemens.io/ascclemens/BurntToast",
-  "DalamudApiLevel": 7,
+  "DalamudApiLevel": 8,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
   "LoadPriority": 0,
   "Punchline": "Hides toast notifications you don't want to see.",
+  "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "stable"
 }
