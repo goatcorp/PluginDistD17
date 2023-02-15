@@ -2,8 +2,8 @@
   "Author": "Chivalrik",
   "Name": "GentleTouch",
   "InternalName": "GentleTouch",
-  "AssemblyVersion": "1.10.1",
-  "Description": "You need to configure patterns and triggers before it will work, \nopen the configuration window to do that.  \nCurrently supported triggers are:\n- Cooldowns\n- Near Aether Current",
+  "AssemblyVersion": "1.10.2",
+  "Description": "You need to configure patterns and triggers before it will work, \nopen the configuration window to do that.  \n\nFor DualSense/Shock4 support, the controller needs to be connected wired (same as the game's)\nand there can only be one of a type connected (e.g., only one DualSense, not two).\n\nCurrently supported triggers are:\n- Cooldowns\n- Near Aether Current",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/fitzchivalrik/gentletouch",
   "DalamudApiLevel": 8,
@@ -11,7 +11,6 @@
   "LoadSync": false,
   "LoadPriority": 0,
   "Punchline": "Create vibration patterns for the controller and specify triggers to make it vibrate.",
-  "Changelog": "- feat: DualSense support via DS4 compatibility vibrations\n- feat(DualSense): Set resistance for Adaptive Triggers\n- feat(DS+DS4): Two extra macro buttons:\n  Create (DualSense) / TouchPad (DualShock4) as Individual Macro #96,\n  PS Button as Individual Macro #97\n- feat: Option to /draw & /sheathe with PS button instead of Macro #97\n\nCheck out the new settings tab, if you are using a DualSense/DualShock4.",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "stable"
