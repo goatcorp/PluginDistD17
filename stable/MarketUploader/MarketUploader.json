@@ -1,0 +1,22 @@
+{
+  "Author": "Zhyra",
+  "Name": "Market Uploader",
+  "InternalName": "MarketUploader",
+  "AssemblyVersion": "1.0.5.0",
+  "Description": "Uploads market data to market.xivhub.org and other configurable aggregators.",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/ZhyraPlugins/MarketUploader",
+  "Tags": [
+    "market",
+    "uploader"
+  ],
+  "DalamudApiLevel": 8,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "LoadPriority": 0,
+  "IconUrl": "https://raw.githubusercontent.com/ZhyraPlugins/MarketUploader/master/MarketUploader/images/icon.png",
+  "Punchline": "Uploads market data to market.xivhub.org and other configurable aggregators.",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "stable"
+}
