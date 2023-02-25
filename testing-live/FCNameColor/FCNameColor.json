@@ -2,7 +2,7 @@
   "Author": "CFG",
   "Name": "FC Name Color",
   "InternalName": "FCNameColor",
-  "AssemblyVersion": "3.0.0.0",
+  "AssemblyVersion": "3.0.2.0",
   "Description": "Color your FC’s tag or the entire nameplate if they are in your FC or other specified FCs.\nWorks using Lodestone data, so it can continue working inside duties as well as on different servers!",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/WesselKuipers/FCNameColor",
@@ -16,10 +16,14 @@
     "ui",
     "social"
   ],
-  "DalamudApiLevel": 7,
+  "DalamudApiLevel": 8,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
   "LoadPriority": 0,
   "IconUrl": "https://github.com/WesselKuipers/FCNameColor/raw/main/images/icon.png",
   "Punchline": "Color your FC member’s FC tags",
+  "AcceptsFeedback": true,
+  "FeedbackMessage": "Please include your character’s name and server if you’re reporting a bug or issue. This helps a lot with the troubleshooting process.",
   "_isDip17Plugin": true,
   "_Dip17Channel": "testing-live"
 }

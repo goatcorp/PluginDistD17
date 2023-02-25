@@ -2,7 +2,7 @@
   "Author": "Berna",
   "Name": "TF2-ish Critical Hits Plugin",
   "InternalName": "Tf2CriticalHitsPlugin",
-  "AssemblyVersion": "2.2.1.0",
+  "AssemblyVersion": "2.3.0.0",
   "Description": "Deal critical hits just like in the #1 hat simulator, Team Fortress 2.\nIncludes options to add sounds (non-included) and flavor text to floating damage values.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Berna-L/ffxiv-tf2-crit-plugin",
