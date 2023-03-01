@@ -2,16 +2,19 @@
   "Author": "LittleNighmare",
   "Name": "Used Name",
   "InternalName": "UsedName",
-  "AssemblyVersion": "0.7.6.5",
-  "Description": "A simple tool to record players' used names and nickname, only supports FriendList currently. Right click on the target to add/check the used names and nickname.\n",
+  "AssemblyVersion": "0.8.1.0",
+  "Description": "A simple tool to record players' used names and nickname, only supports SocialList currently. Right click on the target to add/check the used names and nickname.\n",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/LittleNightmare/UsedName",
   "Tags": [
     "social"
   ],
-  "DalamudApiLevel": 7,
+  "DalamudApiLevel": 8,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
   "LoadPriority": 0,
   "Punchline": "A simple tool to record players' used names and nickname",
+  "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "testing-live"
 }
