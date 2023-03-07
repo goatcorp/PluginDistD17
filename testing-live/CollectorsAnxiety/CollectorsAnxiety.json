@@ -2,13 +2,16 @@
   "Author": "Kaz Wolfe",
   "Name": "Collector's Anxiety",
   "InternalName": "CollectorsAnxiety",
-  "AssemblyVersion": "0.0.3.0",
+  "AssemblyVersion": "0.0.4.0",
   "Description": "Collector's Anxiety helps completionists or players with a hobby for collecting in-game things keep track of what they do or don't have in an easy-to-use checklist format. Data is loaded live from the game, so collection statuses are updated in real-time.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/KazWolfe/CollectorsAnxiety/",
-  "DalamudApiLevel": 7,
+  "DalamudApiLevel": 8,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
   "LoadPriority": 0,
   "Punchline": "Hey guys, Famous YouTuber here. Do you ever get Collector's Anxiety?",
+  "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "testing-live"
 }
