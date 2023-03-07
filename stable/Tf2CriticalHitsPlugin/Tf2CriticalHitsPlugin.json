@@ -2,7 +2,7 @@
   "Author": "Berna",
   "Name": "TF2-ish Critical Hits Plugin",
   "InternalName": "Tf2CriticalHitsPlugin",
-  "AssemblyVersion": "2.3.0.0",
+  "AssemblyVersion": "2.3.1.0",
   "Description": "Deal critical hits just like in the #1 hat simulator, Team Fortress 2.\n\n* Set sounds and flavor text to be played/shown whenever you deal direct or critical damage or heal.\n* Use different configurations by job.\n* Use the game's SFX or your own custom WAV or MP3 files.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Berna-L/ffxiv-tf2-crit-plugin",
