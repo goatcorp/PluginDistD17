@@ -2,7 +2,7 @@
   "Author": "Tischel",
   "Name": "Inventory Search Bar",
   "InternalName": "InventorySearchBar",
-  "AssemblyVersion": "1.1.0.2",
+  "AssemblyVersion": "1.2.0.0",
   "Description": "Supports different types of filters to be able to find items by name, type, supported job or level requirements.\n\nSupported Inventories:\n\t- Character Inventory\n\t- Chocobo Saddlebags\n\t- Retainer Inventory\n\t- Armoury",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Tischel/InventorySearchBar",
