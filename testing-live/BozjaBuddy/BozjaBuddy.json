@@ -1,0 +1,23 @@
+{
+  "Author": "K-Cli",
+  "Name": "Bozja Buddy",
+  "InternalName": "BozjaBuddy",
+  "AssemblyVersion": "0.0.0.1",
+  "Description": "Features:\n• Info about Lost Actions, Fragments, FATEs/CE e.g. location, drops, fate chains, mettle rewards, exp rewards, etc.",
+  "ApplicableVersion": "any",
+  "Tags": [
+    "bozja",
+    "buddy",
+    "zadnor",
+    "foray",
+    "fate"
+  ],
+  "DalamudApiLevel": 8,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "LoadPriority": 0,
+  "Punchline": "Improve your Bozja sufferring. Maybe.",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "testing-live"
+}
