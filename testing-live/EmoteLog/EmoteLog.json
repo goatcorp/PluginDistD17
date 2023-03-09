@@ -1,0 +1,19 @@
+{
+  "Author": "Speedas",
+  "Name": "Emote log",
+  "InternalName": "EmoteLog",
+  "AssemblyVersion": "0.1.0.1",
+  "Description": "Adds a window logging all emotes used on you, so you never miss a sneaky dote again.",
+  "ApplicableVersion": "any",
+  "CategoryTags": [
+    "social"
+  ],
+  "DalamudApiLevel": 8,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "LoadPriority": 0,
+  "Punchline": "Track who used what emotes on you.",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "testing-live"
+}
