@@ -2,20 +2,24 @@
   "Author": "electr0sheep",
   "Name": "Item Vendor Location",
   "InternalName": "ItemVendorLocation",
-  "AssemblyVersion": "1.1.0.2",
+  "AssemblyVersion": "2.0.0.0",
   "Description": "Adds a context menu option for items that will show you where to find items you can buy off a vendor",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/electr0sheep/ItemVendorLocation",
   "Tags": [
-    "vendor",
-    "plugin",
-    "item"
+    "vendor plugin item"
   ],
   "DalamudApiLevel": 8,
   "LoadRequiredState": 0,
   "LoadSync": false,
+  "CanUnloadAsync": false,
   "LoadPriority": 0,
+  "ImageUrls": [
+    "https://raw.githubusercontent.com/electr0sheep/ItemVendorLocation/main/Images/ContextMenu.png"
+  ],
+  "IconUrl": "https://raw.githubusercontent.com/electr0sheep/ItemVendorLocation/main/Images/icon.png",
   "Punchline": "Shows you where to buy vendor items",
+  "Changelog": "- Added settings UI\n- Added single vendor chat option back\n- Allow searching GarlandTools OR internal data sheets\n\nIf the plugin isn't working for a particular item, please let me know the name of the item. Creating an issue in GitHub works best, but leaving feedback will work as well.",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "stable"
