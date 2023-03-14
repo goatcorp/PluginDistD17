@@ -2,7 +2,7 @@
   "Author": "K-Cli",
   "Name": "Bozja Buddy",
   "InternalName": "BozjaBuddy",
-  "AssemblyVersion": "0.0.0.1",
+  "AssemblyVersion": "0.1.0.0",
   "Description": "Features:\n• Info about Lost Actions, Fragments, FATEs/CE e.g. location, drops, fate chains, mettle rewards, exp rewards, etc.",
   "ApplicableVersion": "any",
   "Tags": [
