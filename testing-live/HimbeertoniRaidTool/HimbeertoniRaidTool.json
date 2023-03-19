@@ -2,16 +2,17 @@
   "Author": "Koenari",
   "Name": "Himbeertoni Raid Tool",
   "InternalName": "HimbeertoniRaidTool",
-  "AssemblyVersion": "1.1.2.51",
+  "AssemblyVersion": "1.1.4.57",
   "Description": "A collection of useful tools for RaidGroups, including loot management",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Koenari/HimbeertoniRaidTool/wiki",
   "Tags": [
     "Raid",
     "Loot",
-    "Equipment"
+    "Equipment",
+    "Gear"
   ],
-  "DalamudApiLevel": 7,
+  "DalamudApiLevel": 8,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "LoadPriority": 0,
@@ -22,7 +23,7 @@
   ],
   "IconUrl": "https://raw.githubusercontent.com/Koenari/HimbeertoniRaidTool/master/images/icon.png",
   "Punchline": "All you need for Raiding",
-  "Changelog": "fix: HP calculation\nadd: stat calculation for most levels\nlocalization: added JP (thanks to Refer)\nfix: load time reduced",
+  "Changelog": "New feature: gear-set compare\nUi: reworked editing of gear\nUi: stat tabel now includes comparison\nLootSession: calc estimated dps gain/loss",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "testing-live"
