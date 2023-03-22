@@ -2,7 +2,7 @@
   "Author": "Lore",
   "Name": "TooltipNotes",
   "InternalName": "TooltipNotes",
-  "AssemblyVersion": "0.1.2.0",
+  "AssemblyVersion": "0.1.2.1",
   "Description": "By Right-clicking an Item you can add a new note or edit an existing one",
   "ApplicableVersion": "any",
   "Tags": [
@@ -14,6 +14,7 @@
   "DalamudApiLevel": 8,
   "LoadRequiredState": 0,
   "LoadSync": false,
+  "CanUnloadAsync": false,
   "LoadPriority": 0,
   "Punchline": "A Plugin that lets you add notes to item Tooltips",
   "AcceptsFeedback": true,
