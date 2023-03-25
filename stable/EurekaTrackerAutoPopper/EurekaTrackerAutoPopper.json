@@ -1,11 +1,11 @@
 {
-  "Author": "electr0sheep",
-  "Name": "Eureka Tracker Auto Popper",
+  "Author": "Infi, electr0sheep",
+  "Name": "Eureka Linker",
   "InternalName": "EurekaTrackerAutoPopper",
-  "AssemblyVersion": "0.0.0.4",
-  "Description": "Automatically pops NMs in the Eureka Tracker",
+  "AssemblyVersion": "1.0.0.2",
+  "Description": "Automatically notifies you about NMs in Eureka, with the ability to pop them on a tracker.\n- Fairy Finder\n- Bunny Timer Window\n- Bunny Chest Helper\n- Quest Guide (clickable coords)",
   "ApplicableVersion": "any",
-  "RepoUrl": "https://github.com/electr0sheep/EurekaTrackerAutoPopper",
+  "RepoUrl": "https://github.com/Infiziert90/EurekaTrackerAutoPopper",
   "Tags": [
     "plugin",
     "eureka",
@@ -15,7 +15,7 @@
   "LoadRequiredState": 0,
   "LoadSync": false,
   "LoadPriority": 0,
-  "Punchline": "",
+  "Punchline": "Notify and Pop",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "stable"
