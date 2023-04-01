@@ -2,7 +2,7 @@
   "Author": "Koenari",
   "Name": "Himbeertoni Raid Tool",
   "InternalName": "HimbeertoniRaidTool",
-  "AssemblyVersion": "1.1.4.59",
+  "AssemblyVersion": "1.1.5.60",
   "Description": "A collection of useful tools for RaidGroups, including loot management",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Koenari/HimbeertoniRaidTool/wiki",
@@ -23,7 +23,7 @@
   ],
   "IconUrl": "https://raw.githubusercontent.com/Koenari/HimbeertoniRaidTool/master/images/icon.png",
   "Punchline": "All you need for Raiding",
-  "Changelog": "New feature: Quickly compare current gear to potential gear\nUi: add icons (see config options)\nUi: reworked editing of gear\nUi: stat table now includes comparison values\nLootSession: new metric, estimated % dps gain/loss\nBugfix: fixed a crash in wine",
+  "Changelog": "Bugfix: Generla configuration is saved correctly",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "stable"

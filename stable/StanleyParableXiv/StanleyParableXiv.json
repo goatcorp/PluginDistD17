@@ -1,0 +1,25 @@
+{
+  "Author": "rekyuu",
+  "Name": "Stanley Parable XIV",
+  "InternalName": "StanleyParableXiv",
+  "AssemblyVersion": "1.3.0.0",
+  "Description": "Check /narrator for full options or use /narratorvolume to set volume manually.",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/rekyuu/StanleyParableXiv",
+  "Tags": [
+    "narrator",
+    "sound",
+    "plugin",
+    "Stanley Parable",
+    "narrator"
+  ],
+  "DalamudApiLevel": 8,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "LoadPriority": 0,
+  "IconUrl": "https://raw.githubusercontent.com/rekyuu/StanleyParableXiv/main/images/icon.png",
+  "Punchline": "Witty commentary to the brilliant things you do.",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "stable"
+}
