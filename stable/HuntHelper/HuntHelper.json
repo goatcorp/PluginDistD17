@@ -2,7 +2,7 @@
   "Author": "imaginary-png",
   "Name": "Hunt Helper",
   "InternalName": "HuntHelper",
-  "AssemblyVersion": "1.0.0.3",
+  "AssemblyVersion": "1.0.0.4",
   "Description": "Hunt map with spawns points, A-Rank train recorder (w/ export/import sharing), TTS, Chat notifications, Counters for S-Rank Spawns",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/imaginary-png/HuntHelper",
