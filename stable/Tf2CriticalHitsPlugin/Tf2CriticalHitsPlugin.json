@@ -1,9 +1,9 @@
 {
   "Author": "Berna",
-  "Name": "TF2-ish Critical Hits Plugin",
+  "Name": "Hit it, Joe! (Formerly TF2-ish Critical Hits Plugin)",
   "InternalName": "Tf2CriticalHitsPlugin",
-  "AssemblyVersion": "2.4.1.0",
-  "Description": "Deal critical hits just like in the #1 hat simulator, Team Fortress 2.\n\n* Set sounds and flavor text to be played/shown whenever you deal direct or critical damage or heal.\n* Use different configurations by job.\n* Use the game's SFX or your own custom WAV or MP3 files.",
+  "AssemblyVersion": "3.0.4.0",
+  "Description": "* Set sounds and flavor text to be played/shown whenever you deal direct or critical damage or heal.\n* Set sounds to be played when a countdown is in progress.\n* Use different configurations by job.\n* Use the game's SFX or your own custom WAV or MP3 files.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Berna-L/ffxiv-tf2-crit-plugin",
   "Tags": [
@@ -15,7 +15,7 @@
   "LoadSync": false,
   "LoadPriority": 0,
   "IconUrl": "https://raw.githubusercontent.com/goatcorp/DalamudPluginsD17/main/testing/live/Tf2CriticalHitsPlugin/images/icon.png",
-  "Punchline": "Deal critical hits just like in the #1 hat simulator, Team Fortress 2.",
+  "Punchline": "Configure sounds for critical and direct hits, plus some countdown music.",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "stable"
