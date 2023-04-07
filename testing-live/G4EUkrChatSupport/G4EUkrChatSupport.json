@@ -1,0 +1,27 @@
+{
+  "Author": "justscribe",
+  "Name": "G4E UkrChatSupport",
+  "InternalName": "G4EUkrChatSupport",
+  "AssemblyVersion": "1.0.0.27",
+  "Description": "Support for ukrainian characters in text chat and input field. Gaming4Eternity Ukrainian Community - https://gaming4eternity.online",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/justscribe/g4e_ukrchatsupport",
+  "Tags": [
+    "chat",
+    "ukr",
+    "g4e",
+    "UI"
+  ],
+  "CategoryTags": [
+    "Utility",
+    "UI"
+  ],
+  "DalamudApiLevel": 8,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "LoadPriority": 0,
+  "Punchline": "Support for ukrainian characters.",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "testing-live"
+}
