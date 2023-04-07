@@ -2,7 +2,7 @@
   "Author": "Infi",
   "Name": "Submarine Tracker",
   "InternalName": "SubmarineTracker",
-  "AssemblyVersion": "0.0.4.0",
+  "AssemblyVersion": "0.0.5.0",
   "Description": "Simple Submarine Tracker and Builder, with support for multiple FCs",
   "ApplicableVersion": "any",
   "Tags": [
