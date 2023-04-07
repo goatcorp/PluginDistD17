@@ -1,0 +1,24 @@
+{
+  "Author": "Infi",
+  "Name": "Submarine Tracker",
+  "InternalName": "SubmarineTracker",
+  "AssemblyVersion": "0.0.4.0",
+  "Description": "Simple Submarine Tracker and Builder, with support for multiple FCs",
+  "ApplicableVersion": "any",
+  "Tags": [
+    "Submarines",
+    "Tracking",
+    "Builder",
+    "Parts",
+    "Plugins"
+  ],
+  "DalamudApiLevel": 8,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "Punchline": "Simple Submarine Tracker and Builder",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "testing-live"
+}
