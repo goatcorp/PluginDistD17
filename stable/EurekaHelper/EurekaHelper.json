@@ -2,8 +2,8 @@
   "Author": "Snowy",
   "Name": "Eureka Helper",
   "InternalName": "EurekaHelper",
-  "AssemblyVersion": "1.1.0.0",
-  "Description": "A tool to assist you on your Eureka adventures. Type /eurekahelper to get started.\nFeatures include:\n- In-Game Tracker GUI\n- Instance Tracker\n- Money NM weather times\n- More to come",
+  "AssemblyVersion": "1.2.0.0",
+  "Description": "A tool to assist you on your Eureka adventures. Type /eurekahelper to get started.\nFeatures include:\n- In-Game Tracker GUI\n- Instance Tracker\n- Elementals Tracker\n- Money NM weather times\n- More to come",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/snooooowy/EurekaHelper",
   "Tags": [
@@ -12,7 +12,9 @@
     "QoL",
     "Instance",
     "Weather",
-    "NM"
+    "NM",
+    "Elemental",
+    "Fairy"
   ],
   "CategoryTags": [
     "utility"
@@ -20,6 +22,7 @@
   "DalamudApiLevel": 8,
   "LoadRequiredState": 0,
   "LoadSync": false,
+  "CanUnloadAsync": false,
   "LoadPriority": 0,
   "Punchline": "Eureka Tracker in a plugin with QoL features",
   "AcceptsFeedback": true,
