@@ -1,0 +1,24 @@
+{
+  "Author": "Berna",
+  "Name": "Team Fortress Fantasy",
+  "InternalName": "Tf2Hud",
+  "AssemblyVersion": "0.0.0.0",
+  "Description": "* Show a Win Panel (with sounds!) when you clear or get wiped in a duty\n* Show a Duty Timer, TF2-style.\n* More features maybe soon?\n\nNote: This plugin uses files from a local Team Fortress 2 installation.\nIt'll search for the game's installation folder in all configured Steam Library Folders automatically.",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/Berna-L/ffxiv-tf2-hud-plugin",
+  "Tags": [
+    "plugin",
+    "hud",
+    "audio"
+  ],
+  "DalamudApiLevel": 8,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "IconUrl": "https://raw.githubusercontent.com/goatcorp/DalamudPluginsD17/main/testing/live/Tf2Hud/images/icon.png",
+  "Punchline": "[REQUIRES TF2 TO BE INSTALLED] The finest mashup of games in the \"I kill things and do it in fashion\" genre.",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "testing-live"
+}
