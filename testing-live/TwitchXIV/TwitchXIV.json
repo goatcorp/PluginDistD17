@@ -1,0 +1,22 @@
+{
+  "Author": "Aida Enna",
+  "Name": "Twitch XIV",
+  "InternalName": "TwitchXIV",
+  "AssemblyVersion": "1.0.0.0",
+  "Description": "Allows you to join a Twitch chat and send messages and (optionally) have the twitch chat come through your chatbox.",
+  "ApplicableVersion": "any",
+  "RepoUrl": "hhttps://github.com/Aida-Enna/TwitchXIV",
+  "Tags": [
+    "twitch",
+    "aida"
+  ],
+  "DalamudApiLevel": 8,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "LoadPriority": 0,
+  "IconUrl": "https://i.imgur.com/U0L1ior.png",
+  "Punchline": "Sup y'all? It's ya boy, Twitch XIV, and today we're gonna be playing some final fantasy fourteen.",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "testing-live"
+}
