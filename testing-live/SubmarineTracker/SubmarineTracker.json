@@ -2,7 +2,7 @@
   "Author": "Infi",
   "Name": "Submarine Tracker",
   "InternalName": "SubmarineTracker",
-  "AssemblyVersion": "0.0.8.1",
+  "AssemblyVersion": "0.0.8.2",
   "Description": "Simple and Easy\n+ Tracks current builds, routes and times \n+ Builder to improve your builds  \n+ Breakpoint support\n+ Support for multiple FCs",
   "ApplicableVersion": "any",
   "Tags": [
