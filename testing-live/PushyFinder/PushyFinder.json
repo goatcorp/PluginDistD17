@@ -2,7 +2,7 @@
   "Author": "Luna@Nightshade (lostkagamine)",
   "Name": "PushyFinder",
   "InternalName": "PushyFinder",
-  "AssemblyVersion": "1.0.0.0",
+  "AssemblyVersion": "1.0.0.1",
   "Description": "A plugin that uses Pushover (https://pushover.net) to send mobile push notifications when party members join or leave, or when a duty finder queue is initiated.",
   "ApplicableVersion": "any",
   "Tags": [
