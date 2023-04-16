@@ -2,7 +2,7 @@
   "Author": "Koenari",
   "Name": "Himbeertoni Raid Tool",
   "InternalName": "HimbeertoniRaidTool",
-  "AssemblyVersion": "1.1.4.57",
+  "AssemblyVersion": "1.2.0.62",
   "Description": "A collection of useful tools for RaidGroups, including loot management",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Koenari/HimbeertoniRaidTool/wiki",
@@ -23,7 +23,7 @@
   ],
   "IconUrl": "https://raw.githubusercontent.com/Koenari/HimbeertoniRaidTool/master/images/icon.png",
   "Punchline": "All you need for Raiding",
-  "Changelog": "New feature: gear-set compare\nUi: reworked editing of gear\nUi: stat tabel now includes comparison\nLootSession: calc estimated dps gain/loss",
+  "Changelog": "Commands: /lm toggle togles the lootmaster window\nCommands: all commands are available as sub commmnds to /hrt eg. /lm *** can be used like /hrt lm ***\nDataStorage: reworked data storage as preparation for future features\nUi: editing gear should be more uniform and visually clear\nUi: you can delete a piece of gear\nUi: now shows all shops where an item is available",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "testing-live"
