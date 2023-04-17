@@ -2,8 +2,8 @@
   "Author": "Infi",
   "Name": "Submarine Tracker",
   "InternalName": "SubmarineTracker",
-  "AssemblyVersion": "0.1.0.2",
-  "Description": "Simple and Easy\n+ Tracks current builds, routes and times\n+ Loot overview for each FC \n+ Builder to improve your builds  \n+ Breakpoint support\n+ Support for multiple FCs",
+  "AssemblyVersion": "0.1.2.0",
+  "Description": "Simple and Easy\n+ Tracks current builds, routes and times\n+ Loot overview for each FC \n+ Builder to improve your builds\n+ Optimized EXP calculator for the selected build\n+ Unlockable exploration points are highlighted\n+ Breakpoint support\n+ Configurable notification for returning subs\n+ Support for multiple FCs",
   "ApplicableVersion": "any",
   "Tags": [
     "Submarines",
@@ -12,7 +12,8 @@
     "Parts",
     "Plugins",
     "Loot",
-    "Optimizer"
+    "Optimizer",
+    "Notifications"
   ],
   "DalamudApiLevel": 8,
   "LoadRequiredState": 0,
