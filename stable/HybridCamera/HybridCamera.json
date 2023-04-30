@@ -2,7 +2,7 @@
   "Author": "Drahsid",
   "Name": "Hybrid Camera",
   "InternalName": "HybridCamera",
-  "AssemblyVersion": "1.1.0.0",
+  "AssemblyVersion": "1.1.1.0",
   "Description": "Hybrid camera/movement mode! Move freely!",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Drahsid/HybridCamera",
@@ -13,5 +13,5 @@
   "Punchline": "Legacy and standard movement in one! Move freely!",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
-  "_Dip17Channel": "testing-live"
+  "_Dip17Channel": "stable"
 }
