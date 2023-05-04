@@ -2,7 +2,7 @@
   "Author": "UnknownX",
   "Name": "A Realm Recorded",
   "InternalName": "ARealmRecorded",
-  "AssemblyVersion": "0.5.1.2",
+  "AssemblyVersion": "0.6.0.0",
   "Description": "Adds additional features to the duty recorder and automatically starts it in most instances. Please make sure the setting is enabled inside \"/record\".",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/UnknownX7/ARealmRecorded",
@@ -16,7 +16,7 @@
   "ImageUrls": [
     ""
   ],
-  "IconUrl": "",
+  "IconUrl": "https://raw.githubusercontent.com/goatcorp/PluginDistD17/main/testing-live/ARealmRecorded/images/icon.png",
   "Punchline": "Allows you to use the duty recorder",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
