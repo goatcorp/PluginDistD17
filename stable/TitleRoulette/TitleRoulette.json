@@ -2,7 +2,7 @@
   "Author": "Liza Carvelli",
   "Name": "Title Roulette",
   "InternalName": "TitleRoulette",
-  "AssemblyVersion": "1.1",
+  "AssemblyVersion": "1.2",
   "Description": "Allows you to pick any number of titles, setting a random one each time you use \"/ptitle\" or \"/ptitle groupName\".",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/carvelli/TitleRoulette",
