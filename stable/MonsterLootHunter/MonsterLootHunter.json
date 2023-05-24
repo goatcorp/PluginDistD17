@@ -2,7 +2,7 @@
   "Author": "Sylf",
   "Name": "Monster Loot Hunter",
   "InternalName": "MonsterLootHunter",
-  "AssemblyVersion": "1.0.16.4",
+  "AssemblyVersion": "1.0.17.4",
   "Description": "Check where you can obtain a material from monsters, duties, crafting, gathering or where they can be bought from NPCs.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/danielbrenom/MonsterLootHunter",
@@ -19,7 +19,7 @@
   "CanUnloadAsync": false,
   "LoadPriority": 0,
   "Punchline": "Want to check where you can obtain materials? This is the plugin for you!",
-  "Changelog": "- Added alternative item name lookup for information retrieval\n- Fixed data processing of wiki information",
+  "Changelog": "- Patch 6.4 update",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "stable"
