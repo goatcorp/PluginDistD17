@@ -2,7 +2,7 @@
   "Author": "NeNeppie",
   "Name": "Camera Loader",
   "InternalName": "CameraLoader",
-  "AssemblyVersion": "0.1.3.0",
+  "AssemblyVersion": "0.1.4.1",
   "Description": "Ever wished you could save multiple camera presets at any given time? I know I have. Well, this plugin lets you save as many as you want!\n\n*Only useable within Group Pose.*",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/NeNeppie/CameraLoader",
