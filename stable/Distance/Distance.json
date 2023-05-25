@@ -2,7 +2,7 @@
   "Author": "PunishedPineapple",
   "Name": "Distance",
   "InternalName": "Distance",
-  "AssemblyVersion": "1.0.1.2",
+  "AssemblyVersion": "1.0.1.3",
   "Description": "Displays the distance in yalms to the target (or optionally to the target's ring), and can display distance until aggro range for supported bosses.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/PunishedPineapple/Distance",
