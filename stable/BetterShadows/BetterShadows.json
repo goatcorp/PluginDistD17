@@ -2,7 +2,7 @@
   "Author": "Drahsid",
   "Name": "Better Shadows",
   "InternalName": "BetterShadows",
-  "AssemblyVersion": "1.1.4.0",
+  "AssemblyVersion": "1.1.5.0",
   "Description": "Directly adjust the distance of each shadow cascade! Now introducing 4k shadowmap!",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Drahsid/BetterShadows",
