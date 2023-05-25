@@ -2,8 +2,8 @@
   "Author": "Lore",
   "Name": "TooltipNotes",
   "InternalName": "TooltipNotes",
-  "AssemblyVersion": "1.0.0.0",
-  "Description": "By Right-clicking an Item you can add a new note or edit an existing one",
+  "AssemblyVersion": "1.1.2.0",
+  "Description": "Right-click any item in your inventory to start adding a note,or make a label in the config window to start adding your own labels",
   "ApplicableVersion": "any",
   "Tags": [
     "TooltipNotes",
