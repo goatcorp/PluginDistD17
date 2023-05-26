@@ -2,8 +2,8 @@
   "Author": "Frogworks Interactive",
   "Name": "OOF!",
   "InternalName": "OofPlugin",
-  "AssemblyVersion": "1.1.0",
-  "Description": "i love roblox!!! [OOF documentary (hbomberguy)](https://www.youtube.com/watch?v=0twDETh6QaI)",
+  "AssemblyVersion": "1.2.0",
+  "Description": "i love roblox!!! \n           \ncraaazzzy features\n  - oof on party & alliance deaths!\n  - use custom mp3 sounds! \n  - DBO� (Distance Based Oof)!\n  - instant access to the hour long documentary on oof by hbomberguy!\n  - fully featured settings window!\n          ",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Frogworks-Interactive/OOF",
   "Tags": [
@@ -19,6 +19,7 @@
   "DalamudApiLevel": 8,
   "LoadRequiredState": 0,
   "LoadSync": false,
+  "CanUnloadAsync": false,
   "LoadPriority": 0,
   "Punchline": "Play the OOF! sound on fall and/or death. The Only Plugin You Need!",
   "AcceptsFeedback": true,
