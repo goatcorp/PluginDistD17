@@ -2,7 +2,7 @@
   "Author": "Berna",
   "Name": "Hit it, Joe! (Formerly TF2-ish Critical Hits Plugin)",
   "InternalName": "Tf2CriticalHitsPlugin",
-  "AssemblyVersion": "3.3.0.0",
+  "AssemblyVersion": "3.4.0.0",
   "Description": "* Set sounds and flavor text to be played/shown whenever you deal direct or critical damage or heal.\n* Set sounds to be played when a countdown is in progress.\n* Use different configurations by job.\n* Use the game's SFX or your own custom WAV or MP3 files.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Berna-L/ffxiv-tf2-crit-plugin",
