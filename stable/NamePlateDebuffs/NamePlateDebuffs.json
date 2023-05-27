@@ -1,8 +1,8 @@
 {
-  "Author": "aers, JHerig, squidmade",
+  "Author": "aers, JHerig, abashby",
   "Name": "Nameplate Debuffs",
   "InternalName": "NamePlateDebuffs",
-  "AssemblyVersion": "1.0.1.1",
+  "AssemblyVersion": "1.0.2.0",
   "Description": "Displays your debuffs on enemy nameplates.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/jherig/NamePlateDebuffs",
