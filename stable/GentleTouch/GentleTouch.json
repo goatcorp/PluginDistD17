@@ -2,7 +2,7 @@
   "Author": "Chivalrik",
   "Name": "GentleTouch",
   "InternalName": "GentleTouch",
-  "AssemblyVersion": "1.10.3",
+  "AssemblyVersion": "1.10.4",
   "Description": "You need to configure patterns and triggers before it will work, \nopen the configuration window to do that.  \n\nFor DualSense/Shock4 support, the controller needs to be connected wired (same as the game's)\nand there can only be one of a type connected (e.g., only one DualSense, not two).\n\nCurrently supported triggers are:\n- Cooldowns\n- Near Aether Current",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/fitzchivalrik/gentletouch",
