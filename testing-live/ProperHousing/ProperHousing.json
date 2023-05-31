@@ -2,7 +2,7 @@
   "Author": "Sevii",
   "Name": "Better Housing",
   "InternalName": "ProperHousing",
-  "AssemblyVersion": "1.1.1.0",
+  "AssemblyVersion": "1.1.2.0",
   "Description": "An improved housing experience. Furniture selection based on what you see, keybinds to switch modes and toggle counter and snap.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Sevii77/properhousing",
