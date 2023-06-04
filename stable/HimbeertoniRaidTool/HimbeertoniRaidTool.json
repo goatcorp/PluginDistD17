@@ -2,7 +2,7 @@
   "Author": "Koenari",
   "Name": "Himbeertoni Raid Tool",
   "InternalName": "HimbeertoniRaidTool",
-  "AssemblyVersion": "1.3.0.5",
+  "AssemblyVersion": "1.3.1.1",
   "Description": "A collection of useful tools for RaidGroups, including loot management",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Koenari/HimbeertoniRaidTool/wiki",
@@ -24,7 +24,7 @@
   ],
   "IconUrl": "https://raw.githubusercontent.com/Koenari/HimbeertoniRaidTool/master/images/icon.png",
   "Punchline": "All you need for Raiding",
-  "Changelog": "Fix: Merge infos for multiple database entries for one character",
+  "Changelog": "General: Only cap applicable stats on items\nGeneral: Fixed stat claculations due to unintentionally capping stats lower than intended\nLoot Session: \\%DPS gain now properly takes SKS/SPS into account\nLoot Session: Removed manually curated DPS for players\nEdit Gear: Properly handle local and etro.gg sets (Etro sets cannot be edited and need to be converted to local to edit)\nEdit Gear: Slightly reworked Ui\nEdit Gear: You can now edit the names of sets",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "stable"
