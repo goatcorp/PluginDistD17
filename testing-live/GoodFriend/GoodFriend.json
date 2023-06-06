@@ -1,21 +1,26 @@
 {
   "Author": "BitsOfAByte",
-  "Name": "Good Friend",
+  "Name": "GoodFriend",
   "InternalName": "GoodFriend",
-  "AssemblyVersion": "1.4.0.0",
-  "Description": "Instant friend login/logout notifications with other friends using the plugin. Provides customisable messages & notification display settings. Concerned about privacy or want to only send & recieve notifications with certain friends? Use a friendship code to only notify those friends of your status changes.",
+  "AssemblyVersion": "2.0.0.0",
+  "Description": "A plugin to make improvements to the in-game friend system. Includes a client to communicate with the GoodFriend API to send & receive notifications with your friends.\n\nFeatures:\n- Private in design, no identifying information is ever sent about you over the network.\n- Send & recieve notifications when your friends login and logout*.\n- Get notified when your friends use the world visit system.\n- Lots of filtering options for various events.\n\n * Requires friends to also have GoodFriend installed.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/BitsOfAByte/GoodFriend",
   "Tags": [
-    "Friends",
-    "Notifications"
+    "Friend",
+    "Notifications",
+    "Good Friend"
   ],
   "CategoryTags": [
     "Social"
   ],
-  "DalamudApiLevel": 7,
+  "DalamudApiLevel": 8,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
   "LoadPriority": 0,
-  "Punchline": "Friend login & logout notifications between GoodFriend users",
+  "Punchline": "Improvements to the in-game friend system! Send & receive login and logout notifications with friends and more!",
+  "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "testing-live"
 }
