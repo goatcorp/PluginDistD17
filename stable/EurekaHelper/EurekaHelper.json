@@ -2,7 +2,7 @@
   "Author": "Snowy",
   "Name": "Eureka Helper",
   "InternalName": "EurekaHelper",
-  "AssemblyVersion": "1.5.1.6",
+  "AssemblyVersion": "1.5.1.7",
   "Description": "A tool to assist you on your Eureka adventures. Type /eurekahelper to get started.\n\nFeatures include:\n- In-Game Tracker GUI\n- Instance Tracker\n- Elementals Tracker\n- Relic Helper\n- Alarms\n- Money NM weather timings\n- More to come",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/snooooowy/EurekaHelper",
