@@ -1,0 +1,41 @@
+{
+  "Author": "Sonar Team",
+  "Name": "Sonar",
+  "InternalName": "SonarPlugin",
+  "AssemblyVersion": "0.5.2.6",
+  "Description": "Automatically send and receive hunt and fate relays. /sonar to open, /sonarconfig to configure. Support is only provided in the Sonar Support discord.",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://discord.gg/K7y24Rr",
+  "Tags": [
+    "Sonar",
+    "Hunt",
+    "Hunts",
+    "Fate",
+    "Fates",
+    "Relay",
+    "Relays",
+    "Automated",
+    "Automatic"
+  ],
+  "CategoryTags": [
+    "utility"
+  ],
+  "DalamudApiLevel": 8,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "ImageUrls": [
+    "https://assets.ffxivsonar.com/dalamud/image1.png",
+    "https://assets.ffxivsonar.com/dalamud/image2.png",
+    "https://assets.ffxivsonar.com/dalamud/image3.png",
+    "https://assets.ffxivsonar.com/dalamud/image4.png",
+    "https://assets.ffxivsonar.com/dalamud/image5.png"
+  ],
+  "IconUrl": "https://assets.ffxivsonar.com/dalamud/logo.png",
+  "Punchline": "Automatically send and receive hunt and fate relays.",
+  "Changelog": "See the Sonar Support discord #announcements channel for more information",
+  "AcceptsFeedback": false,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "stable"
+}
