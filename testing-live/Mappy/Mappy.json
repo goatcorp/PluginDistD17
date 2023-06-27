@@ -2,19 +2,21 @@
   "Author": "MidoriKami",
   "Name": "Mappy",
   "InternalName": "Mappy",
-  "AssemblyVersion": "0.4.6.1",
-  "Description": "[Incomplete Plugin] Mappy's intended feature set is mostly implemented, some features do not work as intended, most work well.\nNo support will be provided for issues.",
+  "AssemblyVersion": "1.0.0.0",
+  "Description": "Replaces the ingame map with an ImGui implementation with several additional features.",
   "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/MidoriKami/Mappy",
   "Tags": [
     "utility"
   ],
   "CategoryTags": [
-    "utility",
-    "UI"
+    "Utility",
+    "Other"
   ],
-  "DalamudApiLevel": 7,
+  "DalamudApiLevel": 8,
   "LoadRequiredState": 0,
   "LoadSync": false,
+  "CanUnloadAsync": false,
   "LoadPriority": 0,
   "Punchline": "A more versatile ingame map",
   "AcceptsFeedback": false,
