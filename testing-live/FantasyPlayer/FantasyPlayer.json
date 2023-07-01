@@ -2,7 +2,7 @@
   "Author": "Critical-Impact",
   "Name": "Fantasy Player",
   "InternalName": "FantasyPlayer",
-  "AssemblyVersion": "2.1.1.1",
+  "AssemblyVersion": "2.1.1.2",
   "Description": "Control Spotify playback from within FFX|V\nUse the button below to open settings or use the '/pfp settings' command.\nOriginally by BiscuitUmU",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Critical-Impact/FantasyPlayer",
