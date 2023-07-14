@@ -2,13 +2,16 @@
   "Author": "Infi",
   "Name": "Better Playtime",
   "InternalName": "BetterPlaytime",
-  "AssemblyVersion": "1.3.1.0",
+  "AssemblyVersion": "1.4.0.0",
   "Description": "Provides expanded functionality to seamlessly track total playtime.\n      Use /btime once on each character to add them.\n\n      - Supports multiple characters,\n      - Customisable output formats such as hours or minutes\n      - Automatic playtime tracking after character got registered\n      - Simple window to see current session playtime\n      - Server Info Bar integration",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Infiziert90/BetterPlaytime",
   "Tags": [
     "Playtime",
-    "plugin"
+    "plugin",
+    "Time",
+    "ServerBar",
+    "QoL"
   ],
   "DalamudApiLevel": 8,
   "LoadRequiredState": 0,
