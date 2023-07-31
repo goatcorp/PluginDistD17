@@ -2,7 +2,7 @@
   "Author": "Infi",
   "Name": "Submarine Tracker",
   "InternalName": "SubmarineTracker",
-  "AssemblyVersion": "1.7.2.6",
+  "AssemblyVersion": "1.7.3.0",
   "Description": "Simple and Easy\n+ Tracker for current builds, routes and times \n+ Builder to improve, solve builds and optimize EXP\n+ Configurable Notification for return/repair \n+ Helper with useful information\n+ Custom loot overview with history and export\n+ Supports multiple FCs",
   "ApplicableVersion": "any",
   "Tags": [
