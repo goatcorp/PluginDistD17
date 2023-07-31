@@ -2,7 +2,7 @@
   "Author": "Glyceri",
   "Name": "Pet Nicknames",
   "InternalName": "PetRenamer",
-  "AssemblyVersion": "0.2.1.0",
+  "AssemblyVersion": "0.2.2.0",
   "Description": "Use /petname to give your pet a nickname.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Glyceri/FFXIVPetRenamer",
