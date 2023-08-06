@@ -2,8 +2,8 @@
   "Author": "Glyceri",
   "Name": "Pet Nicknames",
   "InternalName": "PetRenamer",
-  "AssemblyVersion": "0.3.1.2",
-  "Description": "Use /minionname to give your minion a nickname.",
+  "AssemblyVersion": "0.4.0.1",
+  "Description": "Use /minionname to give your minion, Carbuncle or Fairy a nickname.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Glyceri/FFXIVPetRenamer",
   "Tags": [
@@ -21,7 +21,7 @@
   "CanUnloadAsync": false,
   "LoadPriority": 0,
   "IconUrl": "https://github.com/Glyceri/FFXIVPetRenamer/raw/main/icon.png",
-  "Punchline": "Give your minions cute nicknames",
+  "Punchline": "Give your minions, Carbuncle and Fairy cute nicknames",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "testing-live"
