@@ -2,7 +2,7 @@
   "Author": "Glyceri",
   "Name": "Pet Nicknames",
   "InternalName": "PetRenamer",
-  "AssemblyVersion": "0.4.2.1",
+  "AssemblyVersion": "0.4.2.2",
   "Description": "Use /minionname to give your minion, Carbuncle or Fairy a nickname.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Glyceri/FFXIVPetRenamer",
