@@ -2,8 +2,8 @@
   "Author": "PunishedPineapple",
   "Name": "Distance",
   "InternalName": "Distance",
-  "AssemblyVersion": "1.0.1.3",
-  "Description": "Displays the distance in yalms to the target (or optionally to the target's ring), and can display distance until aggro range for supported bosses.",
+  "AssemblyVersion": "1.0.1.4",
+  "Description": "Displays the distance in yalms to your target and/or other enemies, players, NPCs, etc.  It can also display the aggro range for supported bosses.\r\nPlease note that this plugin automatically downloads updates for aggro data by default.  This can be disabled in the plugin settings if you wish.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/PunishedPineapple/Distance",
   "Tags": [
