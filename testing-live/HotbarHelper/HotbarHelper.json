@@ -2,7 +2,7 @@
   "Author": "KiwiKahawai",
   "Name": "Hotbar Helper",
   "InternalName": "HotbarHelper",
-  "AssemblyVersion": "0.0.2.1",
+  "AssemblyVersion": "0.0.2.2",
   "Description": "Helps keep hotbars in sync with available actions. Particularly useful if you've lost your configuration, or transfer between platforms regularly.",
   "ApplicableVersion": "any",
   "Tags": [
