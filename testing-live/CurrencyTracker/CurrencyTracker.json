@@ -1,0 +1,31 @@
+{
+  "Author": "AtmoOmen",
+  "Name": "Currency Tracker",
+  "InternalName": "CurrencyTracker",
+  "AssemblyVersion": "1.1.1.0",
+  "Description": "Track your Currencies' Changes!",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/AtmoOmen/CurrencyTracker",
+  "Tags": [
+    "Money",
+    "Currency",
+    "Tracker",
+    "金钱",
+    "追踪器",
+    "货币"
+  ],
+  "DalamudApiLevel": 8,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "ImageUrls": [
+    "https://raw.githubusercontent.com/AtmoOmen/CurrencyTracker/master/Assets/img1.png",
+    "https://raw.githubusercontent.com/AtmoOmen/CurrencyTracker/master/Assets/img2.png"
+  ],
+  "Punchline": "Track your Currencies' Changes!",
+  "Changelog": "(English / 简体中文)\n- Modified the way transactions are displayed, which now effectively reduces the performance consumption caused by large amounts of data\n  修改了记录的显示方式，现在可以有效降低数据量过大时造成的性能消耗\n- Added a function to merge transactions of the same location by threshold value\n  新增了按临界值合并相同地点记录的功能\n- Added a function to clear exceptional transactions\n  新增了移除异常记录的功能",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "testing-live"
+}
