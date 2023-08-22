@@ -1,0 +1,20 @@
+{
+  "Author": "KiwiKahawai",
+  "Name": "Hotbar Helper",
+  "InternalName": "HotbarHelper",
+  "AssemblyVersion": "0.0.2.1",
+  "Description": "Helps keep hotbars in sync with available actions. Particularly useful if you've lost your configuration, or transfer between platforms regularly.",
+  "ApplicableVersion": "any",
+  "Tags": [
+    "hotbar",
+    "restore"
+  ],
+  "DalamudApiLevel": 8,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "LoadPriority": 0,
+  "Punchline": "Keeps your hotbars up to date",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "testing-live"
+}
