@@ -2,7 +2,7 @@
   "Author": "Cytraen",
   "Name": "Combat Cursor Containment",
   "InternalName": "CombatCursorContainment",
-  "AssemblyVersion": "0.1.0.0",
+  "AssemblyVersion": "0.1.1.0",
   "Description": "Automatically changes the 'limit mouse operation to game window' setting when entering/exiting combat.",
   "ApplicableVersion": "any",
   "Tags": [],
