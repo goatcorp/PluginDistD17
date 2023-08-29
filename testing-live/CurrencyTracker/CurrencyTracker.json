@@ -2,7 +2,7 @@
   "Author": "AtmoOmen",
   "Name": "Currency Tracker",
   "InternalName": "CurrencyTracker",
-  "AssemblyVersion": "1.1.1.3",
+  "AssemblyVersion": "1.1.1.4",
   "Description": "Track your Currencies' Changes!",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/AtmoOmen/CurrencyTracker",
@@ -21,7 +21,7 @@
     "https://raw.githubusercontent.com/AtmoOmen/CurrencyTracker/master/Assets/img2.png"
   ],
   "Punchline": "Track your Currencies' Changes!",
-  "Changelog": "- Fix bugs that might cause game crashes.\n- Add a new command to open the main interface of the plugin with specific currency shown.",
+  "Changelog": "- Modified the conditional logic of certain code segments.\n- Fixed a bug in Merge Transactions function that generated incorrect records in certain scenarios.\n- Added fuzzy query functionality to the command.",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "testing-live"
