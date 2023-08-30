@@ -2,8 +2,8 @@
   "Author": "MidoriKami",
   "Name": "SortaKinda",
   "InternalName": "SortaKinda",
-  "AssemblyVersion": "0.0.1.0",
-  "Description": "Sort your inventory however you want and keep it sorted.",
+  "AssemblyVersion": "0.0.1.1",
+  "Description": "Sort your inventory however you want and keep it sorted.\n\n/sorta help → Display all available commands",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/MidoriKami/SortaKinda",
   "Tags": [
