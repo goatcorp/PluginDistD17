@@ -1,0 +1,20 @@
+{
+  "Author": "Tischel",
+  "Name": "DelvCD",
+  "InternalName": "DelvCD",
+  "AssemblyVersion": "0.3.0.0",
+  "Description": "DelvCD provides highly customizable UI elements that can be used to track cooldows, status and more with configurable conditions.",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/DelvUI/DelvCD",
+  "Tags": [
+    "UI"
+  ],
+  "DalamudApiLevel": 8,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "LoadPriority": 0,
+  "Punchline": "Customizable UI elements to track cooldowns, status and more.",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "testing-live"
+}
