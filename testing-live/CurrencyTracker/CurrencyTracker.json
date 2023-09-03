@@ -2,7 +2,7 @@
   "Author": "AtmoOmen",
   "Name": "Currency Tracker",
   "InternalName": "CurrencyTracker",
-  "AssemblyVersion": "1.1.2.2",
+  "AssemblyVersion": "1.1.2.3",
   "Description": "Track your Currencies' Changes!",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/AtmoOmen/CurrencyTracker",
@@ -21,7 +21,7 @@
     "https://raw.githubusercontent.com/AtmoOmen/CurrencyTracker/master/Assets/img1.png"
   ],
   "Punchline": "Track your Currencies' Changes!",
-  "Changelog": "- Add One-Way Merge function to Merge Records feature, and original merging logic will be Two-Way Merge function.\n- Add two buttons that allow to jump to the first page and last page of transactions in chart\n- Now Records Per Page data will be saved to configuration.",
+  "Changelog": "- Expand Minimum Record Value In Duty feature to Minimum Record Value which allows to set the currency tracking behavior of In Duty and Out Of Duty seperately",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "testing-live"
