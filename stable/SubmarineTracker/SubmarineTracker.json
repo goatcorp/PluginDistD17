@@ -2,8 +2,8 @@
   "Author": "Infi",
   "Name": "Submarine Tracker",
   "InternalName": "SubmarineTracker",
-  "AssemblyVersion": "1.7.5.2",
-  "Description": "Simple and Easy\n+ Tracker for current builds, routes and times \n+ Builder to improve, solve builds and optimize EXP\n+ Configurable Notification for return/repair \n+ Helper with useful information\n+ Custom loot overview with history and export\n+ Supports multiple FCs",
+  "AssemblyVersion": "1.7.5.4",
+  "Description": "+ Tracker for current builds, routes and times \n+ Builder to improve, solve builds and optimize EXP\n+ Configurable notification for return and repairs \n+ Helpy filled useful information\n+ Custom loot overview with history and export\n+ Multiple overlays to help with daily tasks \n+ Supports multiple FCs  ",
   "ApplicableVersion": "any",
   "Tags": [
     "Submarine",
@@ -15,7 +15,8 @@
     "Helper",
     "Solver",
     "Routes",
-    "Sub"
+    "Sub",
+    "Overlay"
   ],
   "DalamudApiLevel": 8,
   "LoadRequiredState": 0,
