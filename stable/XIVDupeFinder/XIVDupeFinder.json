@@ -1,0 +1,23 @@
+{
+  "Author": "CallumCarmicheal",
+  "Name": "XIVDupeFinder",
+  "InternalName": "XIVDupeFinder",
+  "AssemblyVersion": "0.0.0.1",
+  "Description": "Highlight stackable items in the inventory that are not stacked.",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/CallumCarmicheal/XIVDupeFinder",
+  "Tags": [
+    "inventory",
+    "duplicates",
+    "dupe",
+    "inv"
+  ],
+  "DalamudApiLevel": 8,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "LoadPriority": 0,
+  "Punchline": "Highlight duplicated items in inventories /xivdupes.",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "stable"
+}
