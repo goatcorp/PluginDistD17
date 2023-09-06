@@ -1,0 +1,28 @@
+{
+  "Author": "Infi",
+  "Name": "Tracky Track",
+  "InternalName": "TrackyTrack",
+  "AssemblyVersion": "1.0.0.0",
+  "Description": "### Normal Functions \n+ Track currency increase\n+ Track repair costs\n+ Track teleport costs\n+ Track result data for Desynthesis\n+ Supports multiple characters\n\n### Advanced  Functions\n+ Track results for Bulk Desynthesis\n+ Track rewards for Venture Coffers\n+ Track rewards for Gacha Coffers\n+ Track rewards for Eureka Bunny Coffers",
+  "ApplicableVersion": "any",
+  "Tags": [
+    "Desynthesis",
+    "Venture Coffer",
+    "Gacha",
+    "Tracker",
+    "Tracking",
+    "Data",
+    "Repair",
+    "Teleport",
+    "Eureka"
+  ],
+  "DalamudApiLevel": 8,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "Punchline": "Tracking data is fun",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "stable"
+}
