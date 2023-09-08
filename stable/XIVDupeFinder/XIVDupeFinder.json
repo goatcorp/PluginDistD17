@@ -2,7 +2,7 @@
   "Author": "CallumCarmicheal",
   "Name": "XIVDupeFinder",
   "InternalName": "XIVDupeFinder",
-  "AssemblyVersion": "0.0.0.1",
+  "AssemblyVersion": "1.0.1.0",
   "Description": "Highlight stackable items in the inventory that are not stacked.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/CallumCarmicheal/XIVDupeFinder",
