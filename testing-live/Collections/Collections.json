@@ -1,0 +1,30 @@
+{
+  "Author": "Seventh",
+  "Name": "Collections",
+  "InternalName": "Collections",
+  "AssemblyVersion": "0.0.0.1",
+  "Description": "Provides an interface to track and discover collectibles. \nGlamour, Mounts, Minions and more.",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/Seventhxiv/Collections",
+  "Tags": [
+    "collections",
+    "glamour",
+    "mounts",
+    "minions",
+    "Utility",
+    "Other"
+  ],
+  "DalamudApiLevel": 8,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "LoadPriority": 0,
+  "ImageUrls": [
+    "https://raw.githubusercontent.com/Seventhxiv/Collections/master/Collections/Data/Resources/mainwindow730.png",
+    "https://raw.githubusercontent.com/Seventhxiv/Collections/master/Collections/Data/Resources/mountwindow730.png"
+  ],
+  "IconUrl": "https://xivapi.com/img-misc/061643.png",
+  "Punchline": "Collect all of the things",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "testing-live"
+}

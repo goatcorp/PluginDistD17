@@ -1,0 +1,27 @@
+{
+  "Author": "Nagi'to Atreides",
+  "Name": "Casexile",
+  "InternalName": "Casexile",
+  "AssemblyVersion": "1.0.0.0",
+  "Description": "Lets you use any in-game slash command without worrying about capitalization. Whether you type \"/action\", \"/ACTION\", \"/AcTiOn\" or any variation thereof, the plugin ensures the intended action takes place without wasting your time.",
+  "ApplicableVersion": "any",
+  "Tags": [
+    "casexile",
+    "chat",
+    "emote",
+    "slash commands",
+    "case-insensitive",
+    "case-sensitive",
+    "case insensitive",
+    "case sensitive",
+    "/"
+  ],
+  "DalamudApiLevel": 8,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "LoadPriority": 0,
+  "Punchline": "Case-Insensitive Slash Commands",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "testing-live"
+}
