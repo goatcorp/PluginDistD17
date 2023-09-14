@@ -1,11 +1,11 @@
 {
-  "Author": "Lharz",
+  "Author": "MidoriKami, Lharz",
   "Name": "CurrencyAlert",
   "InternalName": "CurrencyAlert",
-  "AssemblyVersion": "0.5.0.1",
+  "AssemblyVersion": "0.5.1.0",
   "Description": "This plugin lets you easily manage your various currencies to prevent from wasting precious resources.",
   "ApplicableVersion": "any",
-  "RepoUrl": "https://github.com/Lharz/xiv-currency-alert",
+  "RepoUrl": "https://github.com/MidoriKami/CurrencyAlert",
   "Tags": [
     "Currency",
     "Tomestones",
@@ -20,6 +20,7 @@
   "DalamudApiLevel": 8,
   "LoadRequiredState": 0,
   "LoadSync": false,
+  "CanUnloadAsync": false,
   "LoadPriority": 0,
   "Punchline": "Display alerts upon reaching configurable currencies thresholds (such as Poetics or PVP marks).",
   "AcceptsFeedback": true,
