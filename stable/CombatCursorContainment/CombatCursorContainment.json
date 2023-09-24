@@ -2,7 +2,7 @@
   "Author": "Cytraen",
   "Name": "Combat Cursor Containment",
   "InternalName": "CombatCursorContainment",
-  "AssemblyVersion": "1.0.0.0",
+  "AssemblyVersion": "1.0.1.0",
   "Description": "Automatically changes the 'limit mouse operation to game window' setting when entering/exiting combat.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Cytraen/CombatCursorContainment",
@@ -18,7 +18,7 @@
   "CanUnloadAsync": false,
   "LoadPriority": 0,
   "Punchline": "Keep your mouse cursor contained during combat!",
-  "Changelog": "Improve performance, mostly outside of combat.",
+  "Changelog": "- Fix \"Not in a duty\" setting doing the opposite of what it should have been.\n- Fix being in queue counting as being in a duty.",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "stable"
