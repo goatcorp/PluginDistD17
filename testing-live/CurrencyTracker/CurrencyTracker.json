@@ -2,7 +2,7 @@
   "Author": "AtmoOmen",
   "Name": "Currency Tracker",
   "InternalName": "CurrencyTracker",
-  "AssemblyVersion": "1.2.3.1",
+  "AssemblyVersion": "1.2.3.3",
   "Description": "Aimed to help you track changes of various in-game currencies transactions (Gil, Seal, Tomestone, etc.).\nAlso provides features for queries, graphs, exporting data, and custom currencies tracker.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/AtmoOmen/CurrencyTracker",
@@ -21,7 +21,7 @@
     "https://raw.githubusercontent.com/AtmoOmen/CurrencyTracker/master/Assets/img2.png"
   ],
   "Punchline": "Track your Currencies' Changes!",
-  "Changelog": "A small fix to Merge Transactions",
+  "Changelog": "Please refer to the changelog page.",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "testing-live"
