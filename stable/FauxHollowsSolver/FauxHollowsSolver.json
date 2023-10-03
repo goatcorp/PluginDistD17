@@ -2,13 +2,14 @@
   "Author": "daemitus",
   "Name": "ezFauxHollows",
   "InternalName": "FauxHollowsSolver",
-  "AssemblyVersion": "1.2.0.0",
+  "AssemblyVersion": "1.3.0.0",
   "Description": "This plugin highlights tiles in Faux Hollows that represent the best potential action you can take.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/daemitus/FauxHollowsSolver",
-  "DalamudApiLevel": 8,
+  "DalamudApiLevel": 9,
   "LoadRequiredState": 0,
   "LoadSync": false,
+  "CanUnloadAsync": false,
   "LoadPriority": 0,
   "ImageUrls": [
     "https://raw.githubusercontent.com/daemitus/FauxHollowsSolver/master/res/image1.png"
