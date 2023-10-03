@@ -2,9 +2,10 @@
   "Author": "Infi",
   "Name": "Submarine Tracker",
   "InternalName": "SubmarineTracker",
-  "AssemblyVersion": "1.8.0.0",
+  "AssemblyVersion": "1.8.0.3",
   "Description": "+ Tracker for current builds, routes and times \n+ Builder to improve, solve builds and optimize EXP\n+ Configurable notification for return and repairs \n+ Helpy filled useful information\n+ Custom loot overview with history and export\n+ Multiple overlays to help with daily tasks \n+ Supports multiple FCs  ",
   "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/Infiziert90/SubmarineTracker",
   "Tags": [
     "Submarine",
     "Tracker",
@@ -18,7 +19,7 @@
     "Sub",
     "Overlay"
   ],
-  "DalamudApiLevel": 8,
+  "DalamudApiLevel": 9,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
