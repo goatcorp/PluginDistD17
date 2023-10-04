@@ -2,7 +2,7 @@
   "Author": "Berna",
   "Name": "Team Fortress Fantasy",
   "InternalName": "Tf2Hud",
-  "AssemblyVersion": "1.1.5.0",
+  "AssemblyVersion": "1.1.7.0",
   "Description": "* Show a Win Panel (with sounds!) when you clear or get wiped in a duty.\n* Show a TF2-style timer while in a duty.\n* Enable the \"Voice Lines\" module (via /tfconfig) to have voice lines play when certain conditions are met. What conditions, you ask? It's a surprise! (Unless you uncheck the \"Surprise me!\" box.)\n* More features maybe soon?\n\nNote: This plugin uses files from a local Team Fortress 2 installation.\nIt'll search for the game's installation folder in all configured Steam Library Folders automatically.\n\nWithout a TF2 install, the Timer and Win Panel will work with FF XIV fonts, and no voice line will work.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Berna-L/ffxiv-tf2-hud-plugin",
@@ -11,7 +11,7 @@
     "hud",
     "audio"
   ],
-  "DalamudApiLevel": 8,
+  "DalamudApiLevel": 9,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
