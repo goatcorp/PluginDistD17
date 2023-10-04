@@ -2,8 +2,8 @@
   "Author": "Xorus",
   "Name": "EngageTimer",
   "InternalName": "EngageTimer",
-  "AssemblyVersion": "2.2.5.2",
-  "Description": "Finally, display all the numbers when starting a countdown!\nComes with an accurate pull timer that starts when you or any of your party members enter combat.\n\nFeatures :\n- Big countdown that displays all the numbers\n- Customizable big-number textures (default, yellow, WoW style or custom files)\n- Display combat time in the Server Info Bar, and/or a floating window\n- OBS browser-source compatible page with countdown and current combat duration\n\nWhy the OBS thing ? Well, it can be useful if you want a big stylized stopwatch in your recordings.\nSee repository for more info.\n\nFeel free so send me feedback, bugs and potential improvements!",
+  "AssemblyVersion": "2.2.6.0",
+  "Description": "Finally, display all the numbers when starting a countdown!\nComes with an accurate pull timer that starts when you or any of your party members enter combat.\n\nFeatures :\n- Big countdown that displays all the numbers\n- Customizable big-number textures (default, yellow, WoW style or custom files)\n- Display combat time in the Server Info Bar, and/or a floating window\n- OBS browser-source compatible page with countdown and current combat duration\n\nWhy the OBS thing ? I like having a big stylized stopwatch in my private recordings and that's about it.\nSee repository for more info.\n\nFeel free so send me feedback, bugs and potential improvements! Check the about page in the plugin settings for more\ninfo. Please report urgent feedback on GitHub or XIVLauncher Discord's support thread for this plugin.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/xorus/EngageTimer",
   "Tags": [
@@ -18,9 +18,10 @@
   "CategoryTags": [
     "jobs"
   ],
-  "DalamudApiLevel": 8,
+  "DalamudApiLevel": 9,
   "LoadRequiredState": 0,
   "LoadSync": false,
+  "CanUnloadAsync": false,
   "LoadPriority": 0,
   "ImageUrls": [
     "https://raw.githubusercontent.com/xorus/EngageTimer/main/images/image1.png",
@@ -29,7 +30,7 @@
   ],
   "IconUrl": "https://raw.githubusercontent.com/xorus/EngageTimer/main/images/icon.png",
   "Punchline": "Complete combat countdown, pull timer and OBS overlay",
-  "Changelog": "- Floating Window: option to change the countdown color when casting a spell that will result in a pre-pull.\n- Floating Window: uses the global font-scale, you might need to adjust the font size after the update.\n- Settings: support for closing the settings window with Escape (WindowSystem features)",
+  "Changelog": "- Countdown Ticks: option to make them start at a certain time (e.g. only tick 1 to 10 numbers)\n- Updated to api 9",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "stable"
