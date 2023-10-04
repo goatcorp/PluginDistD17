@@ -2,7 +2,7 @@
   "Author": "spide-r",
   "Name": "Who Did That?",
   "InternalName": "WhoDidThat",
-  "AssemblyVersion": "1.3.0.0",
+  "AssemblyVersion": "1.4.0.0",
   "Description": "This plugin can track the following actions:\n- Rescues\n- Healing actions\n- Status/Buff Application\n- Cleanses \n- Heals\n- Tank Mit\n\nThese will be logged in your chat when they are used on your character.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/spide-r/WhoDidThat",
@@ -17,7 +17,7 @@
     "utility",
     "other"
   ],
-  "DalamudApiLevel": 8,
+  "DalamudApiLevel": 9,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
