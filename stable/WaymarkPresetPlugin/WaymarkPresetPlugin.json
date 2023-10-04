@@ -1,8 +1,8 @@
 {
-  "Author": "PunishedPineapple, abashby",
+  "Author": "Infi, PunishedPineapple",
   "Name": "Waymark Preset Plugin",
   "InternalName": "WaymarkPresetPlugin",
-  "AssemblyVersion": "1.4.7.0",
+  "AssemblyVersion": "1.4.8.0",
   "Description": "Allows you to save, edit, place, import, export, and preview an unlimited number of waymark presets.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Infiziert90/WaymarkPresetPlugin",
@@ -12,9 +12,10 @@
     "Preset",
     "Tool"
   ],
-  "DalamudApiLevel": 8,
+  "DalamudApiLevel": 9,
   "LoadRequiredState": 0,
   "LoadSync": false,
+  "CanUnloadAsync": false,
   "LoadPriority": 0,
   "Punchline": "Improved Waymark Management",
   "AcceptsFeedback": true,
