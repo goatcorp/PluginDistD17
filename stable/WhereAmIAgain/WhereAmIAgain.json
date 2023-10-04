@@ -1,8 +1,8 @@
 {
-  "Author": "cassandra308",
+  "Author": "MidoriKami, cassandra308",
   "Name": "Where am I again?",
   "InternalName": "WhereAmIAgain",
-  "AssemblyVersion": "0.0.3.2",
+  "AssemblyVersion": "1.0.0.0",
   "Description": "Shows what zone/region/territory you are in up in the corner next to the server and time info. Open config with /waia.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/cassandra308/WhereAmIAgain",
@@ -17,9 +17,10 @@
   "CategoryTags": [
     "UI"
   ],
-  "DalamudApiLevel": 8,
+  "DalamudApiLevel": 9,
   "LoadRequiredState": 0,
   "LoadSync": false,
+  "CanUnloadAsync": false,
   "LoadPriority": 0,
   "Punchline": "Shows what zone/region/territory you are in next to the server info.",
   "AcceptsFeedback": true,

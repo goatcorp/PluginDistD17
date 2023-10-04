@@ -2,7 +2,7 @@
   "Author": "MgAl2O4",
   "Name": "TriadBuddy",
   "InternalName": "TriadBuddy",
-  "AssemblyVersion": "1.8.0.2",
+  "AssemblyVersion": "1.9.0.0",
   "Description": "Triple triad solver, NPC matches only.\n- highlights next move during mini game\n- evaluates all deck presets before match\n- deck optimizer for NPC\n- adds more details to card collection window",
   "ApplicableVersion": "any",
   "Tags": [
@@ -10,9 +10,10 @@
     "triad",
     "triple triad"
   ],
-  "DalamudApiLevel": 8,
+  "DalamudApiLevel": 9,
   "LoadRequiredState": 0,
   "LoadSync": false,
+  "CanUnloadAsync": false,
   "LoadPriority": 0,
   "Punchline": "Triple triad solver",
   "AcceptsFeedback": true,

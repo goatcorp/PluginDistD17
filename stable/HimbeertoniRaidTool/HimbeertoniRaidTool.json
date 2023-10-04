@@ -2,7 +2,7 @@
   "Author": "Koenari",
   "Name": "Himbeertoni Raid Tool",
   "InternalName": "HimbeertoniRaidTool",
-  "AssemblyVersion": "1.3.3.1",
+  "AssemblyVersion": "1.3.4.0",
   "Description": "A collection of useful tools for RaidGroups, including loot management",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Koenari/HimbeertoniRaidTool/wiki",
@@ -12,7 +12,7 @@
     "Equipment",
     "Gear"
   ],
-  "DalamudApiLevel": 8,
+  "DalamudApiLevel": 9,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
@@ -24,7 +24,7 @@
   ],
   "IconUrl": "https://raw.githubusercontent.com/Koenari/HimbeertoniRaidTool/master/images/icon.png",
   "Punchline": "All you need for Raiding",
-  "Changelog": "Ui: You can now manage jobs directly in solo and detail view\nUi: Old Examine button is now Quick Compare\nLootRule: Fixed \"Can Buy\"\nOptions: reworked Ui for loot rules\nLootSession: You can ignore players/jobs based on certain rules\nLootMaster: you can now edit name + role priority for the Solo group        \nTranslation: Updated French translation (Thanks to Arganier)",
+  "Changelog": "General: Updated for Dalamud API 9\nGeneral: Updated for FFXIV 6.5",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "stable"
