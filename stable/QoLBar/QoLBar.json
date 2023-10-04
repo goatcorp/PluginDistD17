@@ -2,7 +2,7 @@
   "Author": "UnknownX",
   "Name": "QoL Bar",
   "InternalName": "QoLBar",
-  "AssemblyVersion": "2.3.2.1",
+  "AssemblyVersion": "2.3.2.2",
   "Description": "A plugin designed to provide a simple, customizable and always available interface for chat commands\nor other plugins to alleviate the need for using macros and hotbar space to achieve similar results.\n\nThe plugin should initially appear as a small box on the bottom center of the game window.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/UnknownX7/QoLBar",
@@ -10,14 +10,15 @@
     "UI",
     "utility"
   ],
-  "DalamudApiLevel": 8,
+  "DalamudApiLevel": 9,
   "LoadRequiredState": 0,
   "LoadSync": false,
+  "CanUnloadAsync": false,
   "LoadPriority": 0,
   "ImageUrls": [
     ""
   ],
-  "IconUrl": "",
+  "IconUrl": "https://raw.githubusercontent.com/goatcorp/PluginDistD17/main/stable/QoLBar/images/icon.png",
   "Punchline": "Customizable ImGui hotbars",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
