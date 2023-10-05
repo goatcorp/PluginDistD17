@@ -2,7 +2,7 @@
   "Author": "imaginary-png",
   "Name": "Hunt Helper",
   "InternalName": "HuntHelper",
-  "AssemblyVersion": "1.0.0.7",
+  "AssemblyVersion": "1.0.0.8",
   "Description": "Hunt map with spawns points, A-Rank train recorder (w/ export/import sharing), TTS, Chat notifications, Counters for S-Rank Spawns",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/imaginary-png/HuntHelper",
@@ -15,9 +15,10 @@
     "map",
     "mob"
   ],
-  "DalamudApiLevel": 8,
+  "DalamudApiLevel": 9,
   "LoadRequiredState": 0,
   "LoadSync": false,
+  "CanUnloadAsync": false,
   "LoadPriority": 0,
   "ImageUrls": [
     "https://raw.githubusercontent.com/imaginary-png/HuntHelper/main/Images/image1.png",
