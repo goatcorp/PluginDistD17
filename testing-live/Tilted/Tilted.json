@@ -2,7 +2,7 @@
   "Author": "Meoiswa",
   "Name": "Tilted",
   "InternalName": "Tilted",
-  "AssemblyVersion": "3.1.0.0",
+  "AssemblyVersion": "3.1.1.0",
   "Description": "Automatically adjusts the Third Person Camera Angle/Distance given certain conditions.",
   "ApplicableVersion": "any",
   "Tags": [
@@ -11,9 +11,10 @@
     "camera",
     "combat"
   ],
-  "DalamudApiLevel": 8,
+  "DalamudApiLevel": 9,
   "LoadRequiredState": 0,
   "LoadSync": false,
+  "CanUnloadAsync": false,
   "LoadPriority": 0,
   "Punchline": "Tilt the camera, not yourself.",
   "AcceptsFeedback": true,

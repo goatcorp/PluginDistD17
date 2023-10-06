@@ -2,7 +2,7 @@
   "Author": "Meoiswa",
   "Name": "Magitek Stratagem",
   "InternalName": "MagitekStratagem",
-  "AssemblyVersion": "0.1.0.0",
+  "AssemblyVersion": "0.1.1.0",
   "Description": "Developed by the ingenious Garlean engineer Tobiias, this revolutionary Magitek device empowers adventurers by enabling hands-free enemy targeting with unparalleled precision.",
   "ApplicableVersion": "any",
   "Tags": [
@@ -12,9 +12,10 @@
     "Tobii",
     "Eye Tracking"
   ],
-  "DalamudApiLevel": 8,
+  "DalamudApiLevel": 9,
   "LoadRequiredState": 0,
   "LoadSync": false,
+  "CanUnloadAsync": false,
   "LoadPriority": 0,
   "Punchline": "Tobii eye tracker support for FFXIV",
   "AcceptsFeedback": true,
