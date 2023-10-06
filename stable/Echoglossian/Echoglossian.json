@@ -2,7 +2,7 @@
   "Author": "lokinmodar",
   "Name": "Echoglossian",
   "InternalName": "Echoglossian",
-  "AssemblyVersion": "3.0.2308.1150",
+  "AssemblyVersion": "3.0.2310.176",
   "Description": "Realtime game text translator",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/lokinmodar/Echoglossian",
@@ -14,7 +14,7 @@
     "UI",
     "Utility"
   ],
-  "DalamudApiLevel": 8,
+  "DalamudApiLevel": 9,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
