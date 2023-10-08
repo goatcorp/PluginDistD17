@@ -2,10 +2,10 @@
   "Author": "Snowy",
   "Name": "Eureka Helper",
   "InternalName": "EurekaHelper",
-  "AssemblyVersion": "1.5.1.8",
+  "AssemblyVersion": "1.5.2.0",
   "Description": "A tool to assist you on your Eureka adventures. Type /eurekahelper to get started.\n\nFeatures include:\n- In-Game Tracker GUI\n- Instance Tracker\n- Elementals Tracker\n- Relic Helper\n- Alarms\n- Money NM weather timings\n- More to come",
   "ApplicableVersion": "any",
-  "RepoUrl": "https://github.com/snooooowy/EurekaHelper",
+  "RepoUrl": "https://github.com/snorux/EurekaHelper",
   "Tags": [
     "Eureka",
     "Tracker",
@@ -21,7 +21,7 @@
   "CategoryTags": [
     "Utility"
   ],
-  "DalamudApiLevel": 8,
+  "DalamudApiLevel": 9,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
