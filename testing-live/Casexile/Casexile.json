@@ -2,7 +2,7 @@
   "Author": "Nagi'to Atreides",
   "Name": "Casexile",
   "InternalName": "Casexile",
-  "AssemblyVersion": "1.0.0.0",
+  "AssemblyVersion": "1.0.0.1",
   "Description": "Lets you use any in-game slash command without worrying about capitalization. Whether you type \"/action\", \"/ACTION\", \"/AcTiOn\" or any variation thereof, the plugin ensures the intended action takes place without wasting your time.",
   "ApplicableVersion": "any",
   "Tags": [
@@ -16,9 +16,10 @@
     "case sensitive",
     "/"
   ],
-  "DalamudApiLevel": 8,
+  "DalamudApiLevel": 9,
   "LoadRequiredState": 0,
   "LoadSync": false,
+  "CanUnloadAsync": false,
   "LoadPriority": 0,
   "Punchline": "Case-Insensitive Slash Commands",
   "AcceptsFeedback": true,
