@@ -2,7 +2,7 @@
   "Author": "Koenari",
   "Name": "Himbeertoni Raid Tool",
   "InternalName": "HimbeertoniRaidTool",
-  "AssemblyVersion": "1.3.4.0",
+  "AssemblyVersion": "1.3.4.1",
   "Description": "A collection of useful tools for RaidGroups, including loot management",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Koenari/HimbeertoniRaidTool/wiki",
@@ -24,7 +24,7 @@
   ],
   "IconUrl": "https://raw.githubusercontent.com/Koenari/HimbeertoniRaidTool/master/images/icon.png",
   "Punchline": "All you need for Raiding",
-  "Changelog": "General: Updated for Dalamud API 9\nGeneral: Updated for FFXIV 6.5",
+  "Changelog": "BiS: Can create BiS from etro link as well as the etro id\nBiS: Fixed an issue with BiS being empty for new jobs\nBiS: Switched to using BiS sets curated by etro.gg\nBiS: Removed user curated defaults from config",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "stable"
