@@ -1,0 +1,18 @@
+{
+  "Author": "Critical-Impact",
+  "Name": "Fantasy Player",
+  "InternalName": "FantasyPlayer",
+  "AssemblyVersion": "2.2.0.0",
+  "Description": "Control Spotify playback from within FFX|V\nUse the button below to open settings or use the '/pfp settings' command.\nOriginally by BiscuitUmU\nLocalization by Dormanil",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/Critical-Impact/FantasyPlayer",
+  "DalamudApiLevel": 9,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "Punchline": "Like you'd ever be sick of the in game music right?",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "stable"
+}
