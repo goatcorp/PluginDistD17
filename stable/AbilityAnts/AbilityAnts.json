@@ -2,7 +2,7 @@
   "Author": "attickdoor",
   "Name": "Ability Ants",
   "InternalName": "AbilityAnts",
-  "AssemblyVersion": "1.0.0.0",
+  "AssemblyVersion": "1.0.0.1",
   "Description": "For the WoW player who can't live without WeakAuras lighting up a button when it's off CD. /pants to configure.",
   "ApplicableVersion": "any",
   "Tags": [
@@ -11,9 +11,10 @@
     "ants",
     "aura"
   ],
-  "DalamudApiLevel": 8,
+  "DalamudApiLevel": 9,
   "LoadRequiredState": 0,
   "LoadSync": false,
+  "CanUnloadAsync": false,
   "LoadPriority": 0,
   "Punchline": "Draw ants when things are off cooldown.",
   "AcceptsFeedback": true,
