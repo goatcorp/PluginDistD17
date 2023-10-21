@@ -1,8 +1,8 @@
 {
-  "Author": "Asriel",
+  "Author": "Asriel Camora",
   "Name": "Craftimizer",
   "InternalName": "Craftimizer",
-  "AssemblyVersion": "1.2.1.0",
+  "AssemblyVersion": "1.9.0.1",
   "Description": "Allows you to generate macros and simulate all sorts of crafts without having to open another app. Open your crafting log to get started.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/WorkingRobot/craftimizer",
@@ -21,7 +21,7 @@
   "CategoryTags": [
     "Jobs"
   ],
-  "DalamudApiLevel": 8,
+  "DalamudApiLevel": 9,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
