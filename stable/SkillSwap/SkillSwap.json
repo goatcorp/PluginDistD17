@@ -2,7 +2,7 @@
   "Author": "ocealot",
   "Name": "SkillSwap",
   "InternalName": "SkillSwap",
-  "AssemblyVersion": "1.2.2.1",
+  "AssemblyVersion": "1.2.2.2",
   "Description": "Create animation replacement mods for Textools or Penumbra. Icon by PAPACHIN",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/0ceal0t/SkillSwap",
@@ -10,7 +10,7 @@
     "Mods",
     "Skills"
   ],
-  "DalamudApiLevel": 8,
+  "DalamudApiLevel": 9,
   "LoadPriority": 0,
   "Punchline": "Skill mod creator",
   "_isDip17Plugin": true,
