@@ -2,7 +2,7 @@
   "Author": "Drahsid",
   "Name": "Resizable HUD",
   "InternalName": "ResizableHUD",
-  "AssemblyVersion": "1.2.0.0",
+  "AssemblyVersion": "1.2.1.0",
   "Description": "Allows you to more freely and precisely scale and position HUD elements.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Drahsid/ResizableHUD",
