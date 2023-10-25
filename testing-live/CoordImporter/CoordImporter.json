@@ -1,0 +1,24 @@
+{
+  "Author": "zw3lf",
+  "Name": "Coordinate Importer",
+  "InternalName": "CoordImporter",
+  "AssemblyVersion": "1.0.0.1",
+  "Description": "Import map coordinates from various sources (e.g. Siren Hunts or Bear Toolkit) and dump them into echo chat. Use /ci to open the dialog box.",
+  "ApplicableVersion": "any",
+  "Tags": [
+    "map",
+    "plugin",
+    "hunt",
+    "train",
+    "coordinate"
+  ],
+  "DalamudApiLevel": 9,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "Punchline": "Import map coordinates to echo chat.",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "testing-live"
+}

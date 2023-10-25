@@ -1,0 +1,29 @@
+{
+  "Author": "MidoriKami",
+  "Name": "Who am I again?",
+  "InternalName": "WhoAmIAgain",
+  "AssemblyVersion": "1.0.0.0",
+  "Description": "Shows how you are in the server info bar.",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/MidoriKami/WhoAmIAgain",
+  "Tags": [
+    "Area",
+    "Info",
+    "Location",
+    "Overlay",
+    "UI",
+    "Zone"
+  ],
+  "CategoryTags": [
+    "UI"
+  ],
+  "DalamudApiLevel": 9,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "Punchline": "Ever forget who you are? We can fix that!",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "testing-live"
+}

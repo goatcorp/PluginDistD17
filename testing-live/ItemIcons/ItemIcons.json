@@ -1,0 +1,29 @@
+{
+  "Author": "Asriel",
+  "Name": "Item Icons",
+  "InternalName": "ItemIcons",
+  "AssemblyVersion": "0.1.0.1",
+  "Description": "Display custom icons for items for easier inventory mangement.",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/WorkingRobot/ItemIcons",
+  "Tags": [
+    "icon",
+    "item",
+    "job",
+    "inventory",
+    "class"
+  ],
+  "CategoryTags": [
+    "UI"
+  ],
+  "DalamudApiLevel": 9,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "IconUrl": "https://git.camora.dev/asriel/ItemIcons/raw/branch/main/icon.png",
+  "Punchline": "Works perfectly out of the box! Use /ii to configure.",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "testing-live"
+}
