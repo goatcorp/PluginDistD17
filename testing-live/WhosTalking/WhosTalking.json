@@ -2,7 +2,7 @@
   "Author": "ash",
   "Name": "Who's Talking",
   "InternalName": "WhosTalking",
-  "AssemblyVersion": "0.6.3.0",
+  "AssemblyVersion": "0.6.4.0",
   "Description": "Once installed, join a Discord voice channel and an XIV party, and have people put their character names in their Discord nicknames. You should get colourful outlines around the job icons on the party list: green for talking, blue for muted, red for deafened, and yellow for unknown name.\n\nIf stuff breaks, let me know - click Send Feedback (speech bubble icon) below this text.",
   "ApplicableVersion": "any",
   "Tags": [
