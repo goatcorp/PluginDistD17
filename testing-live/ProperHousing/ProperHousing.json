@@ -2,7 +2,7 @@
   "Author": "Sevii",
   "Name": "Better Housing",
   "InternalName": "ProperHousing",
-  "AssemblyVersion": "1.1.2.0",
+  "AssemblyVersion": "1.1.3.0",
   "Description": "An improved housing experience. Furniture selection based on what you see, keybinds to switch modes and toggle counter and snap.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Sevii77/properhousing",
@@ -13,7 +13,7 @@
     "Select",
     "Utility"
   ],
-  "DalamudApiLevel": 8,
+  "DalamudApiLevel": 9,
   "LoadPriority": 0,
   "Punchline": "Furniture selection that actually works properly",
   "_isDip17Plugin": true,
