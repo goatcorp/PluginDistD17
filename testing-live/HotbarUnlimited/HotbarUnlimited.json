@@ -2,7 +2,7 @@
   "Author": "MidoriKami",
   "Name": "Hotbar Unlimited",
   "InternalName": "HotbarUnlimited",
-  "AssemblyVersion": "1.0.0.1",
+  "AssemblyVersion": "1.0.0.3",
   "Description": "Allows you to move each individual hotbar slot to wherever you want, however you want.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/MidoriKami/HotbarUnlimited",
