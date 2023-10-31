@@ -1,0 +1,26 @@
+{
+  "Author": "Kurochi",
+  "Name": "Tick Tracker",
+  "InternalName": "TickTracker",
+  "AssemblyVersion": "1.0.0.0",
+  "Description": "Customizable bars that indicate the tick progress of HP/MP/GP regen",
+  "ApplicableVersion": "any",
+  "Tags": [
+    "tick",
+    "tracker",
+    "bar",
+    "hp",
+    "mp",
+    "gp",
+    "regen"
+  ],
+  "DalamudApiLevel": 9,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "Punchline": "Tracks the current tick for HP/MP/GP regen",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "stable"
+}
