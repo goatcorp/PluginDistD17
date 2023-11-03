@@ -2,7 +2,7 @@
   "Author": "James Keesey",
   "Name": "Chatter",
   "InternalName": "Chatter",
-  "AssemblyVersion": "0.2.0.0",
+  "AssemblyVersion": "0.3.0.0",
   "Description": "Allows for saving char conversations, separated by groups of people and chat types.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/jlkeesey/Chatter",
@@ -11,7 +11,7 @@
     "plugin",
     "cats"
   ],
-  "DalamudApiLevel": 8,
+  "DalamudApiLevel": 9,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
