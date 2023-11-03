@@ -1,0 +1,26 @@
+{
+  "Author": "Infi, mudcrab2142",
+  "Name": "Diadem Calculator",
+  "InternalName": "DiademCalculator",
+  "AssemblyVersion": "0.0.0.3",
+  "Description": "Calculates your current sessions points and scrip reward",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/Infiziert90/DiademCalculator",
+  "Tags": [
+    "Plugin",
+    "Diadem",
+    "Calculator",
+    "Scrips",
+    "Points",
+    "Gathering"
+  ],
+  "DalamudApiLevel": 9,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "Punchline": "Yet another useful calculator~",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "stable"
+}
