@@ -1,0 +1,24 @@
+{
+  "Author": "MidoriKami",
+  "Name": "Hotbar Unlimited",
+  "InternalName": "HotbarUnlimited",
+  "AssemblyVersion": "1.0.0.4",
+  "Description": "Allows you to move each individual hotbar slot to wherever you want, however you want.",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/MidoriKami/HotbarUnlimited",
+  "Tags": [
+    "UI"
+  ],
+  "CategoryTags": [
+    "UI"
+  ],
+  "DalamudApiLevel": 9,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "Punchline": "Total control over where to put your hotbar slots.",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "stable"
+}
