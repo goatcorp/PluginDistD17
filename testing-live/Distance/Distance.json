@@ -1,0 +1,34 @@
+{
+  "Author": "PunishedPineapple",
+  "Name": "Distance",
+  "InternalName": "Distance",
+  "AssemblyVersion": "1.1.0.0",
+  "Description": "Displays the distance in yalms to your target and/or other enemies, players, NPCs, etc.  It can also display the aggro range for supported bosses.\r\nPlease note that this plugin automatically downloads updates for aggro data by default.  This can be disabled in the plugin settings if you wish.",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/PunishedPineapple/Distance",
+  "Tags": [
+    "Distance",
+    "Range",
+    "Aggro",
+    "Enmity",
+    "Hate",
+    "Pull",
+    "Hitbox",
+    "Ring",
+    "Target"
+  ],
+  "DalamudApiLevel": 9,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "ImageUrls": [
+    "https://github.com/PunishedPineapple/Distance/raw/main/docs/Images/image1.png",
+    "https://github.com/PunishedPineapple/Distance/raw/main/docs/Images/image2.png"
+  ],
+  "IconUrl": "https://github.com/PunishedPineapple/Distance/raw/main/docs/Images/icon.png",
+  "Punchline": "Target distance widgets.",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "testing-live"
+}
