@@ -1,0 +1,32 @@
+{
+  "Author": "ditzy",
+  "Name": "Scout Helper",
+  "InternalName": "ScoutHelper",
+  "AssemblyVersion": "0.1.0.0",
+  "Description": "A helper for generating scout tracker links for a-rank hunt trains",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/im-scared/scout-helper",
+  "Tags": [
+    "a rank",
+    "hunt",
+    "mark",
+    "mob",
+    "scout",
+    "scouting",
+    "train"
+  ],
+  "DalamudApiLevel": 9,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "ImageUrls": [
+    "https://raw.githubusercontent.com/im-scared/scout-helper/main/images/image1.png",
+    "https://raw.githubusercontent.com/im-scared/scout-helper/main/images/image2.png"
+  ],
+  "IconUrl": "https://raw.githubusercontent.com/im-scared/scout-helper/main/images/icon.png",
+  "Punchline": "A helper plugin for pre-populating hunt train scout tracker links",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "testing-live"
+}
