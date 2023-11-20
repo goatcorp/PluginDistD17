@@ -2,12 +2,14 @@
   "Author": "zw3lf",
   "Name": "Coordinate Importer",
   "InternalName": "CoordImporter",
-  "AssemblyVersion": "1.0.0.1",
+  "AssemblyVersion": "1.1.0.0",
   "Description": "Import map coordinates from various sources (e.g. Siren Hunts or Bear Toolkit) and dump them into echo chat. Use /ci to open the dialog box.",
   "ApplicableVersion": "any",
   "Tags": [
     "map",
-    "plugin",
+    "import",
+    "siren",
+    "bear",
     "hunt",
     "train",
     "coordinate"
