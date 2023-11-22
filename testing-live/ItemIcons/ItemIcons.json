@@ -2,7 +2,7 @@
   "Author": "Asriel",
   "Name": "Item Icons",
   "InternalName": "ItemIcons",
-  "AssemblyVersion": "0.3.1.0",
+  "AssemblyVersion": "0.4.0.0",
   "Description": "Display custom icons for items for easier inventory mangement.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/WorkingRobot/ItemIcons",
