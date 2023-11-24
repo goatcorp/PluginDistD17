@@ -2,7 +2,7 @@
   "Author": "Seventh",
   "Name": "Collections",
   "InternalName": "Collections",
-  "AssemblyVersion": "1.0.0.4",
+  "AssemblyVersion": "1.0.1.0",
   "Description": "Provides an interface to track and discover collectibles. \nGlamour, Mounts, Minions and more.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Seventhxiv/Collections",
