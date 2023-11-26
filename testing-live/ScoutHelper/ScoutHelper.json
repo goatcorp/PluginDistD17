@@ -2,7 +2,7 @@
   "Author": "ditzy",
   "Name": "Scout Helper",
   "InternalName": "ScoutHelper",
-  "AssemblyVersion": "0.1.0.0",
+  "AssemblyVersion": "0.2.0.0",
   "Description": "A helper for generating scout tracker links for a-rank hunt trains",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/im-scared/scout-helper",
@@ -21,8 +21,10 @@
   "CanUnloadAsync": false,
   "LoadPriority": 0,
   "ImageUrls": [
-    "https://raw.githubusercontent.com/im-scared/scout-helper/main/images/image1.png",
-    "https://raw.githubusercontent.com/im-scared/scout-helper/main/images/image2.png"
+    "https://raw.githubusercontent.com/im-scared/scout-helper/main/images/hunt-helper-train.png",
+    "https://raw.githubusercontent.com/im-scared/scout-helper/main/images/main-window.png",
+    "https://raw.githubusercontent.com/im-scared/scout-helper/main/images/settings.png",
+    "https://raw.githubusercontent.com/im-scared/scout-helper/main/images/output.png"
   ],
   "IconUrl": "https://raw.githubusercontent.com/im-scared/scout-helper/main/images/icon.png",
   "Punchline": "A helper plugin for pre-populating hunt train scout tracker links",
