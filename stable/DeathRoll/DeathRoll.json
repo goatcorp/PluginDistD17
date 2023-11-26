@@ -2,7 +2,7 @@
   "Author": "Infi",
   "Name": "Death Roll Helper",
   "InternalName": "DeathRoll",
-  "AssemblyVersion": "1.4.0.0",
+  "AssemblyVersion": "1.4.1.0",
   "Description": "Plugin to help with several /random and /dice-related games.\n\nVenue:\n    + Concise display of all concurrent players in a list-based format\n    + Supports multiple sorting types (min, max, nearest to) \n    + Highlight numbers based on regex matching \nDeathRoll:\n    + Supports multiple players\n    + Automatic checks to prevent number skipping\nTournament (1v1 DeathRoll):\n    + Automatic bracket generation with byes to fill uneven\n    + Forfeit functionality if a player needs to leave\nBlackjack:\n    + Automatic reward calculation based on common rules\n    + Simplistic, or visual view of cards in play\n    + Automatic or manual player-based draw for cards\n    + Current players can be seamlessly moved to subsequent rounds\n    + Configurable dealer rules (like Soft16)\n\nExtra Features:\n    + Block or prevent players from partaking in any game\n    + Accept only /random or /dice commands\n\nMore features are planned, following user feedback.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Infiziert90/DeathRoll",
