@@ -2,7 +2,7 @@
   "Author": "Infi",
   "Name": "Hunty",
   "InternalName": "Hunty",
-  "AssemblyVersion": "1.3.0.0",
+  "AssemblyVersion": "1.3.0.1",
   "Description": "Never has it been that easy to finish your hunting log. \n\n+ List of monsters in the same location based on Rank\n+ Clickable coords to open your map on that exact location\n+ Clickable dungeon name to open your duty finder\n+ Easy to switch between Grand Company and Jobs\n+ Automatic selection based on current job",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Infiziert90/Hunty",
