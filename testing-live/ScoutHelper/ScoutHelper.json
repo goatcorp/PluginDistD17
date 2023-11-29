@@ -2,7 +2,7 @@
   "Author": "ditzy",
   "Name": "Scout Helper",
   "InternalName": "ScoutHelper",
-  "AssemblyVersion": "0.2.1.0",
+  "AssemblyVersion": "0.2.2.0",
   "Description": "A helper for generating scout tracker links for a-rank hunt trains",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/im-scared/scout-helper",
