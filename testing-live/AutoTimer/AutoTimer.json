@@ -2,7 +2,7 @@
   "Author": "Aly",
   "Name": "AutoTimer",
   "InternalName": "AutoTimer",
-  "AssemblyVersion": "1.0.0.2",
+  "AssemblyVersion": "1.0.0.3",
   "Description": "Auto-Attack Timer Bar based on the Triggernometry trigger by aya liz.",
   "ApplicableVersion": "any",
   "Tags": [
