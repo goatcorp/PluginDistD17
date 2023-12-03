@@ -2,7 +2,7 @@
   "Author": "Koenari",
   "Name": "Himbeertoni Raid Tool",
   "InternalName": "HimbeertoniRaidTool",
-  "AssemblyVersion": "1.4.0.0",
+  "AssemblyVersion": "1.4.1.0",
   "Description": "A collection of useful tools for RaidGroups, including loot management",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Koenari/HimbeertoniRaidTool/wiki",
@@ -24,7 +24,7 @@
   ],
   "IconUrl": "https://raw.githubusercontent.com/Koenari/HimbeertoniRaidTool/master/images/icon.png",
   "Punchline": "All you need for Raiding",
-  "Changelog": "Internals: Changed how groups and players are saved",
+  "Changelog": "New Feature: You can now track multiple characters per player\nLootmaster: Reworked group view to improve user experience this includes:\n    One click reordering of players\n    Create new player from target\n    Quickly add existing players or characters from the database\nUi: New windows for editing players and characters\nBugfix: corrected behaviour when deleting main job",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "testing-live"
