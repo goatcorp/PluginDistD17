@@ -2,7 +2,7 @@
   "Author": "SaMo",
   "Name": "Map Party Assist",
   "InternalName": "MapPartyAssist",
-  "AssemblyVersion": "1.0.0.0",
+  "AssemblyVersion": "1.0.1.0",
   "Description": "Tool for keeping track of treasure maps opened by party members and recording treasure dungeon statistics.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/wrath16/MapPartyAssist",
@@ -19,7 +19,7 @@
   "LoadPriority": 0,
   "IconUrl": "https://raw.githubusercontent.com/wrath16/MapPartyAssist/master/images/icon.png",
   "Punchline": "Treasure map tracker and statistics.",
-  "Changelog": "-Initial Dalamud release.",
+  "Changelog": "-Performance improvements.",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "testing-live"
