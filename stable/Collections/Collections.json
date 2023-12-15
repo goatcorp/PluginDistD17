@@ -1,0 +1,31 @@
+{
+  "Author": "Seventh",
+  "Name": "Collections",
+  "InternalName": "Collections",
+  "AssemblyVersion": "1.0.1.2",
+  "Description": "Collections provides an interface to track, discover and interact with your various Collections in game.\nIntegrates with Glamour systems (Preview, Create Sets, Glamour Plates).\nSupported collections: Glamour, Mounts, Minions, Emotes, Hairstyles, Triple Triad, Blue Mage, Bardings.",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/Seventhxiv/Collections",
+  "Tags": [
+    "collections",
+    "glamour",
+    "mounts",
+    "minions",
+    "Utility",
+    "Other"
+  ],
+  "DalamudApiLevel": 9,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "ImageUrls": [
+    "https://raw.githubusercontent.com/Seventhxiv/Collections/master/Collections/Data/Resources/mainwindow730.png",
+    "https://raw.githubusercontent.com/Seventhxiv/Collections/master/Collections/Data/Resources/mountwindow730.png"
+  ],
+  "IconUrl": "https://xivapi.com/img-misc/061643.png",
+  "Punchline": "Collect all of the things",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "stable"
+}

@@ -1,0 +1,27 @@
+{
+  "Author": "NeNeppie",
+  "Name": "Avant-Garde",
+  "InternalName": "AvantGarde",
+  "AssemblyVersion": "0.1.1.0",
+  "Description": "This plugin is a crowdsourced project, aiming to provide a comprehensive list for all hint categories.\nSee the github page for information on how you can contribute.",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/NeNeppie/AvantGarde",
+  "Tags": [
+    "Fashion report",
+    "Glamour",
+    "Gold saucer"
+  ],
+  "CategoryTags": [
+    "Utility",
+    "UI"
+  ],
+  "DalamudApiLevel": 9,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "Punchline": "Displays a list of valid gear pieces beside hints in the Fashion Report minigame.",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "stable"
+}
