@@ -2,7 +2,7 @@
   "Author": "fmauNeko",
   "Name": "Market board",
   "InternalName": "MarketBoardPlugin",
-  "AssemblyVersion": "1.3.3.0",
+  "AssemblyVersion": "1.3.4.0",
   "Description": "Browse the market board. /pmb to open.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/fmauNeko/MarketBoardPlugin",
