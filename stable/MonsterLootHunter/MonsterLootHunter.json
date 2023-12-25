@@ -2,7 +2,7 @@
   "Author": "Sylf",
   "Name": "Monster Loot Hunter",
   "InternalName": "MonsterLootHunter",
-  "AssemblyVersion": "1.0.19.4",
+  "AssemblyVersion": "1.0.20.4",
   "Description": "Check where you can obtain a material from monsters, duties, crafting, gathering or where they can be bought from NPCs.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/danielbrenom/MonsterLootHunter",
@@ -19,7 +19,7 @@
   "CanUnloadAsync": false,
   "LoadPriority": 0,
   "Punchline": "Check where you can obtain materials.",
-  "Changelog": "- Modified loot search parsing\n- Added table sorting\n- Added level info on loot\n- Fixed cause of some crashes\n- General refactorings",
+  "Changelog": "- Fixes gatherable items parsing\n- Fixes map linking for some items\n- Adds table resizing\n- Adds window resizing",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "stable"
