@@ -2,7 +2,7 @@
   "Author": "Seventh",
   "Name": "Collections",
   "InternalName": "Collections",
-  "AssemblyVersion": "1.0.1.4",
+  "AssemblyVersion": "1.0.1.5",
   "Description": "Collections provides an interface to track, discover and interact with your Collections in game.\nIntegrates with Glamour systems (Preview, Create Sets, Glamour Plates).\nSupports: Glamour, Mounts, Minions, Emotes, Hairstyles, Triple Triad, Blue Mage, Bardings.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Seventhxiv/Collections",
