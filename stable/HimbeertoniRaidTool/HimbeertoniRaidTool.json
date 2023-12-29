@@ -2,7 +2,7 @@
   "Author": "Koenari",
   "Name": "Himbeertoni Raid Tool",
   "InternalName": "HimbeertoniRaidTool",
-  "AssemblyVersion": "1.4.2.1",
+  "AssemblyVersion": "1.5.0.0",
   "Description": "A collection of useful tools for RaidGroups, including loot management",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Koenari/HimbeertoniRaidTool/wiki",
@@ -24,7 +24,7 @@
   ],
   "IconUrl": "https://raw.githubusercontent.com/Koenari/HimbeertoniRaidTool/master/images/icon.png",
   "Punchline": "All you need for Raiding",
-  "Changelog": "Bugfix: Adding new players from target resulted in an empty player",
+  "Changelog": "New Feature: Manage multiple gear/bis sets per job\nNew Feature: Automatically updates own characters data (can be disabled in the config)\nUser Interface: Made it more pretty\nUser Interface: You can now hide jobs (select classes when editing a character)\nGeneral: Correctly handle materia for previous expansions",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "stable"
