@@ -1,0 +1,23 @@
+{
+  "Author": "Bluefissure",
+  "Name": "OBSPlugin",
+  "InternalName": "OBSPlugin",
+  "AssemblyVersion": "1.0.3.1",
+  "Description": "A plugin to control OBS by WebSocket, streaming with any UI modification is not recommended.",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/Bluefissure/Dalamud-OBS",
+  "Tags": [
+    "OBS",
+    "UI",
+    "Util"
+  ],
+  "DalamudApiLevel": 9,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "Punchline": "Control OBS by websocket",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "testing-live"
+}
