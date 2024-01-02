@@ -2,7 +2,7 @@
   "Author": "erroch",
   "Name": "FFXIV RP Event Calendar",
   "InternalName": "FFXIVRPCalendarPlugin",
-  "AssemblyVersion": "1.0.1.1",
+  "AssemblyVersion": "1.0.1.2",
   "Description": "An in game portal to the FFXIV RP Event Calendar (https://ffxiv-rp.org).  Use /events to bring up the list of roleplay events happening this week.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/erroch/FFXIVRPEventCalendarPlugin",
@@ -21,5 +21,5 @@
   "Punchline": "Want to know what's going in in roleplay today?",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
-  "_Dip17Channel": "testing-live"
+  "_Dip17Channel": "stable"
 }
