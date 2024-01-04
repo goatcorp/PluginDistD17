@@ -2,7 +2,7 @@
   "Author": "Anna",
   "Name": "Eorzea Votes",
   "InternalName": "EorzeaVotes",
-  "AssemblyVersion": "1.1.0.0",
+  "AssemblyVersion": "1.2.0.0",
   "Description": "Cast your vote in daily lighthearted opinion polls!\n",
   "ApplicableVersion": "any",
   "DalamudApiLevel": 9,
