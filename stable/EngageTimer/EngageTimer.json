@@ -2,7 +2,7 @@
   "Author": "Xorus",
   "Name": "EngageTimer",
   "InternalName": "EngageTimer",
-  "AssemblyVersion": "2.2.6.0",
+  "AssemblyVersion": "2.3.1.1",
   "Description": "Finally, display all the numbers when starting a countdown!\nComes with an accurate pull timer that starts when you or any of your party members enter combat.\n\nFeatures :\n- Big countdown that displays all the numbers\n- Customizable big-number textures (default, yellow, WoW style or custom files)\n- Display combat time in the Server Info Bar, and/or a floating window\n- OBS browser-source compatible page with countdown and current combat duration\n\nWhy the OBS thing ? I like having a big stylized stopwatch in my private recordings and that's about it.\nSee repository for more info.\n\nFeel free so send me feedback, bugs and potential improvements! Check the about page in the plugin settings for more\ninfo. Please report urgent feedback on GitHub or XIVLauncher Discord's support thread for this plugin.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/xorus/EngageTimer",
@@ -30,7 +30,7 @@
   ],
   "IconUrl": "https://raw.githubusercontent.com/xorus/EngageTimer/main/images/icon.png",
   "Punchline": "Complete combat countdown, pull timer and OBS overlay",
-  "Changelog": "- Countdown Ticks: option to make them start at a certain time (e.g. only tick 1 to 10 numbers)\n- Updated to api 9",
+  "Changelog": "- You can set alarms to play a game sound effect, change stopwatch color or display text at specified combat durations\n- Big code rewrite and a bit of optimization\n- Fix save errors when spinning color sliders like a maniac in configuration\n- Reorganized configuration file to preserve my sanity\n- \"Hide original addon\" now uses AddonLifecycle events instead of searching for the original countdown every frame\n- Reduce CountdownHook CPU usage by fixing a stupid event spam mistake\n- Optimize countdown display code\n- Fix the \"first-draw\" workaround that draws the countdown window once on plugin activation to prevent a freeze caused\n  by ImGUI initializing the window does not occur when starting a countdown",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "stable"
