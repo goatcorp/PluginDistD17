@@ -2,8 +2,8 @@
   "Author": "Koenari",
   "Name": "Himbeertoni Raid Tool",
   "InternalName": "HimbeertoniRaidTool",
-  "AssemblyVersion": "1.5.0.1",
-  "Description": "A collection of useful tools for RaidGroups, including loot management",
+  "AssemblyVersion": "1.5.1.0",
+  "Description": "A collection of useful tools for raid groups, including loot management",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Koenari/HimbeertoniRaidTool/wiki",
   "Tags": [
@@ -24,7 +24,7 @@
   ],
   "IconUrl": "https://raw.githubusercontent.com/Koenari/HimbeertoniRaidTool/master/images/icon.png",
   "Punchline": "All you need for Raiding",
-  "Changelog": "General: Remove unused gear sets from database\nBugfix: You are now able to change to gear sets with the same name\nBugfix: Autmotically updated gear was sometimes not saved correctly\nPerormance: Optimized load time on slow connections",
+  "Changelog": "Bis: Add support for relic weapons in etro.gg sets\nUi: Added ability to change relic stats when editing gear\nGeneral: You can now specify which types of jobs get automatically updated/created. If you want single jobs to not show up, you can hide these in character edit\nKnown issue: Stats for relic weapons are not correctly read from the Lodestone or Examine, but your manual edits will NOT be overwritten",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "stable"
