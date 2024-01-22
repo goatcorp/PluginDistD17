@@ -1,0 +1,28 @@
+{
+  "Author": "Frogworks Interactive",
+  "Name": "OOF!",
+  "InternalName": "OofPlugin",
+  "AssemblyVersion": "1.3.0.0",
+  "Description": "i love roblox!!! \n           \nwhimsical and magical features...\n  - when other ppl die\n  - custom mp3\n  - instant access to the hour long documentary on oof by hbomberguy\n          ",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/Frogworks-Interactive/OOF",
+  "Tags": [
+    "Oof",
+    "Fall Damage",
+    "Death",
+    "Play",
+    "Alarm",
+    "Roblox",
+    "Obby",
+    "Sound"
+  ],
+  "DalamudApiLevel": 9,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "Punchline": "Play OOF! on fall and/or death. The Only Plugin You Need!",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "stable"
+}
