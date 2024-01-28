@@ -1,0 +1,22 @@
+{
+  "Author": "Aly",
+  "Name": "AutoTimer",
+  "InternalName": "AutoTimer",
+  "AssemblyVersion": "1.0.0.3",
+  "Description": "Auto-Attack Timer Bar based on the Triggernometry trigger by aya liz.",
+  "ApplicableVersion": "any",
+  "Tags": [
+    "auto",
+    "attack",
+    "timer"
+  ],
+  "DalamudApiLevel": 9,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "Punchline": "Auto-Attack Timer Bar.",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "stable"
+}
