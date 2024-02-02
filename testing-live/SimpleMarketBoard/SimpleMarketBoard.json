@@ -1,0 +1,22 @@
+{
+  "Author": "Elypha",
+  "Name": "SimpleMarketBoard",
+  "InternalName": "SimpleMarketBoard",
+  "AssemblyVersion": "1.0.0.0",
+  "Description": "You get some useful bonus info and a nice, condensed layout with it. Might be useful for power users, perhaps?\nCheckout the Github page for information and acknowledgement.",
+  "ApplicableVersion": "any",
+  "Tags": [
+    "marketboard",
+    "plugin",
+    "elypha"
+  ],
+  "DalamudApiLevel": 9,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "Punchline": "The simple but ultimate market board plugin.",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "testing-live"
+}
