@@ -1,0 +1,24 @@
+{
+  "Author": "Meoiswa",
+  "Name": "Fast Job Switcher",
+  "InternalName": "FastJobSwitcher",
+  "AssemblyVersion": "1.0.0.3",
+  "Description": "Enables the player to switch jobs using their three letter acronyms as commands. (*: five or more)",
+  "ApplicableVersion": "any",
+  "Tags": [
+    "UI",
+    "convenience",
+    "command",
+    "jobs",
+    "switch"
+  ],
+  "DalamudApiLevel": 9,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "Punchline": "Always five* keystrokes away from any job",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "testing-live"
+}
