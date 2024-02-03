@@ -2,11 +2,12 @@
   "Author": "Elypha",
   "Name": "SimpleMarketBoard",
   "InternalName": "SimpleMarketBoard",
-  "AssemblyVersion": "1.0.0.0",
-  "Description": "You get some useful bonus info and a nice, condensed layout with it. Might be useful for power users, perhaps?\nCheckout the Github page for information and acknowledgement.",
+  "AssemblyVersion": "1.1.2.0",
+  "Description": "You get some useful bonus info and a nice, condensed UI with it. Might be useful for power users, perhaps?\nCheck out the Introduction in Plugin Configuration for general usage, and Github page for more details.",
   "ApplicableVersion": "any",
   "Tags": [
     "marketboard",
+    "price",
     "plugin",
     "elypha"
   ],
