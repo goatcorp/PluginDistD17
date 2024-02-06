@@ -2,14 +2,20 @@
   "Author": "Elypha",
   "Name": "SimpleMarketBoard",
   "InternalName": "SimpleMarketBoard",
-  "AssemblyVersion": "1.2.0.0",
-  "Description": "You get some useful bonus info and a nice, condensed UI with it. Might be useful for power users, perhaps?\nCheck out the Introduction in Plugin Configuration for general usage, and Github page for more details.",
+  "AssemblyVersion": "1.2.0.1",
+  "Description": "You get some useful bonus info and a nice, condensed presentation. Might be useful for power users, perhaps?\n\nHighlights:\n  - Compact UI design\n  - Cached search history\n  - Flexible configuration\n  - Live data filters\n  - Colour highlights\n\nCheck out the Introduction in Plugin Configuration for general usage, and Github page for more details.\n\nIf you have any feedback or suggestions, feel free to contact me on Discord or Github. I'm always open to new ideas and improvements. Enjoy!\n",
   "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/Elypha/SimpleMarketBoard",
   "Tags": [
-    "marketboard",
-    "price",
-    "plugin",
-    "elypha"
+    "Marketboard",
+    "Price",
+    "Data",
+    "Universalis",
+    "Elypha"
+  ],
+  "CategoryTags": [
+    "Utility",
+    "Other"
   ],
   "DalamudApiLevel": 9,
   "LoadRequiredState": 0,
