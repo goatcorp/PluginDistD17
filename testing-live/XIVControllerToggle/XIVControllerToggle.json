@@ -2,7 +2,7 @@
   "Author": "Callum Carmicheal",
   "Name": "The Great Controller Hud Switcher",
   "InternalName": "XIVControllerToggle",
-  "AssemblyVersion": "1.0.0.0",
+  "AssemblyVersion": "1.0.1.0",
   "Description": "A simple tool to automatically switch between keyboard and controller hud's when pressing WASD or moving the left joystick. You can setup a macro to add the actions to your hotbar.",
   "ApplicableVersion": "any",
   "Tags": [
