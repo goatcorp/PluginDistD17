@@ -2,10 +2,10 @@
   "Author": "Koenari",
   "Name": "Himbeertoni Raid Tool",
   "InternalName": "HimbeertoniRaidTool",
-  "AssemblyVersion": "1.5.2.2",
+  "AssemblyVersion": "1.5.2.3",
   "Description": "A collection of useful tools for raid groups, including loot management",
   "ApplicableVersion": "any",
-  "RepoUrl": "https://github.com/Koenari/HimbeertoniRaidTool/wiki",
+  "RepoUrl": "https://github.com/Koenari/HimbeertoniRaidTool/",
   "Tags": [
     "Raid",
     "Loot",
@@ -17,14 +17,8 @@
   "LoadSync": false,
   "CanUnloadAsync": false,
   "LoadPriority": 0,
-  "ImageUrls": [
-    "https://raw.githubusercontent.com/Koenari/HimbeertoniRaidTool/master/OtherResources/assets/loot_session.png",
-    "https://raw.githubusercontent.com/Koenari/HimbeertoniRaidTool/master/OtherResources/assets/raid_view.png",
-    "https://raw.githubusercontent.com/Koenari/HimbeertoniRaidTool/master/OtherResources/assets/solo_view.png"
-  ],
-  "IconUrl": "https://raw.githubusercontent.com/Koenari/HimbeertoniRaidTool/master/images/icon.png",
   "Punchline": "All you need for Raiding",
-  "Changelog": "    General: Gear updates by examining now use the same restrictions as own data collection\n    Localization: Redone translation\n    Bugfix: Selecting gear from database now works\n    Bugfix: Adding gear sets in solo view works again\n",
+  "Changelog": "    Localization: Fixed edit buttons tooltip to not say \"add\"\n    Gear: You can restrict automatic overrides for irrelevant gear (see config)\n    Localization: German (Deutsch) translation updated\n",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "stable"

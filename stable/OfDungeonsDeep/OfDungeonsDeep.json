@@ -1,0 +1,24 @@
+{
+  "Author": "NotNite, MidoriKami",
+  "Name": "OfDungeonsDeep",
+  "InternalName": "OfDungeonsDeep",
+  "AssemblyVersion": "1.0.0.1",
+  "Description": "Based loosely on DeepDungeonDex (by Strati), OfDungeonsDeep is an all-in-one tool for Deep Dungeon floor and mob information.\nData sourced with permission from https://www.ddcompendium.com/.",
+  "ApplicableVersion": "any",
+  "Tags": [
+    "deep",
+    "dungeon",
+    "deeper",
+    "deepest",
+    "dank"
+  ],
+  "DalamudApiLevel": 9,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "Punchline": "Comprehensive monster dex for DeepDungeons",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "stable"
+}
