@@ -1,0 +1,18 @@
+{
+  "Author": "VariableVixen",
+  "Name": "AutoMountBgm",
+  "InternalName": "AutoMountBgm",
+  "AssemblyVersion": "2.0.1.0",
+  "Description": "Some mounts have really cool BGM tracks (Cruise Chaser FTW) while others are almost sickening in how much you hear them. It's annoying to keep needing to use /mountbgm, but now you won't have to - just let the plugin do it for you!",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/PrincessRTFM/AutoMountBGM",
+  "DalamudApiLevel": 9,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "Punchline": "Automatically control mount BGM for individual mounts!",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "stable"
+}
