@@ -2,7 +2,7 @@
   "Author": "Elypha",
   "Name": "SimpleMarketBoard",
   "InternalName": "SimpleMarketBoard",
-  "AssemblyVersion": "1.2.0.3",
+  "AssemblyVersion": "1.2.0.2",
   "Description": "You get some useful bonus info and a nice, condensed presentation. Might be useful for power users, perhaps?\n\nHighlights:\n  - Compact UI design\n  - Cached search history\n  - Flexible configuration\n  - Live data filters\n  - Colour highlights\n\nCheck out the Introduction in Plugin Configuration for general usage, and Github page for more details.\n\nIf you have any feedback or suggestions, feel free to contact me on Discord or Github. I'm always open to new ideas and improvements. Enjoy!\n",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Elypha/SimpleMarketBoard",
@@ -25,5 +25,5 @@
   "Punchline": "The simple but ultimate market board plugin.",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
-  "_Dip17Channel": "testing-live"
+  "_Dip17Channel": "stable"
 }
