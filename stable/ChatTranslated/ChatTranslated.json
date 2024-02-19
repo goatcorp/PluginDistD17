@@ -2,7 +2,7 @@
   "Author": "kelvin124124",
   "Name": "ChatTranslated",
   "InternalName": "ChatTranslated",
-  "AssemblyVersion": "1.4.0.1",
+  "AssemblyVersion": "1.4.0.2",
   "Description": "Ingame chat translator.\n\"/pchat config\" to open config window.",
   "ApplicableVersion": "any",
   "Tags": [
