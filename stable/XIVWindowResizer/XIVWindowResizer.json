@@ -1,0 +1,22 @@
+{
+  "Author": "AlexCSDev",
+  "Name": "XIVWindowResizer",
+  "InternalName": "XIVWindowResizer",
+  "AssemblyVersion": "1.0.0.1",
+  "Description": "Set your game window to arbitrary size not limited by your display resolution. Mostly useful for taking high-resolution screenshots without going fullscreen and using DSR/FSR.\r\nRequires borderless or windowed mode.",
+  "ApplicableVersion": "any",
+  "Tags": [
+    "gpose",
+    "posing",
+    "utility"
+  ],
+  "DalamudApiLevel": 9,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "Punchline": "Game window resizing plugin. Ever wanted to take 8K screenshots on 144p screen? Now you can.",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "stable"
+}
