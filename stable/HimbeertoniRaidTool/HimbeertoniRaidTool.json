@@ -2,7 +2,7 @@
   "Author": "Koenari",
   "Name": "Himbeertoni Raid Tool",
   "InternalName": "HimbeertoniRaidTool",
-  "AssemblyVersion": "1.5.2.5",
+  "AssemblyVersion": "1.5.2.6",
   "Description": "A collection of useful tools for raid groups, including loot management",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Koenari/HimbeertoniRaidTool/",
@@ -18,7 +18,7 @@
   "CanUnloadAsync": false,
   "LoadPriority": 0,
   "Punchline": "All you need for Raiding",
-  "Changelog": "    Bugfix: Fixed broken materia in etro.gg sets\n(affected sets need to be updated by pressing the button\n  or automatic updates if activated)\n",
+  "Changelog": "    Bugfix: Fixes being unable to add new gear sets\n    User Interface: Add job selection (for BiS and item selection) to gear set edit user interface\n",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "stable"

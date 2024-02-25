@@ -2,7 +2,7 @@
   "Author": "Meoiswa",
   "Name": "Tilted",
   "InternalName": "Tilted",
-  "AssemblyVersion": "3.3.0.1",
+  "AssemblyVersion": "3.4.1.2",
   "Description": "Automatically adjusts the Third Person Camera Angle/Distance given certain conditions.",
   "ApplicableVersion": "any",
   "Tags": [
