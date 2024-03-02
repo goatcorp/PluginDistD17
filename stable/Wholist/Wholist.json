@@ -2,7 +2,7 @@
   "Author": "Blooym",
   "Name": "Wholist",
   "InternalName": "Wholist",
-  "AssemblyVersion": "1.4.1.0",
+  "AssemblyVersion": "1.4.2.0",
   "Description": "Show nearby players in a stylish way, inspired by the \"/who\" command from World of Warcraft\n\nFeatures:\n- Minimalistic interface that can be scaled down to become part of your HUD.\n- Player context menu items, like sending tells, examining, searching on the Lodestone and more.\n- Customizable colours & behaviour.\n- Integration support with other plugins via IPC.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Blooym/Wholist",

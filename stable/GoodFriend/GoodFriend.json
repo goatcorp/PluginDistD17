@@ -2,8 +2,8 @@
   "Author": "Blooym",
   "Name": "GoodFriend",
   "InternalName": "GoodFriend",
-  "AssemblyVersion": "3.0.6.0",
-  "Description": "A plugin to make improvements to the in-game friend system. Includes a client to communicate with the GoodFriend API to send & receive notifications with your friends.\n\nFeatures:\n- Private in design, no identifying information is ever sent about you over the network.\n- Send & receive notifications when your friends login and logout*.\n- Get notified when your friends use the world visit system.\n- Lots of filtering options for various events.\n\n * Requires friends to also have GoodFriend installed.",
+  "AssemblyVersion": "3.1.1.0",
+  "Description": "A plugin that improves to the in-game friend system.\n\nKey Features:\n- Send and receive notifications when your friends login and logout*.\n- Get notified when your friends use the world visit system*.\n- Chat messages showing how many of your friends are online when you log in.\n- Private in design, all identifying information is hashed before being sent to the server.\n\n * Other friends must also have GoodFriend installed.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Blooym/GoodFriend",
   "Tags": [
@@ -19,7 +19,7 @@
   "LoadSync": false,
   "CanUnloadAsync": false,
   "LoadPriority": 0,
-  "Punchline": "Improvements to the in-game friend system! Send & receive login and logout notifications with friends and more!",
+  "Punchline": "Major improvements to the in-game friend system, like getting login and logout notifications for your friends, and much more.",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "stable"
