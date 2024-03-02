@@ -2,7 +2,7 @@
   "Author": "Asriel",
   "Name": "Craftimizer",
   "InternalName": "Craftimizer",
-  "AssemblyVersion": "2.0.3.0",
+  "AssemblyVersion": "2.2.0.0",
   "Description": "Allows you to generate macros and simulate all sorts of crafts without having to open another app. Open your crafting log to get started!",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/WorkingRobot/craftimizer",
