@@ -2,7 +2,7 @@
   "Author": "NotNite, MidoriKami",
   "Name": "OfDungeonsDeep",
   "InternalName": "OfDungeonsDeep",
-  "AssemblyVersion": "1.0.0.1",
+  "AssemblyVersion": "1.0.0.2",
   "Description": "Based loosely on DeepDungeonDex (by Strati), OfDungeonsDeep is an all-in-one tool for Deep Dungeon floor and mob information.\nData sourced with permission from https://www.ddcompendium.com/.",
   "ApplicableVersion": "any",
   "Tags": [
