@@ -2,7 +2,7 @@
   "Author": "Blooym",
   "Name": "GoodFriend",
   "InternalName": "GoodFriend",
-  "AssemblyVersion": "3.2.0.0",
+  "AssemblyVersion": "3.2.1.0",
   "Description": "A plugin that improves to the in-game friend system.\n\nKey Features:\n- Send and receive notifications when your friends login and logout*.\n- Get notified when your friends use the world visit system*.\n- Chat messages showing how many of your friends are online when you log in.\n- Private in design, all identifying information is hashed before being sent to the server.\n\n * Other friends must also have GoodFriend installed.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Blooym/GoodFriend",
