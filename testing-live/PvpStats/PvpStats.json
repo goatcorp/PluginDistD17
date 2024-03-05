@@ -1,0 +1,24 @@
+{
+  "Author": "SaMo",
+  "Name": "PvP Tracker",
+  "InternalName": "PvpStats",
+  "AssemblyVersion": "0.0.0.1",
+  "Description": "Record, browse and filter your Crystalline Conflict match history, view match scoreboards and view aggregated statistics like win rate and average damage dealt per match.",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/wrath16/PvpStats",
+  "Tags": [
+    "pvp",
+    "statistics"
+  ],
+  "DalamudApiLevel": 9,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "IconUrl": "https://raw.githubusercontent.com/wrath16/PvpStats/master/images/icon.png",
+  "Punchline": "Crystalline Conflict match history and scoreboard tracker. (FL and RW coming soon!)",
+  "Changelog": "Initial release.",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "testing-live"
+}
