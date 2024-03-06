@@ -2,7 +2,7 @@
   "Author": "Sylf",
   "Name": "Macro Recorded",
   "InternalName": "MacroRecorded",
-  "AssemblyVersion": "1.0.1.2",
+  "AssemblyVersion": "1.0.2.2",
   "Description": "Records a crafting rotation you start and provides a way to export it to a macro so you can reutilize it.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/danielbrenom/MacroRecorded",
@@ -18,7 +18,7 @@
   "CanUnloadAsync": false,
   "LoadPriority": 0,
   "Punchline": "Records a crafting rotation and export it as a macro.",
-  "Changelog": "- Patch 6.5 update\n- Dalamud API update",
+  "Changelog": "- Macro wait time now configurable",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "stable"

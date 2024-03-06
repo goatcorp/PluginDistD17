@@ -2,7 +2,7 @@
   "Author": "Bluefissure",
   "Name": "No Kill Plugin",
   "InternalName": "NoKillPlugin",
-  "AssemblyVersion": "1.0.9.0",
+  "AssemblyVersion": "1.1.0.0",
   "Description": "A simple plugin that prevent the game from killing itself with lobby error.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Bluefissure/NoKillPlugin",
