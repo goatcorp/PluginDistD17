@@ -1,21 +1,22 @@
 {
   "Author": "Glyceri",
-  "Name": "Talk Copy",
+  "Name": "Dialog Copy",
   "InternalName": "TalkCopy",
-  "AssemblyVersion": "0.0.0.1",
-  "Description": "Automatically copies messages from the Talk Box to your clipboard.",
+  "AssemblyVersion": "0.0.0.2",
+  "Description": "Automatically copies messages from the Dialog Box to your clipboard.",
   "ApplicableVersion": "any",
   "Tags": [
     "plugin",
     "talk",
-    "copy"
+    "copy",
+    "dailog"
   ],
   "DalamudApiLevel": 9,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
   "LoadPriority": 0,
-  "Punchline": "Automatically copies messages from the Talk Box to your clipboard.",
+  "Punchline": "Automatically copies messages from the Dialog Box to your clipboard.",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "stable"
