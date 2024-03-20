@@ -2,7 +2,7 @@
   "Author": "VariableVixen",
   "Name": "StackSellPrice",
   "InternalName": "StackSellPrice",
-  "AssemblyVersion": "4.2.0",
+  "AssemblyVersion": "4.3.0",
   "Description": "Shows the vendor sell price for the full stack of an item on the tooltip",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/PrincessRTFM/StackSellPrice",

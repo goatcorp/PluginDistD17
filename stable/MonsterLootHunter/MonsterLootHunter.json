@@ -2,7 +2,7 @@
   "Author": "Sylf",
   "Name": "Monster Loot Hunter",
   "InternalName": "MonsterLootHunter",
-  "AssemblyVersion": "1.0.20.5",
+  "AssemblyVersion": "1.1.20.5",
   "Description": "Check where you can obtain a material from monsters, duties, crafting, gathering or where they can be bought from NPCs.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/danielbrenom/MonsterLootHunter",
@@ -19,7 +19,7 @@
   "CanUnloadAsync": false,
   "LoadPriority": 0,
   "Punchline": "Check where you can obtain materials.",
-  "Changelog": "- Refactored font size calculation",
+  "Changelog": "- NET8 Update\n-IContextMenu refactor\n-General refactorings",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "stable"
