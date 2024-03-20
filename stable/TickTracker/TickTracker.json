@@ -2,7 +2,7 @@
   "Author": "Kurochi",
   "Name": "Tick Tracker",
   "InternalName": "TickTracker",
-  "AssemblyVersion": "1.3.0.0",
+  "AssemblyVersion": "1.4.1.0",
   "Description": "Customizable bars that indicate the tick progress of HP/MP/GP regen",
   "ApplicableVersion": "any",
   "Tags": [
