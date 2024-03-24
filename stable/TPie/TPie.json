@@ -2,7 +2,7 @@
   "Author": "Tischel",
   "Name": "TPie",
   "InternalName": "TPie",
-  "AssemblyVersion": "1.8.0.1",
+  "AssemblyVersion": "1.8.1.0",
   "Description": "Highly configurable hotbars that can be toggled with a keybind. They can be filled with Actions, Items, Gear Sets, Macros and more...",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Tischel/TPie",
@@ -15,7 +15,7 @@
   "CanUnloadAsync": false,
   "LoadPriority": 0,
   "Punchline": "Customizable ring-shaped hotbars",
-  "Changelog": "# 1.8.0.1\n\n- Fixed various issues related to Gear Set elements.",
+  "Changelog": "# 1.8.1.0\n\n- Added support for the \"new\" Dalamund Fonts API.",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "stable"
