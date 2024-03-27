@@ -2,7 +2,7 @@
   "Author": "Tischel",
   "Name": "NOTED",
   "InternalName": "NOTED",
-  "AssemblyVersion": "1.2.1.0",
+  "AssemblyVersion": "1.2.1.1",
   "Description": "Lets you create notes that are linked to specific duties (they will only show during those duties).\nYou can also tie notes to certain jobs so they only appear when on the right job.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Tischel/NOTED",
@@ -15,7 +15,7 @@
   "CanUnloadAsync": false,
   "LoadPriority": 0,
   "Punchline": "Duty-specific notes!",
-  "Changelog": "1.2.1.0\n\n- Removed duplicated duty entries.\n- Added support for the Tab key when writing notes.\n- Fixed visual issues in the settings windows.\n- Fixed crash with notes containing the \"%\" character",
+  "Changelog": "1.2.1.1\n\n- Fixed note not appearing when creating it inside the duty.",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "stable"
