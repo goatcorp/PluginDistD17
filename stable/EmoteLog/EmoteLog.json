@@ -2,7 +2,7 @@
   "Author": "Speedas",
   "Name": "Emote log",
   "InternalName": "EmoteLog",
-  "AssemblyVersion": "1.1.1.1",
+  "AssemblyVersion": "1.1.2.0",
   "Description": "Adds a window logging all emotes used on you, so you never miss a sneaky dote again.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/RokasKil/EmoteLog",
