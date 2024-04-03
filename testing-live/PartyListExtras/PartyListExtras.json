@@ -2,7 +2,7 @@
   "Author": "pyrite_radio",
   "Name": "Party List Extras",
   "InternalName": "PartyListExtras",
-  "AssemblyVersion": "1.0.0.0",
+  "AssemblyVersion": "1.1.0.0",
   "Description": "Adds Text and Icons next to the party list describing active buffs. Still missing some jobs - See github for progress. Please note the overlay goes to the left of your party list.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/PYRiTEmonark/PartyListExtras",
