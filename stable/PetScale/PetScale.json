@@ -2,7 +2,7 @@
   "Author": "Kurochi",
   "Name": "Pet Scale",
   "InternalName": "PetScale",
-  "AssemblyVersion": "1.2.0.0",
+  "AssemblyVersion": "1.2.1.0",
   "Description": "Adjust the scale of your own pets and other player's pets, independent of each other.",
   "ApplicableVersion": "any",
   "Tags": [
