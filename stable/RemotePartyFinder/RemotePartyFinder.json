@@ -2,7 +2,7 @@
   "Author": "Anna",
   "Name": "Remote Party Finder Uploader",
   "InternalName": "RemotePartyFinder",
-  "AssemblyVersion": "1.0.11.0",
+  "AssemblyVersion": "1.0.12.0",
   "Description": "Uploads the PF listings you retrieve to the crowdsourced Remote\nParty Finder website (https://xivpf.com/).",
   "ApplicableVersion": "any",
   "RepoUrl": "https://git.anna.lgbt/anna/remote-party-finder",
