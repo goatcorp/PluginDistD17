@@ -2,9 +2,15 @@
   "Author": "Anna",
   "Name": "Eorzea Votes",
   "InternalName": "EorzeaVotes",
-  "AssemblyVersion": "1.3.1.0",
+  "AssemblyVersion": "1.3.2.0",
   "Description": "Cast your vote in daily lighthearted opinion polls!\n",
   "ApplicableVersion": "any",
+  "Tags": [
+    "vote",
+    "voting",
+    "questions",
+    "eorzea"
+  ],
   "DalamudApiLevel": 9,
   "LoadRequiredState": 0,
   "LoadSync": false,
