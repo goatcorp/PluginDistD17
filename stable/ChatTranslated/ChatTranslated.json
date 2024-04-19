@@ -2,9 +2,10 @@
   "Author": "kelvin124124",
   "Name": "ChatTranslated",
   "InternalName": "ChatTranslated",
-  "AssemblyVersion": "1.4.1.5",
+  "AssemblyVersion": "2.1.0.0",
   "Description": "Ingame chat translator.\n\"/pchat config\" to open config window.",
   "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/kelvin124124/ChatTranslated",
   "Tags": [
     "chat",
     "translate",
