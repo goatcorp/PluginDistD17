@@ -1,0 +1,18 @@
+{
+  "Author": "Kass",
+  "Name": "RP Utils",
+  "InternalName": "RpUtils",
+  "AssemblyVersion": "0.0.3.0",
+  "Description": "A suite (eventually) of features to support roleplay. Currently only the sonar. /rputils",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/KassWasTaken/RpUtils",
+  "DalamudApiLevel": 9,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "Punchline": "Supporting your RP needs.",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "testing-live"
+}

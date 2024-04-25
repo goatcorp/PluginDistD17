@@ -1,0 +1,30 @@
+{
+  "Author": "Lunalicious",
+  "Name": "SimpleTodo",
+  "InternalName": "SimpleTodo",
+  "AssemblyVersion": "0.0.0.1",
+  "Description": "/ptodo to open the Todo List, /ptodoconfig to open the Configuration",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://gitlab.com/moonfox-projects/simpletodo",
+  "Tags": [
+    "list",
+    "order",
+    "todo"
+  ],
+  "CategoryTags": [
+    "utility"
+  ],
+  "DalamudApiLevel": 9,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "ImageUrls": [
+    ""
+  ],
+  "IconUrl": "",
+  "Punchline": "A simple Todo List",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "testing-live"
+}
