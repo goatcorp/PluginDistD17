@@ -1,0 +1,26 @@
+{
+  "Author": "electr0sheep, Nuko",
+  "Name": "Item Vendor Location",
+  "InternalName": "ItemVendorLocation",
+  "AssemblyVersion": "2.6.0.0",
+  "Description": "Adds a context menu option for items that will show you where to find items you can buy off a vendor",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/electr0sheep/ItemVendorLocation",
+  "Tags": [
+    "item location vendor"
+  ],
+  "DalamudApiLevel": 9,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "ImageUrls": [
+    "https://raw.githubusercontent.com/electr0sheep/ItemVendorLocation/main/Images/ContextMenu.png"
+  ],
+  "IconUrl": "https://raw.githubusercontent.com/electr0sheep/ItemVendorLocation/main/Images/icon.png",
+  "Punchline": "Shows you where to buy vendor items",
+  "Changelog": "- Added support for collectable shops (Nuko)\n- Added some support for relic weapons (Nuko)\n- Fix tooltip error (Nebel)\n- Update to API 9",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "testing-live"
+}
