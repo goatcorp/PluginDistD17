@@ -1,0 +1,24 @@
+{
+  "Author": "Una",
+  "Name": "Umbra XIV",
+  "InternalName": "Umbra",
+  "AssemblyVersion": "1.0.0.1",
+  "Description": "Adds quality of life improvements to the game and consolidates common UI elements and actions into a single uniform interface.",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/una-xiv/umbra",
+  "Tags": [
+    "ui",
+    "marker",
+    "markers",
+    "toolbar"
+  ],
+  "DalamudApiLevel": 9,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "Punchline": "Ain't you a pretty little thing?",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "testing-live"
+}
