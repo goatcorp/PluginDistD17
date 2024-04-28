@@ -1,8 +1,8 @@
 {
   "Author": "Lunalicious",
-  "Name": "SimpleTodo",
+  "Name": "Simple Todo",
   "InternalName": "SimpleTodo",
-  "AssemblyVersion": "0.0.0.1",
+  "AssemblyVersion": "0.0.0.2",
   "Description": "/ptodo to open the Todo List, /ptodoconfig to open the Configuration",
   "ApplicableVersion": "any",
   "RepoUrl": "https://gitlab.com/moonfox-projects/simpletodo",
