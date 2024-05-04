@@ -2,7 +2,7 @@
   "Author": "Xorus",
   "Name": "EngageTimer",
   "InternalName": "EngageTimer",
-  "AssemblyVersion": "2.3.2.0",
+  "AssemblyVersion": "2.3.3.0",
   "Description": "Finally, display all the numbers when starting a countdown!\nComes with an accurate pull timer that starts when you or any of your party members enter combat.\n\nFeatures :\n- Big countdown that displays all the numbers\n- Customizable big-number textures (default, yellow, WoW style or custom files)\n- Display combat time in the Server Info Bar, and/or a floating window\n- OBS browser-source compatible page with countdown and current combat duration\n\nWhy the OBS thing ? I like having a big stylized stopwatch in my private recordings and that's about it.\nSee repository for more info.\n\nFeel free so send me feedback, bugs and potential improvements! Check the about page in the plugin settings for more\ninfo. Please report urgent feedback on GitHub or XIVLauncher Discord's support thread for this plugin.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/xorus/EngageTimer",
@@ -30,7 +30,7 @@
   ],
   "IconUrl": "https://raw.githubusercontent.com/xorus/EngageTimer/main/images/icon.png",
   "Punchline": "Complete combat countdown, pull timer and OBS overlay",
-  "Changelog": "- Add an option to draw the custom 0-5 numbers without hiding the original countdown",
+  "Changelog": "- Prevent stopwatch window from taking focus when appearing\n- Dotnet8 build",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "stable"
