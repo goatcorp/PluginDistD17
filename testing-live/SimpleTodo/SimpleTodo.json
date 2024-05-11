@@ -2,8 +2,8 @@
   "Author": "Lunalicious",
   "Name": "Simple Todo",
   "InternalName": "SimpleTodo",
-  "AssemblyVersion": "0.0.0.3",
-  "Description": "/ptodo to open the Todo List, /ptodoconfig to open the Configuration",
+  "AssemblyVersion": "0.0.0.5",
+  "Description": "/ptodo to open the Todo List\n/ptodoconfig to open the Configuration",
   "ApplicableVersion": "any",
   "RepoUrl": "https://gitlab.com/moonfox-projects/simpletodo",
   "Tags": [
@@ -22,7 +22,6 @@
   "ImageUrls": [
     ""
   ],
-  "IconUrl": "",
   "Punchline": "A simple Todo List",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
