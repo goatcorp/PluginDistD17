@@ -2,7 +2,7 @@
   "Author": "Infi, Anna",
   "Name": "Chat 2",
   "InternalName": "ChatTwo",
-  "AssemblyVersion": "1.25.0.0",
+  "AssemblyVersion": "1.25.1.0",
   "Description": "Chat 2 is a complete rewrite of the in-game chat window as a plugin.\nIt supports:\n\n- Unlimited tabs\n- Tabs that always send to a certain channel\n- More flexible filtering\n- RGB channel colouring\n- Completely variable font size\n- Sidebar tabs\n- Unread counts\n- Emotes\n- Screenshot mode (obfuscate names)",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Infiziert90/ChatTwo",
