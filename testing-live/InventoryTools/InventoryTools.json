@@ -2,7 +2,7 @@
   "Author": "Critical_Impact",
   "Name": "Allagan Tools",
   "InternalName": "InventoryTools",
-  "AssemblyVersion": "1.6.0.4",
+  "AssemblyVersion": "1.7.0.0",
   "Description": "Allagan Tool's primary purpose is to keep track of items across your characters/retainers/free company. With it's filter system you'll never lose track of items or not know where they should be sorted.\n\nWhile this is it's primary purpose, it has quite an exhaustive list of other features including:\n\t- Craft planning\n\t- Market board integration\n\t- Item highlighting in inventories when searching/sorting and picking ingredients for crafts\n\t- Item window that includes vendor and source information among other things\n\t- Duty/mob/airship/submarine windows that are fully searchable\n\t- A filtering system that lets you setup complex searches for specific items \n\t- Tooltip integration that'll let you see where the items are on hover",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Critical-Impact/InventoryTools",
@@ -11,18 +11,21 @@
     "Sorting",
     "Filtering"
   ],
-  "DalamudApiLevel": 8,
+  "DalamudApiLevel": 9,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
   "LoadPriority": 0,
   "ImageUrls": [
     "https://raw.githubusercontent.com/Critical-Impact/InventoryTools/main/InventoryTools/Images/banner1.png",
     "https://raw.githubusercontent.com/Critical-Impact/InventoryTools/main/InventoryTools/Images/screenshot1.png",
     "https://raw.githubusercontent.com/Critical-Impact/InventoryTools/main/InventoryTools/Images/screenshot2.png",
     "https://raw.githubusercontent.com/Critical-Impact/InventoryTools/main/InventoryTools/Images/screenshot3.png",
-    "https://raw.githubusercontent.com/Critical-Impact/InventoryTools/main/InventoryTools/Images/screenshot4.png",
-    "https://raw.githubusercontent.com/Critical-Impact/InventoryTools/main/InventoryTools/Images/screenshot5.png"
+    "https://raw.githubusercontent.com/Critical-Impact/InventoryTools/main/InventoryTools/Images/screenshot4.png"
   ],
   "IconUrl": "https://raw.githubusercontent.com/Critical-Impact/InventoryTools/main/InventoryTools/Images/icon.png",
   "Punchline": "Get organized in FFXIV, easily locate/show where to sort items, plan your crafting, and search for mobs, duties, airships, and submarines!",
+  "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "testing-live"
 }
