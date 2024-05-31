@@ -1,8 +1,8 @@
 {
-  "Author": "imaginary-png",
+  "Author": "img02",
   "Name": "Fungah",
   "InternalName": "Fungah",
-  "AssemblyVersion": "1.0.0.1",
+  "AssemblyVersion": "1.0.0.2",
   "Description": "Guaranteed to be safe, unless it isn't. No refunds. \n\n[ Any Way the Wind Blows (Fungah) is a Gold Saucer Gate \n  There are variations of AOE patterns that can occur \n  There is no real 'safe spot', but there are spaces where there is less overlap by these potential AOEs \n  One of these spots is marked by this plugin when you are in the GATE ]",
   "ApplicableVersion": "any",
   "Tags": [
