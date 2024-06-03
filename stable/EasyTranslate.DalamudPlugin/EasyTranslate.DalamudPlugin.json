@@ -2,9 +2,10 @@
   "Author": "Olaren",
   "Name": "Easy Translate",
   "InternalName": "EasyTranslate.DalamudPlugin",
-  "AssemblyVersion": "2.1.1.0",
-  "Description": "Search anything and get the translations in other languages. Use /et to open the ui",
+  "AssemblyVersion": "2.1.2.0",
+  "Description": "Search anything and get the translations in other languages.\nUse /et to open the ui or /et <search term> to search directly!",
   "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/Olaren15/ffxiv-easy-translate",
   "Tags": [
     "utility",
     "social",
