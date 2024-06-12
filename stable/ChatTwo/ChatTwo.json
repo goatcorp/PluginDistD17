@@ -2,7 +2,7 @@
   "Author": "Infi, Anna",
   "Name": "Chat 2",
   "InternalName": "ChatTwo",
-  "AssemblyVersion": "1.26.0.0",
+  "AssemblyVersion": "1.26.2.0",
   "Description": "Chat 2 is a complete rewrite of the in-game chat window as a plugin.\nIt supports:\n\n- Unlimited tabs\n- Tabs that always send to a certain channel\n- More flexible filtering\n- RGB channel colouring\n- Completely variable font size\n- Sidebar tabs\n- Unread counts\n- Emotes\n- Screenshot mode (obfuscate names)",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Infiziert90/ChatTwo",
@@ -18,7 +18,7 @@
   "CanUnloadAsync": false,
   "LoadPriority": 0,
   "Punchline": "Electric Boogaloo - ♪ A whole new chat, a new fantastic chat window ♪",
-  "Changelog": "**New**\n- Database Viewer (/chat2Viewer)\n  - View your previous message history in a standard chat format\n  - Search for sender or specified text content\n  - Ability to specify a date range\n  - Select specific chat channels you want displayed\n  - Only show your current characters history, or combined across your account\n  - Quickly page through hundreds of messages in quick succession\n  - Tip: You can resize the sender column\n\n**Updates**\n- Some emotes have been blocked from being parsed\n- Replaced some internal functions with their CS version\n- French localisation update\n\n**Fixes**\n- AutoTranslate missing entries, like Viera\n- Fix for shuffled messages on startup [thanks `@dean`]\n- Fix for adventurer plate button not working after character switch [thanks `@dean`]",
+  "Changelog": "**Updates**\n- Fix tell reply hotkey not working\n- Save the FFXIV font to disk instead of redownloading it on every startup\n  - This should prevent errors if your DNS is giving up\n- Replace all sigs with CS version\n- Fix flags not working in reply mode\n- Force the main chat log to be always open\n- Prevent emotes inside auto translation\n- Make Linkshells appear in selection again",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "stable"
