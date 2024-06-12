@@ -2,7 +2,7 @@
   "Author": "Koenari",
   "Name": "Himbeertoni Raid Tool",
   "InternalName": "HimbeertoniRaidTool",
-  "AssemblyVersion": "1.5.2.6",
+  "AssemblyVersion": "1.5.3.0",
   "Description": "A collection of useful tools for raid groups, including loot management",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Koenari/HimbeertoniRaidTool/",
@@ -18,7 +18,7 @@
   "CanUnloadAsync": false,
   "LoadPriority": 0,
   "Punchline": "All you need for Raiding",
-  "Changelog": "    Bugfix: Fixes being unable to add new gear sets\n    User Interface: Add job selection (for BiS and item selection) to gear set edit user interface\n",
+  "Changelog": "    System: Changes to data storage (drops support for data from versions < 1.4.0)\n    User Interface: New interface for searching characters from database\n    General: Fix \"Dmg\" Calc being slightly off\n    User Interface: Some minor Ui improvements\n",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "stable"
