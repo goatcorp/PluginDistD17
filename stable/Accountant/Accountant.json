@@ -2,7 +2,7 @@
   "Author": "Ottermandias",
   "Name": "Accountant",
   "InternalName": "Accountant",
-  "AssemblyVersion": "1.4.1.0",
+  "AssemblyVersion": "1.5.0.0",
   "Description": "Keep track of retainer, airship, submersible, aetherial wheel and crop timers\nas well as several miscallaneous tasks of multiple characters.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Ottermandias/Accountant",
@@ -19,7 +19,7 @@
     "Tasks",
     "Cactpot"
   ],
-  "DalamudApiLevel": 9,
+  "DalamudApiLevel": 10,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
