@@ -2,8 +2,8 @@
   "Author": "Caraxi & Ottermandias",
   "Name": "ChatAlerts",
   "InternalName": "ChatAlerts",
-  "AssemblyVersion": "2.0.3.0",
-  "Description": "",
+  "AssemblyVersion": "2.1.0.0",
+  "Description": "Play sounds and highlight text based on defined filters.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Ottermandias/ChatAlerts",
   "Tags": [
@@ -15,7 +15,7 @@
     "Roleplay",
     "Sound"
   ],
-  "DalamudApiLevel": 9,
+  "DalamudApiLevel": 10,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
