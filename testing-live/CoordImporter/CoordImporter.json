@@ -2,7 +2,7 @@
   "Author": "zw3lf",
   "Name": "Coordinate Importer",
   "InternalName": "CoordImporter",
-  "AssemblyVersion": "1.1.0.4",
+  "AssemblyVersion": "1.1.0.5",
   "Description": "Import map coordinates from various sources (e.g. Siren Hunts or Bear Toolkit) and dump them into echo chat. Use /ci to open the dialog box.",
   "ApplicableVersion": "any",
   "Tags": [
@@ -14,7 +14,7 @@
     "train",
     "coordinate"
   ],
-  "DalamudApiLevel": 9,
+  "DalamudApiLevel": 10,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
