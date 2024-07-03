@@ -1,0 +1,24 @@
+{
+  "Author": "Infi",
+  "Name": "Eventy",
+  "InternalName": "Eventy",
+  "AssemblyVersion": "0.0.0.3",
+  "Description": "Simple but useful calender\n- Current events displayed within a server bar entry for quick viewing\n- Browse through current, upcoming and previously held events\n- Special dates for Liveletters and other important occasions are highlighted",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/Infiziert90/Eventy",
+  "Tags": [
+    "Plugin",
+    "Events",
+    "Dates",
+    "DTR"
+  ],
+  "DalamudApiLevel": 10,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "Punchline": "Never forget a seasonal event ever again",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "testing-live"
+}
