@@ -2,7 +2,7 @@
   "Author": "kelvin124124",
   "Name": "CopyTranslated",
   "InternalName": "CopyTranslated",
-  "AssemblyVersion": "1.1.4.0",
+  "AssemblyVersion": "1.1.4.1",
   "Description": "Copy translated item name by right-clicking.",
   "ApplicableVersion": "any",
   "Tags": [
@@ -10,7 +10,7 @@
     "translate",
     "plugin"
   ],
-  "DalamudApiLevel": 9,
+  "DalamudApiLevel": 10,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
