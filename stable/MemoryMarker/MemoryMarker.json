@@ -2,7 +2,7 @@
   "Author": "MidoriKami",
   "Name": "Memory Marker",
   "InternalName": "MemoryMarker",
-  "AssemblyVersion": "2.0.0.0",
+  "AssemblyVersion": "2.0.0.1",
   "Description": "Ever forget which waymark slot holds your pre-fight positions? Which waymarks are for pugs and not your static?\nWorry not! MemoryMarker has your back!\n\nLoads and Saves waymarks when changing zones. Allows you to rename presets in the waymark window.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/MidoriKami/MemoryMarker",
