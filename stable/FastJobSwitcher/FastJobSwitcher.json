@@ -2,7 +2,7 @@
   "Author": "Meoiswa",
   "Name": "Fast Job Switcher",
   "InternalName": "FastJobSwitcher",
-  "AssemblyVersion": "1.1.0.0",
+  "AssemblyVersion": "2.0.0.0",
   "Description": "Enables the player to switch jobs using their three letter acronyms as commands. (*: five or more)",
   "ApplicableVersion": "any",
   "Tags": [
@@ -12,7 +12,7 @@
     "jobs",
     "switch"
   ],
-  "DalamudApiLevel": 9,
+  "DalamudApiLevel": 10,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,

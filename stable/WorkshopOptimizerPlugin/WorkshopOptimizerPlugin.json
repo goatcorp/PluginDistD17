@@ -2,7 +2,7 @@
   "Author": "HappySprite",
   "Name": "Workshop Optimizer Plugin",
   "InternalName": "WorkshopOptimizerPlugin",
-  "AssemblyVersion": "0.2.8.4",
+  "AssemblyVersion": "0.2.10.0",
   "Description": "Use /wso after you visited your island.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/belzaru17/WorkshopOptimizerPlugin",
@@ -11,7 +11,7 @@
     "workshop",
     "optimizer"
   ],
-  "DalamudApiLevel": 9,
+  "DalamudApiLevel": 10,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
