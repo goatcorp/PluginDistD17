@@ -2,7 +2,7 @@
   "Author": "Cytraen",
   "Name": "Combat Cursor Containment",
   "InternalName": "CombatCursorContainment",
-  "AssemblyVersion": "1.0.3.0",
+  "AssemblyVersion": "1.0.4.0",
   "Description": "Automatically changes the 'limit mouse operation to game window' setting when entering/exiting combat.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Cytraen/CombatCursorContainment",
@@ -12,13 +12,13 @@
   "CategoryTags": [
     "Utility"
   ],
-  "DalamudApiLevel": 9,
+  "DalamudApiLevel": 10,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
   "LoadPriority": 0,
   "Punchline": "Keep your mouse cursor contained during combat!",
-  "Changelog": "- Fixes for log spam and cursor being locked when alt+tabbed due to recent Dalamud changes.",
+  "Changelog": "- Update for 7.0",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "stable"
