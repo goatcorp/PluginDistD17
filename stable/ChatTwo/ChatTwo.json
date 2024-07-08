@@ -2,7 +2,7 @@
   "Author": "Infi, Anna",
   "Name": "Chat 2",
   "InternalName": "ChatTwo",
-  "AssemblyVersion": "1.27.3.0",
+  "AssemblyVersion": "1.27.4.0",
   "Description": "Chat 2 is a complete rewrite of the in-game chat window as a plugin.\nIt supports:\n\n- Unlimited tabs\n- Tabs that always send to a certain channel\n- More flexible filtering\n- RGB channel colouring\n- Completely variable font size\n- Sidebar tabs\n- Unread counts\n- Emotes\n- Screenshot mode (obfuscate names)",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Infiziert90/ChatTwo",
@@ -18,7 +18,7 @@
   "CanUnloadAsync": false,
   "LoadPriority": 0,
   "Punchline": "Electric Boogaloo - ♪ A whole new chat, a new fantastic chat window ♪",
-  "Changelog": "**Updates**\n- Fix tell reply hotkey not working\n- Save the FFXIV font to disk instead of redownloading it on every startup\n  - This should prevent errors if your DNS is giving up\n- Replace all sigs with CS version\n- Fix flags not working in reply mode\n- Force the main chat log to be always open\n- Prevent emotes inside auto translation\n- Linkshells appear in selection again\n- Fix rotate mode not working for CW and Normal Linkshells",
+  "Changelog": "**Updates**\n- Add hide button to chat [thanks dean]\n- Fix incorrect parameter for print function [thanks Limiana]\n- Improve keybind handling, maybe\n- Loc updates",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "stable"
