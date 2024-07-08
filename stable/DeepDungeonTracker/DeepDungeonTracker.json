@@ -2,7 +2,7 @@
   "Author": "Marconsou",
   "Name": "Deep Dungeon Tracker",
   "InternalName": "DeepDungeonTracker",
-  "AssemblyVersion": "1.0.0.8",
+  "AssemblyVersion": "1.0.0.9",
   "Description": "-Keep track of the number of kills, coffers opened, regeneration potions consumed, potsherds obtained, total time and more.\n-Examine the collected data.\n-Scoring.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/marconsou/deep-dungeon-tracker",
@@ -15,7 +15,7 @@
     "hoh",
     "eo"
   ],
-  "DalamudApiLevel": 9,
+  "DalamudApiLevel": 10,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
