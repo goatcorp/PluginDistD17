@@ -2,7 +2,7 @@
   "Author": "mkalash",
   "Name": "Vanilla Hotbar Extender",
   "InternalName": "VanillaHotbarExtender",
-  "AssemblyVersion": "1.1.1.0",
+  "AssemblyVersion": "1.2.0.0",
   "Description": "Allows you to use commands to save the actions in a hotbar and then load them into any other hotbar. Like the vanilla \"/hotbar copy\" command, but unlimited, without taking up other hotbars to save the actions.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/mustafakalash/VanillaHotbarExtender.git",
@@ -17,7 +17,7 @@
   "CanUnloadAsync": false,
   "LoadPriority": 0,
   "Punchline": "Save and load actions into hotbars without taking up extra job hotbars.",
-  "Changelog": "-Version 1.1.1\n\t--Update for patch 7.0\n-Version 1.1.0\n\t--Update for patch 6.5\n\t--Added `/vhe clear` command for more versatile hotbar clearing\n\t--Loaded hotbars now save to file so they persist on job switch or log out\n-Version 1.0.1\n\t--Update for patch 6.3\n-Version 1.0.0\n\t--First release.",
+  "Changelog": "Hot bars can now be exported and imported. Thanks @CerulanLumina!",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "testing-live"
