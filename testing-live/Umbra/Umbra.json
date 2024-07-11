@@ -2,7 +2,7 @@
   "Author": "Una",
   "Name": "Umbra XIV",
   "InternalName": "Umbra",
-  "AssemblyVersion": "1.0.6.17",
+  "AssemblyVersion": "2.0.0.0",
   "Description": "Adds quality of life improvements to the game and consolidates common UI elements and actions into a single uniform interface.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/una-xiv/umbra",
@@ -12,7 +12,7 @@
     "markers",
     "toolbar"
   ],
-  "DalamudApiLevel": 9,
+  "DalamudApiLevel": 10,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
