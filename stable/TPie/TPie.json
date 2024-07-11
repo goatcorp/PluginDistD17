@@ -2,7 +2,7 @@
   "Author": "Tischel",
   "Name": "TPie",
   "InternalName": "TPie",
-  "AssemblyVersion": "1.9.0.0",
+  "AssemblyVersion": "1.9.1.0",
   "Description": "Highly configurable hotbars that can be toggled with a keybind. They can be filled with Actions, Items, Gear Sets, Macros and more...",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Tischel/TPie",
@@ -15,7 +15,7 @@
   "CanUnloadAsync": false,
   "LoadPriority": 0,
   "Punchline": "Customizable ring-shaped hotbars",
-  "Changelog": "# 1.9.0.0\n\n- Added support for Dawntrail and Dalamud API 10.",
+  "Changelog": "# 1.9.1.0\n\n- Added setting to Nested Ring Elements so they can be activated by clicking instead of hovering.",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "stable"
