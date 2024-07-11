@@ -2,7 +2,7 @@
   "Author": "53m1k0l0n, Gotest",
   "Name": "Mouse Target Tooltip",
   "InternalName": "MouseTargetTooltip",
-  "AssemblyVersion": "0.0.2.2",
+  "AssemblyVersion": "0.0.2.3",
   "Description": "A plugin that shows a tooltip for mouseover targets.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/53m1k0l0n/MouseTargetTooltip",
@@ -11,7 +11,7 @@
     "mouseover",
     "tooltip"
   ],
-  "DalamudApiLevel": 9,
+  "DalamudApiLevel": 10,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
