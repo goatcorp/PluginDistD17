@@ -2,7 +2,7 @@
   "Author": "53m1k0l0n, rennerdo30",
   "Name": "SimpleCompare",
   "InternalName": "SimpleCompare",
-  "AssemblyVersion": "2.0.0.2",
+  "AssemblyVersion": "2.0.0.3",
   "Description": "Show simple item comparison when pressing SHIFT and hovering over item",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/53m1k0l0n/ffxiv-simplecompare",
@@ -10,7 +10,7 @@
     "compare",
     "plugin"
   ],
-  "DalamudApiLevel": 9,
+  "DalamudApiLevel": 10,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
