@@ -1,0 +1,18 @@
+{
+  "Author": "daemitus, MidoriKami",
+  "Name": "ezWondrousTails",
+  "InternalName": "WondrousTailsSolver",
+  "AssemblyVersion": "3.1.0.0",
+  "Description": "This plugin prints the probability of getting a row in Wondrous Tails to the in-game display along with the average probability of what would happen if you shuffled.",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/MidoriKami/WondrousTailsSolver",
+  "DalamudApiLevel": 10,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "Punchline": "Adds row probabilities to the Wondrous Tails display.",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "testing-live"
+}

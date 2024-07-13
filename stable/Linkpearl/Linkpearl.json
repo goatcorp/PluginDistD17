@@ -1,0 +1,23 @@
+{
+  "Author": "NotNite, lostkagamine, guyven",
+  "Name": "Linkpearl",
+  "InternalName": "Linkpearl",
+  "AssemblyVersion": "3.0.0.0",
+  "Description": "An actually updated Mumble positional audio plugin. Because people still use Mumble... right?\nEnable \"Link to Game and Transmit Position\" and the Link plugin in your Mumble settings. Do NOT enable the Final Fantasy XIV plugin - it's unrelated to Linkpearl.",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/NotNite/Linkpearl",
+  "Tags": [
+    "mumble",
+    "positional",
+    "audio"
+  ],
+  "DalamudApiLevel": 10,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "Punchline": "An actually updated Mumble positional audio plugin",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "stable"
+}
