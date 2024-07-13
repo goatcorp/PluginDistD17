@@ -2,7 +2,7 @@
   "Author": "kalilistic",
   "Name": "PlayerTrack",
   "InternalName": "PlayerTrack",
-  "AssemblyVersion": "3.3.3.0",
+  "AssemblyVersion": "3.4.1.0",
   "Description": "PlayerTrack helps you keep a record of who you meet and the content you played together.\nOrganize players into categories, keep notes, and track them across name/world changes.\nCustomization options include colors, icons, nameplates, and alerts.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/kalilistic/PlayerTrack",
@@ -11,7 +11,7 @@
     "track",
     "orwell"
   ],
-  "DalamudApiLevel": 9,
+  "DalamudApiLevel": 10,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
