@@ -2,7 +2,7 @@
   "Author": "Lynesth",
   "Name": "Better Targeting System",
   "InternalName": "BetterTargetingSystem",
-  "AssemblyVersion": "0.0.10.0",
+  "AssemblyVersion": "0.0.11.0",
   "Description": "A more intelligent targeting system for the game which also includes new keybinds.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Lynesth/BetterTargetingSystem",
