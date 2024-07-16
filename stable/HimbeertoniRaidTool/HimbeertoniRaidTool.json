@@ -2,7 +2,7 @@
   "Author": "Koenari",
   "Name": "Himbeertoni Raid Tool",
   "InternalName": "HimbeertoniRaidTool",
-  "AssemblyVersion": "1.6.0.0",
+  "AssemblyVersion": "1.6.1.0",
   "Description": "A collection of useful tools for raid groups, including loot management",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Koenari/HimbeertoniRaidTool/",
@@ -18,7 +18,7 @@
   "CanUnloadAsync": false,
   "LoadPriority": 0,
   "Punchline": "All you need for Raiding",
-  "Changelog": "    General: Updated for 7.0\n    BiS: Automatically converts non existent etro sets to local sets\n    Known Issue: Item categorization and raid infos will be amended once available\n    Known Issue: Stat calculations (e.g. HP) are most likely not correct yet\n",
+  "Changelog": "    General: Added loot information for normal raids and extremes\n    General: Corrected HP calculation for levels above 90\n    Lodestone Connector: PCT and VIP fixed\n",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "stable"
