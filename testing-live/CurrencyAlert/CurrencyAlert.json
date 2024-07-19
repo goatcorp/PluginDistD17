@@ -2,20 +2,15 @@
   "Author": "MidoriKami, Lharz",
   "Name": "CurrencyAlert",
   "InternalName": "CurrencyAlert",
-  "AssemblyVersion": "2.0.0.2",
+  "AssemblyVersion": "2.0.0.4",
   "Description": "This plugin lets you easily manage your various currencies to prevent from wasting precious resources.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/MidoriKami/CurrencyAlert",
   "Tags": [
     "Currency",
     "Tomestones",
-    "Utility",
-    "Other"
-  ],
-  "CategoryTags": [
-    "Utility",
-    "Other",
-    "UI"
+    "Alert",
+    "Tracker"
   ],
   "DalamudApiLevel": 10,
   "LoadRequiredState": 0,

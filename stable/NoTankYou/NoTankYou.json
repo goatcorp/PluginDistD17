@@ -2,16 +2,19 @@
   "Author": "MidoriKami",
   "Name": "NoTankYou",
   "InternalName": "NoTankYou",
-  "AssemblyVersion": "7.0.0.3",
+  "AssemblyVersion": "7.0.0.4",
   "Description": "Displays warnings when you or any party members are missing role specific actions such as partner buffs, pets, and tank stances.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/MidoriKami/NoTankYou",
   "Tags": [
-    "utility"
-  ],
-  "CategoryTags": [
-    "Utility",
-    "UI"
+    "tanking",
+    "alerts",
+    "reminder",
+    "food",
+    "chocobo",
+    "spirtbond",
+    "gathering",
+    "warning"
   ],
   "DalamudApiLevel": 10,
   "LoadRequiredState": 0,

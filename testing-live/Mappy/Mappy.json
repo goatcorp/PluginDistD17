@@ -2,10 +2,16 @@
   "Author": "MidoriKami",
   "Name": "Mappy",
   "InternalName": "Mappy",
-  "AssemblyVersion": "3.0.0.2",
+  "AssemblyVersion": "3.0.0.3",
   "Description": "Replaces the in-game map with an ImGui implementation with several additional features.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/MidoriKami/Mappy",
+  "Tags": [
+    "map",
+    "mapping",
+    "overlay",
+    "utility"
+  ],
   "DalamudApiLevel": 10,
   "LoadRequiredState": 0,
   "LoadSync": false,

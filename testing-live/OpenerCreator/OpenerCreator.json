@@ -2,7 +2,7 @@
   "Author": "herulume, sevii",
   "Name": "OpenerCreator",
   "InternalName": "OpenerCreator",
-  "AssemblyVersion": "0.0.7.0",
+  "AssemblyVersion": "0.0.8.0",
   "Description": "Create your opener and practice with a striking dummy. Provides basic analysis.",
   "ApplicableVersion": "any",
   "Tags": [
@@ -10,7 +10,12 @@
     "rotation",
     "opener",
     "helper",
-    "simple"
+    "jobs",
+    "combat",
+    "lines"
+  ],
+  "CategoryTags": [
+    "jobs"
   ],
   "DalamudApiLevel": 10,
   "LoadRequiredState": 0,
