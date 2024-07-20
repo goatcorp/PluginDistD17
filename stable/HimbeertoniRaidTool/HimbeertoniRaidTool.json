@@ -2,7 +2,7 @@
   "Author": "Koenari",
   "Name": "Himbeertoni Raid Tool",
   "InternalName": "HimbeertoniRaidTool",
-  "AssemblyVersion": "1.6.1.0",
+  "AssemblyVersion": "1.6.2.0",
   "Description": "A collection of useful tools for raid groups, including loot management",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Koenari/HimbeertoniRaidTool/",
@@ -18,7 +18,7 @@
   "CanUnloadAsync": false,
   "LoadPriority": 0,
   "Punchline": "All you need for Raiding",
-  "Changelog": "    General: Added loot information for normal raids and extremes\n    General: Corrected HP calculation for levels above 90\n    Lodestone Connector: PCT and VIP fixed\n",
+  "Changelog": "    General: Now supports switching back to Endwalker raid tiers\n    BiS: Added support for XivGear.app\n    Known Issue: XivGear.app sets are not automatically updated yet\n",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "stable"
