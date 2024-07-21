@@ -2,7 +2,7 @@
   "Author": "Infi, Anna",
   "Name": "Chat 2",
   "InternalName": "ChatTwo",
-  "AssemblyVersion": "1.27.6.0",
+  "AssemblyVersion": "1.27.7.0",
   "Description": "Chat 2 is a complete rewrite of the in-game chat window as a plugin.\nIt supports:\n\n- Unlimited tabs\n- Tabs that always send to a certain channel\n- More flexible filtering\n- RGB channel colouring\n- Completely variable font size\n- Sidebar tabs\n- Unread counts\n- Emotes\n- Screenshot mode (obfuscate names)",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Infiziert90/ChatTwo",
@@ -18,7 +18,7 @@
   "CanUnloadAsync": false,
   "LoadPriority": 0,
   "Punchline": "Electric Boogaloo - ♪ A whole new chat, a new fantastic chat window ♪",
-  "Changelog": "**Updates**\n- More keybind handling improvements\n- Add keybinds for switching tabs [thanks dean]\n- Add auto hide after inactivity [default false, thanks dean]\n- Fix auto scroll failing if custom cell padding is used [thanks zbee]",
+  "Changelog": "**Updates**\n- Loc updates\n- Fix multiple issues related to keybinds\n- Add more options for auto hide [thanks dean]",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "stable"
