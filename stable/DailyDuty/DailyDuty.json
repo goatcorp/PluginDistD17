@@ -1,19 +1,20 @@
 {
   "Author": "MidoriKami",
-  "Name": "Daily Duty",
+  "Name": "DailyDuty",
   "InternalName": "DailyDuty",
-  "AssemblyVersion": "4.0.6.1",
+  "AssemblyVersion": "5.0.0.6",
   "Description": "Automatically track and complete many daily and weekly tasks.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/MidoriKami/DailyDuty",
   "Tags": [
-    "utility"
+    "utility",
+    "gil",
+    "tasks",
+    "dailies",
+    "tracking",
+    "todo"
   ],
-  "CategoryTags": [
-    "Utility",
-    "Other"
-  ],
-  "DalamudApiLevel": 9,
+  "DalamudApiLevel": 10,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
