@@ -1,0 +1,21 @@
+{
+  "Author": "Sohtoren",
+  "Name": "Altoholic",
+  "InternalName": "Altoholic",
+  "AssemblyVersion": "0.0.0.1",
+  "Description": "Get gils, currencies, inventory and retainers items from all your characters",
+  "ApplicableVersion": "any",
+  "Tags": [
+    "alts",
+    "plugin"
+  ],
+  "DalamudApiLevel": 10,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "Punchline": "Informations about your alts",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "testing-live"
+}
