@@ -1,0 +1,24 @@
+{
+  "Author": "Una",
+  "Name": "Umbra XIV",
+  "InternalName": "Umbra",
+  "AssemblyVersion": "2.1.8.0",
+  "Description": "Adds quality of life improvements to the game and consolidates common UI elements and actions into a single uniform interface in the form of a toolbar.",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/una-xiv/umbra",
+  "Tags": [
+    "ui",
+    "marker",
+    "markers",
+    "toolbar"
+  ],
+  "DalamudApiLevel": 10,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "Punchline": "Adds a fully customizable toolbar and 3D world markers to the game.",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "stable"
+}
