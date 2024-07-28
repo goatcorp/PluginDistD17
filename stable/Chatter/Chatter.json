@@ -2,7 +2,7 @@
   "Author": "James Keesey",
   "Name": "Chatter",
   "InternalName": "Chatter",
-  "AssemblyVersion": "1.0.0.0",
+  "AssemblyVersion": "1.1.0.0",
   "Description": "Allows for saving char conversations, separated by groups of people and chat types.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/jlkeesey/Chatter",
