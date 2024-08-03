@@ -2,7 +2,7 @@
   "Author": "Lore",
   "Name": "TooltipNotes",
   "InternalName": "TooltipNotes",
-  "AssemblyVersion": "1.3.0.2",
+  "AssemblyVersion": "1.4.0.0",
   "Description": "Right-click any item in your inventory to start adding a note,or make a label in the config window to start adding your own labels",
   "ApplicableVersion": "any",
   "Tags": [
@@ -11,7 +11,7 @@
     "Lore",
     "Notes"
   ],
-  "DalamudApiLevel": 9,
+  "DalamudApiLevel": 10,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
