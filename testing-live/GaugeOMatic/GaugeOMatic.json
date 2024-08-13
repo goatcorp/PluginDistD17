@@ -2,7 +2,7 @@
   "Author": "ItsBexy",
   "Name": "Gauge-O-Matic",
   "InternalName": "GaugeOMatic",
-  "AssemblyVersion": "0.8.0.2",
+  "AssemblyVersion": "0.8.0.3",
   "Description": "Gauge-O-Matic allows you to customize your job gauges by adding extra counters, bars, and indicators in a variety of styles",
   "ApplicableVersion": "any",
   "Tags": [],
