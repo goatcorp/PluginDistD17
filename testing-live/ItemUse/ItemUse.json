@@ -2,8 +2,8 @@
   "Author": "PunishedPineapple",
   "Name": "Item Use",
   "InternalName": "ItemUse",
-  "AssemblyVersion": "0.9.0.0",
-  "Description": "Displays indicators in the item help popup for when an item is useful for leves, GC dailies, etc. to help you decide what is worth keeping, selling, or taking as a reward.",
+  "AssemblyVersion": "0.9.1.0",
+  "Description": "Displays indicators in the item help popup for when an item is used by leves, GC dailies, etc. to help you decide what is worth keeping, selling, or taking as a reward.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/PunishedPineapple/ItemUse",
   "Tags": [
@@ -14,7 +14,8 @@
     "GC",
     "Grand Company",
     "Aquarium",
-    "Crafting"
+    "Crafting",
+    "Coffer"
   ],
   "DalamudApiLevel": 10,
   "LoadRequiredState": 0,
@@ -22,7 +23,8 @@
   "CanUnloadAsync": false,
   "LoadPriority": 0,
   "ImageUrls": [
-    "https://github.com/PunishedPineapple/ItemUse/raw/main/docs/Images/image1.png"
+    "https://github.com/PunishedPineapple/ItemUse/raw/main/docs/Images/image1.png",
+    "https://github.com/PunishedPineapple/ItemUse/raw/main/docs/Images/image2.png"
   ],
   "IconUrl": "https://github.com/PunishedPineapple/ItemUse/raw/main/docs/Images/icon.png",
   "Punchline": "Easily see common item uses.",
