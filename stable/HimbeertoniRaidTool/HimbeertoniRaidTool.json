@@ -2,7 +2,7 @@
   "Author": "Koenari",
   "Name": "Himbeertoni Raid Tool",
   "InternalName": "HimbeertoniRaidTool",
-  "AssemblyVersion": "1.6.2.8",
+  "AssemblyVersion": "1.6.2.9",
   "Description": "A collection of useful tools for raid groups, including loot management",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Koenari/HimbeertoniRaidTool/",
@@ -18,7 +18,7 @@
   "CanUnloadAsync": false,
   "LoadPriority": 0,
   "Punchline": "All you need for Raiding",
-  "Changelog": "    User Interface: You can now adjust the way character names are displayed (see config)\n    User Interface: Make all buttons accessible in smaller windows\n",
+  "Changelog": "    Bugfix: \"Ignore gear from previous tiers\" option now works correctly if last raid tier was in a previous expansion\n    Bugfix: Updating gear by examining now works again if \"Automatically update own data\" is disbaled\n",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "stable"
