@@ -2,7 +2,7 @@
   "Author": "PunishedPineapple",
   "Name": "Item Use",
   "InternalName": "ItemUse",
-  "AssemblyVersion": "0.9.1.0",
+  "AssemblyVersion": "0.9.2.0",
   "Description": "Displays indicators in the item help popup for when an item is used by leves, GC dailies, etc. to help you decide what is worth keeping, selling, or taking as a reward.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/PunishedPineapple/ItemUse",
@@ -21,7 +21,7 @@
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
-  "LoadPriority": 0,
+  "LoadPriority": -1,
   "ImageUrls": [
     "https://github.com/PunishedPineapple/ItemUse/raw/main/docs/Images/image1.png",
     "https://github.com/PunishedPineapple/ItemUse/raw/main/docs/Images/image2.png"
