@@ -2,7 +2,7 @@
   "Author": "Sylf",
   "Name": "Monster Loot Hunter",
   "InternalName": "MonsterLootHunter",
-  "AssemblyVersion": "1.2.21.5",
+  "AssemblyVersion": "1.2.21.6",
   "Description": "Check where you can obtain a material from monsters, duties, crafting, gathering or where they can be bought from NPCs.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/danielbrenom/MonsterLootHunter",
@@ -19,7 +19,7 @@
   "CanUnloadAsync": false,
   "LoadPriority": 0,
   "Punchline": "Check where you can obtain materials.",
-  "Changelog": "- Added mechanism for gatherables localization\n- Added options regarding data loading\n- Modified window rendering",
+  "Changelog": "- Fixed currency parsing for vendors\n- Modified parsing mechanic for better performance",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "stable"
