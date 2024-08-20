@@ -2,7 +2,7 @@
   "Author": "Infi, Anna",
   "Name": "Chat 2",
   "InternalName": "ChatTwo",
-  "AssemblyVersion": "1.28.1.0",
+  "AssemblyVersion": "1.28.2.0",
   "Description": "Chat 2 is a complete rewrite of the in-game chat window as a plugin.\nIt supports:\n\n- Unlimited tabs\n- Tabs that always send to a certain channel\n- More flexible filtering\n- RGB channel colouring\n- Completely variable font size\n- Sidebar tabs\n- Unread counts\n- Emotes\n- Screenshot mode (obfuscate names)",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Infiziert90/ChatTwo",
@@ -18,7 +18,7 @@
   "CanUnloadAsync": false,
   "LoadPriority": 0,
   "Punchline": "Electric Boogaloo - ♪ A whole new chat, a new fantastic chat window ♪",
-  "Changelog": "**Fonts**\n- Uses dalamud font chooser\n- Italic font version can be chosen\n- Config options related to fonts have been reset\n- Old font names and sizes used are displayed for up to a month\n\n**LiteDB**\n- Migration option removed\n- Old files can still be deleted in the database tab\n\n**Keybinds**\n- Avoids overriding modifiers after leaving a vanilla text box [thanks dean]\n  - This would prevent you from holding e.g. Ctrl between multiple vanilla text boxes\n- Reworks linkshell rotation code to fix issues with LS number gaps causing linkshell rotation to not function [thanks dean]\n\n**Textures**\n- Switch to dalamuds internal texture cache\n- Role icons are now compatible with penumbra [thanks mopi]",
+  "Changelog": "**Added**\n- Implement 24-hour clock timestamp option [default false]\n\n**Fixes**\n- Bozja/Eureka tells should work again\n- Invites in Bozja/Eureka should work again\n  - Added a notification that warns about fails duo missing player id\n- Hide activity channels are now saved across sessions\n\n**Misc**\n- Loc updates",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "stable"
