@@ -1,0 +1,24 @@
+{
+  "Author": "Stonewind",
+  "Name": "Toastingway",
+  "InternalName": "ToastingwayPlugin",
+  "AssemblyVersion": "1.0.0.0",
+  "Description": "Displays new items, crystals, and gil as toasts.",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/powellad/Toastingway",
+  "Tags": [
+    "item",
+    "notification",
+    "toast",
+    "toastingway"
+  ],
+  "DalamudApiLevel": 10,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "Punchline": "Keep on top of new items.",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "stable"
+}
