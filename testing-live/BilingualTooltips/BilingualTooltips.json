@@ -1,0 +1,29 @@
+{
+  "Author": "Elypha",
+  "Name": "BilingualTooltips",
+  "InternalName": "BilingualTooltips",
+  "AssemblyVersion": "0.1.0.0",
+  "Description": "Yes, we have tooltips displayed in two languages now. You paid SE for 4 languages so make good use of it.\n\n- Wanna know and learn how that item is written in another language? - No problem.\n- Got fed up of カタカナ and would rather read the English words? - We've got you.\n",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/Elypha/BilingualTooltips",
+  "Tags": [
+    "Tooltip",
+    "Language",
+    "Translation",
+    "Elypha"
+  ],
+  "CategoryTags": [
+    "Utility",
+    "UI",
+    "Other"
+  ],
+  "DalamudApiLevel": 10,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "Punchline": "In case the WoL speaks more than one language",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "testing-live"
+}

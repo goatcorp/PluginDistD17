@@ -1,0 +1,24 @@
+{
+  "Author": "Cometo",
+  "Name": "Gamba",
+  "InternalName": "Gamba",
+  "AssemblyVersion": "1.0.0.1",
+  "Description": "A simple plugin for casino dealers to easily manage all their player's bets and \nquickly getting the payout of each round to keep the gambing going.",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/Comfefe/Gamba.git",
+  "Tags": [
+    "UI",
+    "Social",
+    "Other"
+  ],
+  "DalamudApiLevel": 10,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "IconUrl": "https://raw.githubusercontent.com/Comfefe/Gamba/main/images/icon.png",
+  "Punchline": "Let's go gambling!",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "testing-live"
+}

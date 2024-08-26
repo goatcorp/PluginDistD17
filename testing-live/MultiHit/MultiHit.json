@@ -1,0 +1,18 @@
+{
+  "Author": "Bluefissure",
+  "Name": "MultiHit",
+  "InternalName": "MultiHit",
+  "AssemblyVersion": "0.0.1.0",
+  "Description": "Papa asked me for this so here it is.",
+  "ApplicableVersion": "any",
+  "Tags": [],
+  "DalamudApiLevel": 10,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "Punchline": "Split flytext into multiple flytext.",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "testing-live"
+}
