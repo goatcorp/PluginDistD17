@@ -2,7 +2,7 @@
   "Author": "Glyceri",
   "Name": "Dialog Copy",
   "InternalName": "TalkCopy",
-  "AssemblyVersion": "1.1.0.2",
+  "AssemblyVersion": "1.1.0.3",
   "Description": "Automatically copies messages from the Dialog Box and many more to your clipboard.",
   "ApplicableVersion": "any",
   "Tags": [
