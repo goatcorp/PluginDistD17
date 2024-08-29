@@ -1,0 +1,25 @@
+{
+  "Author": "Megurt",
+  "Name": "Which Mount",
+  "InternalName": "WhichMount",
+  "AssemblyVersion": "1.0.0.0",
+  "Description": "Plugin adds the “Mount Search” button to the context menu on the target, which displays information about the mount and the method of obtaining it in the chat. In the settings, you can enable options that add to the output information the current availability of transportation in the game and the number of seating places",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/megurte/WhichMount",
+  "Tags": [
+    "Character",
+    "Mount",
+    "Search",
+    "Information",
+    "GameData"
+  ],
+  "DalamudApiLevel": 10,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "Punchline": "Show mount information of other players",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "testing-live"
+}
