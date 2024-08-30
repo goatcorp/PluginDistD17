@@ -2,7 +2,7 @@
   "Author": "Elypha",
   "Name": "BilingualTooltips",
   "InternalName": "BilingualTooltips",
-  "AssemblyVersion": "0.2.0.0",
+  "AssemblyVersion": "0.2.1.1",
   "Description": "Yes, we have tooltips displayed in two languages now. You paid SE for 4 languages so make good use of it.\n\n- Wanna know and learn how that item is written in another language? - No problem.\n- Got fed up of カタカナ and would rather read the English words? - We've got you.\n",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Elypha/BilingualTooltips",
