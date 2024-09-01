@@ -2,7 +2,7 @@
   "Author": "Infi, Anna",
   "Name": "Chat 2",
   "InternalName": "ChatTwo",
-  "AssemblyVersion": "1.28.2.0",
+  "AssemblyVersion": "1.29.0.0",
   "Description": "Chat 2 is a complete rewrite of the in-game chat window as a plugin.\nIt supports:\n\n- Unlimited tabs\n- Tabs that always send to a certain channel\n- More flexible filtering\n- RGB channel colouring\n- Completely variable font size\n- Sidebar tabs\n- Unread counts\n- Emotes\n- Screenshot mode (obfuscate names)",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Infiziert90/ChatTwo",
@@ -18,7 +18,7 @@
   "CanUnloadAsync": false,
   "LoadPriority": 0,
   "Punchline": "Electric Boogaloo - ♪ A whole new chat, a new fantastic chat window ♪",
-  "Changelog": "**Added**\n- Implement 24-hour clock timestamp option [default false]\n\n**Fixes**\n- Bozja/Eureka tells should work again\n- Invites in Bozja/Eureka should work again\n  - Added a notification that warns about fails duo missing player id\n- Hide activity channels are now saved across sessions\n\n**Misc**\n- Loc updates",
+  "Changelog": "**New Feature Added~**\n- A web interface has been added\n- *This will not function if your game client is offline or you are logged out of the game*\n\n**Main Features**\n- View in-game chat on any device that has a web browser functionality\n- Can send chat messages through the web interface directly into the game itself\n- Easily copy & paste messages\n- Option for automatic starting the web interface feature\n\n**Security**\n- This feature is not intended to be used outside of your local, private network\n- Do not forward ports that are described inside the chat2 options panel\n- Never share your authentication code under any circumstances\n- Multi-box support is not provided, the web interface will track only the first client\n\n**Additional Features soon to be Added**\n- Display errors as small notifications inside the web interface\n\n**Planned Features**\n- Multiple Tabs support\n- Browser specific settings\n- Stylization support\n\n**Additional Permissions Note**\n- Users that wish to expand this to apps or other platforms are welcome to do so\n\n*Note: An FAQ will be provided in the chat2 thread on the dalamud discord, linked in the About section*",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "stable"
