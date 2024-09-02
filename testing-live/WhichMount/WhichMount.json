@@ -2,8 +2,8 @@
   "Author": "Megurt",
   "Name": "Which Mount",
   "InternalName": "WhichMount",
-  "AssemblyVersion": "1.0.0.1",
-  "Description": "Plugin adds the “Mount Search” button to the context menu on the target, which displays information about the mount and the method of obtaining it in the chat. In the settings, you can enable options that add to the output information the current availability of transportation in the game and other",
+  "AssemblyVersion": "1.0.0.2",
+  "Description": "Plugin adds a 'Mount Search' button to the target's context menu, showing information in chat about the mount and how to obtain it. Settings allow you to include the current availability of the mount in the game and other details.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/megurte/WhichMount",
   "Tags": [
