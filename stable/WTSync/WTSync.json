@@ -21,5 +21,5 @@
   "Punchline": "View a list of all the Wondrous Tails duties shared by your party.",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
-  "_Dip17Channel": "testing-live"
+  "_Dip17Channel": "stable"
 }
