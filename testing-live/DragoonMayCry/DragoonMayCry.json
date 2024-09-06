@@ -2,7 +2,7 @@
   "Author": "Felscream",
   "Name": "DragoonMayCry",
   "InternalName": "DragoonMayCry",
-  "AssemblyVersion": "0.7.1.0",
+  "AssemblyVersion": "0.7.3.0",
   "Description": "A plugin that tries to add flavour to combat. You score by dealing damage, and lose points if you are not greeding correctly",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Felscream/DragoonMayCry",
