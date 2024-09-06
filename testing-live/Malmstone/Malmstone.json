@@ -1,0 +1,23 @@
+{
+  "Author": "pinapelz",
+  "Name": "Malmstone Calculator",
+  "InternalName": "Malmstone",
+  "AssemblyVersion": "1.0.5.0",
+  "Description": "Calculate how much more PVP you have to play before reaching a certain series level in the current PVP Series\nUse /pmalm to open the main window",
+  "ApplicableVersion": "any",
+  "Tags": [
+    "pvp",
+    "malmstone",
+    "series",
+    "calculator"
+  ],
+  "DalamudApiLevel": 10,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "Punchline": "A PVP Series Malmstone Level Calculator",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "testing-live"
+}
