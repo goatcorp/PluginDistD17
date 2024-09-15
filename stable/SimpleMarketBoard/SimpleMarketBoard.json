@@ -2,7 +2,7 @@
   "Author": "Elypha",
   "Name": "SimpleMarketBoard",
   "InternalName": "SimpleMarketBoard",
-  "AssemblyVersion": "1.6.1.0",
+  "AssemblyVersion": "1.7.0.0",
   "Description": "It delivers some useful bonus info and a structured presentation. Might be useful for power users, perhaps?\n\nHighlights:\n  - Compact UI design\n  - Cached search history\n  - Flexible configuration\n  - Live data filters\n  - Colour highlights\n\nCheck out the 'Introduction' on Config Window for documentation.\n",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Elypha/SimpleMarketBoard",
