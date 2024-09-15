@@ -1,0 +1,22 @@
+{
+  "Author": "isaiahcat",
+  "Name": "Quest Tracker",
+  "InternalName": "QuestTracker",
+  "AssemblyVersion": "1.0.0.0",
+  "Description": "Easily track quest completion",
+  "ApplicableVersion": "any",
+  "Tags": [
+    "quest",
+    "quests",
+    "tracker"
+  ],
+  "DalamudApiLevel": 10,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "Punchline": "For the quest completionist",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "testing-live"
+}
