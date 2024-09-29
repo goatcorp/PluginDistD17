@@ -1,0 +1,29 @@
+{
+  "Author": "NeNeppie",
+  "Name": "Lights, Camera, Action!",
+  "InternalName": "CameraLoader",
+  "AssemblyVersion": "1.0.0.0",
+  "Description": "This plugin lets you save unlimited camera & lighting configurations/presets in Group Pose at a time, vastly improving over the vanilla feature which lets you save only one of each.",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/NeNeppie/LightsCameraAction",
+  "Tags": [
+    "Utility",
+    "UI",
+    "Gpose",
+    "Group pose",
+    "Camera"
+  ],
+  "CategoryTags": [
+    "Utility",
+    "UI"
+  ],
+  "DalamudApiLevel": 10,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "Punchline": "Save and load unlimited camera and lighting presets in Group Pose",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "stable"
+}
