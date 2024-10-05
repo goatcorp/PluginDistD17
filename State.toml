@@ -520,21 +520,6 @@ changelog = "    + [1.4.5.0]\r\n    + Fixed a lot of bugs related to the search 
 time_released = 2024-10-04T20:15:39.680
 changelog = "    [2.2.0.5]\r\n    Tentative fix for unplayable lag during extremely rare conditions.\r\n"
 reviewer = "bleatbot"
-[[channels.stable.plugins.PetRenamer.changelogs."2.2.0.5".used_needs]]
-key = "DalamudPackager"
-version = "2.1.13"
-[[channels.stable.plugins.PetRenamer.changelogs."2.2.0.5".used_needs]]
-key = "HtmlAgilityPack"
-version = "1.11.54"
-[[channels.stable.plugins.PetRenamer.changelogs."2.2.0.5".used_needs]]
-key = "SkiaSharp"
-version = "3.0.0-preview.3.1"
-[[channels.stable.plugins.PetRenamer.changelogs."2.2.0.5".used_needs]]
-key = "SkiaSharp.NativeAssets.macOS"
-version = "3.0.0-preview.3.1"
-[[channels.stable.plugins.PetRenamer.changelogs."2.2.0.5".used_needs]]
-key = "SkiaSharp.NativeAssets.Win32"
-version = "3.0.0-preview.3.1"
 [channels.stable.plugins."Waitingway.Dalamud"]
 built_commit = "251fea4be625416c4c0ba5a5f889f2f39e9eb55b"
 time_built = 2024-09-02T09:32:53.795
@@ -2361,66 +2346,6 @@ changelog = "Removed bot stop/start on logout/login events. It seems this was ca
 time_released = 2024-10-04T20:00:43.152
 changelog = "Sets the bot to idle when game is launched or logged out. Sets the bot to online when a character is currently logged in.\n\nThis may behave strangely for users who are sharing their bot token. (Don't do that.)\n"
 reviewer = "bleatbot"
-[[channels.stable.plugins."Dalamud.DiscordBridge".changelogs."1.5.0.2".used_needs]]
-key = "DalamudPackager"
-version = "2.1.13"
-[[channels.stable.plugins."Dalamud.DiscordBridge".changelogs."1.5.0.2".used_needs]]
-key = "Discord.Net"
-version = "3.15.2"
-[[channels.stable.plugins."Dalamud.DiscordBridge".changelogs."1.5.0.2".used_needs]]
-key = "Discord.Net.Core"
-version = "3.15.2"
-[[channels.stable.plugins."Dalamud.DiscordBridge".changelogs."1.5.0.2".used_needs]]
-key = "Discord.Net.Rest"
-version = "3.15.2"
-[[channels.stable.plugins."Dalamud.DiscordBridge".changelogs."1.5.0.2".used_needs]]
-key = "Discord.Net.Webhook"
-version = "3.15.2"
-[[channels.stable.plugins."Dalamud.DiscordBridge".changelogs."1.5.0.2".used_needs]]
-key = "Discord.Net.WebSocket"
-version = "3.15.2"
-[[channels.stable.plugins."Dalamud.DiscordBridge".changelogs."1.5.0.2".used_needs]]
-key = "NetStone"
-version = "1.1.2"
-[[channels.stable.plugins."Dalamud.DiscordBridge".changelogs."1.5.0.2".used_needs]]
-key = "Discord.Net.Commands"
-version = "3.15.2"
-[[channels.stable.plugins."Dalamud.DiscordBridge".changelogs."1.5.0.2".used_needs]]
-key = "Discord.Net.Interactions"
-version = "3.15.2"
-[[channels.stable.plugins."Dalamud.DiscordBridge".changelogs."1.5.0.2".used_needs]]
-key = "HtmlAgilityPack"
-version = "1.11.46"
-[[channels.stable.plugins."Dalamud.DiscordBridge".changelogs."1.5.0.2".used_needs]]
-key = "Karashiiro.HtmlAgilityPack.CssSelectors.NetCoreFork"
-version = "0.0.2"
-[[channels.stable.plugins."Dalamud.DiscordBridge".changelogs."1.5.0.2".used_needs]]
-key = "Microsoft.Bcl.AsyncInterfaces"
-version = "6.0.0"
-[[channels.stable.plugins."Dalamud.DiscordBridge".changelogs."1.5.0.2".used_needs]]
-key = "Microsoft.Extensions.DependencyInjection.Abstractions"
-version = "6.0.0"
-[[channels.stable.plugins."Dalamud.DiscordBridge".changelogs."1.5.0.2".used_needs]]
-key = "Newtonsoft.Json"
-version = "13.0.3"
-[[channels.stable.plugins."Dalamud.DiscordBridge".changelogs."1.5.0.2".used_needs]]
-key = "System.Collections.Immutable"
-version = "6.0.0"
-[[channels.stable.plugins."Dalamud.DiscordBridge".changelogs."1.5.0.2".used_needs]]
-key = "System.Interactive.Async"
-version = "6.0.1"
-[[channels.stable.plugins."Dalamud.DiscordBridge".changelogs."1.5.0.2".used_needs]]
-key = "System.Linq.Async"
-version = "6.0.1"
-[[channels.stable.plugins."Dalamud.DiscordBridge".changelogs."1.5.0.2".used_needs]]
-key = "System.Reactive"
-version = "6.0.0"
-[[channels.stable.plugins."Dalamud.DiscordBridge".changelogs."1.5.0.2".used_needs]]
-key = "System.Runtime.CompilerServices.Unsafe"
-version = "6.0.0"
-[[channels.stable.plugins."Dalamud.DiscordBridge".changelogs."1.5.0.2".used_needs]]
-key = "System.ValueTuple"
-version = "4.5.0"
 [channels.stable.plugins.SimpleMarketBoard]
 built_commit = "383ac89201a92bb3d394b371a937d8bb76e874d1"
 time_built = 2024-09-23T17:24:49.882
@@ -3023,15 +2948,9 @@ changelog = "Fixed the bug preventing current high-end duties from showing up. A
 [channels.stable.plugins.BetterPartyFinder.changelogs."1.4.4.0"]
 time_released = 2024-10-04T20:00:33.004
 reviewer = "bleatbot"
-[[channels.stable.plugins.BetterPartyFinder.changelogs."1.4.4.0".used_needs]]
-key = "DalamudPackager"
-version = "2.1.13"
 [channels.stable.plugins.BetterPartyFinder.changelogs."1.4.5.0"]
 time_released = 2024-10-05T12:18:53.487
 reviewer = "philpax"
-[[channels.stable.plugins.BetterPartyFinder.changelogs."1.4.5.0".used_needs]]
-key = "DalamudPackager"
-version = "2.1.13"
 [channels.stable.plugins.NICEDamage]
 built_commit = "7b9b802bc4cfe4b696ae3d3997b108a5a07878f0"
 time_built = 2024-07-16T16:25:03.629
@@ -4350,12 +4269,6 @@ changelog = "Fix for possible crash to desktop on wipe."
 [channels.stable.plugins.DutyTracker.changelogs."1.0.2.1"]
 time_released = 2024-10-04T20:12:47.058
 reviewer = "bleatbot"
-[[channels.stable.plugins.DutyTracker.changelogs."1.0.2.1".used_needs]]
-key = "DalamudPackager"
-version = "2.1.13"
-[[channels.stable.plugins.DutyTracker.changelogs."1.0.2.1".used_needs]]
-key = "NetEscapades.EnumGenerators"
-version = "1.0.0-beta08"
 [channels.stable.plugins.FPSPlugin]
 built_commit = "be1ce9277f9956a2758855fa608b866794ed49aa"
 time_built = 2024-07-02T04:49:46.262
@@ -4472,93 +4385,6 @@ changelog = "[Tracker]\n+ Added option to show route in All tab again\n"
 [channels.stable.plugins.SubmarineTracker.changelogs."1.9.2.9"]
 time_released = 2024-10-04T20:01:06.159
 reviewer = "bleatbot"
-[[channels.stable.plugins.SubmarineTracker.changelogs."1.9.2.9".used_needs]]
-key = "CsvHelper"
-version = "33.0.1"
-[[channels.stable.plugins.SubmarineTracker.changelogs."1.9.2.9".used_needs]]
-key = "DalamudPackager"
-version = "2.1.13"
-[[channels.stable.plugins.SubmarineTracker.changelogs."1.9.2.9".used_needs]]
-key = "MessagePack"
-version = "3.0.54-alpha"
-[[channels.stable.plugins.SubmarineTracker.changelogs."1.9.2.9".used_needs]]
-key = "Microsoft.Data.Sqlite"
-version = "8.0.6"
-[[channels.stable.plugins.SubmarineTracker.changelogs."1.9.2.9".used_needs]]
-key = "supabase-csharp"
-version = "0.16.1"
-[[channels.stable.plugins.SubmarineTracker.changelogs."1.9.2.9".used_needs]]
-key = "functions-csharp"
-version = "1.3.2"
-[[channels.stable.plugins.SubmarineTracker.changelogs."1.9.2.9".used_needs]]
-key = "gotrue-csharp"
-version = "4.2.6"
-[[channels.stable.plugins.SubmarineTracker.changelogs."1.9.2.9".used_needs]]
-key = "MessagePack.Annotations"
-version = "3.0.54-alpha"
-[[channels.stable.plugins.SubmarineTracker.changelogs."1.9.2.9".used_needs]]
-key = "Microsoft.Data.Sqlite.Core"
-version = "8.0.6"
-[[channels.stable.plugins.SubmarineTracker.changelogs."1.9.2.9".used_needs]]
-key = "Microsoft.IdentityModel.Abstractions"
-version = "7.0.3"
-[[channels.stable.plugins.SubmarineTracker.changelogs."1.9.2.9".used_needs]]
-key = "Microsoft.IdentityModel.JsonWebTokens"
-version = "7.0.3"
-[[channels.stable.plugins.SubmarineTracker.changelogs."1.9.2.9".used_needs]]
-key = "Microsoft.IdentityModel.Logging"
-version = "7.0.3"
-[[channels.stable.plugins.SubmarineTracker.changelogs."1.9.2.9".used_needs]]
-key = "Microsoft.IdentityModel.Tokens"
-version = "7.0.3"
-[[channels.stable.plugins.SubmarineTracker.changelogs."1.9.2.9".used_needs]]
-key = "Microsoft.NET.StringTools"
-version = "17.9.5"
-[[channels.stable.plugins.SubmarineTracker.changelogs."1.9.2.9".used_needs]]
-key = "MimeMapping"
-version = "2.0.0"
-[[channels.stable.plugins.SubmarineTracker.changelogs."1.9.2.9".used_needs]]
-key = "Newtonsoft.Json"
-version = "13.0.3"
-[[channels.stable.plugins.SubmarineTracker.changelogs."1.9.2.9".used_needs]]
-key = "postgrest-csharp"
-version = "3.5.1"
-[[channels.stable.plugins.SubmarineTracker.changelogs."1.9.2.9".used_needs]]
-key = "realtime-csharp"
-version = "6.0.4"
-[[channels.stable.plugins.SubmarineTracker.changelogs."1.9.2.9".used_needs]]
-key = "SQLitePCLRaw.bundle_e_sqlite3"
-version = "2.1.6"
-[[channels.stable.plugins.SubmarineTracker.changelogs."1.9.2.9".used_needs]]
-key = "SQLitePCLRaw.core"
-version = "2.1.6"
-[[channels.stable.plugins.SubmarineTracker.changelogs."1.9.2.9".used_needs]]
-key = "SQLitePCLRaw.lib.e_sqlite3"
-version = "2.1.6"
-[[channels.stable.plugins.SubmarineTracker.changelogs."1.9.2.9".used_needs]]
-key = "SQLitePCLRaw.provider.e_sqlite3"
-version = "2.1.6"
-[[channels.stable.plugins.SubmarineTracker.changelogs."1.9.2.9".used_needs]]
-key = "supabase-core"
-version = "0.0.3"
-[[channels.stable.plugins.SubmarineTracker.changelogs."1.9.2.9".used_needs]]
-key = "supabase-storage-csharp"
-version = "1.4.0"
-[[channels.stable.plugins.SubmarineTracker.changelogs."1.9.2.9".used_needs]]
-key = "System.IdentityModel.Tokens.Jwt"
-version = "7.0.3"
-[[channels.stable.plugins.SubmarineTracker.changelogs."1.9.2.9".used_needs]]
-key = "System.Memory"
-version = "4.5.3"
-[[channels.stable.plugins.SubmarineTracker.changelogs."1.9.2.9".used_needs]]
-key = "System.Reactive"
-version = "5.0.0"
-[[channels.stable.plugins.SubmarineTracker.changelogs."1.9.2.9".used_needs]]
-key = "System.Threading.Channels"
-version = "5.0.0"
-[[channels.stable.plugins.SubmarineTracker.changelogs."1.9.2.9".used_needs]]
-key = "Websocket.Client"
-version = "4.6.1"
 [channels.stable.plugins.SubmarineTracker.changelogs."1.6.2.0"]
 time_released = 2023-06-22T20:20:23.860
 changelog = "[Loot]\n+ Added export functionality, exporting all the valid loot data into a csv for excel/spreadsheet\n\n[Misc]\n+ Added all breakpoints for the new sectors\n"
@@ -4610,93 +4436,6 @@ changelog = "nofranz\n"
 [channels.stable.plugins.SubmarineTracker.changelogs."1.9.3.0"]
 time_released = 2024-10-05T12:19:12.962
 reviewer = "philpax"
-[[channels.stable.plugins.SubmarineTracker.changelogs."1.9.3.0".used_needs]]
-key = "CsvHelper"
-version = "33.0.1"
-[[channels.stable.plugins.SubmarineTracker.changelogs."1.9.3.0".used_needs]]
-key = "DalamudPackager"
-version = "2.1.13"
-[[channels.stable.plugins.SubmarineTracker.changelogs."1.9.3.0".used_needs]]
-key = "MessagePack"
-version = "3.0.54-alpha"
-[[channels.stable.plugins.SubmarineTracker.changelogs."1.9.3.0".used_needs]]
-key = "Microsoft.Data.Sqlite"
-version = "8.0.6"
-[[channels.stable.plugins.SubmarineTracker.changelogs."1.9.3.0".used_needs]]
-key = "supabase-csharp"
-version = "0.16.1"
-[[channels.stable.plugins.SubmarineTracker.changelogs."1.9.3.0".used_needs]]
-key = "functions-csharp"
-version = "1.3.2"
-[[channels.stable.plugins.SubmarineTracker.changelogs."1.9.3.0".used_needs]]
-key = "gotrue-csharp"
-version = "4.2.6"
-[[channels.stable.plugins.SubmarineTracker.changelogs."1.9.3.0".used_needs]]
-key = "MessagePack.Annotations"
-version = "3.0.54-alpha"
-[[channels.stable.plugins.SubmarineTracker.changelogs."1.9.3.0".used_needs]]
-key = "Microsoft.Data.Sqlite.Core"
-version = "8.0.6"
-[[channels.stable.plugins.SubmarineTracker.changelogs."1.9.3.0".used_needs]]
-key = "Microsoft.IdentityModel.Abstractions"
-version = "7.0.3"
-[[channels.stable.plugins.SubmarineTracker.changelogs."1.9.3.0".used_needs]]
-key = "Microsoft.IdentityModel.JsonWebTokens"
-version = "7.0.3"
-[[channels.stable.plugins.SubmarineTracker.changelogs."1.9.3.0".used_needs]]
-key = "Microsoft.IdentityModel.Logging"
-version = "7.0.3"
-[[channels.stable.plugins.SubmarineTracker.changelogs."1.9.3.0".used_needs]]
-key = "Microsoft.IdentityModel.Tokens"
-version = "7.0.3"
-[[channels.stable.plugins.SubmarineTracker.changelogs."1.9.3.0".used_needs]]
-key = "Microsoft.NET.StringTools"
-version = "17.9.5"
-[[channels.stable.plugins.SubmarineTracker.changelogs."1.9.3.0".used_needs]]
-key = "MimeMapping"
-version = "2.0.0"
-[[channels.stable.plugins.SubmarineTracker.changelogs."1.9.3.0".used_needs]]
-key = "Newtonsoft.Json"
-version = "13.0.3"
-[[channels.stable.plugins.SubmarineTracker.changelogs."1.9.3.0".used_needs]]
-key = "postgrest-csharp"
-version = "3.5.1"
-[[channels.stable.plugins.SubmarineTracker.changelogs."1.9.3.0".used_needs]]
-key = "realtime-csharp"
-version = "6.0.4"
-[[channels.stable.plugins.SubmarineTracker.changelogs."1.9.3.0".used_needs]]
-key = "SQLitePCLRaw.bundle_e_sqlite3"
-version = "2.1.6"
-[[channels.stable.plugins.SubmarineTracker.changelogs."1.9.3.0".used_needs]]
-key = "SQLitePCLRaw.core"
-version = "2.1.6"
-[[channels.stable.plugins.SubmarineTracker.changelogs."1.9.3.0".used_needs]]
-key = "SQLitePCLRaw.lib.e_sqlite3"
-version = "2.1.6"
-[[channels.stable.plugins.SubmarineTracker.changelogs."1.9.3.0".used_needs]]
-key = "SQLitePCLRaw.provider.e_sqlite3"
-version = "2.1.6"
-[[channels.stable.plugins.SubmarineTracker.changelogs."1.9.3.0".used_needs]]
-key = "supabase-core"
-version = "0.0.3"
-[[channels.stable.plugins.SubmarineTracker.changelogs."1.9.3.0".used_needs]]
-key = "supabase-storage-csharp"
-version = "1.4.0"
-[[channels.stable.plugins.SubmarineTracker.changelogs."1.9.3.0".used_needs]]
-key = "System.IdentityModel.Tokens.Jwt"
-version = "7.0.3"
-[[channels.stable.plugins.SubmarineTracker.changelogs."1.9.3.0".used_needs]]
-key = "System.Memory"
-version = "4.5.3"
-[[channels.stable.plugins.SubmarineTracker.changelogs."1.9.3.0".used_needs]]
-key = "System.Reactive"
-version = "5.0.0"
-[[channels.stable.plugins.SubmarineTracker.changelogs."1.9.3.0".used_needs]]
-key = "System.Threading.Channels"
-version = "5.0.0"
-[[channels.stable.plugins.SubmarineTracker.changelogs."1.9.3.0".used_needs]]
-key = "Websocket.Client"
-version = "4.6.1"
 [channels.stable.plugins.Tf2CriticalHitsPlugin]
 built_commit = "c846943d0e9c9c8bec583e82c467a51041fd7d6c"
 time_built = 2024-07-21T18:46:36.868
@@ -5595,22 +5334,10 @@ changelog = "* Reworked tracker window refresh to load each tab asynchronously a
 time_released = 2024-10-04T20:00:53.006
 changelog = "* Added player table to Frontline tracker.\r\n* Added Damage to PCs and Damage to Other columns to Frontline job table.\r\n* Reworked auto player links for performance.\r\n"
 reviewer = "bleatbot"
-[[channels.stable.plugins.PvpStats.changelogs."2.1.8.0".used_needs]]
-key = "DalamudPackager"
-version = "2.1.13"
-[[channels.stable.plugins.PvpStats.changelogs."2.1.8.0".used_needs]]
-key = "LiteDB"
-version = "5.0.16"
 [channels.stable.plugins.PvpStats.changelogs."2.1.9.0"]
 time_released = 2024-10-05T12:19:01.916
 changelog = "* Fixed Frontline player and job tab filters not persisting.\r\n* Fixed player link settings not being used.\r\n* Rival Wings match guards now updates the button text.\r\n* Added /lastmatch command to open the match details window of the most recent match of any game mode.\r\n"
 reviewer = "philpax"
-[[channels.stable.plugins.PvpStats.changelogs."2.1.9.0".used_needs]]
-key = "DalamudPackager"
-version = "2.1.13"
-[[channels.stable.plugins.PvpStats.changelogs."2.1.9.0".used_needs]]
-key = "LiteDB"
-version = "5.0.16"
 [channels.stable.plugins.MonsterLootHunter]
 built_commit = "608c13eeb664efd1e8e0872aa6170f85c60da68d"
 time_built = 2024-09-25T22:02:44.492
@@ -6702,54 +6429,6 @@ effective_version = "1.0.0.0"
 time_released = 2024-10-04T05:43:19.607
 changelog = "Stable release\n"
 reviewer = "bleatbot"
-[[channels.stable.plugins.DragoonMayCry.changelogs."1.0.0.0".used_needs]]
-key = "https://github.com/Felscream/KamiLib"
-version = "7c072cbfbddddb5d4c38c38ca1397225e7bad25f"
-[[channels.stable.plugins.DragoonMayCry.changelogs."1.0.0.0".used_needs]]
-key = "DalamudPackager"
-version = "2.1.13"
-[[channels.stable.plugins.DragoonMayCry.changelogs."1.0.0.0".used_needs]]
-key = "NAudio"
-version = "2.2.1"
-[[channels.stable.plugins.DragoonMayCry.changelogs."1.0.0.0".used_needs]]
-key = "NAudio.Vorbis"
-version = "1.5.0"
-[[channels.stable.plugins.DragoonMayCry.changelogs."1.0.0.0".used_needs]]
-key = "Microsoft.NETCore.Platforms"
-version = "3.1.0"
-[[channels.stable.plugins.DragoonMayCry.changelogs."1.0.0.0".used_needs]]
-key = "Microsoft.Win32.Registry"
-version = "4.7.0"
-[[channels.stable.plugins.DragoonMayCry.changelogs."1.0.0.0".used_needs]]
-key = "NAudio.Asio"
-version = "2.2.1"
-[[channels.stable.plugins.DragoonMayCry.changelogs."1.0.0.0".used_needs]]
-key = "NAudio.Core"
-version = "2.2.1"
-[[channels.stable.plugins.DragoonMayCry.changelogs."1.0.0.0".used_needs]]
-key = "NAudio.Midi"
-version = "2.2.1"
-[[channels.stable.plugins.DragoonMayCry.changelogs."1.0.0.0".used_needs]]
-key = "NAudio.Wasapi"
-version = "2.2.1"
-[[channels.stable.plugins.DragoonMayCry.changelogs."1.0.0.0".used_needs]]
-key = "NAudio.WinMM"
-version = "2.2.1"
-[[channels.stable.plugins.DragoonMayCry.changelogs."1.0.0.0".used_needs]]
-key = "NVorbis"
-version = "0.10.4"
-[[channels.stable.plugins.DragoonMayCry.changelogs."1.0.0.0".used_needs]]
-key = "System.Memory"
-version = "4.5.3"
-[[channels.stable.plugins.DragoonMayCry.changelogs."1.0.0.0".used_needs]]
-key = "System.Security.AccessControl"
-version = "4.7.0"
-[[channels.stable.plugins.DragoonMayCry.changelogs."1.0.0.0".used_needs]]
-key = "System.Security.Principal.Windows"
-version = "4.7.0"
-[[channels.stable.plugins.DragoonMayCry.changelogs."1.0.0.0".used_needs]]
-key = "System.ValueTuple"
-version = "4.5.0"
 [channels.testing-live.plugins."XIVDeck.FFXIVPlugin"]
 built_commit = "d1e264b14374401703546898cfdb01223b4b8011"
 time_built = 2023-07-14T22:50:22.977
@@ -8454,54 +8133,6 @@ changelog = "- Compatibility with FlyTextFilter plugin\n- Added Subhuman\n- Adde
 time_released = 2024-10-04T05:43:30.827
 changelog = "Stable release\n"
 reviewer = "bleatbot"
-[[channels.testing-live.plugins.DragoonMayCry.changelogs."1.0.0.0".used_needs]]
-key = "https://github.com/Felscream/KamiLib"
-version = "7c072cbfbddddb5d4c38c38ca1397225e7bad25f"
-[[channels.testing-live.plugins.DragoonMayCry.changelogs."1.0.0.0".used_needs]]
-key = "DalamudPackager"
-version = "2.1.13"
-[[channels.testing-live.plugins.DragoonMayCry.changelogs."1.0.0.0".used_needs]]
-key = "NAudio"
-version = "2.2.1"
-[[channels.testing-live.plugins.DragoonMayCry.changelogs."1.0.0.0".used_needs]]
-key = "NAudio.Vorbis"
-version = "1.5.0"
-[[channels.testing-live.plugins.DragoonMayCry.changelogs."1.0.0.0".used_needs]]
-key = "Microsoft.NETCore.Platforms"
-version = "3.1.0"
-[[channels.testing-live.plugins.DragoonMayCry.changelogs."1.0.0.0".used_needs]]
-key = "Microsoft.Win32.Registry"
-version = "4.7.0"
-[[channels.testing-live.plugins.DragoonMayCry.changelogs."1.0.0.0".used_needs]]
-key = "NAudio.Asio"
-version = "2.2.1"
-[[channels.testing-live.plugins.DragoonMayCry.changelogs."1.0.0.0".used_needs]]
-key = "NAudio.Core"
-version = "2.2.1"
-[[channels.testing-live.plugins.DragoonMayCry.changelogs."1.0.0.0".used_needs]]
-key = "NAudio.Midi"
-version = "2.2.1"
-[[channels.testing-live.plugins.DragoonMayCry.changelogs."1.0.0.0".used_needs]]
-key = "NAudio.Wasapi"
-version = "2.2.1"
-[[channels.testing-live.plugins.DragoonMayCry.changelogs."1.0.0.0".used_needs]]
-key = "NAudio.WinMM"
-version = "2.2.1"
-[[channels.testing-live.plugins.DragoonMayCry.changelogs."1.0.0.0".used_needs]]
-key = "NVorbis"
-version = "0.10.4"
-[[channels.testing-live.plugins.DragoonMayCry.changelogs."1.0.0.0".used_needs]]
-key = "System.Memory"
-version = "4.5.3"
-[[channels.testing-live.plugins.DragoonMayCry.changelogs."1.0.0.0".used_needs]]
-key = "System.Security.AccessControl"
-version = "4.7.0"
-[[channels.testing-live.plugins.DragoonMayCry.changelogs."1.0.0.0".used_needs]]
-key = "System.Security.Principal.Windows"
-version = "4.7.0"
-[[channels.testing-live.plugins.DragoonMayCry.changelogs."1.0.0.0".used_needs]]
-key = "System.ValueTuple"
-version = "4.5.0"
 [channels.testing-live.plugins.NoTankYou]
 built_commit = "e2112637d239aeef91b666fd3b1da0cbcd682ea8"
 time_built = 2024-08-05T14:40:07.825
