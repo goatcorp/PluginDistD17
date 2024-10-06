@@ -12580,9 +12580,9 @@
           "Changelogs": {}
         },
         "Umbra": {
-          "BuiltCommit": "cdef127a1bf446a37f1cbc9457fd7549b05e139b",
-          "TimeBuilt": "2024-10-06T00:12:58.4408267+00:00",
-          "EffectiveVersion": "2.2.38.0",
+          "BuiltCommit": "61f44f86434fbd2fb899c64ba576f7781c4a9938",
+          "TimeBuilt": "2024-10-06T21:15:13.8261534+00:00",
+          "EffectiveVersion": "2.2.39.0",
           "MinimumVersion": null,
           "Changelogs": {
             "2.1.8.0": {
@@ -12840,6 +12840,33 @@
             "2.2.38.0": {
               "TimeReleased": "2024-10-06T00:12:58.440878+00:00",
               "Changelog": "# Umbra 2.2.38\n\n## New Additions\n\n- Added an experience bar background to the gearset switcher widget. (By [alexpado](https://github.com/alexpado))\n\n## Fixes \u0026 Improvements\n\n- Fixed a couple of deprecations in de codebase.\n\nJoin [Umbra\u0027s Discord server](https://discord.gg/xaEnsuAhmm) for the latest updates and information.\nVisit the [website](https://una-xiv.github.io/umbra-docs/) for more information and guides on how to make the most out of Umbra.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/una-xiv/drawing.git",
+                  "Version": "f3b7a0cff3958edf7af0a3895c12652d596a113d"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "2.1.13"
+                },
+                {
+                  "Key": "SkiaSharp",
+                  "Version": "3.0.0-preview.3.1"
+                },
+                {
+                  "Key": "SkiaSharp.NativeAssets.macOS",
+                  "Version": "3.0.0-preview.3.1"
+                },
+                {
+                  "Key": "SkiaSharp.NativeAssets.Win32",
+                  "Version": "3.0.0-preview.3.1"
+                }
+              ],
+              "Reviewer": "goaaats"
+            },
+            "2.2.39.0": {
+              "TimeReleased": "2024-10-06T21:15:13.8261959+00:00",
+              "Changelog": "# Umbra 2.2.39\n\n## Fixes \u0026 Improvements\n\n### Gearset Switcher\n- Progressbar now properly scale with the global UI Scale (By [alexpado](https://github.com/alexpado))\n\n### Durability Widget\n- Progressbar now properly scale with the global UI Scale (By [alexpado](https://github.com/alexpado))\n- Better layout for margins in split mode, which allow better scaling, too. (By [alexpado](https://github.com/alexpado))\n\nJoin [Umbra\u0027s Discord server](https://discord.gg/xaEnsuAhmm) for the latest updates and information.\nVisit the [website](https://una-xiv.github.io/umbra-docs/) for more information and guides on how to make the most out of Umbra.\n",
               "UsedNeeds": [
                 {
                   "Key": "https://github.com/una-xiv/drawing.git",
