@@ -12580,9 +12580,9 @@
           "Changelogs": {}
         },
         "Umbra": {
-          "BuiltCommit": "4990b164f8c3d3c1102f4b390b5c4c4d1ec7e7ea",
-          "TimeBuilt": "2024-09-29T00:23:06.306",
-          "EffectiveVersion": "2.2.37.0",
+          "BuiltCommit": "cdef127a1bf446a37f1cbc9457fd7549b05e139b",
+          "TimeBuilt": "2024-10-06T00:12:58.4408267+00:00",
+          "EffectiveVersion": "2.2.38.0",
           "MinimumVersion": null,
           "Changelogs": {
             "2.1.8.0": {
@@ -12836,6 +12836,33 @@
               "Changelog": "# Umbra 2.2.37\n\n## New Additions\n\n- Added a \u0022Hide threshold\u0022 to the FPS counter widget to automatically hide itself if the current FPS is above a set limit.\n- Added a \u0022Label\u0022 option to the FPS counter widget for the \u0022FPS\u0022-text that appears next to the counter.\n\n## Fixes \u0026 Improvements\n\n- Prevent an error while in Deep Dungeons due to the World Marker system attempting to access a zone while none is available.\n- Show the correct \u0022Deep Dungeon Level\u0022 as synced level in the Experience Bar widget.\n- Whether the Sanctuary Icon is shown on the location widget no longer relies on your character having Glamour abilities unlocked.\n\nJoin [Umbra\u0027s Discord server](https://discord.gg/xaEnsuAhmm) for the latest updates and information.\nVisit the [website](https://una-xiv.github.io/umbra-docs/) for more information and guides on how to make the most out of Umbra.\n",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "2.2.38.0": {
+              "TimeReleased": "2024-10-06T00:12:58.440878+00:00",
+              "Changelog": "# Umbra 2.2.38\n\n## New Additions\n\n- Added an experience bar background to the gearset switcher widget. (By [alexpado](https://github.com/alexpado))\n\n## Fixes \u0026 Improvements\n\n- Fixed a couple of deprecations in de codebase.\n\nJoin [Umbra\u0027s Discord server](https://discord.gg/xaEnsuAhmm) for the latest updates and information.\nVisit the [website](https://una-xiv.github.io/umbra-docs/) for more information and guides on how to make the most out of Umbra.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/una-xiv/drawing.git",
+                  "Version": "f3b7a0cff3958edf7af0a3895c12652d596a113d"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "2.1.13"
+                },
+                {
+                  "Key": "SkiaSharp",
+                  "Version": "3.0.0-preview.3.1"
+                },
+                {
+                  "Key": "SkiaSharp.NativeAssets.macOS",
+                  "Version": "3.0.0-preview.3.1"
+                },
+                {
+                  "Key": "SkiaSharp.NativeAssets.Win32",
+                  "Version": "3.0.0-preview.3.1"
+                }
+              ],
+              "Reviewer": "goaaats"
             }
           }
         },
@@ -18944,5 +18971,41 @@
       "Plugins": {}
     }
   },
-  "ReviewedNeeds": []
+  "ReviewedNeeds": [
+    {
+      "Type": 2,
+      "Key": "https://github.com/una-xiv/drawing.git",
+      "Version": "f3b7a0cff3958edf7af0a3895c12652d596a113d",
+      "ReviewedBy": "goaaats",
+      "ReviewedAt": "2024-10-06T00:12:58.4966598Z"
+    },
+    {
+      "Type": 1,
+      "Key": "DalamudPackager",
+      "Version": "2.1.13",
+      "ReviewedBy": "goaaats",
+      "ReviewedAt": "2024-10-06T00:12:58.4967309Z"
+    },
+    {
+      "Type": 1,
+      "Key": "SkiaSharp",
+      "Version": "3.0.0-preview.3.1",
+      "ReviewedBy": "goaaats",
+      "ReviewedAt": "2024-10-06T00:12:58.4967311Z"
+    },
+    {
+      "Type": 1,
+      "Key": "SkiaSharp.NativeAssets.macOS",
+      "Version": "3.0.0-preview.3.1",
+      "ReviewedBy": "goaaats",
+      "ReviewedAt": "2024-10-06T00:12:58.4967313Z"
+    },
+    {
+      "Type": 1,
+      "Key": "SkiaSharp.NativeAssets.Win32",
+      "Version": "3.0.0-preview.3.1",
+      "ReviewedBy": "goaaats",
+      "ReviewedAt": "2024-10-06T00:12:58.4967316Z"
+    }
+  ]
 }
