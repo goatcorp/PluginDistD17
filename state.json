@@ -5378,9 +5378,9 @@
           "Changelogs": {}
         },
         "TitleEdit": {
-          "BuiltCommit": "2964fad591c1e2f341a8b58f59b890ebc88ef554",
-          "TimeBuilt": "2024-09-29T00:32:42.646",
-          "EffectiveVersion": "3.0.2.0",
+          "BuiltCommit": "db56dd74abefae249b686a492b6acde7a6dc663a",
+          "TimeBuilt": "2024-10-07T20:39:09.5902524+00:00",
+          "EffectiveVersion": "3.0.2.1",
           "MinimumVersion": null,
           "Changelogs": {
             "2.3.0.0": {
@@ -5412,6 +5412,117 @@
               "Changelog": "- Fixed UI overrides not working with vanilla title screens\n- Fixed crashes when used in a client without all the expansions\n- Added an option to select what title screen movie should play\n- Remember the last used directory when exporting or importing a preset to a file\n",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "3.0.2.1": {
+              "TimeReleased": "2024-10-07T20:39:09.5902972+00:00",
+              "Changelog": "- Fixed vfx objects with multiple tracks playing every time on top of itself when you switch characters without switching presets\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "2.1.13"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "System.Collections.Specialized",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "Microsoft.Build.Tasks.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.NETCore.Platforms",
+                  "Version": "1.1.0"
+                },
+                {
+                  "Key": "Microsoft.NETCore.Targets",
+                  "Version": "1.1.0"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Common",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitHub",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitLab",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "System.Collections.NonGeneric",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Diagnostics.Debug",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Globalization",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Globalization.Extensions",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.IO",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Reflection",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Reflection.Primitives",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Resources.ResourceManager",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Runtime",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Runtime.Extensions",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Runtime.Handles",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Runtime.InteropServices",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Text.Encoding",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Threading",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Threading.Tasks",
+                  "Version": "4.3.0"
+                }
+              ],
+              "Reviewer": "goaaats"
             }
           }
         },
@@ -19033,6 +19144,181 @@
       "Version": "3.0.0-preview.3.1",
       "ReviewedBy": "goaaats",
       "ReviewedAt": "2024-10-06T00:12:58.4967316Z"
+    },
+    {
+      "Type": 1,
+      "Key": "DotNet.ReproducibleBuilds",
+      "Version": "1.1.1",
+      "ReviewedBy": "goaaats",
+      "ReviewedAt": "2024-10-07T20:39:09.6202853Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Collections.Specialized",
+      "Version": "4.3.0",
+      "ReviewedBy": "goaaats",
+      "ReviewedAt": "2024-10-07T20:39:09.6203235Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Build.Tasks.Git",
+      "Version": "1.1.1",
+      "ReviewedBy": "goaaats",
+      "ReviewedAt": "2024-10-07T20:39:09.6203239Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.NETCore.Platforms",
+      "Version": "1.1.0",
+      "ReviewedBy": "goaaats",
+      "ReviewedAt": "2024-10-07T20:39:09.6203242Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.NETCore.Targets",
+      "Version": "1.1.0",
+      "ReviewedBy": "goaaats",
+      "ReviewedAt": "2024-10-07T20:39:09.6203244Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.SourceLink.AzureRepos.Git",
+      "Version": "1.1.1",
+      "ReviewedBy": "goaaats",
+      "ReviewedAt": "2024-10-07T20:39:09.6203251Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.SourceLink.Bitbucket.Git",
+      "Version": "1.1.1",
+      "ReviewedBy": "goaaats",
+      "ReviewedAt": "2024-10-07T20:39:09.6203254Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.SourceLink.Common",
+      "Version": "1.1.1",
+      "ReviewedBy": "goaaats",
+      "ReviewedAt": "2024-10-07T20:39:09.6203258Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.SourceLink.GitHub",
+      "Version": "1.1.1",
+      "ReviewedBy": "goaaats",
+      "ReviewedAt": "2024-10-07T20:39:09.620326Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.SourceLink.GitLab",
+      "Version": "1.1.1",
+      "ReviewedBy": "goaaats",
+      "ReviewedAt": "2024-10-07T20:39:09.6203263Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Collections.NonGeneric",
+      "Version": "4.3.0",
+      "ReviewedBy": "goaaats",
+      "ReviewedAt": "2024-10-07T20:39:09.6203264Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Diagnostics.Debug",
+      "Version": "4.3.0",
+      "ReviewedBy": "goaaats",
+      "ReviewedAt": "2024-10-07T20:39:09.6203266Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Globalization",
+      "Version": "4.3.0",
+      "ReviewedBy": "goaaats",
+      "ReviewedAt": "2024-10-07T20:39:09.6203268Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Globalization.Extensions",
+      "Version": "4.3.0",
+      "ReviewedBy": "goaaats",
+      "ReviewedAt": "2024-10-07T20:39:09.620327Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.IO",
+      "Version": "4.3.0",
+      "ReviewedBy": "goaaats",
+      "ReviewedAt": "2024-10-07T20:39:09.6203272Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Reflection",
+      "Version": "4.3.0",
+      "ReviewedBy": "goaaats",
+      "ReviewedAt": "2024-10-07T20:39:09.6203274Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Reflection.Primitives",
+      "Version": "4.3.0",
+      "ReviewedBy": "goaaats",
+      "ReviewedAt": "2024-10-07T20:39:09.6203276Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Resources.ResourceManager",
+      "Version": "4.3.0",
+      "ReviewedBy": "goaaats",
+      "ReviewedAt": "2024-10-07T20:39:09.6203278Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Runtime",
+      "Version": "4.3.0",
+      "ReviewedBy": "goaaats",
+      "ReviewedAt": "2024-10-07T20:39:09.620328Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Runtime.Extensions",
+      "Version": "4.3.0",
+      "ReviewedBy": "goaaats",
+      "ReviewedAt": "2024-10-07T20:39:09.6203282Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Runtime.Handles",
+      "Version": "4.3.0",
+      "ReviewedBy": "goaaats",
+      "ReviewedAt": "2024-10-07T20:39:09.6203283Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Runtime.InteropServices",
+      "Version": "4.3.0",
+      "ReviewedBy": "goaaats",
+      "ReviewedAt": "2024-10-07T20:39:09.6203285Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Text.Encoding",
+      "Version": "4.3.0",
+      "ReviewedBy": "goaaats",
+      "ReviewedAt": "2024-10-07T20:39:09.6203287Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Threading",
+      "Version": "4.3.0",
+      "ReviewedBy": "goaaats",
+      "ReviewedAt": "2024-10-07T20:39:09.6203289Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Threading.Tasks",
+      "Version": "4.3.0",
+      "ReviewedBy": "goaaats",
+      "ReviewedAt": "2024-10-07T20:39:09.6203291Z"
     }
   ]
 }
