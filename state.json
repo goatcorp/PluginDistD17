@@ -16584,9 +16584,9 @@
           }
         },
         "DragoonMayCry": {
-          "BuiltCommit": "9c07689868cb58f74ff1a794852921f07d358523",
-          "TimeBuilt": "2024-10-04T05:43:30.827",
-          "EffectiveVersion": "1.0.0.0",
+          "BuiltCommit": "f4d6304ff9337fe541906bd6b610e753dfba9ae9",
+          "TimeBuilt": "2024-10-07T20:42:53.3749722+00:00",
+          "EffectiveVersion": "1.0.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.5.1.0": {
@@ -16719,6 +16719,77 @@
                 }
               ],
               "Reviewer": "bleatbot"
+            },
+            "1.0.1.0": {
+              "TimeReleased": "2024-10-07T20:42:53.3750128+00:00",
+              "Changelog": "- Final rank is now attributed based on total encounter uptime\n",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/Felscream/KamiLib",
+                  "Version": "7c072cbfbddddb5d4c38c38ca1397225e7bad25f"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "2.1.13"
+                },
+                {
+                  "Key": "NAudio",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Vorbis",
+                  "Version": "1.5.0"
+                },
+                {
+                  "Key": "Microsoft.NETCore.Platforms",
+                  "Version": "3.1.0"
+                },
+                {
+                  "Key": "Microsoft.Win32.Registry",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "NAudio.Asio",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Core",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Midi",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Wasapi",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.WinMM",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NVorbis",
+                  "Version": "0.10.4"
+                },
+                {
+                  "Key": "System.Memory",
+                  "Version": "4.5.3"
+                },
+                {
+                  "Key": "System.Security.AccessControl",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "System.Security.Principal.Windows",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "System.ValueTuple",
+                  "Version": "4.5.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
@@ -19319,6 +19390,111 @@
       "Version": "4.3.0",
       "ReviewedBy": "goaaats",
       "ReviewedAt": "2024-10-07T20:39:09.6203291Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/Felscream/KamiLib",
+      "Version": "7c072cbfbddddb5d4c38c38ca1397225e7bad25f",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-10-07T20:42:53.4045989Z"
+    },
+    {
+      "Type": 1,
+      "Key": "NAudio",
+      "Version": "2.2.1",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-10-07T20:42:53.4046279Z"
+    },
+    {
+      "Type": 1,
+      "Key": "NAudio.Vorbis",
+      "Version": "1.5.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-10-07T20:42:53.4046282Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.NETCore.Platforms",
+      "Version": "3.1.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-10-07T20:42:53.4046286Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Win32.Registry",
+      "Version": "4.7.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-10-07T20:42:53.4046288Z"
+    },
+    {
+      "Type": 1,
+      "Key": "NAudio.Asio",
+      "Version": "2.2.1",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-10-07T20:42:53.4046301Z"
+    },
+    {
+      "Type": 1,
+      "Key": "NAudio.Core",
+      "Version": "2.2.1",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-10-07T20:42:53.4046303Z"
+    },
+    {
+      "Type": 1,
+      "Key": "NAudio.Midi",
+      "Version": "2.2.1",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-10-07T20:42:53.4046305Z"
+    },
+    {
+      "Type": 1,
+      "Key": "NAudio.Wasapi",
+      "Version": "2.2.1",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-10-07T20:42:53.4046307Z"
+    },
+    {
+      "Type": 1,
+      "Key": "NAudio.WinMM",
+      "Version": "2.2.1",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-10-07T20:42:53.4046309Z"
+    },
+    {
+      "Type": 1,
+      "Key": "NVorbis",
+      "Version": "0.10.4",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-10-07T20:42:53.404631Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Memory",
+      "Version": "4.5.3",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-10-07T20:42:53.4046312Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Security.AccessControl",
+      "Version": "4.7.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-10-07T20:42:53.4046314Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Security.Principal.Windows",
+      "Version": "4.7.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-10-07T20:42:53.4046317Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.ValueTuple",
+      "Version": "4.5.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-10-07T20:42:53.4046318Z"
     }
   ]
 }
