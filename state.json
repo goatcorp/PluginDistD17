@@ -2676,9 +2676,9 @@
           }
         },
         "Wholist": {
-          "BuiltCommit": "4da744ab31f197dbd760ceffc7b85db073f10262",
-          "TimeBuilt": "2024-10-01T18:51:06.899",
-          "EffectiveVersion": "1.5.1.0",
+          "BuiltCommit": "1884f57ed065799b0726a2a7ba81f4a8547b597a",
+          "TimeBuilt": "2024-10-08T21:31:38.1683285+00:00",
+          "EffectiveVersion": "1.6.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -2704,6 +2704,53 @@
               "Changelog": "Added the ability to change the region used for Lodestone player searches.\nRevamped some of the settings UI.\n",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "1.6.0.0": {
+              "TimeReleased": "2024-10-08T21:31:38.1683693+00:00",
+              "Changelog": "- Added a new command \u0060/randplate\u0060 to randomly open a nearby player adventurer plate.\r\n- Added the ability to set a focus target from the nearby players context menu.",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/Blooym/Sirensong.git",
+                  "Version": "5accab25d21dccd1bfdf6cab870588987cb639ed"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "2.1.13"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "BitFaster.Caching",
+                  "Version": "2.4.1"
+                },
+                {
+                  "Key": "Microsoft.Build.Tasks.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Common",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitHub",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitLab",
+                  "Version": "1.1.1"
+                }
+              ],
+              "Reviewer": "philpax"
             }
           }
         },
@@ -19495,6 +19542,20 @@
       "Version": "4.5.0",
       "ReviewedBy": "reiichi001",
       "ReviewedAt": "2024-10-07T20:42:53.4046318Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/Blooym/Sirensong.git",
+      "Version": "5accab25d21dccd1bfdf6cab870588987cb639ed",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2024-10-08T21:31:38.1964114Z"
+    },
+    {
+      "Type": 1,
+      "Key": "BitFaster.Caching",
+      "Version": "2.4.1",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2024-10-08T21:31:38.196441Z"
     }
   ]
 }
