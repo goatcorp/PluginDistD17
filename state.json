@@ -17600,9 +17600,9 @@
           }
         },
         "DragoonMayCry": {
-          "BuiltCommit": "f4d6304ff9337fe541906bd6b610e753dfba9ae9",
-          "TimeBuilt": "2024-10-07T20:42:53.3749722+00:00",
-          "EffectiveVersion": "1.0.1.0",
+          "BuiltCommit": "2b0a6cab956a12b1267b39e242e70ae85f5f635d",
+          "TimeBuilt": "2024-10-10T19:16:21.2837484+00:00",
+          "EffectiveVersion": "1.1.0.1",
           "MinimumVersion": null,
           "Changelogs": {
             "0.5.1.0": {
@@ -17739,6 +17739,77 @@
             "1.0.1.0": {
               "TimeReleased": "2024-10-07T20:42:53.3750128+00:00",
               "Changelog": "- Final rank is now attributed based on total encounter uptime\n",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/Felscream/KamiLib",
+                  "Version": "7c072cbfbddddb5d4c38c38ca1397225e7bad25f"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "2.1.13"
+                },
+                {
+                  "Key": "NAudio",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Vorbis",
+                  "Version": "1.5.0"
+                },
+                {
+                  "Key": "Microsoft.NETCore.Platforms",
+                  "Version": "3.1.0"
+                },
+                {
+                  "Key": "Microsoft.Win32.Registry",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "NAudio.Asio",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Core",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Midi",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Wasapi",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.WinMM",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NVorbis",
+                  "Version": "0.10.4"
+                },
+                {
+                  "Key": "System.Memory",
+                  "Version": "4.5.3"
+                },
+                {
+                  "Key": "System.Security.AccessControl",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "System.Security.Principal.Windows",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "System.ValueTuple",
+                  "Version": "4.5.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            },
+            "1.1.0.1": {
+              "TimeReleased": "2024-10-10T19:16:21.2837877+00:00",
+              "Changelog": "- The best final rank in selected duties is saved for your character.\n- Only Dawntrail raids and trials available before 7.10, and previous expansions ultimates are currently tracked.\n- Failing a mechanic will impact your final rank.\n- Added on option to disable chat output.\nMore info available on the \u0027How it works\u0027 window.\n",
               "UsedNeeds": [
                 {
                   "Key": "https://github.com/Felscream/KamiLib",
