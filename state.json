@@ -4467,11 +4467,23 @@
           }
         },
         "Eventy": {
-          "BuiltCommit": "bf907e04e9d167f9851e6c0954cee9a063157a19",
-          "TimeBuilt": "2024-08-15T18:48:43.849",
-          "EffectiveVersion": "1.0.1.0",
+          "BuiltCommit": "92a6c8ca69090ad6848ed9a85f3100d91411a079",
+          "TimeBuilt": "2024-10-11T05:36:30.5141998+00:00",
+          "EffectiveVersion": "1.0.2.0",
           "MinimumVersion": null,
-          "Changelogs": {}
+          "Changelogs": {
+            "1.0.2.0": {
+              "TimeReleased": "2024-10-11T05:36:30.5142399+00:00",
+              "Changelog": "- Add subdomain selector\r\n  - Supported are EU, NA, DE, FR, JP\r\n- Highlight current day",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "2.1.13"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            }
+          }
         },
         "GoodFriend": {
           "BuiltCommit": "ae5ac1654eddfd857e1282a58b944d1ccc4438d1",
