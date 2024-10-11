@@ -20260,6 +20260,73 @@
               "Reviewer": null
             }
           }
+        },
+        "HUDUnlimited": {
+          "BuiltCommit": "2660658256cafdcf9494d26e4b12c4de4bbe8ae0",
+          "TimeBuilt": "2024-10-11T05:29:08.6250893+00:00",
+          "EffectiveVersion": "1.0.0.0",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "1.0.0.0": {
+              "TimeReleased": "2024-10-11T05:29:08.6251284+00:00",
+              "Changelog": "HUDUnlimited is a new plugin that gives you *complete* control over your user interface.\r\n\r\nThis plugin allows you to modify any and all UI elements to be exactly how you want.\r\n\r\nSupports the ability to import and export presets.\r\n\r\n![image](https://github.com/user-attachments/assets/63afe9d0-498f-4e65-9ceb-e67e0e4dd43a)\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiLib.git",
+                  "Version": "5ad86f9c8a6373f6b41dea915f0adce10373d05f"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "2.1.13"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "NetStone",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "HtmlAgilityPack",
+                  "Version": "1.11.46"
+                },
+                {
+                  "Key": "Karashiiro.HtmlAgilityPack.CssSelectors.NetCoreFork",
+                  "Version": "0.0.2"
+                },
+                {
+                  "Key": "Microsoft.Build.Tasks.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Common",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitHub",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitLab",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.3"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            }
+          }
         }
       }
     },
@@ -21835,6 +21902,20 @@
       "Version": "2.9.2",
       "ReviewedBy": "reiichi001",
       "ReviewedAt": "2024-10-10T19:13:43.9187545Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/MidoriKami/KamiLib.git",
+      "Version": "5ad86f9c8a6373f6b41dea915f0adce10373d05f",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-10-11T05:29:08.6603633Z"
+    },
+    {
+      "Type": 1,
+      "Key": "NetStone",
+      "Version": "1.1.1",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-10-11T05:29:08.6603906Z"
     }
   ]
 }
