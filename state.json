@@ -20327,6 +20327,63 @@
               "Reviewer": "reiichi001"
             }
           }
+        },
+        "SammiPlugin": {
+          "BuiltCommit": "9b181529b1c50664ca50cb3653ede5eb2d820b2a",
+          "TimeBuilt": "2024-10-11T05:33:07.5759104+00:00",
+          "EffectiveVersion": "0.0.0.1",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "0.0.0.1": {
+              "TimeReleased": "2024-10-11T05:33:07.5759522+00:00",
+              "Changelog": "Initial release, support for player character name/hp/mp, flying text for damage/buffs/debuffs, and player class/job/role actions used.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "2.1.13"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            }
+          }
+        },
+        "AutoBGM": {
+          "BuiltCommit": "df92c1e4c9f06bec8e4915ed502660a42f52832a",
+          "TimeBuilt": "2024-10-11T05:33:13.2200145+00:00",
+          "EffectiveVersion": "1.0.0.0",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "1.0.0.0": {
+              "TimeReleased": "2024-10-11T05:33:13.2200154+00:00",
+              "Changelog": "\nVersion 1.0.0.0:\n - Initial Release\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "2.1.13"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            }
+          }
+        },
+        "HotbarBackup": {
+          "BuiltCommit": "ce5873939e98df18f56045f2e7ad20181778abed",
+          "TimeBuilt": "2024-10-11T05:33:18.77126+00:00",
+          "EffectiveVersion": "0.0.0.1",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "0.0.0.1": {
+              "TimeReleased": "2024-10-11T05:33:18.7712612+00:00",
+              "Changelog": "Hotbar Backup v1.0.0\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "2.1.13"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            }
+          }
         }
       }
     },
