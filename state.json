@@ -9771,9 +9771,9 @@
           }
         },
         "ChatTranslated": {
-          "BuiltCommit": "efdf293fa4a776dc008789f1a8389b1e842562ee",
-          "TimeBuilt": "2024-09-22T03:56:04.748",
-          "EffectiveVersion": "3.2.1.2",
+          "BuiltCommit": "56f45d7560f101d10289f515f61e32008863c5b1",
+          "TimeBuilt": "2024-10-12T20:20:55.1937982+00:00",
+          "EffectiveVersion": "3.3.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.2.0.0": {
@@ -9997,6 +9997,21 @@
               "Changelog": "fix null reference exception when installing plugin\r\n",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "3.3.0.0": {
+              "TimeReleased": "2024-10-12T20:20:55.1938399+00:00",
+              "Changelog": "added Yandex as backup when checking chat message language\r\nadded chat context to prompt when using LLM\r\norganized code\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "2.1.13"
+                },
+                {
+                  "Key": "GTranslate",
+                  "Version": "2.2.8"
+                }
+              ],
+              "Reviewer": "philpax"
             }
           }
         },
@@ -22044,6 +22059,13 @@
       "Version": "1.1.1",
       "ReviewedBy": "reiichi001",
       "ReviewedAt": "2024-10-11T05:29:08.6603906Z"
+    },
+    {
+      "Type": 1,
+      "Key": "GTranslate",
+      "Version": "2.2.8",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2024-10-12T20:20:55.2268672Z"
     }
   ]
 }
