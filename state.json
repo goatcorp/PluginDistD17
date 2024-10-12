@@ -20274,9 +20274,9 @@
           }
         },
         "HUDUnlimited": {
-          "BuiltCommit": "2660658256cafdcf9494d26e4b12c4de4bbe8ae0",
-          "TimeBuilt": "2024-10-11T05:29:08.6250893+00:00",
-          "EffectiveVersion": "1.0.0.0",
+          "BuiltCommit": "f9bf0da012460f3addf0ed89a78e29c3bb8ac8a4",
+          "TimeBuilt": "2024-10-12T20:16:23.4390499+00:00",
+          "EffectiveVersion": "1.0.0.1",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -20337,6 +20337,65 @@
                 }
               ],
               "Reviewer": "reiichi001"
+            },
+            "1.0.0.1": {
+              "TimeReleased": "2024-10-12T20:16:23.4390885+00:00",
+              "Changelog": "Fix crash when trying to highlight a node that no longer exists\r\nFix unable to apply modifications to some nodes",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiLib.git",
+                  "Version": "5ad86f9c8a6373f6b41dea915f0adce10373d05f"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "2.1.13"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "NetStone",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "HtmlAgilityPack",
+                  "Version": "1.11.46"
+                },
+                {
+                  "Key": "Karashiiro.HtmlAgilityPack.CssSelectors.NetCoreFork",
+                  "Version": "0.0.2"
+                },
+                {
+                  "Key": "Microsoft.Build.Tasks.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Common",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitHub",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitLab",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.3"
+                }
+              ],
+              "Reviewer": "philpax"
             }
           }
         },
