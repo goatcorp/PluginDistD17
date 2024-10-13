@@ -9771,9 +9771,9 @@
           }
         },
         "ChatTranslated": {
-          "BuiltCommit": "56f45d7560f101d10289f515f61e32008863c5b1",
-          "TimeBuilt": "2024-10-12T20:20:55.1937982+00:00",
-          "EffectiveVersion": "3.3.0.0",
+          "BuiltCommit": "7d4a9fcb5014729a174fb75f6e641bd47b55bee9",
+          "TimeBuilt": "2024-10-13T13:55:22.7165554+00:00",
+          "EffectiveVersion": "3.3.0.1",
           "MinimumVersion": null,
           "Changelogs": {
             "1.2.0.0": {
@@ -10012,6 +10012,21 @@
                 }
               ],
               "Reviewer": "philpax"
+            },
+            "3.3.0.1": {
+              "TimeReleased": "2024-10-13T13:55:22.7165972+00:00",
+              "Changelog": "Fixed a bug where the main window translation would occasionally fail.\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "2.1.13"
+                },
+                {
+                  "Key": "GTranslate",
+                  "Version": "2.2.8"
+                }
+              ],
+              "Reviewer": "goaaats"
             }
           }
         },
