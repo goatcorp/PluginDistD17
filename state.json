@@ -9239,9 +9239,9 @@
           "Changelogs": {}
         },
         "SubmarineTracker": {
-          "BuiltCommit": "581057a7cafa3ba60e2605aac430e1115a42e3d3",
-          "TimeBuilt": "2024-10-05T12:19:12.962",
-          "EffectiveVersion": "1.9.3.0",
+          "BuiltCommit": "fa6f892cff0b72d9fdccaf347b9d18bc00a532aa",
+          "TimeBuilt": "2024-10-13T13:59:21.9508427+00:00",
+          "EffectiveVersion": "1.9.3.2",
           "MinimumVersion": null,
           "Changelogs": {
             "1.1.0.0": {
@@ -9675,6 +9675,129 @@
                 }
               ],
               "Reviewer": "philpax"
+            },
+            "1.9.3.2": {
+              "TimeReleased": "2024-10-13T13:59:21.9508436+00:00",
+              "Changelog": "- Fix issue in configs managed tab",
+              "UsedNeeds": [
+                {
+                  "Key": "CsvHelper",
+                  "Version": "33.0.1"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "2.1.13"
+                },
+                {
+                  "Key": "MessagePack",
+                  "Version": "3.0.54-alpha"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite",
+                  "Version": "8.0.6"
+                },
+                {
+                  "Key": "supabase-csharp",
+                  "Version": "0.16.1"
+                },
+                {
+                  "Key": "functions-csharp",
+                  "Version": "1.3.2"
+                },
+                {
+                  "Key": "gotrue-csharp",
+                  "Version": "4.2.6"
+                },
+                {
+                  "Key": "MessagePack.Annotations",
+                  "Version": "3.0.54-alpha"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite.Core",
+                  "Version": "8.0.6"
+                },
+                {
+                  "Key": "Microsoft.IdentityModel.Abstractions",
+                  "Version": "7.0.3"
+                },
+                {
+                  "Key": "Microsoft.IdentityModel.JsonWebTokens",
+                  "Version": "7.0.3"
+                },
+                {
+                  "Key": "Microsoft.IdentityModel.Logging",
+                  "Version": "7.0.3"
+                },
+                {
+                  "Key": "Microsoft.IdentityModel.Tokens",
+                  "Version": "7.0.3"
+                },
+                {
+                  "Key": "Microsoft.NET.StringTools",
+                  "Version": "17.9.5"
+                },
+                {
+                  "Key": "MimeMapping",
+                  "Version": "2.0.0"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.3"
+                },
+                {
+                  "Key": "postgrest-csharp",
+                  "Version": "3.5.1"
+                },
+                {
+                  "Key": "realtime-csharp",
+                  "Version": "6.0.4"
+                },
+                {
+                  "Key": "SQLitePCLRaw.bundle_e_sqlite3",
+                  "Version": "2.1.6"
+                },
+                {
+                  "Key": "SQLitePCLRaw.core",
+                  "Version": "2.1.6"
+                },
+                {
+                  "Key": "SQLitePCLRaw.lib.e_sqlite3",
+                  "Version": "2.1.6"
+                },
+                {
+                  "Key": "SQLitePCLRaw.provider.e_sqlite3",
+                  "Version": "2.1.6"
+                },
+                {
+                  "Key": "supabase-core",
+                  "Version": "0.0.3"
+                },
+                {
+                  "Key": "supabase-storage-csharp",
+                  "Version": "1.4.0"
+                },
+                {
+                  "Key": "System.IdentityModel.Tokens.Jwt",
+                  "Version": "7.0.3"
+                },
+                {
+                  "Key": "System.Memory",
+                  "Version": "4.5.3"
+                },
+                {
+                  "Key": "System.Reactive",
+                  "Version": "5.0.0"
+                },
+                {
+                  "Key": "System.Threading.Channels",
+                  "Version": "5.0.0"
+                },
+                {
+                  "Key": "Websocket.Client",
+                  "Version": "4.6.1"
+                }
+              ],
+              "Reviewer": "goaaats"
             }
           }
         },
@@ -13749,9 +13872,9 @@
           "Changelogs": {}
         },
         "Umbra": {
-          "BuiltCommit": "61f44f86434fbd2fb899c64ba576f7781c4a9938",
-          "TimeBuilt": "2024-10-06T21:15:13.8261534+00:00",
-          "EffectiveVersion": "2.2.39.0",
+          "BuiltCommit": "1bdb912904171db5f507b8187924e72862667077",
+          "TimeBuilt": "2024-10-13T13:59:08.1024323+00:00",
+          "EffectiveVersion": "2.2.40.0",
           "MinimumVersion": null,
           "Changelogs": {
             "2.1.8.0": {
@@ -14059,6 +14182,33 @@
                 }
               ],
               "Reviewer": "goaaats"
+            },
+            "2.2.40.0": {
+              "TimeReleased": "2024-10-13T13:59:08.1024712+00:00",
+              "Changelog": "# Umbra 2.2.40\n\n## New Additions\n\n- Added an option to change the display mode of the experience bar in the Gearset Switcher widget: \u0022Never\u0022, \u0022Hide When Full\u0022 and \u0022Always\u0022. (By [alexpado](https://github.com/alexpado))\n- Added an option to override the color of the experience bar in the Gearset Switcher widget. (By [alexpado](https://github.com/alexpado))\n- Added an option to the Gearset Switcher that allows you to customize the width of gearset buttons in the popup.\n- Added an option to the Stacked Clocks widget to enable/disable the popup.\n- Added a \u0022Return\u0022 action to the Teleport Widget\u0027s Miscellaneous menu.\n\n## Fixes \u0026 Improvements\n- Ensure the experience bar in the Gearset Switcher widget stretches across the full width of the widget. (Related Discord thread: [Gearset Switcher widget - Experience Bar](https://discord.com/channels/1263935915517149298/1292289493830991965)) (By [alexpado](https://github.com/alexpado))\n\nJoin [Umbra\u0027s Discord server](https://discord.gg/xaEnsuAhmm) for the latest updates and information.\nVisit the [website](https://una-xiv.github.io/umbra-docs/) for more information and guides on how to make the most out of Umbra.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/una-xiv/drawing.git",
+                  "Version": "f3b7a0cff3958edf7af0a3895c12652d596a113d"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "2.1.13"
+                },
+                {
+                  "Key": "SkiaSharp",
+                  "Version": "3.0.0-preview.3.1"
+                },
+                {
+                  "Key": "SkiaSharp.NativeAssets.macOS",
+                  "Version": "3.0.0-preview.3.1"
+                },
+                {
+                  "Key": "SkiaSharp.NativeAssets.Win32",
+                  "Version": "3.0.0-preview.3.1"
+                }
+              ],
+              "Reviewer": "philpax"
             }
           }
         },
@@ -22081,6 +22231,188 @@
       "Version": "2.2.8",
       "ReviewedBy": "philpax",
       "ReviewedAt": "2024-10-12T20:20:55.2268672Z"
+    },
+    {
+      "Type": 1,
+      "Key": "CsvHelper",
+      "Version": "33.0.1",
+      "ReviewedBy": "goaaats",
+      "ReviewedAt": "2024-10-13T13:59:21.96893Z"
+    },
+    {
+      "Type": 1,
+      "Key": "MessagePack",
+      "Version": "3.0.54-alpha",
+      "ReviewedBy": "goaaats",
+      "ReviewedAt": "2024-10-13T13:59:21.9689619Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Data.Sqlite",
+      "Version": "8.0.6",
+      "ReviewedBy": "goaaats",
+      "ReviewedAt": "2024-10-13T13:59:21.9689621Z"
+    },
+    {
+      "Type": 1,
+      "Key": "supabase-csharp",
+      "Version": "0.16.1",
+      "ReviewedBy": "goaaats",
+      "ReviewedAt": "2024-10-13T13:59:21.9689627Z"
+    },
+    {
+      "Type": 1,
+      "Key": "functions-csharp",
+      "Version": "1.3.2",
+      "ReviewedBy": "goaaats",
+      "ReviewedAt": "2024-10-13T13:59:21.9689628Z"
+    },
+    {
+      "Type": 1,
+      "Key": "gotrue-csharp",
+      "Version": "4.2.6",
+      "ReviewedBy": "goaaats",
+      "ReviewedAt": "2024-10-13T13:59:21.9689632Z"
+    },
+    {
+      "Type": 1,
+      "Key": "MessagePack.Annotations",
+      "Version": "3.0.54-alpha",
+      "ReviewedBy": "goaaats",
+      "ReviewedAt": "2024-10-13T13:59:21.9689634Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Data.Sqlite.Core",
+      "Version": "8.0.6",
+      "ReviewedBy": "goaaats",
+      "ReviewedAt": "2024-10-13T13:59:21.9689637Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.IdentityModel.Abstractions",
+      "Version": "7.0.3",
+      "ReviewedBy": "goaaats",
+      "ReviewedAt": "2024-10-13T13:59:21.9689637Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.IdentityModel.JsonWebTokens",
+      "Version": "7.0.3",
+      "ReviewedBy": "goaaats",
+      "ReviewedAt": "2024-10-13T13:59:21.9689639Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.IdentityModel.Logging",
+      "Version": "7.0.3",
+      "ReviewedBy": "goaaats",
+      "ReviewedAt": "2024-10-13T13:59:21.9689641Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.IdentityModel.Tokens",
+      "Version": "7.0.3",
+      "ReviewedBy": "goaaats",
+      "ReviewedAt": "2024-10-13T13:59:21.9689642Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.NET.StringTools",
+      "Version": "17.9.5",
+      "ReviewedBy": "goaaats",
+      "ReviewedAt": "2024-10-13T13:59:21.9689644Z"
+    },
+    {
+      "Type": 1,
+      "Key": "MimeMapping",
+      "Version": "2.0.0",
+      "ReviewedBy": "goaaats",
+      "ReviewedAt": "2024-10-13T13:59:21.9689646Z"
+    },
+    {
+      "Type": 1,
+      "Key": "postgrest-csharp",
+      "Version": "3.5.1",
+      "ReviewedBy": "goaaats",
+      "ReviewedAt": "2024-10-13T13:59:21.9689648Z"
+    },
+    {
+      "Type": 1,
+      "Key": "realtime-csharp",
+      "Version": "6.0.4",
+      "ReviewedBy": "goaaats",
+      "ReviewedAt": "2024-10-13T13:59:21.968965Z"
+    },
+    {
+      "Type": 1,
+      "Key": "SQLitePCLRaw.bundle_e_sqlite3",
+      "Version": "2.1.6",
+      "ReviewedBy": "goaaats",
+      "ReviewedAt": "2024-10-13T13:59:21.9689651Z"
+    },
+    {
+      "Type": 1,
+      "Key": "SQLitePCLRaw.core",
+      "Version": "2.1.6",
+      "ReviewedBy": "goaaats",
+      "ReviewedAt": "2024-10-13T13:59:21.9689653Z"
+    },
+    {
+      "Type": 1,
+      "Key": "SQLitePCLRaw.lib.e_sqlite3",
+      "Version": "2.1.6",
+      "ReviewedBy": "goaaats",
+      "ReviewedAt": "2024-10-13T13:59:21.9689655Z"
+    },
+    {
+      "Type": 1,
+      "Key": "SQLitePCLRaw.provider.e_sqlite3",
+      "Version": "2.1.6",
+      "ReviewedBy": "goaaats",
+      "ReviewedAt": "2024-10-13T13:59:21.9689656Z"
+    },
+    {
+      "Type": 1,
+      "Key": "supabase-core",
+      "Version": "0.0.3",
+      "ReviewedBy": "goaaats",
+      "ReviewedAt": "2024-10-13T13:59:21.9689658Z"
+    },
+    {
+      "Type": 1,
+      "Key": "supabase-storage-csharp",
+      "Version": "1.4.0",
+      "ReviewedBy": "goaaats",
+      "ReviewedAt": "2024-10-13T13:59:21.968966Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.IdentityModel.Tokens.Jwt",
+      "Version": "7.0.3",
+      "ReviewedBy": "goaaats",
+      "ReviewedAt": "2024-10-13T13:59:21.9689661Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Reactive",
+      "Version": "5.0.0",
+      "ReviewedBy": "goaaats",
+      "ReviewedAt": "2024-10-13T13:59:21.9689664Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Threading.Channels",
+      "Version": "5.0.0",
+      "ReviewedBy": "goaaats",
+      "ReviewedAt": "2024-10-13T13:59:21.9689666Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Websocket.Client",
+      "Version": "4.6.1",
+      "ReviewedBy": "goaaats",
+      "ReviewedAt": "2024-10-13T13:59:21.9689667Z"
     }
   ]
 }
