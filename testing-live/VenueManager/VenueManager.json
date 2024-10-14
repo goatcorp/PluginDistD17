@@ -1,0 +1,24 @@
+{
+  "Author": "Jrogo",
+  "Name": "Venue Manager",
+  "InternalName": "VenueManager",
+  "AssemblyVersion": "2.2.0",
+  "Description": "Save and share venues you visit or own. Get updates and logs for visitors coming and going. Guest list management tools for venue owners to view and easily export it for use with other applications. Icon by Silv :)",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/Jrogo7/VenueManager",
+  "Tags": [
+    "venue",
+    "club",
+    "guests"
+  ],
+  "DalamudApiLevel": 10,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "IconUrl": "https://raw.githubusercontent.com/Jrogo7/VenueManager/master/images/icon.png",
+  "Punchline": "Bookmark the venues you visit. View and manage guests for venues.",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "testing-live"
+}

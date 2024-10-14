@@ -20861,6 +20861,80 @@
               "Reviewer": "reiichi001"
             }
           }
+        },
+        "VenueManager": {
+          "BuiltCommit": "410c16f7d5a3df50c57d138706f50c289e665e1c",
+          "TimeBuilt": "2024-10-14T19:23:16.7367991+00:00",
+          "EffectiveVersion": "2.2.0",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "2.2.0": {
+              "TimeReleased": "2024-10-14T19:23:16.7368381+00:00",
+              "Changelog": "Initial submission to Dalamud plugins",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "2.1.13"
+                },
+                {
+                  "Key": "NAudio",
+                  "Version": "1.10.0"
+                },
+                {
+                  "Key": "Microsoft.NETCore.Platforms",
+                  "Version": "3.1.0"
+                },
+                {
+                  "Key": "Microsoft.Win32.Registry",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "System.Resources.Extensions",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "System.Security.AccessControl",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "System.Security.Principal.Windows",
+                  "Version": "4.7.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            }
+          }
+        },
+        "VoiceDirector": {
+          "BuiltCommit": "20cb6459661c9346b88b934c102d8b92d6c79ab8",
+          "TimeBuilt": "2024-10-14T19:23:23.3626775+00:00",
+          "EffectiveVersion": "1.0.0.0",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "1.0.0.0": {
+              "TimeReleased": "2024-10-14T19:23:23.3626784+00:00",
+              "Changelog": "Initial Release",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "2.1.13"
+                },
+                {
+                  "Key": "Lumina",
+                  "Version": "4.1.2"
+                },
+                {
+                  "Key": "Lumina.Excel",
+                  "Version": "7.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.ObjectPool",
+                  "Version": "9.0.0-preview.1.24081.5"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            }
+          }
         }
       }
     },
@@ -22695,6 +22769,27 @@
       "Version": "12.3.1",
       "ReviewedBy": "reiichi001",
       "ReviewedAt": "2024-10-14T19:17:16.2522676Z"
+    },
+    {
+      "Type": 1,
+      "Key": "NAudio",
+      "Version": "1.10.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-10-14T19:23:16.7671606Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Resources.Extensions",
+      "Version": "4.7.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-10-14T19:23:16.7671868Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Lumina",
+      "Version": "4.1.2",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-10-14T19:23:23.378802Z"
     }
   ]
 }
