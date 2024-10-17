@@ -22333,6 +22333,29 @@
               "Reviewer": "philpax"
             }
           }
+        },
+        "HybridCamera": {
+          "BuiltCommit": "03cdfaca131cf54f7a915ad140189b7c822c01c4",
+          "TimeBuilt": "2024-10-17T21:46:19.5153848+00:00",
+          "EffectiveVersion": "1.4.0.0",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "1.4.0.0": {
+              "TimeReleased": "2024-10-17T21:46:19.5154231+00:00",
+              "Changelog": "- Added controller support and removed the requirement for whitelisted movement keys\n- Fixed bugs related to the first frame of movement being in the wrong movement mode\n- Removed esoteric and experimental configuration options\n",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/Drahsid/DrahsidLib.git",
+                  "Version": "8d9dd9ab866a485a177440ee91779d25d36fd587"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "2.1.13"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            }
+          }
         }
       }
     },
@@ -24811,6 +24834,13 @@
       "Version": "1.0.9",
       "ReviewedBy": "philpax",
       "ReviewedAt": "2024-10-17T21:43:13.6220915Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/Drahsid/DrahsidLib.git",
+      "Version": "8d9dd9ab866a485a177440ee91779d25d36fd587",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-10-17T21:46:19.5452425Z"
     }
   ]
 }
