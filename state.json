@@ -20614,11 +20614,339 @@
           }
         },
         "Messenger": {
-          "BuiltCommit": "87efbc51970b42b473d0116a477e09c3d20e8727",
-          "TimeBuilt": "2024-06-10T18:13:15.187",
-          "EffectiveVersion": "1.4.0.3",
+          "BuiltCommit": "3e9bc272bb98c4d1e70a3fcdce0d5f7ae75f2b54",
+          "TimeBuilt": "2024-10-19T19:38:23.1390861+00:00",
+          "EffectiveVersion": "1.5.0.0",
           "MinimumVersion": null,
-          "Changelogs": {}
+          "Changelogs": {
+            "1.5.0.0": {
+              "TimeReleased": "2024-10-19T19:38:23.139128+00:00",
+              "Changelog": "\u0022The Storyteller Update\u0022 part 1, Alpha. This update series aims to bring features to XIM that will assist working with large texts. Please keep in mind that everything is experimental and may contain bugs.\r\n- New feature: Message splitter. When writing longer than normally possible to send message, XIM will split it to few parts either by itself or upon encountering selected delimiter. Then, you will be able to sequentially send parts of your message simply by pressing enter or send button multiple times, once for each message. You can also preview what will be sent.\r\n- New feature: Engagements. A way to have contained conversation in public space. Simply select participants and all their messages will be aggregated and displayed in a separate tab, regardless of the channel. Can also be used to handle and log private conversations. After you are done, you can temporarily disable it, archive the log or completely delete it.\r\n- New feature: Double-enter to send message. Aims to prevent accidental enter hits. \r\n- New feature: Recent messages. Sent message didn\u0027t arrived to the destination? It\u0027s no longer lost and you can recover it using Recent tab.\r\n- Bugfix: when multiline input was focused, it was not possible to scroll it beyond current cursor position.",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/NightmareXIV/ECommons",
+                  "Version": "2ad2730e45cb9e7ddf8ac07454bae99d5303311d"
+                },
+                {
+                  "Key": "https://github.com/NightmareXIV/NightmareUI",
+                  "Version": "b73fc77d137a42fe6dbda79f27b7225e5d531e8a"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "2.1.13"
+                },
+                {
+                  "Key": "SharpDX.Direct2D1",
+                  "Version": "4.2.0"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.5"
+                },
+                {
+                  "Key": "Microsoft.NETCore.Platforms",
+                  "Version": "1.1.0"
+                },
+                {
+                  "Key": "Microsoft.NETCore.Targets",
+                  "Version": "1.1.0"
+                },
+                {
+                  "Key": "Microsoft.Win32.Primitives",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "NETStandard.Library",
+                  "Version": "1.6.1"
+                },
+                {
+                  "Key": "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "runtime.fedora.23-x64.runtime.native.System.Security.Cryptography.OpenSsl",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "runtime.fedora.24-x64.runtime.native.System.Security.Cryptography.OpenSsl",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "runtime.native.System",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "runtime.native.System.IO.Compression",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "runtime.native.System.Net.Http",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "runtime.native.System.Security.Cryptography.Apple",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "runtime.native.System.Security.Cryptography.OpenSsl",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "runtime.opensuse.13.2-x64.runtime.native.System.Security.Cryptography.OpenSsl",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "runtime.opensuse.42.1-x64.runtime.native.System.Security.Cryptography.OpenSsl",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "runtime.osx.10.10-x64.runtime.native.System.Security.Cryptography.Apple",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "runtime.osx.10.10-x64.runtime.native.System.Security.Cryptography.OpenSsl",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "runtime.rhel.7-x64.runtime.native.System.Security.Cryptography.OpenSsl",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "runtime.ubuntu.14.04-x64.runtime.native.System.Security.Cryptography.OpenSsl",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "runtime.ubuntu.16.04-x64.runtime.native.System.Security.Cryptography.OpenSsl",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "runtime.ubuntu.16.10-x64.runtime.native.System.Security.Cryptography.OpenSsl",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "SharpDX",
+                  "Version": "4.2.0"
+                },
+                {
+                  "Key": "SharpDX.DXGI",
+                  "Version": "4.2.0"
+                },
+                {
+                  "Key": "System.AppContext",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Buffers",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Collections",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Collections.Concurrent",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Console",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Diagnostics.Debug",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Diagnostics.DiagnosticSource",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Diagnostics.Tools",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Diagnostics.Tracing",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Globalization",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Globalization.Calendars",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Globalization.Extensions",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.IO",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.IO.Compression",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.IO.Compression.ZipFile",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.IO.FileSystem",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.IO.FileSystem.Primitives",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Linq",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Linq.Expressions",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Net.Http",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Net.Primitives",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Net.Sockets",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.ObjectModel",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Reflection",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Reflection.Emit",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Reflection.Emit.ILGeneration",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Reflection.Emit.Lightweight",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Reflection.Extensions",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Reflection.Primitives",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Reflection.TypeExtensions",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Resources.ResourceManager",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Runtime",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Runtime.Extensions",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Runtime.Handles",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Runtime.InteropServices",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Runtime.InteropServices.RuntimeInformation",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Runtime.Numerics",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Security.Cryptography.Algorithms",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Security.Cryptography.Cng",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Security.Cryptography.Csp",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Security.Cryptography.Encoding",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Security.Cryptography.OpenSsl",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Security.Cryptography.Primitives",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Security.Cryptography.X509Certificates",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Text.Encoding",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Text.Encoding.Extensions",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Text.RegularExpressions",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Threading",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Threading.Tasks",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Threading.Tasks.Extensions",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Threading.Timer",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Xml.ReaderWriter",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Xml.XDocument",
+                  "Version": "4.3.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            }
+          }
         },
         "AllaganMarket": {
           "BuiltCommit": "edd9d61836527f43ca50138d5daeec4342709fd9",
@@ -25013,6 +25341,440 @@
       "Version": "8d9dd9ab866a485a177440ee91779d25d36fd587",
       "ReviewedBy": "reiichi001",
       "ReviewedAt": "2024-10-17T21:46:19.5452425Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/NightmareXIV/ECommons",
+      "Version": "2ad2730e45cb9e7ddf8ac07454bae99d5303311d",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-10-19T19:38:23.1692512Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/NightmareXIV/NightmareUI",
+      "Version": "b73fc77d137a42fe6dbda79f27b7225e5d531e8a",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-10-19T19:38:23.16928Z"
+    },
+    {
+      "Type": 1,
+      "Key": "SharpDX.Direct2D1",
+      "Version": "4.2.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-10-19T19:38:23.1692806Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Win32.Primitives",
+      "Version": "4.3.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-10-19T19:38:23.1692811Z"
+    },
+    {
+      "Type": 1,
+      "Key": "NETStandard.Library",
+      "Version": "1.6.1",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-10-19T19:38:23.1692812Z"
+    },
+    {
+      "Type": 1,
+      "Key": "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl",
+      "Version": "4.3.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-10-19T19:38:23.1692817Z"
+    },
+    {
+      "Type": 1,
+      "Key": "runtime.fedora.23-x64.runtime.native.System.Security.Cryptography.OpenSsl",
+      "Version": "4.3.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-10-19T19:38:23.1692818Z"
+    },
+    {
+      "Type": 1,
+      "Key": "runtime.fedora.24-x64.runtime.native.System.Security.Cryptography.OpenSsl",
+      "Version": "4.3.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-10-19T19:38:23.1692821Z"
+    },
+    {
+      "Type": 1,
+      "Key": "runtime.native.System",
+      "Version": "4.3.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-10-19T19:38:23.1692822Z"
+    },
+    {
+      "Type": 1,
+      "Key": "runtime.native.System.IO.Compression",
+      "Version": "4.3.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-10-19T19:38:23.1692825Z"
+    },
+    {
+      "Type": 1,
+      "Key": "runtime.native.System.Net.Http",
+      "Version": "4.3.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-10-19T19:38:23.1692826Z"
+    },
+    {
+      "Type": 1,
+      "Key": "runtime.native.System.Security.Cryptography.Apple",
+      "Version": "4.3.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-10-19T19:38:23.1692828Z"
+    },
+    {
+      "Type": 1,
+      "Key": "runtime.native.System.Security.Cryptography.OpenSsl",
+      "Version": "4.3.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-10-19T19:38:23.169283Z"
+    },
+    {
+      "Type": 1,
+      "Key": "runtime.opensuse.13.2-x64.runtime.native.System.Security.Cryptography.OpenSsl",
+      "Version": "4.3.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-10-19T19:38:23.1692832Z"
+    },
+    {
+      "Type": 1,
+      "Key": "runtime.opensuse.42.1-x64.runtime.native.System.Security.Cryptography.OpenSsl",
+      "Version": "4.3.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-10-19T19:38:23.1692834Z"
+    },
+    {
+      "Type": 1,
+      "Key": "runtime.osx.10.10-x64.runtime.native.System.Security.Cryptography.Apple",
+      "Version": "4.3.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-10-19T19:38:23.1692836Z"
+    },
+    {
+      "Type": 1,
+      "Key": "runtime.osx.10.10-x64.runtime.native.System.Security.Cryptography.OpenSsl",
+      "Version": "4.3.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-10-19T19:38:23.1692838Z"
+    },
+    {
+      "Type": 1,
+      "Key": "runtime.rhel.7-x64.runtime.native.System.Security.Cryptography.OpenSsl",
+      "Version": "4.3.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-10-19T19:38:23.169284Z"
+    },
+    {
+      "Type": 1,
+      "Key": "runtime.ubuntu.14.04-x64.runtime.native.System.Security.Cryptography.OpenSsl",
+      "Version": "4.3.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-10-19T19:38:23.1692843Z"
+    },
+    {
+      "Type": 1,
+      "Key": "runtime.ubuntu.16.04-x64.runtime.native.System.Security.Cryptography.OpenSsl",
+      "Version": "4.3.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-10-19T19:38:23.1692845Z"
+    },
+    {
+      "Type": 1,
+      "Key": "runtime.ubuntu.16.10-x64.runtime.native.System.Security.Cryptography.OpenSsl",
+      "Version": "4.3.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-10-19T19:38:23.1692847Z"
+    },
+    {
+      "Type": 1,
+      "Key": "SharpDX",
+      "Version": "4.2.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-10-19T19:38:23.1692849Z"
+    },
+    {
+      "Type": 1,
+      "Key": "SharpDX.DXGI",
+      "Version": "4.2.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-10-19T19:38:23.169285Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.AppContext",
+      "Version": "4.3.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-10-19T19:38:23.1692852Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Buffers",
+      "Version": "4.3.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-10-19T19:38:23.1692854Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Collections",
+      "Version": "4.3.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-10-19T19:38:23.1692856Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Collections.Concurrent",
+      "Version": "4.3.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-10-19T19:38:23.1692857Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Console",
+      "Version": "4.3.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-10-19T19:38:23.1692859Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Diagnostics.DiagnosticSource",
+      "Version": "4.3.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-10-19T19:38:23.1692863Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Diagnostics.Tools",
+      "Version": "4.3.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-10-19T19:38:23.1692863Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Diagnostics.Tracing",
+      "Version": "4.3.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-10-19T19:38:23.1692866Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Globalization.Calendars",
+      "Version": "4.3.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-10-19T19:38:23.1692868Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.IO.Compression",
+      "Version": "4.3.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-10-19T19:38:23.1692872Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.IO.Compression.ZipFile",
+      "Version": "4.3.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-10-19T19:38:23.1692875Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.IO.FileSystem",
+      "Version": "4.3.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-10-19T19:38:23.1692877Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.IO.FileSystem.Primitives",
+      "Version": "4.3.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-10-19T19:38:23.1692879Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Linq",
+      "Version": "4.3.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-10-19T19:38:23.1692879Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Linq.Expressions",
+      "Version": "4.3.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-10-19T19:38:23.1692881Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Net.Http",
+      "Version": "4.3.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-10-19T19:38:23.1692883Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Net.Primitives",
+      "Version": "4.3.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-10-19T19:38:23.1692885Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Net.Sockets",
+      "Version": "4.3.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-10-19T19:38:23.1692886Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.ObjectModel",
+      "Version": "4.3.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-10-19T19:38:23.1692887Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Reflection.Emit",
+      "Version": "4.3.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-10-19T19:38:23.169289Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Reflection.Emit.ILGeneration",
+      "Version": "4.3.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-10-19T19:38:23.1692892Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Reflection.Emit.Lightweight",
+      "Version": "4.3.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-10-19T19:38:23.1692893Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Reflection.Extensions",
+      "Version": "4.3.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-10-19T19:38:23.1692895Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Reflection.TypeExtensions",
+      "Version": "4.3.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-10-19T19:38:23.1692897Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Runtime.InteropServices.RuntimeInformation",
+      "Version": "4.3.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-10-19T19:38:23.1692903Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Runtime.Numerics",
+      "Version": "4.3.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-10-19T19:38:23.1692905Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Security.Cryptography.Algorithms",
+      "Version": "4.3.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-10-19T19:38:23.1692906Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Security.Cryptography.Cng",
+      "Version": "4.3.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-10-19T19:38:23.1692908Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Security.Cryptography.Csp",
+      "Version": "4.3.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-10-19T19:38:23.169291Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Security.Cryptography.Encoding",
+      "Version": "4.3.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-10-19T19:38:23.1692912Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Security.Cryptography.OpenSsl",
+      "Version": "4.3.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-10-19T19:38:23.1692914Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Security.Cryptography.Primitives",
+      "Version": "4.3.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-10-19T19:38:23.1692916Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Security.Cryptography.X509Certificates",
+      "Version": "4.3.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-10-19T19:38:23.1692918Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Text.Encoding.Extensions",
+      "Version": "4.3.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-10-19T19:38:23.1692921Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Text.RegularExpressions",
+      "Version": "4.3.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-10-19T19:38:23.1692923Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Threading.Tasks.Extensions",
+      "Version": "4.3.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-10-19T19:38:23.1692928Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Threading.Timer",
+      "Version": "4.3.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-10-19T19:38:23.169293Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Xml.ReaderWriter",
+      "Version": "4.3.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-10-19T19:38:23.1692932Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Xml.XDocument",
+      "Version": "4.3.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-10-19T19:38:23.1692933Z"
     }
   ]
 }
