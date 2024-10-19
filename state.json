@@ -6930,9 +6930,9 @@
           "Changelogs": {}
         },
         "TitleEdit": {
-          "BuiltCommit": "db56dd74abefae249b686a492b6acde7a6dc663a",
-          "TimeBuilt": "2024-10-07T20:39:09.5902524+00:00",
-          "EffectiveVersion": "3.0.2.1",
+          "BuiltCommit": "d9e83314ee4be29e3d35c3732e48ccdb0983d96d",
+          "TimeBuilt": "2024-10-19T19:13:58.4921692+00:00",
+          "EffectiveVersion": "3.0.2.2",
           "MinimumVersion": null,
           "Changelogs": {
             "2.3.0.0": {
@@ -7075,6 +7075,45 @@
                 }
               ],
               "Reviewer": "goaaats"
+            },
+            "3.0.2.2": {
+              "TimeReleased": "2024-10-19T19:13:58.4922071+00:00",
+              "Changelog": "- Fixed camera ignoring the zoom curve on initial load to the character select screen\n- Fixed character select camera position values being transferred to the retainer creation\n- Fixed a typo in the \u0022Aetherial Sea\u0022 character select option\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "2.1.13"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.Build.Tasks.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Common",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitHub",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitLab",
+                  "Version": "1.1.1"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
@@ -15642,9 +15681,9 @@
           }
         },
         "DragoonMayCry": {
-          "BuiltCommit": "9c07689868cb58f74ff1a794852921f07d358523",
-          "TimeBuilt": "2024-10-04T05:43:19.607",
-          "EffectiveVersion": "1.0.0.0",
+          "BuiltCommit": "bd2dfd77b49eb7bd8626ce8e3ef605196f44e4c3",
+          "TimeBuilt": "2024-10-19T19:14:10.7803842+00:00",
+          "EffectiveVersion": "1.1.0.2",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -15717,6 +15756,77 @@
                 }
               ],
               "Reviewer": "bleatbot"
+            },
+            "1.1.0.2": {
+              "TimeReleased": "2024-10-19T19:14:10.7803851+00:00",
+              "Changelog": "- Final rank is based on uptime\n- Added a record tracker for current content and old ultimates\n",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/Felscream/KamiLib",
+                  "Version": "7c072cbfbddddb5d4c38c38ca1397225e7bad25f"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "2.1.13"
+                },
+                {
+                  "Key": "NAudio",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Vorbis",
+                  "Version": "1.5.0"
+                },
+                {
+                  "Key": "Microsoft.NETCore.Platforms",
+                  "Version": "3.1.0"
+                },
+                {
+                  "Key": "Microsoft.Win32.Registry",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "NAudio.Asio",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Core",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Midi",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Wasapi",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.WinMM",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NVorbis",
+                  "Version": "0.10.4"
+                },
+                {
+                  "Key": "System.Memory",
+                  "Version": "4.5.3"
+                },
+                {
+                  "Key": "System.Security.AccessControl",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "System.Security.Principal.Windows",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "System.ValueTuple",
+                  "Version": "4.5.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         }
@@ -16001,9 +16111,9 @@
           }
         },
         "Altoholic": {
-          "BuiltCommit": "d4bc6d96f9dc18f04560c1101542b5eddc46d81d",
-          "TimeBuilt": "2024-10-15T22:47:28.1394722+00:00",
-          "EffectiveVersion": "0.0.0.14",
+          "BuiltCommit": "97c158addd273b1365c4d6d6f8ad8241d5e3a0d3",
+          "TimeBuilt": "2024-10-19T19:14:26.2161508+00:00",
+          "EffectiveVersion": "0.0.0.15",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.0.1": {
@@ -16087,6 +16197,57 @@
             "0.0.0.14": {
               "TimeReleased": "2024-10-15T22:47:28.1395139+00:00",
               "Changelog": "Version 0.0.0.14: Duties progress",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "2.1.13"
+                },
+                {
+                  "Key": "Dapper",
+                  "Version": "2.1.35"
+                },
+                {
+                  "Key": "LiteDB",
+                  "Version": "5.0.21"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite",
+                  "Version": "8.0.8"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite.Core",
+                  "Version": "8.0.8"
+                },
+                {
+                  "Key": "SQLitePCLRaw.bundle_e_sqlite3",
+                  "Version": "2.1.6"
+                },
+                {
+                  "Key": "SQLitePCLRaw.core",
+                  "Version": "2.1.6"
+                },
+                {
+                  "Key": "SQLitePCLRaw.lib.e_sqlite3",
+                  "Version": "2.1.6"
+                },
+                {
+                  "Key": "SQLitePCLRaw.provider.e_sqlite3",
+                  "Version": "2.1.6"
+                },
+                {
+                  "Key": "System.Buffers",
+                  "Version": "4.5.1"
+                },
+                {
+                  "Key": "System.Memory",
+                  "Version": "4.5.3"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            },
+            "0.0.0.15": {
+              "TimeReleased": "2024-10-19T19:14:26.2161521+00:00",
+              "Changelog": "Version 0.0.0.15: Fix install sql and valentione 2020 quest id",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
