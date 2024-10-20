@@ -3,9 +3,9 @@
     "stable": {
       "Plugins": {
         "Dalamud.RichPresence": {
-          "BuiltCommit": "07ba4060253c96725e4005844c777d6e60f73957",
-          "TimeBuilt": "2024-07-22T23:08:23.08",
-          "EffectiveVersion": "2.0.4.1",
+          "BuiltCommit": "0942007195083fc188df6d01d730a49d02640a95",
+          "TimeBuilt": "2024-10-20T12:30:04.4685055+00:00",
+          "EffectiveVersion": "2.0.5.0",
           "MinimumVersion": null,
           "Changelogs": {
             "2.0.1.0": {
@@ -37,6 +37,69 @@
               "Changelog": "IPC updated for WaitingWay. Now respects scaling.\n",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "2.0.5.0": {
+              "TimeReleased": "2024-10-20T12:30:04.4685561+00:00",
+              "Changelog": "Now includes a setting to automatically run a Wine IPC Bridge for Linux users (if you need one).\n\nXIV On Mac users should continue to use the Wine IPC Bridge available in the XOM program settings.\n\nThis change has no effect for Windows users of the plugin.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "2.1.13"
+                },
+                {
+                  "Key": "DiscordRichPresence",
+                  "Version": "1.2.1.24"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.Build.Tasks.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.NETCore.Platforms",
+                  "Version": "2.0.0"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Common",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitHub",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitLab",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.Win32.Registry",
+                  "Version": "4.5.0"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.1"
+                },
+                {
+                  "Key": "System.Security.AccessControl",
+                  "Version": "4.5.0"
+                },
+                {
+                  "Key": "System.Security.Principal.Windows",
+                  "Version": "4.5.0"
+                }
+              ],
+              "Reviewer": "philpax"
             }
           }
         },
@@ -22304,9 +22367,9 @@
           }
         },
         "HUDUnlimited": {
-          "BuiltCommit": "a71b8cfdeb2e3a40fbbe1a2362604612b9043dd8",
-          "TimeBuilt": "2024-10-14T20:20:32.5710024+00:00",
-          "EffectiveVersion": "1.0.0.3",
+          "BuiltCommit": "4cbfc91c10662830dbdf9c2f774c437ea7642d31",
+          "TimeBuilt": "2024-10-20T12:30:13.2883231+00:00",
+          "EffectiveVersion": "1.0.0.4",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -22544,6 +22607,65 @@
                 }
               ],
               "Reviewer": "reiichi001"
+            },
+            "1.0.0.4": {
+              "TimeReleased": "2024-10-20T12:30:13.288324+00:00",
+              "Changelog": "Reduce logspam\r\nNow overrides more events to prevent flickering of edited elements\r\nAdd info window",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiLib.git",
+                  "Version": "5ad86f9c8a6373f6b41dea915f0adce10373d05f"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "2.1.13"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "NetStone",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "HtmlAgilityPack",
+                  "Version": "1.11.46"
+                },
+                {
+                  "Key": "Karashiiro.HtmlAgilityPack.CssSelectors.NetCoreFork",
+                  "Version": "0.0.2"
+                },
+                {
+                  "Key": "Microsoft.Build.Tasks.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Common",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitHub",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitLab",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.3"
+                }
+              ],
+              "Reviewer": "philpax"
             }
           }
         },
@@ -25775,6 +25897,41 @@
       "Version": "4.3.0",
       "ReviewedBy": "reiichi001",
       "ReviewedAt": "2024-10-19T19:38:23.1692933Z"
+    },
+    {
+      "Type": 1,
+      "Key": "DiscordRichPresence",
+      "Version": "1.2.1.24",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2024-10-20T12:30:04.4975766Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.NETCore.Platforms",
+      "Version": "2.0.0",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2024-10-20T12:30:04.497606Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Win32.Registry",
+      "Version": "4.5.0",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2024-10-20T12:30:04.4976072Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Security.AccessControl",
+      "Version": "4.5.0",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2024-10-20T12:30:04.4976074Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Security.Principal.Windows",
+      "Version": "4.5.0",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2024-10-20T12:30:04.4976075Z"
     }
   ]
 }
