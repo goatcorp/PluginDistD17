@@ -1193,9 +1193,9 @@
           }
         },
         "Wordsmith": {
-          "BuiltCommit": "0d45cc53534a384dfdd387d982cde84c6c2becd4",
-          "TimeBuilt": "2024-09-26T19:15:10.085",
-          "EffectiveVersion": "1.15.1.0",
+          "BuiltCommit": "1cf7b68afd5a841bbbfd20a5801fe3e97f3a88b1",
+          "TimeBuilt": "2024-10-20T19:58:53.5317739+00:00",
+          "EffectiveVersion": "1.15.2.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.4.3": {
@@ -1305,6 +1305,17 @@
               "Changelog": "# Wordsmith v1.15.1\nMinor update. Mostly to fix soon to be broken links (Like Github).",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "1.15.2.0": {
+              "TimeReleased": "2024-10-20T19:58:53.5318115+00:00",
+              "Changelog": "# Wordsmith v1.15.2\nFixed an issue where attempting to close all scratchpads with the \u0060Close All\u0060 button in SettingsUI could cause a crash.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "2.1.13"
+                }
+              ],
+              "Reviewer": "philpax"
             }
           }
         },
@@ -11189,9 +11200,9 @@
           }
         },
         "ChatTranslated": {
-          "BuiltCommit": "7d4a9fcb5014729a174fb75f6e641bd47b55bee9",
-          "TimeBuilt": "2024-10-13T13:55:22.7165554+00:00",
-          "EffectiveVersion": "3.3.0.1",
+          "BuiltCommit": "0cb7aa4d8e9f95fe570e061979b41cd484633c30",
+          "TimeBuilt": "2024-10-20T19:59:01.191103+00:00",
+          "EffectiveVersion": "3.3.0.2",
           "MinimumVersion": null,
           "Changelogs": {
             "1.2.0.0": {
@@ -11445,6 +11456,21 @@
                 }
               ],
               "Reviewer": "goaaats"
+            },
+            "3.3.0.2": {
+              "TimeReleased": "2024-10-20T19:59:01.1911042+00:00",
+              "Changelog": "Fixed a bug where the main window translation is not shown.\r\nAdded more accurate chat context capturing for LLM-based translations.\r\nAdded a switch to include chat context in LLM prompt.\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "2.1.13"
+                },
+                {
+                  "Key": "GTranslate",
+                  "Version": "2.2.8"
+                }
+              ],
+              "Reviewer": "philpax"
             }
           }
         },
@@ -16174,9 +16200,9 @@
           }
         },
         "Altoholic": {
-          "BuiltCommit": "97c158addd273b1365c4d6d6f8ad8241d5e3a0d3",
-          "TimeBuilt": "2024-10-19T19:14:26.2161508+00:00",
-          "EffectiveVersion": "0.0.0.15",
+          "BuiltCommit": "c6b1975309a2a280d8b1771927d618db93d2bbf1",
+          "TimeBuilt": "2024-10-20T19:59:15.5592163+00:00",
+          "EffectiveVersion": "0.0.0.16",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.0.1": {
@@ -16358,6 +16384,57 @@
                 }
               ],
               "Reviewer": "reiichi001"
+            },
+            "0.0.0.16": {
+              "TimeReleased": "2024-10-20T19:59:15.5592176+00:00",
+              "Changelog": "Version 0.0.0.16: Fix addcharacter missing bracket",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "2.1.13"
+                },
+                {
+                  "Key": "Dapper",
+                  "Version": "2.1.35"
+                },
+                {
+                  "Key": "LiteDB",
+                  "Version": "5.0.21"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite",
+                  "Version": "8.0.8"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite.Core",
+                  "Version": "8.0.8"
+                },
+                {
+                  "Key": "SQLitePCLRaw.bundle_e_sqlite3",
+                  "Version": "2.1.6"
+                },
+                {
+                  "Key": "SQLitePCLRaw.core",
+                  "Version": "2.1.6"
+                },
+                {
+                  "Key": "SQLitePCLRaw.lib.e_sqlite3",
+                  "Version": "2.1.6"
+                },
+                {
+                  "Key": "SQLitePCLRaw.provider.e_sqlite3",
+                  "Version": "2.1.6"
+                },
+                {
+                  "Key": "System.Buffers",
+                  "Version": "4.5.1"
+                },
+                {
+                  "Key": "System.Memory",
+                  "Version": "4.5.3"
+                }
+              ],
+              "Reviewer": "philpax"
             }
           }
         },
