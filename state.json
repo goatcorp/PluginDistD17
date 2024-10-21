@@ -12977,11 +12977,55 @@
           }
         },
         "ZodiacBuddy": {
-          "BuiltCommit": "72fe5bff58447d246949a4959dfb7d8c0836da3c",
-          "TimeBuilt": "2024-07-21T05:48:07.833",
-          "EffectiveVersion": "1.0.0.2",
+          "BuiltCommit": "2e3dc4bfa2f64896bc6aa991eb4b355b97b5ef04",
+          "TimeBuilt": "2024-10-21T14:56:46.6410879+00:00",
+          "EffectiveVersion": "1.0.0.3",
           "MinimumVersion": null,
-          "Changelogs": {}
+          "Changelogs": {
+            "1.0.0.3": {
+              "TimeReleased": "2024-10-21T14:56:46.6411273+00:00",
+              "Changelog": "nofranz\r\n\r\nRemoves custom datasheets for MonsterNoteTarget and RelicNote, as these are properly defined in GeneratedSheets2.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "2.1.13"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "LitJWT",
+                  "Version": "2.0.2"
+                },
+                {
+                  "Key": "Microsoft.Build.Tasks.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Common",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitHub",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitLab",
+                  "Version": "1.1.1"
+                }
+              ],
+              "Reviewer": "philpax"
+            }
+          }
         },
         "WhoAmIAgain": {
           "BuiltCommit": "636cf2ed45699b57f25c9799fb2111bdd563a640",
@@ -15916,6 +15960,73 @@
                 }
               ],
               "Reviewer": "reiichi001"
+            }
+          }
+        },
+        "HUDUnlimited": {
+          "BuiltCommit": "4cbfc91c10662830dbdf9c2f774c437ea7642d31",
+          "TimeBuilt": "2024-10-21T14:56:55.0424803+00:00",
+          "EffectiveVersion": "1.0.0.4",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "1.0.0.4": {
+              "TimeReleased": "2024-10-21T14:56:55.0424826+00:00",
+              "Changelog": "HUDUnlimited is a new plugin that gives you *complete* control over your user interface.\n\nThis plugin allows you to modify any and all UI elements to be exactly how you want.\n\nSupports the ability to import and export presets.\n\n![image](https://github.com/user-attachments/assets/63afe9d0-498f-4e65-9ceb-e67e0e4dd43a)\n",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiLib.git",
+                  "Version": "5ad86f9c8a6373f6b41dea915f0adce10373d05f"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "2.1.13"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "NetStone",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "HtmlAgilityPack",
+                  "Version": "1.11.46"
+                },
+                {
+                  "Key": "Karashiiro.HtmlAgilityPack.CssSelectors.NetCoreFork",
+                  "Version": "0.0.2"
+                },
+                {
+                  "Key": "Microsoft.Build.Tasks.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Common",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitHub",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitLab",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.3"
+                }
+              ],
+              "Reviewer": "philpax"
             }
           }
         }
@@ -26009,6 +26120,13 @@
       "Version": "4.5.0",
       "ReviewedBy": "philpax",
       "ReviewedAt": "2024-10-20T12:30:04.4976075Z"
+    },
+    {
+      "Type": 1,
+      "Key": "LitJWT",
+      "Version": "2.0.2",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2024-10-21T14:56:46.6707626Z"
     }
   ]
 }
