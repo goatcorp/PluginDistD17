@@ -7858,9 +7858,9 @@
           "Changelogs": {}
         },
         "CurrencyTracker": {
-          "BuiltCommit": "a6ee7bcb3029c3f57a5bc1858b7f571ebf7199d2",
-          "TimeBuilt": "2024-08-31T13:01:09.098",
-          "EffectiveVersion": "1.4.4.0",
+          "BuiltCommit": "7041de7a3adb4ced2b0c2c6db2a9f4d996ddacee",
+          "TimeBuilt": "2024-10-22T19:21:03.6639659+00:00",
+          "EffectiveVersion": "1.4.5.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.2.3.1": {
@@ -8192,6 +8192,53 @@
               "Changelog": "Fixed the issue that ServerBar sometimes does not display properly\n",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "1.4.5.0": {
+              "TimeReleased": "2024-10-22T19:21:03.6639668+00:00",
+              "Changelog": "Fixed the issue of failed multi-chara functionality\n",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/AtmoOmen/OmenTools.git",
+                  "Version": "987a1dd02fbfef0590bc7111887d5b915c754db0"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "2.1.13"
+                },
+                {
+                  "Key": "IntervalUtility",
+                  "Version": "1.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Caching.Memory",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "TinyPinyin",
+                  "Version": "1.1.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Caching.Abstractions",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Primitives",
+                  "Version": "8.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
@@ -11200,9 +11247,9 @@
           }
         },
         "ChatTranslated": {
-          "BuiltCommit": "0cb7aa4d8e9f95fe570e061979b41cd484633c30",
-          "TimeBuilt": "2024-10-20T19:59:01.191103+00:00",
-          "EffectiveVersion": "3.3.0.2",
+          "BuiltCommit": "c6a71f2c58a3061c9448628d504a2421d80844bb",
+          "TimeBuilt": "2024-10-22T19:20:54.7529676+00:00",
+          "EffectiveVersion": "3.3.0.3",
           "MinimumVersion": null,
           "Changelogs": {
             "1.2.0.0": {
@@ -11471,6 +11518,21 @@
                 }
               ],
               "Reviewer": "philpax"
+            },
+            "3.3.0.3": {
+              "TimeReleased": "2024-10-22T19:20:54.7530086+00:00",
+              "Changelog": "Fix messages showing up in the wrong channel.\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "2.1.13"
+                },
+                {
+                  "Key": "GTranslate",
+                  "Version": "2.2.8"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
@@ -26327,6 +26389,41 @@
       "Version": "2.0.2",
       "ReviewedBy": "philpax",
       "ReviewedAt": "2024-10-21T14:56:46.6707626Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/AtmoOmen/OmenTools.git",
+      "Version": "987a1dd02fbfef0590bc7111887d5b915c754db0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-10-22T19:21:03.6822862Z"
+    },
+    {
+      "Type": 1,
+      "Key": "IntervalUtility",
+      "Version": "1.0.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-10-22T19:21:03.6823218Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Extensions.Caching.Memory",
+      "Version": "8.0.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-10-22T19:21:03.6823221Z"
+    },
+    {
+      "Type": 1,
+      "Key": "TinyPinyin",
+      "Version": "1.1.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-10-22T19:21:03.6823223Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Extensions.Caching.Abstractions",
+      "Version": "8.0.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-10-22T19:21:03.6823225Z"
     }
   ]
 }
