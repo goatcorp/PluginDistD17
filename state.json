@@ -15964,9 +15964,9 @@
           }
         },
         "HUDUnlimited": {
-          "BuiltCommit": "4cbfc91c10662830dbdf9c2f774c437ea7642d31",
-          "TimeBuilt": "2024-10-21T14:56:55.0424803+00:00",
-          "EffectiveVersion": "1.0.0.4",
+          "BuiltCommit": "3cc894bade7eaa24ba6aacb617da03144cfcc187",
+          "TimeBuilt": "2024-10-22T02:58:56.1137358+00:00",
+          "EffectiveVersion": "1.0.0.5",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.4": {
@@ -16027,6 +16027,65 @@
                 }
               ],
               "Reviewer": "philpax"
+            },
+            "1.0.0.5": {
+              "TimeReleased": "2024-10-22T02:58:56.1137939+00:00",
+              "Changelog": "Improve formatting of help window\r\n\r\nFixes not saving config after importing preset\r\n\r\nFixes position calculation for star icon\r\n\r\nShow custom name instead of node type in node list\r\n\r\n![image](https://github.com/user-attachments/assets/13217ad5-39fe-42a0-b811-862cee6065bc)\r\n\r\n\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiLib.git",
+                  "Version": "5ad86f9c8a6373f6b41dea915f0adce10373d05f"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "2.1.13"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "NetStone",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "HtmlAgilityPack",
+                  "Version": "1.11.46"
+                },
+                {
+                  "Key": "Karashiiro.HtmlAgilityPack.CssSelectors.NetCoreFork",
+                  "Version": "0.0.2"
+                },
+                {
+                  "Key": "Microsoft.Build.Tasks.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Common",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitHub",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitLab",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.3"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         }
@@ -16311,9 +16370,9 @@
           }
         },
         "Altoholic": {
-          "BuiltCommit": "c6b1975309a2a280d8b1771927d618db93d2bbf1",
-          "TimeBuilt": "2024-10-20T19:59:15.5592163+00:00",
-          "EffectiveVersion": "0.0.0.16",
+          "BuiltCommit": "64e9a4214fff3ba6c318f17cc39430e17cd2d09a",
+          "TimeBuilt": "2024-10-22T02:59:11.0309171+00:00",
+          "EffectiveVersion": "0.0.0.17",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.0.1": {
@@ -16546,6 +16605,57 @@
                 }
               ],
               "Reviewer": "philpax"
+            },
+            "0.0.0.17": {
+              "TimeReleased": "2024-10-22T02:59:11.0309178+00:00",
+              "Changelog": "Version 0.0.0.17: Move things out of OnFrameworkUpdate",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "2.1.13"
+                },
+                {
+                  "Key": "Dapper",
+                  "Version": "2.1.35"
+                },
+                {
+                  "Key": "LiteDB",
+                  "Version": "5.0.21"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite",
+                  "Version": "8.0.8"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite.Core",
+                  "Version": "8.0.8"
+                },
+                {
+                  "Key": "SQLitePCLRaw.bundle_e_sqlite3",
+                  "Version": "2.1.6"
+                },
+                {
+                  "Key": "SQLitePCLRaw.core",
+                  "Version": "2.1.6"
+                },
+                {
+                  "Key": "SQLitePCLRaw.lib.e_sqlite3",
+                  "Version": "2.1.6"
+                },
+                {
+                  "Key": "SQLitePCLRaw.provider.e_sqlite3",
+                  "Version": "2.1.6"
+                },
+                {
+                  "Key": "System.Buffers",
+                  "Version": "4.5.1"
+                },
+                {
+                  "Key": "System.Memory",
+                  "Version": "4.5.3"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
