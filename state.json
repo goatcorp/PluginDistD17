@@ -22541,9 +22541,9 @@
           }
         },
         "QuestTracker": {
-          "BuiltCommit": "2ab4affbca5aeb31054e29ffe4b508f3b59a62c9",
-          "TimeBuilt": "2024-09-15T16:03:53.925",
-          "EffectiveVersion": "1.0.0.0",
+          "BuiltCommit": "e65ef081f44c9570dd7c4e273444158de9ed6192",
+          "TimeBuilt": "2024-10-22T02:56:01.3315067+00:00",
+          "EffectiveVersion": "1.0.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -22551,6 +22551,17 @@
               "Changelog": "New plugin",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "1.0.1.0": {
+              "TimeReleased": "2024-10-22T02:56:01.3315469+00:00",
+              "Changelog": "Bug fixes, update icon",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "2.1.13"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
