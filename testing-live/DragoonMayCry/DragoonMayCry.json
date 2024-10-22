@@ -2,7 +2,7 @@
   "Author": "Felscream",
   "Name": "DragoonMayCry",
   "InternalName": "DragoonMayCry",
-  "AssemblyVersion": "1.1.0.2",
+  "AssemblyVersion": "1.2.0.0",
   "Description": "A plugin that tries to add flavour to combat. You score by dealing damage, and lose points if you are not greeding correctly. Now with dynamic BGM.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Felscream/DragoonMayCry",
