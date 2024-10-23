@@ -16150,6 +16150,25 @@
               "Reviewer": "reiichi001"
             }
           }
+        },
+        "QuestTracker": {
+          "BuiltCommit": "2ed4eb1621572cebfbea5ed11212bdb88d2cee20",
+          "TimeBuilt": "2024-10-23T00:24:14.6003424+00:00",
+          "EffectiveVersion": "1.0.1.1",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "1.0.1.1": {
+              "TimeReleased": "2024-10-23T00:24:14.600384+00:00",
+              "Changelog": "Initial stable release, added images to description",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "2.1.13"
+                }
+              ],
+              "Reviewer": "goaaats"
+            }
+          }
         }
       }
     },
@@ -22784,9 +22803,9 @@
           }
         },
         "QuestTracker": {
-          "BuiltCommit": "e65ef081f44c9570dd7c4e273444158de9ed6192",
-          "TimeBuilt": "2024-10-22T02:56:01.3315067+00:00",
-          "EffectiveVersion": "1.0.1.0",
+          "BuiltCommit": "2ed4eb1621572cebfbea5ed11212bdb88d2cee20",
+          "TimeBuilt": "2024-10-23T00:24:21.9919655+00:00",
+          "EffectiveVersion": "1.0.1.1",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -22805,6 +22824,17 @@
                 }
               ],
               "Reviewer": "reiichi001"
+            },
+            "1.0.1.1": {
+              "TimeReleased": "2024-10-23T00:24:21.9919663+00:00",
+              "Changelog": "Initial stable release, added images to description",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "2.1.13"
+                }
+              ],
+              "Reviewer": "goaaats"
             }
           }
         },
