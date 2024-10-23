@@ -23598,9 +23598,9 @@
           }
         },
         "HybridCamera": {
-          "BuiltCommit": "03cdfaca131cf54f7a915ad140189b7c822c01c4",
-          "TimeBuilt": "2024-10-17T21:46:19.5153848+00:00",
-          "EffectiveVersion": "1.4.0.0",
+          "BuiltCommit": "4a131f668fc1d41a0ba8b74e77c3b58cc467ed00",
+          "TimeBuilt": "2024-10-23T23:29:19.2870163+00:00",
+          "EffectiveVersion": "1.4.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.4.0.0": {
@@ -23617,6 +23617,21 @@
                 }
               ],
               "Reviewer": "reiichi001"
+            },
+            "1.4.1.0": {
+              "TimeReleased": "2024-10-23T23:29:19.2870561+00:00",
+              "Changelog": "- Added the option to swap to legacy movement when solely using turn input\n- Added the option to disable LMB \u002B RMB auto run\n",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/Drahsid/DrahsidLib.git",
+                  "Version": "278ea0172bb77a606402daf723701c166715b6fd"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "2.1.13"
+                }
+              ],
+              "Reviewer": "philpax"
             }
           }
         }
@@ -26615,6 +26630,13 @@
       "Version": "8.0.0",
       "ReviewedBy": "reiichi001",
       "ReviewedAt": "2024-10-22T19:21:03.6823225Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/Drahsid/DrahsidLib.git",
+      "Version": "278ea0172bb77a606402daf723701c166715b6fd",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2024-10-23T23:29:19.3170221Z"
     }
   ]
 }

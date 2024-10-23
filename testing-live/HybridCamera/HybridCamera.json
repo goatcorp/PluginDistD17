@@ -2,7 +2,7 @@
   "Author": "Drahsid",
   "Name": "Hybrid Camera",
   "InternalName": "HybridCamera",
-  "AssemblyVersion": "1.4.0.0",
+  "AssemblyVersion": "1.4.1.0",
   "Description": "Hybrid camera/movement mode! Move freely!",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Drahsid/HybridCamera",
