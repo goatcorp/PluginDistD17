@@ -23300,9 +23300,9 @@
           }
         },
         "AbsoluteRoleplay": {
-          "BuiltCommit": "a2f15120857dbca4400f321fbf05124a126c9371",
-          "TimeBuilt": "2024-10-22T03:02:32.5562461+00:00",
-          "EffectiveVersion": "0.0.0.2",
+          "BuiltCommit": "c62b07bce1fd0b99b8fb0bd55b9dfadf97d2acde",
+          "TimeBuilt": "2024-10-23T23:35:25.6589118+00:00",
+          "EffectiveVersion": "0.0.0.3",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.0.1": {
@@ -23387,6 +23387,85 @@
             "0.0.0.2": {
               "TimeReleased": "2024-10-22T03:02:32.5562879+00:00",
               "Changelog": "Added proper SSL connections with TLS and some quality of life changes.",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/Ottermandias/OtterGui.git",
+                  "Version": "c2738e1d42974cddbe5a31238c6ed236a831d17d"
+                },
+                {
+                  "Key": "https://github.com/Ottermandias/OtterGuiInternal.git",
+                  "Version": "89d145286c148f6cb23ef6f7757e5f750a71e223"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "2.1.13"
+                },
+                {
+                  "Key": "Lumina",
+                  "Version": "4.1.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Hosting.Abstractions",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "System.Drawing.Common",
+                  "Version": "8.0.6"
+                },
+                {
+                  "Key": "JetBrains.Annotations",
+                  "Version": "2023.3.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Abstractions",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Diagnostics.Abstractions",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileProviders.Abstractions",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.ObjectPool",
+                  "Version": "9.0.0-preview.1.24081.5"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Primitives",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Win32.SystemEvents",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "System.Diagnostics.DiagnosticSource",
+                  "Version": "8.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            },
+            "0.0.0.3": {
+              "TimeReleased": "2024-10-23T23:35:25.6589535+00:00",
+              "Changelog": "Added tooltip functionality for when you hover your mouse over a player that is connected with you or is not set to private profile. Overhauled the options window.",
               "UsedNeeds": [
                 {
                   "Key": "https://github.com/Ottermandias/OtterGui.git",
