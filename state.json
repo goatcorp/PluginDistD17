@@ -19319,9 +19319,9 @@
           }
         },
         "MultiHit": {
-          "BuiltCommit": "e81481bb1abc83db73547008761b949897e80b73",
-          "TimeBuilt": "2024-08-26T08:21:51.705",
-          "EffectiveVersion": "0.0.1.0",
+          "BuiltCommit": "b9a709f4e373dbe34e81767f230d4ad6fbdd71c8",
+          "TimeBuilt": "2024-10-23T23:33:14.2972367+00:00",
+          "EffectiveVersion": "0.0.2.2",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.1.0": {
@@ -19329,6 +19329,17 @@
               "Changelog": "- readying for testing live\n",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "0.0.2.2": {
+              "TimeReleased": "2024-10-23T23:33:14.2972765+00:00",
+              "Changelog": "- try to fix crashing\n- support namingway\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "2.1.13"
+                }
+              ],
+              "Reviewer": "philpax"
             }
           }
         },
