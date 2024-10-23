@@ -15314,9 +15314,9 @@
           "Changelogs": {}
         },
         "Umbra": {
-          "BuiltCommit": "1bdb912904171db5f507b8187924e72862667077",
-          "TimeBuilt": "2024-10-13T13:59:08.1024323+00:00",
-          "EffectiveVersion": "2.2.40.0",
+          "BuiltCommit": "a2ce0d78b325c09a09d8ffebc524ecfa89988bee",
+          "TimeBuilt": "2024-10-23T23:24:26.1025462+00:00",
+          "EffectiveVersion": "2.2.41.0",
           "MinimumVersion": null,
           "Changelogs": {
             "2.1.8.0": {
@@ -15628,6 +15628,33 @@
             "2.2.40.0": {
               "TimeReleased": "2024-10-13T13:59:08.1024712+00:00",
               "Changelog": "# Umbra 2.2.40\n\n## New Additions\n\n- Added an option to change the display mode of the experience bar in the Gearset Switcher widget: \u0022Never\u0022, \u0022Hide When Full\u0022 and \u0022Always\u0022. (By [alexpado](https://github.com/alexpado))\n- Added an option to override the color of the experience bar in the Gearset Switcher widget. (By [alexpado](https://github.com/alexpado))\n- Added an option to the Gearset Switcher that allows you to customize the width of gearset buttons in the popup.\n- Added an option to the Stacked Clocks widget to enable/disable the popup.\n- Added a \u0022Return\u0022 action to the Teleport Widget\u0027s Miscellaneous menu.\n\n## Fixes \u0026 Improvements\n- Ensure the experience bar in the Gearset Switcher widget stretches across the full width of the widget. (Related Discord thread: [Gearset Switcher widget - Experience Bar](https://discord.com/channels/1263935915517149298/1292289493830991965)) (By [alexpado](https://github.com/alexpado))\n\nJoin [Umbra\u0027s Discord server](https://discord.gg/xaEnsuAhmm) for the latest updates and information.\nVisit the [website](https://una-xiv.github.io/umbra-docs/) for more information and guides on how to make the most out of Umbra.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/una-xiv/drawing.git",
+                  "Version": "f3b7a0cff3958edf7af0a3895c12652d596a113d"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "2.1.13"
+                },
+                {
+                  "Key": "SkiaSharp",
+                  "Version": "3.0.0-preview.3.1"
+                },
+                {
+                  "Key": "SkiaSharp.NativeAssets.macOS",
+                  "Version": "3.0.0-preview.3.1"
+                },
+                {
+                  "Key": "SkiaSharp.NativeAssets.Win32",
+                  "Version": "3.0.0-preview.3.1"
+                }
+              ],
+              "Reviewer": "philpax"
+            },
+            "2.2.41.0": {
+              "TimeReleased": "2024-10-23T23:24:26.1025906+00:00",
+              "Changelog": "# Umbra 2.2.41\n\n## Fixes \u0026 Improvements\n\n- Add support for GeneralAction and PvPQuickChat icons in macros (by [Haselnussbomber](https://github.com/Haselnussbomber)).\n- Updated German translations (by [Bloodsoul](https://github.com/Bloodsoul)).\n- Updated Chinese translations (by [LittleNightmare](https://github.com/LittleNightmare) and [DeepseaXX](https://github.com/DeepseaXX)).\n\nJoin [Umbra\u0027s Discord server](https://discord.gg/xaEnsuAhmm) for the latest updates and information.\nVisit the [website](https://una-xiv.github.io/umbra-docs/) for more information and guides on how to make the most out of Umbra.\n",
               "UsedNeeds": [
                 {
                   "Key": "https://github.com/una-xiv/drawing.git",
@@ -16451,9 +16478,9 @@
           }
         },
         "Altoholic": {
-          "BuiltCommit": "64e9a4214fff3ba6c318f17cc39430e17cd2d09a",
-          "TimeBuilt": "2024-10-22T02:59:11.0309171+00:00",
-          "EffectiveVersion": "0.0.0.17",
+          "BuiltCommit": "98e70da61356e45a92e175c113ee59475326df46",
+          "TimeBuilt": "2024-10-23T23:24:44.1154891+00:00",
+          "EffectiveVersion": "0.0.0.18",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.0.1": {
@@ -16737,6 +16764,57 @@
                 }
               ],
               "Reviewer": "reiichi001"
+            },
+            "0.0.0.18": {
+              "TimeReleased": "2024-10-23T23:24:44.1154897+00:00",
+              "Changelog": "Version 0.0.0.18: Add Blunderville event rewards tab",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "2.1.13"
+                },
+                {
+                  "Key": "Dapper",
+                  "Version": "2.1.35"
+                },
+                {
+                  "Key": "LiteDB",
+                  "Version": "5.0.21"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite",
+                  "Version": "8.0.8"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite.Core",
+                  "Version": "8.0.8"
+                },
+                {
+                  "Key": "SQLitePCLRaw.bundle_e_sqlite3",
+                  "Version": "2.1.6"
+                },
+                {
+                  "Key": "SQLitePCLRaw.core",
+                  "Version": "2.1.6"
+                },
+                {
+                  "Key": "SQLitePCLRaw.lib.e_sqlite3",
+                  "Version": "2.1.6"
+                },
+                {
+                  "Key": "SQLitePCLRaw.provider.e_sqlite3",
+                  "Version": "2.1.6"
+                },
+                {
+                  "Key": "System.Buffers",
+                  "Version": "4.5.1"
+                },
+                {
+                  "Key": "System.Memory",
+                  "Version": "4.5.3"
+                }
+              ],
+              "Reviewer": "philpax"
             }
           }
         },
@@ -21568,11 +21646,23 @@
           }
         },
         "ChatContext": {
-          "BuiltCommit": "dc41f6819ce31881ceb0694a3139b200a9bd61e7",
-          "TimeBuilt": "2024-08-26T08:21:43.343",
-          "EffectiveVersion": "0.0.0.1",
+          "BuiltCommit": "13e5225893d908304825081c0bbd22b7a6f83c75",
+          "TimeBuilt": "2024-10-23T23:24:32.4385067+00:00",
+          "EffectiveVersion": "0.0.0.2",
           "MinimumVersion": null,
-          "Changelogs": {}
+          "Changelogs": {
+            "0.0.0.2": {
+              "TimeReleased": "2024-10-23T23:24:32.4385081+00:00",
+              "Changelog": "  - Fix support for alliance and party chat\n  - Add title bar buttons\n  - Compact main window and reduce minimum height\n  - Add logging for lookup\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "2.1.13"
+                }
+              ],
+              "Reviewer": "philpax"
+            }
+          }
         },
         "AutoMountBgm": {
           "BuiltCommit": "fbd01a7a546f6bfd4d7f272e922f4ac5a0b74de5",
