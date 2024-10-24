@@ -23300,9 +23300,9 @@
           }
         },
         "AbsoluteRoleplay": {
-          "BuiltCommit": "c62b07bce1fd0b99b8fb0bd55b9dfadf97d2acde",
-          "TimeBuilt": "2024-10-23T23:35:25.6589118+00:00",
-          "EffectiveVersion": "0.0.0.3",
+          "BuiltCommit": "2c9552054f8e8d9a171ee319567c3418138002b2",
+          "TimeBuilt": "2024-10-24T11:11:32.8912787+00:00",
+          "EffectiveVersion": "0.0.0.4",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.0.1": {
@@ -23541,6 +23541,85 @@
                 }
               ],
               "Reviewer": "reiichi001"
+            },
+            "0.0.0.4": {
+              "TimeReleased": "2024-10-24T11:11:32.8913188+00:00",
+              "Changelog": "Fixed an issue with profiles not resetting on character swap. Added the ability to save and load your profile locally. Fixed some scaling issues with the ui and very large dalamud ui resolutions. Finally you can delete your profile completely Be careful \u003C3",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/Ottermandias/OtterGui.git",
+                  "Version": "c2738e1d42974cddbe5a31238c6ed236a831d17d"
+                },
+                {
+                  "Key": "https://github.com/Ottermandias/OtterGuiInternal.git",
+                  "Version": "89d145286c148f6cb23ef6f7757e5f750a71e223"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "2.1.13"
+                },
+                {
+                  "Key": "Lumina",
+                  "Version": "4.1.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Hosting.Abstractions",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "System.Drawing.Common",
+                  "Version": "8.0.6"
+                },
+                {
+                  "Key": "JetBrains.Annotations",
+                  "Version": "2023.3.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Abstractions",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Diagnostics.Abstractions",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileProviders.Abstractions",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.ObjectPool",
+                  "Version": "9.0.0-preview.1.24081.5"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Primitives",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Win32.SystemEvents",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "System.Diagnostics.DiagnosticSource",
+                  "Version": "8.0.0"
+                }
+              ],
+              "Reviewer": "philpax"
             }
           }
         },
