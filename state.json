@@ -6489,11 +6489,71 @@
           "Changelogs": {}
         },
         "Mappy": {
-          "BuiltCommit": "553f73a93f40914ff921c83d362a33ec633f2780",
-          "TimeBuilt": "2024-08-22T00:10:09.512",
-          "EffectiveVersion": "3.0.3.4",
+          "BuiltCommit": "111759d868c350cf61bb1c3f3ed7df349a3f422d",
+          "TimeBuilt": "2024-10-25T18:23:23.1516054+00:00",
+          "EffectiveVersion": "3.0.3.5",
           "MinimumVersion": null,
-          "Changelogs": {}
+          "Changelogs": {
+            "3.0.3.5": {
+              "TimeReleased": "2024-10-25T18:23:23.1516459+00:00",
+              "Changelog": "nofranz\r\n\r\nfixes area/subarea text showing in title when it shouldn\u0027t",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiLib.git",
+                  "Version": "5ad86f9c8a6373f6b41dea915f0adce10373d05f"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "2.1.13"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "NetStone",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "HtmlAgilityPack",
+                  "Version": "1.11.46"
+                },
+                {
+                  "Key": "Karashiiro.HtmlAgilityPack.CssSelectors.NetCoreFork",
+                  "Version": "0.0.2"
+                },
+                {
+                  "Key": "Microsoft.Build.Tasks.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Common",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitHub",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitLab",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.3"
+                }
+              ],
+              "Reviewer": "philpax"
+            }
+          }
         },
         "MarketUploader": {
           "BuiltCommit": "dc9a50370535e6923098880e34c9303bd3889e4b",
