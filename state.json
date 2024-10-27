@@ -572,9 +572,9 @@
           }
         },
         "TwitchXIV": {
-          "BuiltCommit": "e0141b89b1069ea7c368ac9956fecbc199feb514",
-          "TimeBuilt": "2024-07-02T05:08:44.818",
-          "EffectiveVersion": "1.0.0.1",
+          "BuiltCommit": "ceaad39d03d3dda697bfbf424260f48ad00dfd33",
+          "TimeBuilt": "2024-10-27T16:16:25.4156207+00:00",
+          "EffectiveVersion": "1.0.0.2",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -588,6 +588,309 @@
               "Changelog": "Updated for patch 7.0",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "1.0.0.2": {
+              "TimeReleased": "2024-10-27T16:16:25.4156625+00:00",
+              "Changelog": "Updated for patch 7.0",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "2.1.13"
+                },
+                {
+                  "Key": "TwitchLib",
+                  "Version": "3.5.3"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Primitives",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "Microsoft.NETCore.Platforms",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.NETCore.Targets",
+                  "Version": "1.1.0"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.1"
+                },
+                {
+                  "Key": "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl",
+                  "Version": "4.3.2"
+                },
+                {
+                  "Key": "runtime.fedora.23-x64.runtime.native.System.Security.Cryptography.OpenSsl",
+                  "Version": "4.3.2"
+                },
+                {
+                  "Key": "runtime.fedora.24-x64.runtime.native.System.Security.Cryptography.OpenSsl",
+                  "Version": "4.3.2"
+                },
+                {
+                  "Key": "runtime.native.System",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "runtime.native.System.Net.Http",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "runtime.native.System.Security.Cryptography.Apple",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "runtime.native.System.Security.Cryptography.OpenSsl",
+                  "Version": "4.3.2"
+                },
+                {
+                  "Key": "runtime.opensuse.13.2-x64.runtime.native.System.Security.Cryptography.OpenSsl",
+                  "Version": "4.3.2"
+                },
+                {
+                  "Key": "runtime.opensuse.42.1-x64.runtime.native.System.Security.Cryptography.OpenSsl",
+                  "Version": "4.3.2"
+                },
+                {
+                  "Key": "runtime.osx.10.10-x64.runtime.native.System.Security.Cryptography.Apple",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "runtime.osx.10.10-x64.runtime.native.System.Security.Cryptography.OpenSsl",
+                  "Version": "4.3.2"
+                },
+                {
+                  "Key": "runtime.rhel.7-x64.runtime.native.System.Security.Cryptography.OpenSsl",
+                  "Version": "4.3.2"
+                },
+                {
+                  "Key": "runtime.ubuntu.14.04-x64.runtime.native.System.Security.Cryptography.OpenSsl",
+                  "Version": "4.3.2"
+                },
+                {
+                  "Key": "runtime.ubuntu.16.04-x64.runtime.native.System.Security.Cryptography.OpenSsl",
+                  "Version": "4.3.2"
+                },
+                {
+                  "Key": "runtime.ubuntu.16.10-x64.runtime.native.System.Security.Cryptography.OpenSsl",
+                  "Version": "4.3.2"
+                },
+                {
+                  "Key": "System.Collections",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Collections.Concurrent",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Diagnostics.Debug",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Diagnostics.DiagnosticSource",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "System.Diagnostics.Tracing",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Globalization",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Globalization.Calendars",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Globalization.Extensions",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.IO",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.IO.FileSystem",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.IO.FileSystem.Primitives",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Linq",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Net.Http",
+                  "Version": "4.3.4"
+                },
+                {
+                  "Key": "System.Net.Primitives",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Reflection",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Reflection.Primitives",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Resources.ResourceManager",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Runtime",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Runtime.CompilerServices.Unsafe",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "System.Runtime.Extensions",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Runtime.Handles",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Runtime.InteropServices",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Runtime.Numerics",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Security.Cryptography.Algorithms",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Security.Cryptography.Cng",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Security.Cryptography.Csp",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Security.Cryptography.Encoding",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Security.Cryptography.OpenSsl",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Security.Cryptography.Primitives",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Security.Cryptography.X509Certificates",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Text.Encoding",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Threading",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Threading.Tasks",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Threading.Tasks.Extensions",
+                  "Version": "4.5.4"
+                },
+                {
+                  "Key": "TwitchLib.Api",
+                  "Version": "3.8.0"
+                },
+                {
+                  "Key": "TwitchLib.Api.Core",
+                  "Version": "3.8.0"
+                },
+                {
+                  "Key": "TwitchLib.Api.Core.Enums",
+                  "Version": "3.8.0"
+                },
+                {
+                  "Key": "TwitchLib.Api.Core.Interfaces",
+                  "Version": "3.8.0"
+                },
+                {
+                  "Key": "TwitchLib.Api.Core.Models",
+                  "Version": "3.8.0"
+                },
+                {
+                  "Key": "TwitchLib.Api.Helix",
+                  "Version": "3.8.0"
+                },
+                {
+                  "Key": "TwitchLib.Api.Helix.Models",
+                  "Version": "3.8.0"
+                },
+                {
+                  "Key": "TwitchLib.Client",
+                  "Version": "3.3.1"
+                },
+                {
+                  "Key": "TwitchLib.Client.Enums",
+                  "Version": "3.3.1"
+                },
+                {
+                  "Key": "TwitchLib.Client.Models",
+                  "Version": "3.3.1"
+                },
+                {
+                  "Key": "TwitchLib.Communication",
+                  "Version": "1.0.4"
+                },
+                {
+                  "Key": "TwitchLib.EventSub.Core",
+                  "Version": "2.0.0"
+                },
+                {
+                  "Key": "TwitchLib.EventSub.Websockets",
+                  "Version": "0.0.3"
+                },
+                {
+                  "Key": "TwitchLib.PubSub",
+                  "Version": "3.2.6"
+                }
+              ],
+              "Reviewer": "philpax"
             }
           }
         },
@@ -8948,9 +9251,9 @@
           }
         },
         "GraphicsConfig": {
-          "BuiltCommit": "1ee125d98471a143a080ae41d6a5e632fbd195bb",
-          "TimeBuilt": "2024-10-25T10:44:34.8480897+00:00",
-          "EffectiveVersion": "1.0.0.5",
+          "BuiltCommit": "0d2637bd1d77b954f6affba56f05780b6da29d61",
+          "TimeBuilt": "2024-10-27T16:16:31.7866741+00:00",
+          "EffectiveVersion": "1.0.0.6",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.3": {
@@ -8968,6 +9271,17 @@
             "1.0.0.5": {
               "TimeReleased": "2024-10-25T10:44:34.848128+00:00",
               "Changelog": "- Move preset directory to PluginConfigs appdata folder to avoid stupid windows permissions stuff and fall in line with how other plugins store things.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "2.1.13"
+                }
+              ],
+              "Reviewer": "philpax"
+            },
+            "1.0.0.6": {
+              "TimeReleased": "2024-10-27T16:16:31.7866749+00:00",
+              "Changelog": "- Fix a bug with the new preset location\n- Move preset directory to PluginConfigs appdata folder to avoid stupid windows permissions stuff and fall in line with how other plugins store things.",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -18179,11 +18493,315 @@
           }
         },
         "RandomClassSelector": {
-          "BuiltCommit": "bc0df284fe5220b84d1402a3fb257396e5ca80c6",
-          "TimeBuilt": "2024-07-25T15:06:10.53",
-          "EffectiveVersion": "1.0.0.1",
+          "BuiltCommit": "8c29ef6f1fbdd165ddd04f15cc37ddae4e993be6",
+          "TimeBuilt": "2024-10-27T16:16:49.9267004+00:00",
+          "EffectiveVersion": "1.0.0.2",
           "MinimumVersion": null,
-          "Changelogs": {}
+          "Changelogs": {
+            "1.0.0.2": {
+              "TimeReleased": "2024-10-27T16:16:49.9267019+00:00",
+              "Changelog": "~~Can we update 3 plugins at once? Time to find out!~~\r\n\r\nScratch that, we\u0027re pushing the boundaries with FOUR plugins updating at once - 3 of them just have their URLs fixed (and a version bump), but graphics config also has a small bugfix.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "2.1.13"
+                },
+                {
+                  "Key": "TwitchLib",
+                  "Version": "3.5.3"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Primitives",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "Microsoft.NETCore.Platforms",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.NETCore.Targets",
+                  "Version": "1.1.0"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.1"
+                },
+                {
+                  "Key": "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl",
+                  "Version": "4.3.2"
+                },
+                {
+                  "Key": "runtime.fedora.23-x64.runtime.native.System.Security.Cryptography.OpenSsl",
+                  "Version": "4.3.2"
+                },
+                {
+                  "Key": "runtime.fedora.24-x64.runtime.native.System.Security.Cryptography.OpenSsl",
+                  "Version": "4.3.2"
+                },
+                {
+                  "Key": "runtime.native.System",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "runtime.native.System.Net.Http",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "runtime.native.System.Security.Cryptography.Apple",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "runtime.native.System.Security.Cryptography.OpenSsl",
+                  "Version": "4.3.2"
+                },
+                {
+                  "Key": "runtime.opensuse.13.2-x64.runtime.native.System.Security.Cryptography.OpenSsl",
+                  "Version": "4.3.2"
+                },
+                {
+                  "Key": "runtime.opensuse.42.1-x64.runtime.native.System.Security.Cryptography.OpenSsl",
+                  "Version": "4.3.2"
+                },
+                {
+                  "Key": "runtime.osx.10.10-x64.runtime.native.System.Security.Cryptography.Apple",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "runtime.osx.10.10-x64.runtime.native.System.Security.Cryptography.OpenSsl",
+                  "Version": "4.3.2"
+                },
+                {
+                  "Key": "runtime.rhel.7-x64.runtime.native.System.Security.Cryptography.OpenSsl",
+                  "Version": "4.3.2"
+                },
+                {
+                  "Key": "runtime.ubuntu.14.04-x64.runtime.native.System.Security.Cryptography.OpenSsl",
+                  "Version": "4.3.2"
+                },
+                {
+                  "Key": "runtime.ubuntu.16.04-x64.runtime.native.System.Security.Cryptography.OpenSsl",
+                  "Version": "4.3.2"
+                },
+                {
+                  "Key": "runtime.ubuntu.16.10-x64.runtime.native.System.Security.Cryptography.OpenSsl",
+                  "Version": "4.3.2"
+                },
+                {
+                  "Key": "System.Collections",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Collections.Concurrent",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Diagnostics.Debug",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Diagnostics.DiagnosticSource",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "System.Diagnostics.Tracing",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Globalization",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Globalization.Calendars",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Globalization.Extensions",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.IO",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.IO.FileSystem",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.IO.FileSystem.Primitives",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Linq",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Net.Http",
+                  "Version": "4.3.4"
+                },
+                {
+                  "Key": "System.Net.Primitives",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Reflection",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Reflection.Primitives",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Resources.ResourceManager",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Runtime",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Runtime.CompilerServices.Unsafe",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "System.Runtime.Extensions",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Runtime.Handles",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Runtime.InteropServices",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Runtime.Numerics",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Security.Cryptography.Algorithms",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Security.Cryptography.Cng",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Security.Cryptography.Csp",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Security.Cryptography.Encoding",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Security.Cryptography.OpenSsl",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Security.Cryptography.Primitives",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Security.Cryptography.X509Certificates",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Text.Encoding",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Threading",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Threading.Tasks",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Threading.Tasks.Extensions",
+                  "Version": "4.5.4"
+                },
+                {
+                  "Key": "TwitchLib.Api",
+                  "Version": "3.8.0"
+                },
+                {
+                  "Key": "TwitchLib.Api.Core",
+                  "Version": "3.8.0"
+                },
+                {
+                  "Key": "TwitchLib.Api.Core.Enums",
+                  "Version": "3.8.0"
+                },
+                {
+                  "Key": "TwitchLib.Api.Core.Interfaces",
+                  "Version": "3.8.0"
+                },
+                {
+                  "Key": "TwitchLib.Api.Core.Models",
+                  "Version": "3.8.0"
+                },
+                {
+                  "Key": "TwitchLib.Api.Helix",
+                  "Version": "3.8.0"
+                },
+                {
+                  "Key": "TwitchLib.Api.Helix.Models",
+                  "Version": "3.8.0"
+                },
+                {
+                  "Key": "TwitchLib.Client",
+                  "Version": "3.3.1"
+                },
+                {
+                  "Key": "TwitchLib.Client.Enums",
+                  "Version": "3.3.1"
+                },
+                {
+                  "Key": "TwitchLib.Client.Models",
+                  "Version": "3.3.1"
+                },
+                {
+                  "Key": "TwitchLib.Communication",
+                  "Version": "1.0.4"
+                },
+                {
+                  "Key": "TwitchLib.EventSub.Core",
+                  "Version": "2.0.0"
+                },
+                {
+                  "Key": "TwitchLib.EventSub.Websockets",
+                  "Version": "0.0.3"
+                },
+                {
+                  "Key": "TwitchLib.PubSub",
+                  "Version": "3.2.6"
+                }
+              ],
+              "Reviewer": "philpax"
+            }
+          }
         },
         "WhatDidYouSay": {
           "BuiltCommit": "707d4d6e51dbadf616ebbadd5ab69fe235f422c3",
@@ -19627,9 +20245,9 @@
           }
         },
         "TeamcraftListMaker": {
-          "BuiltCommit": "734ecc52d4a390806fba52e392fd31c5551d9491",
-          "TimeBuilt": "2024-08-26T15:13:28.798",
-          "EffectiveVersion": "1.0.0.2",
+          "BuiltCommit": "7b17549b07b68c4f2a06da00aa702522f844c81c",
+          "TimeBuilt": "2024-10-27T16:16:41.1116297+00:00",
+          "EffectiveVersion": "1.0.0.3",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.2": {
@@ -19637,6 +20255,309 @@
               "Changelog": "- Removed the settings button (there are no settings)\n- Added a few items to the tags\n- Version bump",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "1.0.0.3": {
+              "TimeReleased": "2024-10-27T16:16:41.1116312+00:00",
+              "Changelog": "- Removed the settings button (there are no settings)\n- Added a few items to the tags\n- Version bump",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "2.1.13"
+                },
+                {
+                  "Key": "TwitchLib",
+                  "Version": "3.5.3"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Primitives",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "Microsoft.NETCore.Platforms",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.NETCore.Targets",
+                  "Version": "1.1.0"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.1"
+                },
+                {
+                  "Key": "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl",
+                  "Version": "4.3.2"
+                },
+                {
+                  "Key": "runtime.fedora.23-x64.runtime.native.System.Security.Cryptography.OpenSsl",
+                  "Version": "4.3.2"
+                },
+                {
+                  "Key": "runtime.fedora.24-x64.runtime.native.System.Security.Cryptography.OpenSsl",
+                  "Version": "4.3.2"
+                },
+                {
+                  "Key": "runtime.native.System",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "runtime.native.System.Net.Http",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "runtime.native.System.Security.Cryptography.Apple",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "runtime.native.System.Security.Cryptography.OpenSsl",
+                  "Version": "4.3.2"
+                },
+                {
+                  "Key": "runtime.opensuse.13.2-x64.runtime.native.System.Security.Cryptography.OpenSsl",
+                  "Version": "4.3.2"
+                },
+                {
+                  "Key": "runtime.opensuse.42.1-x64.runtime.native.System.Security.Cryptography.OpenSsl",
+                  "Version": "4.3.2"
+                },
+                {
+                  "Key": "runtime.osx.10.10-x64.runtime.native.System.Security.Cryptography.Apple",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "runtime.osx.10.10-x64.runtime.native.System.Security.Cryptography.OpenSsl",
+                  "Version": "4.3.2"
+                },
+                {
+                  "Key": "runtime.rhel.7-x64.runtime.native.System.Security.Cryptography.OpenSsl",
+                  "Version": "4.3.2"
+                },
+                {
+                  "Key": "runtime.ubuntu.14.04-x64.runtime.native.System.Security.Cryptography.OpenSsl",
+                  "Version": "4.3.2"
+                },
+                {
+                  "Key": "runtime.ubuntu.16.04-x64.runtime.native.System.Security.Cryptography.OpenSsl",
+                  "Version": "4.3.2"
+                },
+                {
+                  "Key": "runtime.ubuntu.16.10-x64.runtime.native.System.Security.Cryptography.OpenSsl",
+                  "Version": "4.3.2"
+                },
+                {
+                  "Key": "System.Collections",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Collections.Concurrent",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Diagnostics.Debug",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Diagnostics.DiagnosticSource",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "System.Diagnostics.Tracing",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Globalization",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Globalization.Calendars",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Globalization.Extensions",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.IO",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.IO.FileSystem",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.IO.FileSystem.Primitives",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Linq",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Net.Http",
+                  "Version": "4.3.4"
+                },
+                {
+                  "Key": "System.Net.Primitives",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Reflection",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Reflection.Primitives",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Resources.ResourceManager",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Runtime",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Runtime.CompilerServices.Unsafe",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "System.Runtime.Extensions",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Runtime.Handles",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Runtime.InteropServices",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Runtime.Numerics",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Security.Cryptography.Algorithms",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Security.Cryptography.Cng",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Security.Cryptography.Csp",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Security.Cryptography.Encoding",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Security.Cryptography.OpenSsl",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Security.Cryptography.Primitives",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Security.Cryptography.X509Certificates",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Text.Encoding",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Threading",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Threading.Tasks",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Threading.Tasks.Extensions",
+                  "Version": "4.5.4"
+                },
+                {
+                  "Key": "TwitchLib.Api",
+                  "Version": "3.8.0"
+                },
+                {
+                  "Key": "TwitchLib.Api.Core",
+                  "Version": "3.8.0"
+                },
+                {
+                  "Key": "TwitchLib.Api.Core.Enums",
+                  "Version": "3.8.0"
+                },
+                {
+                  "Key": "TwitchLib.Api.Core.Interfaces",
+                  "Version": "3.8.0"
+                },
+                {
+                  "Key": "TwitchLib.Api.Core.Models",
+                  "Version": "3.8.0"
+                },
+                {
+                  "Key": "TwitchLib.Api.Helix",
+                  "Version": "3.8.0"
+                },
+                {
+                  "Key": "TwitchLib.Api.Helix.Models",
+                  "Version": "3.8.0"
+                },
+                {
+                  "Key": "TwitchLib.Client",
+                  "Version": "3.3.1"
+                },
+                {
+                  "Key": "TwitchLib.Client.Enums",
+                  "Version": "3.3.1"
+                },
+                {
+                  "Key": "TwitchLib.Client.Models",
+                  "Version": "3.3.1"
+                },
+                {
+                  "Key": "TwitchLib.Communication",
+                  "Version": "1.0.4"
+                },
+                {
+                  "Key": "TwitchLib.EventSub.Core",
+                  "Version": "2.0.0"
+                },
+                {
+                  "Key": "TwitchLib.EventSub.Websockets",
+                  "Version": "0.0.3"
+                },
+                {
+                  "Key": "TwitchLib.PubSub",
+                  "Version": "3.2.6"
+                }
+              ],
+              "Reviewer": "philpax"
             }
           }
         },
@@ -27692,6 +28613,258 @@
       "Version": "6.0.0",
       "ReviewedBy": "philpax",
       "ReviewedAt": "2024-10-27T15:16:04.0831727Z"
+    },
+    {
+      "Type": 1,
+      "Key": "TwitchLib",
+      "Version": "3.5.3",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2024-10-27T16:16:25.4486129Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Extensions.DependencyInjection",
+      "Version": "6.0.0",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2024-10-27T16:16:25.448642Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+      "Version": "6.0.0",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2024-10-27T16:16:25.4486423Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Extensions.Logging",
+      "Version": "6.0.0",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2024-10-27T16:16:25.4486425Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Extensions.Logging.Abstractions",
+      "Version": "6.0.0",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2024-10-27T16:16:25.4486426Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Extensions.Options",
+      "Version": "6.0.0",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2024-10-27T16:16:25.4486433Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Extensions.Primitives",
+      "Version": "6.0.0",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2024-10-27T16:16:25.4486434Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.NETCore.Platforms",
+      "Version": "1.1.1",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2024-10-27T16:16:25.4486436Z"
+    },
+    {
+      "Type": 1,
+      "Key": "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl",
+      "Version": "4.3.2",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2024-10-27T16:16:25.4486442Z"
+    },
+    {
+      "Type": 1,
+      "Key": "runtime.fedora.23-x64.runtime.native.System.Security.Cryptography.OpenSsl",
+      "Version": "4.3.2",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2024-10-27T16:16:25.4486443Z"
+    },
+    {
+      "Type": 1,
+      "Key": "runtime.fedora.24-x64.runtime.native.System.Security.Cryptography.OpenSsl",
+      "Version": "4.3.2",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2024-10-27T16:16:25.4486445Z"
+    },
+    {
+      "Type": 1,
+      "Key": "runtime.native.System.Security.Cryptography.OpenSsl",
+      "Version": "4.3.2",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2024-10-27T16:16:25.448645Z"
+    },
+    {
+      "Type": 1,
+      "Key": "runtime.opensuse.13.2-x64.runtime.native.System.Security.Cryptography.OpenSsl",
+      "Version": "4.3.2",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2024-10-27T16:16:25.4486453Z"
+    },
+    {
+      "Type": 1,
+      "Key": "runtime.opensuse.42.1-x64.runtime.native.System.Security.Cryptography.OpenSsl",
+      "Version": "4.3.2",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2024-10-27T16:16:25.4486453Z"
+    },
+    {
+      "Type": 1,
+      "Key": "runtime.osx.10.10-x64.runtime.native.System.Security.Cryptography.OpenSsl",
+      "Version": "4.3.2",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2024-10-27T16:16:25.4486457Z"
+    },
+    {
+      "Type": 1,
+      "Key": "runtime.rhel.7-x64.runtime.native.System.Security.Cryptography.OpenSsl",
+      "Version": "4.3.2",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2024-10-27T16:16:25.4486458Z"
+    },
+    {
+      "Type": 1,
+      "Key": "runtime.ubuntu.14.04-x64.runtime.native.System.Security.Cryptography.OpenSsl",
+      "Version": "4.3.2",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2024-10-27T16:16:25.4486463Z"
+    },
+    {
+      "Type": 1,
+      "Key": "runtime.ubuntu.16.04-x64.runtime.native.System.Security.Cryptography.OpenSsl",
+      "Version": "4.3.2",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2024-10-27T16:16:25.4486465Z"
+    },
+    {
+      "Type": 1,
+      "Key": "runtime.ubuntu.16.10-x64.runtime.native.System.Security.Cryptography.OpenSsl",
+      "Version": "4.3.2",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2024-10-27T16:16:25.4486467Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Diagnostics.DiagnosticSource",
+      "Version": "6.0.0",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2024-10-27T16:16:25.4486472Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Net.Http",
+      "Version": "4.3.4",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2024-10-27T16:16:25.448648Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Threading.Tasks.Extensions",
+      "Version": "4.5.4",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2024-10-27T16:16:25.4486494Z"
+    },
+    {
+      "Type": 1,
+      "Key": "TwitchLib.Api",
+      "Version": "3.8.0",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2024-10-27T16:16:25.4486496Z"
+    },
+    {
+      "Type": 1,
+      "Key": "TwitchLib.Api.Core",
+      "Version": "3.8.0",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2024-10-27T16:16:25.4486497Z"
+    },
+    {
+      "Type": 1,
+      "Key": "TwitchLib.Api.Core.Enums",
+      "Version": "3.8.0",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2024-10-27T16:16:25.4486499Z"
+    },
+    {
+      "Type": 1,
+      "Key": "TwitchLib.Api.Core.Interfaces",
+      "Version": "3.8.0",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2024-10-27T16:16:25.44865Z"
+    },
+    {
+      "Type": 1,
+      "Key": "TwitchLib.Api.Core.Models",
+      "Version": "3.8.0",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2024-10-27T16:16:25.4486501Z"
+    },
+    {
+      "Type": 1,
+      "Key": "TwitchLib.Api.Helix",
+      "Version": "3.8.0",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2024-10-27T16:16:25.4486503Z"
+    },
+    {
+      "Type": 1,
+      "Key": "TwitchLib.Api.Helix.Models",
+      "Version": "3.8.0",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2024-10-27T16:16:25.4486505Z"
+    },
+    {
+      "Type": 1,
+      "Key": "TwitchLib.Client",
+      "Version": "3.3.1",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2024-10-27T16:16:25.4486506Z"
+    },
+    {
+      "Type": 1,
+      "Key": "TwitchLib.Client.Enums",
+      "Version": "3.3.1",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2024-10-27T16:16:25.4486508Z"
+    },
+    {
+      "Type": 1,
+      "Key": "TwitchLib.Client.Models",
+      "Version": "3.3.1",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2024-10-27T16:16:25.448651Z"
+    },
+    {
+      "Type": 1,
+      "Key": "TwitchLib.Communication",
+      "Version": "1.0.4",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2024-10-27T16:16:25.4486511Z"
+    },
+    {
+      "Type": 1,
+      "Key": "TwitchLib.EventSub.Core",
+      "Version": "2.0.0",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2024-10-27T16:16:25.4486514Z"
+    },
+    {
+      "Type": 1,
+      "Key": "TwitchLib.EventSub.Websockets",
+      "Version": "0.0.3",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2024-10-27T16:16:25.4486516Z"
+    },
+    {
+      "Type": 1,
+      "Key": "TwitchLib.PubSub",
+      "Version": "3.2.6",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2024-10-27T16:16:25.4486518Z"
     }
   ]
 }
