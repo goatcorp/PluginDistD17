@@ -9591,9 +9591,9 @@
           "Changelogs": {}
         },
         "WhosTalking": {
-          "BuiltCommit": "6518fc74efaaab592b114845e270fc0f6d17ce97",
-          "TimeBuilt": "2024-07-03T01:51:47.266",
-          "EffectiveVersion": "0.6.11.0",
+          "BuiltCommit": "c57f8c039d83a14e06b603a7c305f8f98181feaa",
+          "TimeBuilt": "2024-10-27T15:16:04.0496226+00:00",
+          "EffectiveVersion": "0.8.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.6.7.0": {
@@ -9607,6 +9607,37 @@
               "Changelog": "**Version 0.6.11.0**\n\nNow supports Dawntrail!\n\nAlso:\n- Added a warning if you\u0027re using an unsupported Discord client\n- Hopefully fixed error spam in Delubrum Reginae (Savage)\n- Modified the sizing of the config window to accomodate power users\n- Tweaked various text to be less misleading\n",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "0.8.0.0": {
+              "TimeReleased": "2024-10-27T15:16:04.0496611+00:00",
+              "Changelog": "**Version 0.8.0.0**\n\nI forgot to push an update to the stable branch for two months. Oops!\n\nThe major change in this version is support for rendering voice activity indicators with the game\u0027s native UI toolkit (\u0022ATK\u0022), so windows that cover up the party list don\u0027t get coloured boxes drawn on top of them. You can enable this in the plugin settings; there are still a couple of minor bugs and oddities \u2013 for example, certain UI mods make the ATK-rendered indicators invisible \u2013 so it\u0027s opt-in for now.\n\nThere are also two new options, both implemented by iris (thanks!):\n- Non-rounded voice activity indicators, useful for users of certain graphical mods (only works with ImGui rendering)\n- Toggle to display all Discord users all the time, even when they\u0027re not talking\n\nFixes:\n- Preview icons in settings window now scroll properly (thanks to @foophoof for the report)\n- Group DMs now actually work, for real this time (thanks to Asriel for the report)\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "2.1.13"
+                },
+                {
+                  "Key": "JetBrains.Annotations",
+                  "Version": "2022.3.1"
+                },
+                {
+                  "Key": "Websocket.Client",
+                  "Version": "5.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "7.0.1"
+                },
+                {
+                  "Key": "System.Reactive",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "System.Threading.Channels",
+                  "Version": "7.0.0"
+                }
+              ],
+              "Reviewer": "philpax"
             }
           }
         },
@@ -16509,9 +16540,9 @@
           }
         },
         "DragoonMayCry": {
-          "BuiltCommit": "bd2dfd77b49eb7bd8626ce8e3ef605196f44e4c3",
-          "TimeBuilt": "2024-10-19T19:14:10.7803842+00:00",
-          "EffectiveVersion": "1.1.0.2",
+          "BuiltCommit": "5918785aaee1406779c324c922fe0006a9f5df54",
+          "TimeBuilt": "2024-10-27T15:16:15.0237486+00:00",
+          "EffectiveVersion": "1.2.0.1",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -16655,6 +16686,77 @@
                 }
               ],
               "Reviewer": "reiichi001"
+            },
+            "1.2.0.1": {
+              "TimeReleased": "2024-10-27T15:16:15.02375+00:00",
+              "Changelog": "- The time window used to determine if a GCD is dropped or clipped is now configurable. This will not affect how the final rank is calculated.\n- Added modifiers for Astrologian, Bard, Scholar, Sage and White Mage :\n    - Refreshing DoTs before they fade will grants points to the style meter\n    - Using AST cards, Scholar\u0027s energy drain, Sage\u0027s addersgall, and WHM lilies will also grant points to the meter.\nMore info about those modifiers in the \u0027How it works\u0027 window.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/Felscream/KamiLib",
+                  "Version": "7c072cbfbddddb5d4c38c38ca1397225e7bad25f"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "2.1.13"
+                },
+                {
+                  "Key": "NAudio",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Vorbis",
+                  "Version": "1.5.0"
+                },
+                {
+                  "Key": "Microsoft.NETCore.Platforms",
+                  "Version": "3.1.0"
+                },
+                {
+                  "Key": "Microsoft.Win32.Registry",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "NAudio.Asio",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Core",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Midi",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Wasapi",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.WinMM",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NVorbis",
+                  "Version": "0.10.4"
+                },
+                {
+                  "Key": "System.Memory",
+                  "Version": "4.5.3"
+                },
+                {
+                  "Key": "System.Security.AccessControl",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "System.Security.Principal.Windows",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "System.ValueTuple",
+                  "Version": "4.5.0"
+                }
+              ],
+              "Reviewer": "philpax"
             }
           }
         },
@@ -27562,6 +27664,34 @@
       "Version": "278ea0172bb77a606402daf723701c166715b6fd",
       "ReviewedBy": "philpax",
       "ReviewedAt": "2024-10-23T23:29:19.3170221Z"
+    },
+    {
+      "Type": 1,
+      "Key": "JetBrains.Annotations",
+      "Version": "2022.3.1",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2024-10-27T15:16:04.0831439Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Websocket.Client",
+      "Version": "5.0.0",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2024-10-27T15:16:04.0831723Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Extensions.Logging.Abstractions",
+      "Version": "7.0.1",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2024-10-27T15:16:04.0831725Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Reactive",
+      "Version": "6.0.0",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2024-10-27T15:16:04.0831727Z"
     }
   ]
 }
