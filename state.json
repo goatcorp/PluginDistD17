@@ -5346,9 +5346,9 @@
           }
         },
         "Visibility": {
-          "BuiltCommit": "6501dcfe0ce0a64dd6c1dd700f015b64b85473a0",
-          "TimeBuilt": "2024-09-30T19:10:58.25",
-          "EffectiveVersion": "1.1.8.0",
+          "BuiltCommit": "650eb77b41cc08c2f30fd5c4bf03cd2df978d4fe",
+          "TimeBuilt": "2024-10-27T20:21:05.3856119+00:00",
+          "EffectiveVersion": "1.1.8.1",
           "MinimumVersion": null,
           "Changelogs": {
             "1.1.3.6": {
@@ -5434,6 +5434,17 @@
               "Changelog": "- Updated VoidList to support account tracking (You will not be able to see character name changes or account information)\n- Updated Whitelist to track characters by their ID",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "1.1.8.1": {
+              "TimeReleased": "2024-10-27T20:21:05.3856538+00:00",
+              "Changelog": "* Fixes a loading error with \u0060VoidList\u0060 and \u0060Whitelist\u0060",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "2.1.13"
+                }
+              ],
+              "Reviewer": "goaaats"
             }
           }
         },
