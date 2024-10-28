@@ -8284,9 +8284,9 @@
           }
         },
         "VFXEditor": {
-          "BuiltCommit": "2e99a307b07dab71380b9dbe86e36910734041e8",
-          "TimeBuilt": "2024-07-14T00:16:37.15",
-          "EffectiveVersion": "1.9.0.7",
+          "BuiltCommit": "f04ecbe2e4127ac0f902b1841ae82f2cf0aad11a",
+          "TimeBuilt": "2024-10-28T20:37:50.467696+00:00",
+          "EffectiveVersion": "1.9.1.2",
           "MinimumVersion": null,
           "Changelogs": {
             "1.6.5.0": {
@@ -8294,6 +8294,481 @@
               "Changelog": "- 6.2 updates\n- fix issue with .pap files not properly being updated\n- some cleanup \u002B refactoring\n- UI tweaks\n- added armor to items tab\n- added misc tmb\u002Bpap files to file selector\n- add keybinds menu (file \u003E settings)\n- add option to block game inputs when VFXEditor is focused\n- add checkbox to items in timeline sequencer\n- fix issues with importing some GLTF files\n- add up/down arrow navigation to item selector\n",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "1.9.1.2": {
+              "TimeReleased": "2024-10-28T20:37:50.4677376+00:00",
+              "Changelog": "- \u0060.avfx\u0060 parsing fix\r\n- \u0060.uld\u0060 parsing fix\r\n- Fixed wrong paths for SD icons\r\n- \u0060.pdb\u0060 work\r\n- New \u0060.tmb\u0060 entries\r\n- Reverted some changes to \u0060.png\u0060 importing\r\n- NPC \u0060.atch\u0060 list\r\n- Fixed rotation for some \u0060.sklb\u0060 bones\r\n- Moved some stuff to framework thread\r\n- Refactored \u0060.mtrl\u0060 parsing\r\n- Added sphere selector for materials\r\n- Some refactoring for material shaders",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/Ottermandias/Penumbra.String.git",
+                  "Version": "9b2a0814fb13da009d2e619a2d09d499d7d7e15c"
+                },
+                {
+                  "Key": "BCnEncoder.Net",
+                  "Version": "2.1.0"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "2.1.13"
+                },
+                {
+                  "Key": "Google.FlatBuffers",
+                  "Version": "24.3.25"
+                },
+                {
+                  "Key": "HelixToolkit",
+                  "Version": "2.25.0"
+                },
+                {
+                  "Key": "HelixToolkit.SharpDX.Core",
+                  "Version": "2.25.0"
+                },
+                {
+                  "Key": "JsonPoke.MSBuild",
+                  "Version": "1.0.9"
+                },
+                {
+                  "Key": "mgholam.fastCSV",
+                  "Version": "2.0.9"
+                },
+                {
+                  "Key": "NAudio.Core",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Vorbis",
+                  "Version": "1.5.0"
+                },
+                {
+                  "Key": "NAudio.Wasapi",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.WinMM",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "Penumbra.Api",
+                  "Version": "5.3.0"
+                },
+                {
+                  "Key": "SharpDX.D3DCompiler",
+                  "Version": "4.2.0"
+                },
+                {
+                  "Key": "SharpGLTF.Toolkit",
+                  "Version": "1.0.3"
+                },
+                {
+                  "Key": "TeximpNet",
+                  "Version": "1.4.3"
+                },
+                {
+                  "Key": "Cyotek.Drawing.BitmapFont",
+                  "Version": "2.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "Microsoft.NETCore.Platforms",
+                  "Version": "3.1.0"
+                },
+                {
+                  "Key": "Microsoft.NETCore.Targets",
+                  "Version": "1.1.0"
+                },
+                {
+                  "Key": "Microsoft.Toolkit.HighPerformance",
+                  "Version": "7.0.2"
+                },
+                {
+                  "Key": "Microsoft.Win32.Primitives",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "Microsoft.Win32.Registry",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "NETStandard.Library",
+                  "Version": "1.6.1"
+                },
+                {
+                  "Key": "NVorbis",
+                  "Version": "0.10.4"
+                },
+                {
+                  "Key": "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "runtime.fedora.23-x64.runtime.native.System.Security.Cryptography.OpenSsl",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "runtime.fedora.24-x64.runtime.native.System.Security.Cryptography.OpenSsl",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "runtime.native.System",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "runtime.native.System.IO.Compression",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "runtime.native.System.Net.Http",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "runtime.native.System.Security.Cryptography.Apple",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "runtime.native.System.Security.Cryptography.OpenSsl",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "runtime.opensuse.13.2-x64.runtime.native.System.Security.Cryptography.OpenSsl",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "runtime.opensuse.42.1-x64.runtime.native.System.Security.Cryptography.OpenSsl",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "runtime.osx.10.10-x64.runtime.native.System.Security.Cryptography.Apple",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "runtime.osx.10.10-x64.runtime.native.System.Security.Cryptography.OpenSsl",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "runtime.rhel.7-x64.runtime.native.System.Security.Cryptography.OpenSsl",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "runtime.ubuntu.14.04-x64.runtime.native.System.Security.Cryptography.OpenSsl",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "runtime.ubuntu.16.04-x64.runtime.native.System.Security.Cryptography.OpenSsl",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "runtime.ubuntu.16.10-x64.runtime.native.System.Security.Cryptography.OpenSsl",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "SharpDX",
+                  "Version": "4.2.0"
+                },
+                {
+                  "Key": "SharpDX.Direct2D1",
+                  "Version": "4.2.0"
+                },
+                {
+                  "Key": "SharpDX.Direct3D11",
+                  "Version": "4.2.0"
+                },
+                {
+                  "Key": "SharpDX.DXGI",
+                  "Version": "4.2.0"
+                },
+                {
+                  "Key": "SharpDX.Mathematics",
+                  "Version": "4.2.0"
+                },
+                {
+                  "Key": "SharpGLTF.Core",
+                  "Version": "1.0.3"
+                },
+                {
+                  "Key": "SharpGLTF.Runtime",
+                  "Version": "1.0.3"
+                },
+                {
+                  "Key": "System.AppContext",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Buffers",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Collections",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Collections.Concurrent",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Collections.NonGeneric",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Collections.Specialized",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.ComponentModel",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.ComponentModel.Primitives",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.ComponentModel.TypeConverter",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Console",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Diagnostics.Debug",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Diagnostics.DiagnosticSource",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Diagnostics.Tools",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Diagnostics.Tracing",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Drawing.Primitives",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Globalization",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Globalization.Calendars",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Globalization.Extensions",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.IO",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.IO.Compression",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.IO.Compression.ZipFile",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.IO.FileSystem",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.IO.FileSystem.Primitives",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Linq",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Linq.Expressions",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Memory",
+                  "Version": "4.5.3"
+                },
+                {
+                  "Key": "System.Net.Http",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Net.Primitives",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Net.Sockets",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.ObjectModel",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Private.DataContractSerialization",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Reflection",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Reflection.Emit",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Reflection.Emit.ILGeneration",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Reflection.Emit.Lightweight",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Reflection.Extensions",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Reflection.Primitives",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Reflection.TypeExtensions",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Resources.ResourceManager",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Runtime",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Runtime.Extensions",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Runtime.Handles",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Runtime.InteropServices",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Runtime.InteropServices.RuntimeInformation",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Runtime.Numerics",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Runtime.Serialization.Primitives",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Runtime.Serialization.Xml",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Security.AccessControl",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "System.Security.Cryptography.Algorithms",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Security.Cryptography.Cng",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Security.Cryptography.Csp",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Security.Cryptography.Encoding",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Security.Cryptography.OpenSsl",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Security.Cryptography.Primitives",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Security.Cryptography.X509Certificates",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Security.Principal.Windows",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "System.Text.Encoding",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Text.Encoding.Extensions",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Text.RegularExpressions",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Threading",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Threading.Tasks",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Threading.Tasks.Extensions",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Threading.Tasks.Parallel",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Threading.Timer",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.ValueTuple",
+                  "Version": "4.5.0"
+                },
+                {
+                  "Key": "System.Xml.ReaderWriter",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Xml.XDocument",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Xml.XmlDocument",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Xml.XmlSerializer",
+                  "Version": "4.3.0"
+                }
+              ],
+              "Reviewer": "lmcintyre"
             }
           }
         },
@@ -28887,6 +29362,188 @@
       "Version": "3.2.6",
       "ReviewedBy": "philpax",
       "ReviewedAt": "2024-10-27T16:16:25.4486518Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/Ottermandias/Penumbra.String.git",
+      "Version": "9b2a0814fb13da009d2e619a2d09d499d7d7e15c",
+      "ReviewedBy": "lmcintyre",
+      "ReviewedAt": "2024-10-28T20:37:50.5019093Z"
+    },
+    {
+      "Type": 1,
+      "Key": "BCnEncoder.Net",
+      "Version": "2.1.0",
+      "ReviewedBy": "lmcintyre",
+      "ReviewedAt": "2024-10-28T20:37:50.5019379Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Google.FlatBuffers",
+      "Version": "24.3.25",
+      "ReviewedBy": "lmcintyre",
+      "ReviewedAt": "2024-10-28T20:37:50.5019381Z"
+    },
+    {
+      "Type": 1,
+      "Key": "HelixToolkit",
+      "Version": "2.25.0",
+      "ReviewedBy": "lmcintyre",
+      "ReviewedAt": "2024-10-28T20:37:50.5019382Z"
+    },
+    {
+      "Type": 1,
+      "Key": "HelixToolkit.SharpDX.Core",
+      "Version": "2.25.0",
+      "ReviewedBy": "lmcintyre",
+      "ReviewedAt": "2024-10-28T20:37:50.5019384Z"
+    },
+    {
+      "Type": 1,
+      "Key": "mgholam.fastCSV",
+      "Version": "2.0.9",
+      "ReviewedBy": "lmcintyre",
+      "ReviewedAt": "2024-10-28T20:37:50.5019389Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Penumbra.Api",
+      "Version": "5.3.0",
+      "ReviewedBy": "lmcintyre",
+      "ReviewedAt": "2024-10-28T20:37:50.5019394Z"
+    },
+    {
+      "Type": 1,
+      "Key": "SharpDX.D3DCompiler",
+      "Version": "4.2.0",
+      "ReviewedBy": "lmcintyre",
+      "ReviewedAt": "2024-10-28T20:37:50.5019395Z"
+    },
+    {
+      "Type": 1,
+      "Key": "SharpGLTF.Toolkit",
+      "Version": "1.0.3",
+      "ReviewedBy": "lmcintyre",
+      "ReviewedAt": "2024-10-28T20:37:50.5019396Z"
+    },
+    {
+      "Type": 1,
+      "Key": "TeximpNet",
+      "Version": "1.4.3",
+      "ReviewedBy": "lmcintyre",
+      "ReviewedAt": "2024-10-28T20:37:50.5019398Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Cyotek.Drawing.BitmapFont",
+      "Version": "2.0.0",
+      "ReviewedBy": "lmcintyre",
+      "ReviewedAt": "2024-10-28T20:37:50.5019399Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Toolkit.HighPerformance",
+      "Version": "7.0.2",
+      "ReviewedBy": "lmcintyre",
+      "ReviewedAt": "2024-10-28T20:37:50.5019401Z"
+    },
+    {
+      "Type": 1,
+      "Key": "SharpDX.Direct3D11",
+      "Version": "4.2.0",
+      "ReviewedBy": "lmcintyre",
+      "ReviewedAt": "2024-10-28T20:37:50.5019416Z"
+    },
+    {
+      "Type": 1,
+      "Key": "SharpDX.Mathematics",
+      "Version": "4.2.0",
+      "ReviewedBy": "lmcintyre",
+      "ReviewedAt": "2024-10-28T20:37:50.5019419Z"
+    },
+    {
+      "Type": 1,
+      "Key": "SharpGLTF.Core",
+      "Version": "1.0.3",
+      "ReviewedBy": "lmcintyre",
+      "ReviewedAt": "2024-10-28T20:37:50.501942Z"
+    },
+    {
+      "Type": 1,
+      "Key": "SharpGLTF.Runtime",
+      "Version": "1.0.3",
+      "ReviewedBy": "lmcintyre",
+      "ReviewedAt": "2024-10-28T20:37:50.5019422Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.ComponentModel",
+      "Version": "4.3.0",
+      "ReviewedBy": "lmcintyre",
+      "ReviewedAt": "2024-10-28T20:37:50.5019429Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.ComponentModel.Primitives",
+      "Version": "4.3.0",
+      "ReviewedBy": "lmcintyre",
+      "ReviewedAt": "2024-10-28T20:37:50.5019431Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.ComponentModel.TypeConverter",
+      "Version": "4.3.0",
+      "ReviewedBy": "lmcintyre",
+      "ReviewedAt": "2024-10-28T20:37:50.5019432Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Drawing.Primitives",
+      "Version": "4.3.0",
+      "ReviewedBy": "lmcintyre",
+      "ReviewedAt": "2024-10-28T20:37:50.5019434Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Private.DataContractSerialization",
+      "Version": "4.3.0",
+      "ReviewedBy": "lmcintyre",
+      "ReviewedAt": "2024-10-28T20:37:50.5019443Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Runtime.Serialization.Primitives",
+      "Version": "4.3.0",
+      "ReviewedBy": "lmcintyre",
+      "ReviewedAt": "2024-10-28T20:37:50.5019452Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Runtime.Serialization.Xml",
+      "Version": "4.3.0",
+      "ReviewedBy": "lmcintyre",
+      "ReviewedAt": "2024-10-28T20:37:50.5019453Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Threading.Tasks.Parallel",
+      "Version": "4.3.0",
+      "ReviewedBy": "lmcintyre",
+      "ReviewedAt": "2024-10-28T20:37:50.5019465Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Xml.XmlDocument",
+      "Version": "4.3.0",
+      "ReviewedBy": "lmcintyre",
+      "ReviewedAt": "2024-10-28T20:37:50.501947Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Xml.XmlSerializer",
+      "Version": "4.3.0",
+      "ReviewedBy": "lmcintyre",
+      "ReviewedAt": "2024-10-28T20:37:50.5019472Z"
     }
   ]
 }
