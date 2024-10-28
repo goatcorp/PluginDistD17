@@ -25527,9 +25527,9 @@
           }
         },
         "CWLSLastSeenTool": {
-          "BuiltCommit": "f4d8ec09f91930551bf8ff2db6e16f74717915f2",
-          "TimeBuilt": "2024-10-18T06:40:07.80395+00:00",
-          "EffectiveVersion": "1.1.0.0",
+          "BuiltCommit": "070c1cbb1d70a01bdf7ea1973e0773afa10ae396",
+          "TimeBuilt": "2024-10-28T19:44:33.5315021+00:00",
+          "EffectiveVersion": "1.1.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.1": {
@@ -25546,6 +25546,17 @@
             "1.1.0.0": {
               "TimeReleased": "2024-10-18T06:40:07.8039893+00:00",
               "Changelog": "CWLSLastSeenTool Version 1.1.0.0\r\n\r\n- Major rewrite. Tidy up main code and methods.\r\n- Added proper support for multiple cross-world linkshells.\r\n- Members no longer in the CWLS will show in red.\r\n- Added member count to currently selected CWLS.\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "2.1.13"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            },
+            "1.1.1.0": {
+              "TimeReleased": "2024-10-28T19:44:33.5315395+00:00",
+              "Changelog": "Version 1.1.1.0\r\n\r\n- List now shows an online count.\r\n- World name lookup now uses lumina.\r\n- Members no longer in the CWLS will now have the state Not Found.\r\n- Member count and offline count now ignore Not Found members.\r\n- Icon updated.\r\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",

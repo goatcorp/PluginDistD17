@@ -2,7 +2,7 @@
   "Author": "radax864",
   "Name": "CWLSLastSeenTool",
   "InternalName": "CWLSLastSeenTool",
-  "AssemblyVersion": "1.1.0.0",
+  "AssemblyVersion": "1.1.1.0",
   "Description": "A tool for tracking when CWLS members were last seen online. /cwlslst to open the tool.",
   "ApplicableVersion": "any",
   "Tags": [
