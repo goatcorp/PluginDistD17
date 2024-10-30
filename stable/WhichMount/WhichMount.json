@@ -1,0 +1,25 @@
+{
+  "Author": "Megurt",
+  "Name": "Which Mount",
+  "InternalName": "WhichMount",
+  "AssemblyVersion": "1.0.0.2",
+  "Description": "Plugin adds a 'Mount Search' button to the target's context menu, showing information in chat about the mount and how to obtain it. Settings allow you to include the current availability of the mount in the game and other details.",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/megurte/WhichMount",
+  "Tags": [
+    "Character",
+    "Mount",
+    "Search",
+    "Information",
+    "GameData"
+  ],
+  "DalamudApiLevel": 10,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "Punchline": "Show mount information of other players",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "stable"
+}

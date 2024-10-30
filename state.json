@@ -7550,9 +7550,9 @@
           }
         },
         "TalkCopy": {
-          "BuiltCommit": "7d71e04fea01e17122a43d909b71418b4fca8b27",
-          "TimeBuilt": "2024-08-29T16:57:49.138",
-          "EffectiveVersion": "1.1.0.3",
+          "BuiltCommit": "2c87c668c9c3e13a6bca8619a69063dd6540504a",
+          "TimeBuilt": "2024-10-30T20:46:55.8275852+00:00",
+          "EffectiveVersion": "1.2.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.0.1": {
@@ -7596,6 +7596,17 @@
               "Changelog": "    [1.1.0.3]\n    Updated the logo because I was getting nominations for the old one...\n",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "1.2.0.0": {
+              "TimeReleased": "2024-10-30T20:46:55.8275868+00:00",
+              "Changelog": "    [1.2.0.0]\n    Now automatically copies the text of tooltips.\n    Added a Text Copy Mode. This allows you to copy text from ANY text element on the screen. (Default entry is: \u0027Ctrl\u0027 \u002B \u0027Shift\u0027 \u002B \u0027Space\u0027)\n    Text will now properly parse and no longer display \u0027=\u0027 from time to time.\n    You can now disable metadata in copied text.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "2.1.13"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
@@ -18254,6 +18265,85 @@
               "Reviewer": "philpax"
             }
           }
+        },
+        "WhichMount": {
+          "BuiltCommit": "4e394b6053732555bfc6572f1370ec5dbd830fc2",
+          "TimeBuilt": "2024-10-30T20:46:49.7366851+00:00",
+          "EffectiveVersion": "1.0.0.2",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "1.0.0.2": {
+              "TimeReleased": "2024-10-30T20:46:49.7367314+00:00",
+              "Changelog": "Version 1.0.0.2:\n  - Added \u0022show patch\u0022 option\n  - Code optimisations\n",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/megurte/DalamudInjector.git",
+                  "Version": "6d35efdbea62010f6c64f0d39b1033408287c97e"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "2.1.13"
+                },
+                {
+                  "Key": "Microsoft.Build",
+                  "Version": "17.10.4"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "9.0.0-preview.6.24327.7"
+                },
+                {
+                  "Key": "YamlDotNet",
+                  "Version": "16.0.0"
+                },
+                {
+                  "Key": "Microsoft.Build.Framework",
+                  "Version": "17.10.4"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "9.0.0-preview.6.24327.7"
+                },
+                {
+                  "Key": "Microsoft.NET.StringTools",
+                  "Version": "17.10.4"
+                },
+                {
+                  "Key": "System.Collections.Immutable",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "System.Configuration.ConfigurationManager",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "System.Diagnostics.EventLog",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "System.Reflection.Metadata",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "System.Reflection.MetadataLoadContext",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "System.Security.Cryptography.ProtectedData",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "System.Security.Principal.Windows",
+                  "Version": "5.0.0"
+                },
+                {
+                  "Key": "System.Threading.Tasks.Dataflow",
+                  "Version": "8.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            }
+          }
         }
       }
     },
@@ -26087,9 +26177,9 @@
           }
         },
         "AbsoluteRoleplay": {
-          "BuiltCommit": "c0ae9ea575b839c6fd21ed4b437e382b326bcae3",
-          "TimeBuilt": "2024-10-25T06:40:06.4001944+00:00",
-          "EffectiveVersion": "0.0.0.5",
+          "BuiltCommit": "d4b4ea7a59d2ced5c0c77be2c23253e628bdba37",
+          "TimeBuilt": "2024-10-30T20:47:08.9849989+00:00",
+          "EffectiveVersion": "0.0.0.6",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.0.1": {
@@ -26486,6 +26576,85 @@
                 }
               ],
               "Reviewer": "reiichi001"
+            },
+            "0.0.0.6": {
+              "TimeReleased": "2024-10-30T20:47:08.9850007+00:00",
+              "Changelog": "Fixed an issue with profiles not resetting on character swap, and profiles not loading correctly in some cases Added the ability to save and load your profile locally. Fixed some scaling issues with the ui and very large dalamud ui resolutions. Finally you can delete your profile completely Be careful \u003C3",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/Ottermandias/OtterGui.git",
+                  "Version": "c2738e1d42974cddbe5a31238c6ed236a831d17d"
+                },
+                {
+                  "Key": "https://github.com/Ottermandias/OtterGuiInternal.git",
+                  "Version": "89d145286c148f6cb23ef6f7757e5f750a71e223"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "2.1.13"
+                },
+                {
+                  "Key": "Lumina",
+                  "Version": "4.1.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Hosting.Abstractions",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "System.Drawing.Common",
+                  "Version": "8.0.6"
+                },
+                {
+                  "Key": "JetBrains.Annotations",
+                  "Version": "2023.3.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Abstractions",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Diagnostics.Abstractions",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileProviders.Abstractions",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.ObjectPool",
+                  "Version": "9.0.0-preview.1.24081.5"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Primitives",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Win32.SystemEvents",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "System.Diagnostics.DiagnosticSource",
+                  "Version": "8.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
@@ -26521,9 +26690,9 @@
           }
         },
         "CWLSLastSeenTool": {
-          "BuiltCommit": "070c1cbb1d70a01bdf7ea1973e0773afa10ae396",
-          "TimeBuilt": "2024-10-28T19:44:33.5315021+00:00",
-          "EffectiveVersion": "1.1.1.0",
+          "BuiltCommit": "b84c715ca2f095fab82aa6115d523cd3cf8733b3",
+          "TimeBuilt": "2024-10-30T20:47:14.5105861+00:00",
+          "EffectiveVersion": "1.1.2.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.1": {
@@ -26551,6 +26720,17 @@
             "1.1.1.0": {
               "TimeReleased": "2024-10-28T19:44:33.5315395+00:00",
               "Changelog": "Version 1.1.1.0\r\n\r\n- List now shows an online count.\r\n- World name lookup now uses lumina.\r\n- Members no longer in the CWLS will now have the state Not Found.\r\n- Member count and offline count now ignore Not Found members.\r\n- Icon updated.\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "2.1.13"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            },
+            "1.1.2.0": {
+              "TimeReleased": "2024-10-30T20:47:14.5105871+00:00",
+              "Changelog": "Version 1.1.2.0\r\n\r\n- ImGui.BeginCombo and ImGui.BeginTable swapped over to ImRaii. Hopefully no more crashes if either element fails.\r\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -30182,6 +30362,97 @@
       "Version": "2.5.187",
       "ReviewedBy": "philpax",
       "ReviewedAt": "2024-10-30T20:39:44.4560445Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/megurte/DalamudInjector.git",
+      "Version": "6d35efdbea62010f6c64f0d39b1033408287c97e",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-10-30T20:46:49.7712016Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Build",
+      "Version": "17.10.4",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-10-30T20:46:49.7712307Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Extensions.DependencyInjection",
+      "Version": "9.0.0-preview.6.24327.7",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-10-30T20:46:49.771231Z"
+    },
+    {
+      "Type": 1,
+      "Key": "YamlDotNet",
+      "Version": "16.0.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-10-30T20:46:49.7712313Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Build.Framework",
+      "Version": "17.10.4",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-10-30T20:46:49.7712316Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+      "Version": "9.0.0-preview.6.24327.7",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-10-30T20:46:49.771233Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.NET.StringTools",
+      "Version": "17.10.4",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-10-30T20:46:49.7712332Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Collections.Immutable",
+      "Version": "8.0.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-10-30T20:46:49.7712334Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Configuration.ConfigurationManager",
+      "Version": "8.0.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-10-30T20:46:49.7712335Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Reflection.Metadata",
+      "Version": "8.0.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-10-30T20:46:49.771234Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Reflection.MetadataLoadContext",
+      "Version": "8.0.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-10-30T20:46:49.7712341Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Security.Cryptography.ProtectedData",
+      "Version": "8.0.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-10-30T20:46:49.7712343Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Threading.Tasks.Dataflow",
+      "Version": "8.0.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-10-30T20:46:49.7712347Z"
     }
   ]
 }

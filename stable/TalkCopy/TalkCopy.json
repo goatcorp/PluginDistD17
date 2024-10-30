@@ -2,21 +2,23 @@
   "Author": "Glyceri",
   "Name": "Dialog Copy",
   "InternalName": "TalkCopy",
-  "AssemblyVersion": "1.1.0.3",
-  "Description": "Automatically copies messages from the Dialog Box and many more to your clipboard.",
+  "AssemblyVersion": "1.2.0.0",
+  "Description": "Automatically copy ANY text on your screen.\n\nThere are two modes:\n        -Normal Mode: Automatically copies a select number of text elements to your clipboard.\n        -Text Copy Mode: This mode allows you to copy the text of ANY text element on the screen.\n\nDefault keybinds to toggle between the two modes are:\n      [Left Control] [Left Shift] [Spacebar]",
   "ApplicableVersion": "any",
   "Tags": [
     "plugin",
     "talk",
     "copy",
-    "dailog"
+    "dailog",
+    "text",
+    "clipboard"
   ],
   "DalamudApiLevel": 10,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
   "LoadPriority": 0,
-  "Punchline": "Automatically copies messages from the Dialog Box and many more to your clipboard.",
+  "Punchline": "Automatically copy ANY text on your screen by choice.",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "stable"
