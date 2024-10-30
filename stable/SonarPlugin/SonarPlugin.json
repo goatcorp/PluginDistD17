@@ -2,7 +2,7 @@
   "Author": "Sonar Team",
   "Name": "Sonar",
   "InternalName": "SonarPlugin",
-  "AssemblyVersion": "0.6.6.2",
+  "AssemblyVersion": "0.6.6.5",
   "Description": "Automatically send and receive hunt and fate relays. /sonar to open, /sonarconfig to configure. Support is only provided in the Sonar Support discord.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://discord.gg/K7y24Rr",
