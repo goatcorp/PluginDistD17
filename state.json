@@ -7597,9 +7597,9 @@
           }
         },
         "TalkCopy": {
-          "BuiltCommit": "2c87c668c9c3e13a6bca8619a69063dd6540504a",
-          "TimeBuilt": "2024-10-30T20:46:55.8275852+00:00",
-          "EffectiveVersion": "1.2.0.0",
+          "BuiltCommit": "511627e1cb6562063ea795591967a2af21c19c7a",
+          "TimeBuilt": "2024-10-31T13:55:22.9167051+00:00",
+          "EffectiveVersion": "1.2.0.1",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.0.1": {
@@ -7654,6 +7654,17 @@
                 }
               ],
               "Reviewer": "reiichi001"
+            },
+            "1.2.0.1": {
+              "TimeReleased": "2024-10-31T13:55:22.9167476+00:00",
+              "Changelog": "    [1.2.0.1]\n    The outline on text elements should now be accurate.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "2.1.13"
+                }
+              ],
+              "Reviewer": "philpax"
             }
           }
         },
