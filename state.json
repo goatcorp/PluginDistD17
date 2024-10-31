@@ -4658,9 +4658,9 @@
           }
         },
         "Wholist": {
-          "BuiltCommit": "1884f57ed065799b0726a2a7ba81f4a8547b597a",
-          "TimeBuilt": "2024-10-08T21:31:38.1683285+00:00",
-          "EffectiveVersion": "1.6.0.0",
+          "BuiltCommit": "5a500321328299559880750a1f397f97c7591a36",
+          "TimeBuilt": "2024-10-31T06:56:35.9582792+00:00",
+          "EffectiveVersion": "1.7.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -4733,6 +4733,53 @@
                 }
               ],
               "Reviewer": "philpax"
+            },
+            "1.7.0.0": {
+              "TimeReleased": "2024-10-31T06:56:35.9583191+00:00",
+              "Changelog": "- Wholist will now hide all players on your in-game blocklist automatically.\r\n- German translation is now back at 100% coverage. Thanks, anonymous person that\u0027s totally not my partner.",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/Blooym/Sirensong.git",
+                  "Version": "5accab25d21dccd1bfdf6cab870588987cb639ed"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "2.1.13"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "BitFaster.Caching",
+                  "Version": "2.4.1"
+                },
+                {
+                  "Key": "Microsoft.Build.Tasks.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Common",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitHub",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitLab",
+                  "Version": "1.1.1"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
@@ -12992,9 +13039,9 @@
           "Changelogs": {}
         },
         "SonarPlugin": {
-          "BuiltCommit": "d7fb4e403f5463e1ca34f7df5ad0624c87fefc7c",
-          "TimeBuilt": "2024-10-30T20:39:44.4443825+00:00",
-          "EffectiveVersion": "0.6.6.5",
+          "BuiltCommit": "a7a0911321513d6cec520a0b9b54e90f26e98b87",
+          "TimeBuilt": "2024-10-31T06:57:01.4391777+00:00",
+          "EffectiveVersion": "0.6.6.7",
           "MinimumVersion": null,
           "Changelogs": {
             "0.5.2.6": {
@@ -14104,6 +14151,509 @@
                 }
               ],
               "Reviewer": "philpax"
+            },
+            "0.6.6.7": {
+              "TimeReleased": "2024-10-31T06:57:01.439179+00:00",
+              "Changelog": "Check Sonar News for more information: https://news.ffxivsonar.com",
+              "UsedNeeds": [
+                {
+                  "Key": "DryIoc.dll",
+                  "Version": "5.4.3"
+                },
+                {
+                  "Key": "DryIoc.MefAttributedModel.dll",
+                  "Version": "7.0.2"
+                },
+                {
+                  "Key": "Humanizer",
+                  "Version": "2.14.1"
+                },
+                {
+                  "Key": "Lumina",
+                  "Version": "5.1.0"
+                },
+                {
+                  "Key": "Lumina.Excel",
+                  "Version": "7.0.2"
+                },
+                {
+                  "Key": "MessagePack",
+                  "Version": "2.5.187"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.3"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.5"
+                },
+                {
+                  "Key": "AG",
+                  "Version": "0.0.4-alpha"
+                },
+                {
+                  "Key": "AG.Collections.Concurrent",
+                  "Version": "0.0.4-alpha"
+                },
+                {
+                  "Key": "AG.Collections.Generic",
+                  "Version": "0.0.4-alpha"
+                },
+                {
+                  "Key": "AG.NonBlocking",
+                  "Version": "2.1.1"
+                },
+                {
+                  "Key": "DeviceId",
+                  "Version": "6.7.0"
+                },
+                {
+                  "Key": "DeviceId.Linux",
+                  "Version": "6.4.0"
+                },
+                {
+                  "Key": "DeviceId.Mac",
+                  "Version": "6.3.0"
+                },
+                {
+                  "Key": "DeviceId.Windows",
+                  "Version": "6.6.0"
+                },
+                {
+                  "Key": "DeviceId.Windows.Wmi",
+                  "Version": "6.6.0"
+                },
+                {
+                  "Key": "DryIocAttributes.dll",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "Farmhash.Sharp",
+                  "Version": "0.9.0"
+                },
+                {
+                  "Key": "Humanizer.Core",
+                  "Version": "2.14.1"
+                },
+                {
+                  "Key": "Humanizer.Core.af",
+                  "Version": "2.14.1"
+                },
+                {
+                  "Key": "Humanizer.Core.ar",
+                  "Version": "2.14.1"
+                },
+                {
+                  "Key": "Humanizer.Core.az",
+                  "Version": "2.14.1"
+                },
+                {
+                  "Key": "Humanizer.Core.bg",
+                  "Version": "2.14.1"
+                },
+                {
+                  "Key": "Humanizer.Core.bn-BD",
+                  "Version": "2.14.1"
+                },
+                {
+                  "Key": "Humanizer.Core.cs",
+                  "Version": "2.14.1"
+                },
+                {
+                  "Key": "Humanizer.Core.da",
+                  "Version": "2.14.1"
+                },
+                {
+                  "Key": "Humanizer.Core.de",
+                  "Version": "2.14.1"
+                },
+                {
+                  "Key": "Humanizer.Core.el",
+                  "Version": "2.14.1"
+                },
+                {
+                  "Key": "Humanizer.Core.es",
+                  "Version": "2.14.1"
+                },
+                {
+                  "Key": "Humanizer.Core.fa",
+                  "Version": "2.14.1"
+                },
+                {
+                  "Key": "Humanizer.Core.fi-FI",
+                  "Version": "2.14.1"
+                },
+                {
+                  "Key": "Humanizer.Core.fr",
+                  "Version": "2.14.1"
+                },
+                {
+                  "Key": "Humanizer.Core.fr-BE",
+                  "Version": "2.14.1"
+                },
+                {
+                  "Key": "Humanizer.Core.he",
+                  "Version": "2.14.1"
+                },
+                {
+                  "Key": "Humanizer.Core.hr",
+                  "Version": "2.14.1"
+                },
+                {
+                  "Key": "Humanizer.Core.hu",
+                  "Version": "2.14.1"
+                },
+                {
+                  "Key": "Humanizer.Core.hy",
+                  "Version": "2.14.1"
+                },
+                {
+                  "Key": "Humanizer.Core.id",
+                  "Version": "2.14.1"
+                },
+                {
+                  "Key": "Humanizer.Core.is",
+                  "Version": "2.14.1"
+                },
+                {
+                  "Key": "Humanizer.Core.it",
+                  "Version": "2.14.1"
+                },
+                {
+                  "Key": "Humanizer.Core.ja",
+                  "Version": "2.14.1"
+                },
+                {
+                  "Key": "Humanizer.Core.ko-KR",
+                  "Version": "2.14.1"
+                },
+                {
+                  "Key": "Humanizer.Core.ku",
+                  "Version": "2.14.1"
+                },
+                {
+                  "Key": "Humanizer.Core.lv",
+                  "Version": "2.14.1"
+                },
+                {
+                  "Key": "Humanizer.Core.ms-MY",
+                  "Version": "2.14.1"
+                },
+                {
+                  "Key": "Humanizer.Core.mt",
+                  "Version": "2.14.1"
+                },
+                {
+                  "Key": "Humanizer.Core.nb",
+                  "Version": "2.14.1"
+                },
+                {
+                  "Key": "Humanizer.Core.nb-NO",
+                  "Version": "2.14.1"
+                },
+                {
+                  "Key": "Humanizer.Core.nl",
+                  "Version": "2.14.1"
+                },
+                {
+                  "Key": "Humanizer.Core.pl",
+                  "Version": "2.14.1"
+                },
+                {
+                  "Key": "Humanizer.Core.pt",
+                  "Version": "2.14.1"
+                },
+                {
+                  "Key": "Humanizer.Core.ro",
+                  "Version": "2.14.1"
+                },
+                {
+                  "Key": "Humanizer.Core.ru",
+                  "Version": "2.14.1"
+                },
+                {
+                  "Key": "Humanizer.Core.sk",
+                  "Version": "2.14.1"
+                },
+                {
+                  "Key": "Humanizer.Core.sl",
+                  "Version": "2.14.1"
+                },
+                {
+                  "Key": "Humanizer.Core.sr",
+                  "Version": "2.14.1"
+                },
+                {
+                  "Key": "Humanizer.Core.sr-Latn",
+                  "Version": "2.14.1"
+                },
+                {
+                  "Key": "Humanizer.Core.sv",
+                  "Version": "2.14.1"
+                },
+                {
+                  "Key": "Humanizer.Core.th-TH",
+                  "Version": "2.14.1"
+                },
+                {
+                  "Key": "Humanizer.Core.tr",
+                  "Version": "2.14.1"
+                },
+                {
+                  "Key": "Humanizer.Core.uk",
+                  "Version": "2.14.1"
+                },
+                {
+                  "Key": "Humanizer.Core.uz-Cyrl-UZ",
+                  "Version": "2.14.1"
+                },
+                {
+                  "Key": "Humanizer.Core.uz-Latn-UZ",
+                  "Version": "2.14.1"
+                },
+                {
+                  "Key": "Humanizer.Core.vi",
+                  "Version": "2.14.1"
+                },
+                {
+                  "Key": "Humanizer.Core.zh-CN",
+                  "Version": "2.14.1"
+                },
+                {
+                  "Key": "Humanizer.Core.zh-Hans",
+                  "Version": "2.14.1"
+                },
+                {
+                  "Key": "Humanizer.Core.zh-Hant",
+                  "Version": "2.14.1"
+                },
+                {
+                  "Key": "InterlockedUtils",
+                  "Version": "1.0.1"
+                },
+                {
+                  "Key": "MessagePack.Annotations",
+                  "Version": "2.5.187"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.Connections.Abstractions",
+                  "Version": "8.0.10"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.Http.Connections.Client",
+                  "Version": "8.0.10"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.Http.Connections.Common",
+                  "Version": "8.0.10"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.SignalR.Client",
+                  "Version": "8.0.10"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.SignalR.Client.Core",
+                  "Version": "8.0.10"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.SignalR.Common",
+                  "Version": "8.0.10"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.SignalR.Protocols.Json",
+                  "Version": "8.0.10"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.SignalR.Protocols.MessagePack",
+                  "Version": "8.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "8.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "8.0.2"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Features",
+                  "Version": "8.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging",
+                  "Version": "8.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "8.0.2"
+                },
+                {
+                  "Key": "Microsoft.Extensions.ObjectPool",
+                  "Version": "8.0.7"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options",
+                  "Version": "8.0.2"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Primitives",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.NET.StringTools",
+                  "Version": "17.6.3"
+                },
+                {
+                  "Key": "Microsoft.NETCore.Platforms",
+                  "Version": "5.0.0"
+                },
+                {
+                  "Key": "Microsoft.Win32.Registry",
+                  "Version": "5.0.0"
+                },
+                {
+                  "Key": "System.CodeDom",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "System.ComponentModel.Composition",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "System.IO.Pipelines",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "System.Management",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "System.Runtime.CompilerServices.Unsafe",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "System.Security.AccessControl",
+                  "Version": "5.0.0"
+                },
+                {
+                  "Key": "System.Security.Principal.Windows",
+                  "Version": "5.0.0"
+                },
+                {
+                  "Key": "System.Text.Encodings.Web",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "System.Text.Json",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "System.Threading.Channels",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "XoshiroPRNG.Net",
+                  "Version": "1.6.0"
+                },
+                {
+                  "Key": "ZString",
+                  "Version": "2.6.0"
+                },
+                {
+                  "Key": "ConfigureAwait.Fody",
+                  "Version": "3.3.2"
+                },
+                {
+                  "Key": "DnsClient",
+                  "Version": "1.8.0"
+                },
+                {
+                  "Key": "Fody",
+                  "Version": "6.8.2"
+                },
+                {
+                  "Key": "MessagePackAnalyzer",
+                  "Version": "2.5.187"
+                },
+                {
+                  "Key": "coverlet.collector",
+                  "Version": "6.0.2"
+                },
+                {
+                  "Key": "Microsoft.NET.Test.Sdk",
+                  "Version": "17.11.1"
+                },
+                {
+                  "Key": "xunit",
+                  "Version": "2.9.2"
+                },
+                {
+                  "Key": "xunit.runner.visualstudio",
+                  "Version": "2.8.2"
+                },
+                {
+                  "Key": "Microsoft.CodeCoverage",
+                  "Version": "17.11.1"
+                },
+                {
+                  "Key": "Microsoft.TestPlatform.ObjectModel",
+                  "Version": "17.11.1"
+                },
+                {
+                  "Key": "Microsoft.TestPlatform.TestHost",
+                  "Version": "17.11.1"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.1"
+                },
+                {
+                  "Key": "System.Reflection.Metadata",
+                  "Version": "1.6.0"
+                },
+                {
+                  "Key": "xunit.abstractions",
+                  "Version": "2.0.3"
+                },
+                {
+                  "Key": "xunit.analyzers",
+                  "Version": "1.16.0"
+                },
+                {
+                  "Key": "xunit.assert",
+                  "Version": "2.9.2"
+                },
+                {
+                  "Key": "xunit.core",
+                  "Version": "2.9.2"
+                },
+                {
+                  "Key": "xunit.extensibility.core",
+                  "Version": "2.9.2"
+                },
+                {
+                  "Key": "xunit.extensibility.execution",
+                  "Version": "2.9.2"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "2.1.13"
+                },
+                {
+                  "Key": "NAudio.Core",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Wasapi",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.WinMM",
+                  "Version": "2.2.1"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
@@ -26177,9 +26727,9 @@
           }
         },
         "AbsoluteRoleplay": {
-          "BuiltCommit": "d4b4ea7a59d2ced5c0c77be2c23253e628bdba37",
-          "TimeBuilt": "2024-10-30T20:47:08.9849989+00:00",
-          "EffectiveVersion": "0.0.0.6",
+          "BuiltCommit": "9395dd420bc1aca984a71a28e3ab820b99692429",
+          "TimeBuilt": "2024-10-31T06:57:14.3666933+00:00",
+          "EffectiveVersion": "0.0.0.7",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.0.1": {
@@ -26580,6 +27130,85 @@
             "0.0.0.6": {
               "TimeReleased": "2024-10-30T20:47:08.9850007+00:00",
               "Changelog": "Fixed an issue with profiles not resetting on character swap, and profiles not loading correctly in some cases Added the ability to save and load your profile locally. Fixed some scaling issues with the ui and very large dalamud ui resolutions. Finally you can delete your profile completely Be careful \u003C3",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/Ottermandias/OtterGui.git",
+                  "Version": "c2738e1d42974cddbe5a31238c6ed236a831d17d"
+                },
+                {
+                  "Key": "https://github.com/Ottermandias/OtterGuiInternal.git",
+                  "Version": "89d145286c148f6cb23ef6f7757e5f750a71e223"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "2.1.13"
+                },
+                {
+                  "Key": "Lumina",
+                  "Version": "4.1.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Hosting.Abstractions",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "System.Drawing.Common",
+                  "Version": "8.0.6"
+                },
+                {
+                  "Key": "JetBrains.Annotations",
+                  "Version": "2023.3.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Abstractions",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Diagnostics.Abstractions",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileProviders.Abstractions",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.ObjectPool",
+                  "Version": "9.0.0-preview.1.24081.5"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Primitives",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Win32.SystemEvents",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "System.Diagnostics.DiagnosticSource",
+                  "Version": "8.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            },
+            "0.0.0.7": {
+              "TimeReleased": "2024-10-31T06:57:14.3666944+00:00",
+              "Changelog": "Fixed an issue with profiles not resetting on character swap, tooltips displaying when disabled in combat, and profiles not loading correctly in some cases Added the ability to save and load your profile locally. Fixed some scaling issues with the ui and very large dalamud ui resolutions. Finally you can delete your profile completely Be careful \u003C3",
               "UsedNeeds": [
                 {
                   "Key": "https://github.com/Ottermandias/OtterGui.git",
