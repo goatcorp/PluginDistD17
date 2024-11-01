@@ -1005,11 +1005,75 @@
           "Changelogs": {}
         },
         "NoTankYou": {
-          "BuiltCommit": "0636d319b80510283e5009a3715f4bcdb27f7194",
-          "TimeBuilt": "2024-08-26T07:30:18.627",
-          "EffectiveVersion": "7.1.0.0",
+          "BuiltCommit": "752452119343147a11cfb1a16a45de8b3a8255ac",
+          "TimeBuilt": "2024-11-01T19:06:53.4738292+00:00",
+          "EffectiveVersion": "7.1.0.2",
           "MinimumVersion": null,
-          "Changelogs": {}
+          "Changelogs": {
+            "7.1.0.2": {
+              "TimeReleased": "2024-11-01T19:06:53.4738706+00:00",
+              "Changelog": "Fix Monk Warnings appearing when too low level",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiLib",
+                  "Version": "5ad86f9c8a6373f6b41dea915f0adce10373d05f"
+                },
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit.git",
+                  "Version": "69f0b57e275c7a58e031569ddf502ec62e785ed2"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "2.1.13"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "NetStone",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "HtmlAgilityPack",
+                  "Version": "1.11.46"
+                },
+                {
+                  "Key": "Karashiiro.HtmlAgilityPack.CssSelectors.NetCoreFork",
+                  "Version": "0.0.2"
+                },
+                {
+                  "Key": "Microsoft.Build.Tasks.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Common",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitHub",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitLab",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.3"
+                }
+              ],
+              "Reviewer": "philpax"
+            }
+          }
         },
         "PushyFinder": {
           "BuiltCommit": "d070a666fddeb7067129b664d84b3054720484a8",
@@ -4658,9 +4722,9 @@
           }
         },
         "Wholist": {
-          "BuiltCommit": "5a500321328299559880750a1f397f97c7591a36",
-          "TimeBuilt": "2024-10-31T06:56:35.9582792+00:00",
-          "EffectiveVersion": "1.7.0.0",
+          "BuiltCommit": "fe28de2e588ae7b8d528b3f03695a411c8db8a40",
+          "TimeBuilt": "2024-11-01T19:07:07.076481+00:00",
+          "EffectiveVersion": "1.7.0.1",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -4780,6 +4844,53 @@
                 }
               ],
               "Reviewer": "reiichi001"
+            },
+            "1.7.0.1": {
+              "TimeReleased": "2024-11-01T19:07:07.0764816+00:00",
+              "Changelog": "nofranz\r\n\r\nPurely localization fixes for some that were broken on crowdin",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/Blooym/Sirensong.git",
+                  "Version": "5accab25d21dccd1bfdf6cab870588987cb639ed"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "2.1.13"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "BitFaster.Caching",
+                  "Version": "2.4.1"
+                },
+                {
+                  "Key": "Microsoft.Build.Tasks.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Common",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitHub",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitLab",
+                  "Version": "1.1.1"
+                }
+              ],
+              "Reviewer": "philpax"
             }
           }
         },
@@ -31093,6 +31204,20 @@
       "Version": "8.0.0",
       "ReviewedBy": "reiichi001",
       "ReviewedAt": "2024-10-30T20:46:49.7712347Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/MidoriKami/KamiLib",
+      "Version": "5ad86f9c8a6373f6b41dea915f0adce10373d05f",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2024-11-01T19:06:53.5005416Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/MidoriKami/KamiToolKit.git",
+      "Version": "69f0b57e275c7a58e031569ddf502ec62e785ed2",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2024-11-01T19:06:53.5005707Z"
     }
   ]
 }
