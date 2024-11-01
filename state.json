@@ -7708,9 +7708,9 @@
           }
         },
         "TalkCopy": {
-          "BuiltCommit": "511627e1cb6562063ea795591967a2af21c19c7a",
-          "TimeBuilt": "2024-10-31T13:55:22.9167051+00:00",
-          "EffectiveVersion": "1.2.0.1",
+          "BuiltCommit": "fa896f8330eedbf5517054d853a0d1820b6f2dba",
+          "TimeBuilt": "2024-11-01T19:10:53.476851+00:00",
+          "EffectiveVersion": "1.2.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.0.1": {
@@ -7769,6 +7769,17 @@
             "1.2.0.1": {
               "TimeReleased": "2024-10-31T13:55:22.9167476+00:00",
               "Changelog": "    [1.2.0.1]\n    The outline on text elements should now be accurate.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "2.1.13"
+                }
+              ],
+              "Reviewer": "philpax"
+            },
+            "1.2.1.0": {
+              "TimeReleased": "2024-11-01T19:10:53.4768888+00:00",
+              "Changelog": "    [1.2.1.0]\n    By request it will now copy certain lists of text. (Think of the context menu for example)\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -8313,9 +8324,9 @@
           }
         },
         "UsedName": {
-          "BuiltCommit": "f63745f7e6cbd74c39d8bcadb0b2ab048a6d85d9",
-          "TimeBuilt": "2023-10-09T12:55:44.773",
-          "EffectiveVersion": "0.8.4.0",
+          "BuiltCommit": "87a35a1bcbaffbd225cc1d70deaa208a8e9acc0b",
+          "TimeBuilt": "2024-11-01T19:10:59.4191798+00:00",
+          "EffectiveVersion": "0.8.6.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.7.6.6": {
@@ -8383,6 +8394,17 @@
               "Changelog": "- Support API9\n",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "0.8.6.0": {
+              "TimeReleased": "2024-11-01T19:10:59.4191819+00:00",
+              "Changelog": "- partially support 7.0\n- Command \u0060/pname update\u0060 currently not available\n- fix cannot correct detect the type of Novice Network\n- Left-click to copy text\n- Proviod option to show CID (Default: close)\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "2.1.13"
+                }
+              ],
+              "Reviewer": "philpax"
             }
           }
         },
@@ -19016,6 +19038,25 @@
               "Reviewer": "reiichi001"
             }
           }
+        },
+        "ChatContext": {
+          "BuiltCommit": "13e5225893d908304825081c0bbd22b7a6f83c75",
+          "TimeBuilt": "2024-11-01T19:11:04.6407015+00:00",
+          "EffectiveVersion": "0.0.0.2",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "0.0.0.2": {
+              "TimeReleased": "2024-11-01T19:11:04.6407056+00:00",
+              "Changelog": "Fixed search being case sensitive",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "2.1.13"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            }
+          }
         }
       }
     },
@@ -26849,9 +26890,9 @@
           }
         },
         "AbsoluteRoleplay": {
-          "BuiltCommit": "9395dd420bc1aca984a71a28e3ab820b99692429",
-          "TimeBuilt": "2024-10-31T06:57:14.3666933+00:00",
-          "EffectiveVersion": "0.0.0.7",
+          "BuiltCommit": "af0174de3adc8d919fe1584f2e2a6133b2966bf6",
+          "TimeBuilt": "2024-11-01T19:11:20.8316899+00:00",
+          "EffectiveVersion": "0.0.0.8",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.0.1": {
@@ -27406,13 +27447,92 @@
                 }
               ],
               "Reviewer": "reiichi001"
+            },
+            "0.0.0.8": {
+              "TimeReleased": "2024-11-01T19:11:20.8316907+00:00",
+              "Changelog": "Path for aggressive personality and Lawful Evil alignment images. Lock tooltip on click player option added. Tooltip positioning added for non draggable tooltiip.",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/Ottermandias/OtterGui.git",
+                  "Version": "c2738e1d42974cddbe5a31238c6ed236a831d17d"
+                },
+                {
+                  "Key": "https://github.com/Ottermandias/OtterGuiInternal.git",
+                  "Version": "89d145286c148f6cb23ef6f7757e5f750a71e223"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "2.1.13"
+                },
+                {
+                  "Key": "Lumina",
+                  "Version": "4.1.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Hosting.Abstractions",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "System.Drawing.Common",
+                  "Version": "8.0.6"
+                },
+                {
+                  "Key": "JetBrains.Annotations",
+                  "Version": "2023.3.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Abstractions",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Diagnostics.Abstractions",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileProviders.Abstractions",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.ObjectPool",
+                  "Version": "9.0.0-preview.1.24081.5"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Primitives",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Win32.SystemEvents",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "System.Diagnostics.DiagnosticSource",
+                  "Version": "8.0.0"
+                }
+              ],
+              "Reviewer": "philpax"
             }
           }
         },
         "VoiceDirector": {
-          "BuiltCommit": "20cb6459661c9346b88b934c102d8b92d6c79ab8",
-          "TimeBuilt": "2024-10-14T19:23:23.3626775+00:00",
-          "EffectiveVersion": "1.0.0.0",
+          "BuiltCommit": "70fc1afd3c3e287ad0277d57a2d1df0812eeb3a8",
+          "TimeBuilt": "2024-11-01T19:11:10.6917182+00:00",
+          "EffectiveVersion": "1.0.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -27434,6 +27554,17 @@
                 {
                   "Key": "Microsoft.Extensions.ObjectPool",
                   "Version": "9.0.0-preview.1.24081.5"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            },
+            "1.0.1.0": {
+              "TimeReleased": "2024-11-01T19:11:10.6917187+00:00",
+              "Changelog": "Search is not case sensitive anymore",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "2.1.13"
                 }
               ],
               "Reviewer": "reiichi001"

@@ -2,7 +2,7 @@
   "Author": "Noevain",
   "Name": "Voice Director",
   "InternalName": "VoiceDirector",
-  "AssemblyVersion": "1.0.0.0",
+  "AssemblyVersion": "1.0.1.0",
   "Description": "Changes your VO language by specifying a language and an instance, your language will revert to the default when you exit. Icon designed by Leremy from Flaticon",
   "ApplicableVersion": "any",
   "Tags": [
