@@ -2,7 +2,7 @@
   "Author": "isaiahcat",
   "Name": "Quest Tracker",
   "InternalName": "QuestTracker",
-  "AssemblyVersion": "1.0.1.1",
+  "AssemblyVersion": "1.0.1.2",
   "Description": "Easily track quest completion",
   "ApplicableVersion": "any",
   "Tags": [

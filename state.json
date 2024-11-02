@@ -18966,9 +18966,9 @@
           }
         },
         "QuestTracker": {
-          "BuiltCommit": "2ed4eb1621572cebfbea5ed11212bdb88d2cee20",
-          "TimeBuilt": "2024-10-23T00:24:14.6003424+00:00",
-          "EffectiveVersion": "1.0.1.1",
+          "BuiltCommit": "dc09a186dee77431476f13b65895aa15579b3a26",
+          "TimeBuilt": "2024-11-02T19:11:49.628096+00:00",
+          "EffectiveVersion": "1.0.1.2",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.1.1": {
@@ -18981,6 +18981,17 @@
                 }
               ],
               "Reviewer": "goaaats"
+            },
+            "1.0.1.2": {
+              "TimeReleased": "2024-11-02T19:11:49.6281348+00:00",
+              "Changelog": "Update seasonal quests",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "2.1.13"
+                }
+              ],
+              "Reviewer": "philpax"
             }
           }
         },
@@ -26565,9 +26576,9 @@
           }
         },
         "QuestTracker": {
-          "BuiltCommit": "2ed4eb1621572cebfbea5ed11212bdb88d2cee20",
-          "TimeBuilt": "2024-10-23T00:24:21.9919655+00:00",
-          "EffectiveVersion": "1.0.1.1",
+          "BuiltCommit": "dc09a186dee77431476f13b65895aa15579b3a26",
+          "TimeBuilt": "2024-11-02T19:11:58.4232154+00:00",
+          "EffectiveVersion": "1.0.1.2",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -26597,6 +26608,17 @@
                 }
               ],
               "Reviewer": "goaaats"
+            },
+            "1.0.1.2": {
+              "TimeReleased": "2024-11-02T19:11:58.4232164+00:00",
+              "Changelog": "Update seasonal quests",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "2.1.13"
+                }
+              ],
+              "Reviewer": "philpax"
             }
           }
         },
