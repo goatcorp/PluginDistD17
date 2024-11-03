@@ -26983,9 +26983,9 @@
           }
         },
         "AbsoluteRoleplay": {
-          "BuiltCommit": "af0174de3adc8d919fe1584f2e2a6133b2966bf6",
-          "TimeBuilt": "2024-11-01T19:11:20.8316899+00:00",
-          "EffectiveVersion": "0.0.0.8",
+          "BuiltCommit": "37d4a9b91c08ac5f0c11e0ab25c0f7d4ccb8906a",
+          "TimeBuilt": "2024-11-03T00:29:42.6077947+00:00",
+          "EffectiveVersion": "0.0.0.9",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.0.1": {
@@ -27619,6 +27619,85 @@
                 }
               ],
               "Reviewer": "philpax"
+            },
+            "0.0.0.9": {
+              "TimeReleased": "2024-11-03T00:29:42.6078335+00:00",
+              "Changelog": "Fixed scaling for different resolutions, disabled tooltip when in gpose and moved the report button to the right side of the profile window, away from the notes button.",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/Ottermandias/OtterGui.git",
+                  "Version": "c2738e1d42974cddbe5a31238c6ed236a831d17d"
+                },
+                {
+                  "Key": "https://github.com/Ottermandias/OtterGuiInternal.git",
+                  "Version": "89d145286c148f6cb23ef6f7757e5f750a71e223"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "2.1.13"
+                },
+                {
+                  "Key": "Lumina",
+                  "Version": "4.1.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Hosting.Abstractions",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "System.Drawing.Common",
+                  "Version": "8.0.6"
+                },
+                {
+                  "Key": "JetBrains.Annotations",
+                  "Version": "2023.3.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Abstractions",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Diagnostics.Abstractions",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileProviders.Abstractions",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.ObjectPool",
+                  "Version": "9.0.0-preview.1.24081.5"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Primitives",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Win32.SystemEvents",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "System.Diagnostics.DiagnosticSource",
+                  "Version": "8.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
