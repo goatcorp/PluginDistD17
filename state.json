@@ -8104,9 +8104,9 @@
           "Changelogs": {}
         },
         "TitleEdit": {
-          "BuiltCommit": "d9e83314ee4be29e3d35c3732e48ccdb0983d96d",
-          "TimeBuilt": "2024-10-19T19:13:58.4921692+00:00",
-          "EffectiveVersion": "3.0.2.2",
+          "BuiltCommit": "e24a5ce8760a647485b572322b9e6e82a8df2c22",
+          "TimeBuilt": "2024-11-03T14:51:04.2706144+00:00",
+          "EffectiveVersion": "3.0.2.3",
           "MinimumVersion": null,
           "Changelogs": {
             "2.3.0.0": {
@@ -8288,6 +8288,45 @@
                 }
               ],
               "Reviewer": "reiichi001"
+            },
+            "3.0.2.3": {
+              "TimeReleased": "2024-11-03T14:51:04.2706528+00:00",
+              "Changelog": "- Fixed Dawntrail title screen music not playing when switching to title screen for chracter select\n- Added an option to not interrupt BGM when switching between screens with the same track (ON by default)\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "2.1.13"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.Build.Tasks.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Common",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitHub",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitLab",
+                  "Version": "1.1.1"
+                }
+              ],
+              "Reviewer": "philpax"
             }
           }
         },
@@ -18840,9 +18879,9 @@
           }
         },
         "HUDUnlimited": {
-          "BuiltCommit": "3cc894bade7eaa24ba6aacb617da03144cfcc187",
-          "TimeBuilt": "2024-10-22T02:58:56.1137358+00:00",
-          "EffectiveVersion": "1.0.0.5",
+          "BuiltCommit": "f0f492c83402605e1eaccc5f16c4f5b4ca663bcc",
+          "TimeBuilt": "2024-11-03T14:51:12.3238083+00:00",
+          "EffectiveVersion": "1.0.0.6",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.4": {
@@ -18962,6 +19001,65 @@
                 }
               ],
               "Reviewer": "reiichi001"
+            },
+            "1.0.0.6": {
+              "TimeReleased": "2024-11-03T14:51:12.3238092+00:00",
+              "Changelog": "Adds support for \u0022Embedded Addons\u0022 which are essentially little windows that are inside other windows.\r\nFor example, individual inventory sections (The 5 x 7 sections themselves) are \u0022Embedded Addons\u0022 within the \u0022Inventory\u0022 Addon.",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiLib.git",
+                  "Version": "5ad86f9c8a6373f6b41dea915f0adce10373d05f"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "2.1.13"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "NetStone",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "HtmlAgilityPack",
+                  "Version": "1.11.46"
+                },
+                {
+                  "Key": "Karashiiro.HtmlAgilityPack.CssSelectors.NetCoreFork",
+                  "Version": "0.0.2"
+                },
+                {
+                  "Key": "Microsoft.Build.Tasks.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Common",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitHub",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitLab",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.3"
+                }
+              ],
+              "Reviewer": "philpax"
             }
           }
         },
