@@ -16130,9 +16130,9 @@
           }
         },
         "PvpStats": {
-          "BuiltCommit": "c141eb72da053a849e02db8013a4d58c030ceb91",
-          "TimeBuilt": "2024-10-17T21:42:33.2540747+00:00",
-          "EffectiveVersion": "2.1.10.0",
+          "BuiltCommit": "c2f97a1c781648ad13719ebf836357ddc875ee63",
+          "TimeBuilt": "2024-11-04T19:38:50.7668199+00:00",
+          "EffectiveVersion": "2.1.11.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.2.3.2": {
@@ -16257,6 +16257,21 @@
                 }
               ],
               "Reviewer": "philpax"
+            },
+            "2.1.11.0": {
+              "TimeReleased": "2024-11-04T19:38:50.7668814+00:00",
+              "Changelog": "* Reworked and largely removed most read interlocks, which should improve performance.\r\n* Limited player tab CSV export to 100 rows at a time for performance reasons.\r\n* Increased Rival Wings match stats discard grace period from 10s to 40s after the match starts.\r\n* Fixed Crystalline Conflict KDA color scaling.\r\n* Fixed Frontline Job tab filter not persisting.\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "2.1.13"
+                },
+                {
+                  "Key": "LiteDB",
+                  "Version": "5.0.16"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
