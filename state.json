@@ -19252,6 +19252,25 @@
               "Reviewer": "reiichi001"
             }
           }
+        },
+        "AutoBGM": {
+          "BuiltCommit": "df92c1e4c9f06bec8e4915ed502660a42f52832a",
+          "TimeBuilt": "2024-11-05T13:51:04.5334236+00:00",
+          "EffectiveVersion": "1.0.0.0",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "1.0.0.0": {
+              "TimeReleased": "2024-11-05T13:51:04.533425+00:00",
+              "Changelog": "\nVersion 1.0.0.0:\n - Initial Release\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "2.1.13"
+                }
+              ],
+              "Reviewer": "philpax"
+            }
+          }
         }
       }
     },
@@ -27047,25 +27066,6 @@
             "0.0.0.1": {
               "TimeReleased": "2024-10-11T05:33:07.5759522+00:00",
               "Changelog": "Initial release, support for player character name/hp/mp, flying text for damage/buffs/debuffs, and player class/job/role actions used.",
-              "UsedNeeds": [
-                {
-                  "Key": "DalamudPackager",
-                  "Version": "2.1.13"
-                }
-              ],
-              "Reviewer": "reiichi001"
-            }
-          }
-        },
-        "AutoBGM": {
-          "BuiltCommit": "df92c1e4c9f06bec8e4915ed502660a42f52832a",
-          "TimeBuilt": "2024-10-11T05:33:13.2200145+00:00",
-          "EffectiveVersion": "1.0.0.0",
-          "MinimumVersion": null,
-          "Changelogs": {
-            "1.0.0.0": {
-              "TimeReleased": "2024-10-11T05:33:13.2200154+00:00",
-              "Changelog": "\nVersion 1.0.0.0:\n - Initial Release\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
