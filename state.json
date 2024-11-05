@@ -19553,9 +19553,9 @@
           }
         },
         "Altoholic": {
-          "BuiltCommit": "b233d0d12764b4ef0b9466a85170992e55702fb2",
-          "TimeBuilt": "2024-10-28T23:05:58.7912376+00:00",
-          "EffectiveVersion": "0.0.0.19",
+          "BuiltCommit": "215e1af167b225eb060b278e0ee6600b8f947b30",
+          "TimeBuilt": "2024-11-05T19:16:16.2272487+00:00",
+          "EffectiveVersion": "0.0.0.20",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.0.1": {
@@ -19894,6 +19894,57 @@
             "0.0.0.19": {
               "TimeReleased": "2024-10-28T23:05:58.7912793+00:00",
               "Changelog": "Version 0.0.0.19: Add Moogle Treasure Trove event rewards tab, fix retainer market listing",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "2.1.13"
+                },
+                {
+                  "Key": "Dapper",
+                  "Version": "2.1.35"
+                },
+                {
+                  "Key": "LiteDB",
+                  "Version": "5.0.21"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite",
+                  "Version": "8.0.8"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite.Core",
+                  "Version": "8.0.8"
+                },
+                {
+                  "Key": "SQLitePCLRaw.bundle_e_sqlite3",
+                  "Version": "2.1.6"
+                },
+                {
+                  "Key": "SQLitePCLRaw.core",
+                  "Version": "2.1.6"
+                },
+                {
+                  "Key": "SQLitePCLRaw.lib.e_sqlite3",
+                  "Version": "2.1.6"
+                },
+                {
+                  "Key": "SQLitePCLRaw.provider.e_sqlite3",
+                  "Version": "2.1.6"
+                },
+                {
+                  "Key": "System.Buffers",
+                  "Version": "4.5.1"
+                },
+                {
+                  "Key": "System.Memory",
+                  "Version": "4.5.3"
+                }
+              ],
+              "Reviewer": "philpax"
+            },
+            "0.0.0.20": {
+              "TimeReleased": "2024-11-05T19:16:16.2272876+00:00",
+              "Changelog": "Version 0.0.0.20: Add unlocked duty backend, current equipped facewear and ornament (not listed yet). Fix details page facewear slot. Add old moogle trove rewards",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
