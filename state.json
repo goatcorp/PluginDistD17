@@ -19271,6 +19271,25 @@
               "Reviewer": "philpax"
             }
           }
+        },
+        "ZDs": {
+          "BuiltCommit": "93e4dfccea311c33bb0317ed810461b4429ab625",
+          "TimeBuilt": "2024-11-06T21:06:00.4645282+00:00",
+          "EffectiveVersion": "1.0.0.3",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "1.0.0.3": {
+              "TimeReleased": "2024-11-06T21:06:00.4645681+00:00",
+              "Changelog": "Moved to Stable\n\n# 1.0.0.3\n- Allow whitelisting/blacklisting Sprint and Return.\n- Reset cooldowns when you wipe in a fight.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "2.1.13"
+                }
+              ],
+              "Reviewer": "philpax"
+            }
+          }
         }
       }
     },
@@ -24864,9 +24883,9 @@
           }
         },
         "ZDs": {
-          "BuiltCommit": "13b61146adaca3620fdb64b8f61d131cbbfb3b56",
-          "TimeBuilt": "2024-09-03T11:48:17.6",
-          "EffectiveVersion": "1.0.0.2",
+          "BuiltCommit": "93e4dfccea311c33bb0317ed810461b4429ab625",
+          "TimeBuilt": "2024-11-06T21:06:08.0349769+00:00",
+          "EffectiveVersion": "1.0.0.3",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -24874,6 +24893,17 @@
               "Changelog": "- Initial version of ZDs.",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "1.0.0.3": {
+              "TimeReleased": "2024-11-06T21:06:08.0349781+00:00",
+              "Changelog": "Moved to Stable\n\n# 1.0.0.3\n- Allow whitelisting/blacklisting Sprint and Return.\n- Reset cooldowns when you wipe in a fight.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "2.1.13"
+                }
+              ],
+              "Reviewer": "philpax"
             }
           }
         },
@@ -27147,9 +27177,9 @@
           }
         },
         "AbsoluteRoleplay": {
-          "BuiltCommit": "37d4a9b91c08ac5f0c11e0ab25c0f7d4ccb8906a",
-          "TimeBuilt": "2024-11-03T00:29:42.6077947+00:00",
-          "EffectiveVersion": "0.0.0.9",
+          "BuiltCommit": "84fa847bf06e1cf59b4f88e9d68516a18d30cdaf",
+          "TimeBuilt": "2024-11-06T21:06:21.9319233+00:00",
+          "EffectiveVersion": "0.0.0.10",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.0.1": {
@@ -27862,6 +27892,201 @@
                 }
               ],
               "Reviewer": "reiichi001"
+            },
+            "0.0.0.10": {
+              "TimeReleased": "2024-11-06T21:06:21.9319245+00:00",
+              "Changelog": "Fixed tooltips to finally work properly when targeting / mousing over from one target to another. Fixed 18\u002B tags issue.",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/Ottermandias/OtterGui.git",
+                  "Version": "c2738e1d42974cddbe5a31238c6ed236a831d17d"
+                },
+                {
+                  "Key": "https://github.com/Ottermandias/OtterGuiInternal.git",
+                  "Version": "89d145286c148f6cb23ef6f7757e5f750a71e223"
+                },
+                {
+                  "Key": "BenchmarkDotNet",
+                  "Version": "0.14.0"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "2.1.13"
+                },
+                {
+                  "Key": "Lumina",
+                  "Version": "4.1.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Hosting.Abstractions",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "System.Drawing.Common",
+                  "Version": "8.0.6"
+                },
+                {
+                  "Key": "BenchmarkDotNet.Annotations",
+                  "Version": "0.14.0"
+                },
+                {
+                  "Key": "CommandLineParser",
+                  "Version": "2.9.1"
+                },
+                {
+                  "Key": "Gee.External.Capstone",
+                  "Version": "2.3.0"
+                },
+                {
+                  "Key": "Iced",
+                  "Version": "1.17.0"
+                },
+                {
+                  "Key": "JetBrains.Annotations",
+                  "Version": "2023.3.0"
+                },
+                {
+                  "Key": "Microsoft.Bcl.AsyncInterfaces",
+                  "Version": "1.1.0"
+                },
+                {
+                  "Key": "Microsoft.CodeAnalysis.Analyzers",
+                  "Version": "3.3.3"
+                },
+                {
+                  "Key": "Microsoft.CodeAnalysis.Common",
+                  "Version": "4.1.0"
+                },
+                {
+                  "Key": "Microsoft.CodeAnalysis.CSharp",
+                  "Version": "4.1.0"
+                },
+                {
+                  "Key": "Microsoft.Diagnostics.NETCore.Client",
+                  "Version": "0.2.251802"
+                },
+                {
+                  "Key": "Microsoft.Diagnostics.Runtime",
+                  "Version": "2.2.332302"
+                },
+                {
+                  "Key": "Microsoft.Diagnostics.Tracing.TraceEvent",
+                  "Version": "3.1.8"
+                },
+                {
+                  "Key": "Microsoft.DotNet.PlatformAbstractions",
+                  "Version": "3.1.6"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration",
+                  "Version": "2.1.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Abstractions",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Binder",
+                  "Version": "2.1.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Diagnostics.Abstractions",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileProviders.Abstractions",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging",
+                  "Version": "2.1.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.ObjectPool",
+                  "Version": "9.0.0-preview.1.24081.5"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Primitives",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.NETCore.Platforms",
+                  "Version": "5.0.0"
+                },
+                {
+                  "Key": "Microsoft.Win32.Registry",
+                  "Version": "5.0.0"
+                },
+                {
+                  "Key": "Microsoft.Win32.SystemEvents",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Perfolizer",
+                  "Version": "0.3.17"
+                },
+                {
+                  "Key": "System.CodeDom",
+                  "Version": "5.0.0"
+                },
+                {
+                  "Key": "System.Collections.Immutable",
+                  "Version": "5.0.0"
+                },
+                {
+                  "Key": "System.Diagnostics.DiagnosticSource",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "System.Management",
+                  "Version": "5.0.0"
+                },
+                {
+                  "Key": "System.Memory",
+                  "Version": "4.5.4"
+                },
+                {
+                  "Key": "System.Reflection.Metadata",
+                  "Version": "5.0.0"
+                },
+                {
+                  "Key": "System.Runtime.CompilerServices.Unsafe",
+                  "Version": "5.0.0"
+                },
+                {
+                  "Key": "System.Security.AccessControl",
+                  "Version": "5.0.0"
+                },
+                {
+                  "Key": "System.Security.Principal.Windows",
+                  "Version": "5.0.0"
+                },
+                {
+                  "Key": "System.Text.Encoding.CodePages",
+                  "Version": "4.5.1"
+                },
+                {
+                  "Key": "System.Threading.Tasks.Extensions",
+                  "Version": "4.5.4"
+                }
+              ],
+              "Reviewer": "philpax"
             }
           }
         },
@@ -31692,6 +31917,167 @@
       "Version": "fa20f3e934f3e8d8ef29840bc2271875fd7164f9",
       "ReviewedBy": "philpax",
       "ReviewedAt": "2024-11-02T01:28:55.6510833Z"
+    },
+    {
+      "Type": 1,
+      "Key": "BenchmarkDotNet",
+      "Version": "0.14.0",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2024-11-06T21:06:21.9629643Z"
+    },
+    {
+      "Type": 1,
+      "Key": "BenchmarkDotNet.Annotations",
+      "Version": "0.14.0",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2024-11-06T21:06:21.9629965Z"
+    },
+    {
+      "Type": 1,
+      "Key": "CommandLineParser",
+      "Version": "2.9.1",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2024-11-06T21:06:21.9629967Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Gee.External.Capstone",
+      "Version": "2.3.0",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2024-11-06T21:06:21.9629967Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Iced",
+      "Version": "1.17.0",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2024-11-06T21:06:21.9629968Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Bcl.AsyncInterfaces",
+      "Version": "1.1.0",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2024-11-06T21:06:21.9629974Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.CodeAnalysis.Analyzers",
+      "Version": "3.3.3",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2024-11-06T21:06:21.9629975Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.CodeAnalysis.Common",
+      "Version": "4.1.0",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2024-11-06T21:06:21.9629976Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.CodeAnalysis.CSharp",
+      "Version": "4.1.0",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2024-11-06T21:06:21.9629977Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Diagnostics.NETCore.Client",
+      "Version": "0.2.251802",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2024-11-06T21:06:21.9629978Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Diagnostics.Runtime",
+      "Version": "2.2.332302",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2024-11-06T21:06:21.9629979Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Diagnostics.Tracing.TraceEvent",
+      "Version": "3.1.8",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2024-11-06T21:06:21.962998Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.DotNet.PlatformAbstractions",
+      "Version": "3.1.6",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2024-11-06T21:06:21.9629981Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Extensions.Configuration",
+      "Version": "2.1.1",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2024-11-06T21:06:21.9629982Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Extensions.Configuration.Binder",
+      "Version": "2.1.1",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2024-11-06T21:06:21.9629983Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Extensions.Logging",
+      "Version": "2.1.1",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2024-11-06T21:06:21.9629986Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Perfolizer",
+      "Version": "0.3.17",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2024-11-06T21:06:21.9629989Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.CodeDom",
+      "Version": "5.0.0",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2024-11-06T21:06:21.962999Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Collections.Immutable",
+      "Version": "5.0.0",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2024-11-06T21:06:21.9629992Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Management",
+      "Version": "5.0.0",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2024-11-06T21:06:21.9629993Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Memory",
+      "Version": "4.5.4",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2024-11-06T21:06:21.9629994Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Reflection.Metadata",
+      "Version": "5.0.0",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2024-11-06T21:06:21.9629995Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Text.Encoding.CodePages",
+      "Version": "4.5.1",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2024-11-06T21:06:21.9629997Z"
     }
   ]
 }
