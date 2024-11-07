@@ -8511,9 +8511,9 @@
           "Changelogs": {}
         },
         "orchestrion": {
-          "BuiltCommit": "d04afe891b149b59e8064d1aa0e99084e48f0916",
-          "TimeBuilt": "2024-07-18T06:18:48.894",
-          "EffectiveVersion": "2.2.0.7",
+          "BuiltCommit": "0dc9125e8814375f3165f61cc136bea0dabf678b",
+          "TimeBuilt": "2024-11-07T20:16:25.1109239+00:00",
+          "EffectiveVersion": "2.2.0.8",
           "MinimumVersion": null,
           "Changelogs": {
             "1.8.4.4": {
@@ -8521,6 +8521,17 @@
               "Changelog": "Fix from @hibiyasleep that prevents crashes on invalid sheet info. Added back red song names for songs that are not currently present.",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "2.2.0.8": {
+              "TimeReleased": "2024-11-07T20:16:25.1109246+00:00",
+              "Changelog": null,
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "2.1.13"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
@@ -10379,11 +10390,23 @@
           "Changelogs": {}
         },
         "Housemate": {
-          "BuiltCommit": "9c9bcd6d6d12e003350870b1be858010efbb408b",
-          "TimeBuilt": "2024-07-03T16:30:53.573",
-          "EffectiveVersion": "1.0.3.0",
+          "BuiltCommit": "08d66e7f7e0660abe5f99a2ea5cf6ae852ea2529",
+          "TimeBuilt": "2024-11-07T20:16:12.1543009+00:00",
+          "EffectiveVersion": "1.0.3.1",
           "MinimumVersion": null,
-          "Changelogs": {}
+          "Changelogs": {
+            "1.0.3.1": {
+              "TimeReleased": "2024-11-07T20:16:12.154302+00:00",
+              "Changelog": null,
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "2.1.13"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            }
+          }
         },
         "BatteryGauge": {
           "BuiltCommit": "a1b9eac798800eac55c31a1712284cd8e28a1724",
@@ -11430,11 +11453,179 @@
           }
         },
         "ResLogger2.Plugin": {
-          "BuiltCommit": "f2f7560c55f110d8dfd1257c03fea8b1e6ad37da",
-          "TimeBuilt": "2024-07-03T16:30:47.907",
-          "EffectiveVersion": "0.0.2.6",
+          "BuiltCommit": "8f02811ef188c5fabf31f300aaea8d0f413bbd39",
+          "TimeBuilt": "2024-11-07T20:16:05.838486+00:00",
+          "EffectiveVersion": "0.0.2.7",
           "MinimumVersion": null,
-          "Changelogs": {}
+          "Changelogs": {
+            "0.0.2.7": {
+              "TimeReleased": "2024-11-07T20:16:05.8384874+00:00",
+              "Changelog": null,
+              "UsedNeeds": [
+                {
+                  "Key": "Microsoft.EntityFrameworkCore.Design",
+                  "Version": "6.0.11"
+                },
+                {
+                  "Key": "Microsoft.EntityFrameworkCore.Sqlite",
+                  "Version": "6.0.11"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.1"
+                },
+                {
+                  "Key": "Npgsql.EntityFrameworkCore.PostgreSQL",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "System.IO.Hashing",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "ZiPatchLib",
+                  "Version": "2.0.0"
+                },
+                {
+                  "Key": "Humanizer.Core",
+                  "Version": "2.8.26"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite.Core",
+                  "Version": "6.0.11"
+                },
+                {
+                  "Key": "Microsoft.EntityFrameworkCore",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "Microsoft.EntityFrameworkCore.Abstractions",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "Microsoft.EntityFrameworkCore.Analyzers",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "Microsoft.EntityFrameworkCore.Relational",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "Microsoft.EntityFrameworkCore.Sqlite.Core",
+                  "Version": "6.0.11"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Caching.Abstractions",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Caching.Memory",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Abstractions",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyModel",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Primitives",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "Npgsql",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "SQLitePCLRaw.bundle_e_sqlite3",
+                  "Version": "2.0.6"
+                },
+                {
+                  "Key": "SQLitePCLRaw.core",
+                  "Version": "2.0.6"
+                },
+                {
+                  "Key": "SQLitePCLRaw.lib.e_sqlite3",
+                  "Version": "2.0.6"
+                },
+                {
+                  "Key": "SQLitePCLRaw.provider.e_sqlite3",
+                  "Version": "2.0.6"
+                },
+                {
+                  "Key": "System.Buffers",
+                  "Version": "4.5.1"
+                },
+                {
+                  "Key": "System.Memory",
+                  "Version": "4.5.4"
+                },
+                {
+                  "Key": "System.Runtime.CompilerServices.Unsafe",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "System.Text.Encodings.Web",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "System.Text.Json",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "2.1.13"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite.Core",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "SQLitePCLRaw.bundle_e_sqlite3",
+                  "Version": "2.1.2"
+                },
+                {
+                  "Key": "SQLitePCLRaw.core",
+                  "Version": "2.1.2"
+                },
+                {
+                  "Key": "SQLitePCLRaw.lib.e_sqlite3",
+                  "Version": "2.1.2"
+                },
+                {
+                  "Key": "SQLitePCLRaw.provider.e_sqlite3",
+                  "Version": "2.1.2"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            }
+          }
         },
         "CollectableCalculator": {
           "BuiltCommit": "0e02287e62f581e8ef22a6095ec2d36a61100794",
@@ -12045,11 +12236,23 @@
           "Changelogs": {}
         },
         "PrefPro": {
-          "BuiltCommit": "26a8d11451e272f37dbe29089b72c210d9697d6e",
-          "TimeBuilt": "2024-07-03T16:30:37.749",
-          "EffectiveVersion": "1.2.2.0",
+          "BuiltCommit": "b11758601ba5b5e1521f42b586bbfc91065756a0",
+          "TimeBuilt": "2024-11-07T20:16:18.0897034+00:00",
+          "EffectiveVersion": "1.2.2.1",
           "MinimumVersion": null,
-          "Changelogs": {}
+          "Changelogs": {
+            "1.2.2.1": {
+              "TimeReleased": "2024-11-07T20:16:18.0897043+00:00",
+              "Changelog": null,
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "2.1.13"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            }
+          }
         },
         "WhereAmIAgain": {
           "BuiltCommit": "ce7cb8f8d730f007926da7fe128a3a1c4a5818c2",
@@ -16805,11 +17008,27 @@
           }
         },
         "DamageInfoPlugin": {
-          "BuiltCommit": "b0591babff188cdf68bb74e61d61c9bea0280ace",
-          "TimeBuilt": "2024-10-02T16:40:23.43",
-          "EffectiveVersion": "2.4.1.0",
+          "BuiltCommit": "33c6ddee95f96b674c71668dfba003dae5b8d799",
+          "TimeBuilt": "2024-11-07T20:15:52.1304301+00:00",
+          "EffectiveVersion": "2.4.1.1",
           "MinimumVersion": null,
-          "Changelogs": {}
+          "Changelogs": {
+            "2.4.1.1": {
+              "TimeReleased": "2024-11-07T20:15:52.130471+00:00",
+              "Changelog": null,
+              "UsedNeeds": [
+                {
+                  "Key": "CsvHelper",
+                  "Version": "33.0.1"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "2.1.13"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            }
+          }
         },
         "MiniCactpotSolver": {
           "BuiltCommit": "c51af82019dcc1c7d08328d2ee9d0808fcbf9909",
@@ -32078,6 +32297,223 @@
       "Version": "4.5.1",
       "ReviewedBy": "philpax",
       "ReviewedAt": "2024-11-06T21:06:21.9629997Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.EntityFrameworkCore.Design",
+      "Version": "6.0.11",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-07T20:16:05.8585317Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.EntityFrameworkCore.Sqlite",
+      "Version": "6.0.11",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-07T20:16:05.8585665Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Npgsql.EntityFrameworkCore.PostgreSQL",
+      "Version": "7.0.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-07T20:16:05.8585669Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.IO.Hashing",
+      "Version": "7.0.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-07T20:16:05.8585671Z"
+    },
+    {
+      "Type": 1,
+      "Key": "ZiPatchLib",
+      "Version": "2.0.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-07T20:16:05.8585672Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Humanizer.Core",
+      "Version": "2.8.26",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-07T20:16:05.8585678Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Data.Sqlite.Core",
+      "Version": "6.0.11",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-07T20:16:05.858568Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.EntityFrameworkCore",
+      "Version": "7.0.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-07T20:16:05.8585682Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.EntityFrameworkCore.Abstractions",
+      "Version": "7.0.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-07T20:16:05.8585683Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.EntityFrameworkCore.Analyzers",
+      "Version": "7.0.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-07T20:16:05.8585686Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.EntityFrameworkCore.Relational",
+      "Version": "7.0.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-07T20:16:05.8585687Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.EntityFrameworkCore.Sqlite.Core",
+      "Version": "6.0.11",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-07T20:16:05.8585689Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Extensions.Caching.Abstractions",
+      "Version": "7.0.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-07T20:16:05.8585691Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Extensions.Caching.Memory",
+      "Version": "7.0.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-07T20:16:05.8585693Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Extensions.DependencyInjection",
+      "Version": "7.0.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-07T20:16:05.8585695Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+      "Version": "7.0.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-07T20:16:05.8585697Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Extensions.DependencyModel",
+      "Version": "6.0.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-07T20:16:05.8585698Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Extensions.Options",
+      "Version": "7.0.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-07T20:16:05.8585702Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Npgsql",
+      "Version": "7.0.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-07T20:16:05.8585704Z"
+    },
+    {
+      "Type": 1,
+      "Key": "SQLitePCLRaw.bundle_e_sqlite3",
+      "Version": "2.0.6",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-07T20:16:05.8585706Z"
+    },
+    {
+      "Type": 1,
+      "Key": "SQLitePCLRaw.core",
+      "Version": "2.0.6",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-07T20:16:05.8585708Z"
+    },
+    {
+      "Type": 1,
+      "Key": "SQLitePCLRaw.lib.e_sqlite3",
+      "Version": "2.0.6",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-07T20:16:05.8585709Z"
+    },
+    {
+      "Type": 1,
+      "Key": "SQLitePCLRaw.provider.e_sqlite3",
+      "Version": "2.0.6",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-07T20:16:05.8585711Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Text.Encodings.Web",
+      "Version": "6.0.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-07T20:16:05.8585716Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Text.Json",
+      "Version": "6.0.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-07T20:16:05.8585717Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Data.Sqlite",
+      "Version": "7.0.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-07T20:16:05.8585719Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Data.Sqlite.Core",
+      "Version": "7.0.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-07T20:16:05.8585719Z"
+    },
+    {
+      "Type": 1,
+      "Key": "SQLitePCLRaw.bundle_e_sqlite3",
+      "Version": "2.1.2",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-07T20:16:05.8585721Z"
+    },
+    {
+      "Type": 1,
+      "Key": "SQLitePCLRaw.core",
+      "Version": "2.1.2",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-07T20:16:05.8585721Z"
+    },
+    {
+      "Type": 1,
+      "Key": "SQLitePCLRaw.lib.e_sqlite3",
+      "Version": "2.1.2",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-07T20:16:05.8585722Z"
+    },
+    {
+      "Type": 1,
+      "Key": "SQLitePCLRaw.provider.e_sqlite3",
+      "Version": "2.1.2",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-07T20:16:05.8585724Z"
     }
   ]
 }
