@@ -374,9 +374,9 @@
           }
         },
         "Malmstone": {
-          "BuiltCommit": "86e365d62fb66baddb0481a1f0c1bbf1b7fd00f6",
-          "TimeBuilt": "2024-09-29T00:32:48.72",
-          "EffectiveVersion": "1.0.7.1",
+          "BuiltCommit": "03e77b493927d15105646aad30251ab2ab6f99c4",
+          "TimeBuilt": "2024-11-09T16:25:24.989673+00:00",
+          "EffectiveVersion": "1.0.7.2",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.7.1": {
@@ -384,6 +384,17 @@
               "Changelog": "Stable Release! This is a plugin with features that help make Series Malmstones in PVP a better experience\n",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "1.0.7.2": {
+              "TimeReleased": "2024-11-09T16:25:24.9897108+00:00",
+              "Changelog": "Bug Fix: Incorrect level shown when claiming with 2 or more extra levels (Series Malmstone 30\u002B)\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "2.1.13"
+                }
+              ],
+              "Reviewer": "philpax"
             }
           }
         },
