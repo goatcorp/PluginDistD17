@@ -16344,9 +16344,9 @@
           }
         },
         "PvpStats": {
-          "BuiltCommit": "c2f97a1c781648ad13719ebf836357ddc875ee63",
-          "TimeBuilt": "2024-11-04T19:38:50.7668199+00:00",
-          "EffectiveVersion": "2.1.11.0",
+          "BuiltCommit": "25594f4e971decfea9176070422559435d899fe0",
+          "TimeBuilt": "2024-11-09T18:35:51.6222737+00:00",
+          "EffectiveVersion": "2.1.12.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.2.3.2": {
@@ -16475,6 +16475,21 @@
             "2.1.11.0": {
               "TimeReleased": "2024-11-04T19:38:50.7668814+00:00",
               "Changelog": "* Reworked and largely removed most read interlocks, which should improve performance.\r\n* Limited player tab CSV export to 100 rows at a time for performance reasons.\r\n* Increased Rival Wings match stats discard grace period from 10s to 40s after the match starts.\r\n* Fixed Crystalline Conflict KDA color scaling.\r\n* Fixed Frontline Job tab filter not persisting.\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "2.1.13"
+                },
+                {
+                  "Key": "LiteDB",
+                  "Version": "5.0.16"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            },
+            "2.1.12.0": {
+              "TimeReleased": "2024-11-09T18:35:51.6223132+00:00",
+              "Changelog": "* Added Frontline Records tab.\r\n* Improved Crystalline Conflict Records tab refresh performance significantly.\r\n* Added \u0027By patch\u0027 as a time filter option.\r\n* Added relational options to the time filter when filtering by ranked season, expansion or patch.\r\n* Added NAND, NOR and partial match logic to the tags filter.\r\n* Added a function on the Matches to mass set tags.\r\n* Some refresh performance optimizations.\r\n* Fixed team filters not working on match details windows.\r\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
