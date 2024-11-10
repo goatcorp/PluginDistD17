@@ -13139,9 +13139,9 @@
           }
         },
         "ChatTranslated": {
-          "BuiltCommit": "c6a71f2c58a3061c9448628d504a2421d80844bb",
-          "TimeBuilt": "2024-10-22T19:20:54.7529676+00:00",
-          "EffectiveVersion": "3.3.0.3",
+          "BuiltCommit": "7f5cb903bbac636cdae44b000838c55854ccfb39",
+          "TimeBuilt": "2024-11-10T17:46:10.7605041+00:00",
+          "EffectiveVersion": "3.3.0.4",
           "MinimumVersion": null,
           "Changelogs": {
             "1.2.0.0": {
@@ -13425,6 +13425,21 @@
                 }
               ],
               "Reviewer": "reiichi001"
+            },
+            "3.3.0.4": {
+              "TimeReleased": "2024-11-10T17:46:10.7605448+00:00",
+              "Changelog": "Updated deepl translate.\r\n- (Should) improve translation quality\r\n- Fixed 400 error when using Chinese simplified and traditional as target language\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "2.1.13"
+                },
+                {
+                  "Key": "GTranslate",
+                  "Version": "2.2.8"
+                }
+              ],
+              "Reviewer": "philpax"
             }
           }
         },
