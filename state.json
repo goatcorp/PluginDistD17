@@ -18258,9 +18258,9 @@
           "Changelogs": {}
         },
         "Umbra": {
-          "BuiltCommit": "a2ce0d78b325c09a09d8ffebc524ecfa89988bee",
-          "TimeBuilt": "2024-10-23T23:24:26.1025462+00:00",
-          "EffectiveVersion": "2.2.41.0",
+          "BuiltCommit": "8bd47b4e0de7b95062340cd49eace1359f22ac19",
+          "TimeBuilt": "2024-11-10T14:49:51.4894822+00:00",
+          "EffectiveVersion": "2.2.42.0",
           "MinimumVersion": null,
           "Changelogs": {
             "2.1.8.0": {
@@ -18599,6 +18599,33 @@
             "2.2.41.0": {
               "TimeReleased": "2024-10-23T23:24:26.1025906+00:00",
               "Changelog": "# Umbra 2.2.41\n\n## Fixes \u0026 Improvements\n\n- Add support for GeneralAction and PvPQuickChat icons in macros (by [Haselnussbomber](https://github.com/Haselnussbomber)).\n- Updated German translations (by [Bloodsoul](https://github.com/Bloodsoul)).\n- Updated Chinese translations (by [LittleNightmare](https://github.com/LittleNightmare) and [DeepseaXX](https://github.com/DeepseaXX)).\n\nJoin [Umbra\u0027s Discord server](https://discord.gg/xaEnsuAhmm) for the latest updates and information.\nVisit the [website](https://una-xiv.github.io/umbra-docs/) for more information and guides on how to make the most out of Umbra.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/una-xiv/drawing.git",
+                  "Version": "f3b7a0cff3958edf7af0a3895c12652d596a113d"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "2.1.13"
+                },
+                {
+                  "Key": "SkiaSharp",
+                  "Version": "3.0.0-preview.3.1"
+                },
+                {
+                  "Key": "SkiaSharp.NativeAssets.macOS",
+                  "Version": "3.0.0-preview.3.1"
+                },
+                {
+                  "Key": "SkiaSharp.NativeAssets.Win32",
+                  "Version": "3.0.0-preview.3.1"
+                }
+              ],
+              "Reviewer": "philpax"
+            },
+            "2.2.42.0": {
+              "TimeReleased": "2024-11-10T14:49:51.4895228+00:00",
+              "Changelog": "# Umbra 2.2.42\n\n## New Additions\n\n- WorldNameWidget: Add toggleable data center label (by [Drakime](https://github.com/Drakime)).\n\nJoin [Umbra\u0027s Discord server](https://discord.gg/xaEnsuAhmm) for the latest updates and information.\nVisit the [website](https://una-xiv.github.io/umbra-docs/) for more information and guides on how to make the most out of Umbra.\n",
               "UsedNeeds": [
                 {
                   "Key": "https://github.com/una-xiv/drawing.git",
