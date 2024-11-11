@@ -27791,9 +27791,9 @@
           }
         },
         "AbsoluteRoleplay": {
-          "BuiltCommit": "84fa847bf06e1cf59b4f88e9d68516a18d30cdaf",
-          "TimeBuilt": "2024-11-06T21:06:21.9319233+00:00",
-          "EffectiveVersion": "0.0.0.10",
+          "BuiltCommit": "274af5d45db22daf7dc03fbf83c638f5c1c8d250",
+          "TimeBuilt": "2024-11-11T14:09:26.3005494+00:00",
+          "EffectiveVersion": "0.0.0.11",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.0.1": {
@@ -28510,6 +28510,201 @@
             "0.0.0.10": {
               "TimeReleased": "2024-11-06T21:06:21.9319245+00:00",
               "Changelog": "Fixed tooltips to finally work properly when targeting / mousing over from one target to another. Fixed 18\u002B tags issue.",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/Ottermandias/OtterGui.git",
+                  "Version": "c2738e1d42974cddbe5a31238c6ed236a831d17d"
+                },
+                {
+                  "Key": "https://github.com/Ottermandias/OtterGuiInternal.git",
+                  "Version": "89d145286c148f6cb23ef6f7757e5f750a71e223"
+                },
+                {
+                  "Key": "BenchmarkDotNet",
+                  "Version": "0.14.0"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "2.1.13"
+                },
+                {
+                  "Key": "Lumina",
+                  "Version": "4.1.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Hosting.Abstractions",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "System.Drawing.Common",
+                  "Version": "8.0.6"
+                },
+                {
+                  "Key": "BenchmarkDotNet.Annotations",
+                  "Version": "0.14.0"
+                },
+                {
+                  "Key": "CommandLineParser",
+                  "Version": "2.9.1"
+                },
+                {
+                  "Key": "Gee.External.Capstone",
+                  "Version": "2.3.0"
+                },
+                {
+                  "Key": "Iced",
+                  "Version": "1.17.0"
+                },
+                {
+                  "Key": "JetBrains.Annotations",
+                  "Version": "2023.3.0"
+                },
+                {
+                  "Key": "Microsoft.Bcl.AsyncInterfaces",
+                  "Version": "1.1.0"
+                },
+                {
+                  "Key": "Microsoft.CodeAnalysis.Analyzers",
+                  "Version": "3.3.3"
+                },
+                {
+                  "Key": "Microsoft.CodeAnalysis.Common",
+                  "Version": "4.1.0"
+                },
+                {
+                  "Key": "Microsoft.CodeAnalysis.CSharp",
+                  "Version": "4.1.0"
+                },
+                {
+                  "Key": "Microsoft.Diagnostics.NETCore.Client",
+                  "Version": "0.2.251802"
+                },
+                {
+                  "Key": "Microsoft.Diagnostics.Runtime",
+                  "Version": "2.2.332302"
+                },
+                {
+                  "Key": "Microsoft.Diagnostics.Tracing.TraceEvent",
+                  "Version": "3.1.8"
+                },
+                {
+                  "Key": "Microsoft.DotNet.PlatformAbstractions",
+                  "Version": "3.1.6"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration",
+                  "Version": "2.1.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Abstractions",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Binder",
+                  "Version": "2.1.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Diagnostics.Abstractions",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileProviders.Abstractions",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging",
+                  "Version": "2.1.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.ObjectPool",
+                  "Version": "9.0.0-preview.1.24081.5"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Primitives",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.NETCore.Platforms",
+                  "Version": "5.0.0"
+                },
+                {
+                  "Key": "Microsoft.Win32.Registry",
+                  "Version": "5.0.0"
+                },
+                {
+                  "Key": "Microsoft.Win32.SystemEvents",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Perfolizer",
+                  "Version": "0.3.17"
+                },
+                {
+                  "Key": "System.CodeDom",
+                  "Version": "5.0.0"
+                },
+                {
+                  "Key": "System.Collections.Immutable",
+                  "Version": "5.0.0"
+                },
+                {
+                  "Key": "System.Diagnostics.DiagnosticSource",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "System.Management",
+                  "Version": "5.0.0"
+                },
+                {
+                  "Key": "System.Memory",
+                  "Version": "4.5.4"
+                },
+                {
+                  "Key": "System.Reflection.Metadata",
+                  "Version": "5.0.0"
+                },
+                {
+                  "Key": "System.Runtime.CompilerServices.Unsafe",
+                  "Version": "5.0.0"
+                },
+                {
+                  "Key": "System.Security.AccessControl",
+                  "Version": "5.0.0"
+                },
+                {
+                  "Key": "System.Security.Principal.Windows",
+                  "Version": "5.0.0"
+                },
+                {
+                  "Key": "System.Text.Encoding.CodePages",
+                  "Version": "4.5.1"
+                },
+                {
+                  "Key": "System.Threading.Tasks.Extensions",
+                  "Version": "4.5.4"
+                }
+              ],
+              "Reviewer": "philpax"
+            },
+            "0.0.0.11": {
+              "TimeReleased": "2024-11-11T14:09:26.3005878+00:00",
+              "Changelog": "Added modifiable tooltips to images for author credits and so on. Added the ability to lock tooltips when targeting a player even when draggable. Removed fields from target profiles when they are empty. Set the default value of alignment and personality to none..",
               "UsedNeeds": [
                 {
                   "Key": "https://github.com/Ottermandias/OtterGui.git",
