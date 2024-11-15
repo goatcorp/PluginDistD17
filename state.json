@@ -18191,9 +18191,9 @@
           }
         },
         "BlueMageHelper": {
-          "BuiltCommit": "b8939294bcc3760918824815475a8982b38930af",
-          "TimeBuilt": "2024-07-02T04:36:31.693",
-          "EffectiveVersion": "3.0.2.0",
+          "BuiltCommit": "6ae51c120692285ff04ee2b3184109bf87818487",
+          "TimeBuilt": "2024-11-15T20:56:22.6459057+00:00",
+          "EffectiveVersion": "3.0.2.5",
           "MinimumVersion": null,
           "Changelogs": {
             "2.0.2.0": {
@@ -18237,6 +18237,17 @@
               "Changelog": "\u002B Added Teleport support (requires teleport plugin)\n\u002B Finished adding all additional locations\n\u002B Added About tab into the config\n",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "3.0.2.5": {
+              "TimeReleased": "2024-11-15T20:56:22.6459473+00:00",
+              "Changelog": "nofranz",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
