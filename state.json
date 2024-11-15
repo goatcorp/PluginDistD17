@@ -12761,9 +12761,9 @@
           "Changelogs": {}
         },
         "SubmarineTracker": {
-          "BuiltCommit": "48f5edadb0fad3b65d6cdcc2e04d715d64588668",
-          "TimeBuilt": "2024-10-14T19:16:55.6928806+00:00",
-          "EffectiveVersion": "1.9.3.3",
+          "BuiltCommit": "dbb22eb794093b63d5953238622b540ab4d83acf",
+          "TimeBuilt": "2024-11-15T21:07:05.3511709+00:00",
+          "EffectiveVersion": "1.9.3.5",
           "MinimumVersion": null,
           "Changelogs": {
             "1.1.0.0": {
@@ -13412,6 +13412,133 @@
                 {
                   "Key": "SQLitePCLRaw.provider.e_sqlite3",
                   "Version": "2.1.6"
+                },
+                {
+                  "Key": "supabase-core",
+                  "Version": "0.0.3"
+                },
+                {
+                  "Key": "supabase-storage-csharp",
+                  "Version": "1.4.0"
+                },
+                {
+                  "Key": "System.IdentityModel.Tokens.Jwt",
+                  "Version": "7.0.3"
+                },
+                {
+                  "Key": "System.Memory",
+                  "Version": "4.5.3"
+                },
+                {
+                  "Key": "System.Reactive",
+                  "Version": "5.0.0"
+                },
+                {
+                  "Key": "System.Threading.Channels",
+                  "Version": "5.0.0"
+                },
+                {
+                  "Key": "Websocket.Client",
+                  "Version": "4.6.1"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            },
+            "1.9.3.5": {
+              "TimeReleased": "2024-11-15T21:07:05.3512228+00:00",
+              "Changelog": "- Fix incorrect rank being used for leveling tab\r\n- Submarine cache got replaced by a simple calculation, this should prevent cache related errors",
+              "UsedNeeds": [
+                {
+                  "Key": "CsvHelper",
+                  "Version": "33.0.1"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "MessagePack",
+                  "Version": "3.0.238-rc.1"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "supabase-csharp",
+                  "Version": "0.16.2"
+                },
+                {
+                  "Key": "functions-csharp",
+                  "Version": "1.3.2"
+                },
+                {
+                  "Key": "gotrue-csharp",
+                  "Version": "4.2.7"
+                },
+                {
+                  "Key": "MessagePack.Annotations",
+                  "Version": "3.0.238-rc.1"
+                },
+                {
+                  "Key": "MessagePackAnalyzer",
+                  "Version": "3.0.238-rc.1"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite.Core",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "Microsoft.IdentityModel.Abstractions",
+                  "Version": "7.0.3"
+                },
+                {
+                  "Key": "Microsoft.IdentityModel.JsonWebTokens",
+                  "Version": "7.0.3"
+                },
+                {
+                  "Key": "Microsoft.IdentityModel.Logging",
+                  "Version": "7.0.3"
+                },
+                {
+                  "Key": "Microsoft.IdentityModel.Tokens",
+                  "Version": "7.0.3"
+                },
+                {
+                  "Key": "Microsoft.NET.StringTools",
+                  "Version": "17.11.4"
+                },
+                {
+                  "Key": "MimeMapping",
+                  "Version": "2.0.0"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.3"
+                },
+                {
+                  "Key": "postgrest-csharp",
+                  "Version": "3.5.1"
+                },
+                {
+                  "Key": "realtime-csharp",
+                  "Version": "6.0.4"
+                },
+                {
+                  "Key": "SQLitePCLRaw.bundle_e_sqlite3",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.core",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.lib.e_sqlite3",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.provider.e_sqlite3",
+                  "Version": "2.1.10"
                 },
                 {
                   "Key": "supabase-core",
@@ -33932,6 +34059,90 @@
       "Version": "3.1.0",
       "ReviewedBy": "reiichi001",
       "ReviewedAt": "2024-11-15T20:37:13.2167918Z"
+    },
+    {
+      "Type": 1,
+      "Key": "MessagePack",
+      "Version": "3.0.238-rc.1",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-15T21:07:05.3896512Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Data.Sqlite",
+      "Version": "9.0.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-15T21:07:05.3896801Z"
+    },
+    {
+      "Type": 1,
+      "Key": "supabase-csharp",
+      "Version": "0.16.2",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-15T21:07:05.3896803Z"
+    },
+    {
+      "Type": 1,
+      "Key": "gotrue-csharp",
+      "Version": "4.2.7",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-15T21:07:05.3896806Z"
+    },
+    {
+      "Type": 1,
+      "Key": "MessagePack.Annotations",
+      "Version": "3.0.238-rc.1",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-15T21:07:05.3896808Z"
+    },
+    {
+      "Type": 1,
+      "Key": "MessagePackAnalyzer",
+      "Version": "3.0.238-rc.1",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-15T21:07:05.3896992Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Data.Sqlite.Core",
+      "Version": "9.0.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-15T21:07:05.3896995Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.NET.StringTools",
+      "Version": "17.11.4",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-15T21:07:05.3897002Z"
+    },
+    {
+      "Type": 1,
+      "Key": "SQLitePCLRaw.bundle_e_sqlite3",
+      "Version": "2.1.10",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-15T21:07:05.3897008Z"
+    },
+    {
+      "Type": 1,
+      "Key": "SQLitePCLRaw.core",
+      "Version": "2.1.10",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-15T21:07:05.3897011Z"
+    },
+    {
+      "Type": 1,
+      "Key": "SQLitePCLRaw.lib.e_sqlite3",
+      "Version": "2.1.10",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-15T21:07:05.3897012Z"
+    },
+    {
+      "Type": 1,
+      "Key": "SQLitePCLRaw.provider.e_sqlite3",
+      "Version": "2.1.10",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-15T21:07:05.3897015Z"
     }
   ]
 }
