@@ -410,9 +410,9 @@
           }
         },
         "EmoteLog": {
-          "BuiltCommit": "dde908b1254bb165748bc92b6aeb9d9b6468817a",
-          "TimeBuilt": "2024-07-01T19:31:33.837",
-          "EffectiveVersion": "1.1.3.0",
+          "BuiltCommit": "d3fc4dfac4e92ad230da9fc0f4b185264f52decd",
+          "TimeBuilt": "2024-11-15T19:56:31.5440702+00:00",
+          "EffectiveVersion": "1.1.3.1",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -450,6 +450,17 @@
               "Changelog": "- Dawntrail baby\n",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "1.1.3.1": {
+              "TimeReleased": "2024-11-15T19:56:31.544108+00:00",
+              "Changelog": "- Update for 7.1\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
