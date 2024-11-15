@@ -5393,9 +5393,9 @@
           }
         },
         "LogogramHelper": {
-          "BuiltCommit": "268805ff851d2d17eb5a4ddf14c20964cfb63ead",
-          "TimeBuilt": "2024-07-02T09:22:06.758",
-          "EffectiveVersion": "0.0.3.2",
+          "BuiltCommit": "5e4068c5df2e63163b4967d853c7765f65d23538",
+          "TimeBuilt": "2024-11-15T20:12:53.4918341+00:00",
+          "EffectiveVersion": "0.0.3.3",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.1.8": {
@@ -5445,6 +5445,17 @@
               "Changelog": "- Update for 7.0\n",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "0.0.3.3": {
+              "TimeReleased": "2024-11-15T20:12:53.491835+00:00",
+              "Changelog": "- Update for 7.1\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
@@ -9224,11 +9235,51 @@
           }
         },
         "cl_showpos": {
-          "BuiltCommit": "4aa06a05a1e3b2ebd5ed5f431a5dd6334e99572a",
-          "TimeBuilt": "2024-07-01T18:13:29.626",
-          "EffectiveVersion": "1.1.0.2",
+          "BuiltCommit": "d2a893b6093809dc48617164645d1b5c2ec99ad9",
+          "TimeBuilt": "2024-11-15T20:12:47.0257394+00:00",
+          "EffectiveVersion": "1.1.0.3",
           "MinimumVersion": null,
-          "Changelogs": {}
+          "Changelogs": {
+            "1.1.0.3": {
+              "TimeReleased": "2024-11-15T20:12:47.02574+00:00",
+              "Changelog": "- Updated for Patch 7.1/Dalamud API 11/Lumina 5",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.Build.Tasks.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Common",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitHub",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitLab",
+                  "Version": "1.1.1"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            }
+          }
         },
         "Namingway": {
           "BuiltCommit": "15019245ce4b3ba744eeb2cf7c3a9bf9fd3a021a",
@@ -10515,9 +10566,9 @@
           "Changelogs": {}
         },
         "borderless-fix": {
-          "BuiltCommit": "b2576205c0a8955e27fc34579f7e18f08a141150",
-          "TimeBuilt": "2024-07-02T19:33:08.096",
-          "EffectiveVersion": "0.0.0.4",
+          "BuiltCommit": "52f63b4897a81850f3d1e722b617f9672fba808f",
+          "TimeBuilt": "2024-11-15T20:12:39.4516314+00:00",
+          "EffectiveVersion": "0.0.0.5",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.0.3": {
@@ -10531,6 +10582,17 @@
               "Changelog": "Update for API 10",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "0.0.0.5": {
+              "TimeReleased": "2024-11-15T20:12:39.4516322+00:00",
+              "Changelog": "Update for API 11",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
@@ -11137,9 +11199,9 @@
           }
         },
         "Hunty": {
-          "BuiltCommit": "ddcdfab4eddd67345da5b36a4f38723c8371c615",
-          "TimeBuilt": "2024-07-02T04:37:27.894",
-          "EffectiveVersion": "1.3.1.0",
+          "BuiltCommit": "9858ae3959fe2e0dd9a5517573dc160e5cd1ba0f",
+          "TimeBuilt": "2024-11-15T20:12:19.0663249+00:00",
+          "EffectiveVersion": "1.3.1.1",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -11225,6 +11287,17 @@
               "Changelog": "nofranz\n",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "1.3.1.1": {
+              "TimeReleased": "2024-11-15T20:12:19.066364+00:00",
+              "Changelog": "nofranz",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
@@ -16316,9 +16389,9 @@
           }
         },
         "StanleyParableXiv": {
-          "BuiltCommit": "e14e7cd19e966a9f594abdb4d1ce2557eb2b4de2",
-          "TimeBuilt": "2024-07-15T23:18:14.022",
-          "EffectiveVersion": "3.0.0.0",
+          "BuiltCommit": "7729ac8771f4acb83e7488e3d63d84faa2b0bfc3",
+          "TimeBuilt": "2024-11-15T20:12:32.8072034+00:00",
+          "EffectiveVersion": "3.1.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.3.0.0": {
@@ -16344,6 +16417,57 @@
               "Changelog": "- Update to API 10\n- Modified AFK event to reflect the player\u0027s AFK status\n",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "3.1.0.0": {
+              "TimeReleased": "2024-11-15T20:12:32.8072043+00:00",
+              "Changelog": "- Update to API 11\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "NAudio",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "Microsoft.NETCore.Platforms",
+                  "Version": "3.1.0"
+                },
+                {
+                  "Key": "Microsoft.Win32.Registry",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "NAudio.Asio",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Core",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Midi",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Wasapi",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.WinMM",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "System.Security.AccessControl",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "System.Security.Principal.Windows",
+                  "Version": "4.7.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
@@ -18319,9 +18443,9 @@
           "Changelogs": {}
         },
         "EnemyListDebuffs": {
-          "BuiltCommit": "eb91aa54f40bb4f0d82b3abed04f06afe5c86538",
-          "TimeBuilt": "2024-09-01T14:01:03.852",
-          "EffectiveVersion": "0.4.0.3",
+          "BuiltCommit": "2869c6e4ae0342c13a9d0dd10561abdf264fd56a",
+          "TimeBuilt": "2024-11-15T20:13:00.0724298+00:00",
+          "EffectiveVersion": "1.11.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.3.6.0": {
@@ -18359,6 +18483,17 @@
               "Changelog": "Made the configuration window resizable",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "1.11.0.0": {
+              "TimeReleased": "2024-11-15T20:13:00.0724304+00:00",
+              "Changelog": "7.1 Update",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
