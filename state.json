@@ -5452,9 +5452,9 @@
           }
         },
         "FaderPlugin": {
-          "BuiltCommit": "8a33e8df008d79edf787eb55acc4828ac01d6572",
-          "TimeBuilt": "2024-07-03T14:49:24.296",
-          "EffectiveVersion": "2.6.2.2",
+          "BuiltCommit": "43bcf295a2188fc97f220da779288dd7a74aae36",
+          "TimeBuilt": "2024-11-15T19:52:24.2530789+00:00",
+          "EffectiveVersion": "2.6.2.5",
           "MinimumVersion": null,
           "Changelogs": {
             "2.3.0.0": {
@@ -5504,6 +5504,17 @@
               "Changelog": "Release v2.6.0.0\n- Added new state \u0027InSanctuary\u0027 (e.g Cities, Aetheryte Villages)\n- Better ChatFocus handling, Chat should stop disappearing while scrolling through it (by WesBosch)\n",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "2.6.2.5": {
+              "TimeReleased": "2024-11-15T19:52:24.2531198+00:00",
+              "Changelog": "nofranz",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
