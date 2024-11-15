@@ -4143,9 +4143,9 @@
           }
         },
         "ChatProximity": {
-          "BuiltCommit": "f1c2402a147df2a83ad4da39425cfc2f1dc1209d",
-          "TimeBuilt": "2024-10-01T18:50:52.674",
-          "EffectiveVersion": "1.1.1.0",
+          "BuiltCommit": "3ec5ff2f91a3b94b7853c05c456c63c4239765cb",
+          "TimeBuilt": "2024-11-15T19:31:31.1369573+00:00",
+          "EffectiveVersion": "1.1.2.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -4165,6 +4165,17 @@
               "Changelog": "# 1.1.1\n- Fixed config\n# 1.1.0\n- Added indoor reducer\n - This is meant to make discussion in indoor and crowded areas event more readable\n- Added some tooltip to main options\n",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "1.1.2.0": {
+              "TimeReleased": "2024-11-15T19:31:31.1369581+00:00",
+              "Changelog": "# 1.1.2\n- Bump do Dalamud API 11 (FFXIV 7.1)\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "goaaats"
             }
           }
         },
@@ -6629,9 +6640,9 @@
           }
         },
         "Eventy": {
-          "BuiltCommit": "92a6c8ca69090ad6848ed9a85f3100d91411a079",
-          "TimeBuilt": "2024-10-11T05:36:30.5141998+00:00",
-          "EffectiveVersion": "1.0.2.0",
+          "BuiltCommit": "902c673532d89f108c2a3326735f3951606ef038",
+          "TimeBuilt": "2024-11-15T19:32:54.2563457+00:00",
+          "EffectiveVersion": "1.0.2.1",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.2.0": {
@@ -6644,6 +6655,17 @@
                 }
               ],
               "Reviewer": "reiichi001"
+            },
+            "1.0.2.1": {
+              "TimeReleased": "2024-11-15T19:32:54.2563464+00:00",
+              "Changelog": "nofranz",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "goaaats"
             }
           }
         },
@@ -9890,9 +9912,9 @@
           }
         },
         "EurekaTrackerAutoPopper": {
-          "BuiltCommit": "32d60e80a296f55ab422e2023f8f4470abad22dc",
-          "TimeBuilt": "2024-07-02T04:49:52.474",
-          "EffectiveVersion": "1.5.1.0",
+          "BuiltCommit": "15befedb2e0203e91f8abef83c2c0b707a15b6e2",
+          "TimeBuilt": "2024-11-15T19:31:24.9706119+00:00",
+          "EffectiveVersion": "1.5.1.5",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.0.4": {
@@ -9996,6 +10018,17 @@
               "Changelog": "nofranz\n",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "1.5.1.5": {
+              "TimeReleased": "2024-11-15T19:31:24.9706125+00:00",
+              "Changelog": "- Prevent \u0022new tracker\u0022 button from drawing two times\r\n- Don\u0027t show bunny circle if the pos is invalid",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "goaaats"
             }
           }
         },
@@ -10252,9 +10285,9 @@
           }
         },
         "XIVWindowResizer": {
-          "BuiltCommit": "4d2b778d8f7e4e31d431912b6fbf392d1e1daf52",
-          "TimeBuilt": "2024-07-11T17:18:20.168",
-          "EffectiveVersion": "1.0.0.3",
+          "BuiltCommit": "d62d79f7f6c78c45cad60edd7f8a6cf58718151c",
+          "TimeBuilt": "2024-11-15T19:33:00.4251537+00:00",
+          "EffectiveVersion": "1.0.0.4",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.1": {
@@ -10274,6 +10307,17 @@
               "Changelog": "Updated for Dawntrail",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "1.0.0.4": {
+              "TimeReleased": "2024-11-15T19:33:00.4251546+00:00",
+              "Changelog": "Updated for 7.1",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "goaaats"
             }
           }
         },
@@ -11727,9 +11771,9 @@
           "Changelogs": {}
         },
         "FlyTextFilter": {
-          "BuiltCommit": "345a661196e8b13ab42071a59f1dbe6909362640",
-          "TimeBuilt": "2024-07-21T18:30:17.486",
-          "EffectiveVersion": "4.2.0.1",
+          "BuiltCommit": "0ac607d086713f0f5c8b59c832a1cceb03d3c4f2",
+          "TimeBuilt": "2024-11-15T19:31:39.9352062+00:00",
+          "EffectiveVersion": "4.2.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "4.1.0.3": {
@@ -11773,6 +11817,25 @@
               "Changelog": "4.1.3.1:\n   - Add a setting to help find unknown types, this is disabled by default, please go in the misc tab for more info.\n4.1.3.0:\n   - Rename types to clearer names.\n- Add an help button for the type table.",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "4.2.1.0": {
+              "TimeReleased": "2024-11-15T19:31:39.9352071+00:00",
+              "Changelog": "API 11 \u002B 7.1 update.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "StyleCop.Analyzers",
+                  "Version": "1.2.0-beta.507"
+                },
+                {
+                  "Key": "StyleCop.Analyzers.Unstable",
+                  "Version": "1.2.0.507"
+                }
+              ],
+              "Reviewer": "goaaats"
             }
           }
         },
@@ -16003,11 +16066,51 @@
           }
         },
         "WhoAmIAgain": {
-          "BuiltCommit": "636cf2ed45699b57f25c9799fb2111bdd563a640",
-          "TimeBuilt": "2024-08-19T19:12:19.268",
-          "EffectiveVersion": "1.0.0.2",
+          "BuiltCommit": "99f1e0363050bb2acbe691bb9eb71de77395a49a",
+          "TimeBuilt": "2024-11-15T19:31:09.5187361+00:00",
+          "EffectiveVersion": "1.0.0.4",
           "MinimumVersion": null,
-          "Changelogs": {}
+          "Changelogs": {
+            "1.0.0.4": {
+              "TimeReleased": "2024-11-15T19:31:09.5187741+00:00",
+              "Changelog": "API11 update",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.Build.Tasks.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Common",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitHub",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitLab",
+                  "Version": "1.1.1"
+                }
+              ],
+              "Reviewer": "goaaats"
+            }
+          }
         },
         "EasyTranslate.DalamudPlugin": {
           "BuiltCommit": "42a0f8d9f320bb2b0269a19890e7d289ec479f82",
@@ -17079,9 +17182,9 @@
           "Changelogs": {}
         },
         "Browsingway": {
-          "BuiltCommit": "cfef0284a7bfb2847c542662861fb31bde048ba6",
-          "TimeBuilt": "2024-07-02T19:30:05.173",
-          "EffectiveVersion": "1.6.2",
+          "BuiltCommit": "fde17ad94892719fbf241acfe710d95aef844e6a",
+          "TimeBuilt": "2024-11-15T19:32:46.9693317+00:00",
+          "EffectiveVersion": "1.6.3",
           "MinimumVersion": null,
           "Changelogs": {
             "1.5.1.0": {
@@ -17137,6 +17240,65 @@
               "Changelog": "- Fix local storage not working after Chromium update\n  Note: Due to encryption changes in Chromium, local storage data from previous versions will be lost.\n",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "1.6.3": {
+              "TimeReleased": "2024-11-15T19:32:46.969333+00:00",
+              "Changelog": "- Bump Chromium to 130.0.6723.70\n- Api 11 support\n",
+              "UsedNeeds": [
+                {
+                  "Key": "FlatSharp.Compiler",
+                  "Version": "7.5.1"
+                },
+                {
+                  "Key": "FlatSharp.Runtime",
+                  "Version": "7.5.1"
+                },
+                {
+                  "Key": "SharedMemory",
+                  "Version": "2.3.2"
+                },
+                {
+                  "Key": "System.Memory",
+                  "Version": "4.5.5"
+                },
+                {
+                  "Key": "System.Reflection.Emit.Lightweight",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "CefSharp.Common.NETCore",
+                  "Version": "130.1.90"
+                },
+                {
+                  "Key": "CefSharp.OffScreen.NETCore",
+                  "Version": "130.1.90"
+                },
+                {
+                  "Key": "chromiumembeddedframework.runtime",
+                  "Version": "130.1.9"
+                },
+                {
+                  "Key": "Microsoft.NETCore.Platforms",
+                  "Version": "3.1.9"
+                },
+                {
+                  "Key": "Microsoft.Win32.SystemEvents",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "System.Drawing.Common",
+                  "Version": "4.7.3"
+                },
+                {
+                  "Key": "chromiumembeddedframework.runtime.win-x64",
+                  "Version": "130.1.9"
+                }
+              ],
+              "Reviewer": "goaaats"
             }
           }
         },
@@ -18036,9 +18198,9 @@
           }
         },
         "BetterPlaytime": {
-          "BuiltCommit": "2645f5a4479b8d20670cbf26cf591fe7f02e4dca",
-          "TimeBuilt": "2024-07-02T04:35:50.992",
-          "EffectiveVersion": "1.4.1.0",
+          "BuiltCommit": "b0beb77ed82b29f4f2bcf546e4bbf131129743eb",
+          "TimeBuilt": "2024-11-15T19:31:16.731302+00:00",
+          "EffectiveVersion": "1.4.1.1",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -18106,6 +18268,17 @@
               "Changelog": "\u002B Switch to dalamud window system\n\u002B Switch from chat parsing to sig\n",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "1.4.1.1": {
+              "TimeReleased": "2024-11-15T19:31:16.7313026+00:00",
+              "Changelog": "nofranz",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "goaaats"
             }
           }
         },
@@ -18668,9 +18841,9 @@
           }
         },
         "MBHistory": {
-          "BuiltCommit": "e9e906b1661f2166c5382b5e5ada5161d156acb7",
-          "TimeBuilt": "2024-07-02T01:52:53.913",
-          "EffectiveVersion": "1.0.1.0",
+          "BuiltCommit": "9194f1ce4dee42ccfc1c7358a04ece7a4a843fdb",
+          "TimeBuilt": "2024-11-15T19:31:46.5761613+00:00",
+          "EffectiveVersion": "1.0.1.1",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -18684,6 +18857,17 @@
               "Changelog": "\u002B Stable release\n",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "1.0.1.1": {
+              "TimeReleased": "2024-11-15T19:31:46.5761623+00:00",
+              "Changelog": "nofranz",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "goaaats"
             }
           }
         },
@@ -27013,9 +27197,9 @@
           }
         },
         "VanillaHotbarExtender": {
-          "BuiltCommit": "0a3aefd0a90c1137e763eecb64a87dd376494c53",
-          "TimeBuilt": "2024-07-10T20:33:15.632",
-          "EffectiveVersion": "1.2.0.0",
+          "BuiltCommit": "379873d40ba1d5748048dff4e1829647e9f89a28",
+          "TimeBuilt": "2024-11-15T19:33:07.5341238+00:00",
+          "EffectiveVersion": "1.2.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -27047,6 +27231,17 @@
               "Changelog": "Hot bars can now be exported and imported. Thanks @CerulanLumina!",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "1.2.1.0": {
+              "TimeReleased": "2024-11-15T19:33:07.534125+00:00",
+              "Changelog": "7.1/api11",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "goaaats"
             }
           }
         },
@@ -33162,6 +33357,104 @@
       "Version": "85acc7b9864903b031e0633935815f9feae2d7cf",
       "ReviewedBy": "reiichi001",
       "ReviewedAt": "2024-11-09T18:32:36.203791Z"
+    },
+    {
+      "Type": 1,
+      "Key": "DalamudPackager",
+      "Version": "11.0.0",
+      "ReviewedBy": "goaaats",
+      "ReviewedAt": "2024-11-15T19:31:09.5510307Z"
+    },
+    {
+      "Type": 1,
+      "Key": "StyleCop.Analyzers",
+      "Version": "1.2.0-beta.507",
+      "ReviewedBy": "goaaats",
+      "ReviewedAt": "2024-11-15T19:31:39.9450933Z"
+    },
+    {
+      "Type": 1,
+      "Key": "StyleCop.Analyzers.Unstable",
+      "Version": "1.2.0.507",
+      "ReviewedBy": "goaaats",
+      "ReviewedAt": "2024-11-15T19:31:39.9450941Z"
+    },
+    {
+      "Type": 1,
+      "Key": "FlatSharp.Compiler",
+      "Version": "7.5.1",
+      "ReviewedBy": "goaaats",
+      "ReviewedAt": "2024-11-15T19:32:46.9792399Z"
+    },
+    {
+      "Type": 1,
+      "Key": "FlatSharp.Runtime",
+      "Version": "7.5.1",
+      "ReviewedBy": "goaaats",
+      "ReviewedAt": "2024-11-15T19:32:46.979241Z"
+    },
+    {
+      "Type": 1,
+      "Key": "SharedMemory",
+      "Version": "2.3.2",
+      "ReviewedBy": "goaaats",
+      "ReviewedAt": "2024-11-15T19:32:46.9792413Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Reflection.Emit.Lightweight",
+      "Version": "4.7.0",
+      "ReviewedBy": "goaaats",
+      "ReviewedAt": "2024-11-15T19:32:46.9792418Z"
+    },
+    {
+      "Type": 1,
+      "Key": "CefSharp.Common.NETCore",
+      "Version": "130.1.90",
+      "ReviewedBy": "goaaats",
+      "ReviewedAt": "2024-11-15T19:32:46.979242Z"
+    },
+    {
+      "Type": 1,
+      "Key": "CefSharp.OffScreen.NETCore",
+      "Version": "130.1.90",
+      "ReviewedBy": "goaaats",
+      "ReviewedAt": "2024-11-15T19:32:46.9792425Z"
+    },
+    {
+      "Type": 1,
+      "Key": "chromiumembeddedframework.runtime",
+      "Version": "130.1.9",
+      "ReviewedBy": "goaaats",
+      "ReviewedAt": "2024-11-15T19:32:46.9792427Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.NETCore.Platforms",
+      "Version": "3.1.9",
+      "ReviewedBy": "goaaats",
+      "ReviewedAt": "2024-11-15T19:32:46.9792427Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Win32.SystemEvents",
+      "Version": "4.7.0",
+      "ReviewedBy": "goaaats",
+      "ReviewedAt": "2024-11-15T19:32:46.9792429Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Drawing.Common",
+      "Version": "4.7.3",
+      "ReviewedBy": "goaaats",
+      "ReviewedAt": "2024-11-15T19:32:46.979244Z"
+    },
+    {
+      "Type": 1,
+      "Key": "chromiumembeddedframework.runtime.win-x64",
+      "Version": "130.1.9",
+      "ReviewedBy": "goaaats",
+      "ReviewedAt": "2024-11-15T19:32:46.9792441Z"
     }
   ]
 }
