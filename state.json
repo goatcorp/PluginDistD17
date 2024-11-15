@@ -4580,11 +4580,51 @@
           }
         },
         "Linkpearl": {
-          "BuiltCommit": "b8cfe9c26c24c9a3e265eed72191eacd251e5350",
-          "TimeBuilt": "2024-07-13T17:39:15.303",
-          "EffectiveVersion": "3.0.0.0",
+          "BuiltCommit": "2d43449b90020548bfb2683e6caee45c9fae4910",
+          "TimeBuilt": "2024-11-15T21:04:24.6649713+00:00",
+          "EffectiveVersion": "3.0.0.1",
           "MinimumVersion": null,
-          "Changelogs": {}
+          "Changelogs": {
+            "3.0.0.1": {
+              "TimeReleased": "2024-11-15T21:04:24.6650099+00:00",
+              "Changelog": "- Updated for Patch 7.1/Dalamud API 11/Lumina 5",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.Build.Tasks.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Common",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitHub",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitLab",
+                  "Version": "1.1.1"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            }
+          }
         },
         "TooltipNotes": {
           "BuiltCommit": "41ec1c46ccecde2ae7912acc7d13123374b313e5",
@@ -18529,11 +18569,23 @@
           }
         },
         "ReSanctuary": {
-          "BuiltCommit": "ae1e21926e20f7e5157798ee32e5e2a1da273f00",
-          "TimeBuilt": "2024-07-01T19:15:10.243",
-          "EffectiveVersion": "1.4.0.0",
+          "BuiltCommit": "2ec6cc3284b6f8943be13f3199ace483e96df5aa",
+          "TimeBuilt": "2024-11-15T21:04:30.6731432+00:00",
+          "EffectiveVersion": "1.4.0.1",
           "MinimumVersion": null,
-          "Changelogs": {}
+          "Changelogs": {
+            "1.4.0.1": {
+              "TimeReleased": "2024-11-15T21:04:30.6731446+00:00",
+              "Changelog": "- Updated for Patch 7.1/Dalamud API 11/Lumina 5",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            }
+          }
         },
         "EnemyListDebuffs": {
           "BuiltCommit": "2869c6e4ae0342c13a9d0dd10561abdf264fd56a",
@@ -23651,9 +23703,9 @@
           }
         },
         "BetterMountRoulette": {
-          "BuiltCommit": "efadbdad5ee70b1ba864580920b591846b8a6723",
-          "TimeBuilt": "2024-09-07T13:40:01.393",
-          "EffectiveVersion": "1.6.0.21",
+          "BuiltCommit": "d64155db6a37af69bf4111b988968d55bd914fd7",
+          "TimeBuilt": "2024-11-15T21:04:39.0464115+00:00",
+          "EffectiveVersion": "1.6.0.22",
           "MinimumVersion": null,
           "Changelogs": {
             "1.6.0.21": {
@@ -23661,6 +23713,17 @@
               "Changelog": "- Reworked the general settings page\n- Added a feature to display the mount selected by the roulette in the cast bar (also works for unmodified roulettes)\n- Added a feature to choose the cast bar display of groups being mounted via /pmount (choose normal roulette, flying roulette or display mount)\n- Made /pmount a little more lenient by allowing the mount group name to be enclosed in quotes",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "1.6.0.22": {
+              "TimeReleased": "2024-11-15T21:04:39.0464122+00:00",
+              "Changelog": "Update for 7.1/API 11",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
