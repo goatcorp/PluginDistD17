@@ -374,9 +374,9 @@
           }
         },
         "Malmstone": {
-          "BuiltCommit": "03e77b493927d15105646aad30251ab2ab6f99c4",
-          "TimeBuilt": "2024-11-09T16:25:24.989673+00:00",
-          "EffectiveVersion": "1.0.7.2",
+          "BuiltCommit": "d6c504cdf70f04b1bb18a9d50ebd16618495a472",
+          "TimeBuilt": "2024-11-15T19:49:28.3873933+00:00",
+          "EffectiveVersion": "1.0.7.3",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.7.1": {
@@ -395,6 +395,17 @@
                 }
               ],
               "Reviewer": "philpax"
+            },
+            "1.0.7.3": {
+              "TimeReleased": "2024-11-15T19:49:28.3873941+00:00",
+              "Changelog": "API11 Support. Handle resetting saved Series Level after a new PVP Season\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
@@ -4409,9 +4420,9 @@
           }
         },
         "WaymarkPresetPlugin": {
-          "BuiltCommit": "e5b04004560334d17352ec7f573d7b192a1757fa",
-          "TimeBuilt": "2024-07-04T04:55:08.087",
-          "EffectiveVersion": "1.5.2.1",
+          "BuiltCommit": "cf698698a4570cd610b994c21ae15350c3914fb6",
+          "TimeBuilt": "2024-11-15T19:49:23.0341307+00:00",
+          "EffectiveVersion": "1.5.2.5",
           "MinimumVersion": null,
           "Changelogs": {
             "1.4.3.1": {
@@ -4473,6 +4484,17 @@
               "Changelog": "nofranz\n",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "1.5.2.5": {
+              "TimeReleased": "2024-11-15T19:49:23.0341315+00:00",
+              "Changelog": "nofranz",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
@@ -11224,9 +11246,9 @@
           }
         },
         "DeathRoll": {
-          "BuiltCommit": "2e2f1a8d4324437d94affba596e72f010bae0028",
-          "TimeBuilt": "2024-08-21T12:15:15.161",
-          "EffectiveVersion": "1.5.3.0",
+          "BuiltCommit": "c2cf3c10991b1263547fc2a733d774f701ca4f58",
+          "TimeBuilt": "2024-11-15T19:49:45.6339337+00:00",
+          "EffectiveVersion": "1.5.3.5",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -11270,6 +11292,65 @@
               "Changelog": "[Blackjack]\n\u002B Split Hand now acts like a real hand\n\u002B Some cleanup\n",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "1.5.3.5": {
+              "TimeReleased": "2024-11-15T19:49:45.6339351+00:00",
+              "Changelog": "nofranz",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "NAudio.Core",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Vorbis",
+                  "Version": "1.5.0"
+                },
+                {
+                  "Key": "NAudio.Wasapi",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.WinMM",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.5"
+                },
+                {
+                  "Key": "Microsoft.NETCore.Platforms",
+                  "Version": "3.1.0"
+                },
+                {
+                  "Key": "Microsoft.Win32.Registry",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "NVorbis",
+                  "Version": "0.10.4"
+                },
+                {
+                  "Key": "System.Memory",
+                  "Version": "4.5.3"
+                },
+                {
+                  "Key": "System.Security.AccessControl",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "System.Security.Principal.Windows",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "System.ValueTuple",
+                  "Version": "4.5.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
@@ -12225,9 +12306,9 @@
           }
         },
         "DutyTracker": {
-          "BuiltCommit": "b9b40887e76bbcd62e578b1a1a8d3de9235dda54",
-          "TimeBuilt": "2024-10-04T20:12:47.058",
-          "EffectiveVersion": "1.0.2.1",
+          "BuiltCommit": "06050aaf67c2b7abcaa3dfbe841a92489c33b9ef",
+          "TimeBuilt": "2024-11-15T19:49:51.6727008+00:00",
+          "EffectiveVersion": "1.0.2.5",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -12292,6 +12373,17 @@
                 }
               ],
               "Reviewer": "bleatbot"
+            },
+            "1.0.2.5": {
+              "TimeReleased": "2024-11-15T19:49:51.6727021+00:00",
+              "Changelog": "nofranz",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
@@ -12355,9 +12447,9 @@
           }
         },
         "NamePlateDebuffs": {
-          "BuiltCommit": "cd8aae4293e3e6bded3e47666cbdfb169cdd54d5",
-          "TimeBuilt": "2024-07-17T06:19:45.586",
-          "EffectiveVersion": "1.1.0.3",
+          "BuiltCommit": "2bbc225c62a34f02a11fee20085cb4adf358483c",
+          "TimeBuilt": "2024-11-15T19:49:16.0063421+00:00",
+          "EffectiveVersion": "1.1.0.4",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -12413,6 +12505,45 @@
               "Changelog": "Nameplate Debuffs 1.1.0.3\n- Fix log error spam due to renamed field\n",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "1.1.0.4": {
+              "TimeReleased": "2024-11-15T19:49:16.006385+00:00",
+              "Changelog": "Nameplate Debuffs 1.1.0.4\n- Api 11\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.Build.Tasks.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Common",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitHub",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitLab",
+                  "Version": "1.1.1"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
@@ -18140,11 +18271,23 @@
           }
         },
         "DiademCalculator": {
-          "BuiltCommit": "d74a22c58840a864cda12131fe2646dfc45209df",
-          "TimeBuilt": "2024-07-02T04:36:26.268",
-          "EffectiveVersion": "1.1.1.0",
+          "BuiltCommit": "917010de284abb468d48e41ef7f3295b8966e05d",
+          "TimeBuilt": "2024-11-15T19:49:33.8725447+00:00",
+          "EffectiveVersion": "1.1.1.5",
           "MinimumVersion": null,
-          "Changelogs": {}
+          "Changelogs": {
+            "1.1.1.5": {
+              "TimeReleased": "2024-11-15T19:49:33.8725457+00:00",
+              "Changelog": "- Fix Achievement Mode not working",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            }
+          }
         },
         "ReSanctuary": {
           "BuiltCommit": "ae1e21926e20f7e5157798ee32e5e2a1da273f00",
