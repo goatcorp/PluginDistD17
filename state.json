@@ -7150,11 +7150,71 @@
           }
         },
         "XIVDeck.FFXIVPlugin": {
-          "BuiltCommit": "32cc7112c6dfa48d647c065c77d4a7429c8d1f6a",
-          "TimeBuilt": "2024-08-24T00:30:43.467",
-          "EffectiveVersion": "0.3.21",
+          "BuiltCommit": "fb65aaeba12e5027b3785fd609fac48d73771fde",
+          "TimeBuilt": "2024-11-15T20:37:13.1854817+00:00",
+          "EffectiveVersion": "0.3.22",
           "MinimumVersion": null,
-          "Changelogs": {}
+          "Changelogs": {
+            "0.3.22": {
+              "TimeReleased": "2024-11-15T20:37:13.1855223+00:00",
+              "Changelog": "I would normally put my usual changelog quip here, but I\u0027ve burned all of that energy on writing Dalamud status updates. So, uh, enjoy Patch 7.1 compatibility I guess!\r\n\r\n- No feature changes or fixes this patch, sorry.\r\n\r\nFull release notes and downloads are available [on the plugin GitHub](https://github.com/KazWolfe/XIVDeck/releases/tag/v0.3.22).",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "EmbedIO",
+                  "Version": "3.5.2"
+                },
+                {
+                  "Key": "JetBrains.Annotations",
+                  "Version": "2024.2.0"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.5"
+                },
+                {
+                  "Key": "Microsoft.Build.Tasks.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Common",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitHub",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitLab",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "System.ValueTuple",
+                  "Version": "4.5.0"
+                },
+                {
+                  "Key": "Unosquare.Swan.Lite",
+                  "Version": "3.1.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            }
+          }
         },
         "JustBackup": {
           "BuiltCommit": "fb3ab850d937c190c0ad2d06171c7f6859bdb59a",
@@ -16472,9 +16532,9 @@
           }
         },
         "XIVLogger": {
-          "BuiltCommit": "e4040ef1648931a7fd44d0d511dd61621f8a411e",
-          "TimeBuilt": "2024-08-28T15:54:59.96",
-          "EffectiveVersion": "1.0.7.1",
+          "BuiltCommit": "2d6a9c7049f9c710581dd301f0f0506f40d10454",
+          "TimeBuilt": "2024-11-15T20:37:20.3888105+00:00",
+          "EffectiveVersion": "1.0.7.2",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.4.2": {
@@ -16488,6 +16548,17 @@
               "Changelog": "Bumping packages and updates",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "1.0.7.2": {
+              "TimeReleased": "2024-11-15T20:37:20.3888114+00:00",
+              "Changelog": "nofranz",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
@@ -33755,6 +33826,27 @@
       "Version": "130.1.9",
       "ReviewedBy": "goaaats",
       "ReviewedAt": "2024-11-15T19:32:46.9792441Z"
+    },
+    {
+      "Type": 1,
+      "Key": "EmbedIO",
+      "Version": "3.5.2",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-15T20:37:13.2167364Z"
+    },
+    {
+      "Type": 1,
+      "Key": "JetBrains.Annotations",
+      "Version": "2024.2.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-15T20:37:13.2167902Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Unosquare.Swan.Lite",
+      "Version": "3.1.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-15T20:37:13.2167918Z"
     }
   ]
 }
