@@ -11209,9 +11209,9 @@
           }
         },
         "Stormtalons": {
-          "BuiltCommit": "1f52df0faf1b7c621985abdb0aeecf950eb58d91",
-          "TimeBuilt": "2024-07-06T01:10:48.596",
-          "EffectiveVersion": "1.1.0.4",
+          "BuiltCommit": "a124688c4bfc0e061dec12e8fcc0824dcfc62e08",
+          "TimeBuilt": "2024-11-15T20:59:44.7048893+00:00",
+          "EffectiveVersion": "1.1.0.5",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -11255,6 +11255,17 @@
               "Changelog": "Updated for 7.0 Dawntrail.",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "1.1.0.5": {
+              "TimeReleased": "2024-11-15T20:59:44.704928+00:00",
+              "Changelog": "Updated for 7.1",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
