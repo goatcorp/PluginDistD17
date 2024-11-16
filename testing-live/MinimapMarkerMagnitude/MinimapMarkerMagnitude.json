@@ -2,7 +2,7 @@
   "Author": "Cytraen",
   "Name": "Minimap Marker Magnitude",
   "InternalName": "MinimapMarkerMagnitude",
-  "AssemblyVersion": "0.1.1.0",
+  "AssemblyVersion": "0.1.2.0",
   "Description": "Changes the size of your minimap's icons.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Cytraen/MinimapMarkerMagnitude",
@@ -12,7 +12,7 @@
   "CategoryTags": [
     "Utility"
   ],
-  "DalamudApiLevel": 10,
+  "DalamudApiLevel": 11,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,

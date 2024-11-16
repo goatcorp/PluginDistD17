@@ -4447,9 +4447,9 @@
           }
         },
         "CombatCursorContainment": {
-          "BuiltCommit": "7488322e01ca5312f38bfb92e32379f23a3832c2",
-          "TimeBuilt": "2024-07-05T18:11:05.118",
-          "EffectiveVersion": "1.0.4.0",
+          "BuiltCommit": "f64e2326e6ae7c44bc2cff45630321f67b8b589a",
+          "TimeBuilt": "2024-11-16T05:20:48.8814603+00:00",
+          "EffectiveVersion": "1.0.5.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -4481,6 +4481,45 @@
               "Changelog": "- Update for 7.0\n",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "1.0.5.0": {
+              "TimeReleased": "2024-11-16T05:20:48.8814615+00:00",
+              "Changelog": "- Update for 7.1\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.Build.Tasks.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Common",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitHub",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitLab",
+                  "Version": "1.1.1"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
@@ -12384,11 +12423,27 @@
           }
         },
         "SimpleTweaksPlugin": {
-          "BuiltCommit": "6e4a02bf84aa672a6b5937d3ca9307c985f0de74",
-          "TimeBuilt": "2024-09-25T22:02:26.491",
-          "EffectiveVersion": "1.10.3.0",
+          "BuiltCommit": "3102b6f9798b8eafcab2cf94c9d555df10c65634",
+          "TimeBuilt": "2024-11-16T05:20:40.3814421+00:00",
+          "EffectiveVersion": "1.10.3.1",
           "MinimumVersion": null,
-          "Changelogs": {}
+          "Changelogs": {
+            "1.10.3.1": {
+              "TimeReleased": "2024-11-16T05:20:40.3814802+00:00",
+              "Changelog": "7.1 \u0026 API 11 Updates\r\n\r\n***New Tweaks***\r\n- **\u0060Auto Refresh Material List\u0060** - Automatically refreshes the raw material list and recipe tree windows.\r\n\r\n\r\n***Tweak Changes***\r\n- **\u0060Keep Windows Open\u0060** - Added option for \u0027Raw Material List\u0027\r\n\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "System.Numerics.Vectors",
+                  "Version": "4.6.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            }
+          }
         },
         "Dalamud.FullscreenCutscenes": {
           "BuiltCommit": "0cf8c7ed36e5c061dc64cce74b8894847e99fdd8",
@@ -26732,9 +26787,9 @@
           }
         },
         "SeatedSidekickSpectator": {
-          "BuiltCommit": "196e58b96d6bda711b1f1592bea0caba776a40bb",
-          "TimeBuilt": "2024-07-05T18:28:15.395",
-          "EffectiveVersion": "0.1.1.0",
+          "BuiltCommit": "6c1f3e71eaa97172d96809c11d892887a4d0e915",
+          "TimeBuilt": "2024-11-16T05:20:57.1941782+00:00",
+          "EffectiveVersion": "0.1.2.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.0.0": {
@@ -26748,6 +26803,45 @@
               "Changelog": "- Update for 7.0\n",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "0.1.2.0": {
+              "TimeReleased": "2024-11-16T05:20:57.194179+00:00",
+              "Changelog": "- Update for 7.1\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.Build.Tasks.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Common",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitHub",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitLab",
+                  "Version": "1.1.1"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
@@ -26993,9 +27087,9 @@
           }
         },
         "MinimapMarkerMagnitude": {
-          "BuiltCommit": "890aa96e859332b095055379ef36a93a102d11fa",
-          "TimeBuilt": "2024-07-05T18:15:23.13",
-          "EffectiveVersion": "0.1.1.0",
+          "BuiltCommit": "d95e6ab2dc9bac5ad7b0fead607ff40f02b2b000",
+          "TimeBuilt": "2024-11-16T05:21:04.4795838+00:00",
+          "EffectiveVersion": "0.1.2.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.0.0": {
@@ -27009,6 +27103,45 @@
               "Changelog": "- Update for 7.0\n",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "0.1.2.0": {
+              "TimeReleased": "2024-11-16T05:21:04.4795852+00:00",
+              "Changelog": "- Update for 7.1\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.Build.Tasks.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Common",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitHub",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitLab",
+                  "Version": "1.1.1"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
@@ -39513,6 +39646,13 @@
       "Version": "4.7.1",
       "ReviewedBy": "reiichi001",
       "ReviewedAt": "2024-11-16T03:57:30.7846545Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Numerics.Vectors",
+      "Version": "4.6.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-16T05:20:40.4144313Z"
     }
   ]
 }
