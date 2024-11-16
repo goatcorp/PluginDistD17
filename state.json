@@ -24352,9 +24352,9 @@
           }
         },
         "ChatTwo": {
-          "BuiltCommit": "9597218319c59af9c11f0ce4b0c587badbb8c5df",
-          "TimeBuilt": "2024-09-12T18:36:30.077",
-          "EffectiveVersion": "1.29.3.0",
+          "BuiltCommit": "bf27d3e85340bacbd58640f3765f94d5b23a2525",
+          "TimeBuilt": "2024-11-16T21:32:26.1514749+00:00",
+          "EffectiveVersion": "1.29.6.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.17.5.0": {
@@ -24434,6 +24434,101 @@
               "Changelog": "- Fix issue with Dalamud custom link payloads\n",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "1.29.6.0": {
+              "TimeReleased": "2024-11-16T21:32:26.1515137+00:00",
+              "Changelog": "- Implement new channel switch logic\r\n  - Tell Targets are now remembered after switching tabs\r\n\r\n7.1 Notes:\r\n- The newly added party number icons aren\u0027t supported with customs fonts right now, it will show a =\r\n- Opening quest links from chat won\u0027t work for now",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "MessagePack",
+                  "Version": "3.0.238-rc.1"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "Pidgin",
+                  "Version": "3.3.0"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.5"
+                },
+                {
+                  "Key": "Watson.Lite",
+                  "Version": "6.2.3"
+                },
+                {
+                  "Key": "CavemanTcp",
+                  "Version": "2.0.3"
+                },
+                {
+                  "Key": "IpMatcher",
+                  "Version": "1.0.4.4"
+                },
+                {
+                  "Key": "MessagePack.Annotations",
+                  "Version": "3.0.238-rc.1"
+                },
+                {
+                  "Key": "MessagePackAnalyzer",
+                  "Version": "3.0.238-rc.1"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite.Core",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "Microsoft.NET.StringTools",
+                  "Version": "17.11.4"
+                },
+                {
+                  "Key": "RegexMatcher",
+                  "Version": "1.0.8"
+                },
+                {
+                  "Key": "SQLitePCLRaw.bundle_e_sqlite3",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.core",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.lib.e_sqlite3",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.provider.e_sqlite3",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "System.Memory",
+                  "Version": "4.5.3"
+                },
+                {
+                  "Key": "System.Text.Json",
+                  "Version": "8.0.5"
+                },
+                {
+                  "Key": "Timestamps",
+                  "Version": "1.0.9"
+                },
+                {
+                  "Key": "UrlMatcher",
+                  "Version": "3.0.0"
+                },
+                {
+                  "Key": "Watson.Core",
+                  "Version": "6.2.3"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
@@ -43024,6 +43119,62 @@
       "Version": "6.1.0",
       "ReviewedBy": "reiichi001",
       "ReviewedAt": "2024-11-16T21:29:19.9391972Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Pidgin",
+      "Version": "3.3.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-16T21:32:26.1963123Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Watson.Lite",
+      "Version": "6.2.3",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-16T21:32:26.1963412Z"
+    },
+    {
+      "Type": 1,
+      "Key": "CavemanTcp",
+      "Version": "2.0.3",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-16T21:32:26.1963414Z"
+    },
+    {
+      "Type": 1,
+      "Key": "IpMatcher",
+      "Version": "1.0.4.4",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-16T21:32:26.1963416Z"
+    },
+    {
+      "Type": 1,
+      "Key": "RegexMatcher",
+      "Version": "1.0.8",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-16T21:32:26.1963422Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Timestamps",
+      "Version": "1.0.9",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-16T21:32:26.1963432Z"
+    },
+    {
+      "Type": 1,
+      "Key": "UrlMatcher",
+      "Version": "3.0.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-16T21:32:26.1963434Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Watson.Core",
+      "Version": "6.2.3",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-16T21:32:26.1963435Z"
     }
   ]
 }
