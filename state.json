@@ -18517,9 +18517,9 @@
           }
         },
         "StanleyParableXiv": {
-          "BuiltCommit": "7729ac8771f4acb83e7488e3d63d84faa2b0bfc3",
-          "TimeBuilt": "2024-11-15T20:12:32.8072034+00:00",
-          "EffectiveVersion": "3.1.0.0",
+          "BuiltCommit": "f03fda988c61b14240e0c2679a0f96aca8c5636a",
+          "TimeBuilt": "2024-11-16T01:31:44.8307695+00:00",
+          "EffectiveVersion": "3.1.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.3.0.0": {
@@ -18596,6 +18596,57 @@
                 }
               ],
               "Reviewer": "reiichi001"
+            },
+            "3.1.1.0": {
+              "TimeReleased": "2024-11-16T01:31:44.8308076+00:00",
+              "Changelog": "- Fix exception spam on first launch before login\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "NAudio",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "Microsoft.NETCore.Platforms",
+                  "Version": "3.1.0"
+                },
+                {
+                  "Key": "Microsoft.Win32.Registry",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "NAudio.Asio",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Core",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Midi",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Wasapi",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.WinMM",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "System.Security.AccessControl",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "System.Security.Principal.Windows",
+                  "Version": "4.7.0"
+                }
+              ],
+              "Reviewer": "karashiiro"
             }
           }
         },
