@@ -11823,9 +11823,9 @@
           "Changelogs": {}
         },
         "BetterPartyFinder": {
-          "BuiltCommit": "2664565dd36a8f3634860f5c1bbefbca553f019a",
-          "TimeBuilt": "2024-10-05T12:18:53.487",
-          "EffectiveVersion": "1.4.5.0",
+          "BuiltCommit": "ed2e8a6b348d8b482f87f04c24385b288cb9db28",
+          "TimeBuilt": "2024-11-16T21:07:01.9477633+00:00",
+          "EffectiveVersion": "1.4.7.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.2.6": {
@@ -11867,6 +11867,17 @@
                 }
               ],
               "Reviewer": "philpax"
+            },
+            "1.4.7.0": {
+              "TimeReleased": "2024-11-16T21:07:01.9478024+00:00",
+              "Changelog": "nofranz",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
@@ -33499,11 +33510,51 @@
           "Changelogs": {}
         },
         "CollectorsAnxiety": {
-          "BuiltCommit": "97404a827540ce80bc108a84e3ca828e2c4cc406",
-          "TimeBuilt": "2024-07-17T06:31:27.124",
-          "EffectiveVersion": "0.0.9.0",
+          "BuiltCommit": "af59b2ef022b30be1a4c16e69fa078466e8a6b19",
+          "TimeBuilt": "2024-11-16T21:07:09.5551024+00:00",
+          "EffectiveVersion": "0.0.10.0",
           "MinimumVersion": null,
-          "Changelogs": {}
+          "Changelogs": {
+            "0.0.10.0": {
+              "TimeReleased": "2024-11-16T21:07:09.5551036+00:00",
+              "Changelog": "* Move to Dalamud API 11 (support 7.1)",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.Build.Tasks.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Common",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitHub",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitLab",
+                  "Version": "1.1.1"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            }
+          }
         },
         "MapGilTracker": {
           "BuiltCommit": "7412f0c39cd6fd983cf616d3203e26aafb0d7a64",
