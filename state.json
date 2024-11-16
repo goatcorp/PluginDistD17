@@ -6178,9 +6178,9 @@
           "Changelogs": {}
         },
         "PartyPlanner": {
-          "BuiltCommit": "4097ceba2b51d078fce65d64f67a01c4b208858c",
-          "TimeBuilt": "2024-07-03T03:31:05.046",
-          "EffectiveVersion": "1.6.2.0",
+          "BuiltCommit": "3601e34723e9924afbd6a52f20d440fc1c2426fb",
+          "TimeBuilt": "2024-11-16T21:29:19.9153997+00:00",
+          "EffectiveVersion": "1.6.3.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.4.1.0": {
@@ -6242,6 +6242,49 @@
               "Changelog": "- Updated to current API.\r\n- Remember the last opened tab between game sessions.\r\n",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "1.6.3.0": {
+              "TimeReleased": "2024-11-16T21:29:19.9154004+00:00",
+              "Changelog": "- Updated to API 11.\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "GraphQL.Client",
+                  "Version": "6.1.0"
+                },
+                {
+                  "Key": "GraphQL.Client.Serializer.Newtonsoft",
+                  "Version": "6.1.0"
+                },
+                {
+                  "Key": "Humanizer.Core",
+                  "Version": "2.14.1"
+                },
+                {
+                  "Key": "GraphQL.Client.Abstractions",
+                  "Version": "6.1.0"
+                },
+                {
+                  "Key": "GraphQL.Client.Abstractions.Websocket",
+                  "Version": "6.1.0"
+                },
+                {
+                  "Key": "GraphQL.Primitives",
+                  "Version": "6.1.0"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.3"
+                },
+                {
+                  "Key": "System.Reactive",
+                  "Version": "6.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
@@ -15952,9 +15995,9 @@
           "Changelogs": {}
         },
         "SubmarineTracker": {
-          "BuiltCommit": "dbb22eb794093b63d5953238622b540ab4d83acf",
-          "TimeBuilt": "2024-11-15T21:07:05.3511709+00:00",
-          "EffectiveVersion": "1.9.3.5",
+          "BuiltCommit": "4705306db4194900a6c616d66425617522ebf46f",
+          "TimeBuilt": "2024-11-16T21:29:13.3156392+00:00",
+          "EffectiveVersion": "1.9.3.6",
           "MinimumVersion": null,
           "Changelogs": {
             "1.1.0.0": {
@@ -16638,6 +16681,133 @@
             "1.9.3.5": {
               "TimeReleased": "2024-11-15T21:07:05.3512228+00:00",
               "Changelog": "- Fix incorrect rank being used for leveling tab\r\n- Submarine cache got replaced by a simple calculation, this should prevent cache related errors",
+              "UsedNeeds": [
+                {
+                  "Key": "CsvHelper",
+                  "Version": "33.0.1"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "MessagePack",
+                  "Version": "3.0.238-rc.1"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "supabase-csharp",
+                  "Version": "0.16.2"
+                },
+                {
+                  "Key": "functions-csharp",
+                  "Version": "1.3.2"
+                },
+                {
+                  "Key": "gotrue-csharp",
+                  "Version": "4.2.7"
+                },
+                {
+                  "Key": "MessagePack.Annotations",
+                  "Version": "3.0.238-rc.1"
+                },
+                {
+                  "Key": "MessagePackAnalyzer",
+                  "Version": "3.0.238-rc.1"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite.Core",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "Microsoft.IdentityModel.Abstractions",
+                  "Version": "7.0.3"
+                },
+                {
+                  "Key": "Microsoft.IdentityModel.JsonWebTokens",
+                  "Version": "7.0.3"
+                },
+                {
+                  "Key": "Microsoft.IdentityModel.Logging",
+                  "Version": "7.0.3"
+                },
+                {
+                  "Key": "Microsoft.IdentityModel.Tokens",
+                  "Version": "7.0.3"
+                },
+                {
+                  "Key": "Microsoft.NET.StringTools",
+                  "Version": "17.11.4"
+                },
+                {
+                  "Key": "MimeMapping",
+                  "Version": "2.0.0"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.3"
+                },
+                {
+                  "Key": "postgrest-csharp",
+                  "Version": "3.5.1"
+                },
+                {
+                  "Key": "realtime-csharp",
+                  "Version": "6.0.4"
+                },
+                {
+                  "Key": "SQLitePCLRaw.bundle_e_sqlite3",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.core",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.lib.e_sqlite3",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.provider.e_sqlite3",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "supabase-core",
+                  "Version": "0.0.3"
+                },
+                {
+                  "Key": "supabase-storage-csharp",
+                  "Version": "1.4.0"
+                },
+                {
+                  "Key": "System.IdentityModel.Tokens.Jwt",
+                  "Version": "7.0.3"
+                },
+                {
+                  "Key": "System.Memory",
+                  "Version": "4.5.3"
+                },
+                {
+                  "Key": "System.Reactive",
+                  "Version": "5.0.0"
+                },
+                {
+                  "Key": "System.Threading.Channels",
+                  "Version": "5.0.0"
+                },
+                {
+                  "Key": "Websocket.Client",
+                  "Version": "4.6.1"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            },
+            "1.9.3.6": {
+              "TimeReleased": "2024-11-16T21:29:13.3156807+00:00",
+              "Changelog": "- Actually call the migration code that i had written 2 months ago ...\r\n  - Sorry peeps who had to reorder their FCs after the 1.9.2.7 update",
               "UsedNeeds": [
                 {
                   "Key": "CsvHelper",
@@ -42819,6 +42989,41 @@
       "Version": "8ba88eff15326bb28ed5e6157f5252c114d40b5f",
       "ReviewedBy": "reiichi001",
       "ReviewedAt": "2024-11-16T21:26:29.2666776Z"
+    },
+    {
+      "Type": 1,
+      "Key": "GraphQL.Client",
+      "Version": "6.1.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-16T21:29:19.9391641Z"
+    },
+    {
+      "Type": 1,
+      "Key": "GraphQL.Client.Serializer.Newtonsoft",
+      "Version": "6.1.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-16T21:29:19.9391966Z"
+    },
+    {
+      "Type": 1,
+      "Key": "GraphQL.Client.Abstractions",
+      "Version": "6.1.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-16T21:29:19.9391968Z"
+    },
+    {
+      "Type": 1,
+      "Key": "GraphQL.Client.Abstractions.Websocket",
+      "Version": "6.1.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-16T21:29:19.9391971Z"
+    },
+    {
+      "Type": 1,
+      "Key": "GraphQL.Primitives",
+      "Version": "6.1.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-16T21:29:19.9391972Z"
     }
   ]
 }
