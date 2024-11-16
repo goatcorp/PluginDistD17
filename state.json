@@ -1038,9 +1038,9 @@
           "Changelogs": {}
         },
         "NoTankYou": {
-          "BuiltCommit": "752452119343147a11cfb1a16a45de8b3a8255ac",
-          "TimeBuilt": "2024-11-01T19:06:53.4738292+00:00",
-          "EffectiveVersion": "7.1.0.2",
+          "BuiltCommit": "0cc852f1af1f5cfc3a4bea8c79e0a837d9db4e8c",
+          "TimeBuilt": "2024-11-16T00:32:57.8477907+00:00",
+          "EffectiveVersion": "7.2.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "7.1.0.2": {
@@ -1105,6 +1105,73 @@
                 }
               ],
               "Reviewer": "philpax"
+            },
+            "7.2.0.0": {
+              "TimeReleased": "2024-11-16T00:32:57.8478287+00:00",
+              "Changelog": "API11\r\n\r\nI expect moderate issues, party list overlay doesn\u0027t work as of this moment.\r\nSome of these issues will fix themselves as the dalamud team updates dependent libraries.",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiLib",
+                  "Version": "427d7919b1f5a154daf6815216086604f804f1b5"
+                },
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit.git",
+                  "Version": "8027b76b17f649ccd379e14598858d60dd6a9d42"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "2.1.13"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "NetStone",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "HtmlAgilityPack",
+                  "Version": "1.11.46"
+                },
+                {
+                  "Key": "Karashiiro.HtmlAgilityPack.CssSelectors.NetCoreFork",
+                  "Version": "0.0.2"
+                },
+                {
+                  "Key": "Microsoft.Build.Tasks.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Common",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitHub",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitLab",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.3"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "goaaats"
             }
           }
         },
@@ -34405,6 +34472,20 @@
       "Version": "5.3.0",
       "ReviewedBy": "goaaats",
       "ReviewedAt": "2024-11-15T23:56:46.3481036Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/MidoriKami/KamiLib",
+      "Version": "427d7919b1f5a154daf6815216086604f804f1b5",
+      "ReviewedBy": "goaaats",
+      "ReviewedAt": "2024-11-16T00:32:57.8975217Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/MidoriKami/KamiToolKit.git",
+      "Version": "8027b76b17f649ccd379e14598858d60dd6a9d42",
+      "ReviewedBy": "goaaats",
+      "ReviewedAt": "2024-11-16T00:32:57.8975503Z"
     }
   ]
 }
