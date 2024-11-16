@@ -9316,9 +9316,9 @@
           }
         },
         "GearsetHelperPlugin": {
-          "BuiltCommit": "b39aead334bd9140b38438a444e79b706d9362f4",
-          "TimeBuilt": "2024-07-09T04:17:45.432",
-          "EffectiveVersion": "2.4.0.0",
+          "BuiltCommit": "6a85a6c2e86529695bf62c8a64977e52aa5dc6a7",
+          "TimeBuilt": "2024-11-16T06:38:00.7134906+00:00",
+          "EffectiveVersion": "2.5.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "2.2.1.0": {
@@ -9338,6 +9338,17 @@
               "Changelog": "- Added GCD tier calculations.\n- Added support for exporting gearsets to XivGear.app\n- Added tool-tips to various icon buttons.\n- Fixed exporting Pictomancer and Viper gearsets to Ariyala.\n",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "2.5.0.0": {
+              "TimeReleased": "2024-11-16T06:38:00.7135291+00:00",
+              "Changelog": "Update for 7.1 and Dalamud API 11.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
