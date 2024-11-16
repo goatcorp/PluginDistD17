@@ -14423,9 +14423,9 @@
           }
         },
         "CrossUp": {
-          "BuiltCommit": "817a5435e7190e333046fb46089eac0c7d3a5daf",
-          "TimeBuilt": "2024-07-03T14:13:26.045",
-          "EffectiveVersion": "1.7.0.4",
+          "BuiltCommit": "52d4f1ef21c4e6da393c300d2c4bb2b63e23a843",
+          "TimeBuilt": "2024-11-16T07:22:32.3037447+00:00",
+          "EffectiveVersion": "1.7.0.6",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -14487,6 +14487,17 @@
               "Changelog": "An issue with loading the plugin appears to have been resolved by a recent Dalamud update. This update reverts a temporary fix that was made in 1.7.0.3.\r\n",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "1.7.0.6": {
+              "TimeReleased": "2024-11-16T07:22:32.3037844+00:00",
+              "Changelog": "- Updated for 7.1\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
