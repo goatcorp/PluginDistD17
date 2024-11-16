@@ -12532,9 +12532,9 @@
           }
         },
         "MarketBoardPlugin": {
-          "BuiltCommit": "4864123224a95ca0a687a13757d3cfad84db056c",
-          "TimeBuilt": "2024-07-28T19:16:46.02",
-          "EffectiveVersion": "1.8.0.0",
+          "BuiltCommit": "7b4288160555d65dd798cbb54fa3a7a100f4df57",
+          "TimeBuilt": "2024-11-16T06:24:26.8211355+00:00",
+          "EffectiveVersion": "1.9.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -12644,6 +12644,77 @@
               "Changelog": "- Limit the listing count and make it and the history count configurable",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "1.9.0.0": {
+              "TimeReleased": "2024-11-16T06:24:26.8211756+00:00",
+              "Changelog": "- Update to API 11",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/Ottermandias/OtterGui.git",
+                  "Version": "8ba88eff15326bb28ed5e6157f5252c114d40b5f"
+                },
+                {
+                  "Key": "https://github.com/Ottermandias/OtterGuiInternal.git",
+                  "Version": "8e144c54022bc7d30f993a8c496ad390764f884f"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Polly.Core",
+                  "Version": "8.5.0"
+                },
+                {
+                  "Key": "StyleCop.Analyzers",
+                  "Version": "1.2.0-beta.556"
+                },
+                {
+                  "Key": "JetBrains.Annotations",
+                  "Version": "2024.2.0"
+                },
+                {
+                  "Key": "Microsoft.Build.Tasks.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Common",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitHub",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitLab",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "StyleCop.Analyzers.Unstable",
+                  "Version": "1.2.0.556"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
@@ -32354,9 +32425,9 @@
           }
         },
         "MarketBoardPlugin": {
-          "BuiltCommit": "2d3f6af753599dfab06901659cb24a1bf3535637",
-          "TimeBuilt": "2024-07-14T23:08:52.68",
-          "EffectiveVersion": "1.7.1.0",
+          "BuiltCommit": "7b4288160555d65dd798cbb54fa3a7a100f4df57",
+          "TimeBuilt": "2024-11-16T06:24:42.1284003+00:00",
+          "EffectiveVersion": "1.9.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.3.3.0": {
@@ -32376,6 +32447,77 @@
               "Changelog": "- Refactor Universalis code to make it more resilient",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "1.9.0.0": {
+              "TimeReleased": "2024-11-16T06:24:42.1284015+00:00",
+              "Changelog": "- Update to API 11",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/Ottermandias/OtterGui.git",
+                  "Version": "8ba88eff15326bb28ed5e6157f5252c114d40b5f"
+                },
+                {
+                  "Key": "https://github.com/Ottermandias/OtterGuiInternal.git",
+                  "Version": "8e144c54022bc7d30f993a8c496ad390764f884f"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Polly.Core",
+                  "Version": "8.5.0"
+                },
+                {
+                  "Key": "StyleCop.Analyzers",
+                  "Version": "1.2.0-beta.556"
+                },
+                {
+                  "Key": "JetBrains.Annotations",
+                  "Version": "2024.2.0"
+                },
+                {
+                  "Key": "Microsoft.Build.Tasks.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Common",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitHub",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitLab",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "StyleCop.Analyzers.Unstable",
+                  "Version": "1.2.0.556"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
@@ -39809,6 +39951,27 @@
       "Version": "3.0.0",
       "ReviewedBy": "reiichi001",
       "ReviewedAt": "2024-11-16T06:21:27.6129531Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/Ottermandias/OtterGui.git",
+      "Version": "8ba88eff15326bb28ed5e6157f5252c114d40b5f",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-16T06:24:26.8564949Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/Ottermandias/OtterGuiInternal.git",
+      "Version": "8e144c54022bc7d30f993a8c496ad390764f884f",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-16T06:24:26.8565207Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Polly.Core",
+      "Version": "8.5.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-16T06:24:26.8565213Z"
     }
   ]
 }
