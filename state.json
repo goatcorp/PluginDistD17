@@ -5735,9 +5735,9 @@
           }
         },
         "Visibility": {
-          "BuiltCommit": "650eb77b41cc08c2f30fd5c4bf03cd2df978d4fe",
-          "TimeBuilt": "2024-10-27T20:21:05.3856119+00:00",
-          "EffectiveVersion": "1.1.8.1",
+          "BuiltCommit": "2fe7047d5c4d4345811eaf3de98764967ef6466d",
+          "TimeBuilt": "2024-11-16T00:40:07.7897774+00:00",
+          "EffectiveVersion": "1.1.8.2",
           "MinimumVersion": null,
           "Changelogs": {
             "1.1.3.6": {
@@ -5834,6 +5834,17 @@
                 }
               ],
               "Reviewer": "goaaats"
+            },
+            "1.1.8.2": {
+              "TimeReleased": "2024-11-16T00:40:07.7898187+00:00",
+              "Changelog": "- Updated plugin for 7.1",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "karashiiro"
             }
           }
         },
@@ -7127,11 +7138,79 @@
           }
         },
         "DailyDuty": {
-          "BuiltCommit": "8a4af9c5cf565768975ce01fb52b08da7ed327d5",
-          "TimeBuilt": "2024-09-02T09:12:49.575",
-          "EffectiveVersion": "5.1.0.5",
+          "BuiltCommit": "f544d493b7864f4ed796d6ff52b6032139b2fbfc",
+          "TimeBuilt": "2024-11-16T00:40:30.2595843+00:00",
+          "EffectiveVersion": "5.2.0.0",
           "MinimumVersion": null,
-          "Changelogs": {}
+          "Changelogs": {
+            "5.2.0.0": {
+              "TimeReleased": "2024-11-16T00:40:30.2595859+00:00",
+              "Changelog": "API11\r\n\r\nI expect some minor issues with this one in the GUI.\r\nI expect Wondrous Tails to be outdated/not include new duties.\r\nI do not expect any issues with the overlays.\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiLib",
+                  "Version": "427d7919b1f5a154daf6815216086604f804f1b5"
+                },
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit.git",
+                  "Version": "8027b76b17f649ccd379e14598858d60dd6a9d42"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "2.1.13"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "NetStone",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "HtmlAgilityPack",
+                  "Version": "1.11.46"
+                },
+                {
+                  "Key": "Karashiiro.HtmlAgilityPack.CssSelectors.NetCoreFork",
+                  "Version": "0.0.2"
+                },
+                {
+                  "Key": "Microsoft.Build.Tasks.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Common",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitHub",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitLab",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.3"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            }
+          }
         },
         "MagitekStratagem": {
           "BuiltCommit": "7141c03646135158204d0bd4284fcd5a857baece",
@@ -9843,11 +9922,55 @@
           }
         },
         "OfDungeonsDeep": {
-          "BuiltCommit": "2b37f7e94bf6538219a5bfe4040493b371daf00d",
-          "TimeBuilt": "2024-08-11T20:10:00.549",
-          "EffectiveVersion": "1.0.1.0",
+          "BuiltCommit": "479217ba5048498d317f370ca4efc77f84c12768",
+          "TimeBuilt": "2024-11-16T00:40:48.2457963+00:00",
+          "EffectiveVersion": "1.0.2.0",
           "MinimumVersion": null,
-          "Changelogs": {}
+          "Changelogs": {
+            "1.0.2.0": {
+              "TimeReleased": "2024-11-16T00:40:48.2457981+00:00",
+              "Changelog": "### Of Dungeons Deep v1.0.2.0\n-# API11 / 7.1\n",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/NotNite/compendium.git",
+                  "Version": "0795e0ea94f1ef2b4c1409ac31917cea7be784d3"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.Build.Tasks.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Common",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitHub",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitLab",
+                  "Version": "1.1.1"
+                }
+              ],
+              "Reviewer": "karashiiro"
+            }
+          }
         },
         "WhoDidThat": {
           "BuiltCommit": "8cf8903aba1e2997fe9b170be71ff5fe9d047801",
@@ -18755,9 +18878,9 @@
           }
         },
         "ChillFrames": {
-          "BuiltCommit": "d81b1ebe947a061526d4e0c960e6cc79e03877d8",
-          "TimeBuilt": "2024-07-02T04:35:44.593",
-          "EffectiveVersion": "3.0.0.0",
+          "BuiltCommit": "90091b262de644861a5676cabc539498e65f323e",
+          "TimeBuilt": "2024-11-16T00:40:20.3941313+00:00",
+          "EffectiveVersion": "3.1.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.5.0.2": {
@@ -18783,6 +18906,69 @@
               "Changelog": "Added Island Sanctuary",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "3.1.0.0": {
+              "TimeReleased": "2024-11-16T00:40:20.3941319+00:00",
+              "Changelog": "API11\r\n\r\nI expect no issues with this one.",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiLib",
+                  "Version": "427d7919b1f5a154daf6815216086604f804f1b5"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "2.1.13"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "NetStone",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "HtmlAgilityPack",
+                  "Version": "1.11.46"
+                },
+                {
+                  "Key": "Karashiiro.HtmlAgilityPack.CssSelectors.NetCoreFork",
+                  "Version": "0.0.2"
+                },
+                {
+                  "Key": "Microsoft.Build.Tasks.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Common",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitHub",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitLab",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.3"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
@@ -20173,9 +20359,9 @@
           }
         },
         "HUDUnlimited": {
-          "BuiltCommit": "f0f492c83402605e1eaccc5f16c4f5b4ca663bcc",
-          "TimeBuilt": "2024-11-03T14:51:12.3238083+00:00",
-          "EffectiveVersion": "1.0.0.6",
+          "BuiltCommit": "5a72efd7d9fd8f6562f2d288287d403357356e22",
+          "TimeBuilt": "2024-11-16T00:40:55.5429183+00:00",
+          "EffectiveVersion": "1.1.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.4": {
@@ -20354,6 +20540,69 @@
                 }
               ],
               "Reviewer": "philpax"
+            },
+            "1.1.0.0": {
+              "TimeReleased": "2024-11-16T00:40:55.5429189+00:00",
+              "Changelog": "API11\r\n\r\nI expect no issues.",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiLib.git",
+                  "Version": "427d7919b1f5a154daf6815216086604f804f1b5"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "2.1.13"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "NetStone",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "HtmlAgilityPack",
+                  "Version": "1.11.46"
+                },
+                {
+                  "Key": "Karashiiro.HtmlAgilityPack.CssSelectors.NetCoreFork",
+                  "Version": "0.0.2"
+                },
+                {
+                  "Key": "Microsoft.Build.Tasks.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Common",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitHub",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitLab",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.3"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "goaaats"
             }
           }
         },
@@ -34486,6 +34735,20 @@
       "Version": "8027b76b17f649ccd379e14598858d60dd6a9d42",
       "ReviewedBy": "goaaats",
       "ReviewedAt": "2024-11-16T00:32:57.8975503Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/NotNite/compendium.git",
+      "Version": "0795e0ea94f1ef2b4c1409ac31917cea7be784d3",
+      "ReviewedBy": "karashiiro",
+      "ReviewedAt": "2024-11-16T00:40:48.2570817Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/MidoriKami/KamiLib.git",
+      "Version": "427d7919b1f5a154daf6815216086604f804f1b5",
+      "ReviewedBy": "goaaats",
+      "ReviewedAt": "2024-11-16T00:40:55.5528531Z"
     }
   ]
 }
