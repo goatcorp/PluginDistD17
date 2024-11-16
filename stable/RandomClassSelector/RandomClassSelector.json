@@ -2,7 +2,7 @@
   "Author": "Aida Enna",
   "Name": "Random Class Selector",
   "InternalName": "RandomClassSelector",
-  "AssemblyVersion": "1.0.0.2",
+  "AssemblyVersion": "1.0.0.3",
   "Description": "Allows you to select a random class to do dailies/etc on.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Aida-Enna/RandomClassSelector",
@@ -11,7 +11,7 @@
     "class",
     "aida"
   ],
-  "DalamudApiLevel": 10,
+  "DalamudApiLevel": 11,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
@@ -20,5 +20,5 @@
   "Punchline": "Can't decide what class to work on today? Let the plugin decide for you!",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
-  "_Dip17Channel": "testing-live"
+  "_Dip17Channel": "stable"
 }
