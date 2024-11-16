@@ -2,14 +2,14 @@
   "Author": "Tischel",
   "Name": "DelvCD",
   "InternalName": "DelvCD",
-  "AssemblyVersion": "1.1.1.0",
+  "AssemblyVersion": "1.2.0.0",
   "Description": "DelvCD provides highly customizable UI elements that can be used to track cooldows, status and more with configurable conditions.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/DelvUI/DelvCD",
   "Tags": [
     "UI"
   ],
-  "DalamudApiLevel": 10,
+  "DalamudApiLevel": 11,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
