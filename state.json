@@ -347,11 +347,27 @@
           }
         },
         "HarpHero": {
-          "BuiltCommit": "60c29a5b7f54675c5d0a2333a2a2a33a78e66765",
-          "TimeBuilt": "2024-07-03T02:54:12.472",
-          "EffectiveVersion": "1.10.0.0",
+          "BuiltCommit": "2a46d296f94fb955131a93323aadd653658ade5e",
+          "TimeBuilt": "2024-11-16T06:09:23.7993811+00:00",
+          "EffectiveVersion": "1.11.0.0",
           "MinimumVersion": null,
-          "Changelogs": {}
+          "Changelogs": {
+            "1.11.0.0": {
+              "TimeReleased": "2024-11-16T06:09:23.7993819+00:00",
+              "Changelog": "Updated to 7.1 / api11",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "Melanchall.DryWetMidi",
+                  "Version": "5.2.1"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            }
+          }
         },
         "ScoutHelper": {
           "BuiltCommit": "7db3022906da598c98c53c604ba21cd4c40f9ce5",
@@ -11163,11 +11179,23 @@
           }
         },
         "PatMe": {
-          "BuiltCommit": "42385a92d1a9c3f043f35128ee68dc623cfc6a20",
-          "TimeBuilt": "2024-07-18T05:11:09.004",
-          "EffectiveVersion": "1.10.1.0",
+          "BuiltCommit": "82d77bad6c877e0cea14e53e108bfb1fa3d0e6de",
+          "TimeBuilt": "2024-11-16T06:09:28.7987909+00:00",
+          "EffectiveVersion": "1.11.0.0",
           "MinimumVersion": null,
-          "Changelogs": {}
+          "Changelogs": {
+            "1.11.0.0": {
+              "TimeReleased": "2024-11-16T06:09:28.7987918+00:00",
+              "Changelog": "Updated to 7.1 / api11",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            }
+          }
         },
         "HybridCamera": {
           "BuiltCommit": "ff9414f0115acebc6f43e997f4dc152c8f73cd63",
@@ -13233,9 +13261,9 @@
           }
         },
         "Weatherman": {
-          "BuiltCommit": "0785f705b9c48a31fb1290466cd013ecd0dab506",
-          "TimeBuilt": "2024-07-05T03:30:49.568",
-          "EffectiveVersion": "2.4.1.0",
+          "BuiltCommit": "39e34ffc3f2f5631d4a79d3b6015575b298308d2",
+          "TimeBuilt": "2024-11-16T06:09:07.7223923+00:00",
+          "EffectiveVersion": "2.4.1.1",
           "MinimumVersion": null,
           "Changelogs": {
             "2.4.0.6": {
@@ -13243,6 +13271,21 @@
               "Changelog": ".NET 6 update",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "2.4.1.1": {
+              "TimeReleased": "2024-11-16T06:09:07.7223944+00:00",
+              "Changelog": "- Update for 7.1, no functional changes",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/NightmareXIV/ECommons",
+                  "Version": "b99ba7a861300164b9b293b2bbbd510af0cda8a2"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
@@ -13411,11 +13454,27 @@
           }
         },
         "TriadBuddy": {
-          "BuiltCommit": "ba65cd6e0ed02fc5b9125d7dc882c594f4a188f5",
-          "TimeBuilt": "2024-07-15T16:29:13.872",
-          "EffectiveVersion": "1.10.0.1",
+          "BuiltCommit": "eb6b0a3a28be6f6eead3931c94e9c4d974f1211f",
+          "TimeBuilt": "2024-11-16T06:08:57.1861975+00:00",
+          "EffectiveVersion": "1.11.0.0",
           "MinimumVersion": null,
-          "Changelogs": {}
+          "Changelogs": {
+            "1.11.0.0": {
+              "TimeReleased": "2024-11-16T06:08:57.186237+00:00",
+              "Changelog": "Updated to 7.1 / api11",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MgAl2O4/FFTriadBuddy.git",
+                  "Version": "85c2c4476a30f316bfb1ba5c0343cba5b584e371"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            }
+          }
         },
         "ChatTyper": {
           "BuiltCommit": "6895b35a82f889a9a61e6120702d4c28dfbfda62",
@@ -14327,11 +14386,27 @@
           }
         },
         "DelvUI": {
-          "BuiltCommit": "d9146d051774d61163fb627112b1c9f86f3d6538",
-          "TimeBuilt": "2024-08-15T18:53:09.409",
-          "EffectiveVersion": "2.2.1.2",
+          "BuiltCommit": "193e55313814e526ca4c8fd94cc6cdc051d3ea6f",
+          "TimeBuilt": "2024-11-16T06:09:17.4963442+00:00",
+          "EffectiveVersion": "2.3.0.0",
           "MinimumVersion": null,
-          "Changelogs": {}
+          "Changelogs": {
+            "2.3.0.0": {
+              "TimeReleased": "2024-11-16T06:09:17.4963453+00:00",
+              "Changelog": "- Added support for Patch 7.1 and Dalamud API 11.",
+              "UsedNeeds": [
+                {
+                  "Key": "Colourful",
+                  "Version": "3.1.0"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            }
+          }
         },
         "AvantGarde": {
           "BuiltCommit": "b2d7fc445e5336e5a62f9dd01b86ee1b8e37fb06",
@@ -39653,6 +39728,27 @@
       "Version": "4.6.0",
       "ReviewedBy": "reiichi001",
       "ReviewedAt": "2024-11-16T05:20:40.4144313Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/MgAl2O4/FFTriadBuddy.git",
+      "Version": "85c2c4476a30f316bfb1ba5c0343cba5b584e371",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-16T06:08:57.2193193Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Colourful",
+      "Version": "3.1.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-16T06:09:17.5190929Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Melanchall.DryWetMidi",
+      "Version": "5.2.1",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-16T06:09:23.8096325Z"
     }
   ]
 }
