@@ -2,7 +2,7 @@
   "Author": "MidoriKami, cas-c",
   "Name": "Where am I again?",
   "InternalName": "WhereAmIAgain",
-  "AssemblyVersion": "2.0.0.1",
+  "AssemblyVersion": "2.1.0.0",
   "Description": "Shows what zone/region/territory you are in up in the corner next to the server and time info. Open config with /waia.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/cas-c/WhereAmIAgain",
@@ -17,7 +17,7 @@
   "CategoryTags": [
     "UI"
   ],
-  "DalamudApiLevel": 10,
+  "DalamudApiLevel": 11,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,

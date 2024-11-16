@@ -2,7 +2,7 @@
   "Author": "MidoriKami",
   "Name": "SortaKinda",
   "InternalName": "SortaKinda",
-  "AssemblyVersion": "2.0.0.5",
+  "AssemblyVersion": "2.1.0.0",
   "Description": "Sort your inventory however you want and keep it sorted.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/MidoriKami/SortaKinda",
@@ -13,7 +13,7 @@
     "Utility",
     "Other"
   ],
-  "DalamudApiLevel": 10,
+  "DalamudApiLevel": 11,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
