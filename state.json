@@ -27974,9 +27974,9 @@
           "Changelogs": {}
         },
         "CrossUp": {
-          "BuiltCommit": "9fc8ec21b6e29a0232296558251c74ff82972344",
-          "TimeBuilt": "2023-10-21T02:39:06.64",
-          "EffectiveVersion": "1.0.1.5",
+          "BuiltCommit": "52d4f1ef21c4e6da393c300d2c4bb2b63e23a843",
+          "TimeBuilt": "2024-11-16T06:12:40.8284004+00:00",
+          "EffectiveVersion": "1.7.0.6",
           "MinimumVersion": null,
           "Changelogs": {
             "0.3.3.2": {
@@ -28020,6 +28020,17 @@
               "Changelog": "- The \u0022Fade Outside Combat\u0022 feature will now also consider crafting, gathering, and fishing to be forms of combat, and keep the bars visible while engaging in such pastimes.\n- Implemented a fix to prevent icons from briefly flashing white when switching bars with cooldowns ticking.\n",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "1.7.0.6": {
+              "TimeReleased": "2024-11-16T06:12:40.8284393+00:00",
+              "Changelog": "- Updated for 7.1\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
