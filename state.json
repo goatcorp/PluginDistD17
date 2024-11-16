@@ -20537,9 +20537,9 @@
           }
         },
         "WTSync": {
-          "BuiltCommit": "6324438f3fb2391e3fd453cf13582f8da95b8bca",
-          "TimeBuilt": "2024-09-05T19:53:04.244",
-          "EffectiveVersion": "0.11.0.0",
+          "BuiltCommit": "deadd14776689544d69391e48bb3b7b8300cedbf",
+          "TimeBuilt": "2024-11-16T06:21:27.5804305+00:00",
+          "EffectiveVersion": "0.12.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.11.0.0": {
@@ -20547,6 +20547,41 @@
               "Changelog": "This is the first stable channel release of WTSync, a new plugin that makes it easier to do Wondrous Tails together with other players.\n\nThere have been no changes since the latest testing release.\n",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "0.12.0.0": {
+              "TimeReleased": "2024-11-16T06:21:27.5804711+00:00",
+              "Changelog": "* 7.1 Changes \u002B Dalamud API11\n\n* Added a feature to select a random duty from the list of matching duties when clicking an entry in WTSync, rather than just going through them in order. Hopefully that makes reclears slightly more interesting, especially with the newer broader categories.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "Websocket.Client",
+                  "Version": "5.1.2"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.IO.RecyclableMemoryStream",
+                  "Version": "3.0.0"
+                },
+                {
+                  "Key": "System.Reactive",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "System.Threading.Channels",
+                  "Version": "8.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
@@ -39760,6 +39795,20 @@
       "Version": "5.2.1",
       "ReviewedBy": "reiichi001",
       "ReviewedAt": "2024-11-16T06:09:23.8096325Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Websocket.Client",
+      "Version": "5.1.2",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-16T06:21:27.6129239Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.IO.RecyclableMemoryStream",
+      "Version": "3.0.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-16T06:21:27.6129531Z"
     }
   ]
 }
