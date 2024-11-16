@@ -20474,9 +20474,9 @@
           }
         },
         "NoSoliciting": {
-          "BuiltCommit": "887da5d575e1aaffc0f4c5d9aed7f3ee4fd64ca3",
-          "TimeBuilt": "2024-07-03T13:45:15.13",
-          "EffectiveVersion": "3.1.0.0",
+          "BuiltCommit": "b7da1784294ac303a43183472c920bf8eff45be3",
+          "TimeBuilt": "2024-11-16T03:57:30.7350978+00:00",
+          "EffectiveVersion": "3.1.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "3.0.3": {
@@ -20508,6 +20508,101 @@
               "Changelog": "- API 9\n",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "3.1.1.0": {
+              "TimeReleased": "2024-11-16T03:57:30.7351364+00:00",
+              "Changelog": "Update for api11.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "Fody",
+                  "Version": "6.8.0"
+                },
+                {
+                  "Key": "Microsoft.ML",
+                  "Version": "2.0.1"
+                },
+                {
+                  "Key": "Resourcer.Fody",
+                  "Version": "1.8.1"
+                },
+                {
+                  "Key": "YamlDotNet",
+                  "Version": "13.4.0"
+                },
+                {
+                  "Key": "Microsoft.ML.CpuMath",
+                  "Version": "2.0.1"
+                },
+                {
+                  "Key": "Microsoft.ML.DataView",
+                  "Version": "2.0.1"
+                },
+                {
+                  "Key": "Microsoft.NETCore.Platforms",
+                  "Version": "1.1.0"
+                },
+                {
+                  "Key": "Microsoft.NETCore.Targets",
+                  "Version": "1.1.0"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.1"
+                },
+                {
+                  "Key": "System.CodeDom",
+                  "Version": "4.5.0"
+                },
+                {
+                  "Key": "System.Collections.Immutable",
+                  "Version": "1.5.0"
+                },
+                {
+                  "Key": "System.IO",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Memory",
+                  "Version": "4.5.3"
+                },
+                {
+                  "Key": "System.Reflection",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Reflection.Emit.ILGeneration",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Reflection.Emit.Lightweight",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Reflection.Primitives",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Runtime",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Text.Encoding",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Threading.Channels",
+                  "Version": "4.7.1"
+                },
+                {
+                  "Key": "System.Threading.Tasks",
+                  "Version": "4.3.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
@@ -39362,6 +39457,62 @@
       "Version": "2.5.192",
       "ReviewedBy": "reiichi001",
       "ReviewedAt": "2024-11-16T03:44:28.391732Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Fody",
+      "Version": "6.8.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-16T03:57:30.7846252Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.ML",
+      "Version": "2.0.1",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-16T03:57:30.7846519Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Resourcer.Fody",
+      "Version": "1.8.1",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-16T03:57:30.784652Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.ML.CpuMath",
+      "Version": "2.0.1",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-16T03:57:30.7846527Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.ML.DataView",
+      "Version": "2.0.1",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-16T03:57:30.7846529Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.CodeDom",
+      "Version": "4.5.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-16T03:57:30.7846536Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Collections.Immutable",
+      "Version": "1.5.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-16T03:57:30.7846536Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Threading.Channels",
+      "Version": "4.7.1",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-16T03:57:30.7846545Z"
     }
   ]
 }
