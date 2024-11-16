@@ -8288,9 +8288,9 @@
           "Changelogs": {}
         },
         "FCNameColor": {
-          "BuiltCommit": "bda9fd3d0696e9f50407f1dc2e8ad658260a5843",
-          "TimeBuilt": "2024-08-03T03:38:59.537",
-          "EffectiveVersion": "5.0.1.0",
+          "BuiltCommit": "4c3c1f70b96512644ddb62724a11e2e1d602bffe",
+          "TimeBuilt": "2024-11-16T21:02:17.8785286+00:00",
+          "EffectiveVersion": "5.0.2.0",
           "MinimumVersion": null,
           "Changelogs": {
             "3.0.0.1": {
@@ -8370,6 +8370,41 @@
               "Changelog": "- Fixed issue where players without titles would show as having an empty title if the \u0022Only color FC tag\u0022 option is enabled\n- Updated error handling for the rest of FCNC to continue working if the character can\u0027t be found on Lodestone due to them being new or set to private\n",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "5.0.2.0": {
+              "TimeReleased": "2024-11-16T21:02:17.8785308+00:00",
+              "Changelog": "- Update for 7.1\n",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/xivapi/NetStone.git",
+                  "Version": "4d21f40497f701d6fe1afb433bbcb565f2b3544a"
+                },
+                {
+                  "Key": "https://github.com/google/flatbuffers.git",
+                  "Version": "354d97f6da18cbbdeddfcdd2d5aebf1bcc57a092"
+                },
+                {
+                  "Key": "https://github.com/karashiiro/lodestone-data-exports",
+                  "Version": "4fb0d3a47f6e653aac1d156f1c8fe7730fb7c2cf"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "HtmlAgilityPack",
+                  "Version": "1.11.46"
+                },
+                {
+                  "Key": "Karashiiro.HtmlAgilityPack.CssSelectors.NetCoreFork",
+                  "Version": "0.0.2"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.3"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
@@ -13019,14 +13054,29 @@
           }
         },
         "SimpleTweaksPlugin": {
-          "BuiltCommit": "3102b6f9798b8eafcab2cf94c9d555df10c65634",
-          "TimeBuilt": "2024-11-16T05:20:40.3814421+00:00",
-          "EffectiveVersion": "1.10.3.1",
+          "BuiltCommit": "c5287634658b65cdf23b1233546b033f7cbde3bd",
+          "TimeBuilt": "2024-11-16T21:02:03.5218881+00:00",
+          "EffectiveVersion": "1.10.3.2",
           "MinimumVersion": null,
           "Changelogs": {
             "1.10.3.1": {
               "TimeReleased": "2024-11-16T05:20:40.3814802+00:00",
               "Changelog": "7.1 \u0026 API 11 Updates\r\n\r\n***New Tweaks***\r\n- **\u0060Auto Refresh Material List\u0060** - Automatically refreshes the raw material list and recipe tree windows.\r\n\r\n\r\n***Tweak Changes***\r\n- **\u0060Keep Windows Open\u0060** - Added option for \u0027Raw Material List\u0027\r\n\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "System.Numerics.Vectors",
+                  "Version": "4.6.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            },
+            "1.10.3.2": {
+              "TimeReleased": "2024-11-16T21:02:03.5219278+00:00",
+              "Changelog": "***Tweak Changes***\r\n- **\u0060Show ID\u0060**\r\n  - Added option to show original action ID alongside resolved.\r\n  - Fixed ID being cut off on items with long category names, like BLM weapons.\r\n  - Fixed ID being incorrect with latest dalamud versions\r\n  ",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -42532,6 +42582,27 @@
       "Version": "4.0.11",
       "ReviewedBy": "reiichi001",
       "ReviewedAt": "2024-11-16T20:43:09.78551Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/xivapi/NetStone.git",
+      "Version": "4d21f40497f701d6fe1afb433bbcb565f2b3544a",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-16T21:02:17.9035534Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/google/flatbuffers.git",
+      "Version": "354d97f6da18cbbdeddfcdd2d5aebf1bcc57a092",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-16T21:02:17.9035871Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/karashiiro/lodestone-data-exports",
+      "Version": "4fb0d3a47f6e653aac1d156f1c8fe7730fb7c2cf",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-16T21:02:17.9035873Z"
     }
   ]
 }
