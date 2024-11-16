@@ -14446,9 +14446,9 @@
           }
         },
         "GatherBuddy": {
-          "BuiltCommit": "3a40773ec9e32f928758e1271c5e19dec83eb967",
-          "TimeBuilt": "2024-08-06T20:23:17.505",
-          "EffectiveVersion": "3.4.2.3",
+          "BuiltCommit": "8ba6842ceda5704bd29ba87c8a3c33347e2acb2b",
+          "TimeBuilt": "2024-11-16T21:23:42.2180655+00:00",
+          "EffectiveVersion": "3.5.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "3.1.4.15926": {
@@ -14480,6 +14480,37 @@
               "Changelog": "Updated for Dalamud staging and fixed some stuff.",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "3.5.0.0": {
+              "TimeReleased": "2024-11-16T21:23:42.2181054+00:00",
+              "Changelog": "nofranz",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/Ottermandias/OtterGui.git",
+                  "Version": "51bab6dd1bd7d98cc468e8122f410e1c79e3c92d"
+                },
+                {
+                  "Key": "https://github.com/Ottermandias/OtterGuiInternal.git",
+                  "Version": "8e144c54022bc7d30f993a8c496ad390764f884f"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "JetBrains.Annotations",
+                  "Version": "2023.3.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "8.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
@@ -42722,6 +42753,13 @@
       "Version": "4fb0d3a47f6e653aac1d156f1c8fe7730fb7c2cf",
       "ReviewedBy": "reiichi001",
       "ReviewedAt": "2024-11-16T21:02:17.9035873Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/Ottermandias/OtterGui.git",
+      "Version": "51bab6dd1bd7d98cc468e8122f410e1c79e3c92d",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-16T21:23:42.2533963Z"
     }
   ]
 }
