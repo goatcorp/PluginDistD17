@@ -20516,11 +20516,315 @@
           "Changelogs": {}
         },
         "Dalamud.FindAnything": {
-          "BuiltCommit": "d946d497535b9716f819fb76be3471fd8c58b04e",
-          "TimeBuilt": "2024-07-03T16:57:46.703",
-          "EffectiveVersion": "1.0.5.2",
+          "BuiltCommit": "17ff25cd36cbf244417f513a722b254fa9ed2870",
+          "TimeBuilt": "2024-11-16T20:43:09.7458432+00:00",
+          "EffectiveVersion": "1.0.5.3",
           "MinimumVersion": null,
-          "Changelogs": {}
+          "Changelogs": {
+            "1.0.5.3": {
+              "TimeReleased": "2024-11-16T20:43:09.7458443+00:00",
+              "Changelog": "- Update for API 11.\r\n- Greatly simplify \u0060DalamudReflector\u0060 by using the new \u0060IExposedPlugin\u0060 mechanism.\r\n- Exclude leves from \u0060isInCombatDuty\u0060 check (so mounts and so on can be used during leves).\r\n\r\nBig thanks to nebel for this change.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.Win32.Registry",
+                  "Version": "5.0.0"
+                },
+                {
+                  "Key": "NCalcSync",
+                  "Version": "2.0.0"
+                },
+                {
+                  "Key": "Antlr3.Runtime",
+                  "Version": "3.5.1"
+                },
+                {
+                  "Key": "Microsoft.Build.Tasks.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.NETCore.Platforms",
+                  "Version": "5.0.0"
+                },
+                {
+                  "Key": "Microsoft.NETCore.Targets",
+                  "Version": "1.0.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Common",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitHub",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitLab",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.Win32.Primitives",
+                  "Version": "4.0.1"
+                },
+                {
+                  "Key": "NETStandard.Library",
+                  "Version": "1.6.0"
+                },
+                {
+                  "Key": "runtime.native.System",
+                  "Version": "4.0.0"
+                },
+                {
+                  "Key": "runtime.native.System.IO.Compression",
+                  "Version": "4.1.0"
+                },
+                {
+                  "Key": "runtime.native.System.Net.Http",
+                  "Version": "4.0.1"
+                },
+                {
+                  "Key": "runtime.native.System.Security.Cryptography",
+                  "Version": "4.0.0"
+                },
+                {
+                  "Key": "System.AppContext",
+                  "Version": "4.1.0"
+                },
+                {
+                  "Key": "System.Buffers",
+                  "Version": "4.0.0"
+                },
+                {
+                  "Key": "System.Collections",
+                  "Version": "4.0.11"
+                },
+                {
+                  "Key": "System.Collections.Concurrent",
+                  "Version": "4.0.12"
+                },
+                {
+                  "Key": "System.Console",
+                  "Version": "4.0.0"
+                },
+                {
+                  "Key": "System.Diagnostics.Debug",
+                  "Version": "4.0.11"
+                },
+                {
+                  "Key": "System.Diagnostics.DiagnosticSource",
+                  "Version": "4.0.0"
+                },
+                {
+                  "Key": "System.Diagnostics.Tools",
+                  "Version": "4.0.1"
+                },
+                {
+                  "Key": "System.Diagnostics.Tracing",
+                  "Version": "4.1.0"
+                },
+                {
+                  "Key": "System.Globalization",
+                  "Version": "4.0.11"
+                },
+                {
+                  "Key": "System.Globalization.Calendars",
+                  "Version": "4.0.1"
+                },
+                {
+                  "Key": "System.Globalization.Extensions",
+                  "Version": "4.0.1"
+                },
+                {
+                  "Key": "System.IO",
+                  "Version": "4.1.0"
+                },
+                {
+                  "Key": "System.IO.Compression",
+                  "Version": "4.1.0"
+                },
+                {
+                  "Key": "System.IO.Compression.ZipFile",
+                  "Version": "4.0.1"
+                },
+                {
+                  "Key": "System.IO.FileSystem",
+                  "Version": "4.0.1"
+                },
+                {
+                  "Key": "System.IO.FileSystem.Primitives",
+                  "Version": "4.0.1"
+                },
+                {
+                  "Key": "System.Linq",
+                  "Version": "4.1.0"
+                },
+                {
+                  "Key": "System.Linq.Expressions",
+                  "Version": "4.1.0"
+                },
+                {
+                  "Key": "System.Net.Http",
+                  "Version": "4.1.0"
+                },
+                {
+                  "Key": "System.Net.Primitives",
+                  "Version": "4.0.11"
+                },
+                {
+                  "Key": "System.Net.Sockets",
+                  "Version": "4.1.0"
+                },
+                {
+                  "Key": "System.ObjectModel",
+                  "Version": "4.0.12"
+                },
+                {
+                  "Key": "System.Reflection",
+                  "Version": "4.1.0"
+                },
+                {
+                  "Key": "System.Reflection.Emit",
+                  "Version": "4.0.1"
+                },
+                {
+                  "Key": "System.Reflection.Emit.ILGeneration",
+                  "Version": "4.0.1"
+                },
+                {
+                  "Key": "System.Reflection.Emit.Lightweight",
+                  "Version": "4.0.1"
+                },
+                {
+                  "Key": "System.Reflection.Extensions",
+                  "Version": "4.0.1"
+                },
+                {
+                  "Key": "System.Reflection.Primitives",
+                  "Version": "4.0.1"
+                },
+                {
+                  "Key": "System.Reflection.TypeExtensions",
+                  "Version": "4.1.0"
+                },
+                {
+                  "Key": "System.Resources.ResourceManager",
+                  "Version": "4.0.1"
+                },
+                {
+                  "Key": "System.Runtime",
+                  "Version": "4.1.0"
+                },
+                {
+                  "Key": "System.Runtime.Extensions",
+                  "Version": "4.1.0"
+                },
+                {
+                  "Key": "System.Runtime.Handles",
+                  "Version": "4.0.1"
+                },
+                {
+                  "Key": "System.Runtime.InteropServices",
+                  "Version": "4.1.0"
+                },
+                {
+                  "Key": "System.Runtime.InteropServices.RuntimeInformation",
+                  "Version": "4.0.0"
+                },
+                {
+                  "Key": "System.Runtime.Numerics",
+                  "Version": "4.0.1"
+                },
+                {
+                  "Key": "System.Security.AccessControl",
+                  "Version": "5.0.0"
+                },
+                {
+                  "Key": "System.Security.Cryptography.Algorithms",
+                  "Version": "4.2.0"
+                },
+                {
+                  "Key": "System.Security.Cryptography.Cng",
+                  "Version": "4.2.0"
+                },
+                {
+                  "Key": "System.Security.Cryptography.Csp",
+                  "Version": "4.0.0"
+                },
+                {
+                  "Key": "System.Security.Cryptography.Encoding",
+                  "Version": "4.0.0"
+                },
+                {
+                  "Key": "System.Security.Cryptography.OpenSsl",
+                  "Version": "4.0.0"
+                },
+                {
+                  "Key": "System.Security.Cryptography.Primitives",
+                  "Version": "4.0.0"
+                },
+                {
+                  "Key": "System.Security.Cryptography.X509Certificates",
+                  "Version": "4.1.0"
+                },
+                {
+                  "Key": "System.Security.Principal.Windows",
+                  "Version": "5.0.0"
+                },
+                {
+                  "Key": "System.Text.Encoding",
+                  "Version": "4.0.11"
+                },
+                {
+                  "Key": "System.Text.Encoding.Extensions",
+                  "Version": "4.0.11"
+                },
+                {
+                  "Key": "System.Text.RegularExpressions",
+                  "Version": "4.1.0"
+                },
+                {
+                  "Key": "System.Threading",
+                  "Version": "4.0.11"
+                },
+                {
+                  "Key": "System.Threading.Tasks",
+                  "Version": "4.0.11"
+                },
+                {
+                  "Key": "System.Threading.Tasks.Extensions",
+                  "Version": "4.0.0"
+                },
+                {
+                  "Key": "System.Threading.Timer",
+                  "Version": "4.0.1"
+                },
+                {
+                  "Key": "System.Xml.ReaderWriter",
+                  "Version": "4.0.11"
+                },
+                {
+                  "Key": "System.Xml.XDocument",
+                  "Version": "4.0.11"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            }
+          }
         },
         "HuntBuddy": {
           "BuiltCommit": "f4a7d18f9d99d01111d5a1e725d102f3983ac2f2",
@@ -24468,9 +24772,9 @@
           }
         },
         "DragoonMayCry": {
-          "BuiltCommit": "46b0e955f902dfc915b35996ad6631eba76a83e3",
-          "TimeBuilt": "2024-11-02T01:28:55.6207546+00:00",
-          "EffectiveVersion": "1.2.1.0",
+          "BuiltCommit": "8cc182520354e6a04f1aeec26c2b9ad0379b081b",
+          "TimeBuilt": "2024-11-16T20:43:00.3217739+00:00",
+          "EffectiveVersion": "1.2.1.1",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -24756,6 +25060,77 @@
                 }
               ],
               "Reviewer": "philpax"
+            },
+            "1.2.1.1": {
+              "TimeReleased": "2024-11-16T20:43:00.3218174+00:00",
+              "Changelog": "- 7.1 update\n- Added the Jade Stoa (Unreal) and Sphene\u0027s Burden (Extreme) to tracked duties\n",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/Felscream/KamiLib",
+                  "Version": "42c1720b042c69763c6787c409ab0efd342aaf86"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "NAudio",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Vorbis",
+                  "Version": "1.5.0"
+                },
+                {
+                  "Key": "Microsoft.NETCore.Platforms",
+                  "Version": "3.1.0"
+                },
+                {
+                  "Key": "Microsoft.Win32.Registry",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "NAudio.Asio",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Core",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Midi",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Wasapi",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.WinMM",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NVorbis",
+                  "Version": "0.10.4"
+                },
+                {
+                  "Key": "System.Memory",
+                  "Version": "4.5.3"
+                },
+                {
+                  "Key": "System.Security.AccessControl",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "System.Security.Principal.Windows",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "System.ValueTuple",
+                  "Version": "4.5.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
@@ -41716,6 +42091,447 @@
       "Version": "2.40.3",
       "ReviewedBy": "goaaats",
       "ReviewedAt": "2024-11-16T15:00:38.0994719Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/Felscream/KamiLib",
+      "Version": "42c1720b042c69763c6787c409ab0efd342aaf86",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-16T20:43:00.3552909Z"
+    },
+    {
+      "Type": 1,
+      "Key": "NCalcSync",
+      "Version": "2.0.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-16T20:43:09.7855022Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Antlr3.Runtime",
+      "Version": "3.5.1",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-16T20:43:09.7855031Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.NETCore.Targets",
+      "Version": "1.0.1",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-16T20:43:09.7855033Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Win32.Primitives",
+      "Version": "4.0.1",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-16T20:43:09.7855036Z"
+    },
+    {
+      "Type": 1,
+      "Key": "NETStandard.Library",
+      "Version": "1.6.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-16T20:43:09.7855037Z"
+    },
+    {
+      "Type": 1,
+      "Key": "runtime.native.System",
+      "Version": "4.0.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-16T20:43:09.7855041Z"
+    },
+    {
+      "Type": 1,
+      "Key": "runtime.native.System.IO.Compression",
+      "Version": "4.1.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-16T20:43:09.7855042Z"
+    },
+    {
+      "Type": 1,
+      "Key": "runtime.native.System.Net.Http",
+      "Version": "4.0.1",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-16T20:43:09.7855043Z"
+    },
+    {
+      "Type": 1,
+      "Key": "runtime.native.System.Security.Cryptography",
+      "Version": "4.0.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-16T20:43:09.7855044Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.AppContext",
+      "Version": "4.1.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-16T20:43:09.7855046Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Buffers",
+      "Version": "4.0.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-16T20:43:09.7855047Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Collections",
+      "Version": "4.0.11",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-16T20:43:09.7855047Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Collections.Concurrent",
+      "Version": "4.0.12",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-16T20:43:09.7855048Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Console",
+      "Version": "4.0.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-16T20:43:09.7855049Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Diagnostics.Debug",
+      "Version": "4.0.11",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-16T20:43:09.785505Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Diagnostics.DiagnosticSource",
+      "Version": "4.0.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-16T20:43:09.7855051Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Diagnostics.Tools",
+      "Version": "4.0.1",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-16T20:43:09.7855052Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Diagnostics.Tracing",
+      "Version": "4.1.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-16T20:43:09.7855054Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Globalization",
+      "Version": "4.0.11",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-16T20:43:09.7855055Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Globalization.Calendars",
+      "Version": "4.0.1",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-16T20:43:09.7855056Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Globalization.Extensions",
+      "Version": "4.0.1",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-16T20:43:09.7855057Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.IO",
+      "Version": "4.1.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-16T20:43:09.7855058Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.IO.Compression",
+      "Version": "4.1.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-16T20:43:09.7855059Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.IO.Compression.ZipFile",
+      "Version": "4.0.1",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-16T20:43:09.7855059Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.IO.FileSystem",
+      "Version": "4.0.1",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-16T20:43:09.785506Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.IO.FileSystem.Primitives",
+      "Version": "4.0.1",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-16T20:43:09.7855061Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Linq",
+      "Version": "4.1.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-16T20:43:09.7855062Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Linq.Expressions",
+      "Version": "4.1.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-16T20:43:09.7855063Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Net.Http",
+      "Version": "4.1.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-16T20:43:09.7855064Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Net.Primitives",
+      "Version": "4.0.11",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-16T20:43:09.7855064Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Net.Sockets",
+      "Version": "4.1.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-16T20:43:09.7855065Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.ObjectModel",
+      "Version": "4.0.12",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-16T20:43:09.7855072Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Reflection",
+      "Version": "4.1.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-16T20:43:09.7855073Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Reflection.Emit",
+      "Version": "4.0.1",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-16T20:43:09.7855075Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Reflection.Emit.ILGeneration",
+      "Version": "4.0.1",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-16T20:43:09.7855076Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Reflection.Emit.Lightweight",
+      "Version": "4.0.1",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-16T20:43:09.7855076Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Reflection.Extensions",
+      "Version": "4.0.1",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-16T20:43:09.7855077Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Reflection.Primitives",
+      "Version": "4.0.1",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-16T20:43:09.7855078Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Reflection.TypeExtensions",
+      "Version": "4.1.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-16T20:43:09.7855079Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Resources.ResourceManager",
+      "Version": "4.0.1",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-16T20:43:09.785508Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Runtime",
+      "Version": "4.1.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-16T20:43:09.7855081Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Runtime.Extensions",
+      "Version": "4.1.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-16T20:43:09.7855082Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Runtime.Handles",
+      "Version": "4.0.1",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-16T20:43:09.7855083Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Runtime.InteropServices",
+      "Version": "4.1.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-16T20:43:09.7855084Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Runtime.InteropServices.RuntimeInformation",
+      "Version": "4.0.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-16T20:43:09.7855085Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Runtime.Numerics",
+      "Version": "4.0.1",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-16T20:43:09.7855086Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Security.Cryptography.Algorithms",
+      "Version": "4.2.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-16T20:43:09.7855087Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Security.Cryptography.Cng",
+      "Version": "4.2.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-16T20:43:09.7855088Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Security.Cryptography.Csp",
+      "Version": "4.0.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-16T20:43:09.7855089Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Security.Cryptography.Encoding",
+      "Version": "4.0.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-16T20:43:09.785509Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Security.Cryptography.OpenSsl",
+      "Version": "4.0.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-16T20:43:09.785509Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Security.Cryptography.Primitives",
+      "Version": "4.0.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-16T20:43:09.7855091Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Security.Cryptography.X509Certificates",
+      "Version": "4.1.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-16T20:43:09.7855092Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Text.Encoding",
+      "Version": "4.0.11",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-16T20:43:09.7855093Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Text.Encoding.Extensions",
+      "Version": "4.0.11",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-16T20:43:09.7855094Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Text.RegularExpressions",
+      "Version": "4.1.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-16T20:43:09.7855095Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Threading",
+      "Version": "4.0.11",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-16T20:43:09.7855096Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Threading.Tasks",
+      "Version": "4.0.11",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-16T20:43:09.7855097Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Threading.Tasks.Extensions",
+      "Version": "4.0.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-16T20:43:09.7855097Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Threading.Timer",
+      "Version": "4.0.1",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-16T20:43:09.7855098Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Xml.ReaderWriter",
+      "Version": "4.0.11",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-16T20:43:09.7855099Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Xml.XDocument",
+      "Version": "4.0.11",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-16T20:43:09.78551Z"
     }
   ]
 }
