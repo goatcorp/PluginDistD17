@@ -6536,11 +6536,63 @@
           }
         },
         "TrackyTrack": {
-          "BuiltCommit": "6f492b3cdb1c889405130a6ad23628e8258633bf",
-          "TimeBuilt": "2024-09-29T00:19:20.294",
-          "EffectiveVersion": "1.5.5.3",
+          "BuiltCommit": "eb55a78e20f7e47b4979fb08e326d2ebf9edf22e",
+          "TimeBuilt": "2024-11-16T21:26:29.2322069+00:00",
+          "EffectiveVersion": "1.5.5.5",
           "MinimumVersion": null,
-          "Changelogs": {}
+          "Changelogs": {
+            "1.5.5.5": {
+              "TimeReleased": "2024-11-16T21:26:29.2322487+00:00",
+              "Changelog": "nofranz",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/Ottermandias/OtterGui",
+                  "Version": "8ba88eff15326bb28ed5e6157f5252c114d40b5f"
+                },
+                {
+                  "Key": "https://github.com/Ottermandias/OtterGuiInternal.git",
+                  "Version": "8e144c54022bc7d30f993a8c496ad390764f884f"
+                },
+                {
+                  "Key": "CsvHelper",
+                  "Version": "33.0.1"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "MessagePack",
+                  "Version": "3.0.238-rc.1"
+                },
+                {
+                  "Key": "JetBrains.Annotations",
+                  "Version": "2024.2.0"
+                },
+                {
+                  "Key": "MessagePack.Annotations",
+                  "Version": "3.0.238-rc.1"
+                },
+                {
+                  "Key": "MessagePackAnalyzer",
+                  "Version": "3.0.238-rc.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.NET.StringTools",
+                  "Version": "17.11.4"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            }
+          }
         },
         "PriceCheck": {
           "BuiltCommit": "e950dca174e8cf447b175234b06040385cc593b4",
@@ -42760,6 +42812,13 @@
       "Version": "51bab6dd1bd7d98cc468e8122f410e1c79e3c92d",
       "ReviewedBy": "reiichi001",
       "ReviewedAt": "2024-11-16T21:23:42.2533963Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/Ottermandias/OtterGui",
+      "Version": "8ba88eff15326bb28ed5e6157f5252c114d40b5f",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-16T21:26:29.2666776Z"
     }
   ]
 }
