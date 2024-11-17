@@ -24490,9 +24490,9 @@
           }
         },
         "HimbeertoniRaidTool": {
-          "BuiltCommit": "2a1d3b991284aa22be42c6cbddfe53210c14b758",
-          "TimeBuilt": "2024-10-10T19:13:27.1133678+00:00",
-          "EffectiveVersion": "1.6.2.10",
+          "BuiltCommit": "bc840b90ecc64409f297c1191e4fcd65b4f0beac",
+          "TimeBuilt": "2024-11-17T18:02:08.9666088+00:00",
+          "EffectiveVersion": "1.7.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.33": {
@@ -24831,6 +24831,57 @@
                 }
               ],
               "Reviewer": "reiichi001"
+            },
+            "1.7.0.0": {
+              "TimeReleased": "2024-11-17T18:02:08.9666472+00:00",
+              "Changelog": "New Feature: Gearsets can have an alias. If an alias is set it is shown instead of the name in the Ui\n      This is editable even for sets from etro or XivGearApp\n    User Interface: Gearset origin is now shown in selection dropdown\n    General: Updated for 7.1\n    User Interface: New layout for the stats\n    User Interface: Overhauled item tooltips\n    Bugfix: Deleted sets get correctly removed from the gear/bis list\n    BiS: Update gear set buttons now work for XivGearApp (like they did for etro)\n    User Interface: Searching gear from database now actually shows useful information\n    User Interface: New layout for inventory/wallet\n    User Interface: Job selection buttons are bigger to have enough space for level 100 jobs\nKnown Issues:\n    Known Issue: Previous wallet and inventory data is lost",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/Koenari/HimbeertoniRaidTool.Common.git",
+                  "Version": "7dfac63676b495e01485040ea0317ef4973f0e51"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "NetStone",
+                  "Version": "1.3.1"
+                },
+                {
+                  "Key": "HtmlAgilityPack",
+                  "Version": "1.11.46"
+                },
+                {
+                  "Key": "Karashiiro.HtmlAgilityPack.CssSelectors.NetCoreFork",
+                  "Version": "0.0.2"
+                },
+                {
+                  "Key": "Lumina",
+                  "Version": "5.2.1"
+                },
+                {
+                  "Key": "Lumina.Excel",
+                  "Version": "7.1.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.ObjectPool",
+                  "Version": "8.0.7"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.3"
+                },
+                {
+                  "Key": "XIVCalc",
+                  "Version": "0.3.0"
+                },
+                {
+                  "Key": "XIVCalc.Lumina",
+                  "Version": "7.1.0"
+                }
+              ],
+              "Reviewer": "philpax"
             }
           }
         },
@@ -45915,6 +45966,27 @@
       "Version": "74ad8ee2a8556fa97a763483fc7e6f2024b0c519",
       "ReviewedBy": "philpax",
       "ReviewedAt": "2024-11-17T17:41:08.916658Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/Koenari/HimbeertoniRaidTool.Common.git",
+      "Version": "7dfac63676b495e01485040ea0317ef4973f0e51",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2024-11-17T18:02:09.0036749Z"
+    },
+    {
+      "Type": 1,
+      "Key": "XIVCalc",
+      "Version": "0.3.0",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2024-11-17T18:02:09.0037022Z"
+    },
+    {
+      "Type": 1,
+      "Key": "XIVCalc.Lumina",
+      "Version": "7.1.0",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2024-11-17T18:02:09.0037024Z"
     }
   ]
 }
