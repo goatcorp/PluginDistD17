@@ -31707,9 +31707,9 @@
           }
         },
         "GaugeOMatic": {
-          "BuiltCommit": "30d86198b2435734b914566c5c51e1e4ced19893",
-          "TimeBuilt": "2024-09-09T21:31:58.098",
-          "EffectiveVersion": "0.8.0.9",
+          "BuiltCommit": "7c8e6f4fba391af523bbf818b72c66472e11a167",
+          "TimeBuilt": "2024-11-17T21:05:51.6481272+00:00",
+          "EffectiveVersion": "0.8.1.1",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.1.6": {
@@ -31855,6 +31855,17 @@
               "Changelog": "Implemented a further fix for Bloodletter and other charge action trackers.\n",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "0.8.1.1": {
+              "TimeReleased": "2024-11-17T21:05:51.6481655+00:00",
+              "Changelog": "- Updated for 7.1 / api11\n- Corrected Living Muse cooldown length when below level 96\n- The \u0060Oath Sigil\u0060 widget now respects the option to hide the wings\n- Updated Chakra Gauge Tracker to account for 10 chakras\n- Fixed SMN\u0027s Attunement trackers to show time in seconds instead of in milliseconds\n- Attempted fix for an issue wherein the plugin failed to track highlighted actions with adjusted IDs (for example, Chaotic Spring)\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
