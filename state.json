@@ -481,9 +481,9 @@
           }
         },
         "PingPlugin": {
-          "BuiltCommit": "ce59dff751335dc5ce6d059fc9fae0c5294c27f5",
-          "TimeBuilt": "2024-07-03T03:46:08.473",
-          "EffectiveVersion": "2.7.0.0",
+          "BuiltCommit": "9131fa97f7945537161f19caf013e0703755e5dc",
+          "TimeBuilt": "2024-11-17T02:08:41.1471858+00:00",
+          "EffectiveVersion": "2.8.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "2.5.0.0": {
@@ -527,6 +527,17 @@
               "Changelog": "- Updated for API X\n- Updated font handling\n- Updated lobby server addresses\n- Added fallback for Shadow ping detection\n",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "2.8.0.0": {
+              "TimeReleased": "2024-11-17T02:08:41.1471877+00:00",
+              "Changelog": "- Updated for 7.1 (thanks Fronti!)\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
@@ -6923,9 +6934,9 @@
           }
         },
         "CoordImporter": {
-          "BuiltCommit": "e7038a106d128f68084225f20d71689e563062e6",
-          "TimeBuilt": "2024-09-12T18:36:46.129",
-          "EffectiveVersion": "1.2.0.0",
+          "BuiltCommit": "9c7daefbdda79b39b763f42112ab9116dd2089b0",
+          "TimeBuilt": "2024-11-17T02:09:06.8102719+00:00",
+          "EffectiveVersion": "1.2.0.1",
           "MinimumVersion": null,
           "Changelogs": {
             "1.2.0.0": {
@@ -6933,6 +6944,229 @@
               "Changelog": "Add support for Turtle Scouter coordinates",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "1.2.0.1": {
+              "TimeReleased": "2024-11-17T02:09:06.8102733+00:00",
+              "Changelog": "update for patch 7.1, dalamud api11",
+              "UsedNeeds": [
+                {
+                  "Key": "coverlet.collector",
+                  "Version": "3.2.0"
+                },
+                {
+                  "Key": "DitzyExtensions",
+                  "Version": "1.0.1"
+                },
+                {
+                  "Key": "Lib.Harmony",
+                  "Version": "2.3.0-prerelease.2"
+                },
+                {
+                  "Key": "Microsoft.NET.Test.Sdk",
+                  "Version": "17.7.1"
+                },
+                {
+                  "Key": "NSubstitute",
+                  "Version": "5.1.0"
+                },
+                {
+                  "Key": "NUnit",
+                  "Version": "3.13.3"
+                },
+                {
+                  "Key": "NUnit.Analyzers",
+                  "Version": "3.6.1"
+                },
+                {
+                  "Key": "NUnit3TestAdapter",
+                  "Version": "4.4.2"
+                },
+                {
+                  "Key": "Castle.Core",
+                  "Version": "5.1.1"
+                },
+                {
+                  "Key": "CSharpFunctionalExtensions",
+                  "Version": "2.42.5"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "Microsoft.CodeCoverage",
+                  "Version": "17.7.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Abstractions",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Binder",
+                  "Version": "7.0.3"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.CommandLine",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.EnvironmentVariables",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.FileExtensions",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Json",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.UserSecrets",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileProviders.Abstractions",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileProviders.Physical",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileSystemGlobbing",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Hosting",
+                  "Version": "7.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Hosting.Abstractions",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Configuration",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Console",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Debug",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.EventLog",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.EventSource",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options",
+                  "Version": "7.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options.ConfigurationExtensions",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Primitives",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "Microsoft.NETCore.Platforms",
+                  "Version": "1.1.0"
+                },
+                {
+                  "Key": "Microsoft.TestPlatform.ObjectModel",
+                  "Version": "17.7.1"
+                },
+                {
+                  "Key": "Microsoft.TestPlatform.TestHost",
+                  "Version": "17.7.1"
+                },
+                {
+                  "Key": "Mono.Cecil",
+                  "Version": "0.11.4"
+                },
+                {
+                  "Key": "MonoMod.Backports",
+                  "Version": "1.0.0-prerelease.2"
+                },
+                {
+                  "Key": "MonoMod.Core",
+                  "Version": "1.0.0-prerelease.2"
+                },
+                {
+                  "Key": "MonoMod.ILHelpers",
+                  "Version": "1.0.0-prerelease.2"
+                },
+                {
+                  "Key": "MonoMod.Utils",
+                  "Version": "25.0.0-prerelease.2"
+                },
+                {
+                  "Key": "NETStandard.Library",
+                  "Version": "2.0.0"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.1"
+                },
+                {
+                  "Key": "NuGet.Frameworks",
+                  "Version": "6.5.0"
+                },
+                {
+                  "Key": "System.Diagnostics.DiagnosticSource",
+                  "Version": "7.0.1"
+                },
+                {
+                  "Key": "System.Diagnostics.EventLog",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "System.Reflection.Metadata",
+                  "Version": "1.6.0"
+                },
+                {
+                  "Key": "System.Text.Encodings.Web",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "System.Text.Json",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "CSharpFunctionalExtensions",
+                  "Version": "2.40.3"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
@@ -11964,9 +12198,9 @@
           "Changelogs": {}
         },
         "BetterPartyFinder": {
-          "BuiltCommit": "ed2e8a6b348d8b482f87f04c24385b288cb9db28",
-          "TimeBuilt": "2024-11-16T21:07:01.9477633+00:00",
-          "EffectiveVersion": "1.4.7.0",
+          "BuiltCommit": "19c26f0f27f9f7a82739638fabc4b6f927dc23de",
+          "TimeBuilt": "2024-11-17T02:08:33.5180722+00:00",
+          "EffectiveVersion": "1.4.8.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.2.6": {
@@ -12011,6 +12245,17 @@
             },
             "1.4.7.0": {
               "TimeReleased": "2024-11-16T21:07:01.9478024+00:00",
+              "Changelog": "nofranz",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            },
+            "1.4.8.0": {
+              "TimeReleased": "2024-11-17T02:08:33.5181104+00:00",
               "Changelog": "nofranz",
               "UsedNeeds": [
                 {
@@ -12262,11 +12507,31 @@
           }
         },
         "NotificationMaster": {
-          "BuiltCommit": "8edbc8426faef0651caabbcf2e62469709b01750",
-          "TimeBuilt": "2023-11-11T19:06:01.484",
-          "EffectiveVersion": "2.1.1.1",
+          "BuiltCommit": "e3fd4bc3e2b11f6200e15b51286cfa9137f3c449",
+          "TimeBuilt": "2024-11-17T02:08:57.2317246+00:00",
+          "EffectiveVersion": "2.1.1.7",
           "MinimumVersion": null,
-          "Changelogs": {}
+          "Changelogs": {
+            "2.1.1.7": {
+              "TimeReleased": "2024-11-17T02:08:57.2317255+00:00",
+              "Changelog": "- Updated for 7.1\r\n- New option for duty notification: only notify when 15 seconds is left",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/NightmareXIV/ECommons",
+                  "Version": "b99ba7a861300164b9b293b2bbbd510af0cda8a2"
+                },
+                {
+                  "Key": "https://github.com/NightmareXIV/NotificationMasterAPI",
+                  "Version": "05b1ba788d5cb940ed8e82599eb88778c9cecdb0"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            }
+          }
         },
         "CurrencyTracker": {
           "BuiltCommit": "7041de7a3adb4ced2b0c2c6db2a9f4d996ddacee",
@@ -43186,6 +43451,13 @@
       "Version": "6.2.3",
       "ReviewedBy": "reiichi001",
       "ReviewedAt": "2024-11-16T21:32:26.1963435Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/NightmareXIV/NotificationMasterAPI",
+      "Version": "05b1ba788d5cb940ed8e82599eb88778c9cecdb0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-17T02:08:57.2429989Z"
     }
   ]
 }

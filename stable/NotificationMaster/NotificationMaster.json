@@ -2,14 +2,14 @@
   "Author": "NightmareXIV",
   "Name": "NotificationMaster",
   "InternalName": "NotificationMaster",
-  "AssemblyVersion": "2.1.1.1",
+  "AssemblyVersion": "2.1.1.7",
   "Description": "Notifies you about various events while your game is minimized.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/NightmareXIV/NotificationMaster",
   "Tags": [
     "notification"
   ],
-  "DalamudApiLevel": 9,
+  "DalamudApiLevel": 11,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
