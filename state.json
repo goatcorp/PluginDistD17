@@ -30559,9 +30559,9 @@
           }
         },
         "AutoTimer": {
-          "BuiltCommit": "69d4e0bd090c827aeaf306db8f09a18be6b7ad28",
-          "TimeBuilt": "2024-09-25T22:03:21.422",
-          "EffectiveVersion": "1.1.0.1",
+          "BuiltCommit": "4d852361f21a817134394a45e57d85cd8f699001",
+          "TimeBuilt": "2024-11-17T22:19:46.5531928+00:00",
+          "EffectiveVersion": "1.1.0.2",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -30599,6 +30599,17 @@
               "Changelog": "- Added option to hide bar label independently (CHUGGO, #3)",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "1.1.0.2": {
+              "TimeReleased": "2024-11-17T22:19:46.5532319+00:00",
+              "Changelog": "- Update to 7.1\r\n- Add options for hiding timer on certain conditions",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
