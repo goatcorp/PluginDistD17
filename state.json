@@ -24898,9 +24898,9 @@
           }
         },
         "Umbra": {
-          "BuiltCommit": "8bd47b4e0de7b95062340cd49eace1359f22ac19",
-          "TimeBuilt": "2024-11-10T14:49:51.4894822+00:00",
-          "EffectiveVersion": "2.2.42.0",
+          "BuiltCommit": "3f9e3f9596d254374510944ef66df70c660db638",
+          "TimeBuilt": "2024-11-17T02:17:57.8678756+00:00",
+          "EffectiveVersion": "2.3.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "2.1.8.0": {
@@ -25289,6 +25289,37 @@
                 }
               ],
               "Reviewer": "philpax"
+            },
+            "2.3.0.0": {
+              "TimeReleased": "2024-11-17T02:17:57.8679139+00:00",
+              "Changelog": "# Umbra 2.3.0\n\nUmbra has been updated for **Patch 7.1**.\nCustom plugins should be recompiled against this (2.3) version of Umbra before they can be used again.\n\nJoin [Umbra\u0027s Discord server](https://discord.gg/xaEnsuAhmm) for the latest updates and information.\nVisit the [website](https://una-xiv.github.io/umbra-docs/) for more information and guides on how to make the most out of Umbra.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/una-xiv/drawing.git",
+                  "Version": "ebba7bc435ac270e0c0488ac99b54ac4e90ade43"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.ObjectPool",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "SkiaSharp",
+                  "Version": "3.118.0-preview.1.2"
+                },
+                {
+                  "Key": "SkiaSharp.NativeAssets.macOS",
+                  "Version": "3.118.0-preview.1.2"
+                },
+                {
+                  "Key": "SkiaSharp.NativeAssets.Win32",
+                  "Version": "3.118.0-preview.1.2"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
@@ -43509,6 +43540,41 @@
       "Version": "05b1ba788d5cb940ed8e82599eb88778c9cecdb0",
       "ReviewedBy": "reiichi001",
       "ReviewedAt": "2024-11-17T02:08:57.2429989Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/una-xiv/drawing.git",
+      "Version": "ebba7bc435ac270e0c0488ac99b54ac4e90ade43",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-17T02:17:57.9377466Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Extensions.ObjectPool",
+      "Version": "9.0.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-17T02:17:57.9377758Z"
+    },
+    {
+      "Type": 1,
+      "Key": "SkiaSharp",
+      "Version": "3.118.0-preview.1.2",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-17T02:17:57.937776Z"
+    },
+    {
+      "Type": 1,
+      "Key": "SkiaSharp.NativeAssets.macOS",
+      "Version": "3.118.0-preview.1.2",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-17T02:17:57.9377762Z"
+    },
+    {
+      "Type": 1,
+      "Key": "SkiaSharp.NativeAssets.Win32",
+      "Version": "3.118.0-preview.1.2",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-17T02:17:57.9377765Z"
     }
   ]
 }
