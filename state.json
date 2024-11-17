@@ -8617,11 +8617,55 @@
           }
         },
         "Mini": {
-          "BuiltCommit": "4773d9f9d41442273ae41b068752ca774dd64256",
-          "TimeBuilt": "2023-10-04T00:44:54.754",
-          "EffectiveVersion": "2.1.0.0",
+          "BuiltCommit": "d9dc0e2cb2a3a1d4ff5e23a5bc8fe3d5281a4086",
+          "TimeBuilt": "2024-11-17T02:22:46.644011+00:00",
+          "EffectiveVersion": "2.1.1.0",
           "MinimumVersion": null,
-          "Changelogs": {}
+          "Changelogs": {
+            "2.1.1.0": {
+              "TimeReleased": "2024-11-17T02:22:46.6440497+00:00",
+              "Changelog": "- Updated for 7.1\r\n- Added a slider to adjust FPS limiting while minimized",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/NightmareXIV/ECommons",
+                  "Version": "b99ba7a861300164b9b293b2bbbd510af0cda8a2"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.Build.Tasks.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Common",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitHub",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitLab",
+                  "Version": "1.1.1"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            }
+          }
         },
         "Compass": {
           "BuiltCommit": "a0815f57d97631f107989344a8d039ea91189555",
@@ -21948,9 +21992,9 @@
           }
         },
         "EasyTranslate.DalamudPlugin": {
-          "BuiltCommit": "42a0f8d9f320bb2b0269a19890e7d289ec479f82",
-          "TimeBuilt": "2024-07-08T07:01:41.217",
-          "EffectiveVersion": "3.1.0.0",
+          "BuiltCommit": "28c6eb2a53ae9df39df6785249a7f9a2b096290f",
+          "TimeBuilt": "2024-11-17T02:23:00.1334128+00:00",
+          "EffectiveVersion": "4.0.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "2.0.0.0": {
@@ -21994,6 +22038,29 @@
               "Changelog": "- Added button to copy translations from search results\n- Allow searching for classes and jobs\n",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "4.0.0.0": {
+              "TimeReleased": "2024-11-17T02:23:00.1334135+00:00",
+              "Changelog": "- Updated for patch 7.1\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "8.0.1"
+                },
+                {
+                  "Key": "SonarAnalyzer.CSharp",
+                  "Version": "9.32.0.97167"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "8.0.2"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
@@ -43575,6 +43642,13 @@
       "Version": "3.118.0-preview.1.2",
       "ReviewedBy": "reiichi001",
       "ReviewedAt": "2024-11-17T02:17:57.9377765Z"
+    },
+    {
+      "Type": 1,
+      "Key": "SonarAnalyzer.CSharp",
+      "Version": "9.32.0.97167",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-17T02:23:00.1548541Z"
     }
   ]
 }
