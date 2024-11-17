@@ -16179,9 +16179,9 @@
           }
         },
         "GatherBuddy": {
-          "BuiltCommit": "8ba6842ceda5704bd29ba87c8a3c33347e2acb2b",
-          "TimeBuilt": "2024-11-16T21:23:42.2180655+00:00",
-          "EffectiveVersion": "3.5.0.0",
+          "BuiltCommit": "c86160592f1a31b2b92f9f451157e96a795b35d2",
+          "TimeBuilt": "2024-11-17T21:47:54.3781411+00:00",
+          "EffectiveVersion": "3.5.0.1",
           "MinimumVersion": null,
           "Changelogs": {
             "3.1.4.15926": {
@@ -16216,6 +16216,37 @@
             },
             "3.5.0.0": {
               "TimeReleased": "2024-11-16T21:23:42.2181054+00:00",
+              "Changelog": "nofranz",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/Ottermandias/OtterGui.git",
+                  "Version": "51bab6dd1bd7d98cc468e8122f410e1c79e3c92d"
+                },
+                {
+                  "Key": "https://github.com/Ottermandias/OtterGuiInternal.git",
+                  "Version": "8e144c54022bc7d30f993a8c496ad390764f884f"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "JetBrains.Annotations",
+                  "Version": "2023.3.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "8.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            },
+            "3.5.0.1": {
+              "TimeReleased": "2024-11-17T21:47:54.3781798+00:00",
               "Changelog": "nofranz",
               "UsedNeeds": [
                 {
