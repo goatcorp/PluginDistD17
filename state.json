@@ -17019,9 +17019,9 @@
           }
         },
         "DelvUI": {
-          "BuiltCommit": "0b4c281483c4f5a9b8e2bebefd087f9b1f9eeaa4",
-          "TimeBuilt": "2024-11-17T06:10:22.0464357+00:00",
-          "EffectiveVersion": "2.3.1.0",
+          "BuiltCommit": "2711ed21a6b38dc7c27704be1db751a0df6ee83c",
+          "TimeBuilt": "2024-11-17T17:56:32.5281169+00:00",
+          "EffectiveVersion": "2.3.1.1",
           "MinimumVersion": null,
           "Changelogs": {
             "2.3.0.0": {
@@ -17053,6 +17053,21 @@
                 }
               ],
               "Reviewer": "reiichi001"
+            },
+            "2.3.1.1": {
+              "TimeReleased": "2024-11-17T17:56:32.5281579+00:00",
+              "Changelog": "- Fixed Party Frames preview mode.\r\n- Fixed Enemy Nameplates.",
+              "UsedNeeds": [
+                {
+                  "Key": "Colourful",
+                  "Version": "3.1.0"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "philpax"
             }
           }
         },
