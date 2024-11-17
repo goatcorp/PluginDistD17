@@ -2,14 +2,14 @@
   "Author": "Sohtoren",
   "Name": "Altoholic",
   "InternalName": "Altoholic",
-  "AssemblyVersion": "0.0.0.21",
+  "AssemblyVersion": "0.0.0.22",
   "Description": "Get gils, currencies, inventory and retainers items from all your characters",
   "ApplicableVersion": "any",
   "Tags": [
     "alts",
     "plugin"
   ],
-  "DalamudApiLevel": 10,
+  "DalamudApiLevel": 11,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
