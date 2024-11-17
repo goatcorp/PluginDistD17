@@ -7473,9 +7473,9 @@
           }
         },
         "Echoglossian": {
-          "BuiltCommit": "90efc2d0cbbeb8dfb5fe2a1efbb6963d1b741c8a",
-          "TimeBuilt": "2024-08-18T13:36:04.022",
-          "EffectiveVersion": "3.15.2408.816",
+          "BuiltCommit": "671299edab0048a8b45c798e789ae79ed473a9a1",
+          "TimeBuilt": "2024-11-17T02:27:18.8962043+00:00",
+          "EffectiveVersion": "3.16.2411.147",
           "MinimumVersion": null,
           "Changelogs": {
             "2.100.2208.281": {
@@ -7597,6 +7597,325 @@
               "Changelog": "v3.15.x \n - fixes:\n - reworked the ChatGPT ApiKey saving so the configuration does not get corrupted preventing plugin load.\n - added internal corrupted routine that detects the player is in PvP and disables some translations to avoid stuttering.",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "3.16.2411.147": {
+              "TimeReleased": "2024-11-17T02:27:18.896249+00:00",
+              "Changelog": "v3.16.x \n - fixes:\n - API11/v7.1 compatibility.",
+              "UsedNeeds": [
+                {
+                  "Key": "AWSSDK.Translate",
+                  "Version": "3.7.400.53"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "DeepL.net",
+                  "Version": "1.11.0"
+                },
+                {
+                  "Key": "GTranslate",
+                  "Version": "2.2.8"
+                },
+                {
+                  "Key": "HtmlAgilityPack",
+                  "Version": "1.11.71"
+                },
+                {
+                  "Key": "Microsoft.EntityFrameworkCore",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "Microsoft.EntityFrameworkCore.Sqlite",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "Microsoft.EntityFrameworkCore.Tools",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.3"
+                },
+                {
+                  "Key": "NTextCat",
+                  "Version": "0.3.65"
+                },
+                {
+                  "Key": "OpenAI",
+                  "Version": "2.0.0"
+                },
+                {
+                  "Key": "RestSharp",
+                  "Version": "112.1.0"
+                },
+                {
+                  "Key": "StyleCop.Analyzers",
+                  "Version": "1.2.0-beta.435"
+                },
+                {
+                  "Key": "System.Drawing.Common",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "System.Drawing.Primitives",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Private.Uri",
+                  "Version": "4.3.2"
+                },
+                {
+                  "Key": "AWSSDK.Core",
+                  "Version": "3.7.400.53"
+                },
+                {
+                  "Key": "Humanizer.Core",
+                  "Version": "2.14.1"
+                },
+                {
+                  "Key": "Microsoft.Bcl.AsyncInterfaces",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "Microsoft.Build.Framework",
+                  "Version": "17.8.3"
+                },
+                {
+                  "Key": "Microsoft.Build.Locator",
+                  "Version": "1.7.8"
+                },
+                {
+                  "Key": "Microsoft.CodeAnalysis.Analyzers",
+                  "Version": "3.3.4"
+                },
+                {
+                  "Key": "Microsoft.CodeAnalysis.Common",
+                  "Version": "4.8.0"
+                },
+                {
+                  "Key": "Microsoft.CodeAnalysis.CSharp",
+                  "Version": "4.8.0"
+                },
+                {
+                  "Key": "Microsoft.CodeAnalysis.CSharp.Workspaces",
+                  "Version": "4.8.0"
+                },
+                {
+                  "Key": "Microsoft.CodeAnalysis.Workspaces.Common",
+                  "Version": "4.8.0"
+                },
+                {
+                  "Key": "Microsoft.CodeAnalysis.Workspaces.MSBuild",
+                  "Version": "4.8.0"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite.Core",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "Microsoft.EntityFrameworkCore.Abstractions",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "Microsoft.EntityFrameworkCore.Analyzers",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "Microsoft.EntityFrameworkCore.Design",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "Microsoft.EntityFrameworkCore.Relational",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "Microsoft.EntityFrameworkCore.Sqlite.Core",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Caching.Abstractions",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Caching.Memory",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Abstractions",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyModel",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Http",
+                  "Version": "5.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Http.Polly",
+                  "Version": "5.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Primitives",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "Microsoft.NETCore.Platforms",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.NETCore.Targets",
+                  "Version": "1.1.3"
+                },
+                {
+                  "Key": "Microsoft.Win32.SystemEvents",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "Mono.TextTemplating",
+                  "Version": "3.0.0"
+                },
+                {
+                  "Key": "Polly",
+                  "Version": "7.1.0"
+                },
+                {
+                  "Key": "Polly.Extensions.Http",
+                  "Version": "3.0.0"
+                },
+                {
+                  "Key": "SQLitePCLRaw.bundle_e_sqlite3",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.core",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.lib.e_sqlite3",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.provider.e_sqlite3",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "StyleCop.Analyzers.Unstable",
+                  "Version": "1.2.0.435"
+                },
+                {
+                  "Key": "System.ClientModel",
+                  "Version": "1.1.0"
+                },
+                {
+                  "Key": "System.CodeDom",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "System.Collections.Immutable",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "System.Composition",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "System.Composition.AttributedModel",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "System.Composition.Convention",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "System.Composition.Hosting",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "System.Composition.Runtime",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "System.Composition.TypedParts",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "System.Diagnostics.DiagnosticSource",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "System.IO.Pipelines",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "System.Memory",
+                  "Version": "4.5.3"
+                },
+                {
+                  "Key": "System.Memory.Data",
+                  "Version": "1.0.2"
+                },
+                {
+                  "Key": "System.Reflection.Metadata",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "System.Runtime",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Runtime.CompilerServices.Unsafe",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "System.Runtime.Extensions",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Text.Encodings.Web",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "System.Text.Json",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "System.Threading.Channels",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "runtime.any.System.Runtime",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "runtime.win.System.Runtime.Extensions",
+                  "Version": "4.3.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
@@ -43649,6 +43968,398 @@
       "Version": "9.32.0.97167",
       "ReviewedBy": "reiichi001",
       "ReviewedAt": "2024-11-17T02:23:00.1548541Z"
+    },
+    {
+      "Type": 1,
+      "Key": "AWSSDK.Translate",
+      "Version": "3.7.400.53",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-17T02:27:18.9479643Z"
+    },
+    {
+      "Type": 1,
+      "Key": "DeepL.net",
+      "Version": "1.11.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-17T02:27:18.9479992Z"
+    },
+    {
+      "Type": 1,
+      "Key": "HtmlAgilityPack",
+      "Version": "1.11.71",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-17T02:27:18.9479994Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.EntityFrameworkCore",
+      "Version": "9.0.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-17T02:27:18.9479996Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.EntityFrameworkCore.Sqlite",
+      "Version": "9.0.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-17T02:27:18.9479997Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.EntityFrameworkCore.Tools",
+      "Version": "9.0.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-17T02:27:18.9480002Z"
+    },
+    {
+      "Type": 1,
+      "Key": "NTextCat",
+      "Version": "0.3.65",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-17T02:27:18.9480013Z"
+    },
+    {
+      "Type": 1,
+      "Key": "OpenAI",
+      "Version": "2.0.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-17T02:27:18.9480014Z"
+    },
+    {
+      "Type": 1,
+      "Key": "RestSharp",
+      "Version": "112.1.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-17T02:27:18.9480015Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Private.Uri",
+      "Version": "4.3.2",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-17T02:27:18.9480022Z"
+    },
+    {
+      "Type": 1,
+      "Key": "AWSSDK.Core",
+      "Version": "3.7.400.53",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-17T02:27:18.9480023Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Bcl.AsyncInterfaces",
+      "Version": "7.0.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-17T02:27:18.9480026Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Build.Framework",
+      "Version": "17.8.3",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-17T02:27:18.9480027Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Build.Locator",
+      "Version": "1.7.8",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-17T02:27:18.9480028Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.CodeAnalysis.Common",
+      "Version": "4.8.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-17T02:27:18.9480029Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.CodeAnalysis.CSharp",
+      "Version": "4.8.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-17T02:27:18.9480031Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.CodeAnalysis.CSharp.Workspaces",
+      "Version": "4.8.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-17T02:27:18.9480034Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.CodeAnalysis.Workspaces.Common",
+      "Version": "4.8.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-17T02:27:18.948004Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.CodeAnalysis.Workspaces.MSBuild",
+      "Version": "4.8.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-17T02:27:18.9480041Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.EntityFrameworkCore.Abstractions",
+      "Version": "9.0.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-17T02:27:18.9480046Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.EntityFrameworkCore.Analyzers",
+      "Version": "9.0.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-17T02:27:18.9480049Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.EntityFrameworkCore.Design",
+      "Version": "9.0.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-17T02:27:18.948005Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.EntityFrameworkCore.Relational",
+      "Version": "9.0.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-17T02:27:18.948005Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.EntityFrameworkCore.Sqlite.Core",
+      "Version": "9.0.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-17T02:27:18.9480052Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Extensions.Caching.Abstractions",
+      "Version": "9.0.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-17T02:27:18.9480052Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Extensions.Caching.Memory",
+      "Version": "9.0.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-17T02:27:18.9480054Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Extensions.Configuration.Abstractions",
+      "Version": "9.0.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-17T02:27:18.9480055Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Extensions.DependencyInjection",
+      "Version": "9.0.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-17T02:27:18.9480056Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+      "Version": "9.0.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-17T02:27:18.9480057Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Extensions.DependencyModel",
+      "Version": "9.0.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-17T02:27:18.9480057Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Extensions.Http",
+      "Version": "5.0.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-17T02:27:18.9480059Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Extensions.Http.Polly",
+      "Version": "5.0.1",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-17T02:27:18.948006Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Extensions.Logging",
+      "Version": "9.0.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-17T02:27:18.9480062Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Extensions.Logging.Abstractions",
+      "Version": "9.0.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-17T02:27:18.9480068Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Extensions.Options",
+      "Version": "9.0.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-17T02:27:18.9480069Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Extensions.Primitives",
+      "Version": "9.0.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-17T02:27:18.948007Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.NETCore.Targets",
+      "Version": "1.1.3",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-17T02:27:18.9480071Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Mono.TextTemplating",
+      "Version": "3.0.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-17T02:27:18.9480073Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Polly",
+      "Version": "7.1.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-17T02:27:18.9480074Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Polly.Extensions.Http",
+      "Version": "3.0.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-17T02:27:18.9480079Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.ClientModel",
+      "Version": "1.1.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-17T02:27:18.9480082Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.CodeDom",
+      "Version": "6.0.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-17T02:27:18.9480084Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Composition",
+      "Version": "7.0.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-17T02:27:18.9480085Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Composition.AttributedModel",
+      "Version": "7.0.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-17T02:27:18.9480086Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Composition.Convention",
+      "Version": "7.0.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-17T02:27:18.9480087Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Composition.Hosting",
+      "Version": "7.0.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-17T02:27:18.9480088Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Composition.Runtime",
+      "Version": "7.0.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-17T02:27:18.9480089Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Composition.TypedParts",
+      "Version": "7.0.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-17T02:27:18.948009Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Diagnostics.DiagnosticSource",
+      "Version": "9.0.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-17T02:27:18.9480092Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.IO.Pipelines",
+      "Version": "9.0.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-17T02:27:18.9480093Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Memory.Data",
+      "Version": "1.0.2",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-17T02:27:18.9480095Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Reflection.Metadata",
+      "Version": "7.0.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-17T02:27:18.9480098Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Text.Encodings.Web",
+      "Version": "9.0.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-17T02:27:18.9480102Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Text.Json",
+      "Version": "9.0.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-17T02:27:18.9480104Z"
+    },
+    {
+      "Type": 1,
+      "Key": "runtime.any.System.Runtime",
+      "Version": "4.3.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-17T02:27:18.9480106Z"
+    },
+    {
+      "Type": 1,
+      "Key": "runtime.win.System.Runtime.Extensions",
+      "Version": "4.3.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-17T02:27:18.9480108Z"
     }
   ]
 }
