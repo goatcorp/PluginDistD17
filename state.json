@@ -13845,9 +13845,9 @@
           }
         },
         "SimpleTweaksPlugin": {
-          "BuiltCommit": "c5287634658b65cdf23b1233546b033f7cbde3bd",
-          "TimeBuilt": "2024-11-16T21:02:03.5218881+00:00",
-          "EffectiveVersion": "1.10.3.2",
+          "BuiltCommit": "d283412d5e023b29e61a922a206792bff8da8a78",
+          "TimeBuilt": "2024-11-17T06:10:31.6291105+00:00",
+          "EffectiveVersion": "1.10.3.3",
           "MinimumVersion": null,
           "Changelogs": {
             "1.10.3.1": {
@@ -13868,6 +13868,21 @@
             "1.10.3.2": {
               "TimeReleased": "2024-11-16T21:02:03.5219278+00:00",
               "Changelog": "***Tweak Changes***\r\n- **\u0060Show ID\u0060**\r\n  - Added option to show original action ID alongside resolved.\r\n  - Fixed ID being cut off on items with long category names, like BLM weapons.\r\n  - Fixed ID being incorrect with latest dalamud versions\r\n  ",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "System.Numerics.Vectors",
+                  "Version": "4.6.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            },
+            "1.10.3.3": {
+              "TimeReleased": "2024-11-17T06:10:31.6291115+00:00",
+              "Changelog": "Fixed various issues in tweaks ranging from crashes to not working\r\n- \u0060Open Glamour Dresser To Current Job\u0060 (*ItsBexy*)\r\n- \u0060Parameter Bar Adjustments\u0060 (*ItsBexy*)\r\n- \u0060Fast Item Search\u0060\r\n- \u0060Food Stats\u0060\r\n- \u0060Glamour Item Names\u0060\r\n- \u0060Painting Preview\u0060\r\n- \u0060Unlockable Previews\u0060\r\n- \u0060Large Cooldown Counter\u0060\r\n- \u0060Materia Stats\u0060",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -16021,14 +16036,29 @@
           }
         },
         "DelvUI": {
-          "BuiltCommit": "193e55313814e526ca4c8fd94cc6cdc051d3ea6f",
-          "TimeBuilt": "2024-11-16T06:09:17.4963442+00:00",
-          "EffectiveVersion": "2.3.0.0",
+          "BuiltCommit": "0b4c281483c4f5a9b8e2bebefd087f9b1f9eeaa4",
+          "TimeBuilt": "2024-11-17T06:10:22.0464357+00:00",
+          "EffectiveVersion": "2.3.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "2.3.0.0": {
               "TimeReleased": "2024-11-16T06:09:17.4963453+00:00",
               "Changelog": "- Added support for Patch 7.1 and Dalamud API 11.",
+              "UsedNeeds": [
+                {
+                  "Key": "Colourful",
+                  "Version": "3.1.0"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            },
+            "2.3.1.0": {
+              "TimeReleased": "2024-11-17T06:10:22.0464759+00:00",
+              "Changelog": "- Fixed several issues with the Party Frames and Party Cooldowns.\r\n- Fixed Ready Check Status icon in the Party Frames.\r\n- Removed the Player Order Override setting from Party Frames:\r\n  * This is now possible through the game\u0027s systems.\r\n  * In order to simplify the logic, DelvUI\u0027s Party Frames will follow the order in the game\u0027s party list at all times.",
               "UsedNeeds": [
                 {
                   "Key": "Colourful",
