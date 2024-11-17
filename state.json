@@ -3,9 +3,9 @@
     "stable": {
       "Plugins": {
         "Dalamud.RichPresence": {
-          "BuiltCommit": "0942007195083fc188df6d01d730a49d02640a95",
-          "TimeBuilt": "2024-10-20T12:30:04.4685055+00:00",
-          "EffectiveVersion": "2.0.5.0",
+          "BuiltCommit": "9eb39c7969c883babd0d1403e717f813b9dab6f7",
+          "TimeBuilt": "2024-11-17T15:53:57.7270013+00:00",
+          "EffectiveVersion": "2.0.6.0",
           "MinimumVersion": null,
           "Changelogs": {
             "2.0.1.0": {
@@ -45,6 +45,69 @@
                 {
                   "Key": "DalamudPackager",
                   "Version": "2.1.13"
+                },
+                {
+                  "Key": "DiscordRichPresence",
+                  "Version": "1.2.1.24"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.Build.Tasks.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.NETCore.Platforms",
+                  "Version": "2.0.0"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Common",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitHub",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitLab",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.Win32.Registry",
+                  "Version": "4.5.0"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.1"
+                },
+                {
+                  "Key": "System.Security.AccessControl",
+                  "Version": "4.5.0"
+                },
+                {
+                  "Key": "System.Security.Principal.Windows",
+                  "Version": "4.5.0"
+                }
+              ],
+              "Reviewer": "philpax"
+            },
+            "2.0.6.0": {
+              "TimeReleased": "2024-11-17T15:53:57.7270021+00:00",
+              "Changelog": "Updated for API 11. \n\nPlease report if you use a non-English client language and AFK status doesn\u0027t work.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
                 },
                 {
                   "Key": "DiscordRichPresence",
@@ -166,9 +229,9 @@
           }
         },
         "DeathRecap": {
-          "BuiltCommit": "6ee0124d504cc101a3ebcc19be2cfcbeb0c9e62b",
-          "TimeBuilt": "2024-07-01T19:45:35.544",
-          "EffectiveVersion": "1.12.0.0",
+          "BuiltCommit": "de6427210bb95d47311d5447fb90504ee14780b7",
+          "TimeBuilt": "2024-11-17T15:53:49.5117134+00:00",
+          "EffectiveVersion": "1.13.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.8.0.2": {
@@ -248,6 +311,17 @@
               "Changelog": "Update for 7.0\n",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "1.13.0.0": {
+              "TimeReleased": "2024-11-17T15:53:49.5117142+00:00",
+              "Changelog": "Update for 7.1\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "philpax"
             }
           }
         },
@@ -2287,11 +2361,23 @@
           }
         },
         "Honorific": {
-          "BuiltCommit": "e71465e7912143bbe86b602d0e841deb87ebebd5",
-          "TimeBuilt": "2024-07-17T08:50:30.481",
-          "EffectiveVersion": "1.5.0.1",
+          "BuiltCommit": "037bdbb1166ba27335fb0839a36e154915aad1e6",
+          "TimeBuilt": "2024-11-17T15:53:02.34158+00:00",
+          "EffectiveVersion": "1.5.0.3",
           "MinimumVersion": null,
-          "Changelogs": {}
+          "Changelogs": {
+            "1.5.0.3": {
+              "TimeReleased": "2024-11-17T15:53:02.3415808+00:00",
+              "Changelog": "Update for 7.1",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "philpax"
+            }
+          }
         },
         "ChatAlerts": {
           "BuiltCommit": "abf1dda10a1118be2830d714a70e5c944f27f3b4",
@@ -6819,9 +6905,9 @@
           }
         },
         "PriceInsight": {
-          "BuiltCommit": "915f4597a5baea93d07431c287d6ab29f3be92ee",
-          "TimeBuilt": "2024-08-02T19:39:20.738",
-          "EffectiveVersion": "2.11.0.0",
+          "BuiltCommit": "3c2a04ebfb2b4982db37599c507ef8515cfd5235",
+          "TimeBuilt": "2024-11-17T15:53:10.3011359+00:00",
+          "EffectiveVersion": "2.11.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "2.2.0.0": {
@@ -6973,6 +7059,69 @@
               "Changelog": "- Enable new Universalis API for everyone\n- Fetch item prices whenever player or retainer inventory is opened\n",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "2.11.1.0": {
+              "TimeReleased": "2024-11-17T15:53:10.3011368+00:00",
+              "Changelog": "- Update for patch 7.1\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "EasyCaching.InMemory",
+                  "Version": "1.9.2"
+                },
+                {
+                  "Key": "EasyCaching.Core",
+                  "Version": "1.9.2"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Abstractions",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Binder",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options.ConfigurationExtensions",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Primitives",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "System.Diagnostics.DiagnosticSource",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "System.Runtime.CompilerServices.Unsafe",
+                  "Version": "6.0.0"
+                }
+              ],
+              "Reviewer": "philpax"
             }
           }
         },
@@ -10443,9 +10592,9 @@
           }
         },
         "Redirect": {
-          "BuiltCommit": "97b9bbf73d3c10e9722f3349b8b92c1ed2445a12",
-          "TimeBuilt": "2024-07-08T07:01:30.756",
-          "EffectiveVersion": "1.2.4.0",
+          "BuiltCommit": "0feec227f3ae7d17dcc3c91ebc7b9bf7973061a9",
+          "TimeBuilt": "2024-11-17T15:53:17.3339497+00:00",
+          "EffectiveVersion": "1.2.4.1",
           "MinimumVersion": null,
           "Changelogs": {
             "1.2.1.1": {
@@ -10489,6 +10638,17 @@
               "Changelog": "- Fix an issue preventing the use of Starry Muse\n- Add Chocobo companions to available redirection targets (diwo)",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "1.2.4.1": {
+              "TimeReleased": "2024-11-17T15:53:17.3339506+00:00",
+              "Changelog": "- Updates for API11 / Lumina",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "philpax"
             }
           }
         },
@@ -10596,9 +10756,9 @@
           }
         },
         "Dalamud.DiscordBridge": {
-          "BuiltCommit": "1a920942a05a8a7d80a448f72ad38cdf74c7b423",
-          "TimeBuilt": "2024-10-04T20:00:43.152",
-          "EffectiveVersion": "1.5.0.2",
+          "BuiltCommit": "a44ec1b5cd3b9545918c03367d4f8f42956bcb28",
+          "TimeBuilt": "2024-11-17T15:53:35.3597446+00:00",
+          "EffectiveVersion": "1.5.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.2.7.0": {
@@ -10759,6 +10919,121 @@
                 }
               ],
               "Reviewer": "bleatbot"
+            },
+            "1.5.1.0": {
+              "TimeReleased": "2024-11-17T15:53:35.3597456+00:00",
+              "Changelog": "Updated for API 11\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "Discord.Net",
+                  "Version": "3.16.0"
+                },
+                {
+                  "Key": "Discord.Net.Core",
+                  "Version": "3.16.0"
+                },
+                {
+                  "Key": "Discord.Net.Rest",
+                  "Version": "3.16.0"
+                },
+                {
+                  "Key": "Discord.Net.Webhook",
+                  "Version": "3.16.0"
+                },
+                {
+                  "Key": "Discord.Net.WebSocket",
+                  "Version": "3.16.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "NetStone",
+                  "Version": "1.3.1"
+                },
+                {
+                  "Key": "Discord.Net.Commands",
+                  "Version": "3.16.0"
+                },
+                {
+                  "Key": "Discord.Net.Interactions",
+                  "Version": "3.16.0"
+                },
+                {
+                  "Key": "HtmlAgilityPack",
+                  "Version": "1.11.46"
+                },
+                {
+                  "Key": "Karashiiro.HtmlAgilityPack.CssSelectors.NetCoreFork",
+                  "Version": "0.0.2"
+                },
+                {
+                  "Key": "Microsoft.Bcl.AsyncInterfaces",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "Microsoft.Build.Tasks.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Common",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitHub",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitLab",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.3"
+                },
+                {
+                  "Key": "System.Collections.Immutable",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "System.Interactive.Async",
+                  "Version": "6.0.1"
+                },
+                {
+                  "Key": "System.Linq.Async",
+                  "Version": "6.0.1"
+                },
+                {
+                  "Key": "System.Reactive",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "System.Runtime.CompilerServices.Unsafe",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "System.ValueTuple",
+                  "Version": "4.5.0"
+                }
+              ],
+              "Reviewer": "philpax"
             }
           }
         },
@@ -12019,9 +12294,9 @@
           }
         },
         "WhichPatchWasThat": {
-          "BuiltCommit": "b48a6decc3a82db1c85b54eb55ce25986beb9e38",
-          "TimeBuilt": "2024-07-01T19:45:23.82",
-          "EffectiveVersion": "7.0.0.0",
+          "BuiltCommit": "458b6e1ddeac8d9618fa4f15c99efdddf7cba475",
+          "TimeBuilt": "2024-11-17T15:53:42.6656593+00:00",
+          "EffectiveVersion": "7.1.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.1.0.0": {
@@ -12071,6 +12346,17 @@
               "Changelog": "Update for 7.0\n",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "7.1.0.0": {
+              "TimeReleased": "2024-11-17T15:53:42.66566+00:00",
+              "Changelog": "Update for 7.1\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "philpax"
             }
           }
         },
@@ -12993,11 +13279,23 @@
           }
         },
         "AdventurerInNeed": {
-          "BuiltCommit": "7e4b5d87e3c2079c4d84f44b58d1024e402ac08d",
-          "TimeBuilt": "2024-07-02T04:36:48.453",
-          "EffectiveVersion": "1.5.0.0",
+          "BuiltCommit": "576ce7ea60a4109b6f6b0aa478d40c9e155cdd9d",
+          "TimeBuilt": "2024-11-17T15:53:24.6533873+00:00",
+          "EffectiveVersion": "1.5.0.1",
           "MinimumVersion": null,
-          "Changelogs": {}
+          "Changelogs": {
+            "1.5.0.1": {
+              "TimeReleased": "2024-11-17T15:53:24.653388+00:00",
+              "Changelog": "7.1 \u0026 some UX Improvements (?)",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "philpax"
+            }
+          }
         },
         "BetterPartyFinder": {
           "BuiltCommit": "19c26f0f27f9f7a82739638fabc4b6f927dc23de",
@@ -16833,11 +17131,23 @@
           }
         },
         "FPSPlugin": {
-          "BuiltCommit": "be1ce9277f9956a2758855fa608b866794ed49aa",
-          "TimeBuilt": "2024-07-02T04:49:46.262",
-          "EffectiveVersion": "1.7.0.0",
+          "BuiltCommit": "81716104a1a1c5d00dbd090604a0aab36da4d952",
+          "TimeBuilt": "2024-11-17T15:52:38.9823001+00:00",
+          "EffectiveVersion": "1.7.0.1",
           "MinimumVersion": null,
-          "Changelogs": {}
+          "Changelogs": {
+            "1.7.0.1": {
+              "TimeReleased": "2024-11-17T15:52:38.9823419+00:00",
+              "Changelog": "Update for 7.1",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "philpax"
+            }
+          }
         },
         "MemoryMarker": {
           "BuiltCommit": "0319939e38fb0b15f8bbe6bcd0e765f1237f8ca3",
@@ -24623,9 +24933,9 @@
           }
         },
         "CharacterPanelRefined": {
-          "BuiltCommit": "270fca12a588f18c6bc9f1c6a34480a7ec56090a",
-          "TimeBuilt": "2024-07-24T18:38:51.855",
-          "EffectiveVersion": "1.8.1.0",
+          "BuiltCommit": "124428f6e4cb995becb03deb860ad1d4d9f4f10b",
+          "TimeBuilt": "2024-11-17T15:52:49.0603193+00:00",
+          "EffectiveVersion": "1.8.2.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.1.2.0": {
@@ -24771,6 +25081,21 @@
               "Changelog": "- Tenacity is now split between provided damage increase and mitigation\n- Updated some 7.0 math\n",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "1.8.2.0": {
+              "TimeReleased": "2024-11-17T15:52:49.0603201+00:00",
+              "Changelog": "- Update for 7.1\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "2.1.8"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "philpax"
             }
           }
         },
@@ -24956,11 +25281,23 @@
           }
         },
         "MacroChain": {
-          "BuiltCommit": "29f6ee09b99ceae07a05acfb318ac22f9ad56385",
-          "TimeBuilt": "2024-07-02T04:50:04.742",
-          "EffectiveVersion": "2.2.0.0",
+          "BuiltCommit": "6302d3f98b2f5371546f203feeb27b265efc97cd",
+          "TimeBuilt": "2024-11-17T15:52:55.6254468+00:00",
+          "EffectiveVersion": "2.2.0.1",
           "MinimumVersion": null,
-          "Changelogs": {}
+          "Changelogs": {
+            "2.2.0.1": {
+              "TimeReleased": "2024-11-17T15:52:55.6254476+00:00",
+              "Changelog": "Update for 7.1",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "philpax"
+            }
+          }
         },
         "owofy": {
           "BuiltCommit": "835b0df807037416e641e5944b136aca54a58da8",
@@ -34834,9 +35171,9 @@
           }
         },
         "ChatContext": {
-          "BuiltCommit": "13e5225893d908304825081c0bbd22b7a6f83c75",
-          "TimeBuilt": "2024-10-23T23:24:32.4385067+00:00",
-          "EffectiveVersion": "0.0.0.2",
+          "BuiltCommit": "8f5b26273a69dfa30ec8f8c8c89a0210d315581a",
+          "TimeBuilt": "2024-11-17T15:54:05.0430305+00:00",
+          "EffectiveVersion": "0.0.1.1",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.0.2": {
@@ -34846,6 +35183,17 @@
                 {
                   "Key": "DalamudPackager",
                   "Version": "2.1.13"
+                }
+              ],
+              "Reviewer": "philpax"
+            },
+            "0.0.1.1": {
+              "TimeReleased": "2024-11-17T15:54:05.0430313+00:00",
+              "Changelog": " - Api 11\n - Improve window titles",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
                 }
               ],
               "Reviewer": "philpax"
@@ -44997,6 +45345,125 @@
       "Version": "8.0.0-preview.5.23280.8",
       "ReviewedBy": "reiichi001",
       "ReviewedAt": "2024-11-17T08:58:54.4592475Z"
+    },
+    {
+      "Type": 1,
+      "Key": "DalamudPackager",
+      "Version": "2.1.8",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2024-11-17T15:52:49.0820515Z"
+    },
+    {
+      "Type": 1,
+      "Key": "EasyCaching.InMemory",
+      "Version": "1.9.2",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2024-11-17T15:53:10.3192379Z"
+    },
+    {
+      "Type": 1,
+      "Key": "EasyCaching.Core",
+      "Version": "1.9.2",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2024-11-17T15:53:10.319239Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Extensions.Configuration.Abstractions",
+      "Version": "6.0.0",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2024-11-17T15:53:10.3192392Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Extensions.Configuration.Binder",
+      "Version": "6.0.0",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2024-11-17T15:53:10.3192394Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Extensions.Options.ConfigurationExtensions",
+      "Version": "6.0.0",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2024-11-17T15:53:10.3192404Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Discord.Net",
+      "Version": "3.16.0",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2024-11-17T15:53:35.3706808Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Discord.Net.Core",
+      "Version": "3.16.0",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2024-11-17T15:53:35.3706817Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Discord.Net.Rest",
+      "Version": "3.16.0",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2024-11-17T15:53:35.370682Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Discord.Net.Webhook",
+      "Version": "3.16.0",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2024-11-17T15:53:35.3706822Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Discord.Net.WebSocket",
+      "Version": "3.16.0",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2024-11-17T15:53:35.3706824Z"
+    },
+    {
+      "Type": 1,
+      "Key": "NetStone",
+      "Version": "1.3.1",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2024-11-17T15:53:35.3706829Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Discord.Net.Commands",
+      "Version": "3.16.0",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2024-11-17T15:53:35.3706831Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Discord.Net.Interactions",
+      "Version": "3.16.0",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2024-11-17T15:53:35.3706832Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Collections.Immutable",
+      "Version": "6.0.0",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2024-11-17T15:53:35.3706843Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Interactive.Async",
+      "Version": "6.0.1",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2024-11-17T15:53:35.3706844Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Linq.Async",
+      "Version": "6.0.1",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2024-11-17T15:53:35.3706848Z"
     }
   ]
 }

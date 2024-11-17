@@ -2,14 +2,14 @@
   "Author": "goat, maintained by Franz",
   "Name": "Discord Rich Presence",
   "InternalName": "Dalamud.RichPresence",
-  "AssemblyVersion": "2.0.5.0",
+  "AssemblyVersion": "2.0.6.0",
   "Description": "This plugin allows you to show your zone, job, level, name, and world in your Discord status.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/goaaats/Dalamud.RichPresence",
   "Tags": [
     "Discord"
   ],
-  "DalamudApiLevel": 10,
+  "DalamudApiLevel": 11,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
