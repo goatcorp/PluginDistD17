@@ -26716,9 +26716,9 @@
           }
         },
         "DalamudMinesweeper": {
-          "BuiltCommit": "d70f664d33cb7fcbba2bfe97edc8487e864f3b9f",
-          "TimeBuilt": "2024-07-10T13:50:52.838",
-          "EffectiveVersion": "1.2.0.0",
+          "BuiltCommit": "06ffc2ee85332d219002375e8b197ded5cc9d4c4",
+          "TimeBuilt": "2024-11-17T21:50:06.6826825+00:00",
+          "EffectiveVersion": "1.2.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.1.0.4": {
@@ -26732,6 +26732,17 @@
               "Changelog": "Update for Dawntrail",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "1.2.1.0": {
+              "TimeReleased": "2024-11-17T21:50:06.6827399+00:00",
+              "Changelog": "Update for 7.1",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
