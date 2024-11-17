@@ -2562,9 +2562,9 @@
           }
         },
         "RemotePartyFinder": {
-          "BuiltCommit": "fb6027caa06089cd321a0d74bbdcbaf2f45633de",
-          "TimeBuilt": "2024-07-19T18:26:56.21",
-          "EffectiveVersion": "1.0.13.0",
+          "BuiltCommit": "7d60066fcb1dacb4063d7015e2d1041ed2f30701",
+          "TimeBuilt": "2024-11-17T22:27:52.8850596+00:00",
+          "EffectiveVersion": "1.0.14.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.8.0": {
@@ -2602,6 +2602,17 @@
               "Changelog": "Update for Dawntrail",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "1.0.14.0": {
+              "TimeReleased": "2024-11-17T22:27:52.8851176+00:00",
+              "Changelog": "Update for 7.1",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
