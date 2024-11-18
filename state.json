@@ -230,9 +230,9 @@
           }
         },
         "Glamaholic": {
-          "BuiltCommit": "8b16ee85dd9cba212bfa39ff28566eb2afeb86ce",
-          "TimeBuilt": "2024-08-04T02:32:53.486",
-          "EffectiveVersion": "1.10.9.0",
+          "BuiltCommit": "60dc6d4bdd254d032aefc6813d710447a9a13974",
+          "TimeBuilt": "2024-11-18T19:17:31.5057651+00:00",
+          "EffectiveVersion": "1.10.10.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.9.8.0": {
@@ -288,6 +288,29 @@
               "Changelog": "Bug Fixes\n- Opo-opo brown dye is now correctly imported for Eorzea Collection glamours.\n\nNew Features\n- Began cross-plugin interoperability for other supported glamour plugins.\n  - Note: features related to other plugins will only appear if supported plugins are installed and enabled.\n- Eorzea Collection imports are now automatically tagged as such.\n- Added \u0022Try On\u0022 for Eorzea Collection importing.\n- Added \u0022Mass Import\u0022 for Eorzea Collection.\n- Added dye list \u002B copy for Glamaholic plates.\n\nFor troubleshooting, please enable Troubleshooting mode (Settings -\u003E Troubleshooting mode), reproduce the issue, then post any log line from \u0060/xllog\u0060 starting with \u0060[Troubleshooting]\u0060. Thanks!\n",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "1.10.10.0": {
+              "TimeReleased": "2024-11-18T19:17:31.5057671+00:00",
+              "Changelog": "Updated for patch 7.1\n\nFor troubleshooting, please enable Troubleshooting mode (Settings -\u003E Troubleshooting mode), reproduce the issue, then post any log line from \u0060/xllog\u0060 starting with \u0060[Troubleshooting]\u0060. Thanks!\n",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/Ottermandias/Glamourer.Api.git",
+                  "Version": "4bad56d610132b419335b89896e1f387b9ba2039"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "Fody",
+                  "Version": "6.8.0"
+                },
+                {
+                  "Key": "Resourcer.Fody",
+                  "Version": "1.8.1"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
@@ -24575,11 +24598,23 @@
           }
         },
         "TeleporterPlugin": {
-          "BuiltCommit": "fb61ec7006d6a4af1d73e2d45e9f476d8f88a887",
-          "TimeBuilt": "2024-07-03T14:12:51.161",
-          "EffectiveVersion": "2.0.2.4",
+          "BuiltCommit": "8d5a2da616357b661984b7b174c82768941857c5",
+          "TimeBuilt": "2024-11-18T19:17:21.3241559+00:00",
+          "EffectiveVersion": "2.0.2.5",
           "MinimumVersion": null,
-          "Changelogs": {}
+          "Changelogs": {
+            "2.0.2.5": {
+              "TimeReleased": "2024-11-18T19:17:21.3241997+00:00",
+              "Changelog": null,
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            }
+          }
         },
         "Dalamud.FindAnything": {
           "BuiltCommit": "17ff25cd36cbf244417f513a722b254fa9ed2870",
@@ -47933,6 +47968,13 @@
       "Version": "2da0229ba1f87f0b337d3e49694355e0c74f7ff3",
       "ReviewedBy": "reiichi001",
       "ReviewedAt": "2024-11-18T14:15:52.963679Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/Ottermandias/Glamourer.Api.git",
+      "Version": "4bad56d610132b419335b89896e1f387b9ba2039",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-18T19:17:31.5322509Z"
     }
   ]
 }
