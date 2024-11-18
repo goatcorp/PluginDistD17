@@ -992,9 +992,9 @@
           "Changelogs": {}
         },
         "OBSPlugin": {
-          "BuiltCommit": "4e050c9e63651a4b633a714b90cb5d4018b952cf",
-          "TimeBuilt": "2024-07-08T06:50:20.181",
-          "EffectiveVersion": "1.0.4.0",
+          "BuiltCommit": "6ecb1c5034274b70b0429289a37f9f3d31319be0",
+          "TimeBuilt": "2024-11-18T06:37:00.6530435+00:00",
+          "EffectiveVersion": "1.0.4.3",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.2.3": {
@@ -1026,6 +1026,41 @@
               "Changelog": "- ffxiv 7.0 support",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "1.0.4.3": {
+              "TimeReleased": "2024-11-18T06:37:00.6530444+00:00",
+              "Changelog": "- ffxiv 7.1 support",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/Bluefissure/obs-websocket-dotnet.git",
+                  "Version": "f7d696bc41d80c89861b66a968dea925ba073fbf"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "Microsoft.NET.ILLink.Tasks",
+                  "Version": "8.0.11"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.3"
+                },
+                {
+                  "Key": "System.Reactive",
+                  "Version": "4.3.2"
+                },
+                {
+                  "Key": "System.Threading.Channels",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "Websocket.Client",
+                  "Version": "4.4.43"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
@@ -10099,9 +10134,9 @@
           }
         },
         "MapPartyAssist": {
-          "BuiltCommit": "6876c964d9e6263976cd606cfba5a71f362496eb",
-          "TimeBuilt": "2024-08-08T16:50:33.16",
-          "EffectiveVersion": "2.3.1.0",
+          "BuiltCommit": "e55c720601d6964570dddd9f1ab5b72cfccf38e3",
+          "TimeBuilt": "2024-11-18T06:36:38.8953443+00:00",
+          "EffectiveVersion": "2.4.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.2.0": {
@@ -10187,6 +10222,21 @@
               "Changelog": "* Adds a context menu option to announce a player\u0027s map link in party chat.\r\n* Adds a context menu option to restore a player\u0027s previous map link.\r\n",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "2.4.0.0": {
+              "TimeReleased": "2024-11-18T06:36:38.8953452+00:00",
+              "Changelog": "* Patch 7.1/Api11 update.\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "LiteDB",
+                  "Version": "5.0.16"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
@@ -13243,9 +13293,9 @@
           }
         },
         "MapLinker": {
-          "BuiltCommit": "cef78d53f7a16c6cf6bc5947bf1031014bf98648",
-          "TimeBuilt": "2024-07-04T20:37:38.173",
-          "EffectiveVersion": "1.1.8.0",
+          "BuiltCommit": "b4f039cc25bbb25b0482e595462692eee177c540",
+          "TimeBuilt": "2024-11-18T06:36:51.4778907+00:00",
+          "EffectiveVersion": "1.1.9.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.1.6.0": {
@@ -13283,6 +13333,29 @@
               "Changelog": "Patch 7.0 \u0026 APIX",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "1.1.9.0": {
+              "TimeReleased": "2024-11-18T06:36:51.4778914+00:00",
+              "Changelog": "Patch 7.1 \u0026 API11",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.1"
+                },
+                {
+                  "Key": "System.Data.DataSetExtensions",
+                  "Version": "4.6.0-preview3.19128.7"
+                },
+                {
+                  "Key": "System.Numerics.Vectors",
+                  "Version": "4.5.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
@@ -23125,9 +23198,9 @@
           }
         },
         "NoKillPlugin": {
-          "BuiltCommit": "b78e50bee3ec0d347757ffa9863b261c41da34f8",
-          "TimeBuilt": "2024-07-16T19:56:05.687",
-          "EffectiveVersion": "1.2.0.2",
+          "BuiltCommit": "a3648f18379abd9b7b58c273aa7f70e7dae1f7fd",
+          "TimeBuilt": "2024-11-18T06:37:06.4441205+00:00",
+          "EffectiveVersion": "1.2.0.3",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.9.0": {
@@ -23147,6 +23220,17 @@
               "Changelog": "- 7.0 support \u0026 apiX",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "1.2.0.3": {
+              "TimeReleased": "2024-11-18T06:37:06.4441212+00:00",
+              "Changelog": "- 7.1 support \u0026 api11",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
@@ -29274,6 +29358,25 @@
               "Reviewer": "reiichi001"
             }
           }
+        },
+        "MultiHit": {
+          "BuiltCommit": "b3b02f0319ff4eab20970f66db5e432a390b53aa",
+          "TimeBuilt": "2024-11-18T06:36:45.2042375+00:00",
+          "EffectiveVersion": "0.0.2.3",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "0.0.2.3": {
+              "TimeReleased": "2024-11-18T06:36:45.2042412+00:00",
+              "Changelog": "- update for 7.1\n- move to stable\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            }
+          }
         }
       }
     },
@@ -31717,26 +31820,6 @@
             }
           }
         },
-        "OBSPlugin": {
-          "BuiltCommit": "0798e15d9dd58e5685c385ff6d815b8c8a794a9c",
-          "TimeBuilt": "2024-08-06T04:32:42.316",
-          "EffectiveVersion": "1.0.4.2",
-          "MinimumVersion": null,
-          "Changelogs": {
-            "1.0.4.1": {
-              "TimeReleased": "2024-08-04T02:33:10.138",
-              "Changelog": "- add replay buffer tab\n- add new commands (stream replay record scene audio)",
-              "UsedNeeds": null,
-              "Reviewer": null
-            },
-            "1.0.4.2": {
-              "TimeReleased": "2024-08-06T04:32:42.316",
-              "Changelog": "- fix slash commands hangs the game when obs is disconnected",
-              "UsedNeeds": null,
-              "Reviewer": null
-            }
-          }
-        },
         "WondrousTailsSolver": {
           "BuiltCommit": "bffaf716f4b6b8d9dd049427adf06a36863279a7",
           "TimeBuilt": "2024-07-13T17:40:32.295",
@@ -33160,31 +33243,6 @@
               "Changelog": "* Tracker window rework: You can now drag and drop maps to re-assign them.\r\n* Fix loot not registering on map chests.\r\n* Adjusted timing setpoints to improve reliability.\r\n",
               "UsedNeeds": null,
               "Reviewer": null
-            }
-          }
-        },
-        "MultiHit": {
-          "BuiltCommit": "b9a709f4e373dbe34e81767f230d4ad6fbdd71c8",
-          "TimeBuilt": "2024-10-23T23:33:14.2972367+00:00",
-          "EffectiveVersion": "0.0.2.2",
-          "MinimumVersion": null,
-          "Changelogs": {
-            "0.0.1.0": {
-              "TimeReleased": "2024-08-26T08:21:51.705",
-              "Changelog": "- readying for testing live\n",
-              "UsedNeeds": null,
-              "Reviewer": null
-            },
-            "0.0.2.2": {
-              "TimeReleased": "2024-10-23T23:33:14.2972765+00:00",
-              "Changelog": "- try to fix crashing\n- support namingway\n",
-              "UsedNeeds": [
-                {
-                  "Key": "DalamudPackager",
-                  "Version": "2.1.13"
-                }
-              ],
-              "Reviewer": "philpax"
             }
           }
         },
@@ -46362,6 +46420,48 @@
       "Version": "1.0.3",
       "ReviewedBy": "reiichi001",
       "ReviewedAt": "2024-11-18T04:35:15.0413012Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Data.DataSetExtensions",
+      "Version": "4.6.0-preview3.19128.7",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-18T06:36:51.4916649Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/Bluefissure/obs-websocket-dotnet.git",
+      "Version": "f7d696bc41d80c89861b66a968dea925ba073fbf",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-18T06:37:00.66779Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.NET.ILLink.Tasks",
+      "Version": "8.0.11",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-18T06:37:00.6677913Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Reactive",
+      "Version": "4.3.2",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-18T06:37:00.6677916Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Threading.Channels",
+      "Version": "4.7.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-18T06:37:00.6677919Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Websocket.Client",
+      "Version": "4.4.43",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-18T06:37:00.667792Z"
     }
   ]
 }
