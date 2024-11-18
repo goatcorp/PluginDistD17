@@ -10336,9 +10336,9 @@
           }
         },
         "DeepDungeonTracker": {
-          "BuiltCommit": "432d36c2036e79a1929f5ea48bacc551204c38e8",
-          "TimeBuilt": "2024-07-08T07:13:41.295",
-          "EffectiveVersion": "1.0.0.9",
+          "BuiltCommit": "904cd5c09009fdce743319dd662952f1d4e6a495",
+          "TimeBuilt": "2024-11-18T04:35:26.4823935+00:00",
+          "EffectiveVersion": "1.0.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -10400,6 +10400,25 @@
               "Changelog": "- Patch 7.0 / Dalamud API 10 update.\n",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "1.0.1.0": {
+              "TimeReleased": "2024-11-18T04:35:26.4823947+00:00",
+              "Changelog": "- Patch 7.1 / Dalamud API 11 update.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "System.Drawing.Common",
+                  "Version": "8.0.6"
+                },
+                {
+                  "Key": "Microsoft.Win32.SystemEvents",
+                  "Version": "8.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
@@ -26073,9 +26092,9 @@
           }
         },
         "autoSweep": {
-          "BuiltCommit": "f06a01089167efec454f0b574d4af5b7901ccc9a",
-          "TimeBuilt": "2024-07-08T07:17:13.533",
-          "EffectiveVersion": "1.4.5.0",
+          "BuiltCommit": "6f3c668f4d8490cf34b4ebe2107b01e812008027",
+          "TimeBuilt": "2024-11-18T04:35:15.0066999+00:00",
+          "EffectiveVersion": "1.4.6.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.4.2.0": {
@@ -26101,6 +26120,25 @@
               "Changelog": "Fixed a potential crash",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "1.4.6.0": {
+              "TimeReleased": "2024-11-18T04:35:15.006738+00:00",
+              "Changelog": "Updated for 7.1",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "DebounceThrottle",
+                  "Version": "2.0.0"
+                },
+                {
+                  "Key": "WebSocketSharp.Standard",
+                  "Version": "1.0.3"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
@@ -29518,9 +29556,9 @@
           }
         },
         "Altoholic": {
-          "BuiltCommit": "6ee8d4d5ce7301abbdb310af101c4aab35fca621",
-          "TimeBuilt": "2024-11-17T02:11:30.4294988+00:00",
-          "EffectiveVersion": "0.0.0.22",
+          "BuiltCommit": "a468e82a889836da03705a77f0ffa6d01630dbf7",
+          "TimeBuilt": "2024-11-18T04:35:40.6729368+00:00",
+          "EffectiveVersion": "0.0.0.24",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.0.1": {
@@ -30012,6 +30050,57 @@
             "0.0.0.22": {
               "TimeReleased": "2024-11-17T02:11:30.4295389+00:00",
               "Changelog": "Version 0.0.0.22: Api11 and 7.1 data",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "Dapper",
+                  "Version": "2.1.35"
+                },
+                {
+                  "Key": "LiteDB",
+                  "Version": "5.0.21"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite.Core",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "SQLitePCLRaw.bundle_e_sqlite3",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.core",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.lib.e_sqlite3",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.provider.e_sqlite3",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "System.Buffers",
+                  "Version": "4.5.1"
+                },
+                {
+                  "Key": "System.Memory",
+                  "Version": "4.5.3"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            },
+            "0.0.0.24": {
+              "TimeReleased": "2024-11-18T04:35:40.6729379+00:00",
+              "Changelog": "Version 0.0.0.24: Fix mix up duty unlocked-completed data and add database version",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -46259,6 +46348,20 @@
       "Version": "2.0.179",
       "ReviewedBy": "reiichi001",
       "ReviewedAt": "2024-11-18T04:31:39.1073179Z"
+    },
+    {
+      "Type": 1,
+      "Key": "DebounceThrottle",
+      "Version": "2.0.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-18T04:35:15.0412704Z"
+    },
+    {
+      "Type": 1,
+      "Key": "WebSocketSharp.Standard",
+      "Version": "1.0.3",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-18T04:35:15.0413012Z"
     }
   ]
 }
