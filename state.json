@@ -28202,9 +28202,9 @@
           }
         },
         "ChatTwo": {
-          "BuiltCommit": "a648bcf60df7f1d79adc7545d88288ff6c6c0672",
-          "TimeBuilt": "2024-11-17T20:51:27.9994988+00:00",
-          "EffectiveVersion": "1.29.7.0",
+          "BuiltCommit": "56eff572b7f658eb0a16df84a7cdc201e96577ad",
+          "TimeBuilt": "2024-11-18T19:24:30.1158656+00:00",
+          "EffectiveVersion": "1.29.8.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.17.5.0": {
@@ -28474,6 +28474,101 @@
                 }
               ],
               "Reviewer": "reiichi001"
+            },
+            "1.29.8.0": {
+              "TimeReleased": "2024-11-18T19:24:30.1158669+00:00",
+              "Changelog": "- Potential fix for temp channel issues\r\n  - If you notice temp channels behaving wrong, please report it in the discord thread\r\n- Fix linkshell rotation with the temp rotate hotkeys",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "MessagePack",
+                  "Version": "3.0.238-rc.1"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "Pidgin",
+                  "Version": "3.3.0"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.5"
+                },
+                {
+                  "Key": "Watson.Lite",
+                  "Version": "6.2.3"
+                },
+                {
+                  "Key": "CavemanTcp",
+                  "Version": "2.0.3"
+                },
+                {
+                  "Key": "IpMatcher",
+                  "Version": "1.0.4.4"
+                },
+                {
+                  "Key": "MessagePack.Annotations",
+                  "Version": "3.0.238-rc.1"
+                },
+                {
+                  "Key": "MessagePackAnalyzer",
+                  "Version": "3.0.238-rc.1"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite.Core",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "Microsoft.NET.StringTools",
+                  "Version": "17.11.4"
+                },
+                {
+                  "Key": "RegexMatcher",
+                  "Version": "1.0.8"
+                },
+                {
+                  "Key": "SQLitePCLRaw.bundle_e_sqlite3",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.core",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.lib.e_sqlite3",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.provider.e_sqlite3",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "System.Memory",
+                  "Version": "4.5.3"
+                },
+                {
+                  "Key": "System.Text.Json",
+                  "Version": "8.0.5"
+                },
+                {
+                  "Key": "Timestamps",
+                  "Version": "1.0.9"
+                },
+                {
+                  "Key": "UrlMatcher",
+                  "Version": "3.0.0"
+                },
+                {
+                  "Key": "Watson.Core",
+                  "Version": "6.2.3"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
@@ -28559,14 +28654,25 @@
           }
         },
         "DelvCD": {
-          "BuiltCommit": "e1fed44f4cddf1ccca492ae484a6e072caca96d4",
-          "TimeBuilt": "2024-11-16T03:43:37.2203828+00:00",
-          "EffectiveVersion": "1.2.0.0",
+          "BuiltCommit": "ee4e96ebbfa5bc0cea6a983a41409c185e787391",
+          "TimeBuilt": "2024-11-18T19:24:15.8303598+00:00",
+          "EffectiveVersion": "1.2.0.1",
           "MinimumVersion": null,
           "Changelogs": {
             "1.2.0.0": {
               "TimeReleased": "2024-11-16T03:43:37.2203838+00:00",
               "Changelog": "- Added support for Patch 7.1 and Dalamud API 11.\r\n- Fixed inverted swipe.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            },
+            "1.2.0.1": {
+              "TimeReleased": "2024-11-18T19:24:15.8303983+00:00",
+              "Changelog": "- Added keybind label tag for Actions and Items.\r\n- Fixed Dark Knight\u0027s Darkside duration.\r\n- Fixed issues with invalid icon identifiers:\r\n  * A lot of the game\u0027s icons game files where moved around in 7.1.\r\n  * If you have auras that are not showing, you might need to manually re-enter the Action/Status names/ids so DelvCD can find the right icons again.",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
