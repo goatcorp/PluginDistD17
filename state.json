@@ -8243,9 +8243,9 @@
           }
         },
         "ARealmRecorded": {
-          "BuiltCommit": "1be2b1a9e210e0c7a153ad3ab441880c3be22633",
-          "TimeBuilt": "2024-07-30T19:13:05.577",
-          "EffectiveVersion": "1.0.1.0",
+          "BuiltCommit": "d0d90397132a2830a353af7530654247d1bd1e0e",
+          "TimeBuilt": "2024-11-18T22:05:56.7330908+00:00",
+          "EffectiveVersion": "1.0.1.1",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -8271,6 +8271,21 @@
               "Changelog": "- Fixed for Dawntrail\n- Added waymark toggle persistence",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "1.0.1.1": {
+              "TimeReleased": "2024-11-18T22:05:56.7330925+00:00",
+              "Changelog": "- API 11",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/UnknownX7/Hypostasis.git",
+                  "Version": "6993ec06967c77e93227dc6933ce829d14b8f450"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
@@ -10774,11 +10789,23 @@
           }
         },
         "CameraLoader": {
-          "BuiltCommit": "7919708b55743cc64933b5af4642ac9e811c616a",
-          "TimeBuilt": "2024-09-29T00:32:54.12",
-          "EffectiveVersion": "1.0.0.0",
+          "BuiltCommit": "f3b5170961bae3d7de0353e7040e0fc139eb64cb",
+          "TimeBuilt": "2024-11-18T22:05:47.1997651+00:00",
+          "EffectiveVersion": "1.0.1.0",
           "MinimumVersion": null,
-          "Changelogs": {}
+          "Changelogs": {
+            "1.0.1.0": {
+              "TimeReleased": "2024-11-18T22:05:47.1998038+00:00",
+              "Changelog": "Update for Patch 7.1 / API 11",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            }
+          }
         },
         "FCNameColor": {
           "BuiltCommit": "4c3c1f70b96512644ddb62724a11e2e1d602bffe",
@@ -48241,6 +48268,13 @@
       "Version": "4bad56d610132b419335b89896e1f387b9ba2039",
       "ReviewedBy": "reiichi001",
       "ReviewedAt": "2024-11-18T19:17:31.5322509Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/UnknownX7/Hypostasis.git",
+      "Version": "6993ec06967c77e93227dc6933ce829d14b8f450",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-18T22:05:56.7585662Z"
     }
   ]
 }
