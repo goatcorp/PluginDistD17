@@ -2,7 +2,7 @@
   "Author": "Tania Anehina",
   "Name": "Bartender",
   "InternalName": "Bartender",
-  "AssemblyVersion": "1.1.3.0",
+  "AssemblyVersion": "1.1.4.0",
   "Description": "Save and load hotbars with macros and/or chat commands. We all need more than 10 hotbars, well now we do have those.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/AtaeKurri/Bartender",
