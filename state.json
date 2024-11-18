@@ -39412,9 +39412,9 @@
           }
         },
         "HotbarBackup": {
-          "BuiltCommit": "ce5873939e98df18f56045f2e7ad20181778abed",
-          "TimeBuilt": "2024-10-11T05:33:18.77126+00:00",
-          "EffectiveVersion": "0.0.0.1",
+          "BuiltCommit": "1f90df7d1e275535c52d5752aea1705470ac3d34",
+          "TimeBuilt": "2024-11-18T20:20:51.0923622+00:00",
+          "EffectiveVersion": "0.0.0.2",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.0.1": {
@@ -39424,6 +39424,17 @@
                 {
                   "Key": "DalamudPackager",
                   "Version": "2.1.13"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            },
+            "0.0.0.2": {
+              "TimeReleased": "2024-11-18T20:20:51.0924013+00:00",
+              "Changelog": "Update for 7.1/API 11",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
                 }
               ],
               "Reviewer": "reiichi001"
