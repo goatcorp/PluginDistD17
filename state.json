@@ -13608,9 +13608,9 @@
           }
         },
         "TitleEdit": {
-          "BuiltCommit": "7ac7f30945d9ab89c2fd58004f4f237276a63956",
-          "TimeBuilt": "2024-11-16T03:37:26.0544548+00:00",
-          "EffectiveVersion": "3.0.3.0",
+          "BuiltCommit": "e5ba1b81feb48d51ec89c4a441b670c36ce4d26c",
+          "TimeBuilt": "2024-11-18T19:13:23.1102131+00:00",
+          "EffectiveVersion": "3.0.3.1",
           "MinimumVersion": null,
           "Changelogs": {
             "2.3.0.0": {
@@ -13835,6 +13835,45 @@
             "3.0.3.0": {
               "TimeReleased": "2024-11-16T03:37:26.054456+00:00",
               "Changelog": "- 7.1 and API11 update\n- When using the \u0022Track player location\u0022 feature with \u0022Save Eorzea time\u0022 unchecked, the plugin will use the current Eorzea time instead of midnight (thanks @Scrxtchy)\n- Added an option to use current Eorzea time instead of a predefined time in presets\n- Rewrote world layout change detection hooking to fix a rare crash\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.Build.Tasks.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Common",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitHub",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitLab",
+                  "Version": "1.1.1"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            },
+            "3.0.3.1": {
+              "TimeReleased": "2024-11-18T19:13:23.110252+00:00",
+              "Changelog": "- Updated the BGM google sheets link\n- Updated the included BGM csv\n- Fixed load issue when trying to migrate from an old V2 install with corrupted presets\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
