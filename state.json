@@ -9664,9 +9664,9 @@
           }
         },
         "QoLBar": {
-          "BuiltCommit": "a437a15e492a1de9aca6b6120feccad2ef2ac584",
-          "TimeBuilt": "2024-07-02T04:37:01.364",
-          "EffectiveVersion": "2.3.3.0",
+          "BuiltCommit": "702b23a944a8131e8ae0507db2cd8c61c1c1ee31",
+          "TimeBuilt": "2024-11-18T20:33:57.3087049+00:00",
+          "EffectiveVersion": "2.3.3.1",
           "MinimumVersion": null,
           "Changelogs": {
             "2.3.2.0": {
@@ -9692,6 +9692,17 @@
               "Changelog": "- Updated for Dawntrail\n- Fixed missing game symbols when the font size is not default",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "2.3.3.1": {
+              "TimeReleased": "2024-11-18T20:33:57.3087434+00:00",
+              "Changelog": "- API 11",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
