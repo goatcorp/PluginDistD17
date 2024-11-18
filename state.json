@@ -2303,9 +2303,9 @@
           }
         },
         "Waitingway.Dalamud": {
-          "BuiltCommit": "251fea4be625416c4c0ba5a5f889f2f39e9eb55b",
-          "TimeBuilt": "2024-09-02T09:32:53.795",
-          "EffectiveVersion": "2.2.0.0",
+          "BuiltCommit": "35f6c835d041b790e6a90276ce912c692836355a",
+          "TimeBuilt": "2024-11-18T04:31:39.0905259+00:00",
+          "EffectiveVersion": "2.2.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.2.4": {
@@ -2325,6 +2325,33 @@
               "Changelog": "Updated for Dalamud API 9",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "2.2.1.0": {
+              "TimeReleased": "2024-11-18T04:31:39.090527+00:00",
+              "Changelog": null,
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "Humanizer.Core",
+                  "Version": "3.0.0-beta.54"
+                },
+                {
+                  "Key": "Meziantou.Analyzer",
+                  "Version": "2.0.179"
+                },
+                {
+                  "Key": "System.Memory",
+                  "Version": "4.5.5"
+                },
+                {
+                  "Key": "System.ValueTuple",
+                  "Version": "4.5.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
@@ -17158,9 +17185,9 @@
           }
         },
         "DelvUI": {
-          "BuiltCommit": "2711ed21a6b38dc7c27704be1db751a0df6ee83c",
-          "TimeBuilt": "2024-11-17T17:56:32.5281169+00:00",
-          "EffectiveVersion": "2.3.1.1",
+          "BuiltCommit": "916a5ef9f922ebfc2ed4dd4e460e47df1e746295",
+          "TimeBuilt": "2024-11-18T04:31:19.7843778+00:00",
+          "EffectiveVersion": "2.3.1.2",
           "MinimumVersion": null,
           "Changelogs": {
             "2.3.0.0": {
@@ -17207,6 +17234,21 @@
                 }
               ],
               "Reviewer": "philpax"
+            },
+            "2.3.1.2": {
+              "TimeReleased": "2024-11-18T04:31:19.7844157+00:00",
+              "Changelog": "- Fixed Party Frames enmity indicators.\r\n- Fixed Ready Check Status icon not disappearing.",
+              "UsedNeeds": [
+                {
+                  "Key": "Colourful",
+                  "Version": "3.1.0"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
@@ -17824,9 +17866,9 @@
           "Changelogs": {}
         },
         "SubmarineTracker": {
-          "BuiltCommit": "2368949cda8853b0d3b4d515b58f4f50ab5ee4da",
-          "TimeBuilt": "2024-11-17T21:00:38.4973083+00:00",
-          "EffectiveVersion": "1.9.3.9",
+          "BuiltCommit": "e9afafbe2de9f132d6e3ef3b4651488acf41f089",
+          "TimeBuilt": "2024-11-18T04:31:32.1262995+00:00",
+          "EffectiveVersion": "1.9.4.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.1.0.0": {
@@ -18891,6 +18933,133 @@
             "1.9.3.9": {
               "TimeReleased": "2024-11-17T21:00:38.4973466+00:00",
               "Changelog": "- Make the numbers option also work without the returning time enabled\r\n  - This will enable the server bar entry for everyone, if you don\u0027t want it just disable the option in the settings\r\n- Fix next return time not showing in /soverlay title",
+              "UsedNeeds": [
+                {
+                  "Key": "CsvHelper",
+                  "Version": "33.0.1"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "MessagePack",
+                  "Version": "3.0.238-rc.1"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "supabase-csharp",
+                  "Version": "0.16.2"
+                },
+                {
+                  "Key": "functions-csharp",
+                  "Version": "1.3.2"
+                },
+                {
+                  "Key": "gotrue-csharp",
+                  "Version": "4.2.7"
+                },
+                {
+                  "Key": "MessagePack.Annotations",
+                  "Version": "3.0.238-rc.1"
+                },
+                {
+                  "Key": "MessagePackAnalyzer",
+                  "Version": "3.0.238-rc.1"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite.Core",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "Microsoft.IdentityModel.Abstractions",
+                  "Version": "7.0.3"
+                },
+                {
+                  "Key": "Microsoft.IdentityModel.JsonWebTokens",
+                  "Version": "7.0.3"
+                },
+                {
+                  "Key": "Microsoft.IdentityModel.Logging",
+                  "Version": "7.0.3"
+                },
+                {
+                  "Key": "Microsoft.IdentityModel.Tokens",
+                  "Version": "7.0.3"
+                },
+                {
+                  "Key": "Microsoft.NET.StringTools",
+                  "Version": "17.11.4"
+                },
+                {
+                  "Key": "MimeMapping",
+                  "Version": "2.0.0"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.3"
+                },
+                {
+                  "Key": "postgrest-csharp",
+                  "Version": "3.5.1"
+                },
+                {
+                  "Key": "realtime-csharp",
+                  "Version": "6.0.4"
+                },
+                {
+                  "Key": "SQLitePCLRaw.bundle_e_sqlite3",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.core",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.lib.e_sqlite3",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.provider.e_sqlite3",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "supabase-core",
+                  "Version": "0.0.3"
+                },
+                {
+                  "Key": "supabase-storage-csharp",
+                  "Version": "1.4.0"
+                },
+                {
+                  "Key": "System.IdentityModel.Tokens.Jwt",
+                  "Version": "7.0.3"
+                },
+                {
+                  "Key": "System.Memory",
+                  "Version": "4.5.3"
+                },
+                {
+                  "Key": "System.Reactive",
+                  "Version": "5.0.0"
+                },
+                {
+                  "Key": "System.Threading.Channels",
+                  "Version": "5.0.0"
+                },
+                {
+                  "Key": "Websocket.Client",
+                  "Version": "4.6.1"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            },
+            "1.9.4.0": {
+              "TimeReleased": "2024-11-18T04:31:32.1263011+00:00",
+              "Changelog": "- Add 7.1 sector information (unlocks, breakpoints)",
               "UsedNeeds": [
                 {
                   "Key": "CsvHelper",
@@ -46083,6 +46252,13 @@
       "Version": "7.1.0",
       "ReviewedBy": "philpax",
       "ReviewedAt": "2024-11-17T18:02:09.0037024Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Meziantou.Analyzer",
+      "Version": "2.0.179",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-18T04:31:39.1073179Z"
     }
   ]
 }
