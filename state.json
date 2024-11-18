@@ -2723,11 +2723,27 @@
           }
         },
         "QuestAWAY": {
-          "BuiltCommit": "0b88eb9ddcf184bfe4c75f89400e3e27f3ecec67",
-          "TimeBuilt": "2024-07-17T06:19:39.574",
-          "EffectiveVersion": "2.0.0.5",
+          "BuiltCommit": "64933a32a4156cc592122d3ae90b56974849a019",
+          "TimeBuilt": "2024-11-18T04:09:00.6130254+00:00",
+          "EffectiveVersion": "2.0.0.6",
           "MinimumVersion": null,
-          "Changelogs": {}
+          "Changelogs": {
+            "2.0.0.6": {
+              "TimeReleased": "2024-11-18T04:09:00.6130266+00:00",
+              "Changelog": "EnemyListHP:\r\n- Updated for 7.1, no functional changes\r\n\r\nQuestAway: \r\n- Updated for 7.1, no functional changes\r\n\r\nJustBackup:\r\n- Updated for 7.1\r\n- Excluded certain know plugins\u0027 folders and files that have too large size and no value for backup (logs, caches, etc)\r\n- Lowered file copy thread priority, which reduces lag caused by file copying process",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/NightmareXIV/ECommons",
+                  "Version": "b99ba7a861300164b9b293b2bbbd510af0cda8a2"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            }
+          }
         },
         "XIVCombo": {
           "BuiltCommit": "df259c4b57c99efa0ddfe8d8ffa6e29a14b759dd",
@@ -10148,9 +10164,9 @@
           }
         },
         "EnmityHp": {
-          "BuiltCommit": "ba11f0d8e280437aa2d8390e7bb9b98d1ae79508",
-          "TimeBuilt": "2024-07-05T18:13:16.219",
-          "EffectiveVersion": "2.0.1.4",
+          "BuiltCommit": "2c544ca5dea9c8dd76c74193b43232e0f1450471",
+          "TimeBuilt": "2024-11-18T04:08:49.8046404+00:00",
+          "EffectiveVersion": "2.0.1.5",
           "MinimumVersion": null,
           "Changelogs": {
             "2.0.0.8": {
@@ -10158,6 +10174,21 @@
               "Changelog": ".NET 6 update",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "2.0.1.5": {
+              "TimeReleased": "2024-11-18T04:08:49.8046415+00:00",
+              "Changelog": "EnemyListHP:\r\n- Updated for 7.1, no functional changes\r\n\r\nQuestAway: \r\n- Updated for 7.1, no functional changes\r\n\r\nJustBackup:\r\n- Updated for 7.1\r\n- Excluded certain know plugins\u0027 folders and files that have too large size and no value for backup (logs, caches, etc)\r\n- Lowered file copy thread priority, which reduces lag caused by file copying process",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/NightmareXIV/ECommons",
+                  "Version": "b99ba7a861300164b9b293b2bbbd510af0cda8a2"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
@@ -10815,9 +10846,9 @@
           }
         },
         "JustBackup": {
-          "BuiltCommit": "fb3ab850d937c190c0ad2d06171c7f6859bdb59a",
-          "TimeBuilt": "2024-07-03T21:26:38.11",
-          "EffectiveVersion": "1.1.0.8",
+          "BuiltCommit": "41ccf22a2fa52421b1344d2b8b0026e56b6396d0",
+          "TimeBuilt": "2024-11-18T04:08:38.8066787+00:00",
+          "EffectiveVersion": "1.1.0.9",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.2.0": {
@@ -10831,6 +10862,21 @@
               "Changelog": ".NET 6 update, this time correctly done",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "1.1.0.9": {
+              "TimeReleased": "2024-11-18T04:08:38.8067205+00:00",
+              "Changelog": "EnemyListHP:\r\n- Updated for 7.1, no functional changes\r\n\r\nQuestAway: \r\n- Updated for 7.1, no functional changes\r\n\r\nJustBackup:\r\n- Updated for 7.1\r\n- Excluded certain know plugins\u0027 folders and files that have too large size and no value for backup (logs, caches, etc)\r\n- Lowered file copy thread priority, which reduces lag caused by file copying process",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/NightmareXIV/ECommons",
+                  "Version": "b99ba7a861300164b9b293b2bbbd510af0cda8a2"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
