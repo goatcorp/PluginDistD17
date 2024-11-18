@@ -30247,9 +30247,9 @@
           }
         },
         "ChatContext": {
-          "BuiltCommit": "13e5225893d908304825081c0bbd22b7a6f83c75",
-          "TimeBuilt": "2024-11-01T19:11:04.6407015+00:00",
-          "EffectiveVersion": "0.0.0.2",
+          "BuiltCommit": "8f5b26273a69dfa30ec8f8c8c89a0210d315581a",
+          "TimeBuilt": "2024-11-18T20:47:27.1913762+00:00",
+          "EffectiveVersion": "0.0.1.1",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.0.2": {
@@ -30259,6 +30259,17 @@
                 {
                   "Key": "DalamudPackager",
                   "Version": "2.1.13"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            },
+            "0.0.1.1": {
+              "TimeReleased": "2024-11-18T20:47:27.1914207+00:00",
+              "Changelog": " - Api 11\n - Improve window titles",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
                 }
               ],
               "Reviewer": "reiichi001"
