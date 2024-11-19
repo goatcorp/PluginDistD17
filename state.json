@@ -33082,9 +33082,9 @@
           }
         },
         "WhosTalking": {
-          "BuiltCommit": "c57f8c039d83a14e06b603a7c305f8f98181feaa",
-          "TimeBuilt": "2024-09-01T21:45:46.95",
-          "EffectiveVersion": "0.8.0.0",
+          "BuiltCommit": "ae6bfc5b9c7776b09abb2a51e16e755f9025608f",
+          "TimeBuilt": "2024-11-19T00:28:54.6378263+00:00",
+          "EffectiveVersion": "0.8.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.0.0": {
@@ -33218,6 +33218,37 @@
               "Changelog": "**Version 0.8.0.0**\n\n- Add an option to display all Discord users, even when they\u0027re talking (thanks to iris for implementing this)\n\nI\u0027d like this release to go to the stable channel soon. Please report any issues in #plugin-help-forum!\n",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "0.8.1.0": {
+              "TimeReleased": "2024-11-19T00:28:54.6378675+00:00",
+              "Changelog": "**Version 0.8.1.0**\n\nUpdated for patch 7.1.\n\n**Request for testing:** please enable ImGui indicators in the Who\u0027s Talking settings, then try Who\u0027s Talking in an alliance raid, and check whether indicators are drawn correctly for the other alliances (they should be drawn around the entire job icon). Ping @sersorrel or report in https://discord.com/channels/581875019861328007/1260701371846365246 with results! (Screenshots are ideal.)\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "JetBrains.Annotations",
+                  "Version": "2022.3.1"
+                },
+                {
+                  "Key": "Websocket.Client",
+                  "Version": "5.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "7.0.1"
+                },
+                {
+                  "Key": "System.Reactive",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "System.Threading.Channels",
+                  "Version": "7.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
