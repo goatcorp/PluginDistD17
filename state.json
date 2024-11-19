@@ -3,9 +3,9 @@
     "stable": {
       "Plugins": {
         "Dalamud.RichPresence": {
-          "BuiltCommit": "45023ed66f17f5954df95657a1e045c3848873c0",
-          "TimeBuilt": "2024-11-18T14:16:01.0014745+00:00",
-          "EffectiveVersion": "2.0.6.1",
+          "BuiltCommit": "9048907220fb59d35c3fb6f264b610a984668b51",
+          "TimeBuilt": "2024-11-19T13:59:58.6498328+00:00",
+          "EffectiveVersion": "2.0.6.2",
           "MinimumVersion": null,
           "Changelogs": {
             "2.0.1.0": {
@@ -167,6 +167,69 @@
             "2.0.6.1": {
               "TimeReleased": "2024-11-18T14:16:01.0014754+00:00",
               "Changelog": "Updated for API 11, now with fixed region images (hopefully).\n\nPlease report if you use a non-English client language and AFK status doesn\u0027t work.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "DiscordRichPresence",
+                  "Version": "1.2.1.24"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.Build.Tasks.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.NETCore.Platforms",
+                  "Version": "2.0.0"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Common",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitHub",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitLab",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.Win32.Registry",
+                  "Version": "4.5.0"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.1"
+                },
+                {
+                  "Key": "System.Security.AccessControl",
+                  "Version": "4.5.0"
+                },
+                {
+                  "Key": "System.Security.Principal.Windows",
+                  "Version": "4.5.0"
+                }
+              ],
+              "Reviewer": "philpax"
+            },
+            "2.0.6.2": {
+              "TimeReleased": "2024-11-19T13:59:58.6498337+00:00",
+              "Changelog": "Updated for API 11, now with fixed region images and full job names.\n\nPlease report if you use a non-English client language and AFK status doesn\u0027t work.\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -15255,9 +15318,9 @@
           }
         },
         "PennyPincher": {
-          "BuiltCommit": "935940c623baf2512254eee9638192ea4f7bb202",
-          "TimeBuilt": "2024-11-16T03:43:53.3572968+00:00",
-          "EffectiveVersion": "1.8.0.1",
+          "BuiltCommit": "d90bbf9bf76be1d0a26aa7e2819e790097b4a725",
+          "TimeBuilt": "2024-11-19T13:59:41.7945512+00:00",
+          "EffectiveVersion": "1.8.0.2",
           "MinimumVersion": null,
           "Changelogs": {
             "1.5.0.1": {
@@ -15340,6 +15403,45 @@
                 }
               ],
               "Reviewer": "reiichi001"
+            },
+            "1.8.0.2": {
+              "TimeReleased": "2024-11-19T13:59:41.7945897+00:00",
+              "Changelog": "fix retainer detection bug",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.Build.Tasks.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Common",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitHub",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitLab",
+                  "Version": "1.1.1"
+                }
+              ],
+              "Reviewer": "philpax"
             }
           }
         },
@@ -16482,9 +16584,9 @@
           }
         },
         "SimpleTweaksPlugin": {
-          "BuiltCommit": "07aa6cf1b5ab9470c29268ff01edf313763648a8",
-          "TimeBuilt": "2024-11-18T14:15:43.025264+00:00",
-          "EffectiveVersion": "1.10.3.4",
+          "BuiltCommit": "35f484acd38e6183370c9f782fbd6602578f440b",
+          "TimeBuilt": "2024-11-19T13:59:51.8343136+00:00",
+          "EffectiveVersion": "1.10.3.5",
           "MinimumVersion": null,
           "Changelogs": {
             "1.10.3.1": {
@@ -16535,6 +16637,21 @@
             "1.10.3.4": {
               "TimeReleased": "2024-11-18T14:15:43.0252648+00:00",
               "Changelog": "Fixes various reported issues\r\n- Fixed \u0060No Sell List\u0060 not working from main inventory\r\n- Fixed \u0060Additional Item Info\u0060 not displaying info\r\n- Fixed \u0060Colour Duty Roulette Names\u0060 not working\r\n- Fixed \u0060Scenario Progression Display\u0060 showing wildly incorrect values\r\n\r\nAdded ability to disable tweaks until a specific FFXIVClientStructs version is loaded by dalamud.\r\n- Disabled \u0060Improved Crafting Log\u0060 until updated.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "System.Numerics.Vectors",
+                  "Version": "4.6.0"
+                }
+              ],
+              "Reviewer": "philpax"
+            },
+            "1.10.3.5": {
+              "TimeReleased": "2024-11-19T13:59:51.8343149+00:00",
+              "Changelog": "Fix \u0060Improved Chat Font Sizes\u0060",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
