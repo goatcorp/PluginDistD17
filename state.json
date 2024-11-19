@@ -15222,9 +15222,9 @@
           }
         },
         "BetterPartyFinder": {
-          "BuiltCommit": "19c26f0f27f9f7a82739638fabc4b6f927dc23de",
-          "TimeBuilt": "2024-11-17T02:08:33.5180722+00:00",
-          "EffectiveVersion": "1.4.8.0",
+          "BuiltCommit": "8702434d1303c713b6800d5e619fdfb738826167",
+          "TimeBuilt": "2024-11-19T17:29:38.0546389+00:00",
+          "EffectiveVersion": "1.4.9.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.2.6": {
@@ -15288,6 +15288,17 @@
                 }
               ],
               "Reviewer": "reiichi001"
+            },
+            "1.4.9.0": {
+              "TimeReleased": "2024-11-19T17:29:38.0546778+00:00",
+              "Changelog": "- Fix high-end duties not showing up",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "philpax"
             }
           }
         },
