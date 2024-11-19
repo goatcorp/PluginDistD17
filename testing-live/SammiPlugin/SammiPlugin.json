@@ -2,7 +2,7 @@
   "Author": "Hattu",
   "Name": "SAMMI Webhook Plugin",
   "InternalName": "SammiPlugin",
-  "AssemblyVersion": "0.0.0.1",
+  "AssemblyVersion": "0.1.0.1",
   "Description": "Sends game data SAMMI via webhook, allowing users to automate OBS actions such as playing effects, transitions, sounds, etc. based on in-game events.\nRequires SAMMI and OBS to function. See https://sammi.solutions or the plugin's readme on GitHub.\n/psammi to configure.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/HatTheTurtle/SAMMIWebhookPlugin",
@@ -13,7 +13,7 @@
     "OBS",
     "Other"
   ],
-  "DalamudApiLevel": 10,
+  "DalamudApiLevel": 11,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,

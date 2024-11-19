@@ -40170,9 +40170,9 @@
           }
         },
         "SammiPlugin": {
-          "BuiltCommit": "9b181529b1c50664ca50cb3653ede5eb2d820b2a",
-          "TimeBuilt": "2024-10-11T05:33:07.5759104+00:00",
-          "EffectiveVersion": "0.0.0.1",
+          "BuiltCommit": "a47f374fa5a6d61babe4a05482ea186d478ee559",
+          "TimeBuilt": "2024-11-19T22:57:47.6040772+00:00",
+          "EffectiveVersion": "0.1.0.1",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.0.1": {
@@ -40182,6 +40182,45 @@
                 {
                   "Key": "DalamudPackager",
                   "Version": "2.1.13"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            },
+            "0.1.0.1": {
+              "TimeReleased": "2024-11-19T22:57:47.6041162+00:00",
+              "Changelog": "Update for Dalamud API 11, added support for basic condition information",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.Build.Tasks.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Common",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitHub",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitLab",
+                  "Version": "1.1.1"
                 }
               ],
               "Reviewer": "reiichi001"
