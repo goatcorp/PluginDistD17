@@ -9167,9 +9167,9 @@
           }
         },
         "GlamourSpamRemover": {
-          "BuiltCommit": "99a6c470f7f7b4b5b71c5f6e91d27daebd1df333",
-          "TimeBuilt": "2024-08-20T04:46:22.095",
-          "EffectiveVersion": "1.1.0.0",
+          "BuiltCommit": "5f3e7bc83f62b06c3f56d8a7dc86e372e6565b51",
+          "TimeBuilt": "2024-11-19T18:18:24.6481593+00:00",
+          "EffectiveVersion": "1.2.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.1.0.0": {
@@ -9177,6 +9177,17 @@
               "Changelog": "Added support for non-english client languages",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "1.2.0.0": {
+              "TimeReleased": "2024-11-19T18:18:24.6481982+00:00",
+              "Changelog": "Updated for API11",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "philpax"
             }
           }
         },
@@ -17217,9 +17228,9 @@
           "Changelogs": {}
         },
         "WhosTalking": {
-          "BuiltCommit": "c57f8c039d83a14e06b603a7c305f8f98181feaa",
-          "TimeBuilt": "2024-10-27T15:16:04.0496226+00:00",
-          "EffectiveVersion": "0.8.0.0",
+          "BuiltCommit": "ae6bfc5b9c7776b09abb2a51e16e755f9025608f",
+          "TimeBuilt": "2024-11-19T18:18:33.2535234+00:00",
+          "EffectiveVersion": "0.8.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.6.7.0": {
@@ -17241,6 +17252,37 @@
                 {
                   "Key": "DalamudPackager",
                   "Version": "2.1.13"
+                },
+                {
+                  "Key": "JetBrains.Annotations",
+                  "Version": "2022.3.1"
+                },
+                {
+                  "Key": "Websocket.Client",
+                  "Version": "5.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "7.0.1"
+                },
+                {
+                  "Key": "System.Reactive",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "System.Threading.Channels",
+                  "Version": "7.0.0"
+                }
+              ],
+              "Reviewer": "philpax"
+            },
+            "0.8.1.0": {
+              "TimeReleased": "2024-11-19T18:18:33.2535247+00:00",
+              "Changelog": "**Version 0.8.1.0**\n\nUpdated for patch 7.1.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
                 },
                 {
                   "Key": "JetBrains.Annotations",
