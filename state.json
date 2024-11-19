@@ -28749,9 +28749,9 @@
           }
         },
         "DalamudMinesweeper": {
-          "BuiltCommit": "06ffc2ee85332d219002375e8b197ded5cc9d4c4",
-          "TimeBuilt": "2024-11-17T21:50:06.6826825+00:00",
-          "EffectiveVersion": "1.2.1.0",
+          "BuiltCommit": "5f886140e79a14954f4cfd1ef3213235ed2df956",
+          "TimeBuilt": "2024-11-19T00:32:31.9677705+00:00",
+          "EffectiveVersion": "1.2.2.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.1.0.4": {
@@ -28769,6 +28769,17 @@
             "1.2.1.0": {
               "TimeReleased": "2024-11-17T21:50:06.6827399+00:00",
               "Changelog": "Update for 7.1",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            },
+            "1.2.2.0": {
+              "TimeReleased": "2024-11-19T00:32:31.9677716+00:00",
+              "Changelog": "Consider game won when all safe cells revealed, even if not all mines are flagged (thanks cheege)",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -34411,38 +34422,6 @@
             "0.0.23.0": {
               "TimeReleased": "2023-08-22T20:35:49.135",
               "Changelog": "**OhGeeCD (return to testing edition)**\n- Back after a long hiatus, adopted from darkarchon.\n- oGCD assistant providing Text To Speech, (Custom) Sound Effects and unlimited extra bars to visualize and alert you for your oGCDs.\n- Mostly tweaks and updates to work with current requirements.\n",
-              "UsedNeeds": null,
-              "Reviewer": null
-            }
-          }
-        },
-        "DalamudMinesweeper": {
-          "BuiltCommit": "d70f664d33cb7fcbba2bfe97edc8487e864f3b9f",
-          "TimeBuilt": "2024-07-10T00:23:50.168",
-          "EffectiveVersion": "1.2.0.0",
-          "MinimumVersion": null,
-          "Changelogs": {
-            "1.1.0.2": {
-              "TimeReleased": "2024-04-26T17:54:11.408",
-              "Changelog": "Minor UI tweaks",
-              "UsedNeeds": null,
-              "Reviewer": null
-            },
-            "1.1.0.3": {
-              "TimeReleased": "2024-05-04T17:36:11.485",
-              "Changelog": "Add expert difficulty",
-              "UsedNeeds": null,
-              "Reviewer": null
-            },
-            "1.1.0.4": {
-              "TimeReleased": "2024-05-05T14:22:01.22",
-              "Changelog": "Add expert difficulty",
-              "UsedNeeds": null,
-              "Reviewer": null
-            },
-            "1.2.0.0": {
-              "TimeReleased": "2024-07-10T00:23:50.168",
-              "Changelog": "Update for Dawntrail",
               "UsedNeeds": null,
               "Reviewer": null
             }
