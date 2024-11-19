@@ -3159,9 +3159,9 @@
           }
         },
         "FastJobSwitcher": {
-          "BuiltCommit": "06d1f173599f478a5d33f1147e72e3894568c0bb",
-          "TimeBuilt": "2024-07-05T18:28:02.993",
-          "EffectiveVersion": "2.0.0.0",
+          "BuiltCommit": "4a0926150f94b9c9530dddbc0d506d4a0e4592cf",
+          "TimeBuilt": "2024-11-19T17:47:56.8364347+00:00",
+          "EffectiveVersion": "2.1.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "2.0.0.0": {
@@ -3169,6 +3169,17 @@
               "Changelog": "Version 2.0.0.0:\n - Updated to API10\n",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "2.1.0.0": {
+              "TimeReleased": "2024-11-19T17:47:56.8364362+00:00",
+              "Changelog": "Version 2.1.0.0:\n - Updated to API11 (Thanks @SkyeRaf)\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "philpax"
             }
           }
         },
@@ -18423,9 +18434,9 @@
           }
         },
         "ClarityInChaos": {
-          "BuiltCommit": "d531c7670ef36d1ca856f38aad1e1b99dd8e502b",
-          "TimeBuilt": "2024-07-03T13:45:21.023",
-          "EffectiveVersion": "2.0.0.0",
+          "BuiltCommit": "3c6359e9bb271f1a3a0c80a4c9f4bc86c26e4955",
+          "TimeBuilt": "2024-11-19T17:48:04.3232936+00:00",
+          "EffectiveVersion": "2.1.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.2.0.1": {
@@ -18445,6 +18456,17 @@
               "Changelog": "\nVersion 2.0.0.0:\n - Update to API10\n",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "2.1.0.0": {
+              "TimeReleased": "2024-11-19T17:48:04.3232954+00:00",
+              "Changelog": "\nVersion 2.1.0.0:\n - Update to API11\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "philpax"
             }
           }
         },
@@ -18988,9 +19010,9 @@
           }
         },
         "OrangeGuidanceTomestone": {
-          "BuiltCommit": "673699a76653d9e38d4e7dccefb88a2b91cfd8ea",
-          "TimeBuilt": "2024-07-24T12:09:45.192",
-          "EffectiveVersion": "1.10.0.0",
+          "BuiltCommit": "99cd933cfecd72783ce7df9f1ff1e2b5030d4099",
+          "TimeBuilt": "2024-11-19T17:48:19.7945526+00:00",
+          "EffectiveVersion": "1.10.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.4.0.0": {
@@ -19082,6 +19104,25 @@
               "Changelog": "- Fix certain emotes causing player phantoms to A-pose\n- Add configuration options for sign opacity and colour intensity\n",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "1.10.1.0": {
+              "TimeReleased": "2024-11-19T17:48:19.794554+00:00",
+              "Changelog": "- Update for API 11\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "Fody",
+                  "Version": "6.9.1"
+                },
+                {
+                  "Key": "Resourcer.Fody",
+                  "Version": "1.8.1"
+                }
+              ],
+              "Reviewer": "philpax"
             }
           }
         },
@@ -28161,9 +28202,9 @@
           }
         },
         "Tilted": {
-          "BuiltCommit": "18acdf50fab7bf04f1e431d18d05581eb639a5e3",
-          "TimeBuilt": "2024-07-02T04:36:43.406",
-          "EffectiveVersion": "4.0.0.0",
+          "BuiltCommit": "302b25e54280ed110a5c1d8213e377976b34d9f7",
+          "TimeBuilt": "2024-11-19T17:47:49.7876428+00:00",
+          "EffectiveVersion": "4.1.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.0.2": {
@@ -28219,6 +28260,17 @@
               "Changelog": "\nVersion 4.0.0.0:\n - Updated to API10\n",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "4.1.0.0": {
+              "TimeReleased": "2024-11-19T17:47:49.7876841+00:00",
+              "Changelog": "\nVersion 4.1.0.0:\n - Updated to API11\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "philpax"
             }
           }
         },
@@ -30822,9 +30874,9 @@
           }
         },
         "AutoBGM": {
-          "BuiltCommit": "df92c1e4c9f06bec8e4915ed502660a42f52832a",
-          "TimeBuilt": "2024-11-05T13:51:04.5334236+00:00",
-          "EffectiveVersion": "1.0.0.0",
+          "BuiltCommit": "872eebfa065907fb4d8ecf6341f19789a3d119f8",
+          "TimeBuilt": "2024-11-19T17:48:10.8078229+00:00",
+          "EffectiveVersion": "1.2.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -30834,6 +30886,17 @@
                 {
                   "Key": "DalamudPackager",
                   "Version": "2.1.13"
+                }
+              ],
+              "Reviewer": "philpax"
+            },
+            "1.2.0.0": {
+              "TimeReleased": "2024-11-19T17:48:10.8078239+00:00",
+              "Changelog": "\nVersion 1.2.0.0:\n - Upgrade to API11\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
                 }
               ],
               "Reviewer": "philpax"
@@ -35553,9 +35616,9 @@
           "Changelogs": {}
         },
         "PetRenamer": {
-          "BuiltCommit": "3fa3ff3f649632503c00b8ab0a3c5ff64a91f191",
-          "TimeBuilt": "2024-08-29T09:31:38.766",
-          "EffectiveVersion": "2.2.0.1",
+          "BuiltCommit": "8ddf2479a89fffcf1d3b978cf10963216cd03625",
+          "TimeBuilt": "2024-11-19T17:48:48.3241295+00:00",
+          "EffectiveVersion": "2.3.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.4.6.0": {
@@ -35653,6 +35716,21 @@
               "Changelog": "    [2.2.0.1]\n    Solves some targeting issues that came about due to the new update.\n",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "2.3.0.0": {
+              "TimeReleased": "2024-11-19T17:48:48.3241302+00:00",
+              "Changelog": "    [2.3.0.0]\n    Updated for 7.1\n    You can now add colours to names (this needs broader testing by you guys c:, but seems to work just fine)\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "HtmlAgilityPack",
+                  "Version": "1.11.71"
+                }
+              ],
+              "Reviewer": "philpax"
             }
           }
         },
@@ -38430,9 +38508,9 @@
           }
         },
         "GlamourSpamRemover": {
-          "BuiltCommit": "99a6c470f7f7b4b5b71c5f6e91d27daebd1df333",
-          "TimeBuilt": "2024-08-19T20:58:25.052",
-          "EffectiveVersion": "1.1.0.0",
+          "BuiltCommit": "5f3e7bc83f62b06c3f56d8a7dc86e372e6565b51",
+          "TimeBuilt": "2024-11-19T17:48:27.182789+00:00",
+          "EffectiveVersion": "1.2.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.1": {
@@ -38446,6 +38524,17 @@
               "Changelog": "Added support for non-english client languages",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "1.2.0.0": {
+              "TimeReleased": "2024-11-19T17:48:27.1827899+00:00",
+              "Changelog": "Updated for API11",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "philpax"
             }
           }
         },
@@ -40030,9 +40119,9 @@
           }
         },
         "AbsoluteRoleplay": {
-          "BuiltCommit": "a76f6843bf7bfa2cd3bca3b28790909c593d622b",
-          "TimeBuilt": "2024-11-15T23:56:46.3374709+00:00",
-          "EffectiveVersion": "0.0.0.12",
+          "BuiltCommit": "f013dc1047591486f7871b115ddee8f342fc5f13",
+          "TimeBuilt": "2024-11-19T17:48:40.2011519+00:00",
+          "EffectiveVersion": "0.0.0.13",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.0.1": {
@@ -41214,6 +41303,85 @@
                 }
               ],
               "Reviewer": "goaaats"
+            },
+            "0.0.0.13": {
+              "TimeReleased": "2024-11-19T17:48:40.2011534+00:00",
+              "Changelog": "Added modifiable tooltips to images for author credits and so on. Added the ability to lock tooltips when targeting a player even when draggable. Removed fields from target profiles when they are empty. Set the default value of alignment and personality to none..",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/Ottermandias/OtterGui.git",
+                  "Version": "c2738e1d42974cddbe5a31238c6ed236a831d17d"
+                },
+                {
+                  "Key": "https://github.com/Ottermandias/OtterGuiInternal.git",
+                  "Version": "89d145286c148f6cb23ef6f7757e5f750a71e223"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "Lumina",
+                  "Version": "5.3.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Hosting.Abstractions",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "System.Drawing.Common",
+                  "Version": "8.0.6"
+                },
+                {
+                  "Key": "JetBrains.Annotations",
+                  "Version": "2023.3.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Abstractions",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Diagnostics.Abstractions",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileProviders.Abstractions",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.ObjectPool",
+                  "Version": "8.0.7"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Primitives",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Win32.SystemEvents",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "System.Diagnostics.DiagnosticSource",
+                  "Version": "8.0.0"
+                }
+              ],
+              "Reviewer": "philpax"
             }
           }
         },
@@ -48776,6 +48944,13 @@
       "Version": "6993ec06967c77e93227dc6933ce829d14b8f450",
       "ReviewedBy": "reiichi001",
       "ReviewedAt": "2024-11-18T22:05:56.7585662Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Fody",
+      "Version": "6.9.1",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2024-11-19T17:48:19.8104369Z"
     }
   ]
 }
