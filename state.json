@@ -3037,9 +3037,9 @@
           }
         },
         "ResizableHUD": {
-          "BuiltCommit": "758240d986771793e24974ad3c1c85d8160e69e5",
-          "TimeBuilt": "2024-07-01T19:11:23.345",
-          "EffectiveVersion": "1.3.0.0",
+          "BuiltCommit": "e1d6ea56d5a6125f0da50bc8760558a58f4a1fc7",
+          "TimeBuilt": "2024-11-19T03:45:58.0836008+00:00",
+          "EffectiveVersion": "1.3.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.1.4.0": {
@@ -3077,6 +3077,21 @@
               "Changelog": "- API 10/7.0 Update\n",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "1.3.1.0": {
+              "TimeReleased": "2024-11-19T03:45:58.0836027+00:00",
+              "Changelog": "- ResizableHUD now only attempt to position nodes that have been setup (Thanks @two-zee)\n",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/Drahsid/DrahsidLib.git",
+                  "Version": "8d9dd9ab866a485a177440ee91779d25d36fd587"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
@@ -15084,9 +15099,9 @@
           }
         },
         "HybridCamera": {
-          "BuiltCommit": "ff9414f0115acebc6f43e997f4dc152c8f73cd63",
-          "TimeBuilt": "2024-07-01T19:32:45.861",
-          "EffectiveVersion": "1.3.0.0",
+          "BuiltCommit": "2e18760d64be14d2dc16405168d5a7a8f236ff3c",
+          "TimeBuilt": "2024-11-19T03:45:50.9161209+00:00",
+          "EffectiveVersion": "1.4.2.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.1.1.0": {
@@ -15106,6 +15121,21 @@
               "Changelog": "- Updated for API10/7.0\n",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "1.4.2.0": {
+              "TimeReleased": "2024-11-19T03:45:50.9161218+00:00",
+              "Changelog": "- Added the option to swap to legacy movement when solely using turn input\n- Added the option to disable LMB \u002B RMB auto run\n",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/Drahsid/DrahsidLib.git",
+                  "Version": "278ea0172bb77a606402daf723701c166715b6fd"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
@@ -17099,9 +17129,9 @@
           }
         },
         "TargetLines": {
-          "BuiltCommit": "df0fe72bb40bf727798d6359a37f3701d7b21168",
-          "TimeBuilt": "2024-09-12T18:36:39.782",
-          "EffectiveVersion": "1.7.1.0",
+          "BuiltCommit": "ace8a361a49c219f6cd70cdc82b4ec77040c8182",
+          "TimeBuilt": "2024-11-19T03:46:13.9790406+00:00",
+          "EffectiveVersion": "1.7.2.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.2.1.0": {
@@ -17187,6 +17217,333 @@
               "Changelog": "Bug fixes:\n- Fixed issue where either the fallback line or a null line would be visible when no filter was matched\n\nEnhancements:\n- Added the ability to add a \u0022Focus Target\u0022 filter to the line filter settings, allowing the user to visualize their focus target.\n",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "1.7.2.0": {
+              "TimeReleased": "2024-11-19T03:46:13.9790416+00:00",
+              "Changelog": "Bug fixes:\n- Fixed issue where focus target lines would repeatedly play dying animation when the player died\n- Fixed issue where resetting to default wouldn\u0027t always update the filters\n",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/Drahsid/DrahsidLib.git",
+                  "Version": "278ea0172bb77a606402daf723701c166715b6fd"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "SharpDX",
+                  "Version": "4.2.0"
+                },
+                {
+                  "Key": "SharpDX.D3DCompiler",
+                  "Version": "4.2.0"
+                },
+                {
+                  "Key": "SharpDX.Direct3D11",
+                  "Version": "4.2.0"
+                },
+                {
+                  "Key": "SharpDX.DXGI",
+                  "Version": "4.2.0"
+                },
+                {
+                  "Key": "SharpDX.Mathematics",
+                  "Version": "4.2.0"
+                },
+                {
+                  "Key": "Microsoft.NETCore.Platforms",
+                  "Version": "1.1.0"
+                },
+                {
+                  "Key": "Microsoft.NETCore.Targets",
+                  "Version": "1.1.0"
+                },
+                {
+                  "Key": "Microsoft.Win32.Primitives",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "NETStandard.Library",
+                  "Version": "1.6.1"
+                },
+                {
+                  "Key": "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "runtime.fedora.23-x64.runtime.native.System.Security.Cryptography.OpenSsl",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "runtime.fedora.24-x64.runtime.native.System.Security.Cryptography.OpenSsl",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "runtime.native.System",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "runtime.native.System.IO.Compression",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "runtime.native.System.Net.Http",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "runtime.native.System.Security.Cryptography.Apple",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "runtime.native.System.Security.Cryptography.OpenSsl",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "runtime.opensuse.13.2-x64.runtime.native.System.Security.Cryptography.OpenSsl",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "runtime.opensuse.42.1-x64.runtime.native.System.Security.Cryptography.OpenSsl",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "runtime.osx.10.10-x64.runtime.native.System.Security.Cryptography.Apple",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "runtime.osx.10.10-x64.runtime.native.System.Security.Cryptography.OpenSsl",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "runtime.rhel.7-x64.runtime.native.System.Security.Cryptography.OpenSsl",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "runtime.ubuntu.14.04-x64.runtime.native.System.Security.Cryptography.OpenSsl",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "runtime.ubuntu.16.04-x64.runtime.native.System.Security.Cryptography.OpenSsl",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "runtime.ubuntu.16.10-x64.runtime.native.System.Security.Cryptography.OpenSsl",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.AppContext",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Buffers",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Collections",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Collections.Concurrent",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Console",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Diagnostics.Debug",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Diagnostics.DiagnosticSource",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Diagnostics.Tools",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Diagnostics.Tracing",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Globalization",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Globalization.Calendars",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Globalization.Extensions",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.IO",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.IO.Compression",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.IO.Compression.ZipFile",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.IO.FileSystem",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.IO.FileSystem.Primitives",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Linq",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Linq.Expressions",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Net.Http",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Net.Primitives",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Net.Sockets",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.ObjectModel",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Reflection",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Reflection.Emit",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Reflection.Emit.ILGeneration",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Reflection.Emit.Lightweight",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Reflection.Extensions",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Reflection.Primitives",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Reflection.TypeExtensions",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Resources.ResourceManager",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Runtime",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Runtime.Extensions",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Runtime.Handles",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Runtime.InteropServices",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Runtime.InteropServices.RuntimeInformation",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Runtime.Numerics",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Security.Cryptography.Algorithms",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Security.Cryptography.Cng",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Security.Cryptography.Csp",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Security.Cryptography.Encoding",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Security.Cryptography.OpenSsl",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Security.Cryptography.Primitives",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Security.Cryptography.X509Certificates",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Text.Encoding",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Text.Encoding.Extensions",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Text.RegularExpressions",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Threading",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Threading.Tasks",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Threading.Tasks.Extensions",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Threading.Timer",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Xml.ReaderWriter",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Xml.XDocument",
+                  "Version": "4.3.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
@@ -18041,9 +18398,9 @@
           }
         },
         "CrossUp": {
-          "BuiltCommit": "52d4f1ef21c4e6da393c300d2c4bb2b63e23a843",
-          "TimeBuilt": "2024-11-16T07:22:32.3037447+00:00",
-          "EffectiveVersion": "1.7.0.6",
+          "BuiltCommit": "776f9cba913c1f32b433c4d3cbdc8401fa5fcdd9",
+          "TimeBuilt": "2024-11-19T03:46:05.2935548+00:00",
+          "EffectiveVersion": "1.7.0.7",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -18109,6 +18466,17 @@
             "1.7.0.6": {
               "TimeReleased": "2024-11-16T07:22:32.3037844+00:00",
               "Changelog": "- Updated for 7.1\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            },
+            "1.7.0.7": {
+              "TimeReleased": "2024-11-19T03:46:05.2935556+00:00",
+              "Changelog": "- Hopefully fixing a crash\r\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -34251,9 +34619,9 @@
           }
         },
         "GaugeOMatic": {
-          "BuiltCommit": "7c8e6f4fba391af523bbf818b72c66472e11a167",
-          "TimeBuilt": "2024-11-17T21:05:51.6481272+00:00",
-          "EffectiveVersion": "0.8.1.1",
+          "BuiltCommit": "32ef4b60a29afbe6dddd486d07e6b0b93416da38",
+          "TimeBuilt": "2024-11-19T03:46:23.5410358+00:00",
+          "EffectiveVersion": "0.8.1.2",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.1.6": {
@@ -34403,6 +34771,17 @@
             "0.8.1.1": {
               "TimeReleased": "2024-11-17T21:05:51.6481655+00:00",
               "Changelog": "- Updated for 7.1 / api11\n- Corrected Living Muse cooldown length when below level 96\n- The \u0060Oath Sigil\u0060 widget now respects the option to hide the wings\n- Updated Chakra Gauge Tracker to account for 10 chakras\n- Fixed SMN\u0027s Attunement trackers to show time in seconds instead of in milliseconds\n- Attempted fix for an issue wherein the plugin failed to track highlighted actions with adjusted IDs (for example, Chaotic Spring)\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            },
+            "0.8.1.2": {
+              "TimeReleased": "2024-11-19T03:46:23.5410365+00:00",
+              "Changelog": "- Added audio options for GaugeBar widgets. A chosen sound effect can now play when the bar value increases to (or drops below) a custom threshold.\n- Added free positioning control options to the \u0060Parameter Glow\u0060 widget.\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -40812,44 +41191,6 @@
                 }
               ],
               "Reviewer": "reiichi001"
-            }
-          }
-        },
-        "HybridCamera": {
-          "BuiltCommit": "4a131f668fc1d41a0ba8b74e77c3b58cc467ed00",
-          "TimeBuilt": "2024-10-23T23:29:19.2870163+00:00",
-          "EffectiveVersion": "1.4.1.0",
-          "MinimumVersion": null,
-          "Changelogs": {
-            "1.4.0.0": {
-              "TimeReleased": "2024-10-17T21:46:19.5154231+00:00",
-              "Changelog": "- Added controller support and removed the requirement for whitelisted movement keys\n- Fixed bugs related to the first frame of movement being in the wrong movement mode\n- Removed esoteric and experimental configuration options\n",
-              "UsedNeeds": [
-                {
-                  "Key": "https://github.com/Drahsid/DrahsidLib.git",
-                  "Version": "8d9dd9ab866a485a177440ee91779d25d36fd587"
-                },
-                {
-                  "Key": "DalamudPackager",
-                  "Version": "2.1.13"
-                }
-              ],
-              "Reviewer": "reiichi001"
-            },
-            "1.4.1.0": {
-              "TimeReleased": "2024-10-23T23:29:19.2870561+00:00",
-              "Changelog": "- Added the option to swap to legacy movement when solely using turn input\n- Added the option to disable LMB \u002B RMB auto run\n",
-              "UsedNeeds": [
-                {
-                  "Key": "https://github.com/Drahsid/DrahsidLib.git",
-                  "Version": "278ea0172bb77a606402daf723701c166715b6fd"
-                },
-                {
-                  "Key": "DalamudPackager",
-                  "Version": "2.1.13"
-                }
-              ],
-              "Reviewer": "philpax"
             }
           }
         }
