@@ -19829,9 +19829,9 @@
           }
         },
         "PrefPro": {
-          "BuiltCommit": "fd10626c7202aaf089b11d1203f862f17d5015c3",
-          "TimeBuilt": "2024-11-20T06:04:54.837439+00:00",
-          "EffectiveVersion": "1.2.2.2",
+          "BuiltCommit": "f6c8cdcaf50e18f23d6863e7b25fea7fdaf3687e",
+          "TimeBuilt": "2024-11-20T17:54:23.3846562+00:00",
+          "EffectiveVersion": "1.2.2.3",
           "MinimumVersion": null,
           "Changelogs": {
             "1.2.2.1": {
@@ -19848,6 +19848,17 @@
             "1.2.2.2": {
               "TimeReleased": "2024-11-20T06:04:54.83744+00:00",
               "Changelog": null,
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            },
+            "1.2.2.3": {
+              "TimeReleased": "2024-11-20T17:54:23.3846941+00:00",
+              "Changelog": "- Fixes crashes. I think",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
