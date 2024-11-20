@@ -13002,9 +13002,9 @@
           }
         },
         "TalkCopy": {
-          "BuiltCommit": "fa896f8330eedbf5517054d853a0d1820b6f2dba",
-          "TimeBuilt": "2024-11-01T19:10:53.476851+00:00",
-          "EffectiveVersion": "1.2.1.0",
+          "BuiltCommit": "6cfadb3447f67966d834356d6b300e0a206c9e1b",
+          "TimeBuilt": "2024-11-20T12:49:27.3029977+00:00",
+          "EffectiveVersion": "1.2.1.1",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.0.1": {
@@ -13078,6 +13078,17 @@
                 {
                   "Key": "DalamudPackager",
                   "Version": "2.1.13"
+                }
+              ],
+              "Reviewer": "philpax"
+            },
+            "1.2.1.1": {
+              "TimeReleased": "2024-11-20T12:49:27.3030376+00:00",
+              "Changelog": "    [1.2.1.1]\n    Updated for 7.1\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
                 }
               ],
               "Reviewer": "philpax"
@@ -36306,9 +36317,9 @@
           "Changelogs": {}
         },
         "PetRenamer": {
-          "BuiltCommit": "8ddf2479a89fffcf1d3b978cf10963216cd03625",
-          "TimeBuilt": "2024-11-19T17:48:48.3241295+00:00",
-          "EffectiveVersion": "2.3.0.0",
+          "BuiltCommit": "97b20852fc265ae3d27f08be4bc48a20e9182615",
+          "TimeBuilt": "2024-11-20T12:49:35.5495972+00:00",
+          "EffectiveVersion": "2.3.0.1",
           "MinimumVersion": null,
           "Changelogs": {
             "1.4.6.0": {
@@ -36410,6 +36421,21 @@
             "2.3.0.0": {
               "TimeReleased": "2024-11-19T17:48:48.3241302+00:00",
               "Changelog": "    [2.3.0.0]\n    Updated for 7.1\n    You can now add colours to names (this needs broader testing by you guys c:, but seems to work just fine)\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "HtmlAgilityPack",
+                  "Version": "1.11.71"
+                }
+              ],
+              "Reviewer": "philpax"
+            },
+            "2.3.0.1": {
+              "TimeReleased": "2024-11-20T12:49:35.5495984+00:00",
+              "Changelog": "    [2.3.0.1]\n    Fixes sharing not working.\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
