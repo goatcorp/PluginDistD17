@@ -29276,9 +29276,9 @@
           }
         },
         "HighFpsPhysicsPlugin": {
-          "BuiltCommit": "35e43339cd95ca712ae29b1664cb2e3542c27477",
-          "TimeBuilt": "2024-07-31T18:06:55.753",
-          "EffectiveVersion": "8.0.1.0",
+          "BuiltCommit": "6a1c76e9977f4b56c71dabb86bcc6ec0ca935979",
+          "TimeBuilt": "2024-11-20T23:48:55.8607209+00:00",
+          "EffectiveVersion": "8.0.2.0",
           "MinimumVersion": null,
           "Changelogs": {
             "8.0.1.0": {
@@ -29286,6 +29286,17 @@
               "Changelog": "Replace crash warning string with visual glitch warning, put in stable",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "8.0.2.0": {
+              "TimeReleased": "2024-11-20T23:48:55.8607617+00:00",
+              "Changelog": "Update for 7.1 by ItsLunaYup, they also cleaned up code a bit with help from wolfcomp",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "philpax"
             }
           }
         },
@@ -35522,9 +35533,9 @@
           }
         },
         "GaugeOMatic": {
-          "BuiltCommit": "32ef4b60a29afbe6dddd486d07e6b0b93416da38",
-          "TimeBuilt": "2024-11-19T03:46:23.5410358+00:00",
-          "EffectiveVersion": "0.8.1.2",
+          "BuiltCommit": "ae4c3659afadb3552fb32f6257c2b4b20d934bfc",
+          "TimeBuilt": "2024-11-20T23:49:06.5636512+00:00",
+          "EffectiveVersion": "0.8.1.3",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.1.6": {
@@ -35692,6 +35703,17 @@
                 }
               ],
               "Reviewer": "reiichi001"
+            },
+            "0.8.1.3": {
+              "TimeReleased": "2024-11-20T23:49:06.5636528+00:00",
+              "Changelog": "## TRACKERS\n- Added multiple song trackers for BRD. These can be used to track song time remaining, stacks of Repertoire, and/or Minstrel\u0027s Coda status.\n\n## MISC\n- Added the missing \u0060Behavior\u0060 tab to the \u0060Simple Timer\u0060 widget.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "philpax"
             }
           }
         },
@@ -40855,9 +40877,9 @@
           }
         },
         "HotbarBackup": {
-          "BuiltCommit": "1f90df7d1e275535c52d5752aea1705470ac3d34",
-          "TimeBuilt": "2024-11-18T20:20:51.0923622+00:00",
-          "EffectiveVersion": "0.0.0.2",
+          "BuiltCommit": "8a78a41ff36f9b0351719cb5d1bc5ebc1524243a",
+          "TimeBuilt": "2024-11-20T23:49:12.1712739+00:00",
+          "EffectiveVersion": "1.0.0.1",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.0.1": {
@@ -40881,6 +40903,17 @@
                 }
               ],
               "Reviewer": "reiichi001"
+            },
+            "1.0.0.1": {
+              "TimeReleased": "2024-11-20T23:49:12.1712744+00:00",
+              "Changelog": "Attempt to fix icon by fixing the versioning (made a mistake on that)",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "philpax"
             }
           }
         },
