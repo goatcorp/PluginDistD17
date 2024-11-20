@@ -19807,9 +19807,9 @@
           }
         },
         "PrefPro": {
-          "BuiltCommit": "b11758601ba5b5e1521f42b586bbfc91065756a0",
-          "TimeBuilt": "2024-11-07T20:16:18.0897034+00:00",
-          "EffectiveVersion": "1.2.2.1",
+          "BuiltCommit": "fd10626c7202aaf089b11d1203f862f17d5015c3",
+          "TimeBuilt": "2024-11-20T06:04:54.837439+00:00",
+          "EffectiveVersion": "1.2.2.2",
           "MinimumVersion": null,
           "Changelogs": {
             "1.2.2.1": {
@@ -19819,6 +19819,17 @@
                 {
                   "Key": "DalamudPackager",
                   "Version": "2.1.13"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            },
+            "1.2.2.2": {
+              "TimeReleased": "2024-11-20T06:04:54.83744+00:00",
+              "Changelog": null,
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
                 }
               ],
               "Reviewer": "reiichi001"
@@ -27615,9 +27626,9 @@
           }
         },
         "DamageInfoPlugin": {
-          "BuiltCommit": "33c6ddee95f96b674c71668dfba003dae5b8d799",
-          "TimeBuilt": "2024-11-07T20:15:52.1304301+00:00",
-          "EffectiveVersion": "2.4.1.1",
+          "BuiltCommit": "44fc1abfb4ad1d7adbdcaca6a85d253346fe5210",
+          "TimeBuilt": "2024-11-20T06:04:48.6099027+00:00",
+          "EffectiveVersion": "2.4.1.2",
           "MinimumVersion": null,
           "Changelogs": {
             "2.4.1.1": {
@@ -27631,6 +27642,21 @@
                 {
                   "Key": "DalamudPackager",
                   "Version": "2.1.13"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            },
+            "2.4.1.2": {
+              "TimeReleased": "2024-11-20T06:04:48.6099414+00:00",
+              "Changelog": null,
+              "UsedNeeds": [
+                {
+                  "Key": "CsvHelper",
+                  "Version": "33.0.1"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
                 }
               ],
               "Reviewer": "reiichi001"
