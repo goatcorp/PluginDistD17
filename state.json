@@ -14276,9 +14276,9 @@
           "Changelogs": {}
         },
         "orchestrion": {
-          "BuiltCommit": "0dc9125e8814375f3165f61cc136bea0dabf678b",
-          "TimeBuilt": "2024-11-07T20:16:25.1109239+00:00",
-          "EffectiveVersion": "2.2.0.8",
+          "BuiltCommit": "2c86b4ed959dade24875ed034996bf448b19ad9e",
+          "TimeBuilt": "2024-11-20T06:07:54.3762226+00:00",
+          "EffectiveVersion": "2.2.0.9",
           "MinimumVersion": null,
           "Changelogs": {
             "1.8.4.4": {
@@ -14294,6 +14294,17 @@
                 {
                   "Key": "DalamudPackager",
                   "Version": "2.1.13"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            },
+            "2.2.0.9": {
+              "TimeReleased": "2024-11-20T06:07:54.3762601+00:00",
+              "Changelog": null,
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
                 }
               ],
               "Reviewer": "reiichi001"
