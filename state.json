@@ -16991,9 +16991,9 @@
           "Changelogs": {}
         },
         "Housemate": {
-          "BuiltCommit": "08d66e7f7e0660abe5f99a2ea5cf6ae852ea2529",
-          "TimeBuilt": "2024-11-07T20:16:12.1543009+00:00",
-          "EffectiveVersion": "1.0.3.1",
+          "BuiltCommit": "fa737559216bdf86c6845ae38b18352ab5749d37",
+          "TimeBuilt": "2024-11-20T06:01:05.6861206+00:00",
+          "EffectiveVersion": "1.0.3.2",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.3.1": {
@@ -17003,6 +17003,17 @@
                 {
                   "Key": "DalamudPackager",
                   "Version": "2.1.13"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            },
+            "1.0.3.2": {
+              "TimeReleased": "2024-11-20T06:01:05.6861695+00:00",
+              "Changelog": null,
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
                 }
               ],
               "Reviewer": "reiichi001"
