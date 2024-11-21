@@ -2,7 +2,7 @@
   "Author": "Fuwa Aika",
   "Name": "Grace Gawker",
   "InternalName": "GraceGawker",
-  "AssemblyVersion": "0.1.0.7",
+  "AssemblyVersion": "0.1.1.0",
   "Description": "An overlay plugin that displays the remaining XP for your Crafter's/Gatherer's Grace buffs.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/mashirochan/FFXIV-GraceGawker",
@@ -13,7 +13,7 @@
     "grace",
     "buff"
   ],
-  "DalamudApiLevel": 10,
+  "DalamudApiLevel": 11,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,

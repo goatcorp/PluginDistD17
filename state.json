@@ -13519,9 +13519,9 @@
           "Changelogs": {}
         },
         "WondrousTailsSolver": {
-          "BuiltCommit": "1b6c1ca62a746b611f1a54ec8c444c142c971489",
-          "TimeBuilt": "2024-11-16T00:49:02.1078809+00:00",
-          "EffectiveVersion": "3.2.0.0",
+          "BuiltCommit": "413e240f68dc8259990ea572aa6259e947b217c9",
+          "TimeBuilt": "2024-11-21T09:19:47.1091176+00:00",
+          "EffectiveVersion": "3.2.0.1",
           "MinimumVersion": null,
           "Changelogs": {
             "2.1.2.3": {
@@ -13533,6 +13533,69 @@
             "3.2.0.0": {
               "TimeReleased": "2024-11-16T00:49:02.1078819+00:00",
               "Changelog": "API11\r\n\r\nI expect the plugin to not recognize any new duties that were added.",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiLib.git",
+                  "Version": "e9967f072db525968ef52d66270a724fc5434863"
+                },
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit.git",
+                  "Version": "8027b76b17f649ccd379e14598858d60dd6a9d42"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "NetStone",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "HtmlAgilityPack",
+                  "Version": "1.11.46"
+                },
+                {
+                  "Key": "Karashiiro.HtmlAgilityPack.CssSelectors.NetCoreFork",
+                  "Version": "0.0.2"
+                },
+                {
+                  "Key": "Microsoft.Build.Tasks.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Common",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitHub",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitLab",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.3"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            },
+            "3.2.0.1": {
+              "TimeReleased": "2024-11-21T09:19:47.109162+00:00",
+              "Changelog": "Probably fixes incorrect scaling on border nodes in the book.",
               "UsedNeeds": [
                 {
                   "Key": "https://github.com/MidoriKami/KamiLib.git",
@@ -29811,9 +29874,9 @@
           }
         },
         "ChatTwo": {
-          "BuiltCommit": "56eff572b7f658eb0a16df84a7cdc201e96577ad",
-          "TimeBuilt": "2024-11-18T19:24:30.1158656+00:00",
-          "EffectiveVersion": "1.29.8.0",
+          "BuiltCommit": "1a1995759a955d0d0298bd879b11fbb3c36fa44c",
+          "TimeBuilt": "2024-11-21T09:20:04.0015277+00:00",
+          "EffectiveVersion": "1.29.9.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.17.5.0": {
@@ -30087,6 +30150,101 @@
             "1.29.8.0": {
               "TimeReleased": "2024-11-18T19:24:30.1158669+00:00",
               "Changelog": "- Potential fix for temp channel issues\r\n  - If you notice temp channels behaving wrong, please report it in the discord thread\r\n- Fix linkshell rotation with the temp rotate hotkeys",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "MessagePack",
+                  "Version": "3.0.238-rc.1"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "Pidgin",
+                  "Version": "3.3.0"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.5"
+                },
+                {
+                  "Key": "Watson.Lite",
+                  "Version": "6.2.3"
+                },
+                {
+                  "Key": "CavemanTcp",
+                  "Version": "2.0.3"
+                },
+                {
+                  "Key": "IpMatcher",
+                  "Version": "1.0.4.4"
+                },
+                {
+                  "Key": "MessagePack.Annotations",
+                  "Version": "3.0.238-rc.1"
+                },
+                {
+                  "Key": "MessagePackAnalyzer",
+                  "Version": "3.0.238-rc.1"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite.Core",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "Microsoft.NET.StringTools",
+                  "Version": "17.11.4"
+                },
+                {
+                  "Key": "RegexMatcher",
+                  "Version": "1.0.8"
+                },
+                {
+                  "Key": "SQLitePCLRaw.bundle_e_sqlite3",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.core",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.lib.e_sqlite3",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.provider.e_sqlite3",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "System.Memory",
+                  "Version": "4.5.3"
+                },
+                {
+                  "Key": "System.Text.Json",
+                  "Version": "8.0.5"
+                },
+                {
+                  "Key": "Timestamps",
+                  "Version": "1.0.9"
+                },
+                {
+                  "Key": "UrlMatcher",
+                  "Version": "3.0.0"
+                },
+                {
+                  "Key": "Watson.Core",
+                  "Version": "6.2.3"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            },
+            "1.29.9.0": {
+              "TimeReleased": "2024-11-21T09:20:04.0015291+00:00",
+              "Changelog": "- Handle NBSP payloads\r\n  - Only affects french speaking people with weird windows settings \r\n- Use ingame version of axis font\r\n  - This affects the new party number symbols\r\n  - And it won\u0027t work for the webpage version",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -35136,9 +35294,9 @@
           "Changelogs": {}
         },
         "GraceGawker": {
-          "BuiltCommit": "09630ba102843957a27ea81ed3e535b932fb1d80",
-          "TimeBuilt": "2024-09-01T14:01:36.612",
-          "EffectiveVersion": "0.1.0.7",
+          "BuiltCommit": "385fd660818f95992bf8890b4cfc4a553986c44a",
+          "TimeBuilt": "2024-11-21T09:20:11.2712944+00:00",
+          "EffectiveVersion": "0.1.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.0.7": {
@@ -35146,6 +35304,17 @@
               "Changelog": "Initial plugin test release!",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "0.1.1.0": {
+              "TimeReleased": "2024-11-21T09:20:11.2712952+00:00",
+              "Changelog": "Update to Dalamud API v11 and add percent coloring option",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
