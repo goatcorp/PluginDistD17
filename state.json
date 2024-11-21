@@ -11431,9 +11431,9 @@
           }
         },
         "BurntToast": {
-          "BuiltCommit": "ec82f40fca072da2ecb6a12c4f9e6994c7cd6d5c",
-          "TimeBuilt": "2024-07-18T06:18:56.115",
-          "EffectiveVersion": "1.3.4.0",
+          "BuiltCommit": "b462e5db2319f4420591953b2892a1cced8a9174",
+          "TimeBuilt": "2024-11-21T08:02:53.6511089+00:00",
+          "EffectiveVersion": "1.3.5.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.2.5": {
@@ -11483,6 +11483,105 @@
               "Changelog": "Fix BattleTalk bug.",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "1.3.5.0": {
+              "TimeReleased": "2024-11-21T08:02:53.6511107+00:00",
+              "Changelog": "API11",
+              "UsedNeeds": [
+                {
+                  "Key": "JetBrains.Annotations",
+                  "Version": "2024.2.0"
+                },
+                {
+                  "Key": "Microsoft.NET.Test.Sdk",
+                  "Version": "17.10.0"
+                },
+                {
+                  "Key": "xunit",
+                  "Version": "2.9.0"
+                },
+                {
+                  "Key": "xunit.runner.visualstudio",
+                  "Version": "2.8.2"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "Microsoft.CodeCoverage",
+                  "Version": "17.10.0"
+                },
+                {
+                  "Key": "Microsoft.TestPlatform.ObjectModel",
+                  "Version": "17.10.0"
+                },
+                {
+                  "Key": "Microsoft.TestPlatform.TestHost",
+                  "Version": "17.10.0"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.1"
+                },
+                {
+                  "Key": "System.Reflection.Metadata",
+                  "Version": "1.6.0"
+                },
+                {
+                  "Key": "xunit.abstractions",
+                  "Version": "2.0.3"
+                },
+                {
+                  "Key": "xunit.analyzers",
+                  "Version": "1.15.0"
+                },
+                {
+                  "Key": "xunit.assert",
+                  "Version": "2.9.0"
+                },
+                {
+                  "Key": "xunit.core",
+                  "Version": "2.9.0"
+                },
+                {
+                  "Key": "xunit.extensibility.core",
+                  "Version": "2.9.0"
+                },
+                {
+                  "Key": "xunit.extensibility.execution",
+                  "Version": "2.9.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.Build.Tasks.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Common",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitHub",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitLab",
+                  "Version": "1.1.1"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
@@ -11669,9 +11768,9 @@
           "Changelogs": {}
         },
         "Mappy": {
-          "BuiltCommit": "7b4accf647a75cc6ba518a224b691e9d5d965c7b",
-          "TimeBuilt": "2024-11-18T14:14:39.0003206+00:00",
-          "EffectiveVersion": "3.1.0.1",
+          "BuiltCommit": "24eb85244abd23b6d6fe3dbeaa1b909b179c0d03",
+          "TimeBuilt": "2024-11-21T08:02:44.1684402+00:00",
+          "EffectiveVersion": "3.1.0.2",
           "MinimumVersion": null,
           "Changelogs": {
             "3.0.3.5": {
@@ -11799,6 +11898,65 @@
             "3.1.0.1": {
               "TimeReleased": "2024-11-18T14:14:39.0003214+00:00",
               "Changelog": "Fix some logged errors\r\nFix map selection window\r\n\r\nRemoved Teleporter Plugin dependency",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiLib.git",
+                  "Version": "bd70e791bd1d1afa84e3fb9ef12c559c52ded241"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "NetStone",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "HtmlAgilityPack",
+                  "Version": "1.11.46"
+                },
+                {
+                  "Key": "Karashiiro.HtmlAgilityPack.CssSelectors.NetCoreFork",
+                  "Version": "0.0.2"
+                },
+                {
+                  "Key": "Microsoft.Build.Tasks.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Common",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitHub",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitLab",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.3"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            },
+            "3.1.0.2": {
+              "TimeReleased": "2024-11-21T08:02:44.1684418+00:00",
+              "Changelog": "Add option to disable taking focus when the window opens.",
               "UsedNeeds": [
                 {
                   "Key": "https://github.com/MidoriKami/KamiLib.git",
@@ -14096,9 +14254,9 @@
           }
         },
         "Ffxiv2Mqtt": {
-          "BuiltCommit": "9e36914875a6ec13ef9d1d7b62a9a1381be6de00",
-          "TimeBuilt": "2024-08-10T17:42:47.725",
-          "EffectiveVersion": "1.0.6.1",
+          "BuiltCommit": "6922093ea6d68af019730e168ebffa4bf491475a",
+          "TimeBuilt": "2024-11-21T08:02:15.3644241+00:00",
+          "EffectiveVersion": "1.0.6.3",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.4.3": {
@@ -14124,6 +14282,53 @@
               "Changelog": "Updated for Dawntrail!",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "1.0.6.3": {
+              "TimeReleased": "2024-11-21T08:02:15.3644665+00:00",
+              "Changelog": "API11 support.\nPictomancer and Viper job gauges added.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "MQTTnet",
+                  "Version": "4.3.6.1152"
+                },
+                {
+                  "Key": "MQTTnet.Extensions.ManagedClient",
+                  "Version": "4.3.6.1152"
+                },
+                {
+                  "Key": "Microsoft.Build.Tasks.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Common",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitHub",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitLab",
+                  "Version": "1.1.1"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
@@ -19340,9 +19545,9 @@
           }
         },
         "DelvUI": {
-          "BuiltCommit": "916a5ef9f922ebfc2ed4dd4e460e47df1e746295",
-          "TimeBuilt": "2024-11-18T04:31:19.7843778+00:00",
-          "EffectiveVersion": "2.3.1.2",
+          "BuiltCommit": "6bf5e609e867971dd2dc45609d3b310f3bfa5314",
+          "TimeBuilt": "2024-11-21T08:02:27.2638164+00:00",
+          "EffectiveVersion": "2.3.1.3",
           "MinimumVersion": null,
           "Changelogs": {
             "2.3.0.0": {
@@ -19393,6 +19598,21 @@
             "2.3.1.2": {
               "TimeReleased": "2024-11-18T04:31:19.7844157+00:00",
               "Changelog": "- Fixed Party Frames enmity indicators.\r\n- Fixed Ready Check Status icon not disappearing.",
+              "UsedNeeds": [
+                {
+                  "Key": "Colourful",
+                  "Version": "3.1.0"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            },
+            "2.3.1.3": {
+              "TimeReleased": "2024-11-21T08:02:27.2638184+00:00",
+              "Changelog": "- Fixed Party Frames sometimes showing empty bars.",
               "UsedNeeds": [
                 {
                   "Key": "Colourful",
@@ -31411,9 +31631,9 @@
           }
         },
         "QuestTracker": {
-          "BuiltCommit": "dc09a186dee77431476f13b65895aa15579b3a26",
-          "TimeBuilt": "2024-11-02T19:11:49.628096+00:00",
-          "EffectiveVersion": "1.0.1.2",
+          "BuiltCommit": "e7bfa7fc0f2125389a70b1761fe2a72c751e501d",
+          "TimeBuilt": "2024-11-21T08:02:33.9388448+00:00",
+          "EffectiveVersion": "1.1.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.1.1": {
@@ -31437,6 +31657,17 @@
                 }
               ],
               "Reviewer": "philpax"
+            },
+            "1.1.0.0": {
+              "TimeReleased": "2024-11-21T08:02:33.9388467+00:00",
+              "Changelog": "Support for Dalamud 11.0.0 and 7.1",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
@@ -40469,9 +40700,9 @@
           }
         },
         "QuestTracker": {
-          "BuiltCommit": "dc09a186dee77431476f13b65895aa15579b3a26",
-          "TimeBuilt": "2024-11-02T19:11:58.4232154+00:00",
-          "EffectiveVersion": "1.0.1.2",
+          "BuiltCommit": "e7bfa7fc0f2125389a70b1761fe2a72c751e501d",
+          "TimeBuilt": "2024-11-21T08:03:02.1006311+00:00",
+          "EffectiveVersion": "1.1.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -40512,6 +40743,17 @@
                 }
               ],
               "Reviewer": "philpax"
+            },
+            "1.1.0.0": {
+              "TimeReleased": "2024-11-21T08:03:02.100632+00:00",
+              "Changelog": "Support for Dalamud 11.0.0 and 7.1",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
@@ -40918,9 +41160,9 @@
           }
         },
         "AbsoluteRoleplay": {
-          "BuiltCommit": "95dedcc74fa5c7d94042001fb171fad85f49eece",
-          "TimeBuilt": "2024-11-20T10:28:10.2088568+00:00",
-          "EffectiveVersion": "0.0.0.14",
+          "BuiltCommit": "a1ab1fb7d7bf3c43bcc1b0cee3d8b68a2270c808",
+          "TimeBuilt": "2024-11-21T08:03:14.0664919+00:00",
+          "EffectiveVersion": "0.0.0.15",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.0.1": {
@@ -42260,6 +42502,85 @@
                 }
               ],
               "Reviewer": "philpax"
+            },
+            "0.0.0.15": {
+              "TimeReleased": "2024-11-21T08:03:14.0664931+00:00",
+              "Changelog": "Added modifiable tooltips to images for author credits and so on. Added the ability to lock tooltips when targeting a player even when draggable. Removed fields from target profiles when they are empty. Set the default value of alignment and personality to none..",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/Ottermandias/OtterGui.git",
+                  "Version": "c2738e1d42974cddbe5a31238c6ed236a831d17d"
+                },
+                {
+                  "Key": "https://github.com/Ottermandias/OtterGuiInternal.git",
+                  "Version": "89d145286c148f6cb23ef6f7757e5f750a71e223"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "Lumina",
+                  "Version": "5.3.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Hosting.Abstractions",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "System.Drawing.Common",
+                  "Version": "8.0.6"
+                },
+                {
+                  "Key": "JetBrains.Annotations",
+                  "Version": "2023.3.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Abstractions",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Diagnostics.Abstractions",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileProviders.Abstractions",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.ObjectPool",
+                  "Version": "8.0.7"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Primitives",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Win32.SystemEvents",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "System.Diagnostics.DiagnosticSource",
+                  "Version": "8.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
@@ -49836,6 +50157,90 @@
       "Version": "2024.3.0",
       "ReviewedBy": "philpax",
       "ReviewedAt": "2024-11-19T20:47:45.5890029Z"
+    },
+    {
+      "Type": 1,
+      "Key": "MQTTnet",
+      "Version": "4.3.6.1152",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-21T08:02:15.4033936Z"
+    },
+    {
+      "Type": 1,
+      "Key": "MQTTnet.Extensions.ManagedClient",
+      "Version": "4.3.6.1152",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-21T08:02:15.403423Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.NET.Test.Sdk",
+      "Version": "17.10.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-21T08:02:53.6855228Z"
+    },
+    {
+      "Type": 1,
+      "Key": "xunit",
+      "Version": "2.9.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-21T08:02:53.6855241Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.CodeCoverage",
+      "Version": "17.10.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-21T08:02:53.6855247Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.TestPlatform.ObjectModel",
+      "Version": "17.10.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-21T08:02:53.6855249Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.TestPlatform.TestHost",
+      "Version": "17.10.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-21T08:02:53.685525Z"
+    },
+    {
+      "Type": 1,
+      "Key": "xunit.analyzers",
+      "Version": "1.15.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-21T08:02:53.6855264Z"
+    },
+    {
+      "Type": 1,
+      "Key": "xunit.assert",
+      "Version": "2.9.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-21T08:02:53.6855266Z"
+    },
+    {
+      "Type": 1,
+      "Key": "xunit.core",
+      "Version": "2.9.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-21T08:02:53.6855268Z"
+    },
+    {
+      "Type": 1,
+      "Key": "xunit.extensibility.core",
+      "Version": "2.9.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-21T08:02:53.685527Z"
+    },
+    {
+      "Type": 1,
+      "Key": "xunit.extensibility.execution",
+      "Version": "2.9.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-21T08:02:53.6855274Z"
     }
   ]
 }
