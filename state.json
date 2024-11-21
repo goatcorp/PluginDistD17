@@ -15970,9 +15970,9 @@
           }
         },
         "NICEDamage": {
-          "BuiltCommit": "7b9b802bc4cfe4b696ae3d3997b108a5a07878f0",
-          "TimeBuilt": "2024-07-16T16:25:03.629",
-          "EffectiveVersion": "0.0.0.4",
+          "BuiltCommit": "912209ce17aaf6da89de95f2e0d848b7164583c4",
+          "TimeBuilt": "2024-11-21T21:01:57.0636771+00:00",
+          "EffectiveVersion": "1.0.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.0.2": {
@@ -15992,6 +15992,17 @@
               "Changelog": "Fixed NICE appearing at the wrong time (I left testing code in oops)",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "1.0.0.0": {
+              "TimeReleased": "2024-11-21T21:01:57.0637171+00:00",
+              "Changelog": "API Bump",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "philpax"
             }
           }
         },
@@ -41551,9 +41562,9 @@
           }
         },
         "LaunchpadHotbars": {
-          "BuiltCommit": "b305a56556bbe8f63bdfee908b43d0c55ff04915",
-          "TimeBuilt": "2024-08-16T15:41:02.593",
-          "EffectiveVersion": "1.0.0.0",
+          "BuiltCommit": "346e6034aa042534ebbaea0777be9b6a7bc18559",
+          "TimeBuilt": "2024-11-21T21:02:05.5530767+00:00",
+          "EffectiveVersion": "1.0.0.1",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -41561,6 +41572,25 @@
               "Changelog": "Initial release",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "1.0.0.1": {
+              "TimeReleased": "2024-11-21T21:02:05.5530774+00:00",
+              "Changelog": "API Bump",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "launchpad-dot-net",
+                  "Version": "2.2.2"
+                },
+                {
+                  "Key": "midi-dot-net2",
+                  "Version": "2.0.1"
+                }
+              ],
+              "Reviewer": "philpax"
             }
           }
         },
@@ -51314,6 +51344,20 @@
       "Version": "1.1.2",
       "ReviewedBy": "reiichi001",
       "ReviewedAt": "2024-11-21T20:28:45.262714Z"
+    },
+    {
+      "Type": 1,
+      "Key": "launchpad-dot-net",
+      "Version": "2.2.2",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2024-11-21T21:02:05.5790283Z"
+    },
+    {
+      "Type": 1,
+      "Key": "midi-dot-net2",
+      "Version": "2.0.1",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2024-11-21T21:02:05.5790608Z"
     }
   ]
 }
