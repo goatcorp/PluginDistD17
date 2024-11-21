@@ -9391,9 +9391,9 @@
           }
         },
         "ToastingwayPlugin": {
-          "BuiltCommit": "e6c1d27d9d8299ab7cf3a73c3a0f6ff5ac35eed7",
-          "TimeBuilt": "2024-08-22T19:27:10.966",
-          "EffectiveVersion": "1.0.0.0",
+          "BuiltCommit": "c35c571d9122581b644cc7051f7b8e45ab979e21",
+          "TimeBuilt": "2024-11-21T20:52:55.7227201+00:00",
+          "EffectiveVersion": "1.1.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -9401,6 +9401,17 @@
               "Changelog": "Initial release for Toastingway",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "1.1.0.0": {
+              "TimeReleased": "2024-11-21T20:52:55.7227612+00:00",
+              "Changelog": "- Added support for patch 7.1 and Dalamud API v11",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
@@ -40448,9 +40459,9 @@
           }
         },
         "GlamourSpamRemover": {
-          "BuiltCommit": "5f3e7bc83f62b06c3f56d8a7dc86e372e6565b51",
-          "TimeBuilt": "2024-11-19T17:48:27.182789+00:00",
-          "EffectiveVersion": "1.2.0.0",
+          "BuiltCommit": "08ccd99438a3dfbb22eabcc9e06bc686af3cf2b4",
+          "TimeBuilt": "2024-11-21T20:53:02.570031+00:00",
+          "EffectiveVersion": "1.2.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.1": {
@@ -40475,6 +40486,17 @@
                 }
               ],
               "Reviewer": "philpax"
+            },
+            "1.2.1.0": {
+              "TimeReleased": "2024-11-21T20:53:02.5700318+00:00",
+              "Changelog": "Added a debugging console",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
