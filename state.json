@@ -40470,9 +40470,9 @@
           }
         },
         "GlamourSpamRemover": {
-          "BuiltCommit": "08ccd99438a3dfbb22eabcc9e06bc686af3cf2b4",
-          "TimeBuilt": "2024-11-21T20:53:02.570031+00:00",
-          "EffectiveVersion": "1.2.1.0",
+          "BuiltCommit": "8446cc2f2132b425f1863b49d91c04d08f6dadcb",
+          "TimeBuilt": "2024-11-21T21:20:04.6710244+00:00",
+          "EffectiveVersion": "1.2.2.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.1": {
@@ -40508,6 +40508,17 @@
                 }
               ],
               "Reviewer": "reiichi001"
+            },
+            "1.2.2.0": {
+              "TimeReleased": "2024-11-21T21:20:04.6710619+00:00",
+              "Changelog": "Addressed bug with the debug console that could cause crashes",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "philpax"
             }
           }
         },
