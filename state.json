@@ -6379,9 +6379,9 @@
           }
         },
         "RoleplayProfiles": {
-          "BuiltCommit": "c4ade08e38e97d443ab810f39f4a73e2b856d509",
-          "TimeBuilt": "2024-07-23T20:46:52.009",
-          "EffectiveVersion": "1.2.0.0",
+          "BuiltCommit": "ce35356a7ee501535a2bfa468cfdf70d341cb3d3",
+          "TimeBuilt": "2024-11-21T20:27:28.2244078+00:00",
+          "EffectiveVersion": "1.2.0.1",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.0.2": {
@@ -6431,6 +6431,61 @@
               "Changelog": "* Updated for Dawntrail.\n* Character profiles will only display when there is a profile to display. No \u0022Loading\u0022 or \u0022Profile not found\u0022.\n",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "1.2.0.1": {
+              "TimeReleased": "2024-11-21T20:27:28.2244085+00:00",
+              "Changelog": "Update to Dalamud API 11.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "IdentityModel",
+                  "Version": "6.2.0"
+                },
+                {
+                  "Key": "RestSharp",
+                  "Version": "112.1.0"
+                },
+                {
+                  "Key": "SocketIOClient",
+                  "Version": "3.0.6"
+                },
+                {
+                  "Key": "Microsoft.NETCore.Platforms",
+                  "Version": "1.1.0"
+                },
+                {
+                  "Key": "Microsoft.NETCore.Targets",
+                  "Version": "1.1.0"
+                },
+                {
+                  "Key": "System.Collections",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Reactive",
+                  "Version": "5.0.0"
+                },
+                {
+                  "Key": "System.Runtime",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Runtime.CompilerServices.Unsafe",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "System.Text.Encodings.Web",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "System.Text.Json",
+                  "Version": "6.0.2"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
@@ -14211,9 +14266,9 @@
           }
         },
         "TitleEdit": {
-          "BuiltCommit": "e5ba1b81feb48d51ec89c4a441b670c36ce4d26c",
-          "TimeBuilt": "2024-11-18T19:13:23.1102131+00:00",
-          "EffectiveVersion": "3.0.3.1",
+          "BuiltCommit": "fdbd72a995b3f9d6a3ee6a04874aa2655874c626",
+          "TimeBuilt": "2024-11-21T20:27:42.3053076+00:00",
+          "EffectiveVersion": "3.0.3.2",
           "MinimumVersion": null,
           "Changelogs": {
             "2.3.0.0": {
@@ -14477,6 +14532,45 @@
             "3.0.3.1": {
               "TimeReleased": "2024-11-18T19:13:23.110252+00:00",
               "Changelog": "- Updated the BGM google sheets link\n- Updated the included BGM csv\n- Fixed load issue when trying to migrate from an old V2 install with corrupted presets\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.Build.Tasks.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Common",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitHub",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitLab",
+                  "Version": "1.1.1"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            },
+            "3.0.3.2": {
+              "TimeReleased": "2024-11-21T20:27:42.3053085+00:00",
+              "Changelog": "nofranz\r\n\r\nUpdated UpdateCharaSelectDisplayDelegate function signature",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -26134,9 +26228,9 @@
           }
         },
         "Snooper": {
-          "BuiltCommit": "b6796cae28a23668e10ed3040d55da5a90828bbe",
-          "TimeBuilt": "2024-10-02T16:40:10.064",
-          "EffectiveVersion": "1.4.0.0",
+          "BuiltCommit": "8de76411c4c46a342cf18a200ce8d3905bdb6933",
+          "TimeBuilt": "2024-11-21T20:27:56.4738222+00:00",
+          "EffectiveVersion": "1.4.0.1",
           "MinimumVersion": null,
           "Changelogs": {
             "0.3.0.0": {
@@ -26186,6 +26280,17 @@
               "Changelog": "* Log messages now display dates (not just times) when the date is different from today, so that old messages loaded from log files will have more context to them.\n* Fixed a bug where log windows didn\u0027t auto-scroll to the very end.\n",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "1.4.0.1": {
+              "TimeReleased": "2024-11-21T20:27:56.473823+00:00",
+              "Changelog": "Update to Dalamud API 11.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
@@ -26903,9 +27008,9 @@
           }
         },
         "Distance": {
-          "BuiltCommit": "8590a50e3a1bf5c3ee0afcbdd88d8aba32dce70a",
-          "TimeBuilt": "2024-08-01T23:51:12.036",
-          "EffectiveVersion": "1.1.3.0",
+          "BuiltCommit": "5ca50d877da2532e81f82c15e6ef651f28478247",
+          "TimeBuilt": "2024-11-21T20:27:34.444014+00:00",
+          "EffectiveVersion": "1.1.3.1",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.2": {
@@ -26967,6 +27072,17 @@
               "Changelog": "- Displays distance units as meters now instead of yalms in the Japanese-language client in order to match tooltips.\n",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "1.1.3.1": {
+              "TimeReleased": "2024-11-21T20:27:34.4440148+00:00",
+              "Changelog": "- Updated for Dalamud API 11.  Thank you damolitionn.\n- Minor code cleanup.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
@@ -27045,9 +27161,9 @@
           }
         },
         "WhatDidYouSay": {
-          "BuiltCommit": "707d4d6e51dbadf616ebbadd5ab69fe235f422c3",
-          "TimeBuilt": "2024-07-25T01:12:48.743",
-          "EffectiveVersion": "1.0.2.4",
+          "BuiltCommit": "3b69b311689c5280eee17e1f004143d6dca94bce",
+          "TimeBuilt": "2024-11-21T20:27:18.6578098+00:00",
+          "EffectiveVersion": "1.0.2.5",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.3": {
@@ -27091,6 +27207,17 @@
               "Changelog": "- Possible fix for speech bubbles showing on the wrong part of certain models.\n",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "1.0.2.5": {
+              "TimeReleased": "2024-11-21T20:27:18.6578469+00:00",
+              "Changelog": "- Updated for Dalamud API 11.\n- Minor code cleanup.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
@@ -29914,14 +30041,25 @@
           }
         },
         "ReSanctuary": {
-          "BuiltCommit": "2ec6cc3284b6f8943be13f3199ace483e96df5aa",
-          "TimeBuilt": "2024-11-15T21:04:30.6731432+00:00",
-          "EffectiveVersion": "1.4.0.1",
+          "BuiltCommit": "f95623d4bde1fa3ff4a2a009cc81a112d381c9ad",
+          "TimeBuilt": "2024-11-21T20:27:48.2148101+00:00",
+          "EffectiveVersion": "1.4.0.2",
           "MinimumVersion": null,
           "Changelogs": {
             "1.4.0.1": {
               "TimeReleased": "2024-11-15T21:04:30.6731446+00:00",
               "Changelog": "- Updated for Patch 7.1/Dalamud API 11/Lumina 5",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            },
+            "1.4.0.2": {
+              "TimeReleased": "2024-11-21T20:27:48.2148109+00:00",
+              "Changelog": "- Fixed adding to the todo list",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -33385,9 +33523,9 @@
           }
         },
         "Altoholic": {
-          "BuiltCommit": "a468e82a889836da03705a77f0ffa6d01630dbf7",
-          "TimeBuilt": "2024-11-18T04:35:40.6729368+00:00",
-          "EffectiveVersion": "0.0.0.24",
+          "BuiltCommit": "2aa789c4c9d482bf8e0d4cda24c265b358c7265d",
+          "TimeBuilt": "2024-11-21T20:28:37.7915413+00:00",
+          "EffectiveVersion": "0.0.0.25",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.0.1": {
@@ -33930,6 +34068,57 @@
             "0.0.0.24": {
               "TimeReleased": "2024-11-18T04:35:40.6729379+00:00",
               "Changelog": "Version 0.0.0.24: Fix mix up duty unlocked-completed data and add database version",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "Dapper",
+                  "Version": "2.1.35"
+                },
+                {
+                  "Key": "LiteDB",
+                  "Version": "5.0.21"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite.Core",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "SQLitePCLRaw.bundle_e_sqlite3",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.core",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.lib.e_sqlite3",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.provider.e_sqlite3",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "System.Buffers",
+                  "Version": "4.5.1"
+                },
+                {
+                  "Key": "System.Memory",
+                  "Version": "4.5.3"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            },
+            "0.0.0.25": {
+              "TimeReleased": "2024-11-21T20:28:37.7915428+00:00",
+              "Changelog": "Version 0.0.0.25: Fix reputation tab and add new pelupelu reward",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -36266,9 +36455,9 @@
           }
         },
         "NeatNoter": {
-          "BuiltCommit": "1002631526fa03aad9f02f2376a0c38dea5931d8",
-          "TimeBuilt": "2024-08-23T11:50:05.791",
-          "EffectiveVersion": "2.6.4.0",
+          "BuiltCommit": "b17d7bb9e96bbb7752af03bf5786ed36232ed671",
+          "TimeBuilt": "2024-11-21T20:28:45.2495114+00:00",
+          "EffectiveVersion": "2.7.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "2.6.1.0": {
@@ -36294,6 +36483,65 @@
               "Changelog": "# NeatNoter 2.6.4 (Test)\n\n## Features\n\n- Created settings to improve the visibility of the overlay windows. You can now adjust the font size and color.\n\nIf any bug if found, please report at: https://github.com/shadowkras/NeatNoter/issues/\n",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "2.7.0.0": {
+              "TimeReleased": "2024-11-21T20:28:45.2495125+00:00",
+              "Changelog": "# NeatNoter 2.7.0 (Test)\n\n## Features\n\n- Adds support for Patch 7.1 and Dalamud API 11.\n\nIf any bug if found, please report at: https://github.com/shadowkras/NeatNoter/issues/\n",
+              "UsedNeeds": [
+                {
+                  "Key": "CsvHelper",
+                  "Version": "33.0.1"
+                },
+                {
+                  "Key": "Dalamud.DrunkenToad",
+                  "Version": "1.9.1"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.25"
+                },
+                {
+                  "Key": "LiteDB",
+                  "Version": "5.0.21"
+                },
+                {
+                  "Key": "StyleCop.Analyzers",
+                  "Version": "1.2.0-beta.556"
+                },
+                {
+                  "Key": "System.Drawing.Common",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "Dalamud.Loc",
+                  "Version": "1.1.2"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "Microsoft.Win32.SystemEvents",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "StyleCop.Analyzers.Unstable",
+                  "Version": "1.2.0.556"
+                },
+                {
+                  "Key": "System.Buffers",
+                  "Version": "4.5.1"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
@@ -50831,6 +51079,41 @@
       "Version": "4.4.0",
       "ReviewedBy": "philpax",
       "ReviewedAt": "2024-11-21T13:50:32.9750916Z"
+    },
+    {
+      "Type": 1,
+      "Key": "IdentityModel",
+      "Version": "6.2.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-21T20:27:28.2523698Z"
+    },
+    {
+      "Type": 1,
+      "Key": "SocketIOClient",
+      "Version": "3.0.6",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-21T20:27:28.2524036Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Text.Json",
+      "Version": "6.0.2",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-21T20:27:28.2524046Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Dalamud.DrunkenToad",
+      "Version": "1.9.1",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-21T20:28:45.2627126Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Dalamud.Loc",
+      "Version": "1.1.2",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-21T20:28:45.262714Z"
     }
   ]
 }
