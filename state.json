@@ -28325,9 +28325,9 @@
           }
         },
         "ZodiacBuddy": {
-          "BuiltCommit": "b75970b4f17a9b7b25bda9888e82b6a261e66d6d",
-          "TimeBuilt": "2024-11-16T14:59:18.3592514+00:00",
-          "EffectiveVersion": "1.1.0.0",
+          "BuiltCommit": "abceb7a628c7565ae0eb82fa35040af1905e5288",
+          "TimeBuilt": "2024-11-23T01:45:44.7392559+00:00",
+          "EffectiveVersion": "1.1.0.1",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.3": {
@@ -28415,6 +28415,49 @@
                 }
               ],
               "Reviewer": "goaaats"
+            },
+            "1.1.0.1": {
+              "TimeReleased": "2024-11-23T01:45:44.7392945+00:00",
+              "Changelog": "Fix various features not working correctly.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "LitJWT",
+                  "Version": "2.0.2"
+                },
+                {
+                  "Key": "Microsoft.Build.Tasks.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Common",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitHub",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitLab",
+                  "Version": "1.1.1"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
