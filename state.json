@@ -2735,9 +2735,9 @@
           }
         },
         "Wordsmith": {
-          "BuiltCommit": "1cf7b68afd5a841bbbfd20a5801fe3e97f3a88b1",
-          "TimeBuilt": "2024-10-20T19:58:53.5317739+00:00",
-          "EffectiveVersion": "1.15.2.0",
+          "BuiltCommit": "e36b53f5b6e9557397031c58b20cad3b5f4dfe5b",
+          "TimeBuilt": "2024-11-23T17:00:50.0335879+00:00",
+          "EffectiveVersion": "1.15.3.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.4.3": {
@@ -2855,6 +2855,17 @@
                 {
                   "Key": "DalamudPackager",
                   "Version": "2.1.13"
+                }
+              ],
+              "Reviewer": "philpax"
+            },
+            "1.15.3.0": {
+              "TimeReleased": "2024-11-23T17:00:50.0336295+00:00",
+              "Changelog": "# Wordsmith v1.15.3\nUpdated to latest Dalamud version",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
                 }
               ],
               "Reviewer": "philpax"
@@ -18360,9 +18371,9 @@
           "Changelogs": {}
         },
         "JobBars": {
-          "BuiltCommit": "15201bc0b9da37a00285ac1efec9ddadec45a21c",
-          "TimeBuilt": "2024-08-02T23:03:14.793",
-          "EffectiveVersion": "1.3.1.4",
+          "BuiltCommit": "47ee563099248fe7e1e8454e1c851e995627e34e",
+          "TimeBuilt": "2024-11-23T17:00:59.780834+00:00",
+          "EffectiveVersion": "1.3.1.6",
           "MinimumVersion": null,
           "Changelogs": {
             "1.2.3.0": {
@@ -18370,6 +18381,49 @@
               "Changelog": "- 6.2 update\n- UI updates\n- change some text appearance to match that of new large\u002Bcentered cooldown text\n- fix more issues with Penumbra and MaterialUI\n- fix issue with party buffs, AST cards, and excog not being reflected properly\n- fix issue where party list glow remains visible\n- more UI options\n",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "1.3.1.6": {
+              "TimeReleased": "2024-11-23T17:00:59.7808348+00:00",
+              "Changelog": "- API 11 update",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/0ceal0t/KamiToolKit",
+                  "Version": "9319ba862cb5de90f92cda7629f583bf13800027"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.Build.Tasks.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Common",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitHub",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitLab",
+                  "Version": "1.1.1"
+                }
+              ],
+              "Reviewer": "philpax"
             }
           }
         },
@@ -53775,6 +53829,13 @@
       "Version": "004056b64860a08cd8dd215b1f7a69518baa58c2",
       "ReviewedBy": "philpax",
       "ReviewedAt": "2024-11-23T10:56:17.0934616Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/0ceal0t/KamiToolKit",
+      "Version": "9319ba862cb5de90f92cda7629f583bf13800027",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2024-11-23T17:00:59.8164689Z"
     }
   ]
 }
