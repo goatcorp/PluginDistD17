@@ -14735,9 +14735,9 @@
           }
         },
         "TitleEdit": {
-          "BuiltCommit": "fdbd72a995b3f9d6a3ee6a04874aa2655874c626",
-          "TimeBuilt": "2024-11-21T20:27:42.3053076+00:00",
-          "EffectiveVersion": "3.0.3.2",
+          "BuiltCommit": "3d248a8e15c0ae1ecb9cf82017918b03fad7777c",
+          "TimeBuilt": "2024-11-23T10:55:43.1135869+00:00",
+          "EffectiveVersion": "3.0.3.3",
           "MinimumVersion": null,
           "Changelogs": {
             "2.3.0.0": {
@@ -15075,6 +15075,45 @@
                 }
               ],
               "Reviewer": "reiichi001"
+            },
+            "3.0.3.3": {
+              "TimeReleased": "2024-11-23T10:55:43.1135879+00:00",
+              "Changelog": "- Fixed the vanilla A Realm Reborn preset not loading on game startup, causing plugin load errors depending on configuration\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.Build.Tasks.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Common",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitHub",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitLab",
+                  "Version": "1.1.1"
+                }
+              ],
+              "Reviewer": "philpax"
             }
           }
         },
@@ -18372,9 +18411,9 @@
           }
         },
         "MarketBoardPlugin": {
-          "BuiltCommit": "7b4288160555d65dd798cbb54fa3a7a100f4df57",
-          "TimeBuilt": "2024-11-16T06:24:26.8211355+00:00",
-          "EffectiveVersion": "1.9.0.0",
+          "BuiltCommit": "313edf58163ce804ac7bf553f1e41f4c82df093c",
+          "TimeBuilt": "2024-11-23T10:55:56.64862+00:00",
+          "EffectiveVersion": "1.9.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -18555,6 +18594,77 @@
                 }
               ],
               "Reviewer": "reiichi001"
+            },
+            "1.9.1.0": {
+              "TimeReleased": "2024-11-23T10:55:56.6486207+00:00",
+              "Changelog": "- Context Menu: fix unhandled exception if item not in Item sheet (eg. key items)",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/Ottermandias/OtterGui.git",
+                  "Version": "8ba88eff15326bb28ed5e6157f5252c114d40b5f"
+                },
+                {
+                  "Key": "https://github.com/Ottermandias/OtterGuiInternal.git",
+                  "Version": "8e144c54022bc7d30f993a8c496ad390764f884f"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Polly.Core",
+                  "Version": "8.5.0"
+                },
+                {
+                  "Key": "StyleCop.Analyzers",
+                  "Version": "1.2.0-beta.556"
+                },
+                {
+                  "Key": "JetBrains.Annotations",
+                  "Version": "2024.2.0"
+                },
+                {
+                  "Key": "Microsoft.Build.Tasks.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Common",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitHub",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitLab",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "StyleCop.Analyzers.Unstable",
+                  "Version": "1.2.0.556"
+                }
+              ],
+              "Reviewer": "philpax"
             }
           }
         },
@@ -18634,9 +18744,9 @@
           }
         },
         "PlayerTags": {
-          "BuiltCommit": "9901f98c5b637b50358fd161df3fb4b72dc54c85",
-          "TimeBuilt": "2024-11-23T01:17:38.033128+00:00",
-          "EffectiveVersion": "1.12.0.0",
+          "BuiltCommit": "098d77bcc27d943dac181d65dace8354061208a4",
+          "TimeBuilt": "2024-11-23T10:56:17.0798174+00:00",
+          "EffectiveVersion": "1.12.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.5.0.0": {
@@ -18857,6 +18967,21 @@
                 }
               ],
               "Reviewer": "reiichi001"
+            },
+            "1.12.1.0": {
+              "TimeReleased": "2024-11-23T10:56:17.0798184+00:00",
+              "Changelog": "- Update for API 11\n",
+              "UsedNeeds": [
+                {
+                  "Key": "https://git.pilzinsel64.de/pilz-framework/pilz.dalamud.git",
+                  "Version": "004056b64860a08cd8dd215b1f7a69518baa58c2"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "philpax"
             }
           }
         },
@@ -33663,9 +33788,9 @@
           }
         },
         "DragoonMayCry": {
-          "BuiltCommit": "cbec74fa6859d562ef388e3355df1fe51272ee86",
-          "TimeBuilt": "2024-11-23T04:13:07.1435+00:00",
-          "EffectiveVersion": "1.2.2.0",
+          "BuiltCommit": "07b0e4f84963973eaa3ccc7a601266cd9b100542",
+          "TimeBuilt": "2024-11-23T10:56:06.8147181+00:00",
+          "EffectiveVersion": "1.2.2.1",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -34164,6 +34289,77 @@
                 }
               ],
               "Reviewer": "reiichi001"
+            },
+            "1.2.2.1": {
+              "TimeReleased": "2024-11-23T10:56:06.8147193+00:00",
+              "Changelog": "Trying to fix the plugin error on load after an update. If it still happens, restart your game. Sorry for the inconvenience\n",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/Felscream/KamiLib",
+                  "Version": "42c1720b042c69763c6787c409ab0efd342aaf86"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "NAudio",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Vorbis",
+                  "Version": "1.5.0"
+                },
+                {
+                  "Key": "Microsoft.NETCore.Platforms",
+                  "Version": "3.1.0"
+                },
+                {
+                  "Key": "Microsoft.Win32.Registry",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "NAudio.Asio",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Core",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Midi",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Wasapi",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.WinMM",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NVorbis",
+                  "Version": "0.10.4"
+                },
+                {
+                  "Key": "System.Memory",
+                  "Version": "4.5.3"
+                },
+                {
+                  "Key": "System.Security.AccessControl",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "System.Security.Principal.Windows",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "System.ValueTuple",
+                  "Version": "4.5.0"
+                }
+              ],
+              "Reviewer": "philpax"
             }
           }
         },
@@ -43750,103 +43946,6 @@
               "Changelog": "\u002B Add min lvl info to duties\n\u002B Change plus/minus to arrows\n",
               "UsedNeeds": null,
               "Reviewer": null
-            }
-          }
-        },
-        "MarketBoardPlugin": {
-          "BuiltCommit": "7b4288160555d65dd798cbb54fa3a7a100f4df57",
-          "TimeBuilt": "2024-11-16T06:24:42.1284003+00:00",
-          "EffectiveVersion": "1.9.0.0",
-          "MinimumVersion": null,
-          "Changelogs": {
-            "1.3.3.0": {
-              "TimeReleased": "2023-10-24T19:17:10.642",
-              "Changelog": "- Fixed charts not showing up\n- Improved item name sorting by handling roman numbers\n- Clicking on an item\u0027s icon will copy the item name to the clipboard\n\n- Migrate UI to Dalamud\u0027s WindowSystem\n- Internal code cleanup and improvements",
-              "UsedNeeds": null,
-              "Reviewer": null
-            },
-            "1.7.0.0": {
-              "TimeReleased": "2024-07-14T18:26:15.441",
-              "Changelog": "- Add \u0022Remove from favorites\u0022 context menu option in favorites\n- Add Context menu integration to non-inventory windows. For now, that includes:\n  - Chat\n  - Crafting Log\n  - Gathering Log\n  - Grand Company Supply\n  - Item Search / In-Game Market Board\n- Fix Universalis / Ko-Fi buttons appareance\n- Fix max level still set at 90\n- Fix potential issues in Universalis-related code\u0022",
-              "UsedNeeds": null,
-              "Reviewer": null
-            },
-            "1.7.1.0": {
-              "TimeReleased": "2024-07-14T23:08:52.68",
-              "Changelog": "- Refactor Universalis code to make it more resilient",
-              "UsedNeeds": null,
-              "Reviewer": null
-            },
-            "1.9.0.0": {
-              "TimeReleased": "2024-11-16T06:24:42.1284015+00:00",
-              "Changelog": "- Update to API 11",
-              "UsedNeeds": [
-                {
-                  "Key": "https://github.com/Ottermandias/OtterGui.git",
-                  "Version": "8ba88eff15326bb28ed5e6157f5252c114d40b5f"
-                },
-                {
-                  "Key": "https://github.com/Ottermandias/OtterGuiInternal.git",
-                  "Version": "8e144c54022bc7d30f993a8c496ad390764f884f"
-                },
-                {
-                  "Key": "DalamudPackager",
-                  "Version": "11.0.0"
-                },
-                {
-                  "Key": "DotNet.ReproducibleBuilds",
-                  "Version": "1.1.1"
-                },
-                {
-                  "Key": "Polly.Core",
-                  "Version": "8.5.0"
-                },
-                {
-                  "Key": "StyleCop.Analyzers",
-                  "Version": "1.2.0-beta.556"
-                },
-                {
-                  "Key": "JetBrains.Annotations",
-                  "Version": "2024.2.0"
-                },
-                {
-                  "Key": "Microsoft.Build.Tasks.Git",
-                  "Version": "1.1.1"
-                },
-                {
-                  "Key": "Microsoft.Extensions.DependencyInjection",
-                  "Version": "8.0.0"
-                },
-                {
-                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
-                  "Version": "8.0.0"
-                },
-                {
-                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
-                  "Version": "1.1.1"
-                },
-                {
-                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
-                  "Version": "1.1.1"
-                },
-                {
-                  "Key": "Microsoft.SourceLink.Common",
-                  "Version": "1.1.1"
-                },
-                {
-                  "Key": "Microsoft.SourceLink.GitHub",
-                  "Version": "1.1.1"
-                },
-                {
-                  "Key": "Microsoft.SourceLink.GitLab",
-                  "Version": "1.1.1"
-                },
-                {
-                  "Key": "StyleCop.Analyzers.Unstable",
-                  "Version": "1.2.0.556"
-                }
-              ],
-              "Reviewer": "reiichi001"
             }
           }
         },
@@ -53669,6 +53768,13 @@
       "Version": "6d41b495b6066c41231085c72966370b0e930832",
       "ReviewedBy": "reiichi001",
       "ReviewedAt": "2024-11-23T04:06:13.8975991Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://git.pilzinsel64.de/pilz-framework/pilz.dalamud.git",
+      "Version": "004056b64860a08cd8dd215b1f7a69518baa58c2",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2024-11-23T10:56:17.0934616Z"
     }
   ]
 }
