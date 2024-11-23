@@ -2250,9 +2250,9 @@
           }
         },
         "PetRenamer": {
-          "BuiltCommit": "e61677beef574388414090a39e54ab0b80976632",
-          "TimeBuilt": "2024-10-04T20:15:39.68",
-          "EffectiveVersion": "2.2.0.5",
+          "BuiltCommit": "357d93a21f1e8955d91618dc98e817ec70750f7c",
+          "TimeBuilt": "2024-11-23T04:06:23.5642579+00:00",
+          "EffectiveVersion": "2.3.0.2",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -2557,6 +2557,21 @@
                 }
               ],
               "Reviewer": "bleatbot"
+            },
+            "2.3.0.2": {
+              "TimeReleased": "2024-11-23T04:06:23.5642589+00:00",
+              "Changelog": "    [2.3.0.2]\r\n    7.1 Update.\r\n    Colours on petnames now work.\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "HtmlAgilityPack",
+                  "Version": "1.11.71"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
@@ -14590,9 +14605,9 @@
           }
         },
         "SortaKinda": {
-          "BuiltCommit": "9216431b8eb6847bdece0245e89026414c2fa5fc",
-          "TimeBuilt": "2024-11-16T00:48:47.8914085+00:00",
-          "EffectiveVersion": "2.1.0.0",
+          "BuiltCommit": "007dbffbe1fb3d48641d9e7d003e877fb2ee132d",
+          "TimeBuilt": "2024-11-23T04:06:13.8556637+00:00",
+          "EffectiveVersion": "2.1.0.1",
           "MinimumVersion": null,
           "Changelogs": {
             "2.1.0.0": {
@@ -14654,6 +14669,65 @@
                 {
                   "Key": "DalamudPackager",
                   "Version": "2.1.13"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            },
+            "2.1.0.1": {
+              "TimeReleased": "2024-11-23T04:06:13.8557055+00:00",
+              "Changelog": "Fix some filter windows not working correctly",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiLib.git",
+                  "Version": "6d41b495b6066c41231085c72966370b0e930832"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "HtmlAgilityPack",
+                  "Version": "1.11.46"
+                },
+                {
+                  "Key": "Karashiiro.HtmlAgilityPack.CssSelectors.NetCoreFork",
+                  "Version": "0.0.2"
+                },
+                {
+                  "Key": "Microsoft.Build.Tasks.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Common",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitHub",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitLab",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "NetStone",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.3"
                 }
               ],
               "Reviewer": "reiichi001"
@@ -52699,6 +52773,13 @@
       "Version": "83d705c4c62a2f84a78e9a6d2e7ed100820c029a",
       "ReviewedBy": "reiichi001",
       "ReviewedAt": "2024-11-23T01:17:38.0465324Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/MidoriKami/KamiLib.git",
+      "Version": "6d41b495b6066c41231085c72966370b0e930832",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-23T04:06:13.8975991Z"
     }
   ]
 }
