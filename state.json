@@ -28488,9 +28488,9 @@
           }
         },
         "ItemVendorLocation": {
-          "BuiltCommit": "c942d0e89a1402a7f80e96ff712681e12ec0bd17",
-          "TimeBuilt": "2024-07-20T19:46:33.389",
-          "EffectiveVersion": "2.7.1.0",
+          "BuiltCommit": "730cb0408bfd62464427df28d063fee4b2a06b43",
+          "TimeBuilt": "2024-11-23T18:10:38.3549724+00:00",
+          "EffectiveVersion": "2.8.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -28594,6 +28594,45 @@
               "Changelog": "- Update scrip mapping for DT by Orphis\n",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "2.8.0.0": {
+              "TimeReleased": "2024-11-23T18:10:38.3550098+00:00",
+              "Changelog": "- 7.1 updates\n",
+              "UsedNeeds": [
+                {
+                  "Key": "CheapLoc",
+                  "Version": "1.1.8"
+                },
+                {
+                  "Key": "Dalamud.DrunkenToad",
+                  "Version": "1.9.2"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "Dalamud.Loc",
+                  "Version": "1.1.2"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "Mono.Cecil",
+                  "Version": "0.11.3"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "12.0.2"
+                }
+              ],
+              "Reviewer": "philpax"
             }
           }
         },
@@ -53929,6 +53968,34 @@
       "Version": "9.0.0",
       "ReviewedBy": "philpax",
       "ReviewedAt": "2024-11-23T18:03:55.3561065Z"
+    },
+    {
+      "Type": 1,
+      "Key": "CheapLoc",
+      "Version": "1.1.8",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2024-11-23T18:10:38.3922779Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Dalamud.DrunkenToad",
+      "Version": "1.9.2",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2024-11-23T18:10:38.3923066Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Mono.Cecil",
+      "Version": "0.11.3",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2024-11-23T18:10:38.3923072Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Newtonsoft.Json",
+      "Version": "12.0.2",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2024-11-23T18:10:38.3923074Z"
     }
   ]
 }
