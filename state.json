@@ -2599,9 +2599,9 @@
           }
         },
         "Waitingway.Dalamud": {
-          "BuiltCommit": "35f6c835d041b790e6a90276ce912c692836355a",
-          "TimeBuilt": "2024-11-18T04:31:39.0905259+00:00",
-          "EffectiveVersion": "2.2.1.0",
+          "BuiltCommit": "6697dd6c3509915ce22880cd55ddeb0d72bb1e7b",
+          "TimeBuilt": "2024-11-23T22:39:20.7633745+00:00",
+          "EffectiveVersion": "2.2.2.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.2.4": {
@@ -2625,6 +2625,33 @@
             "2.2.1.0": {
               "TimeReleased": "2024-11-18T04:31:39.090527+00:00",
               "Changelog": null,
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "Humanizer.Core",
+                  "Version": "3.0.0-beta.54"
+                },
+                {
+                  "Key": "Meziantou.Analyzer",
+                  "Version": "2.0.179"
+                },
+                {
+                  "Key": "System.Memory",
+                  "Version": "4.5.5"
+                },
+                {
+                  "Key": "System.ValueTuple",
+                  "Version": "4.5.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            },
+            "2.2.2.0": {
+              "TimeReleased": "2024-11-23T22:39:20.7634118+00:00",
+              "Changelog": "- Fixes crashing when clicking the \u0022World\u0022 tab in the Character Selection screen.\r\n- Redesigned the UI layout of the \u0022World\u0022 tab to keep up with 7.1 changes.\r\n- Fixed bug where the Waitingway settings button turned into a different icon.",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
