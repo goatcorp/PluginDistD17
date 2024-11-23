@@ -2,7 +2,7 @@
   "Author": "Megurt",
   "Name": "Which Mount",
   "InternalName": "WhichMount",
-  "AssemblyVersion": "1.0.0.2",
+  "AssemblyVersion": "1.0.0.3",
   "Description": "Plugin adds a 'Mount Search' button to the target's context menu, showing information in chat about the mount and how to obtain it. Settings allow you to include the current availability of the mount in the game and other details.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/megurte/WhichMount",
@@ -13,7 +13,7 @@
     "Information",
     "GameData"
   ],
-  "DalamudApiLevel": 10,
+  "DalamudApiLevel": 11,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
