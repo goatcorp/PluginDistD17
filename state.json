@@ -293,9 +293,9 @@
           }
         },
         "Glamaholic": {
-          "BuiltCommit": "60dc6d4bdd254d032aefc6813d710447a9a13974",
-          "TimeBuilt": "2024-11-18T19:17:31.5057651+00:00",
-          "EffectiveVersion": "1.10.10.0",
+          "BuiltCommit": "3d65cfe8877753199bc1ed3dd476f19a3bccc1d8",
+          "TimeBuilt": "2024-11-23T18:03:47.3240234+00:00",
+          "EffectiveVersion": "1.10.11.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.9.8.0": {
@@ -374,6 +374,29 @@
                 }
               ],
               "Reviewer": "reiichi001"
+            },
+            "1.10.11.0": {
+              "TimeReleased": "2024-11-23T18:03:47.3240653+00:00",
+              "Changelog": "Fixed a bug wherein the second dye slot would not be set when a plate was applied.\n\nFor troubleshooting, please enable Troubleshooting mode (Settings -\u003E Troubleshooting mode), reproduce the issue, then post any log line from \u0060/xllog\u0060 starting with \u0060[Troubleshooting]\u0060. Thanks!\n",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/Ottermandias/Glamourer.Api.git",
+                  "Version": "4bad56d610132b419335b89896e1f387b9ba2039"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "Fody",
+                  "Version": "6.8.0"
+                },
+                {
+                  "Key": "Resourcer.Fody",
+                  "Version": "1.8.1"
+                }
+              ],
+              "Reviewer": "philpax"
             }
           }
         },
@@ -13642,9 +13665,9 @@
           }
         },
         "MiniMappingway": {
-          "BuiltCommit": "fa99b8af0fab9d1378da1a782bca00cc258cfcd8",
-          "TimeBuilt": "2024-07-08T23:08:53.338",
-          "EffectiveVersion": "1.0.0.7",
+          "BuiltCommit": "5d90de6502da7d5dc4de2d2d886f856145e646f7",
+          "TimeBuilt": "2024-11-23T18:03:55.3239813+00:00",
+          "EffectiveVersion": "1.0.0.8",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -13694,6 +13717,41 @@
               "Changelog": "Fix issue with FC markers when world/DC travelling",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "1.0.0.8": {
+              "TimeReleased": "2024-11-23T18:03:55.3239821+00:00",
+              "Changelog": "Update to API 11. My thanks to RDalcolmo for doing this update!",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.ObjectPool",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "System.Security.Cryptography.Pkcs",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "System.Security.Cryptography.Xml",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "System.ServiceModel.Primitives",
+                  "Version": "8.1.0"
+                },
+                {
+                  "Key": "Microsoft.Bcl.Cryptography",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "System.Formats.Asn1",
+                  "Version": "9.0.0"
+                }
+              ],
+              "Reviewer": "philpax"
             }
           }
         },
@@ -53836,6 +53894,41 @@
       "Version": "9319ba862cb5de90f92cda7629f583bf13800027",
       "ReviewedBy": "philpax",
       "ReviewedAt": "2024-11-23T17:00:59.8164689Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Security.Cryptography.Pkcs",
+      "Version": "9.0.0",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2024-11-23T18:03:55.3560723Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Security.Cryptography.Xml",
+      "Version": "9.0.0",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2024-11-23T18:03:55.3561061Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.ServiceModel.Primitives",
+      "Version": "8.1.0",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2024-11-23T18:03:55.3561062Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Bcl.Cryptography",
+      "Version": "9.0.0",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2024-11-23T18:03:55.3561064Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Formats.Asn1",
+      "Version": "9.0.0",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2024-11-23T18:03:55.3561065Z"
     }
   ]
 }
