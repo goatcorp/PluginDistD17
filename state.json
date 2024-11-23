@@ -32856,9 +32856,9 @@
           }
         },
         "DragoonMayCry": {
-          "BuiltCommit": "a7d9a1ef8fe9a4a493a2ab7e2db69dd53e995ff6",
-          "TimeBuilt": "2024-11-21T13:51:00.5146913+00:00",
-          "EffectiveVersion": "1.2.1.2",
+          "BuiltCommit": "cbec74fa6859d562ef388e3355df1fe51272ee86",
+          "TimeBuilt": "2024-11-23T04:13:07.1435+00:00",
+          "EffectiveVersion": "1.2.2.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -33286,6 +33286,77 @@
                 }
               ],
               "Reviewer": "philpax"
+            },
+            "1.2.2.0": {
+              "TimeReleased": "2024-11-23T04:13:07.1435384+00:00",
+              "Changelog": "- Added a hit counter. Resets when you drop your GCD.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/Felscream/KamiLib",
+                  "Version": "42c1720b042c69763c6787c409ab0efd342aaf86"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "NAudio",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Vorbis",
+                  "Version": "1.5.0"
+                },
+                {
+                  "Key": "Microsoft.NETCore.Platforms",
+                  "Version": "3.1.0"
+                },
+                {
+                  "Key": "Microsoft.Win32.Registry",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "NAudio.Asio",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Core",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Midi",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Wasapi",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.WinMM",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NVorbis",
+                  "Version": "0.10.4"
+                },
+                {
+                  "Key": "System.Memory",
+                  "Version": "4.5.3"
+                },
+                {
+                  "Key": "System.Security.AccessControl",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "System.Security.Principal.Windows",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "System.ValueTuple",
+                  "Version": "4.5.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
