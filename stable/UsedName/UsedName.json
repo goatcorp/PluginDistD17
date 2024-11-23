@@ -2,14 +2,14 @@
   "Author": "LittleNightmare",
   "Name": "Used Name",
   "InternalName": "UsedName",
-  "AssemblyVersion": "0.8.6.0",
+  "AssemblyVersion": "0.8.7.0",
   "Description": "A simple tool to record players' used names and nickname base on SocialList. Right click on the target to add/sub/check the used names and nickname.\n",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/LittleNightmare/UsedName",
   "Tags": [
     "social"
   ],
-  "DalamudApiLevel": 10,
+  "DalamudApiLevel": 11,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,

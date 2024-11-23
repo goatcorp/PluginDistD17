@@ -15158,9 +15158,9 @@
           }
         },
         "UsedName": {
-          "BuiltCommit": "87a35a1bcbaffbd225cc1d70deaa208a8e9acc0b",
-          "TimeBuilt": "2024-11-01T19:10:59.4191798+00:00",
-          "EffectiveVersion": "0.8.6.0",
+          "BuiltCommit": "ad19ff82db6e7d471a6287e51655dc9bc754bc2e",
+          "TimeBuilt": "2024-11-23T04:11:23.1356106+00:00",
+          "EffectiveVersion": "0.8.7.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.7.6.6": {
@@ -15239,6 +15239,17 @@
                 }
               ],
               "Reviewer": "philpax"
+            },
+            "0.8.7.0": {
+              "TimeReleased": "2024-11-23T04:11:23.1356572+00:00",
+              "Changelog": "- support api11\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
