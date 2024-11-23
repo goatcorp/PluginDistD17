@@ -10408,9 +10408,9 @@
           }
         },
         "BetterMountRoulette": {
-          "BuiltCommit": "206de4de89d1da0a2fc22f01ad6bb37b4ef4491d",
-          "TimeBuilt": "2024-08-28T15:54:52.557",
-          "EffectiveVersion": "1.5.0.20",
+          "BuiltCommit": "d64155db6a37af69bf4111b988968d55bd914fd7",
+          "TimeBuilt": "2024-11-23T19:10:02.9399899+00:00",
+          "EffectiveVersion": "1.6.0.23",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.2": {
@@ -10496,6 +10496,17 @@
               "Changelog": "- Actual fix for the crashing issue from last time by replacing very brittle readonly memory manipulation with much more stable hooks.\n- Fixed a second crash that would occur if the action menu was never opened before loading or unloading the plugin while logged in.",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "1.6.0.23": {
+              "TimeReleased": "2024-11-23T19:10:02.9399908+00:00",
+              "Changelog": "- Reworked the general settings page\n- Added a feature to display the mount selected by the roulette in the cast bar (also works for unmodified roulettes)\n- Added a feature to choose the cast bar display of groups being mounted via /pmount (choose normal roulette, flying roulette or display mount)\n- Made /pmount a little more lenient by allowing the mount group name to be enclosed in quotes",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "philpax"
             }
           }
         },
@@ -39527,31 +39538,6 @@
               "Changelog": "Fix overzealous validation",
               "UsedNeeds": null,
               "Reviewer": null
-            }
-          }
-        },
-        "BetterMountRoulette": {
-          "BuiltCommit": "d64155db6a37af69bf4111b988968d55bd914fd7",
-          "TimeBuilt": "2024-11-15T21:04:39.0464115+00:00",
-          "EffectiveVersion": "1.6.0.22",
-          "MinimumVersion": null,
-          "Changelogs": {
-            "1.6.0.21": {
-              "TimeReleased": "2024-09-07T13:40:01.393",
-              "Changelog": "- Reworked the general settings page\n- Added a feature to display the mount selected by the roulette in the cast bar (also works for unmodified roulettes)\n- Added a feature to choose the cast bar display of groups being mounted via /pmount (choose normal roulette, flying roulette or display mount)\n- Made /pmount a little more lenient by allowing the mount group name to be enclosed in quotes",
-              "UsedNeeds": null,
-              "Reviewer": null
-            },
-            "1.6.0.22": {
-              "TimeReleased": "2024-11-15T21:04:39.0464122+00:00",
-              "Changelog": "Update for 7.1/API 11",
-              "UsedNeeds": [
-                {
-                  "Key": "DalamudPackager",
-                  "Version": "11.0.0"
-                }
-              ],
-              "Reviewer": "reiichi001"
             }
           }
         },
