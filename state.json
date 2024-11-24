@@ -3099,14 +3099,29 @@
           }
         },
         "QuestAWAY": {
-          "BuiltCommit": "64933a32a4156cc592122d3ae90b56974849a019",
-          "TimeBuilt": "2024-11-18T04:09:00.6130254+00:00",
-          "EffectiveVersion": "2.0.0.6",
+          "BuiltCommit": "d84d5cbeaa4af97a0e7fe8d4c06f8238bd83532d",
+          "TimeBuilt": "2024-11-24T21:47:35.5668611+00:00",
+          "EffectiveVersion": "2.0.0.7",
           "MinimumVersion": null,
           "Changelogs": {
             "2.0.0.6": {
               "TimeReleased": "2024-11-18T04:09:00.6130266+00:00",
               "Changelog": "EnemyListHP:\r\n- Updated for 7.1, no functional changes\r\n\r\nQuestAway: \r\n- Updated for 7.1, no functional changes\r\n\r\nJustBackup:\r\n- Updated for 7.1\r\n- Excluded certain know plugins\u0027 folders and files that have too large size and no value for backup (logs, caches, etc)\r\n- Lowered file copy thread priority, which reduces lag caused by file copying process",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/NightmareXIV/ECommons",
+                  "Version": "b99ba7a861300164b9b293b2bbbd510af0cda8a2"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            },
+            "2.0.0.7": {
+              "TimeReleased": "2024-11-24T21:47:35.5668616+00:00",
+              "Changelog": "- Fixed minimap not being processed (thanks nebel)",
               "UsedNeeds": [
                 {
                   "Key": "https://github.com/NightmareXIV/ECommons",
@@ -12365,9 +12380,9 @@
           }
         },
         "DailyDuty": {
-          "BuiltCommit": "f544d493b7864f4ed796d6ff52b6032139b2fbfc",
-          "TimeBuilt": "2024-11-16T00:40:30.2595843+00:00",
-          "EffectiveVersion": "5.2.0.0",
+          "BuiltCommit": "df7298214ec80c0f8b8780140c9904bea2421bc5",
+          "TimeBuilt": "2024-11-24T21:47:26.0498458+00:00",
+          "EffectiveVersion": "5.2.0.3",
           "MinimumVersion": null,
           "Changelogs": {
             "5.2.0.0": {
@@ -12385,6 +12400,69 @@
                 {
                   "Key": "DalamudPackager",
                   "Version": "2.1.13"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "NetStone",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "HtmlAgilityPack",
+                  "Version": "1.11.46"
+                },
+                {
+                  "Key": "Karashiiro.HtmlAgilityPack.CssSelectors.NetCoreFork",
+                  "Version": "0.0.2"
+                },
+                {
+                  "Key": "Microsoft.Build.Tasks.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Common",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitHub",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitLab",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.3"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            },
+            "5.2.0.3": {
+              "TimeReleased": "2024-11-24T21:47:26.0498465+00:00",
+              "Changelog": "Remove Teleporter Plugin dependency.\r\nFix Raids Modules not updating to new duties.\r\nFix Jumbo Cactpot time calculation.\r\nFix plugin opening config window on load.",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiLib",
+                  "Version": "79ccadc60048b91b01bd06ddf9f13056595d9f9f"
+                },
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit.git",
+                  "Version": "2f907055d4fda5562999996286a8f39723512c62"
                 },
                 {
                   "Key": "DotNet.ReproducibleBuilds",
@@ -22427,9 +22505,9 @@
           }
         },
         "CurrencyAlert": {
-          "BuiltCommit": "3e760f6eda238b0c95099150a6d9b71f661070e8",
-          "TimeBuilt": "2024-08-30T05:03:36.715",
-          "EffectiveVersion": "2.1.0.2",
+          "BuiltCommit": "9b98977155a12cedd72caa3e6fb815f2237481a3",
+          "TimeBuilt": "2024-11-24T21:47:07.3620337+00:00",
+          "EffectiveVersion": "2.2.0.2",
           "MinimumVersion": null,
           "Changelogs": {
             "0.4.0.0": {
@@ -22443,6 +22521,69 @@
               "Changelog": "=== 0.5.0.1\r\n- FR, DE and JP translations\r\n=== 0.5.0.0\r\nVersion provided by MidoriKami\r\n- Configuration remade and much more clean now\r\n- More configuration options (such as minimal display, window lock, etc)\r\n- Dynamic currency display, so further game updates shouldn\u0027t need a plugin update\r\n- Base code for translations (soon...)\r\n=== 0.4.0.0\r\n- Added new Tomestones of Causality\r\n- Added icons for currencies\r\n- Added an option to lock the alert window\r\n- Revamped the configuration UI a bit\r\n- Revamped the user configurations code internally, which unfortunately resulted in an inevitable configuration reset\r\n",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "2.2.0.2": {
+              "TimeReleased": "2024-11-24T21:47:07.3620755+00:00",
+              "Changelog": "API11\r\n\r\nI expect no issues with this one.",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiLib.git",
+                  "Version": "79ccadc60048b91b01bd06ddf9f13056595d9f9f"
+                },
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit.git",
+                  "Version": "2f907055d4fda5562999996286a8f39723512c62"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "NetStone",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "HtmlAgilityPack",
+                  "Version": "1.11.46"
+                },
+                {
+                  "Key": "Karashiiro.HtmlAgilityPack.CssSelectors.NetCoreFork",
+                  "Version": "0.0.2"
+                },
+                {
+                  "Key": "Microsoft.Build.Tasks.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Common",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitHub",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitLab",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.3"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
@@ -33102,9 +33243,9 @@
           }
         },
         "ChillFrames": {
-          "BuiltCommit": "90091b262de644861a5676cabc539498e65f323e",
-          "TimeBuilt": "2024-11-16T00:40:20.3941313+00:00",
-          "EffectiveVersion": "3.1.0.0",
+          "BuiltCommit": "2fc755a7007397b5a5117ec65d5a0592493cb033",
+          "TimeBuilt": "2024-11-24T21:47:15.8682161+00:00",
+          "EffectiveVersion": "3.1.0.1",
           "MinimumVersion": null,
           "Changelogs": {
             "1.5.0.2": {
@@ -33142,6 +33283,65 @@
                 {
                   "Key": "DalamudPackager",
                   "Version": "2.1.13"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "NetStone",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "HtmlAgilityPack",
+                  "Version": "1.11.46"
+                },
+                {
+                  "Key": "Karashiiro.HtmlAgilityPack.CssSelectors.NetCoreFork",
+                  "Version": "0.0.2"
+                },
+                {
+                  "Key": "Microsoft.Build.Tasks.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Common",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitHub",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitLab",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.3"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            },
+            "3.1.0.1": {
+              "TimeReleased": "2024-11-24T21:47:15.8682169+00:00",
+              "Changelog": "Fix Zone Blacklist not allowing you to select zones",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiLib",
+                  "Version": "79ccadc60048b91b01bd06ddf9f13056595d9f9f"
                 },
                 {
                   "Key": "DotNet.ReproducibleBuilds",
@@ -55060,6 +55260,27 @@
       "Version": "d210e7ac29c9c733b21bc0a13c3e53607aedf986",
       "ReviewedBy": "philpax",
       "ReviewedAt": "2024-11-24T17:32:16.5008999Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/MidoriKami/KamiLib.git",
+      "Version": "79ccadc60048b91b01bd06ddf9f13056595d9f9f",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-24T21:47:07.3982962Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/MidoriKami/KamiToolKit.git",
+      "Version": "2f907055d4fda5562999996286a8f39723512c62",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-24T21:47:07.3983495Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/MidoriKami/KamiLib",
+      "Version": "79ccadc60048b91b01bd06ddf9f13056595d9f9f",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-24T21:47:15.8967197Z"
     }
   ]
 }
