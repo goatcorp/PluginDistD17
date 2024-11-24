@@ -18819,11 +18819,23 @@
           }
         },
         "TargetFurniture": {
-          "BuiltCommit": "d36971d5f9e00ab2d09e187c48aedfbf4ac4bdd5",
-          "TimeBuilt": "2024-07-13T04:18:37.151",
-          "EffectiveVersion": "1.0.2.0",
+          "BuiltCommit": "df3ef7ea719a66dfa4c40d5afe036609fb6e8515",
+          "TimeBuilt": "2024-11-24T00:47:40.4723704+00:00",
+          "EffectiveVersion": "1.0.2.1",
           "MinimumVersion": null,
-          "Changelogs": {}
+          "Changelogs": {
+            "1.0.2.1": {
+              "TimeReleased": "2024-11-24T00:47:40.4724087+00:00",
+              "Changelog": null,
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            }
+          }
         },
         "Housemate": {
           "BuiltCommit": "fa737559216bdf86c6845ae38b18352ab5749d37",
@@ -21183,9 +21195,9 @@
           }
         },
         "DelvUI": {
-          "BuiltCommit": "1b27fc7123266d4554858ad7218ca024f4abdfe7",
-          "TimeBuilt": "2024-11-23T01:16:25.2496216+00:00",
-          "EffectiveVersion": "2.3.1.4",
+          "BuiltCommit": "278c721abbcb73f4a15274a9c8da28e0faa23dce",
+          "TimeBuilt": "2024-11-24T00:47:52.0272399+00:00",
+          "EffectiveVersion": "2.3.1.5",
           "MinimumVersion": null,
           "Changelogs": {
             "2.3.0.0": {
@@ -21266,6 +21278,21 @@
             "2.3.1.4": {
               "TimeReleased": "2024-11-23T01:16:25.2496222+00:00",
               "Changelog": "- Fixed Party Frames issues with Chocobos.",
+              "UsedNeeds": [
+                {
+                  "Key": "Colourful",
+                  "Version": "3.1.0"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            },
+            "2.3.1.5": {
+              "TimeReleased": "2024-11-24T00:47:52.0272417+00:00",
+              "Changelog": "- Fixed Party Frames status icons.",
               "UsedNeeds": [
                 {
                   "Key": "Colourful",
