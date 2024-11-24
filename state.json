@@ -12549,9 +12549,9 @@
           }
         },
         "Mappy": {
-          "BuiltCommit": "0669b853331dd7cc69002356d1708228608a3801",
-          "TimeBuilt": "2024-11-24T17:32:16.4882074+00:00",
-          "EffectiveVersion": "3.1.0.4",
+          "BuiltCommit": "d9b1be5eb86ea4c44faefa3cae353c401beb1448",
+          "TimeBuilt": "2024-11-24T20:20:37.8839279+00:00",
+          "EffectiveVersion": "3.1.0.5",
           "MinimumVersion": null,
           "Changelogs": {
             "3.0.3.5": {
@@ -12911,6 +12911,65 @@
                 }
               ],
               "Reviewer": "philpax"
+            },
+            "3.1.0.5": {
+              "TimeReleased": "2024-11-24T20:20:37.8839692+00:00",
+              "Changelog": "Fix clicking on aethernets not teleporting you to the main aetheryte",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiLib.git",
+                  "Version": "d210e7ac29c9c733b21bc0a13c3e53607aedf986"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "NetStone",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "HtmlAgilityPack",
+                  "Version": "1.11.46"
+                },
+                {
+                  "Key": "Karashiiro.HtmlAgilityPack.CssSelectors.NetCoreFork",
+                  "Version": "0.0.2"
+                },
+                {
+                  "Key": "Microsoft.Build.Tasks.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Common",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitHub",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitLab",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.3"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
