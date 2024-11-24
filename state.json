@@ -14724,9 +14724,9 @@
           "Changelogs": {}
         },
         "WondrousTailsSolver": {
-          "BuiltCommit": "413e240f68dc8259990ea572aa6259e947b217c9",
-          "TimeBuilt": "2024-11-21T09:19:47.1091176+00:00",
-          "EffectiveVersion": "3.2.0.1",
+          "BuiltCommit": "4867a37b3d5d23b84ba1f10b7ecc26ab50f3893b",
+          "TimeBuilt": "2024-11-24T21:51:05.4104034+00:00",
+          "EffectiveVersion": "3.2.0.3",
           "MinimumVersion": null,
           "Changelogs": {
             "2.1.2.3": {
@@ -14857,6 +14857,69 @@
                 {
                   "Key": "Newtonsoft.Json",
                   "Version": "13.0.3"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            },
+            "3.2.0.3": {
+              "TimeReleased": "2024-11-24T21:51:05.4104413+00:00",
+              "Changelog": "Actually fixes incorrect scaling on border nodes in the book.",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiLib.git",
+                  "Version": "79ccadc60048b91b01bd06ddf9f13056595d9f9f"
+                },
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit.git",
+                  "Version": "2f907055d4fda5562999996286a8f39723512c62"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "NetStone",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "HtmlAgilityPack",
+                  "Version": "1.11.46"
+                },
+                {
+                  "Key": "Karashiiro.HtmlAgilityPack.CssSelectors.NetCoreFork",
+                  "Version": "0.0.2"
+                },
+                {
+                  "Key": "Microsoft.Build.Tasks.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Common",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitHub",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitLab",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.3"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
                 }
               ],
               "Reviewer": "reiichi001"
