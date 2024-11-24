@@ -14712,9 +14712,9 @@
           }
         },
         "SortaKinda": {
-          "BuiltCommit": "007dbffbe1fb3d48641d9e7d003e877fb2ee132d",
-          "TimeBuilt": "2024-11-23T04:06:13.8556637+00:00",
-          "EffectiveVersion": "2.1.0.1",
+          "BuiltCommit": "3cacca040c2fdb078670a15d987456660eac6fa9",
+          "TimeBuilt": "2024-11-24T04:20:27.0922224+00:00",
+          "EffectiveVersion": "2.1.0.2",
           "MinimumVersion": null,
           "Changelogs": {
             "2.1.0.0": {
@@ -14787,6 +14787,65 @@
                 {
                   "Key": "https://github.com/MidoriKami/KamiLib.git",
                   "Version": "6d41b495b6066c41231085c72966370b0e930832"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "HtmlAgilityPack",
+                  "Version": "1.11.46"
+                },
+                {
+                  "Key": "Karashiiro.HtmlAgilityPack.CssSelectors.NetCoreFork",
+                  "Version": "0.0.2"
+                },
+                {
+                  "Key": "Microsoft.Build.Tasks.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Common",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitHub",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitLab",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "NetStone",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.3"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            },
+            "2.1.0.2": {
+              "TimeReleased": "2024-11-24T04:20:27.0922616+00:00",
+              "Changelog": "Fix filter selection window scaling logic",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiLib.git",
+                  "Version": "83e97a0d766cff554bbd6fe9790633625b9c0a2a"
                 },
                 {
                   "Key": "DalamudPackager",
@@ -54036,6 +54095,13 @@
       "Version": "12.0.2",
       "ReviewedBy": "philpax",
       "ReviewedAt": "2024-11-23T18:10:38.3923074Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/MidoriKami/KamiLib.git",
+      "Version": "83e97a0d766cff554bbd6fe9790633625b9c0a2a",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-24T04:20:27.12971Z"
     }
   ]
 }
