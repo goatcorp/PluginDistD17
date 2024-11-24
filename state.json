@@ -34186,9 +34186,9 @@
           }
         },
         "Umbra": {
-          "BuiltCommit": "6557dcb7749816064be4ef45f688beab86c1b195",
-          "TimeBuilt": "2024-11-19T20:47:37.0081187+00:00",
-          "EffectiveVersion": "2.3.1.0",
+          "BuiltCommit": "1aa5f1659ed931d5431df28e8d92234533a6c20b",
+          "TimeBuilt": "2024-11-24T18:05:33.830962+00:00",
+          "EffectiveVersion": "2.3.2.0",
           "MinimumVersion": null,
           "Changelogs": {
             "2.1.8.0": {
@@ -34612,6 +34612,37 @@
             "2.3.1.0": {
               "TimeReleased": "2024-11-19T20:47:37.0081599+00:00",
               "Changelog": "# Umbra 2.3.1\n\n## New Additions\n\n- Dynamic Menu Widget: Add support for alt-labels \u0026 icon color masks in \u0022Custom Entry\u0022 items, (By [Ivinedra](https://github.com/Ivinedra)).\n\n## Fixes \u0026 Improvements\n\n- Updated the icon picker library. SE has shuffled/removed some icons, which caused the icon picker to misbehave.\n\nJoin [Umbra\u0027s Discord server](https://discord.gg/xaEnsuAhmm) for the latest updates and information.\nVisit the [website](https://una-xiv.github.io/umbra-docs/) for more information and guides on how to make the most out of Umbra.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/una-xiv/drawing.git",
+                  "Version": "ebba7bc435ac270e0c0488ac99b54ac4e90ade43"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.ObjectPool",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "SkiaSharp",
+                  "Version": "3.118.0-preview.1.2"
+                },
+                {
+                  "Key": "SkiaSharp.NativeAssets.macOS",
+                  "Version": "3.118.0-preview.1.2"
+                },
+                {
+                  "Key": "SkiaSharp.NativeAssets.Win32",
+                  "Version": "3.118.0-preview.1.2"
+                }
+              ],
+              "Reviewer": "philpax"
+            },
+            "2.3.2.0": {
+              "TimeReleased": "2024-11-24T18:05:33.8310046+00:00",
+              "Changelog": "# Umbra 2.3.2\n\n## Fixes \u0026 Improvements\n\n- Re-added some missing icons to the Icon Picker (By [Bloodsoul](https://github.com/Bloodsoul)).\n- Fixed a text-rendering issue in Vista world markers (by [Haselnussbomber](https://github.com/Haselnussbomber)).\n- Fix black bar on multi monitor if it spans larger than the monitor (By [wolfcomp](https://github.com/wolfcomp)).\n- Replaced all occurrences of \u0060.ToDalamudString().TextValue\u0060 with \u0060.ExtractText()\u0060 to make string conversion more consistent across the plugin.\n\nJoin [Umbra\u0027s Discord server](https://discord.gg/xaEnsuAhmm) for the latest updates and information.\nVisit the [website](https://una-xiv.github.io/umbra-docs/) for more information and guides on how to make the most out of Umbra.\n",
               "UsedNeeds": [
                 {
                   "Key": "https://github.com/una-xiv/drawing.git",
