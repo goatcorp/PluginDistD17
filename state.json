@@ -14002,9 +14002,9 @@
           }
         },
         "FFXIVRPCalendarPlugin": {
-          "BuiltCommit": "d778ae3506ed82dffd6a419765007a79e5c3c6d4",
-          "TimeBuilt": "2024-07-06T01:23:24.848",
-          "EffectiveVersion": "1.0.1.4",
+          "BuiltCommit": "9b4e7aa560f41bb57decb59819df7287e0b3eec6",
+          "TimeBuilt": "2024-11-24T22:07:08.7059374+00:00",
+          "EffectiveVersion": "1.0.1.5",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.1.2": {
@@ -14024,6 +14024,21 @@
               "Changelog": "1.0.1.4 (2024.07.05)\r\n- Typo fixing.\r\n1.0.1.3 (2024.07.02)\r\n- Update for Dawntrail (7.0) release.\r\n- Probably fixed the icon.\r\n- Update to API v10.\r\n1.0.1.2 (2023.01.01)\r\n- Moved to stable plugins from testing\r\n- Removed deprecated PluginLog references.\r\n1.0.1.1 (2023.10.09)\r\n- Updated to Patch 6.5 release.\r\n1.0.1 (2023.08.09)\r\n- Fixed improper icon.\r\n- Added \u0027add event\u0027 and \u0027report event\u0027 links.\r\n",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "1.0.1.5": {
+              "TimeReleased": "2024-11-24T22:07:08.7059788+00:00",
+              "Changelog": "1.0.1.5 (2024.11.24)\r\n- Updated for Dawntrail (7.1) release.\r\n- Added sorting to the server events.\r\n1.0.1.4 (2024.07.05)\r\n- Typo fixing.\r\n1.0.1.3 (2024.07.02)\r\n- Update for Dawntrail (7.0) release.\r\n- Probably fixed the icon.\r\n- Update to API v10.\r\n1.0.1.2 (2023.01.01)\r\n- Moved to stable plugins from testing\r\n- Removed deprecated PluginLog references.\r\n1.0.1.1 (2023.10.09)\r\n- Updated to Patch 6.5 release.\r\n1.0.1 (2023.08.09)\r\n- Fixed improper icon.\r\n- Added \u0027add event\u0027 and \u0027report event\u0027 links.\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "StyleCop.Analyzers",
+                  "Version": "1.1.118"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
