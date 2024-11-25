@@ -3056,9 +3056,9 @@
           }
         },
         "PixelPerfect": {
-          "BuiltCommit": "20523a5ae403ce1e07467116dd6f85ebe3a32c0b",
-          "TimeBuilt": "2024-07-08T19:09:51.68",
-          "EffectiveVersion": "3.1.0.0",
+          "BuiltCommit": "8689d9f1ec25cee16f4e618bcc38ba0d1285ef22",
+          "TimeBuilt": "2024-11-25T05:10:43.2721586+00:00",
+          "EffectiveVersion": "3.2.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "2.0.0.1": {
@@ -3108,6 +3108,21 @@
               "Changelog": "APIX Update. Added VPR/PCT. Added Z axis editing. Added Cones. Added fill",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "3.2.0.0": {
+              "TimeReleased": "2024-11-25T05:10:43.2722056+00:00",
+              "Changelog": "7.1",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.2"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
