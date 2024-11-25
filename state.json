@@ -2336,9 +2336,9 @@
           }
         },
         "PetRenamer": {
-          "BuiltCommit": "3269c8262d363e23ed122fcf5b97f6d44abef91e",
-          "TimeBuilt": "2024-11-24T17:32:23.3189743+00:00",
-          "EffectiveVersion": "2.3.0.3",
+          "BuiltCommit": "5574ee8a078927dd2bb903f7cae35197202bc944",
+          "TimeBuilt": "2024-11-25T12:51:16.6430702+00:00",
+          "EffectiveVersion": "2.3.0.4",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -2662,6 +2662,21 @@
             "2.3.0.3": {
               "TimeReleased": "2024-11-24T17:32:23.3189756+00:00",
               "Changelog": "    [2.3.0.3]\r\n    Fixes a couple tooltip and colour bugs.\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "HtmlAgilityPack",
+                  "Version": "1.11.71"
+                }
+              ],
+              "Reviewer": "philpax"
+            },
+            "2.3.0.4": {
+              "TimeReleased": "2024-11-25T12:51:16.6431095+00:00",
+              "Changelog": "    [2.3.0.4]\r\n    Fixes tooltips breaking\r\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
