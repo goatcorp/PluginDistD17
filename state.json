@@ -11937,9 +11937,9 @@
           }
         },
         "MapPartyAssist": {
-          "BuiltCommit": "e55c720601d6964570dddd9f1ab5b72cfccf38e3",
-          "TimeBuilt": "2024-11-18T06:36:38.8953443+00:00",
-          "EffectiveVersion": "2.4.0.0",
+          "BuiltCommit": "3ac3098c5da32c662cd9ecd854c37ea0a91ada09",
+          "TimeBuilt": "2024-11-25T06:42:18.8171231+00:00",
+          "EffectiveVersion": "2.4.0.1",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.2.0": {
@@ -12029,6 +12029,21 @@
             "2.4.0.0": {
               "TimeReleased": "2024-11-18T06:36:38.8953452+00:00",
               "Changelog": "* Patch 7.1/Api11 update.\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "LiteDB",
+                  "Version": "5.0.16"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            },
+            "2.4.0.1": {
+              "TimeReleased": "2024-11-25T06:42:18.8171634+00:00",
+              "Changelog": "* Fixed Cenote Ja Ja Gural missing from duty result imports.\r\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
