@@ -3,9 +3,9 @@
     "stable": {
       "Plugins": {
         "Dalamud.RichPresence": {
-          "BuiltCommit": "9048907220fb59d35c3fb6f264b610a984668b51",
-          "TimeBuilt": "2024-11-19T13:59:58.6498328+00:00",
-          "EffectiveVersion": "2.0.6.2",
+          "BuiltCommit": "d21bf5c4da26603b6d4df9eca3a762fb07680be3",
+          "TimeBuilt": "2024-11-25T00:32:01.5878219+00:00",
+          "EffectiveVersion": "2.0.6.3",
           "MinimumVersion": null,
           "Changelogs": {
             "2.0.1.0": {
@@ -230,6 +230,69 @@
             "2.0.6.2": {
               "TimeReleased": "2024-11-19T13:59:58.6498337+00:00",
               "Changelog": "Updated for API 11, now with fixed region images and full job names.\n\nPlease report if you use a non-English client language and AFK status doesn\u0027t work.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "DiscordRichPresence",
+                  "Version": "1.2.1.24"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.Build.Tasks.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.NETCore.Platforms",
+                  "Version": "2.0.0"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Common",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitHub",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitLab",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.Win32.Registry",
+                  "Version": "4.5.0"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.1"
+                },
+                {
+                  "Key": "System.Security.AccessControl",
+                  "Version": "4.5.0"
+                },
+                {
+                  "Key": "System.Security.Principal.Windows",
+                  "Version": "4.5.0"
+                }
+              ],
+              "Reviewer": "philpax"
+            },
+            "2.0.6.3": {
+              "TimeReleased": "2024-11-25T00:32:01.5878228+00:00",
+              "Changelog": "Updated for API 11, maybe with party fixes.\n\nPlease submit a feedback or post in the XIVLauncher and Dalamud discord server if:\n- You use a non-English client language and AFK status doesn\u0027t work.\n- Parties do not work\n\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -6382,9 +6445,9 @@
           }
         },
         "ChatProximity": {
-          "BuiltCommit": "3ec5ff2f91a3b94b7853c05c456c63c4239765cb",
-          "TimeBuilt": "2024-11-15T19:31:31.1369573+00:00",
-          "EffectiveVersion": "1.1.2.0",
+          "BuiltCommit": "5e58458e13e4f8b814c88a2c7ff217c9558e7887",
+          "TimeBuilt": "2024-11-25T00:31:54.7733669+00:00",
+          "EffectiveVersion": "1.2.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -6415,6 +6478,17 @@
                 }
               ],
               "Reviewer": "goaaats"
+            },
+            "1.2.0.0": {
+              "TimeReleased": "2024-11-25T00:31:54.7734066+00:00",
+              "Changelog": "# 1.2.0\n- Added an option to color differently messages if targeing a character or if the character targets you\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "philpax"
             }
           }
         },
