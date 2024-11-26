@@ -561,9 +561,9 @@
           }
         },
         "PetScale": {
-          "BuiltCommit": "c2ee86503a372ff8bd9dccc9cd3cf1f64a4d49f1",
-          "TimeBuilt": "2024-08-01T23:57:00.108",
-          "EffectiveVersion": "2.0.1.0",
+          "BuiltCommit": "31dac8ef29fafd16465562e097e15fda40ea8209",
+          "TimeBuilt": "2024-11-26T06:03:20.8090055+00:00",
+          "EffectiveVersion": "2.0.2.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.1.0.0": {
@@ -595,6 +595,21 @@
               "Changelog": "- Switched pet matching to use ContentId, thus eliminating false-positive matches\n- Added support for custom sizes of MCH, SCH, DRK, and fixed-size SMN pets\n- Pet custom size will not be set in PvP\n- Added the ability to add a new entry by typing the character name in the Character filter box\n- Fixed bug where fairy setting would always set a size\n- Pets will revert to their vanilla size when an entry is removed and on plugin unload, if they\u0027re still around\n- Slowed down the plugin by only 3.5 times instead of 4.5 times\n",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "2.0.2.0": {
+              "TimeReleased": "2024-11-26T06:03:20.8090064+00:00",
+              "Changelog": "- API 11 stuff and things\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "Meziantou.Analyzer",
+                  "Version": "2.0.180"
+                }
+              ],
+              "Reviewer": "philpax"
             }
           }
         },
@@ -8744,9 +8759,9 @@
           }
         },
         "TickTracker": {
-          "BuiltCommit": "3a5db58df830d9606bc0ad2929005663a25bf5be",
-          "TimeBuilt": "2024-08-21T14:26:33.759",
-          "EffectiveVersion": "1.6.1.0",
+          "BuiltCommit": "76e06b91b85031e4f5461506da9013ef5f3828fe",
+          "TimeBuilt": "2024-11-26T06:03:27.3003892+00:00",
+          "EffectiveVersion": "1.6.2.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -8820,6 +8835,25 @@
               "Changelog": "- Hide native nodes if dead or in cutscene\n",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "1.6.2.0": {
+              "TimeReleased": "2024-11-26T06:03:27.3003904+00:00",
+              "Changelog": "- API 11 things and stuff\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "Meziantou.Analyzer",
+                  "Version": "2.0.180"
+                },
+                {
+                  "Key": "Penumbra.Api",
+                  "Version": "5.3.0"
+                }
+              ],
+              "Reviewer": "philpax"
             }
           }
         },
@@ -12746,9 +12780,9 @@
           }
         },
         "Mappy": {
-          "BuiltCommit": "d9b1be5eb86ea4c44faefa3cae353c401beb1448",
-          "TimeBuilt": "2024-11-24T20:20:37.8839279+00:00",
-          "EffectiveVersion": "3.1.0.5",
+          "BuiltCommit": "48a43925fbbf5927bb84b30c95b741094fdf7c1b",
+          "TimeBuilt": "2024-11-26T06:03:14.6160621+00:00",
+          "EffectiveVersion": "3.1.0.6",
           "MinimumVersion": null,
           "Changelogs": {
             "3.0.3.5": {
@@ -13167,6 +13201,65 @@
                 }
               ],
               "Reviewer": "reiichi001"
+            },
+            "3.1.0.6": {
+              "TimeReleased": "2024-11-26T06:03:14.6160628+00:00",
+              "Changelog": "Fix some markers showing extra formatting characters in tooltips.",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiLib.git",
+                  "Version": "d210e7ac29c9c733b21bc0a13c3e53607aedf986"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "NetStone",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "HtmlAgilityPack",
+                  "Version": "1.11.46"
+                },
+                {
+                  "Key": "Karashiiro.HtmlAgilityPack.CssSelectors.NetCoreFork",
+                  "Version": "0.0.2"
+                },
+                {
+                  "Key": "Microsoft.Build.Tasks.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Common",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitHub",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitLab",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.3"
+                }
+              ],
+              "Reviewer": "philpax"
             }
           }
         },
@@ -13318,9 +13411,9 @@
           }
         },
         "NeatNoter": {
-          "BuiltCommit": "1002631526fa03aad9f02f2376a0c38dea5931d8",
-          "TimeBuilt": "2024-09-13T18:51:04.346",
-          "EffectiveVersion": "2.6.4.0",
+          "BuiltCommit": "b17d7bb9e96bbb7752af03bf5786ed36232ed671",
+          "TimeBuilt": "2024-11-26T06:03:35.5972926+00:00",
+          "EffectiveVersion": "2.7.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "2.6.1.0": {
@@ -13340,6 +13433,65 @@
               "Changelog": "# NeatNoter 2.6.4\n\n## Features\n\n- Created settings to improve the visibility of the overlay windows. You can now adjust the font size and color.\n\nIf any bug if found, please report at: https://github.com/shadowkras/NeatNoter/issues/\n",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "2.7.0.0": {
+              "TimeReleased": "2024-11-26T06:03:35.5972933+00:00",
+              "Changelog": "# NeatNoter 2.7.0\n\n## Features\n\n- Adds support for Patch 7.1 and Dalamud API 11.\n\nIf any bug if found, please report at: https://github.com/shadowkras/NeatNoter/issues/\n",
+              "UsedNeeds": [
+                {
+                  "Key": "CsvHelper",
+                  "Version": "33.0.1"
+                },
+                {
+                  "Key": "Dalamud.DrunkenToad",
+                  "Version": "1.9.1"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.25"
+                },
+                {
+                  "Key": "LiteDB",
+                  "Version": "5.0.21"
+                },
+                {
+                  "Key": "StyleCop.Analyzers",
+                  "Version": "1.2.0-beta.556"
+                },
+                {
+                  "Key": "System.Drawing.Common",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "Dalamud.Loc",
+                  "Version": "1.1.2"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "Microsoft.Win32.SystemEvents",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "StyleCop.Analyzers.Unstable",
+                  "Version": "1.2.0.556"
+                },
+                {
+                  "Key": "System.Buffers",
+                  "Version": "4.5.1"
+                }
+              ],
+              "Reviewer": "philpax"
             }
           }
         },
@@ -22261,9 +22413,9 @@
           }
         },
         "Doorbell": {
-          "BuiltCommit": "84afb4870d3024c3fb7503e6db9bdbbe92ce50b1",
-          "TimeBuilt": "2024-11-16T14:59:33.0005308+00:00",
-          "EffectiveVersion": "1.0.3.6",
+          "BuiltCommit": "b25eeaf8233deded8d1e21f21a1e120a634e7ada",
+          "TimeBuilt": "2024-11-26T06:03:06.0885631+00:00",
+          "EffectiveVersion": "1.0.3.7",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.3.5": {
@@ -22306,6 +22458,41 @@
                 }
               ],
               "Reviewer": "goaaats"
+            },
+            "1.0.3.7": {
+              "TimeReleased": "2024-11-26T06:03:06.0885637+00:00",
+              "Changelog": "- Added support for the new Minimalist housing",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "NAudio",
+                  "Version": "1.10.0"
+                },
+                {
+                  "Key": "Microsoft.NETCore.Platforms",
+                  "Version": "3.1.0"
+                },
+                {
+                  "Key": "Microsoft.Win32.Registry",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "System.Resources.Extensions",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "System.Security.AccessControl",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "System.Security.Principal.Windows",
+                  "Version": "4.7.0"
+                }
+              ],
+              "Reviewer": "philpax"
             }
           }
         },
@@ -22360,9 +22547,9 @@
           }
         },
         "DelvUI": {
-          "BuiltCommit": "278c721abbcb73f4a15274a9c8da28e0faa23dce",
-          "TimeBuilt": "2024-11-24T00:47:52.0272399+00:00",
-          "EffectiveVersion": "2.3.1.5",
+          "BuiltCommit": "b042bc978ed80a8e76997f5c335b0a94daf6e86c",
+          "TimeBuilt": "2024-11-26T06:02:59.2518914+00:00",
+          "EffectiveVersion": "2.3.1.6",
           "MinimumVersion": null,
           "Changelogs": {
             "2.3.0.0": {
@@ -22469,6 +22656,21 @@
                 }
               ],
               "Reviewer": "reiichi001"
+            },
+            "2.3.1.6": {
+              "TimeReleased": "2024-11-26T06:02:59.2519522+00:00",
+              "Changelog": "- Fixed Party Frames showing the wrong names.\r\n- Fixed Party Leader indicator.",
+              "UsedNeeds": [
+                {
+                  "Key": "Colourful",
+                  "Version": "3.1.0"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "philpax"
             }
           }
         },
@@ -44364,9 +44566,9 @@
           }
         },
         "GlamourSpamRemover": {
-          "BuiltCommit": "8446cc2f2132b425f1863b49d91c04d08f6dadcb",
-          "TimeBuilt": "2024-11-21T21:20:04.6710244+00:00",
-          "EffectiveVersion": "1.2.2.0",
+          "BuiltCommit": "107ffe9326600c6209f497db59cca7e4a4f8772c",
+          "TimeBuilt": "2024-11-26T06:03:41.5533038+00:00",
+          "EffectiveVersion": "1.2.3.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.1": {
@@ -44406,6 +44608,17 @@
             "1.2.2.0": {
               "TimeReleased": "2024-11-21T21:20:04.6710619+00:00",
               "Changelog": "Addressed bug with the debug console that could cause crashes",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "philpax"
+            },
+            "1.2.3.0": {
+              "TimeReleased": "2024-11-26T06:03:41.5533044+00:00",
+              "Changelog": "Addressed bug where messages would not get removed if name display settings were not the default value.",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -55557,6 +55770,13 @@
       "Version": "79ccadc60048b91b01bd06ddf9f13056595d9f9f",
       "ReviewedBy": "reiichi001",
       "ReviewedAt": "2024-11-24T21:47:15.8967197Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Meziantou.Analyzer",
+      "Version": "2.0.180",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2024-11-26T06:03:20.8228052Z"
     }
   ]
 }
