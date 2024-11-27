@@ -36037,9 +36037,9 @@
           }
         },
         "TidyChat": {
-          "BuiltCommit": "19ebf17f76a5395c65ad962374d433ea8d6ea092",
-          "TimeBuilt": "2024-07-15T04:02:53.701",
-          "EffectiveVersion": "1.3.2.0",
+          "BuiltCommit": "4badf94e1c8288e3a242af7b983db56f8b381746",
+          "TimeBuilt": "2024-11-27T07:09:13.2793401+00:00",
+          "EffectiveVersion": "2.0.6.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.2.2.0": {
@@ -36101,6 +36101,29 @@
               "Changelog": "- Custom filters for the Gathering channel should properly check the Gathering channel and the GatheringSystem channel instead of only the GatheringSystem channel.",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "2.0.6.0": {
+              "TimeReleased": "2024-11-27T07:09:13.2793973+00:00",
+              "Changelog": "1.x -\u003E 2.0.6 Release -- Mostly internal changes to logic to make Tidy Chat easier to maintain and add new filters going forward.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "Meziantou.Analyzer",
+                  "Version": "2.0.161"
+                },
+                {
+                  "Key": "TextCopy",
+                  "Version": "6.2.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "7.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
@@ -56564,6 +56587,13 @@
       "Version": "1.4.0",
       "ReviewedBy": "reiichi001",
       "ReviewedAt": "2024-11-27T00:35:57.1884131Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Meziantou.Analyzer",
+      "Version": "2.0.161",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-27T07:09:13.3480809Z"
     }
   ]
 }
