@@ -38946,9 +38946,9 @@
           }
         },
         "GraceGawker": {
-          "BuiltCommit": "385fd660818f95992bf8890b4cfc4a553986c44a",
-          "TimeBuilt": "2024-11-24T17:32:40.1124393+00:00",
-          "EffectiveVersion": "0.1.1.0",
+          "BuiltCommit": "61ad9436f9eeca8ea05b8109383f2e844fcf829d",
+          "TimeBuilt": "2024-11-27T23:13:28.321887+00:00",
+          "EffectiveVersion": "1.1.2.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.1.0": {
@@ -38961,6 +38961,17 @@
                 }
               ],
               "Reviewer": "philpax"
+            },
+            "1.1.2.0": {
+              "TimeReleased": "2024-11-27T23:13:28.3219355+00:00",
+              "Changelog": "Added background opacity option",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         }
