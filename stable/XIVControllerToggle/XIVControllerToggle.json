@@ -2,7 +2,7 @@
   "Author": "Callum Carmicheal (with help from Aida Enna)",
   "Name": "The Great Controller HUD Switcher",
   "InternalName": "XIVControllerToggle",
-  "AssemblyVersion": "1.0.1.2",
+  "AssemblyVersion": "1.0.1.3",
   "Description": "A simple tool to automatically switch between keyboard and controller hud's when pressing WASD or moving the left joystick. You can setup a macro to add the actions to your hotbar.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/CallumCarmicheal/XIVControllerToggle",
@@ -12,7 +12,7 @@
     "hud",
     "aida"
   ],
-  "DalamudApiLevel": 10,
+  "DalamudApiLevel": 11,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
