@@ -2010,9 +2010,9 @@
           }
         },
         "WinTitle": {
-          "BuiltCommit": "ef6b104a141eab3d593a2678bc2c8844d4e1abaa",
-          "TimeBuilt": "2024-08-13T06:24:56.653",
-          "EffectiveVersion": "1.1.2.0",
+          "BuiltCommit": "87c921adfa3e60f858c3b7e272a34894d8b4d5ce",
+          "TimeBuilt": "2024-11-27T16:38:09.4284345+00:00",
+          "EffectiveVersion": "1.2.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.4.0": {
@@ -2068,6 +2068,45 @@
               "Changelog": "Fix load error.",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "1.2.0.0": {
+              "TimeReleased": "2024-11-27T16:38:09.4284753+00:00",
+              "Changelog": "API 11 bump",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.Build.Tasks.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Common",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitHub",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitLab",
+                  "Version": "1.1.1"
+                }
+              ],
+              "Reviewer": "philpax"
             }
           }
         },
@@ -36288,9 +36327,9 @@
           }
         },
         "DragoonMayCry": {
-          "BuiltCommit": "fba0369e1ec52d46b32da107c478b4ddf0af7022",
-          "TimeBuilt": "2024-11-26T21:06:06.3608912+00:00",
-          "EffectiveVersion": "1.2.3.2",
+          "BuiltCommit": "c90e2b650f1eacbfc961bc2089cd51975330978e",
+          "TimeBuilt": "2024-11-27T16:38:21.3659174+00:00",
+          "EffectiveVersion": "1.2.3.3",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -36864,6 +36903,77 @@
             "1.2.3.2": {
               "TimeReleased": "2024-11-26T21:06:06.3609328+00:00",
               "Changelog": "- Option to hide progress gauge\n- Option to block announcer on blunders\n- Gold Saucer Edition\n- Configurable score multiplier\n- FRU\n",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/Felscream/KamiLib",
+                  "Version": "42c1720b042c69763c6787c409ab0efd342aaf86"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "NAudio",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Vorbis",
+                  "Version": "1.5.0"
+                },
+                {
+                  "Key": "Microsoft.NETCore.Platforms",
+                  "Version": "3.1.0"
+                },
+                {
+                  "Key": "Microsoft.Win32.Registry",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "NAudio.Asio",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Core",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Midi",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Wasapi",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.WinMM",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NVorbis",
+                  "Version": "0.10.4"
+                },
+                {
+                  "Key": "System.Memory",
+                  "Version": "4.5.3"
+                },
+                {
+                  "Key": "System.Security.AccessControl",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "System.Security.Principal.Windows",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "System.ValueTuple",
+                  "Version": "4.5.0"
+                }
+              ],
+              "Reviewer": "philpax"
+            },
+            "1.2.3.3": {
+              "TimeReleased": "2024-11-27T16:38:21.3659186+00:00",
+              "Changelog": "- Fixed a bug that would block audio from the game after a change in the default audio output\n",
               "UsedNeeds": [
                 {
                   "Key": "https://github.com/Felscream/KamiLib",
