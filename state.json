@@ -12768,9 +12768,9 @@
           }
         },
         "MagitekStratagem": {
-          "BuiltCommit": "7141c03646135158204d0bd4284fcd5a857baece",
-          "TimeBuilt": "2024-10-01T18:51:12.225",
-          "EffectiveVersion": "0.7.0.2",
+          "BuiltCommit": "f9ea4199708206ab56a7a52705d33d42e59fa729",
+          "TimeBuilt": "2024-11-27T20:34:09.4408899+00:00",
+          "EffectiveVersion": "0.9.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.4.0.0": {
@@ -12826,6 +12826,81 @@
               "Changelog": "Version 0.7.0.2:\n- Another attempt to fix crashes during cutscenes.\n\nVersion 0.7.0.1:\n- Fixed: If Tobii Game Hub is not present, the plugin isn\u0027t usable at all.\n\nVersion 0.7.0.0:\n- Added: Support for Eyeware Beam Eye Tracker. Enables eye tracking with just a webcam.\n- Fixed?: Potential fix for crashes during cutscenes.\n\nVersion 0.6.0.0:\n- Fixed: Breaking change in Tobii Game Integration API in version 3.4.1 of the Tobii Game Hub caused tracking of game window to fail. Plugin has switched over to the StreamEngine API.\n- Removed: Custom Calibration. Had to rip it out to get StreamEngine working again, sorry!\n\nKnown Issues:\n- Windowed mode is currently unsupported due to the change to the new API.\n- Some entities are not returning to normal after being highlighted by raycast detection.\n- Entities highlighted by proximity are not returning to normal after no longer being the closest.\n",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "0.9.0.0": {
+              "TimeReleased": "2024-11-27T20:34:09.4408912+00:00",
+              "Changelog": "Version 0.9.0.0:\n- \u26A0\uFE0FExperimental Release.\n- Removed native integrations and native Dll loading, should minimize potential crashes and isolate the game from instability.\n- IMPORTANT\u2757: New MagitekStratagemServer external tool required, https://github.com/meoiswa/MagitekStratagemServer/releases/tag/v0.0.1.\n\nKnown Issues:\n- Windowed mode is currently unsupported.\n- Some entities are not returning to normal after being highlighted by raycast detection.\n- Entities highlighted by proximity are not returning to normal after no longer being the closest.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.SignalR.Client",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.Connections.Abstractions",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.Http.Connections.Client",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.Http.Connections.Common",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.SignalR.Client.Core",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.SignalR.Common",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.SignalR.Protocols.Json",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Features",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Primitives",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "System.IO.Pipelines",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "System.Threading.Channels",
+                  "Version": "8.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
@@ -22317,11 +22392,51 @@
           }
         },
         "CollectableCalculator": {
-          "BuiltCommit": "0e02287e62f581e8ef22a6095ec2d36a61100794",
-          "TimeBuilt": "2024-07-03T17:06:07.04",
-          "EffectiveVersion": "3.0",
+          "BuiltCommit": "85a72ec0b1a4468bce9ae5656afe3ed99c7ec2a5",
+          "TimeBuilt": "2024-11-27T20:34:00.9669567+00:00",
+          "EffectiveVersion": "4.0",
           "MinimumVersion": null,
-          "Changelogs": {}
+          "Changelogs": {
+            "4.0": {
+              "TimeReleased": "2024-11-27T20:34:00.966958+00:00",
+              "Changelog": "- updates for API 11 compatibility",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.Build.Tasks.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Common",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitHub",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitLab",
+                  "Version": "1.1.1"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            }
+          }
         },
         "MOAction": {
           "BuiltCommit": "292a0b039322432f32619c6dce354db0815b0fd3",
@@ -22765,9 +22880,9 @@
           }
         },
         "DelvUI": {
-          "BuiltCommit": "b042bc978ed80a8e76997f5c335b0a94daf6e86c",
-          "TimeBuilt": "2024-11-26T06:02:59.2518914+00:00",
-          "EffectiveVersion": "2.3.1.6",
+          "BuiltCommit": "4c4eba5955685a8823cb4fe1d5986b13ca98fdde",
+          "TimeBuilt": "2024-11-27T20:33:52.2560809+00:00",
+          "EffectiveVersion": "2.3.1.7",
           "MinimumVersion": null,
           "Changelogs": {
             "2.3.0.0": {
@@ -22889,6 +23004,21 @@
                 }
               ],
               "Reviewer": "philpax"
+            },
+            "2.3.1.7": {
+              "TimeReleased": "2024-11-27T20:33:52.2561217+00:00",
+              "Changelog": "- Added a \u0022Hide when Dead\u0022 setting to Status Effects lists.\r\n  * This was always on by default, now it can be changed.\r\n  \r\n- Fixed Party Frames sorting.",
+              "UsedNeeds": [
+                {
+                  "Key": "Colourful",
+                  "Version": "3.1.0"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
@@ -56715,6 +56845,62 @@
       "Version": "2.0.161",
       "ReviewedBy": "reiichi001",
       "ReviewedAt": "2024-11-27T07:09:13.3480809Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.AspNetCore.SignalR.Client",
+      "Version": "8.0.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-27T20:34:09.4593203Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.AspNetCore.Connections.Abstractions",
+      "Version": "8.0.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-27T20:34:09.4593609Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.AspNetCore.Http.Connections.Client",
+      "Version": "8.0.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-27T20:34:09.4593611Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.AspNetCore.Http.Connections.Common",
+      "Version": "8.0.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-27T20:34:09.4593613Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.AspNetCore.SignalR.Client.Core",
+      "Version": "8.0.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-27T20:34:09.4593614Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.AspNetCore.SignalR.Common",
+      "Version": "8.0.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-27T20:34:09.4593623Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.AspNetCore.SignalR.Protocols.Json",
+      "Version": "8.0.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-27T20:34:09.4593626Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Extensions.Features",
+      "Version": "8.0.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-27T20:34:09.4593631Z"
     }
   ]
 }
