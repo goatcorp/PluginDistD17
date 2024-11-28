@@ -23048,9 +23048,9 @@
           }
         },
         "OrangeGuidanceTomestone": {
-          "BuiltCommit": "99cd933cfecd72783ce7df9f1ff1e2b5030d4099",
-          "TimeBuilt": "2024-11-19T17:48:19.7945526+00:00",
-          "EffectiveVersion": "1.10.1.0",
+          "BuiltCommit": "8842c04ccd1f24c57a64c40fc07420f443213c3e",
+          "TimeBuilt": "2024-11-28T05:26:28.1516754+00:00",
+          "EffectiveVersion": "1.10.2.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.4.0.0": {
@@ -23161,6 +23161,25 @@
                 }
               ],
               "Reviewer": "philpax"
+            },
+            "1.10.2.0": {
+              "TimeReleased": "2024-11-28T05:26:28.1517147+00:00",
+              "Changelog": "- Bump now that ClientStructs is fixed\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "Fody",
+                  "Version": "6.9.1"
+                },
+                {
+                  "Key": "Resourcer.Fody",
+                  "Version": "1.8.1"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
