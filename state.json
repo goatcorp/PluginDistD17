@@ -21739,9 +21739,9 @@
           "Changelogs": {}
         },
         "ExtraChat": {
-          "BuiltCommit": "9e0b8fb615eb6272bd50b9d9c60e77ed3f3d8d88",
-          "TimeBuilt": "2024-07-03T03:09:01.972",
-          "EffectiveVersion": "1.3.6.0",
+          "BuiltCommit": "a3528a81709dd956f293a405a9a6fa32ab892c64",
+          "TimeBuilt": "2024-11-28T05:37:35.4200587+00:00",
+          "EffectiveVersion": "1.3.7.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.2.2.0": {
@@ -21797,6 +21797,285 @@
               "Changelog": "\\\n- Dawntrail\n",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "1.3.7.0": {
+              "TimeReleased": "2024-11-28T05:37:35.4201096+00:00",
+              "Changelog": "\\\n- API 11\n",
+              "UsedNeeds": [
+                {
+                  "Key": "ASodium",
+                  "Version": "0.6.1"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "MessagePack",
+                  "Version": "2.5.192"
+                },
+                {
+                  "Key": "System.Net.WebSockets.Client",
+                  "Version": "4.3.2"
+                },
+                {
+                  "Key": "System.Threading.Channels",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "libsodium",
+                  "Version": "1.0.19"
+                },
+                {
+                  "Key": "MessagePack.Annotations",
+                  "Version": "2.5.192"
+                },
+                {
+                  "Key": "Microsoft.NET.StringTools",
+                  "Version": "17.6.3"
+                },
+                {
+                  "Key": "Microsoft.NETCore.Platforms",
+                  "Version": "1.1.0"
+                },
+                {
+                  "Key": "Microsoft.NETCore.Targets",
+                  "Version": "1.1.0"
+                },
+                {
+                  "Key": "Microsoft.Win32.Primitives",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "runtime.fedora.23-x64.runtime.native.System.Security.Cryptography.OpenSsl",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "runtime.fedora.24-x64.runtime.native.System.Security.Cryptography.OpenSsl",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "runtime.native.System",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "runtime.native.System.Net.Http",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "runtime.native.System.Net.Security",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "runtime.native.System.Security.Cryptography.Apple",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "runtime.native.System.Security.Cryptography.OpenSsl",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "runtime.opensuse.13.2-x64.runtime.native.System.Security.Cryptography.OpenSsl",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "runtime.opensuse.42.1-x64.runtime.native.System.Security.Cryptography.OpenSsl",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "runtime.osx.10.10-x64.runtime.native.System.Security.Cryptography.Apple",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "runtime.osx.10.10-x64.runtime.native.System.Security.Cryptography.OpenSsl",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "runtime.rhel.7-x64.runtime.native.System.Security.Cryptography.OpenSsl",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "runtime.ubuntu.14.04-x64.runtime.native.System.Security.Cryptography.OpenSsl",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "runtime.ubuntu.16.04-x64.runtime.native.System.Security.Cryptography.OpenSsl",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "runtime.ubuntu.16.10-x64.runtime.native.System.Security.Cryptography.OpenSsl",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Collections",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Collections.Concurrent",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Diagnostics.Debug",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Diagnostics.Tracing",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Globalization",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Globalization.Calendars",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Globalization.Extensions",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.IO",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.IO.FileSystem",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.IO.FileSystem.Primitives",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Linq",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Net.NameResolution",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Net.Primitives",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Net.Security",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Net.Sockets",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Net.WebHeaderCollection",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Net.WebSockets",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Reflection",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Reflection.Primitives",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Resources.ResourceManager",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Runtime",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Runtime.Extensions",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Runtime.Handles",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Runtime.InteropServices",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Runtime.Numerics",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Security.Claims",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Security.Cryptography.Algorithms",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Security.Cryptography.Cng",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Security.Cryptography.Csp",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Security.Cryptography.Encoding",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Security.Cryptography.OpenSsl",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Security.Cryptography.Primitives",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Security.Cryptography.X509Certificates",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Security.Principal",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Security.Principal.Windows",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Text.Encoding",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Text.Encoding.Extensions",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Threading",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Threading.Tasks",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Threading.ThreadPool",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Threading.Timer",
+                  "Version": "4.3.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
@@ -57444,6 +57723,83 @@
       "Version": "2.1.6",
       "ReviewedBy": "reiichi001",
       "ReviewedAt": "2024-11-27T22:07:28.9829539Z"
+    },
+    {
+      "Type": 1,
+      "Key": "ASodium",
+      "Version": "0.6.1",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-28T05:37:35.475055Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Net.WebSockets.Client",
+      "Version": "4.3.2",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-28T05:37:35.4750825Z"
+    },
+    {
+      "Type": 1,
+      "Key": "libsodium",
+      "Version": "1.0.19",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-28T05:37:35.4750829Z"
+    },
+    {
+      "Type": 1,
+      "Key": "runtime.native.System.Net.Security",
+      "Version": "4.3.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-28T05:37:35.475084Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Net.NameResolution",
+      "Version": "4.3.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-28T05:37:35.4750856Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Net.Security",
+      "Version": "4.3.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-28T05:37:35.4750865Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Net.WebHeaderCollection",
+      "Version": "4.3.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-28T05:37:35.4750867Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Net.WebSockets",
+      "Version": "4.3.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-28T05:37:35.4750868Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Security.Claims",
+      "Version": "4.3.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-28T05:37:35.4750877Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Security.Principal",
+      "Version": "4.3.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-28T05:37:35.4750885Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Security.Principal.Windows",
+      "Version": "4.3.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-28T05:37:35.4750886Z"
     }
   ]
 }
