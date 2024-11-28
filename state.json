@@ -18718,9 +18718,9 @@
           }
         },
         "PeepingTom": {
-          "BuiltCommit": "b1de54bcae64edf97c9f90614a588e64b5d0ae34",
-          "TimeBuilt": "2024-07-03T15:45:50.302",
-          "EffectiveVersion": "1.7.17",
+          "BuiltCommit": "1fd837a6ca75a02817436be3627897018e96a511",
+          "TimeBuilt": "2024-11-28T05:34:10.6138476+00:00",
+          "EffectiveVersion": "1.7.18",
           "MinimumVersion": null,
           "Changelogs": {
             "1.7.11": {
@@ -18764,6 +18764,33 @@
               "Changelog": "\\\n- Dawntrail\n",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "1.7.18": {
+              "TimeReleased": "2024-11-28T05:34:10.6138486+00:00",
+              "Changelog": "\\\n- API 11\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "Fody",
+                  "Version": "6.9.1"
+                },
+                {
+                  "Key": "NAudio.Core",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Wasapi",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "Resourcer.Fody",
+                  "Version": "1.8.1"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
@@ -28945,9 +28972,9 @@
           }
         },
         "Globetrotter": {
-          "BuiltCommit": "07848c7ca6fc44ce8740899a1e8591b9eb2e0aab",
-          "TimeBuilt": "2024-07-03T21:26:28.805",
-          "EffectiveVersion": "1.2.11",
+          "BuiltCommit": "6deecfd5549e264aa464819a85889c1ebc30ed70",
+          "TimeBuilt": "2024-11-28T05:34:02.1715676+00:00",
+          "EffectiveVersion": "1.2.12",
           "MinimumVersion": null,
           "Changelogs": {
             "1.2.7": {
@@ -28979,6 +29006,17 @@
               "Changelog": "Dawntrail",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "1.2.12": {
+              "TimeReleased": "2024-11-28T05:34:02.1716082+00:00",
+              "Changelog": "API 11",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
