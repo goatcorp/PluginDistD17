@@ -24057,9 +24057,9 @@
           }
         },
         "MOAction": {
-          "BuiltCommit": "292a0b039322432f32619c6dce354db0815b0fd3",
-          "TimeBuilt": "2024-07-20T19:39:53.173",
-          "EffectiveVersion": "4.3.1.0",
+          "BuiltCommit": "77703d85e7e9bf57fa5f757856685ef3a0d97cfb",
+          "TimeBuilt": "2024-11-29T22:05:25.3939749+00:00",
+          "EffectiveVersion": "4.3.2.0",
           "MinimumVersion": null,
           "Changelogs": {
             "4.2.7.0": {
@@ -24127,6 +24127,17 @@
               "Changelog": "7.0 updateGround target at mouse works again\n\t\t",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "4.3.2.0": {
+              "TimeReleased": "2024-11-29T22:05:25.3939756+00:00",
+              "Changelog": "\t\t7.1\n\t\tty alluneve\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
@@ -25480,9 +25491,9 @@
           }
         },
         "SubmarineTracker": {
-          "BuiltCommit": "38ad89630c818c54c845b7ad9eb43bc19a546757",
-          "TimeBuilt": "2024-11-26T21:02:49.6219862+00:00",
-          "EffectiveVersion": "1.9.4.3",
+          "BuiltCommit": "3934a407731b478a4f7d80c511f6b3652362c320",
+          "TimeBuilt": "2024-11-29T22:05:17.0118571+00:00",
+          "EffectiveVersion": "1.9.4.4",
           "MinimumVersion": null,
           "Changelogs": {
             "1.1.0.0": {
@@ -27178,6 +27189,133 @@
                 }
               ],
               "Reviewer": "philpax"
+            },
+            "1.9.4.4": {
+              "TimeReleased": "2024-11-29T22:05:17.011896+00:00",
+              "Changelog": "- Add route history to /sloot",
+              "UsedNeeds": [
+                {
+                  "Key": "CsvHelper",
+                  "Version": "33.0.1"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "MessagePack",
+                  "Version": "3.0.238-rc.1"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "supabase-csharp",
+                  "Version": "0.16.2"
+                },
+                {
+                  "Key": "functions-csharp",
+                  "Version": "1.3.2"
+                },
+                {
+                  "Key": "gotrue-csharp",
+                  "Version": "4.2.7"
+                },
+                {
+                  "Key": "MessagePack.Annotations",
+                  "Version": "3.0.238-rc.1"
+                },
+                {
+                  "Key": "MessagePackAnalyzer",
+                  "Version": "3.0.238-rc.1"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite.Core",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "Microsoft.IdentityModel.Abstractions",
+                  "Version": "7.0.3"
+                },
+                {
+                  "Key": "Microsoft.IdentityModel.JsonWebTokens",
+                  "Version": "7.0.3"
+                },
+                {
+                  "Key": "Microsoft.IdentityModel.Logging",
+                  "Version": "7.0.3"
+                },
+                {
+                  "Key": "Microsoft.IdentityModel.Tokens",
+                  "Version": "7.0.3"
+                },
+                {
+                  "Key": "Microsoft.NET.StringTools",
+                  "Version": "17.11.4"
+                },
+                {
+                  "Key": "MimeMapping",
+                  "Version": "2.0.0"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.3"
+                },
+                {
+                  "Key": "postgrest-csharp",
+                  "Version": "3.5.1"
+                },
+                {
+                  "Key": "realtime-csharp",
+                  "Version": "6.0.4"
+                },
+                {
+                  "Key": "SQLitePCLRaw.bundle_e_sqlite3",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.core",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.lib.e_sqlite3",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.provider.e_sqlite3",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "supabase-core",
+                  "Version": "0.0.3"
+                },
+                {
+                  "Key": "supabase-storage-csharp",
+                  "Version": "1.4.0"
+                },
+                {
+                  "Key": "System.IdentityModel.Tokens.Jwt",
+                  "Version": "7.0.3"
+                },
+                {
+                  "Key": "System.Memory",
+                  "Version": "4.5.3"
+                },
+                {
+                  "Key": "System.Reactive",
+                  "Version": "5.0.0"
+                },
+                {
+                  "Key": "System.Threading.Channels",
+                  "Version": "5.0.0"
+                },
+                {
+                  "Key": "Websocket.Client",
+                  "Version": "4.6.1"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
@@ -37959,9 +38097,9 @@
           }
         },
         "TidyChat": {
-          "BuiltCommit": "fed8009db1500f86fb8300fa4483dbe9ef0d96ab",
-          "TimeBuilt": "2024-11-29T05:34:59.503048+00:00",
-          "EffectiveVersion": "2.0.7.0",
+          "BuiltCommit": "d1e85bb7c64fadf33702a1a1f4f3090f2c924783",
+          "TimeBuilt": "2024-11-29T22:05:35.8539387+00:00",
+          "EffectiveVersion": "2.0.8.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.2.2.0": {
@@ -38050,6 +38188,29 @@
             "2.0.7.0": {
               "TimeReleased": "2024-11-29T05:34:59.5030492+00:00",
               "Changelog": "Fix Custom Filters ; Adds \u0027Show All Other Crafting/Gathering\u0027 filters courtesy of ALymphocyte",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "Meziantou.Analyzer",
+                  "Version": "2.0.161"
+                },
+                {
+                  "Key": "TextCopy",
+                  "Version": "6.2.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "7.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            },
+            "2.0.8.0": {
+              "TimeReleased": "2024-11-29T22:05:35.8539399+00:00",
+              "Changelog": "Only log to XLLog when Debug Mode / Dry Run Mode is enabled ; fixes Custom Emotes used by Player",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -40340,9 +40501,9 @@
           "Changelogs": {}
         },
         "Tf2CriticalHitsPlugin": {
-          "BuiltCommit": "c846943d0e9c9c8bec583e82c467a51041fd7d6c",
-          "TimeBuilt": "2024-07-21T18:47:02.44",
-          "EffectiveVersion": "3.5.0.1",
+          "BuiltCommit": "356dc4650aec5a39f6c9c4e8ea05513d1d866bc8",
+          "TimeBuilt": "2024-11-29T22:05:46.6103593+00:00",
+          "EffectiveVersion": "3.6.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -40500,6 +40661,33 @@
               "Changelog": "- Fix player/pet logic order\n",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "3.6.0.0": {
+              "TimeReleased": "2024-11-29T22:05:46.6103599+00:00",
+              "Changelog": "Updated for FFXIV 7.11\n",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/jkchen2/KamiLib",
+                  "Version": "ddbffae42e94fc2156b150a482ccf175f4c79b65"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "JetBrains.Annotations",
+                  "Version": "2022.3.1"
+                },
+                {
+                  "Key": "NAudio.Wasapi",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Core",
+                  "Version": "2.2.1"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
@@ -42984,9 +43172,9 @@
           "Changelogs": {}
         },
         "Congratulations": {
-          "BuiltCommit": "8a395e49d69ac09f2c639189b230b3f6ad74ab01",
-          "TimeBuilt": "2024-07-20T08:29:23.599",
-          "EffectiveVersion": "1.3.0.0",
+          "BuiltCommit": "713429b6e264a92f1fccb1f0c2fa45888fbc6ac1",
+          "TimeBuilt": "2024-11-29T22:05:53.9760944+00:00",
+          "EffectiveVersion": "1.3.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -43018,6 +43206,25 @@
               "Changelog": "Updated for FFXIV 7.01\n",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "1.3.1.0": {
+              "TimeReleased": "2024-11-29T22:05:53.976095+00:00",
+              "Changelog": "Updated for FFXIV 7.11\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "NAudio.Wasapi",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Core",
+                  "Version": "2.2.1"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
@@ -59227,6 +59434,13 @@
       "Version": "1.0.0",
       "ReviewedBy": "reiichi001",
       "ReviewedAt": "2024-11-29T05:49:12.0725131Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/jkchen2/KamiLib",
+      "Version": "ddbffae42e94fc2156b150a482ccf175f4c79b65",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-29T22:05:46.6267537Z"
     }
   ]
 }
