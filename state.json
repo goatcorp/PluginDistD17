@@ -44482,9 +44482,9 @@
           }
         },
         "AetherCompass": {
-          "BuiltCommit": "d66f1c86e65e31925dbb51d88598822619d0e19b",
-          "TimeBuilt": "2023-01-18T16:19:10.716",
-          "EffectiveVersion": "1.6.2.2",
+          "BuiltCommit": "96e3b3d4a45c8a3ee0186dd13bcd3f0e06bba8ac",
+          "TimeBuilt": "2024-11-29T22:18:14.9324929+00:00",
+          "EffectiveVersion": "1.6.5.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.5.0.4": {
@@ -44510,6 +44510,45 @@
               "Changelog": "Patch 6.3 Update\n\n- New compass Eureka Elementals for detecting elementals in Eureka (by apetih)\n- Other minor update and bug fixes to Island Sanctuary Compass\n",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "1.6.5.0": {
+              "TimeReleased": "2024-11-29T22:18:14.9325363+00:00",
+              "Changelog": "Update for 7.1",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.Build.Tasks.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Common",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitHub",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitLab",
+                  "Version": "1.1.1"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
