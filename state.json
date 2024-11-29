@@ -25403,9 +25403,9 @@
           }
         },
         "Craftimizer": {
-          "BuiltCommit": "12d46bdd26fdbe528bcba46cf3a050575954364c",
-          "TimeBuilt": "2024-11-24T17:31:37.2325181+00:00",
-          "EffectiveVersion": "2.5.3.0",
+          "BuiltCommit": "9727a715f5b495424da1f3b90776d07ddb7fc248",
+          "TimeBuilt": "2024-11-29T05:49:12.0188358+00:00",
+          "EffectiveVersion": "2.6.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "2.5.3.0": {
@@ -25434,6 +25434,37 @@
                 }
               ],
               "Reviewer": "philpax"
+            },
+            "2.6.0.0": {
+              "TimeReleased": "2024-11-29T05:49:12.0188753+00:00",
+              "Changelog": "- Added experimental Optimal solver based on Raphael\r\n - Thank you to KonaeAkira for their work\r\n- Added /craftretry: Clicks retry in the synthesis helper for you\r\n- Added extra donation links\r\n- Fixed some minor UI bugs",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "MathNet.Numerics",
+                  "Version": "5.0.0"
+                },
+                {
+                  "Key": "Meziantou.Analyzer",
+                  "Version": "2.0.179"
+                },
+                {
+                  "Key": "DotNext",
+                  "Version": "5.14.0"
+                },
+                {
+                  "Key": "Raphael.Net",
+                  "Version": "1.0.0"
+                },
+                {
+                  "Key": "System.IO.Hashing",
+                  "Version": "8.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
@@ -59099,6 +59130,13 @@
       "Version": "188848ea4894291dfbff8cac0fc25ad7994e9e35",
       "ReviewedBy": "reiichi001",
       "ReviewedAt": "2024-11-29T05:34:41.1218298Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Raphael.Net",
+      "Version": "1.0.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-29T05:49:12.0725131Z"
     }
   ]
 }
