@@ -2125,9 +2125,9 @@
           "Changelogs": {}
         },
         "NoTankYou": {
-          "BuiltCommit": "ceb46594fc2a972f638d241ab8a69a21d8c9f5c1",
-          "TimeBuilt": "2024-11-18T14:14:28.756245+00:00",
-          "EffectiveVersion": "7.2.0.1",
+          "BuiltCommit": "75391e7f4ba98edc5e8efcc692009d1991c65d82",
+          "TimeBuilt": "2024-11-29T05:34:41.1043917+00:00",
+          "EffectiveVersion": "7.2.0.2",
           "MinimumVersion": null,
           "Changelogs": {
             "7.1.0.2": {
@@ -2319,6 +2319,69 @@
                 {
                   "Key": "Newtonsoft.Json",
                   "Version": "13.0.3"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            },
+            "7.2.0.2": {
+              "TimeReleased": "2024-11-29T05:34:41.1043923+00:00",
+              "Changelog": "nofranz\r\n\r\nupdate libraries",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiLib",
+                  "Version": "188848ea4894291dfbff8cac0fc25ad7994e9e35"
+                },
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit.git",
+                  "Version": "d26598451448a92bce729d2f039d725c75ba1360"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "NetStone",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "HtmlAgilityPack",
+                  "Version": "1.11.46"
+                },
+                {
+                  "Key": "Karashiiro.HtmlAgilityPack.CssSelectors.NetCoreFork",
+                  "Version": "0.0.2"
+                },
+                {
+                  "Key": "Microsoft.Build.Tasks.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Common",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitHub",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitLab",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.3"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
                 }
               ],
               "Reviewer": "reiichi001"
@@ -13468,9 +13531,9 @@
           }
         },
         "DailyDuty": {
-          "BuiltCommit": "df7298214ec80c0f8b8780140c9904bea2421bc5",
-          "TimeBuilt": "2024-11-24T21:47:26.0498458+00:00",
-          "EffectiveVersion": "5.2.0.3",
+          "BuiltCommit": "e1ff0223975ae8665f03542e7ad7df3e04871cdf",
+          "TimeBuilt": "2024-11-29T05:34:51.5347241+00:00",
+          "EffectiveVersion": "5.2.0.4",
           "MinimumVersion": null,
           "Changelogs": {
             "5.2.0.0": {
@@ -13551,6 +13614,69 @@
                 {
                   "Key": "https://github.com/MidoriKami/KamiToolKit.git",
                   "Version": "2f907055d4fda5562999996286a8f39723512c62"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "NetStone",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "HtmlAgilityPack",
+                  "Version": "1.11.46"
+                },
+                {
+                  "Key": "Karashiiro.HtmlAgilityPack.CssSelectors.NetCoreFork",
+                  "Version": "0.0.2"
+                },
+                {
+                  "Key": "Microsoft.Build.Tasks.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Common",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitHub",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitLab",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.3"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            },
+            "5.2.0.4": {
+              "TimeReleased": "2024-11-29T05:34:51.5347254+00:00",
+              "Changelog": "nofranz\r\n\r\nUpdate libraries",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiLib",
+                  "Version": "188848ea4894291dfbff8cac0fc25ad7994e9e35"
+                },
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit.git",
+                  "Version": "d26598451448a92bce729d2f039d725c75ba1360"
                 },
                 {
                   "Key": "DotNet.ReproducibleBuilds",
@@ -16020,9 +16146,9 @@
           "Changelogs": {}
         },
         "WondrousTailsSolver": {
-          "BuiltCommit": "4867a37b3d5d23b84ba1f10b7ecc26ab50f3893b",
-          "TimeBuilt": "2024-11-24T21:51:05.4104034+00:00",
-          "EffectiveVersion": "3.2.0.3",
+          "BuiltCommit": "b9c9b775b0ef89af80618f46b5ab71f8fe861cfc",
+          "TimeBuilt": "2024-11-29T05:34:24.5259552+00:00",
+          "EffectiveVersion": "3.2.0.4",
           "MinimumVersion": null,
           "Changelogs": {
             "2.1.2.3": {
@@ -16168,6 +16294,69 @@
                 {
                   "Key": "https://github.com/MidoriKami/KamiToolKit.git",
                   "Version": "2f907055d4fda5562999996286a8f39723512c62"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "NetStone",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "HtmlAgilityPack",
+                  "Version": "1.11.46"
+                },
+                {
+                  "Key": "Karashiiro.HtmlAgilityPack.CssSelectors.NetCoreFork",
+                  "Version": "0.0.2"
+                },
+                {
+                  "Key": "Microsoft.Build.Tasks.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Common",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitHub",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitLab",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.3"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            },
+            "3.2.0.4": {
+              "TimeReleased": "2024-11-29T05:34:24.5259564+00:00",
+              "Changelog": "Fix current duty indicator",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiLib.git",
+                  "Version": "188848ea4894291dfbff8cac0fc25ad7994e9e35"
+                },
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit.git",
+                  "Version": "d26598451448a92bce729d2f039d725c75ba1360"
                 },
                 {
                   "Key": "DotNet.ReproducibleBuilds",
@@ -23771,14 +23960,53 @@
           }
         },
         "CollectableCalculator": {
-          "BuiltCommit": "85a72ec0b1a4468bce9ae5656afe3ed99c7ec2a5",
-          "TimeBuilt": "2024-11-27T20:34:00.9669567+00:00",
-          "EffectiveVersion": "4.0",
+          "BuiltCommit": "4c0e9df9d75b06fdc6eb4ba1aa41885339617b03",
+          "TimeBuilt": "2024-11-29T05:34:30.8675433+00:00",
+          "EffectiveVersion": "4.1",
           "MinimumVersion": null,
           "Changelogs": {
             "4.0": {
               "TimeReleased": "2024-11-27T20:34:00.966958+00:00",
               "Changelog": "- updates for API 11 compatibility",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.Build.Tasks.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Common",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitHub",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitLab",
+                  "Version": "1.1.1"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            },
+            "4.1": {
+              "TimeReleased": "2024-11-29T05:34:30.8675446+00:00",
+              "Changelog": "Crash fix",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -24650,9 +24878,9 @@
           }
         },
         "CurrencyAlert": {
-          "BuiltCommit": "9b98977155a12cedd72caa3e6fb815f2237481a3",
-          "TimeBuilt": "2024-11-24T21:47:07.3620337+00:00",
-          "EffectiveVersion": "2.2.0.2",
+          "BuiltCommit": "cf7c16460e08ba4bc23184ec5df28e0a5fe94eb4",
+          "TimeBuilt": "2024-11-29T05:34:15.0805184+00:00",
+          "EffectiveVersion": "2.2.0.3",
           "MinimumVersion": null,
           "Changelogs": {
             "0.4.0.0": {
@@ -24678,6 +24906,69 @@
                 {
                   "Key": "https://github.com/MidoriKami/KamiToolKit.git",
                   "Version": "2f907055d4fda5562999996286a8f39723512c62"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "NetStone",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "HtmlAgilityPack",
+                  "Version": "1.11.46"
+                },
+                {
+                  "Key": "Karashiiro.HtmlAgilityPack.CssSelectors.NetCoreFork",
+                  "Version": "0.0.2"
+                },
+                {
+                  "Key": "Microsoft.Build.Tasks.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Common",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitHub",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitLab",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.3"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            },
+            "2.2.0.3": {
+              "TimeReleased": "2024-11-29T05:34:15.0805569+00:00",
+              "Changelog": "nofranz\r\n\r\nupdate libraries",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiLib.git",
+                  "Version": "188848ea4894291dfbff8cac0fc25ad7994e9e35"
+                },
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit.git",
+                  "Version": "d26598451448a92bce729d2f039d725c75ba1360"
                 },
                 {
                   "Key": "DotNet.ReproducibleBuilds",
@@ -37626,9 +37917,9 @@
           }
         },
         "TidyChat": {
-          "BuiltCommit": "4badf94e1c8288e3a242af7b983db56f8b381746",
-          "TimeBuilt": "2024-11-27T07:09:13.2793401+00:00",
-          "EffectiveVersion": "2.0.6.0",
+          "BuiltCommit": "fed8009db1500f86fb8300fa4483dbe9ef0d96ab",
+          "TimeBuilt": "2024-11-29T05:34:59.503048+00:00",
+          "EffectiveVersion": "2.0.7.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.2.2.0": {
@@ -37694,6 +37985,29 @@
             "2.0.6.0": {
               "TimeReleased": "2024-11-27T07:09:13.2793973+00:00",
               "Changelog": "1.x -\u003E 2.0.6 Release -- Mostly internal changes to logic to make Tidy Chat easier to maintain and add new filters going forward.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "Meziantou.Analyzer",
+                  "Version": "2.0.161"
+                },
+                {
+                  "Key": "TextCopy",
+                  "Version": "6.2.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "7.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            },
+            "2.0.7.0": {
+              "TimeReleased": "2024-11-29T05:34:59.5030492+00:00",
+              "Changelog": "Fix Custom Filters ; Adds \u0027Show All Other Crafting/Gathering\u0027 filters courtesy of ALymphocyte",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -58764,6 +59078,27 @@
       "Version": "1.1.10",
       "ReviewedBy": "reiichi001",
       "ReviewedAt": "2024-11-29T05:26:44.6907418Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/MidoriKami/KamiLib.git",
+      "Version": "188848ea4894291dfbff8cac0fc25ad7994e9e35",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-29T05:34:15.1208661Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/MidoriKami/KamiToolKit.git",
+      "Version": "d26598451448a92bce729d2f039d725c75ba1360",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-29T05:34:15.1209009Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/MidoriKami/KamiLib",
+      "Version": "188848ea4894291dfbff8cac0fc25ad7994e9e35",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-11-29T05:34:41.1218298Z"
     }
   ]
 }

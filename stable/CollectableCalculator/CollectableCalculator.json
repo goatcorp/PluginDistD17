@@ -2,7 +2,7 @@
   "Author": "Liza Carvelli",
   "Name": "CollectableCalculator",
   "InternalName": "CollectableCalculator",
-  "AssemblyVersion": "4.0",
+  "AssemblyVersion": "4.1",
   "Description": "Shows how many scrips and items you would receive if you turn in your current inventory.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/mabako/CollectableCalculator",
