@@ -33972,9 +33972,9 @@
           }
         },
         "WTSync": {
-          "BuiltCommit": "deadd14776689544d69391e48bb3b7b8300cedbf",
-          "TimeBuilt": "2024-11-16T06:21:27.5804305+00:00",
-          "EffectiveVersion": "0.12.0.0",
+          "BuiltCommit": "311d125a90085a5cd1142f0ae62b6dbb827b9782",
+          "TimeBuilt": "2024-11-29T22:12:33.9465915+00:00",
+          "EffectiveVersion": "0.13.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.11.0.0": {
@@ -33986,6 +33986,41 @@
             "0.12.0.0": {
               "TimeReleased": "2024-11-16T06:21:27.5804711+00:00",
               "Changelog": "* 7.1 Changes \u002B Dalamud API11\n\n* Added a feature to select a random duty from the list of matching duties when clicking an entry in WTSync, rather than just going through them in order. Hopefully that makes reclears slightly more interesting, especially with the newer broader categories.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "Websocket.Client",
+                  "Version": "5.1.2"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.IO.RecyclableMemoryStream",
+                  "Version": "3.0.0"
+                },
+                {
+                  "Key": "System.Reactive",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "System.Threading.Channels",
+                  "Version": "8.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            },
+            "0.13.0.0": {
+              "TimeReleased": "2024-11-29T22:12:33.946632+00:00",
+              "Changelog": "* Added: Share links. Got a friend who can\u0027t or doesn\u0027t use plugins? You can now generate a link and they can view WTSync in their browser. For privacy, these links expire after 30 minutes and only show characters\u0027 initials.\n* Added: Wondrous Tails statistics. What duties are people doing? Are people finishing their Wondrous Tails? How many stickers do people have? Find out now with our new weekly reports.\n\n* Added option to opt out from statistics. The data is fully anonymous, but I understand some people aren\u0027t cool with that sort of thing so, for those of you who aren\u0027t, just opt out and you won\u0027t be included.\n* Added links to the WTSync website to its settings window.\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
