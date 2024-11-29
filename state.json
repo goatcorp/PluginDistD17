@@ -15802,9 +15802,9 @@
           }
         },
         "EurekaHelper": {
-          "BuiltCommit": "ec64acfb769b2f3bef8fa442b3fde2fb101a0f31",
-          "TimeBuilt": "2023-10-08T18:50:28.353",
-          "EffectiveVersion": "1.5.2.0",
+          "BuiltCommit": "40560c63f33de41afa9ce49b7cc283a0b82c57a5",
+          "TimeBuilt": "2024-11-29T22:59:42.8875663+00:00",
+          "EffectiveVersion": "2.0.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.7": {
@@ -15938,6 +15938,17 @@
               "Changelog": "Elemental Manager\n- Added crowdsourced positions\n\nMisc\n- Updated to API 9\n",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "2.0.0.0": {
+              "TimeReleased": "2024-11-29T22:59:42.8876054+00:00",
+              "Changelog": "- Added support for patch 7.1 and API 11\n- Changed owners\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
