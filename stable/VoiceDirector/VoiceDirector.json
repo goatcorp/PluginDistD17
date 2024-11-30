@@ -1,0 +1,25 @@
+{
+  "Author": "Noevain",
+  "Name": "Voice Director",
+  "InternalName": "VoiceDirector",
+  "AssemblyVersion": "1.2.0.0",
+  "Description": "Changes your VO language by specifying a language and an instance, your language will revert to the default when you exit. Icon designed by Leremy from Flaticon",
+  "ApplicableVersion": "any",
+  "Tags": [
+    "plugin",
+    "audio"
+  ],
+  "DalamudApiLevel": 11,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "ImageUrls": [
+    "https://raw.githubusercontent.com/noevain/VoiceDirector/master/images/preview1.png"
+  ],
+  "IconUrl": "https://raw.githubusercontent.com/noevain/VoiceDirector/master/images/icon.png",
+  "Punchline": "Changes your VO language on a per-duty basis",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "stable"
+}

@@ -9419,9 +9419,9 @@
           }
         },
         "Wholist": {
-          "BuiltCommit": "8d4fb7022d38f2d85138a17111d91d756a6c632c",
-          "TimeBuilt": "2024-11-15T23:56:31.0276052+00:00",
-          "EffectiveVersion": "1.7.1.0",
+          "BuiltCommit": "50efa8cca9831fe8fc5f062eef602062ffab4f3e",
+          "TimeBuilt": "2024-11-30T20:01:11.4625001+00:00",
+          "EffectiveVersion": "1.8.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -9635,6 +9635,53 @@
                 }
               ],
               "Reviewer": "goaaats"
+            },
+            "1.8.0.0": {
+              "TimeReleased": "2024-11-30T20:01:11.4625011+00:00",
+              "Changelog": "- Re-added the ability to send tells via the player context menu.\r\n- Added the ability to add players to the in-game blacklist via the player context menu.",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/Blooym/Sirensong.git",
+                  "Version": "4f5c022082172cea7177b4fb49b0e808330539bf"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "BitFaster.Caching",
+                  "Version": "2.4.1"
+                },
+                {
+                  "Key": "Microsoft.Build.Tasks.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Common",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitHub",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitLab",
+                  "Version": "1.1.1"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
@@ -13531,9 +13578,9 @@
           }
         },
         "DailyDuty": {
-          "BuiltCommit": "e1ff0223975ae8665f03542e7ad7df3e04871cdf",
-          "TimeBuilt": "2024-11-29T05:34:51.5347241+00:00",
-          "EffectiveVersion": "5.2.0.4",
+          "BuiltCommit": "6121a01d9e4ddc3e9e450a3d55c732a6eadb548a",
+          "TimeBuilt": "2024-11-30T20:00:48.3301156+00:00",
+          "EffectiveVersion": "5.2.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "5.2.0.0": {
@@ -13669,6 +13716,69 @@
             "5.2.0.4": {
               "TimeReleased": "2024-11-29T05:34:51.5347254+00:00",
               "Changelog": "nofranz\r\n\r\nUpdate libraries",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiLib",
+                  "Version": "188848ea4894291dfbff8cac0fc25ad7994e9e35"
+                },
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit.git",
+                  "Version": "d26598451448a92bce729d2f039d725c75ba1360"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "NetStone",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "HtmlAgilityPack",
+                  "Version": "1.11.46"
+                },
+                {
+                  "Key": "Karashiiro.HtmlAgilityPack.CssSelectors.NetCoreFork",
+                  "Version": "0.0.2"
+                },
+                {
+                  "Key": "Microsoft.Build.Tasks.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Common",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitHub",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitLab",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.3"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            },
+            "5.2.1.0": {
+              "TimeReleased": "2024-11-30T20:00:48.3301163+00:00",
+              "Changelog": "Remove Wondrous Tails Instance Notifications",
               "UsedNeeds": [
                 {
                   "Key": "https://github.com/MidoriKami/KamiLib",
@@ -15953,9 +16063,9 @@
           }
         },
         "BozjaBuddy": {
-          "BuiltCommit": "802f09facebe2dd75d1ac84a1af4c2b3e39d833c",
-          "TimeBuilt": "2024-11-23T01:17:27.9486992+00:00",
-          "EffectiveVersion": "1.1.6.2",
+          "BuiltCommit": "83ca4edcca4aeb9685196acb05d18bbffb6d09dc",
+          "TimeBuilt": "2024-11-30T20:01:02.9203847+00:00",
+          "EffectiveVersion": "1.1.6.3",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -16146,6 +16256,129 @@
                 }
               ],
               "Reviewer": "reiichi001"
+            },
+            "1.1.6.3": {
+              "TimeReleased": "2024-11-30T20:01:02.9203863+00:00",
+              "Changelog": "Bozja Buddy 1.1.6.3\n- Fixed auto-job update. Fixed char stats and notes window.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "FFXIVWeather",
+                  "Version": "1.0.16"
+                },
+                {
+                  "Key": "NAudio.Wasapi",
+                  "Version": "2.1.0"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.2"
+                },
+                {
+                  "Key": "QuickGraph",
+                  "Version": "3.6.61119.7"
+                },
+                {
+                  "Key": "System.Data.SQLite",
+                  "Version": "1.0.117"
+                },
+                {
+                  "Key": "System.Data.SQLite.Core",
+                  "Version": "1.0.117"
+                },
+                {
+                  "Key": "EntityFramework",
+                  "Version": "6.4.4"
+                },
+                {
+                  "Key": "Microsoft.CSharp",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "Microsoft.NETCore.Platforms",
+                  "Version": "3.1.0"
+                },
+                {
+                  "Key": "Microsoft.Win32.Registry",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "Microsoft.Win32.SystemEvents",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "NAudio.Core",
+                  "Version": "2.1.0"
+                },
+                {
+                  "Key": "runtime.native.System.Data.SqlClient.sni",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "runtime.win-arm64.runtime.native.System.Data.SqlClient.sni",
+                  "Version": "4.4.0"
+                },
+                {
+                  "Key": "runtime.win-x64.runtime.native.System.Data.SqlClient.sni",
+                  "Version": "4.4.0"
+                },
+                {
+                  "Key": "runtime.win-x86.runtime.native.System.Data.SqlClient.sni",
+                  "Version": "4.4.0"
+                },
+                {
+                  "Key": "Stub.System.Data.SQLite.Core.NetStandard",
+                  "Version": "1.0.117"
+                },
+                {
+                  "Key": "System.CodeDom",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "System.ComponentModel.Annotations",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "System.Configuration.ConfigurationManager",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "System.Data.SqlClient",
+                  "Version": "4.8.1"
+                },
+                {
+                  "Key": "System.Data.SQLite.EF6",
+                  "Version": "1.0.117"
+                },
+                {
+                  "Key": "System.Drawing.Common",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "System.Security.AccessControl",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "System.Security.Cryptography.ProtectedData",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "System.Security.Permissions",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "System.Security.Principal.Windows",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "System.Windows.Extensions",
+                  "Version": "4.7.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
@@ -16157,9 +16390,9 @@
           "Changelogs": {}
         },
         "WondrousTailsSolver": {
-          "BuiltCommit": "b9c9b775b0ef89af80618f46b5ab71f8fe861cfc",
-          "TimeBuilt": "2024-11-29T05:34:24.5259552+00:00",
-          "EffectiveVersion": "3.2.0.4",
+          "BuiltCommit": "fe317964229d8b45b1f1954451e1471e4259f279",
+          "TimeBuilt": "2024-11-30T20:00:36.7755703+00:00",
+          "EffectiveVersion": "3.2.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "2.1.2.3": {
@@ -16360,6 +16593,69 @@
             "3.2.0.4": {
               "TimeReleased": "2024-11-29T05:34:24.5259564+00:00",
               "Changelog": "Fix current duty indicator",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiLib.git",
+                  "Version": "188848ea4894291dfbff8cac0fc25ad7994e9e35"
+                },
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit.git",
+                  "Version": "d26598451448a92bce729d2f039d725c75ba1360"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "NetStone",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "HtmlAgilityPack",
+                  "Version": "1.11.46"
+                },
+                {
+                  "Key": "Karashiiro.HtmlAgilityPack.CssSelectors.NetCoreFork",
+                  "Version": "0.0.2"
+                },
+                {
+                  "Key": "Microsoft.Build.Tasks.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Common",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitHub",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitLab",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.3"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            },
+            "3.2.1.0": {
+              "TimeReleased": "2024-11-30T20:00:36.7755713+00:00",
+              "Changelog": "Remove click to open duty finder feature\r\nRemove show currently occupied duty feature",
               "UsedNeeds": [
                 {
                   "Key": "https://github.com/MidoriKami/KamiLib.git",
@@ -40550,6 +40846,25 @@
               "Reviewer": "reiichi001"
             }
           }
+        },
+        "VoiceDirector": {
+          "BuiltCommit": "07f2e9063220613fe17807d88968fc9eaa21f36c",
+          "TimeBuilt": "2024-11-30T20:00:27.1114345+00:00",
+          "EffectiveVersion": "1.2.0.0",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "1.2.0.0": {
+              "TimeReleased": "2024-11-30T20:00:27.111436+00:00",
+              "Changelog": "Release to stable, VoiceDirector is a plugin thats lets you select your VO language for specific duties ",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            }
+          }
         }
       }
     },
@@ -50933,59 +51248,6 @@
                 }
               ],
               "Reviewer": "reiichi001"
-            }
-          }
-        },
-        "VoiceDirector": {
-          "BuiltCommit": "d1821542e4eb6519dc8e3bfcad8658aea4648d73",
-          "TimeBuilt": "2024-11-16T00:51:00.5521614+00:00",
-          "EffectiveVersion": "1.1.0.0",
-          "MinimumVersion": null,
-          "Changelogs": {
-            "1.0.0.0": {
-              "TimeReleased": "2024-10-14T19:23:23.3626784+00:00",
-              "Changelog": "Initial Release",
-              "UsedNeeds": [
-                {
-                  "Key": "DalamudPackager",
-                  "Version": "2.1.13"
-                },
-                {
-                  "Key": "Lumina",
-                  "Version": "4.1.2"
-                },
-                {
-                  "Key": "Lumina.Excel",
-                  "Version": "7.0.1"
-                },
-                {
-                  "Key": "Microsoft.Extensions.ObjectPool",
-                  "Version": "9.0.0-preview.1.24081.5"
-                }
-              ],
-              "Reviewer": "reiichi001"
-            },
-            "1.0.1.0": {
-              "TimeReleased": "2024-11-01T19:11:10.6917187+00:00",
-              "Changelog": "Search is not case sensitive anymore",
-              "UsedNeeds": [
-                {
-                  "Key": "DalamudPackager",
-                  "Version": "2.1.13"
-                }
-              ],
-              "Reviewer": "reiichi001"
-            },
-            "1.1.0.0": {
-              "TimeReleased": "2024-11-16T00:51:00.5521624+00:00",
-              "Changelog": "API11 update,no major changes",
-              "UsedNeeds": [
-                {
-                  "Key": "DalamudPackager",
-                  "Version": "11.0.0"
-                }
-              ],
-              "Reviewer": "karashiiro"
             }
           }
         },
