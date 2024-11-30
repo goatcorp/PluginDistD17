@@ -1,0 +1,22 @@
+{
+  "Author": "radax864",
+  "Name": "CWLSLastSeenTool",
+  "InternalName": "CWLSLastSeenTool",
+  "AssemblyVersion": "1.1.2.1",
+  "Description": "A tool for tracking when CWLS members were last seen online. /cwlslst to open the tool.",
+  "ApplicableVersion": "any",
+  "Tags": [
+    "cwls",
+    "cross-world linkshell",
+    "linkshell"
+  ],
+  "DalamudApiLevel": 11,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "Punchline": "A tool for tracking when CWLS members were last seen online.",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "stable"
+}
