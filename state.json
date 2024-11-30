@@ -38143,9 +38143,9 @@
           }
         },
         "TidyChat": {
-          "BuiltCommit": "d1e85bb7c64fadf33702a1a1f4f3090f2c924783",
-          "TimeBuilt": "2024-11-29T22:05:35.8539387+00:00",
-          "EffectiveVersion": "2.0.8.0",
+          "BuiltCommit": "79401d1d9282c513c3c753ee295f2229d72c79c3",
+          "TimeBuilt": "2024-11-30T16:04:15.1546143+00:00",
+          "EffectiveVersion": "2.0.10.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.2.2.0": {
@@ -38257,6 +38257,29 @@
             "2.0.8.0": {
               "TimeReleased": "2024-11-29T22:05:35.8539399+00:00",
               "Changelog": "Only log to XLLog when Debug Mode / Dry Run Mode is enabled ; fixes Custom Emotes used by Player",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "Meziantou.Analyzer",
+                  "Version": "2.0.161"
+                },
+                {
+                  "Key": "TextCopy",
+                  "Version": "6.2.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "7.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            },
+            "2.0.10.0": {
+              "TimeReleased": "2024-11-30T16:04:15.1546535+00:00",
+              "Changelog": "Disable Tidy Chat for combat-related channels ; fix S Rank Hunts and Experience Gain filters",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
