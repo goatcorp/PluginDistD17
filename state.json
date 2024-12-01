@@ -34790,9 +34790,9 @@
           }
         },
         "WTSync": {
-          "BuiltCommit": "311d125a90085a5cd1142f0ae62b6dbb827b9782",
-          "TimeBuilt": "2024-11-29T22:12:33.9465915+00:00",
-          "EffectiveVersion": "0.13.0.0",
+          "BuiltCommit": "bad99025cde42e0e6ee93eb3ea0353bfc49c8bc0",
+          "TimeBuilt": "2024-12-01T21:32:05.4926226+00:00",
+          "EffectiveVersion": "0.14.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.11.0.0": {
@@ -34839,6 +34839,41 @@
             "0.13.0.0": {
               "TimeReleased": "2024-11-29T22:12:33.946632+00:00",
               "Changelog": "* Added: Share links. Got a friend who can\u0027t or doesn\u0027t use plugins? You can now generate a link and they can view WTSync in their browser. For privacy, these links expire after 30 minutes and only show characters\u0027 initials.\n* Added: Wondrous Tails statistics. What duties are people doing? Are people finishing their Wondrous Tails? How many stickers do people have? Find out now with our new weekly reports.\n\n* Added option to opt out from statistics. The data is fully anonymous, but I understand some people aren\u0027t cool with that sort of thing so, for those of you who aren\u0027t, just opt out and you won\u0027t be included.\n* Added links to the WTSync website to its settings window.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "Websocket.Client",
+                  "Version": "5.1.2"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.IO.RecyclableMemoryStream",
+                  "Version": "3.0.0"
+                },
+                {
+                  "Key": "System.Reactive",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "System.Threading.Channels",
+                  "Version": "8.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            },
+            "0.14.0.0": {
+              "TimeReleased": "2024-12-01T21:32:05.4926686+00:00",
+              "Changelog": "* Added: Ability to open the Duty Finder to a relevant duty when clicking a Wondrous Tails entry directly in the Wondrous Tails UI.\n\n* Fixed: Bug where we would attempt to open the Duty Finder to a roulette while in an instance.\n* Maintenance: Update the various API endpoints to new URLs.\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
