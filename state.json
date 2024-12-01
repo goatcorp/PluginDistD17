@@ -21734,9 +21734,9 @@
           }
         },
         "SimpleTweaksPlugin": {
-          "BuiltCommit": "02abb1c3e4a140cbccded03af1e0637c3c5665ff",
-          "TimeBuilt": "2024-11-23T01:17:47.0516828+00:00",
-          "EffectiveVersion": "1.10.4.0",
+          "BuiltCommit": "68123392e91339008c2a0d3d596cc3feac5d4100",
+          "TimeBuilt": "2024-12-01T21:34:26.5153123+00:00",
+          "EffectiveVersion": "1.10.5.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.10.3.1": {
@@ -21817,6 +21817,21 @@
             "1.10.4.0": {
               "TimeReleased": "2024-11-23T01:17:47.0516834+00:00",
               "Changelog": "***New Tweaks***\r\n- **\u0060Case Insensitive Text Commands\u0060** - Allows text commands to be entered without caring about case. *(KazWolfe)*\r\n  - This is adopting the functionality of the *Casexile* plugin by *RyouBakura* with their consent.\r\n  \r\n- **\u0060Customize Group Pose Camera Control\u0060** - Allows you to customize the camera control in group pose\r\n\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "System.Numerics.Vectors",
+                  "Version": "4.6.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            },
+            "1.10.5.0": {
+              "TimeReleased": "2024-12-01T21:34:26.5153535+00:00",
+              "Changelog": "***General Changes***\r\n- Fixed tweak preview images not loading correctly\r\n\r\n***New Tweaks***\r\n- **\u0060Estate Access Command\u0060** - Adds a command to open the estate access configuration for the current estate.\r\n\r\n\r\n***Tweak Changes***\r\n- **\u0060House Lights Command\u0060** - Fixed tweak not working.\r\n\r\n- **\u0060Improved Chat Font Sizes\u0060** - Fixed tweak not working.\r\n\r\n- **\u0060Improved Crafting Action Tooltips\u0060** - Fixed results preview not resetting.\r\n\r\n- **\u0060Screenshot File Name\u0060** - Added option to use milliseconds in name template.\r\n\r\n- **\u0060Timer on Duty Waiting\u0060** - Fixed display of text in french clients.",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
