@@ -48816,9 +48816,9 @@
           }
         },
         "MonsterLootHunter": {
-          "BuiltCommit": "820114747d27a733f864ceea75eb19a38e3411e4",
-          "TimeBuilt": "2022-12-31T03:22:33.769",
-          "EffectiveVersion": "1.0.3.0",
+          "BuiltCommit": "6687817d6a3b24c0bae19eada37c51bc004510e2",
+          "TimeBuilt": "2024-12-01T06:56:42.1684497+00:00",
+          "EffectiveVersion": "1.2.23.7",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.3.0": {
@@ -48826,6 +48826,61 @@
               "Changelog": "- Plugin rework\n - API version bump\n - Code refactoring\n - Fix on loot tables empty \n ",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "1.2.23.7": {
+              "TimeReleased": "2024-12-01T06:56:42.1684891+00:00",
+              "Changelog": "- Dalamud API updated to 11\n ",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Fizzler.Systems.HtmlAgilityPack",
+                  "Version": "1.2.1"
+                },
+                {
+                  "Key": "HtmlAgilityPack",
+                  "Version": "1.11.54"
+                },
+                {
+                  "Key": "XivCommon",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "Fizzler",
+                  "Version": "1.2.0"
+                },
+                {
+                  "Key": "Microsoft.Build.Tasks.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Common",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitHub",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitLab",
+                  "Version": "1.1.1"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
@@ -60484,6 +60539,34 @@
       "Version": "9.0.0",
       "ReviewedBy": "reiichi001",
       "ReviewedAt": "2024-11-30T20:48:18.7918418Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Fizzler.Systems.HtmlAgilityPack",
+      "Version": "1.2.1",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-12-01T06:56:42.2045558Z"
+    },
+    {
+      "Type": 1,
+      "Key": "HtmlAgilityPack",
+      "Version": "1.11.54",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-12-01T06:56:42.2045914Z"
+    },
+    {
+      "Type": 1,
+      "Key": "XivCommon",
+      "Version": "9.0.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-12-01T06:56:42.2045916Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Fizzler",
+      "Version": "1.2.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-12-01T06:56:42.2045918Z"
     }
   ]
 }

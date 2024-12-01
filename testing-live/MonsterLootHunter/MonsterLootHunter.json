@@ -1,22 +1,26 @@
 {
-  "Author": "Daniel Guiomarino",
+  "Author": "Sylf",
   "Name": "Monster Loot Hunter",
   "InternalName": "MonsterLootHunter",
-  "AssemblyVersion": "1.0.3.0",
-  "Description": "Adds a command to be able to search for specific loots and its location.",
+  "AssemblyVersion": "1.2.23.7",
+  "Description": "Check where you can obtain a material from monsters, duties, crafting, gathering or where they can be bought from NPCs.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/danielbrenom/MonsterLootHunter",
   "Tags": [
+    "material",
     "monster",
     "loot",
     "hunter",
     "finder"
   ],
-  "DalamudApiLevel": 7,
+  "DalamudApiLevel": 11,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
   "LoadPriority": 0,
-  "IconUrl": "https://raw.githubusercontent.com/danielbrenom/MonsterLootHunter/main/images/icon.png",
-  "Punchline": "A monster loot finder plugin.",
-  "Changelog": "- API version bump \n- Code refactoring \n- Fix on loot tables empty\n- Plugin rework",
+  "Punchline": "Check where you can obtain materials.",
+  "Changelog": "- Updated to API 11",
+  "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "testing-live"
 }
