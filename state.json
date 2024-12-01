@@ -13989,9 +13989,9 @@
           }
         },
         "DailyDuty": {
-          "BuiltCommit": "6121a01d9e4ddc3e9e450a3d55c732a6eadb548a",
-          "TimeBuilt": "2024-11-30T20:00:48.3301156+00:00",
-          "EffectiveVersion": "5.2.1.0",
+          "BuiltCommit": "9fc95c5a19896748bb4eada543caa694000af478",
+          "TimeBuilt": "2024-12-01T06:53:08.1060834+00:00",
+          "EffectiveVersion": "5.2.1.1",
           "MinimumVersion": null,
           "Changelogs": {
             "5.2.0.0": {
@@ -14190,6 +14190,69 @@
             "5.2.1.0": {
               "TimeReleased": "2024-11-30T20:00:48.3301163+00:00",
               "Changelog": "Remove Wondrous Tails Instance Notifications",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiLib",
+                  "Version": "188848ea4894291dfbff8cac0fc25ad7994e9e35"
+                },
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit.git",
+                  "Version": "d26598451448a92bce729d2f039d725c75ba1360"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "NetStone",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "HtmlAgilityPack",
+                  "Version": "1.11.46"
+                },
+                {
+                  "Key": "Karashiiro.HtmlAgilityPack.CssSelectors.NetCoreFork",
+                  "Version": "0.0.2"
+                },
+                {
+                  "Key": "Microsoft.Build.Tasks.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Common",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitHub",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitLab",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.3"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            },
+            "5.2.1.1": {
+              "TimeReleased": "2024-12-01T06:53:08.1061236+00:00",
+              "Changelog": "Fix duty finder recoloring not working",
               "UsedNeeds": [
                 {
                   "Key": "https://github.com/MidoriKami/KamiLib",
@@ -43986,9 +44049,9 @@
           "Changelogs": {}
         },
         "Congratulations": {
-          "BuiltCommit": "713429b6e264a92f1fccb1f0c2fa45888fbc6ac1",
-          "TimeBuilt": "2024-11-29T22:05:53.9760944+00:00",
-          "EffectiveVersion": "1.3.1.0",
+          "BuiltCommit": "30feb420936885592e2f01f4376184665b3aface",
+          "TimeBuilt": "2024-12-01T06:53:15.7275371+00:00",
+          "EffectiveVersion": "1.3.1.1",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -44023,6 +44086,25 @@
             },
             "1.3.1.0": {
               "TimeReleased": "2024-11-29T22:05:53.976095+00:00",
+              "Changelog": "Updated for FFXIV 7.11\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "NAudio.Wasapi",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Core",
+                  "Version": "2.2.1"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            },
+            "1.3.1.1": {
+              "TimeReleased": "2024-12-01T06:53:15.7275377+00:00",
               "Changelog": "Updated for FFXIV 7.11\n",
               "UsedNeeds": [
                 {
