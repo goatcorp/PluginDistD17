@@ -10187,9 +10187,9 @@
           }
         },
         "ARealmRecorded": {
-          "BuiltCommit": "d0d90397132a2830a353af7530654247d1bd1e0e",
-          "TimeBuilt": "2024-11-18T22:05:56.7330908+00:00",
-          "EffectiveVersion": "1.0.1.1",
+          "BuiltCommit": "8a093fd08f2112a7fa3e065a9a1bfecb2b5d6a5a",
+          "TimeBuilt": "2024-12-01T21:30:25.4293145+00:00",
+          "EffectiveVersion": "1.0.1.2",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -10219,6 +10219,21 @@
             "1.0.1.1": {
               "TimeReleased": "2024-11-18T22:05:56.7330925+00:00",
               "Changelog": "- API 11",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/UnknownX7/Hypostasis.git",
+                  "Version": "6993ec06967c77e93227dc6933ce829d14b8f450"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            },
+            "1.0.1.2": {
+              "TimeReleased": "2024-12-01T21:30:25.4293152+00:00",
+              "Changelog": "- Fixed a crash on certain long recordings (Thanks to Limiana)\n- Fixed the UI position when the game is not on the main monitor (Thanks to Iris)\n- Fixed an issue preventing the replay from saving for some users",
               "UsedNeeds": [
                 {
                   "Key": "https://github.com/UnknownX7/Hypostasis.git",
@@ -13218,9 +13233,9 @@
           }
         },
         "Compass": {
-          "BuiltCommit": "a0815f57d97631f107989344a8d039ea91189555",
-          "TimeBuilt": "2024-07-12T20:58:50.003",
-          "EffectiveVersion": "1.28.1",
+          "BuiltCommit": "05eadaa1b171bafd4ade230aead8c02a155e2afe",
+          "TimeBuilt": "2024-12-01T21:30:11.7683028+00:00",
+          "EffectiveVersion": "1.29.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.26.1": {
@@ -13246,6 +13261,17 @@
               "Changelog": "- feat: Update to apiX \u0026 7.0\n",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "1.29.0": {
+              "TimeReleased": "2024-12-01T21:30:11.7683459+00:00",
+              "Changelog": "- feat: Update to 7.1. Thanks @TheDeadCode for the PR!\n\nNOTE: Since 7.0, Compass seems to work funky in some cases.\nI am sorry, but I cannot promise that I will manage to work on plugins for the foreseeable future.\nI can, however, promise to have a look at any potential PR in a timely manner.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
@@ -16386,9 +16412,9 @@
           }
         },
         "EurekaHelper": {
-          "BuiltCommit": "40560c63f33de41afa9ce49b7cc283a0b82c57a5",
-          "TimeBuilt": "2024-11-29T22:59:42.8875663+00:00",
-          "EffectiveVersion": "2.0.0.0",
+          "BuiltCommit": "299aba46c6998bb56e7c948954aeb064788def47",
+          "TimeBuilt": "2024-12-01T21:30:18.5467575+00:00",
+          "EffectiveVersion": "2.0.0.1",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.7": {
@@ -16526,6 +16552,17 @@
             "2.0.0.0": {
               "TimeReleased": "2024-11-29T22:59:42.8876054+00:00",
               "Changelog": "- Added support for patch 7.1 and API 11\n- Changed owners\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            },
+            "2.0.0.1": {
+              "TimeReleased": "2024-12-01T21:30:18.5467585+00:00",
+              "Changelog": "- Fixes for 7.1\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
