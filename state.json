@@ -1965,9 +1965,9 @@
           }
         },
         "AutoTimer": {
-          "BuiltCommit": "4d852361f21a817134394a45e57d85cd8f699001",
-          "TimeBuilt": "2024-11-23T01:16:53.3126608+00:00",
-          "EffectiveVersion": "1.1.0.2",
+          "BuiltCommit": "fdd50a2d9f9b79a2fcd38a600b23b4266c8b21a1",
+          "TimeBuilt": "2024-12-02T05:22:41.124461+00:00",
+          "EffectiveVersion": "1.1.0.3",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.3": {
@@ -1985,6 +1985,17 @@
             "1.1.0.2": {
               "TimeReleased": "2024-11-23T01:16:53.3126614+00:00",
               "Changelog": "- Update to 7.1\r\n- Added option to hide bar label independently (CHUGGO, #3)\r\n- Add options for hiding timer on certain conditions",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            },
+            "1.1.0.3": {
+              "TimeReleased": "2024-12-02T05:22:41.1244998+00:00",
+              "Changelog": "- Fix issue where bar wasn\u0027t properly hidden on command execution",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -43669,9 +43680,9 @@
           }
         },
         "AutoTimer": {
-          "BuiltCommit": "4d852361f21a817134394a45e57d85cd8f699001",
-          "TimeBuilt": "2024-11-17T22:19:46.5531928+00:00",
-          "EffectiveVersion": "1.1.0.2",
+          "BuiltCommit": "fdd50a2d9f9b79a2fcd38a600b23b4266c8b21a1",
+          "TimeBuilt": "2024-12-02T05:22:48.5489987+00:00",
+          "EffectiveVersion": "1.1.0.3",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -43713,6 +43724,17 @@
             "1.1.0.2": {
               "TimeReleased": "2024-11-17T22:19:46.5532319+00:00",
               "Changelog": "- Update to 7.1\r\n- Add options for hiding timer on certain conditions",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            },
+            "1.1.0.3": {
+              "TimeReleased": "2024-12-02T05:22:48.5489994+00:00",
+              "Changelog": "- Fix issue where bar wasn\u0027t properly hidden on command execution",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
