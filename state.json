@@ -38544,9 +38544,9 @@
           }
         },
         "Umbra": {
-          "BuiltCommit": "1aa5f1659ed931d5431df28e8d92234533a6c20b",
-          "TimeBuilt": "2024-11-24T18:05:33.830962+00:00",
-          "EffectiveVersion": "2.3.2.0",
+          "BuiltCommit": "f673d7e7b6cbe4143be8b7bf3adb36f273cfe049",
+          "TimeBuilt": "2024-12-02T02:16:23.8723539+00:00",
+          "EffectiveVersion": "2.3.3.0",
           "MinimumVersion": null,
           "Changelogs": {
             "2.1.8.0": {
@@ -39028,6 +39028,37 @@
                 }
               ],
               "Reviewer": "philpax"
+            },
+            "2.3.3.0": {
+              "TimeReleased": "2024-12-02T02:16:23.8723967+00:00",
+              "Changelog": "# Umbra 2.3.3\n\n## New Additions\n\n- Added a new World Marker Type that shows links to adjacent- and instanced areas.\n- Added available blue (feature) quests to the Quest Objective Markers with optional \u0022red quest\u0022-filter to show/hide unavailable quests due to job/level restrictions.\n- Added an option to enable/disable rounded corners of the toolbars and widget popup frames. You can find a checkbox for this in the General Settings -\u003E Toolbar Settings and Appearance -\u003E Popup Appearance sections respectively.\n- Added a right-click action to the Custom Deliveries widget to open the \u0022Client List\u0022 window immediately, since it now shows more useful information.\n- Added a text-size configuration option to the experience bar widget.\n- Added a [XIV Instant Messenger](https://github.com/NightmareXIV/XIVInstantMessenger) widget that gives you quick access to open conversations and has a visual indicator for unread messages. Note that this widget is only available (and visible in the widget list) if the XIV Instant Messenger plugin is installed and enabled. You may need to restart Umbra if you decide to install XIV Instant Messenger while Umbra is already running in order for the widget to show up in the list of available widgets.\n- Added an option to the Gearset Switcher that allows you to modify the height of gearset buttons in the popup (by [Drakime](https://github.com/Drakime)).\n\n## Fixes \u0026 Improvements\n\n- Removed the decimal point from the World Markers.\n- Fixed an issue in the World Markers settings window in which some controls were showing unexpected behavior due to internal naming collisions.\n\nJoin [Umbra\u0027s Discord server](https://discord.gg/xaEnsuAhmm) for the latest updates and information.\nVisit the [website](https://una-xiv.github.io/umbra-docs/) for more information and guides on how to make the most out of Umbra.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/una-xiv/drawing.git",
+                  "Version": "ebba7bc435ac270e0c0488ac99b54ac4e90ade43"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.ObjectPool",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "SkiaSharp",
+                  "Version": "3.118.0-preview.1.2"
+                },
+                {
+                  "Key": "SkiaSharp.NativeAssets.macOS",
+                  "Version": "3.118.0-preview.1.2"
+                },
+                {
+                  "Key": "SkiaSharp.NativeAssets.Win32",
+                  "Version": "3.118.0-preview.1.2"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
