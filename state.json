@@ -3,9 +3,9 @@
     "stable": {
       "Plugins": {
         "Dalamud.RichPresence": {
-          "BuiltCommit": "d21bf5c4da26603b6d4df9eca3a762fb07680be3",
-          "TimeBuilt": "2024-11-25T00:32:01.5878219+00:00",
-          "EffectiveVersion": "2.0.6.3",
+          "BuiltCommit": "503c1f56ddd42f89f0e4211d96d1ab5e0c272c49",
+          "TimeBuilt": "2024-12-02T19:09:32.0917999+00:00",
+          "EffectiveVersion": "2.0.6.4",
           "MinimumVersion": null,
           "Changelogs": {
             "2.0.1.0": {
@@ -293,6 +293,69 @@
             "2.0.6.3": {
               "TimeReleased": "2024-11-25T00:32:01.5878228+00:00",
               "Changelog": "Updated for API 11, maybe with party fixes.\n\nPlease submit a feedback or post in the XIVLauncher and Dalamud discord server if:\n- You use a non-English client language and AFK status doesn\u0027t work.\n- Parties do not work\n\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "DiscordRichPresence",
+                  "Version": "1.2.1.24"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.Build.Tasks.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.NETCore.Platforms",
+                  "Version": "2.0.0"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Common",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitHub",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitLab",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.Win32.Registry",
+                  "Version": "4.5.0"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.1"
+                },
+                {
+                  "Key": "System.Security.AccessControl",
+                  "Version": "4.5.0"
+                },
+                {
+                  "Key": "System.Security.Principal.Windows",
+                  "Version": "4.5.0"
+                }
+              ],
+              "Reviewer": "philpax"
+            },
+            "2.0.6.4": {
+              "TimeReleased": "2024-12-02T19:09:32.09184+00:00",
+              "Changelog": "nofranz\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
