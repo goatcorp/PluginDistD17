@@ -11135,9 +11135,9 @@
           }
         },
         "OofPlugin": {
-          "BuiltCommit": "b6694fbd87f45a23f6d1444ed5d24d3eab94f367",
-          "TimeBuilt": "2024-07-19T17:38:50.059",
-          "EffectiveVersion": "1.3.2.0",
+          "BuiltCommit": "a1d891eb402fa39850404e926cdfc1cd35dc3403",
+          "TimeBuilt": "2024-12-02T16:48:07.2638653+00:00",
+          "EffectiveVersion": "1.3.3.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.3.0.0": {
@@ -11157,6 +11157,25 @@
               "Changelog": "- fix bug where oof won\u0027t play on death\r\n- i hate OOP \r\n",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "1.3.3.0": {
+              "TimeReleased": "2024-12-02T16:48:07.2639044+00:00",
+              "Changelog": "- update for api 11 / 7.11 patch\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "NAudio.Core",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Wasapi",
+                  "Version": "2.2.1"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
