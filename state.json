@@ -2199,9 +2199,9 @@
           "Changelogs": {}
         },
         "NoTankYou": {
-          "BuiltCommit": "75391e7f4ba98edc5e8efcc692009d1991c65d82",
-          "TimeBuilt": "2024-11-29T05:34:41.1043917+00:00",
-          "EffectiveVersion": "7.2.0.2",
+          "BuiltCommit": "e780382b91bf4af4a7fe6c5b28d3f8e91236f49f",
+          "TimeBuilt": "2024-12-03T21:24:15.6225794+00:00",
+          "EffectiveVersion": "7.2.0.3",
           "MinimumVersion": null,
           "Changelogs": {
             "7.1.0.2": {
@@ -2459,6 +2459,69 @@
                 }
               ],
               "Reviewer": "reiichi001"
+            },
+            "7.2.0.3": {
+              "TimeReleased": "2024-12-03T21:24:15.6225806+00:00",
+              "Changelog": "Fix food warnings showing in overworld when filters are set",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiLib",
+                  "Version": "28de3cb486f9c8384f9f6c5c5772c8d0618ef6fd"
+                },
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit.git",
+                  "Version": "d26598451448a92bce729d2f039d725c75ba1360"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "NetStone",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "HtmlAgilityPack",
+                  "Version": "1.11.46"
+                },
+                {
+                  "Key": "Karashiiro.HtmlAgilityPack.CssSelectors.NetCoreFork",
+                  "Version": "0.0.2"
+                },
+                {
+                  "Key": "Microsoft.Build.Tasks.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Common",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitHub",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitLab",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.3"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "philpax"
             }
           }
         },
@@ -14119,9 +14182,9 @@
           }
         },
         "DailyDuty": {
-          "BuiltCommit": "28ddaee76f91bb8d0821517778650922a8f5c117",
-          "TimeBuilt": "2024-12-02T02:12:50.9535467+00:00",
-          "EffectiveVersion": "5.2.1.2",
+          "BuiltCommit": "f84d48877f8f982ddc4400a90bc40732f28a6242",
+          "TimeBuilt": "2024-12-03T21:24:33.4895297+00:00",
+          "EffectiveVersion": "5.2.1.3",
           "MinimumVersion": null,
           "Changelogs": {
             "5.2.0.0": {
@@ -14505,6 +14568,69 @@
                 }
               ],
               "Reviewer": "reiichi001"
+            },
+            "5.2.1.3": {
+              "TimeReleased": "2024-12-03T21:24:33.4895305+00:00",
+              "Changelog": "Once more, attempt to fix Content Finder Coloring.",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiLib",
+                  "Version": "188848ea4894291dfbff8cac0fc25ad7994e9e35"
+                },
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit.git",
+                  "Version": "d26598451448a92bce729d2f039d725c75ba1360"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "NetStone",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "HtmlAgilityPack",
+                  "Version": "1.11.46"
+                },
+                {
+                  "Key": "Karashiiro.HtmlAgilityPack.CssSelectors.NetCoreFork",
+                  "Version": "0.0.2"
+                },
+                {
+                  "Key": "Microsoft.Build.Tasks.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Common",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitHub",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitLab",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.3"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "philpax"
             }
           }
         },
@@ -26440,9 +26566,9 @@
           }
         },
         "Craftimizer": {
-          "BuiltCommit": "9727a715f5b495424da1f3b90776d07ddb7fc248",
-          "TimeBuilt": "2024-11-29T05:49:12.0188358+00:00",
-          "EffectiveVersion": "2.6.0.0",
+          "BuiltCommit": "627804e33047fab65fa54b7f2aedd78b22847497",
+          "TimeBuilt": "2024-12-03T21:23:47.7121235+00:00",
+          "EffectiveVersion": "2.6.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "2.5.3.0": {
@@ -26502,6 +26628,37 @@
                 }
               ],
               "Reviewer": "reiichi001"
+            },
+            "2.6.1.0": {
+              "TimeReleased": "2024-12-03T21:23:47.7121622+00:00",
+              "Changelog": "- Added credits to Raphael\r\n- Fix Optimal solver in some conditions\r\n- Fix errors and crafting issues with some collectable relic crafts",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "MathNet.Numerics",
+                  "Version": "5.0.0"
+                },
+                {
+                  "Key": "Meziantou.Analyzer",
+                  "Version": "2.0.179"
+                },
+                {
+                  "Key": "DotNext",
+                  "Version": "5.14.0"
+                },
+                {
+                  "Key": "Raphael.Net",
+                  "Version": "1.0.0"
+                },
+                {
+                  "Key": "System.IO.Hashing",
+                  "Version": "8.0.0"
+                }
+              ],
+              "Reviewer": "philpax"
             }
           }
         },
@@ -28427,9 +28584,9 @@
           }
         },
         "ChatTranslated": {
-          "BuiltCommit": "cc1cbab8afd343b91405a7b395363711efbf3ddf",
-          "TimeBuilt": "2024-11-16T07:08:09.9539564+00:00",
-          "EffectiveVersion": "3.3.0.5",
+          "BuiltCommit": "ce9ea6065ea386a65e8cb835effdd86c8fee1d04",
+          "TimeBuilt": "2024-12-03T21:24:23.1018674+00:00",
+          "EffectiveVersion": "3.3.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.2.0.0": {
@@ -28743,6 +28900,21 @@
                 }
               ],
               "Reviewer": "reiichi001"
+            },
+            "3.3.1.0": {
+              "TimeReleased": "2024-12-03T21:24:23.1018686+00:00",
+              "Changelog": "Twisted chat cleaning a bit.\r\nIntegrated OpenAI compatible class to keep things simple.\r\nRemoved RAG since it doesn\u0027t seem to help.\r\nRotate secret for LLM proxy.\r\nActually get active chatlog when getting chat context, instead of always getting the first chat tab.\r\nUpdate localization strings.\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "GTranslate",
+                  "Version": "2.2.8"
+                }
+              ],
+              "Reviewer": "philpax"
             }
           }
         },
@@ -38758,9 +38930,9 @@
           }
         },
         "Umbra": {
-          "BuiltCommit": "f673d7e7b6cbe4143be8b7bf3adb36f273cfe049",
-          "TimeBuilt": "2024-12-02T02:16:23.8723539+00:00",
-          "EffectiveVersion": "2.3.3.0",
+          "BuiltCommit": "6ed3a69aad1035a38a55cab61caa18de94f4b7c3",
+          "TimeBuilt": "2024-12-03T21:24:05.6763762+00:00",
+          "EffectiveVersion": "2.3.4.0",
           "MinimumVersion": null,
           "Changelogs": {
             "2.1.8.0": {
@@ -39273,6 +39445,37 @@
                 }
               ],
               "Reviewer": "reiichi001"
+            },
+            "2.3.4.0": {
+              "TimeReleased": "2024-12-03T21:24:05.6763772+00:00",
+              "Changelog": "# Umbra 2.3.4\n\n## New Additions\n\n- Added an option that allows you to customize the maximum visible distance of world markers. This means that markers will no longer render if they are further away than the configured distance. You can find this option for each individual marker type under the \u0022World Markers\u0022 panel in Umbra\u0027s settings window.\n\n## Fixes \u0026 Improvements\n\n- Fixed Adjacent Area Marker positions for maps with offsets. (Thanks Wildwolf!)\n- Added additional toggleable marker types to Adjacent Area Markers (Aetheryte, Aethernet, Taxi, etc.)\n\nJoin [Umbra\u0027s Discord server](https://discord.gg/xaEnsuAhmm) for the latest updates and information.\nVisit the [website](https://una-xiv.github.io/umbra-docs/) for more information and guides on how to make the most out of Umbra.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/una-xiv/drawing.git",
+                  "Version": "ebba7bc435ac270e0c0488ac99b54ac4e90ade43"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.ObjectPool",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "SkiaSharp",
+                  "Version": "3.118.0-preview.1.2"
+                },
+                {
+                  "Key": "SkiaSharp.NativeAssets.macOS",
+                  "Version": "3.118.0-preview.1.2"
+                },
+                {
+                  "Key": "SkiaSharp.NativeAssets.Win32",
+                  "Version": "3.118.0-preview.1.2"
+                }
+              ],
+              "Reviewer": "philpax"
             }
           }
         },
@@ -39651,9 +39854,9 @@
           }
         },
         "DragoonMayCry": {
-          "BuiltCommit": "c90e2b650f1eacbfc961bc2089cd51975330978e",
-          "TimeBuilt": "2024-11-27T16:38:21.3659174+00:00",
-          "EffectiveVersion": "1.2.3.3",
+          "BuiltCommit": "c8978cef7e34c18b5e81a3587c24b74aca1417c4",
+          "TimeBuilt": "2024-12-03T21:24:42.9016432+00:00",
+          "EffectiveVersion": "1.2.3.4",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -40298,6 +40501,77 @@
             "1.2.3.3": {
               "TimeReleased": "2024-11-27T16:38:21.3659186+00:00",
               "Changelog": "- Fixed a bug that would block audio from the game after a change in the default audio output\n",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/Felscream/KamiLib",
+                  "Version": "42c1720b042c69763c6787c409ab0efd342aaf86"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "NAudio",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Vorbis",
+                  "Version": "1.5.0"
+                },
+                {
+                  "Key": "Microsoft.NETCore.Platforms",
+                  "Version": "3.1.0"
+                },
+                {
+                  "Key": "Microsoft.Win32.Registry",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "NAudio.Asio",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Core",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Midi",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Wasapi",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.WinMM",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NVorbis",
+                  "Version": "0.10.4"
+                },
+                {
+                  "Key": "System.Memory",
+                  "Version": "4.5.3"
+                },
+                {
+                  "Key": "System.Security.AccessControl",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "System.Security.Principal.Windows",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "System.ValueTuple",
+                  "Version": "4.5.0"
+                }
+              ],
+              "Reviewer": "philpax"
+            },
+            "1.2.3.4": {
+              "TimeReleased": "2024-12-03T21:24:42.9016441+00:00",
+              "Changelog": "- fix : LB effects would trigger mutiple times when multiple targets are hit\n",
               "UsedNeeds": [
                 {
                   "Key": "https://github.com/Felscream/KamiLib",
@@ -50716,9 +50990,9 @@
           }
         },
         "AbsoluteRoleplay": {
-          "BuiltCommit": "ba0dee2311a4bff51c9b527094cb1006155cc8c0",
-          "TimeBuilt": "2024-11-29T21:51:03.8010334+00:00",
-          "EffectiveVersion": "0.0.0.17",
+          "BuiltCommit": "1225131ae56628bf3a7a02425adb88b2dec80383",
+          "TimeBuilt": "2024-12-03T21:24:54.9439799+00:00",
+          "EffectiveVersion": "0.0.0.18",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.0.1": {
@@ -52295,6 +52569,85 @@
                 }
               ],
               "Reviewer": "reiichi001"
+            },
+            "0.0.0.18": {
+              "TimeReleased": "2024-12-03T21:24:54.9439808+00:00",
+              "Changelog": "Added more options for tooltips to disable when bound to pvp or duty as well as a new profile preview button.",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/Ottermandias/OtterGui.git",
+                  "Version": "c2738e1d42974cddbe5a31238c6ed236a831d17d"
+                },
+                {
+                  "Key": "https://github.com/Ottermandias/OtterGuiInternal.git",
+                  "Version": "89d145286c148f6cb23ef6f7757e5f750a71e223"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "Lumina",
+                  "Version": "5.3.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Hosting.Abstractions",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "System.Drawing.Common",
+                  "Version": "8.0.6"
+                },
+                {
+                  "Key": "JetBrains.Annotations",
+                  "Version": "2023.3.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Abstractions",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Diagnostics.Abstractions",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileProviders.Abstractions",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.ObjectPool",
+                  "Version": "8.0.7"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Primitives",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Win32.SystemEvents",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "System.Diagnostics.DiagnosticSource",
+                  "Version": "8.0.0"
+                }
+              ],
+              "Reviewer": "philpax"
             }
           }
         },
@@ -61047,6 +61400,13 @@
       "Version": "1.2.0",
       "ReviewedBy": "reiichi001",
       "ReviewedAt": "2024-12-01T06:56:42.2045918Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/MidoriKami/KamiLib",
+      "Version": "28de3cb486f9c8384f9f6c5c5772c8d0618ef6fd",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2024-12-03T21:24:15.6408195Z"
     }
   ]
 }
