@@ -11173,9 +11173,9 @@
           }
         },
         "GlamourSpamRemover": {
-          "BuiltCommit": "5f3e7bc83f62b06c3f56d8a7dc86e372e6565b51",
-          "TimeBuilt": "2024-11-19T18:18:24.6481593+00:00",
-          "EffectiveVersion": "1.2.0.0",
+          "BuiltCommit": "107ffe9326600c6209f497db59cca7e4a4f8772c",
+          "TimeBuilt": "2024-12-03T19:17:11.0176754+00:00",
+          "EffectiveVersion": "1.2.3.1",
           "MinimumVersion": null,
           "Changelogs": {
             "1.1.0.0": {
@@ -11194,6 +11194,17 @@
                 }
               ],
               "Reviewer": "philpax"
+            },
+            "1.2.3.1": {
+              "TimeReleased": "2024-12-03T19:17:11.0177156+00:00",
+              "Changelog": "Addressed bug where messages would not get removed if name display settings were not the default value.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
