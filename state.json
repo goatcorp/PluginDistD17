@@ -39308,9 +39308,9 @@
           }
         },
         "TidyChat": {
-          "BuiltCommit": "79401d1d9282c513c3c753ee295f2229d72c79c3",
-          "TimeBuilt": "2024-11-30T16:04:15.1546143+00:00",
-          "EffectiveVersion": "2.0.10.0",
+          "BuiltCommit": "9678195b23cc4f69d5fd9c795c849bee824b373e",
+          "TimeBuilt": "2024-12-03T19:20:06.592599+00:00",
+          "EffectiveVersion": "2.0.11.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.2.2.0": {
@@ -39445,6 +39445,29 @@
             "2.0.10.0": {
               "TimeReleased": "2024-11-30T16:04:15.1546535+00:00",
               "Changelog": "Disable Tidy Chat for combat-related channels ; fix S Rank Hunts and Experience Gain filters",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "Meziantou.Analyzer",
+                  "Version": "2.0.161"
+                },
+                {
+                  "Key": "TextCopy",
+                  "Version": "6.2.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "7.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            },
+            "2.0.11.0": {
+              "TimeReleased": "2024-12-03T19:20:06.5926381+00:00",
+              "Changelog": "Skip messages filtered by other plugins such as NoSol to prevent unfiltering them. Narrows the channels that run filters further as unnecessary channels were still having rules ran against them",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
