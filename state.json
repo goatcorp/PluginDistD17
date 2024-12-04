@@ -38993,9 +38993,9 @@
           }
         },
         "Umbra": {
-          "BuiltCommit": "6ed3a69aad1035a38a55cab61caa18de94f4b7c3",
-          "TimeBuilt": "2024-12-03T21:24:05.6763762+00:00",
-          "EffectiveVersion": "2.3.4.0",
+          "BuiltCommit": "4ca0ef3a01dd128c66c1ad4ea8c0377f8eb664ec",
+          "TimeBuilt": "2024-12-04T13:45:57.5350667+00:00",
+          "EffectiveVersion": "2.3.5.0",
           "MinimumVersion": null,
           "Changelogs": {
             "2.1.8.0": {
@@ -39512,6 +39512,37 @@
             "2.3.4.0": {
               "TimeReleased": "2024-12-03T21:24:05.6763772+00:00",
               "Changelog": "# Umbra 2.3.4\n\n## New Additions\n\n- Added an option that allows you to customize the maximum visible distance of world markers. This means that markers will no longer render if they are further away than the configured distance. You can find this option for each individual marker type under the \u0022World Markers\u0022 panel in Umbra\u0027s settings window.\n\n## Fixes \u0026 Improvements\n\n- Fixed Adjacent Area Marker positions for maps with offsets. (Thanks Wildwolf!)\n- Added additional toggleable marker types to Adjacent Area Markers (Aetheryte, Aethernet, Taxi, etc.)\n\nJoin [Umbra\u0027s Discord server](https://discord.gg/xaEnsuAhmm) for the latest updates and information.\nVisit the [website](https://una-xiv.github.io/umbra-docs/) for more information and guides on how to make the most out of Umbra.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/una-xiv/drawing.git",
+                  "Version": "ebba7bc435ac270e0c0488ac99b54ac4e90ade43"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.ObjectPool",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "SkiaSharp",
+                  "Version": "3.118.0-preview.1.2"
+                },
+                {
+                  "Key": "SkiaSharp.NativeAssets.macOS",
+                  "Version": "3.118.0-preview.1.2"
+                },
+                {
+                  "Key": "SkiaSharp.NativeAssets.Win32",
+                  "Version": "3.118.0-preview.1.2"
+                }
+              ],
+              "Reviewer": "philpax"
+            },
+            "2.3.5.0": {
+              "TimeReleased": "2024-12-04T13:45:57.5351065+00:00",
+              "Changelog": "# Umbra 2.3.5\n\n## Fixes \u0026 Improvements\n\n- Fixed a crash in the Party Member World Markers due to the missing \u0022Max Visible Distance\u0022 configuration variable (by [mustafakalash](https://github.com/mustafakalash)).\n\nJoin [Umbra\u0027s Discord server](https://discord.gg/xaEnsuAhmm) for the latest updates and information.\nVisit the [website](https://una-xiv.github.io/umbra-docs/) for more information and guides on how to make the most out of Umbra.\n",
               "UsedNeeds": [
                 {
                   "Key": "https://github.com/una-xiv/drawing.git",
