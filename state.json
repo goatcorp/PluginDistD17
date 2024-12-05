@@ -35641,9 +35641,9 @@
           }
         },
         "WTSync": {
-          "BuiltCommit": "bad99025cde42e0e6ee93eb3ea0353bfc49c8bc0",
-          "TimeBuilt": "2024-12-01T21:32:05.4926226+00:00",
-          "EffectiveVersion": "0.14.0.0",
+          "BuiltCommit": "091120354ed4d79ecc77eb4165be148949d79ecf",
+          "TimeBuilt": "2024-12-05T11:14:46.2552002+00:00",
+          "EffectiveVersion": "0.15.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.11.0.0": {
@@ -35756,6 +35756,41 @@
                 }
               ],
               "Reviewer": "reiichi001"
+            },
+            "0.15.0.0": {
+              "TimeReleased": "2024-12-05T11:14:46.2552424+00:00",
+              "Changelog": "* Added: Ability to switch WTSync to offline mode without disabling it. In offline mode, your Wondrous Tails data won\u0027t be sent to the server and you won\u0027t receive any data from the server about your party members.\n* Changed: Ensure data is erased from the server when disabling WTSync without logging out first.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "Websocket.Client",
+                  "Version": "5.1.2"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.IO.RecyclableMemoryStream",
+                  "Version": "3.0.0"
+                },
+                {
+                  "Key": "System.Reactive",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "System.Threading.Channels",
+                  "Version": "8.0.0"
+                }
+              ],
+              "Reviewer": "philpax"
             }
           }
         },
