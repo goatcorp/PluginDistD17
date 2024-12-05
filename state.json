@@ -40367,9 +40367,9 @@
           }
         },
         "DragoonMayCry": {
-          "BuiltCommit": "c8978cef7e34c18b5e81a3587c24b74aca1417c4",
-          "TimeBuilt": "2024-12-03T21:24:42.9016432+00:00",
-          "EffectiveVersion": "1.2.3.4",
+          "BuiltCommit": "e58e6183cdb71abfe67b4e74c7f5d166a435690c",
+          "TimeBuilt": "2024-12-05T00:07:26.4406024+00:00",
+          "EffectiveVersion": "1.2.4.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -41152,6 +41152,77 @@
                 }
               ],
               "Reviewer": "philpax"
+            },
+            "1.2.4.0": {
+              "TimeReleased": "2024-12-05T00:07:26.4406034+00:00",
+              "Changelog": "- Removed check box to enable \u0027Estinien Must Die\u0027\n- Difficulties selectable with a combo selection : \u0027Sprout\u0027, \u0027Wyrm Hunter\u0027 (default), \u0027Estinien Must Die\u0027\n- New difficulty mode \u0022Sprout\u0022 :\n  - Dropping your GCD will increase the decay rate of the progress gauge instead of demoting you.\n  - Duties performance are not recorded for jobs in Sprout mode\n- Added a 3s delay before the demotion warning starts if you just have been demoted.\n- Increased the configurable range limit to determine if a GCD was dropped from 1 s to 2.5 s \n",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/Felscream/KamiLib",
+                  "Version": "42c1720b042c69763c6787c409ab0efd342aaf86"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "NAudio",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Vorbis",
+                  "Version": "1.5.0"
+                },
+                {
+                  "Key": "Microsoft.NETCore.Platforms",
+                  "Version": "3.1.0"
+                },
+                {
+                  "Key": "Microsoft.Win32.Registry",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "NAudio.Asio",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Core",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Midi",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Wasapi",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.WinMM",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NVorbis",
+                  "Version": "0.10.4"
+                },
+                {
+                  "Key": "System.Memory",
+                  "Version": "4.5.3"
+                },
+                {
+                  "Key": "System.Security.AccessControl",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "System.Security.Principal.Windows",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "System.ValueTuple",
+                  "Version": "4.5.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
@@ -47205,500 +47276,6 @@
               "Changelog": "1.4.0.0\n\nRelease for 7.1!\n\nThe release for DT is finally here! Nothing special changed, there is now a blue T infront of the context Menu. But it Works!\n\n",
               "UsedNeeds": null,
               "Reviewer": null
-            }
-          }
-        },
-        "DragoonMayCry": {
-          "BuiltCommit": "5918785aaee1406779c324c922fe0006a9f5df54",
-          "TimeBuilt": "2024-10-24T16:07:18.9085398+00:00",
-          "EffectiveVersion": "1.2.0.1",
-          "MinimumVersion": null,
-          "Changelogs": {
-            "0.5.1.0": {
-              "TimeReleased": "2024-09-02T09:23:52.749",
-              "Changelog": "First submission, still WiP",
-              "UsedNeeds": null,
-              "Reviewer": null
-            },
-            "0.6.4.0": {
-              "TimeReleased": "2024-09-03T11:48:27.354",
-              "Changelog": "Added a final encounter rank based on time spent in each tier. Disabled for PvP. Bugfixes around the active outside instance option.",
-              "UsedNeeds": null,
-              "Reviewer": null
-            },
-            "0.7.1.0": {
-              "TimeReleased": "2024-09-05T19:18:09.164",
-              "Changelog": "v0.7.1\n\n- You shouldn\u0027t get demoted if you are incapacitated and the demotion timer didn\u0027t start\n- Fixed a bug where receiving damage from named abilities was considered dealing damage\n- The plugin shouldn\u0027t run if you are using a class and not a job\n- Added a window to explain how things work\n",
-              "UsedNeeds": null,
-              "Reviewer": null
-            },
-            "0.7.3.0": {
-              "TimeReleased": "2024-09-06T11:11:23.701",
-              "Changelog": "v0.7.3\n- Bugfixes and performance improvement\n",
-              "UsedNeeds": null,
-              "Reviewer": null
-            },
-            "0.7.5.0": {
-              "TimeReleased": "2024-09-09T21:23:37.505",
-              "Changelog": "v0.7.5\n- Bugfixes\n- Reworked the configuration ui\n",
-              "UsedNeeds": null,
-              "Reviewer": null
-            },
-            "0.12.0.2": {
-              "TimeReleased": "2024-09-15T16:10:50.303",
-              "Changelog": "- Added announcers and dynamic background music selectable on a job per job basis\n- Announcers :\n    - Default DmC5 (new default)\n    - DmC5 Balrog VA / Michael Schwalbe\n    - Nico\n    - Morisson\n- Dynamic BGM (experimental, only inside instances, will mute game\u0027s BGM)\n    - Bury the Light\n    - Devil Trigger\n    - Crimson Cloud\n- Changed some values, it shouls take longer to reach S, but it should be easier to maintain\n- Bugfixes\n",
-              "UsedNeeds": null,
-              "Reviewer": null
-            },
-            "0.12.0.3": {
-              "TimeReleased": "2024-09-16T12:46:17.069",
-              "Changelog": "- Bugfix : the plugin wouldn\u0027t initialize on some windows configuration\n",
-              "UsedNeeds": null,
-              "Reviewer": null
-            },
-            "0.12.2.1": {
-              "TimeReleased": "2024-09-21T16:07:04.948",
-              "Changelog": "- Reworked the job configuration UI\n- It is now possible to disable the plugin for specific jobs\n- Added a muffled effect on death to the dynamic BGM\n- Bugfixes :\n    - Dynamic BGM wouldn\u0027t start if you entered a non PvP instance from the wolve\u0027s den pier\n    - The game\u0027s BGM wouldn\u0027t unmute if you disabled dynamic BGM inside an instance\n    - Changing the OS audio default output device will now redirect sound to the new output instead of playing on the old one\n    - Sometimes, the dynamic BGM would not transition to the combat state due to an error\n",
-              "UsedNeeds": null,
-              "Reviewer": null
-            },
-            "0.12.2.5": {
-              "TimeReleased": "2024-09-23T18:14:56.996",
-              "Changelog": "- Added more debuffs that shouldn\u0027t derank you\n- BGM will fade out when leaving an instance\n- Toggling the muffled on death option will actually enable / disable it\n- Bugfixes :\n    - Dynamic BGM wouldn\u0027t transition properly into the combat state\n    - Fixed transition timings in Bury the Light\n    - Final rank wouldn\u0027t display\n",
-              "UsedNeeds": null,
-              "Reviewer": null
-            },
-            "0.13.2.0": {
-              "TimeReleased": "2024-09-29T01:13:39.867",
-              "Changelog": "- Compatibility with FlyTextFilter plugin\n- Added Subhuman\n- Added Estinien Must Die mode\n\nKnown issue : ranking down while a Subhuman transition is playing may cause blank in the audio for a short time\n",
-              "UsedNeeds": null,
-              "Reviewer": null
-            },
-            "1.0.0.0": {
-              "TimeReleased": "2024-10-04T05:43:30.827",
-              "Changelog": "Stable release\n",
-              "UsedNeeds": [
-                {
-                  "Key": "https://github.com/Felscream/KamiLib",
-                  "Version": "7c072cbfbddddb5d4c38c38ca1397225e7bad25f"
-                },
-                {
-                  "Key": "DalamudPackager",
-                  "Version": "2.1.13"
-                },
-                {
-                  "Key": "NAudio",
-                  "Version": "2.2.1"
-                },
-                {
-                  "Key": "NAudio.Vorbis",
-                  "Version": "1.5.0"
-                },
-                {
-                  "Key": "Microsoft.NETCore.Platforms",
-                  "Version": "3.1.0"
-                },
-                {
-                  "Key": "Microsoft.Win32.Registry",
-                  "Version": "4.7.0"
-                },
-                {
-                  "Key": "NAudio.Asio",
-                  "Version": "2.2.1"
-                },
-                {
-                  "Key": "NAudio.Core",
-                  "Version": "2.2.1"
-                },
-                {
-                  "Key": "NAudio.Midi",
-                  "Version": "2.2.1"
-                },
-                {
-                  "Key": "NAudio.Wasapi",
-                  "Version": "2.2.1"
-                },
-                {
-                  "Key": "NAudio.WinMM",
-                  "Version": "2.2.1"
-                },
-                {
-                  "Key": "NVorbis",
-                  "Version": "0.10.4"
-                },
-                {
-                  "Key": "System.Memory",
-                  "Version": "4.5.3"
-                },
-                {
-                  "Key": "System.Security.AccessControl",
-                  "Version": "4.7.0"
-                },
-                {
-                  "Key": "System.Security.Principal.Windows",
-                  "Version": "4.7.0"
-                },
-                {
-                  "Key": "System.ValueTuple",
-                  "Version": "4.5.0"
-                }
-              ],
-              "Reviewer": "bleatbot"
-            },
-            "1.0.1.0": {
-              "TimeReleased": "2024-10-07T20:42:53.3750128+00:00",
-              "Changelog": "- Final rank is now attributed based on total encounter uptime\n",
-              "UsedNeeds": [
-                {
-                  "Key": "https://github.com/Felscream/KamiLib",
-                  "Version": "7c072cbfbddddb5d4c38c38ca1397225e7bad25f"
-                },
-                {
-                  "Key": "DalamudPackager",
-                  "Version": "2.1.13"
-                },
-                {
-                  "Key": "NAudio",
-                  "Version": "2.2.1"
-                },
-                {
-                  "Key": "NAudio.Vorbis",
-                  "Version": "1.5.0"
-                },
-                {
-                  "Key": "Microsoft.NETCore.Platforms",
-                  "Version": "3.1.0"
-                },
-                {
-                  "Key": "Microsoft.Win32.Registry",
-                  "Version": "4.7.0"
-                },
-                {
-                  "Key": "NAudio.Asio",
-                  "Version": "2.2.1"
-                },
-                {
-                  "Key": "NAudio.Core",
-                  "Version": "2.2.1"
-                },
-                {
-                  "Key": "NAudio.Midi",
-                  "Version": "2.2.1"
-                },
-                {
-                  "Key": "NAudio.Wasapi",
-                  "Version": "2.2.1"
-                },
-                {
-                  "Key": "NAudio.WinMM",
-                  "Version": "2.2.1"
-                },
-                {
-                  "Key": "NVorbis",
-                  "Version": "0.10.4"
-                },
-                {
-                  "Key": "System.Memory",
-                  "Version": "4.5.3"
-                },
-                {
-                  "Key": "System.Security.AccessControl",
-                  "Version": "4.7.0"
-                },
-                {
-                  "Key": "System.Security.Principal.Windows",
-                  "Version": "4.7.0"
-                },
-                {
-                  "Key": "System.ValueTuple",
-                  "Version": "4.5.0"
-                }
-              ],
-              "Reviewer": "reiichi001"
-            },
-            "1.1.0.1": {
-              "TimeReleased": "2024-10-10T19:16:21.2837877+00:00",
-              "Changelog": "- The best final rank in selected duties is saved for your character.\n- Only Dawntrail raids and trials available before 7.10, and previous expansions ultimates are currently tracked.\n- Failing a mechanic will impact your final rank.\n- Added on option to disable chat output.\nMore info available on the \u0027How it works\u0027 window.\n",
-              "UsedNeeds": [
-                {
-                  "Key": "https://github.com/Felscream/KamiLib",
-                  "Version": "7c072cbfbddddb5d4c38c38ca1397225e7bad25f"
-                },
-                {
-                  "Key": "DalamudPackager",
-                  "Version": "2.1.13"
-                },
-                {
-                  "Key": "NAudio",
-                  "Version": "2.2.1"
-                },
-                {
-                  "Key": "NAudio.Vorbis",
-                  "Version": "1.5.0"
-                },
-                {
-                  "Key": "Microsoft.NETCore.Platforms",
-                  "Version": "3.1.0"
-                },
-                {
-                  "Key": "Microsoft.Win32.Registry",
-                  "Version": "4.7.0"
-                },
-                {
-                  "Key": "NAudio.Asio",
-                  "Version": "2.2.1"
-                },
-                {
-                  "Key": "NAudio.Core",
-                  "Version": "2.2.1"
-                },
-                {
-                  "Key": "NAudio.Midi",
-                  "Version": "2.2.1"
-                },
-                {
-                  "Key": "NAudio.Wasapi",
-                  "Version": "2.2.1"
-                },
-                {
-                  "Key": "NAudio.WinMM",
-                  "Version": "2.2.1"
-                },
-                {
-                  "Key": "NVorbis",
-                  "Version": "0.10.4"
-                },
-                {
-                  "Key": "System.Memory",
-                  "Version": "4.5.3"
-                },
-                {
-                  "Key": "System.Security.AccessControl",
-                  "Version": "4.7.0"
-                },
-                {
-                  "Key": "System.Security.Principal.Windows",
-                  "Version": "4.7.0"
-                },
-                {
-                  "Key": "System.ValueTuple",
-                  "Version": "4.5.0"
-                }
-              ],
-              "Reviewer": "reiichi001"
-            },
-            "1.1.0.2": {
-              "TimeReleased": "2024-10-17T21:43:40.8502115+00:00",
-              "Changelog": "Kill date was not read from stored data\n",
-              "UsedNeeds": [
-                {
-                  "Key": "https://github.com/Felscream/KamiLib",
-                  "Version": "7c072cbfbddddb5d4c38c38ca1397225e7bad25f"
-                },
-                {
-                  "Key": "DalamudPackager",
-                  "Version": "2.1.13"
-                },
-                {
-                  "Key": "NAudio",
-                  "Version": "2.2.1"
-                },
-                {
-                  "Key": "NAudio.Vorbis",
-                  "Version": "1.5.0"
-                },
-                {
-                  "Key": "Microsoft.NETCore.Platforms",
-                  "Version": "3.1.0"
-                },
-                {
-                  "Key": "Microsoft.Win32.Registry",
-                  "Version": "4.7.0"
-                },
-                {
-                  "Key": "NAudio.Asio",
-                  "Version": "2.2.1"
-                },
-                {
-                  "Key": "NAudio.Core",
-                  "Version": "2.2.1"
-                },
-                {
-                  "Key": "NAudio.Midi",
-                  "Version": "2.2.1"
-                },
-                {
-                  "Key": "NAudio.Wasapi",
-                  "Version": "2.2.1"
-                },
-                {
-                  "Key": "NAudio.WinMM",
-                  "Version": "2.2.1"
-                },
-                {
-                  "Key": "NVorbis",
-                  "Version": "0.10.4"
-                },
-                {
-                  "Key": "System.Memory",
-                  "Version": "4.5.3"
-                },
-                {
-                  "Key": "System.Security.AccessControl",
-                  "Version": "4.7.0"
-                },
-                {
-                  "Key": "System.Security.Principal.Windows",
-                  "Version": "4.7.0"
-                },
-                {
-                  "Key": "System.ValueTuple",
-                  "Version": "4.5.0"
-                }
-              ],
-              "Reviewer": "philpax"
-            },
-            "1.2.0.0": {
-              "TimeReleased": "2024-10-22T19:23:55.8465766+00:00",
-              "Changelog": "- The time window used to determine if a GCD is dropped or clipped is now configurable. This will not affect how the final rank is calculated.\n- Added modifiers for Astrologian, Bard, Scholar, Sage and White Mage :\n    - Refreshing DoTs before they fade will grants points to the style meter\n    - Using AST cards, Scholar\u0027s energy drain, Sage\u0027s addersgall, and WHM lilies will also grant points to the meter.\nMore info about those modifiers in the \u0027How it works\u0027 window.\n",
-              "UsedNeeds": [
-                {
-                  "Key": "https://github.com/Felscream/KamiLib",
-                  "Version": "7c072cbfbddddb5d4c38c38ca1397225e7bad25f"
-                },
-                {
-                  "Key": "DalamudPackager",
-                  "Version": "2.1.13"
-                },
-                {
-                  "Key": "NAudio",
-                  "Version": "2.2.1"
-                },
-                {
-                  "Key": "NAudio.Vorbis",
-                  "Version": "1.5.0"
-                },
-                {
-                  "Key": "Microsoft.NETCore.Platforms",
-                  "Version": "3.1.0"
-                },
-                {
-                  "Key": "Microsoft.Win32.Registry",
-                  "Version": "4.7.0"
-                },
-                {
-                  "Key": "NAudio.Asio",
-                  "Version": "2.2.1"
-                },
-                {
-                  "Key": "NAudio.Core",
-                  "Version": "2.2.1"
-                },
-                {
-                  "Key": "NAudio.Midi",
-                  "Version": "2.2.1"
-                },
-                {
-                  "Key": "NAudio.Wasapi",
-                  "Version": "2.2.1"
-                },
-                {
-                  "Key": "NAudio.WinMM",
-                  "Version": "2.2.1"
-                },
-                {
-                  "Key": "NVorbis",
-                  "Version": "0.10.4"
-                },
-                {
-                  "Key": "System.Memory",
-                  "Version": "4.5.3"
-                },
-                {
-                  "Key": "System.Security.AccessControl",
-                  "Version": "4.7.0"
-                },
-                {
-                  "Key": "System.Security.Principal.Windows",
-                  "Version": "4.7.0"
-                },
-                {
-                  "Key": "System.ValueTuple",
-                  "Version": "4.5.0"
-                }
-              ],
-              "Reviewer": "reiichi001"
-            },
-            "1.2.0.1": {
-              "TimeReleased": "2024-10-24T16:07:18.9085814+00:00",
-              "Changelog": "- The time window used to determine if a GCD is dropped or clipped is now configurable. This will not affect how the final rank is calculated.\n- Added modifiers for Astrologian, Bard, Scholar, Sage and White Mage :\n    - Refreshing DoTs before they fade will grants points to the style meter\n    - Using AST cards, Scholar\u0027s energy drain, Sage\u0027s addersgall, and WHM lilies will also grant points to the meter.\nMore info about those modifiers in the \u0027How it works\u0027 window.\n",
-              "UsedNeeds": [
-                {
-                  "Key": "https://github.com/Felscream/KamiLib",
-                  "Version": "7c072cbfbddddb5d4c38c38ca1397225e7bad25f"
-                },
-                {
-                  "Key": "DalamudPackager",
-                  "Version": "2.1.13"
-                },
-                {
-                  "Key": "NAudio",
-                  "Version": "2.2.1"
-                },
-                {
-                  "Key": "NAudio.Vorbis",
-                  "Version": "1.5.0"
-                },
-                {
-                  "Key": "Microsoft.NETCore.Platforms",
-                  "Version": "3.1.0"
-                },
-                {
-                  "Key": "Microsoft.Win32.Registry",
-                  "Version": "4.7.0"
-                },
-                {
-                  "Key": "NAudio.Asio",
-                  "Version": "2.2.1"
-                },
-                {
-                  "Key": "NAudio.Core",
-                  "Version": "2.2.1"
-                },
-                {
-                  "Key": "NAudio.Midi",
-                  "Version": "2.2.1"
-                },
-                {
-                  "Key": "NAudio.Wasapi",
-                  "Version": "2.2.1"
-                },
-                {
-                  "Key": "NAudio.WinMM",
-                  "Version": "2.2.1"
-                },
-                {
-                  "Key": "NVorbis",
-                  "Version": "0.10.4"
-                },
-                {
-                  "Key": "System.Memory",
-                  "Version": "4.5.3"
-                },
-                {
-                  "Key": "System.Security.AccessControl",
-                  "Version": "4.7.0"
-                },
-                {
-                  "Key": "System.Security.Principal.Windows",
-                  "Version": "4.7.0"
-                },
-                {
-                  "Key": "System.ValueTuple",
-                  "Version": "4.5.0"
-                }
-              ],
-              "Reviewer": "philpax"
             }
           }
         },
