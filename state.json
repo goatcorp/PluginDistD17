@@ -3542,9 +3542,9 @@
           }
         },
         "XIVCombo": {
-          "BuiltCommit": "df259c4b57c99efa0ddfe8d8ffa6e29a14b759dd",
-          "TimeBuilt": "2024-08-12T05:15:45.601",
-          "EffectiveVersion": "1.8.5.0",
+          "BuiltCommit": "35c8e78d8039d40236c29d72b809b1faa6816c14",
+          "TimeBuilt": "2024-12-06T03:08:46.1871122+00:00",
+          "EffectiveVersion": "1.8.6.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.7.14.0": {
@@ -3618,6 +3618,17 @@
               "Changelog": "Dawntrail update, supporting new jobs and abilities, cleaning up obsolete combosWelcome to the family MNK\n\t\t",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "1.8.6.0": {
+              "TimeReleased": "2024-12-06T03:08:46.1871532+00:00",
+              "Changelog": "7.1we did it reddit\n\t\t",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
