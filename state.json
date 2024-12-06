@@ -47318,9 +47318,9 @@
           }
         },
         "GaugeOMatic": {
-          "BuiltCommit": "ae4c3659afadb3552fb32f6257c2b4b20d934bfc",
-          "TimeBuilt": "2024-11-20T23:49:06.5636512+00:00",
-          "EffectiveVersion": "0.8.1.3",
+          "BuiltCommit": "7509ffce1dfd4ef9e4a812a48f1ce0af587a432e",
+          "TimeBuilt": "2024-12-06T21:49:33.750798+00:00",
+          "EffectiveVersion": "0.8.1.4",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.1.6": {
@@ -47492,6 +47492,17 @@
             "0.8.1.3": {
               "TimeReleased": "2024-11-20T23:49:06.5636528+00:00",
               "Changelog": "## TRACKERS\n- Added multiple song trackers for BRD. These can be used to track song time remaining, stacks of Repertoire, and/or Minstrel\u0027s Coda status.\n\n## MISC\n- Added the missing \u0060Behavior\u0060 tab to the \u0060Simple Timer\u0060 widget.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "philpax"
+            },
+            "0.8.1.4": {
+              "TimeReleased": "2024-12-06T21:49:33.7508397+00:00",
+              "Changelog": "## WIDGETS\n- Added an Icon option to bar \u0026 timer widgets. You can now display the icon for an action or status effect next to its widget. (Also works dynamically with castbar widgets!)\n- Added the missing \u0022Behavior\u0022 tab to more widgets. Whoops!\n\nCurrently only bar \u0026 timer widgets have sound and icon options, but these settings will be added to other widget types in the (hopefully near) future.\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
