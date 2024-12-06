@@ -23956,11 +23956,51 @@
           }
         },
         "BatteryGauge": {
-          "BuiltCommit": "a1b9eac798800eac55c31a1712284cd8e28a1724",
-          "TimeBuilt": "2024-07-14T18:24:51.346",
-          "EffectiveVersion": "1.2.0.0",
+          "BuiltCommit": "9a7fb1a036f3972063b21d95adef986f0c5afacf",
+          "TimeBuilt": "2024-12-06T18:16:06.0686464+00:00",
+          "EffectiveVersion": "1.2.1.0",
           "MinimumVersion": null,
-          "Changelogs": {}
+          "Changelogs": {
+            "1.2.1.0": {
+              "TimeReleased": "2024-12-06T18:16:06.0686475+00:00",
+              "Changelog": "Release of Battery Gauge 1.2.1 for API 11.\r\n\r\nThanks to \u0060@wompscode\u0060 for the patch!",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.Build.Tasks.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Common",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitHub",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitLab",
+                  "Version": "1.1.1"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            }
+          }
         },
         "borderless-fix": {
           "BuiltCommit": "52f63b4897a81850f3d1e722b617f9672fba808f",
@@ -28067,9 +28107,9 @@
           }
         },
         "SubmarineTracker": {
-          "BuiltCommit": "3934a407731b478a4f7d80c511f6b3652362c320",
-          "TimeBuilt": "2024-11-29T22:05:17.0118571+00:00",
-          "EffectiveVersion": "1.9.4.4",
+          "BuiltCommit": "e6ce0ea412b866f5e8129d7d70c76d8136a3ff02",
+          "TimeBuilt": "2024-12-06T18:15:58.9950583+00:00",
+          "EffectiveVersion": "1.9.5.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.1.0.0": {
@@ -29769,6 +29809,133 @@
             "1.9.4.4": {
               "TimeReleased": "2024-11-29T22:05:17.011896+00:00",
               "Changelog": "- Add route history to /sloot",
+              "UsedNeeds": [
+                {
+                  "Key": "CsvHelper",
+                  "Version": "33.0.1"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "MessagePack",
+                  "Version": "3.0.238-rc.1"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "supabase-csharp",
+                  "Version": "0.16.2"
+                },
+                {
+                  "Key": "functions-csharp",
+                  "Version": "1.3.2"
+                },
+                {
+                  "Key": "gotrue-csharp",
+                  "Version": "4.2.7"
+                },
+                {
+                  "Key": "MessagePack.Annotations",
+                  "Version": "3.0.238-rc.1"
+                },
+                {
+                  "Key": "MessagePackAnalyzer",
+                  "Version": "3.0.238-rc.1"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite.Core",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "Microsoft.IdentityModel.Abstractions",
+                  "Version": "7.0.3"
+                },
+                {
+                  "Key": "Microsoft.IdentityModel.JsonWebTokens",
+                  "Version": "7.0.3"
+                },
+                {
+                  "Key": "Microsoft.IdentityModel.Logging",
+                  "Version": "7.0.3"
+                },
+                {
+                  "Key": "Microsoft.IdentityModel.Tokens",
+                  "Version": "7.0.3"
+                },
+                {
+                  "Key": "Microsoft.NET.StringTools",
+                  "Version": "17.11.4"
+                },
+                {
+                  "Key": "MimeMapping",
+                  "Version": "2.0.0"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.3"
+                },
+                {
+                  "Key": "postgrest-csharp",
+                  "Version": "3.5.1"
+                },
+                {
+                  "Key": "realtime-csharp",
+                  "Version": "6.0.4"
+                },
+                {
+                  "Key": "SQLitePCLRaw.bundle_e_sqlite3",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.core",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.lib.e_sqlite3",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.provider.e_sqlite3",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "supabase-core",
+                  "Version": "0.0.3"
+                },
+                {
+                  "Key": "supabase-storage-csharp",
+                  "Version": "1.4.0"
+                },
+                {
+                  "Key": "System.IdentityModel.Tokens.Jwt",
+                  "Version": "7.0.3"
+                },
+                {
+                  "Key": "System.Memory",
+                  "Version": "4.5.3"
+                },
+                {
+                  "Key": "System.Reactive",
+                  "Version": "5.0.0"
+                },
+                {
+                  "Key": "System.Threading.Channels",
+                  "Version": "5.0.0"
+                },
+                {
+                  "Key": "Websocket.Client",
+                  "Version": "4.6.1"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            },
+            "1.9.5.0": {
+              "TimeReleased": "2024-12-06T18:15:58.9950594+00:00",
+              "Changelog": "- Fix bug in Leveling that prevented SSSS from being valid\r\n  - This should fix issues with never ending Leveling loops\r\n- Update loot list with newest data",
               "UsedNeeds": [
                 {
                   "Key": "CsvHelper",
@@ -37079,9 +37246,9 @@
           }
         },
         "MonsterLootHunter": {
-          "BuiltCommit": "608c13eeb664efd1e8e0872aa6170f85c60da68d",
-          "TimeBuilt": "2024-09-25T22:02:44.492",
-          "EffectiveVersion": "1.2.21.7",
+          "BuiltCommit": "6687817d6a3b24c0bae19eada37c51bc004510e2",
+          "TimeBuilt": "2024-12-06T18:15:45.5641484+00:00",
+          "EffectiveVersion": "1.2.23.7",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.4.0": {
@@ -37209,6 +37376,61 @@
               "Changelog": "- Added item name fixes\n ",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "1.2.23.7": {
+              "TimeReleased": "2024-12-06T18:15:45.5641905+00:00",
+              "Changelog": "- Dalamud API updated to 11\n ",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Fizzler.Systems.HtmlAgilityPack",
+                  "Version": "1.2.1"
+                },
+                {
+                  "Key": "HtmlAgilityPack",
+                  "Version": "1.11.54"
+                },
+                {
+                  "Key": "XivCommon",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "Fizzler",
+                  "Version": "1.2.0"
+                },
+                {
+                  "Key": "Microsoft.Build.Tasks.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Common",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitHub",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitLab",
+                  "Version": "1.1.1"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
