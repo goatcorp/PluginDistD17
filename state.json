@@ -46699,9 +46699,9 @@
           }
         },
         "Bartender": {
-          "BuiltCommit": "1850ccf10152ec57934371c2a675c73d76fd5195",
-          "TimeBuilt": "2024-11-18T22:46:01.9853394+00:00",
-          "EffectiveVersion": "1.1.4.0",
+          "BuiltCommit": "7f9288ea409f54c35dbff7879aa794e24fc8ef46",
+          "TimeBuilt": "2024-12-07T22:15:57.7613483+00:00",
+          "EffectiveVersion": "1.1.5.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.1.0.0": {
@@ -46743,6 +46743,17 @@
                 }
               ],
               "Reviewer": "reiichi001"
+            },
+            "1.1.5.0": {
+              "TimeReleased": "2024-12-07T22:15:57.7613901+00:00",
+              "Changelog": "# v1.1.5\n\n- Added /barsave command.\n- Fixed an issue with undo/redo on saving profiles.\n- Added an IPC action.\n- Added German localization (Thanks Sol!).\n- Remade the plugin\u0027s icon.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "philpax"
             }
           }
         },
