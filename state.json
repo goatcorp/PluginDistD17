@@ -9139,9 +9139,9 @@
           }
         },
         "BeegWindow": {
-          "BuiltCommit": "3f19c4f8a1eb2d7a0d21466631414f868037cea7",
-          "TimeBuilt": "2024-08-16T14:14:26.818",
-          "EffectiveVersion": "0.0.0.1",
+          "BuiltCommit": "c34fba2040593c068af86c4d421ab61b3edf8397",
+          "TimeBuilt": "2024-12-08T18:29:40.7285808+00:00",
+          "EffectiveVersion": "0.0.0.2",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.0.1": {
@@ -9149,6 +9149,17 @@
               "Changelog": "Initial Release",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "0.0.0.2": {
+              "TimeReleased": "2024-12-08T18:29:40.7285817+00:00",
+              "Changelog": "Update to api 11",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
@@ -13537,9 +13548,9 @@
           }
         },
         "Chatter": {
-          "BuiltCommit": "294cdcd00297cfc5afd404c53501044ba3fe2977",
-          "TimeBuilt": "2024-08-29T11:08:09.248",
-          "EffectiveVersion": "1.2.1.0",
+          "BuiltCommit": "8d3b7e441451027f84bfef31870e7c523d836a36",
+          "TimeBuilt": "2024-12-08T18:29:35.4229581+00:00",
+          "EffectiveVersion": "1.3.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -13559,6 +13570,25 @@
               "Changelog": "Added events.",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "1.3.0.0": {
+              "TimeReleased": "2024-12-08T18:29:35.42296+00:00",
+              "Changelog": "Upgrade to 7.1",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "JetBrains.Annotations",
+                  "Version": "2024.3.0"
+                },
+                {
+                  "Key": "NodaTime",
+                  "Version": "3.2.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
@@ -30306,9 +30336,9 @@
           }
         },
         "Tf2CriticalHitsPlugin": {
-          "BuiltCommit": "c846943d0e9c9c8bec583e82c467a51041fd7d6c",
-          "TimeBuilt": "2024-07-21T18:46:36.868",
-          "EffectiveVersion": "3.5.0.1",
+          "BuiltCommit": "eddc5307b6cdf51cf82df5eddd96a6dca4f68b57",
+          "TimeBuilt": "2024-12-08T18:29:27.0933565+00:00",
+          "EffectiveVersion": "3.6.0.1",
           "MinimumVersion": null,
           "Changelogs": {
             "2.3.0.0": {
@@ -30394,6 +30424,33 @@
               "Changelog": "- Fix player/pet logic order\n",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "3.6.0.1": {
+              "TimeReleased": "2024-12-08T18:29:27.0933948+00:00",
+              "Changelog": "- Update for 7.11\n- Add sound preloading\n",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/jkchen2/KamiLib",
+                  "Version": "ddbffae42e94fc2156b150a482ccf175f4c79b65"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "JetBrains.Annotations",
+                  "Version": "2022.3.1"
+                },
+                {
+                  "Key": "NAudio.Wasapi",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Core",
+                  "Version": "2.2.1"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
@@ -44149,9 +44206,9 @@
           "Changelogs": {}
         },
         "Tf2CriticalHitsPlugin": {
-          "BuiltCommit": "356dc4650aec5a39f6c9c4e8ea05513d1d866bc8",
-          "TimeBuilt": "2024-11-29T22:05:46.6103593+00:00",
-          "EffectiveVersion": "3.6.0.0",
+          "BuiltCommit": "eddc5307b6cdf51cf82df5eddd96a6dca4f68b57",
+          "TimeBuilt": "2024-12-08T18:29:49.6276195+00:00",
+          "EffectiveVersion": "3.6.0.1",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -44313,6 +44370,33 @@
             "3.6.0.0": {
               "TimeReleased": "2024-11-29T22:05:46.6103599+00:00",
               "Changelog": "Updated for FFXIV 7.11\n",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/jkchen2/KamiLib",
+                  "Version": "ddbffae42e94fc2156b150a482ccf175f4c79b65"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "JetBrains.Annotations",
+                  "Version": "2022.3.1"
+                },
+                {
+                  "Key": "NAudio.Wasapi",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Core",
+                  "Version": "2.2.1"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            },
+            "3.6.0.1": {
+              "TimeReleased": "2024-12-08T18:29:49.6276203+00:00",
+              "Changelog": "- Update for 7.11\n- Add sound preloading\n",
               "UsedNeeds": [
                 {
                   "Key": "https://github.com/jkchen2/KamiLib",
@@ -63161,6 +63245,13 @@
       "Version": "48b2368041d23ce7c20a134d14add3d71d771275",
       "ReviewedBy": "philpax",
       "ReviewedAt": "2024-12-06T12:05:06.0333667Z"
+    },
+    {
+      "Type": 1,
+      "Key": "NodaTime",
+      "Version": "3.2.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-12-08T18:29:35.4537822Z"
     }
   ]
 }

@@ -2,14 +2,14 @@
   "Author": "ArcaneDisgea",
   "Name": "Beeg Window",
   "InternalName": "BeegWindow",
-  "AssemblyVersion": "0.0.0.1",
+  "AssemblyVersion": "0.0.0.2",
   "Description": "Ensures that the game window is maximized when launching in windowed mode.",
   "ApplicableVersion": "any",
   "Tags": [
     "beeg",
     "window"
   ],
-  "DalamudApiLevel": 10,
+  "DalamudApiLevel": 11,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
