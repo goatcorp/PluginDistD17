@@ -2,14 +2,14 @@
   "Author": "Berna",
   "Name": "Congratulations",
   "InternalName": "Congratulations",
-  "AssemblyVersion": "1.3.0.0",
+  "AssemblyVersion": "1.3.1.1",
   "Description": "Get aurally rewarded when you get commended on duties.\n\nComes with default sounds for when you get commended by 1/3, 2/3, 3/3 or all seven members of the duty you were in, but you can set custom sounds for each type of trigger by opening /congratsconfig.\n\nThe fractioned values are in relation to how many of those members could commend you (i.e. excluding those that were in your party before joining the duty).",
   "ApplicableVersion": "any",
   "Tags": [
     "plugin",
     "audio"
   ],
-  "DalamudApiLevel": 10,
+  "DalamudApiLevel": 11,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,

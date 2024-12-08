@@ -677,11 +677,31 @@
           }
         },
         "EasyEyes": {
-          "BuiltCommit": "e8cb035ed1d0cf4e9393849e62f3f90e8d487241",
-          "TimeBuilt": "2024-07-14T03:40:40.101",
-          "EffectiveVersion": "1.3.0.0",
+          "BuiltCommit": "d167d62af87cf58affef074d661bf89baffc26b7",
+          "TimeBuilt": "2024-12-08T23:45:04.7878429+00:00",
+          "EffectiveVersion": "1.3.0.1",
           "MinimumVersion": null,
-          "Changelogs": {}
+          "Changelogs": {
+            "1.3.0.1": {
+              "TimeReleased": "2024-12-08T23:45:04.7878438+00:00",
+              "Changelog": "- API 11 update\r\n- Removed action select dialog for now, pending rework",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/Ottermandias/Penumbra.String",
+                  "Version": "f04abbabedf5e757c5cbb970f3e513fef23e53cf"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "2.1.13"
+                },
+                {
+                  "Key": "mgholam.fastCSV",
+                  "Version": "2.0.9"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            }
+          }
         },
         "Tourist": {
           "BuiltCommit": "80bbef448fff5175bf9559e4259d971418f80661",
@@ -1260,9 +1280,9 @@
           }
         },
         "Congratulations": {
-          "BuiltCommit": "8a395e49d69ac09f2c639189b230b3f6ad74ab01",
-          "TimeBuilt": "2024-07-20T08:29:15.799",
-          "EffectiveVersion": "1.3.0.0",
+          "BuiltCommit": "30feb420936885592e2f01f4376184665b3aface",
+          "TimeBuilt": "2024-12-08T23:45:48.2566718+00:00",
+          "EffectiveVersion": "1.3.1.1",
           "MinimumVersion": null,
           "Changelogs": {
             "1.2.0.0": {
@@ -1294,6 +1314,25 @@
               "Changelog": "Updated for FFXIV 7.01\n",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "1.3.1.1": {
+              "TimeReleased": "2024-12-08T23:45:48.2566725+00:00",
+              "Changelog": "Updated for FFXIV 7.11\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "NAudio.Wasapi",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Core",
+                  "Version": "2.2.1"
+                }
+              ],
+              "Reviewer": "philpax"
             }
           }
         },
@@ -9077,9 +9116,9 @@
           }
         },
         "ChatProximity": {
-          "BuiltCommit": "5e58458e13e4f8b814c88a2c7ff217c9558e7887",
-          "TimeBuilt": "2024-11-25T00:31:54.7733669+00:00",
-          "EffectiveVersion": "1.2.0.0",
+          "BuiltCommit": "084b16d0ba06213e335581fdd22f0071cfa3d93e",
+          "TimeBuilt": "2024-12-08T23:45:11.1469521+00:00",
+          "EffectiveVersion": "1.3.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -9114,6 +9153,17 @@
             "1.2.0.0": {
               "TimeReleased": "2024-11-25T00:31:54.7734066+00:00",
               "Changelog": "# 1.2.0\n- Added an option to color differently messages if targeing a character or if the character targets you\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "philpax"
+            },
+            "1.3.1.0": {
+              "TimeReleased": "2024-12-08T23:45:11.146953+00:00",
+              "Changelog": "## 1.3.1\n- Fixed targeting/targeted color switch\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -19589,9 +19639,9 @@
           }
         },
         "TitleEdit": {
-          "BuiltCommit": "3d248a8e15c0ae1ecb9cf82017918b03fad7777c",
-          "TimeBuilt": "2024-11-23T10:55:43.1135869+00:00",
-          "EffectiveVersion": "3.0.3.3",
+          "BuiltCommit": "bf1743724da94a5dc27f9ab6f21c928498acb57b",
+          "TimeBuilt": "2024-12-08T23:45:19.6047185+00:00",
+          "EffectiveVersion": "3.0.4.0",
           "MinimumVersion": null,
           "Changelogs": {
             "2.3.0.0": {
@@ -19968,6 +20018,45 @@
                 }
               ],
               "Reviewer": "philpax"
+            },
+            "3.0.4.0": {
+              "TimeReleased": "2024-12-08T23:45:19.6047194+00:00",
+              "Changelog": "- Added housing support (thanks @Caraxi)\n- Imporoved weather loading to prevent transitions\n- Added a new character select preset \u0022TE_Futures Rewritten\u0022\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.Build.Tasks.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Common",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitHub",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitLab",
+                  "Version": "1.1.1"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
@@ -22473,9 +22562,9 @@
           }
         },
         "OfDungeonsDeep": {
-          "BuiltCommit": "479217ba5048498d317f370ca4efc77f84c12768",
-          "TimeBuilt": "2024-11-16T00:40:48.2457963+00:00",
-          "EffectiveVersion": "1.0.2.0",
+          "BuiltCommit": "6f7ec926c1b17d8338ea7a932ed59218f2c3cfdb",
+          "TimeBuilt": "2024-12-08T23:45:40.9001559+00:00",
+          "EffectiveVersion": "1.0.3.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.2.0": {
@@ -22520,6 +22609,49 @@
                 }
               ],
               "Reviewer": "karashiiro"
+            },
+            "1.0.3.0": {
+              "TimeReleased": "2024-12-08T23:45:40.9001574+00:00",
+              "Changelog": "- Tons of data fixes for several monsters \u0026 their attacks (like, a lot.)\n- DDCompendium source data updated\n- Fixed EO Floor notes for 21-30, 31-40\n- Fixed HoH Floor notes for 91-100\n- Fixed PotD Floor notes for 191-200\n",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MKhayle/compendium.git",
+                  "Version": "6fa3cf9e143fa0e22bb8e4bedb664344c851e2c0"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.Build.Tasks.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Common",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitHub",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitLab",
+                  "Version": "1.1.1"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
@@ -36686,9 +36818,9 @@
           }
         },
         "StanleyParableXiv": {
-          "BuiltCommit": "f03fda988c61b14240e0c2679a0f96aca8c5636a",
-          "TimeBuilt": "2024-11-16T01:31:44.8307695+00:00",
-          "EffectiveVersion": "3.1.1.0",
+          "BuiltCommit": "5e47e516ed5c9b6a5b25d895e927e24d392cdbc5",
+          "TimeBuilt": "2024-12-08T23:44:38.2553794+00:00",
+          "EffectiveVersion": "3.2.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.3.0.0": {
@@ -36816,6 +36948,57 @@
                 }
               ],
               "Reviewer": "karashiiro"
+            },
+            "3.2.0.0": {
+              "TimeReleased": "2024-12-08T23:44:38.2554183+00:00",
+              "Changelog": "- Added device driver and output selection and will now default to DirectSound (thanks cubelord187!)\n- Fix PvP multikills\n- Fix PvP event inconsistencies if started from Wolves\u0027 Den\n- Fix PvP 10-second countdown event desync in Frontlines and Rival Wings\n- Fix player disconnect and reconnect events not firing (thanks Caim!)\n- Fix Triple Triad Invitational Parlor firing duty completed events\n- Other bug fixes and optimizations\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "NAudio",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "Microsoft.NETCore.Platforms",
+                  "Version": "3.1.0"
+                },
+                {
+                  "Key": "Microsoft.Win32.Registry",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "NAudio.Asio",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Core",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Midi",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Wasapi",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.WinMM",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "System.Security.AccessControl",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "System.Security.Principal.Windows",
+                  "Version": "4.7.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
@@ -36948,11 +37131,59 @@
           }
         },
         "SillyChat": {
-          "BuiltCommit": "0f716fbe4ab5070df21d75b83bba3ce6657509f2",
-          "TimeBuilt": "2023-10-04T00:22:16.97",
-          "EffectiveVersion": "1.7.0.0",
+          "BuiltCommit": "82f65c44cee32c8d489e0552ac83e4abf0a374a5",
+          "TimeBuilt": "2024-12-08T23:45:55.9575614+00:00",
+          "EffectiveVersion": "1.7.1.0",
           "MinimumVersion": null,
-          "Changelogs": {}
+          "Changelogs": {
+            "1.7.1.0": {
+              "TimeReleased": "2024-12-08T23:45:55.9575623+00:00",
+              "Changelog": "### The Great Revival\n-# API11 / 7.1\n-# Chocobo \u0026 Moogle translators added\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "StyleCop.Analyzers",
+                  "Version": "1.1.118"
+                },
+                {
+                  "Key": "XivCommon",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "Microsoft.Build.Tasks.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Common",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitHub",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitLab",
+                  "Version": "1.1.1"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            }
+          }
         },
         "TextBoxStyler": {
           "BuiltCommit": "2b02013ebf87f1e1479823ec16c01ef5966c1eda",
@@ -40964,9 +41195,9 @@
           }
         },
         "Umbra": {
-          "BuiltCommit": "4ca0ef3a01dd128c66c1ad4ea8c0377f8eb664ec",
-          "TimeBuilt": "2024-12-04T13:45:57.5350667+00:00",
-          "EffectiveVersion": "2.3.5.0",
+          "BuiltCommit": "a21544f78560d377c2af59f81f688e074eedeaa8",
+          "TimeBuilt": "2024-12-08T23:44:56.5069415+00:00",
+          "EffectiveVersion": "2.3.6.0",
           "MinimumVersion": null,
           "Changelogs": {
             "2.1.8.0": {
@@ -41541,6 +41772,37 @@
                 }
               ],
               "Reviewer": "philpax"
+            },
+            "2.3.6.0": {
+              "TimeReleased": "2024-12-08T23:44:56.506943+00:00",
+              "Changelog": "# Umbra 2.3.6\n\n## Fixes \u0026 Improvements\n\n- Fix MainCommandShortcut disabled status (by [Haselnussbomber](https://github.com/Haselnussbomber)).\n- Switch to ProcessChatBoxEntry from ClientStructs (by [Haselnussbomber](https://github.com/Haselnussbomber)).\n- Make ReadOnlySeString.ReplaceText replace all occurrences (by [Haselnussbomber](https://github.com/Haselnussbomber)).\n\nJoin [Umbra\u0027s Discord server](https://discord.gg/xaEnsuAhmm) for the latest updates and information.\nVisit the [website](https://una-xiv.github.io/umbra-docs/) for more information and guides on how to make the most out of Umbra.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/una-xiv/drawing.git",
+                  "Version": "ebba7bc435ac270e0c0488ac99b54ac4e90ade43"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.ObjectPool",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "SkiaSharp",
+                  "Version": "3.118.0-preview.1.2"
+                },
+                {
+                  "Key": "SkiaSharp.NativeAssets.macOS",
+                  "Version": "3.118.0-preview.1.2"
+                },
+                {
+                  "Key": "SkiaSharp.NativeAssets.Win32",
+                  "Version": "3.118.0-preview.1.2"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
@@ -63252,6 +63514,20 @@
       "Version": "3.2.0",
       "ReviewedBy": "reiichi001",
       "ReviewedAt": "2024-12-08T18:29:35.4537822Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/Ottermandias/Penumbra.String",
+      "Version": "f04abbabedf5e757c5cbb970f3e513fef23e53cf",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-12-08T23:45:04.805322Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/MKhayle/compendium.git",
+      "Version": "6fa3cf9e143fa0e22bb8e4bedb664344c851e2c0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-12-08T23:45:40.9392284Z"
     }
   ]
 }

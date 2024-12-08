@@ -2,7 +2,7 @@
   "Author": "ocealot",
   "Name": "EasyEyes",
   "InternalName": "EasyEyes",
-  "AssemblyVersion": "1.3.0.0",
+  "AssemblyVersion": "1.3.0.1",
   "Description": "A plugin which can hide any VFX. Icon by PAPACHIN",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/0ceal0t/EasyEyes",
@@ -10,7 +10,7 @@
     "VFX",
     "AVFX"
   ],
-  "DalamudApiLevel": 10,
+  "DalamudApiLevel": 11,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
