@@ -28686,9 +28686,9 @@
           }
         },
         "MemoryMarker": {
-          "BuiltCommit": "0319939e38fb0b15f8bbe6bcd0e765f1237f8ca3",
-          "TimeBuilt": "2024-11-16T00:49:53.4629764+00:00",
-          "EffectiveVersion": "2.2.0.0",
+          "BuiltCommit": "b118d713381a9672fa78073c31b969c2a3f10498",
+          "TimeBuilt": "2024-12-09T22:38:57.239541+00:00",
+          "EffectiveVersion": "2.2.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "2.2.0.0": {
@@ -28753,6 +28753,69 @@
                 }
               ],
               "Reviewer": "reiichi001"
+            },
+            "2.2.1.0": {
+              "TimeReleased": "2024-12-09T22:38:57.2396216+00:00",
+              "Changelog": "nofranz\r\n\r\nplugin adopted from midorikami: https://discord.com/channels/581875019861328007/653504487352303619/1315760405397639240\r\n\r\nupdating the repo url and enabling feedback, no other changes\r\n\r\nalso bringing testing channel up to date with stable, will probably end up with a size-large because of that...",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiLib",
+                  "Version": "427d7919b1f5a154daf6815216086604f804f1b5"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "2.1.13"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "NetStone",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "HtmlAgilityPack",
+                  "Version": "1.11.46"
+                },
+                {
+                  "Key": "Karashiiro.HtmlAgilityPack.CssSelectors.NetCoreFork",
+                  "Version": "0.0.2"
+                },
+                {
+                  "Key": "Microsoft.Build.Tasks.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Common",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitHub",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitLab",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.3"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "philpax"
             }
           }
         },
@@ -50340,11 +50403,75 @@
           }
         },
         "MemoryMarker": {
-          "BuiltCommit": "b1c5763a5e2823dc0f49297bd3840e85c9fd2826",
-          "TimeBuilt": "2023-01-30T04:54:53.051",
-          "EffectiveVersion": "0.1.0.2",
+          "BuiltCommit": "b118d713381a9672fa78073c31b969c2a3f10498",
+          "TimeBuilt": "2024-12-09T22:39:09.2549312+00:00",
+          "EffectiveVersion": "2.2.1.0",
           "MinimumVersion": null,
-          "Changelogs": {}
+          "Changelogs": {
+            "2.2.1.0": {
+              "TimeReleased": "2024-12-09T22:39:09.2549317+00:00",
+              "Changelog": "nofranz\r\n\r\nplugin adopted from midorikami: https://discord.com/channels/581875019861328007/653504487352303619/1315760405397639240\r\n\r\nupdating the repo url and enabling feedback, no other changes\r\n\r\nalso bringing testing channel up to date with stable, will probably end up with a size-large because of that...",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiLib",
+                  "Version": "427d7919b1f5a154daf6815216086604f804f1b5"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "2.1.13"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "NetStone",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "HtmlAgilityPack",
+                  "Version": "1.11.46"
+                },
+                {
+                  "Key": "Karashiiro.HtmlAgilityPack.CssSelectors.NetCoreFork",
+                  "Version": "0.0.2"
+                },
+                {
+                  "Key": "Microsoft.Build.Tasks.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Common",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitHub",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitLab",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.3"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "philpax"
+            }
+          }
         },
         "PvpStats": {
           "BuiltCommit": "c141eb72da053a849e02db8013a4d58c030ceb91",
