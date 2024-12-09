@@ -36818,9 +36818,9 @@
           }
         },
         "StanleyParableXiv": {
-          "BuiltCommit": "5e47e516ed5c9b6a5b25d895e927e24d392cdbc5",
-          "TimeBuilt": "2024-12-08T23:44:38.2553794+00:00",
-          "EffectiveVersion": "3.2.0.0",
+          "BuiltCommit": "7023a4f250acd633637e0a02b602afe0b5c8197b",
+          "TimeBuilt": "2024-12-09T09:58:40.9587366+00:00",
+          "EffectiveVersion": "3.2.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.3.0.0": {
@@ -36999,6 +36999,57 @@
                 }
               ],
               "Reviewer": "reiichi001"
+            },
+            "3.2.1.0": {
+              "TimeReleased": "2024-12-09T09:58:40.9587741+00:00",
+              "Changelog": "- Fix crashes when loading audio device lists\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "NAudio",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "Microsoft.NETCore.Platforms",
+                  "Version": "3.1.0"
+                },
+                {
+                  "Key": "Microsoft.Win32.Registry",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "NAudio.Asio",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Core",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Midi",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Wasapi",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.WinMM",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "System.Security.AccessControl",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "System.Security.Principal.Windows",
+                  "Version": "4.7.0"
+                }
+              ],
+              "Reviewer": "philpax"
             }
           }
         },
@@ -51706,9 +51757,9 @@
           }
         },
         "StanleyParableXiv": {
-          "BuiltCommit": "8f09cfcf532c9ab564c4ff1528d19764aee88b62",
-          "TimeBuilt": "2024-12-01T22:08:13.064459+00:00",
-          "EffectiveVersion": "3.2.0.0",
+          "BuiltCommit": "7023a4f250acd633637e0a02b602afe0b5c8197b",
+          "TimeBuilt": "2024-12-09T09:58:54.1457472+00:00",
+          "EffectiveVersion": "3.2.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.2.2.0": {
@@ -51797,6 +51848,57 @@
                 }
               ],
               "Reviewer": "reiichi001"
+            },
+            "3.2.1.0": {
+              "TimeReleased": "2024-12-09T09:58:54.1457478+00:00",
+              "Changelog": "- Fix crashes when loading audio device lists\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "NAudio",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "Microsoft.NETCore.Platforms",
+                  "Version": "3.1.0"
+                },
+                {
+                  "Key": "Microsoft.Win32.Registry",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "NAudio.Asio",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Core",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Midi",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Wasapi",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.WinMM",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "System.Security.AccessControl",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "System.Security.Principal.Windows",
+                  "Version": "4.7.0"
+                }
+              ],
+              "Reviewer": "philpax"
             }
           }
         },
