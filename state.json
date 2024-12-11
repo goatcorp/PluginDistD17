@@ -4147,9 +4147,9 @@
           }
         },
         "ChatAlerts": {
-          "BuiltCommit": "abf1dda10a1118be2830d714a70e5c944f27f3b4",
-          "TimeBuilt": "2024-11-16T21:12:11.695895+00:00",
-          "EffectiveVersion": "2.2.0.0",
+          "BuiltCommit": "b10abe258089c007aa24c826d9b70420a7392578",
+          "TimeBuilt": "2024-12-11T22:22:54.8967293+00:00",
+          "EffectiveVersion": "2.2.0.1",
           "MinimumVersion": null,
           "Changelogs": {
             "2.0.1.0": {
@@ -4166,6 +4166,41 @@
             },
             "2.2.0.0": {
               "TimeReleased": "2024-11-16T21:12:11.6958955+00:00",
+              "Changelog": "nofranz",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "NAudio",
+                  "Version": "1.10.0"
+                },
+                {
+                  "Key": "Microsoft.NETCore.Platforms",
+                  "Version": "3.1.0"
+                },
+                {
+                  "Key": "Microsoft.Win32.Registry",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "System.Resources.Extensions",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "System.Security.AccessControl",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "System.Security.Principal.Windows",
+                  "Version": "4.7.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            },
+            "2.2.0.1": {
+              "TimeReleased": "2024-12-11T22:22:54.8967299+00:00",
               "Changelog": "nofranz",
               "UsedNeeds": [
                 {
@@ -27132,9 +27167,9 @@
           }
         },
         "RepairMe": {
-          "BuiltCommit": "6c02d5d05fbc79e058a930cbf8a10e747afc1305",
-          "TimeBuilt": "2024-07-03T01:51:03.573",
-          "EffectiveVersion": "1.0.1.16",
+          "BuiltCommit": "64aa53dbd2f2e62dcdef4c19fee4e4fc98a8741f",
+          "TimeBuilt": "2024-12-11T22:22:47.1960035+00:00",
+          "EffectiveVersion": "1.0.1.17",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.1.12": {
@@ -27160,6 +27195,17 @@
               "Changelog": "update for api 9",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "1.0.1.17": {
+              "TimeReleased": "2024-12-11T22:22:47.1960416+00:00",
+              "Changelog": "update for api11 and patch 7.1",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
@@ -44310,9 +44356,9 @@
           }
         },
         "HUDUnlimited": {
-          "BuiltCommit": "5a72efd7d9fd8f6562f2d288287d403357356e22",
-          "TimeBuilt": "2024-11-16T00:40:55.5429183+00:00",
-          "EffectiveVersion": "1.1.0.0",
+          "BuiltCommit": "364b5ead09b370a6671aabdde2152249b048de64",
+          "TimeBuilt": "2024-12-11T22:23:04.3514037+00:00",
+          "EffectiveVersion": "1.1.0.1",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.4": {
@@ -44554,6 +44600,65 @@
                 }
               ],
               "Reviewer": "goaaats"
+            },
+            "1.1.0.1": {
+              "TimeReleased": "2024-12-11T22:23:04.3514042+00:00",
+              "Changelog": "Minor ui improvements",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiLib.git",
+                  "Version": "e6060765fa4c0dab14204acd7c7634983ebfc6a4"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "NetStone",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "HtmlAgilityPack",
+                  "Version": "1.11.46"
+                },
+                {
+                  "Key": "Karashiiro.HtmlAgilityPack.CssSelectors.NetCoreFork",
+                  "Version": "0.0.2"
+                },
+                {
+                  "Key": "Microsoft.Build.Tasks.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Common",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitHub",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitLab",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.3"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
@@ -65026,6 +65131,13 @@
       "Version": "4.2.0",
       "ReviewedBy": "philpax",
       "ReviewedAt": "2024-12-09T11:53:36.4153944Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/MidoriKami/KamiLib.git",
+      "Version": "e6060765fa4c0dab14204acd7c7634983ebfc6a4",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-12-11T22:23:04.370007Z"
     }
   ]
 }

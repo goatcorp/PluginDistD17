@@ -2,7 +2,7 @@
   "Author": "Chalkos",
   "Name": "RepairMe",
   "InternalName": "RepairMe",
-  "AssemblyVersion": "1.0.1.16",
+  "AssemblyVersion": "1.0.1.17",
   "Description": "Helps you notice when your gear needs to be repaired or has materia to be extracted.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/chalkos/RepairMe",
@@ -14,7 +14,7 @@
     "Condition",
     "Gear"
   ],
-  "DalamudApiLevel": 10,
+  "DalamudApiLevel": 11,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
