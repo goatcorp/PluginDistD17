@@ -3645,9 +3645,9 @@
           }
         },
         "PetRenamer": {
-          "BuiltCommit": "d58c3e97313565acd030d097d0247a8486689264",
-          "TimeBuilt": "2024-11-27T00:35:34.1489692+00:00",
-          "EffectiveVersion": "2.3.0.5",
+          "BuiltCommit": "9395d69c754400d0d84293aa84cd2a701c13aed6",
+          "TimeBuilt": "2024-12-12T02:02:25.1278361+00:00",
+          "EffectiveVersion": "2.3.0.6",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -4001,6 +4001,21 @@
             "2.3.0.5": {
               "TimeReleased": "2024-11-27T00:35:34.1489703+00:00",
               "Changelog": "    [2.3.0.5]\r\n    Fixes colours not exporting and importing properly (gamers, I was very ill, which is my copium excuse for why we\u0027ve had so many bugs lately)\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "HtmlAgilityPack",
+                  "Version": "1.11.71"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            },
+            "2.3.0.6": {
+              "TimeReleased": "2024-12-12T02:02:25.127877+00:00",
+              "Changelog": "    [2.3.0.6]\r\n    Fixes some castbars not properly utilizing the pet mirage variant of a name.\r\n    Small internal changes that fixes code style consistencies.\r\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -48310,9 +48325,9 @@
           }
         },
         "BetterTargetingSystem": {
-          "BuiltCommit": "79498483b064d942e5b3d944b64b6998d496fb44",
-          "TimeBuilt": "2024-07-14T11:24:51.151",
-          "EffectiveVersion": "0.0.11.0",
+          "BuiltCommit": "88713cc89f3376cf1e70a6281d2a8538e549cd0e",
+          "TimeBuilt": "2024-12-12T02:02:33.2145329+00:00",
+          "EffectiveVersion": "0.0.12.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.5.0": {
@@ -48344,6 +48359,45 @@
               "Changelog": "- Fix Mouse Keybinds not working properly",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "0.0.12.0": {
+              "TimeReleased": "2024-12-12T02:02:33.2145334+00:00",
+              "Changelog": "7.1 update, courtesy of Nebel",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.Build.Tasks.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Common",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitHub",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitLab",
+                  "Version": "1.1.1"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
