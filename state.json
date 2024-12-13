@@ -21914,11 +21914,59 @@
           }
         },
         "Dalamud.CharacterSync": {
-          "BuiltCommit": "8d23cbb0f1aca3ebfa9c8ce6dabf29c52e6a51fb",
-          "TimeBuilt": "2024-07-12T20:58:44.696",
-          "EffectiveVersion": "2.0.0.10",
+          "BuiltCommit": "6121184e1336b63657ab86494f38c0a7b5a7a724",
+          "TimeBuilt": "2024-12-13T22:15:39.9804958+00:00",
+          "EffectiveVersion": "2.0.0.11",
           "MinimumVersion": null,
-          "Changelogs": {}
+          "Changelogs": {
+            "2.0.0.11": {
+              "TimeReleased": "2024-12-13T22:15:39.9805346+00:00",
+              "Changelog": "Franz has commandeered this plugin to update it. It still belongs to Goat officially.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "StyleCop.Analyzers",
+                  "Version": "1.2.0-beta.333"
+                },
+                {
+                  "Key": "Microsoft.Build.Tasks.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Common",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitHub",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitLab",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "StyleCop.Analyzers.Unstable",
+                  "Version": "1.2.0.333"
+                }
+              ],
+              "Reviewer": "philpax"
+            }
+          }
         },
         "orchestrion": {
           "BuiltCommit": "2c86b4ed959dade24875ed034996bf448b19ad9e",
