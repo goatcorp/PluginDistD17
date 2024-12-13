@@ -2,8 +2,8 @@
   "Author": "Elypha",
   "Name": "BilingualTooltips",
   "InternalName": "BilingualTooltips",
-  "AssemblyVersion": "1.0.2.0",
-  "Description": "Yes, we have tooltips displayed in two languages now. You paid SE for 4 languages so make good use of it.\n\n- Wanna know and learn how that item is written in another language? - No problem.\n- Got fed up of カタカナ and would rather read the English words? - We've got you.\n",
+  "AssemblyVersion": "1.1.0.0",
+  "Description": "Yes, we have tooltips displayed in two languages now. You paid SE for 4 languages so make very good use of it.\n\n- Interested in localised item descriptions in different languages?\n- Got fed up of transliterated カタカナ and would rather read just the original words?\n\nWe've got you! See plugin config to customise your own experience.\n",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Elypha/BilingualTooltips",
   "Tags": [
