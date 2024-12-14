@@ -37604,9 +37604,9 @@
           }
         },
         "ItemVendorLocation": {
-          "BuiltCommit": "730cb0408bfd62464427df28d063fee4b2a06b43",
-          "TimeBuilt": "2024-11-23T18:10:38.3549724+00:00",
-          "EffectiveVersion": "2.8.0.0",
+          "BuiltCommit": "cc571191c780d50647b7afec01bccf5f7aa9fd1f",
+          "TimeBuilt": "2024-12-14T01:14:14.1642269+00:00",
+          "EffectiveVersion": "2.9.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -37749,6 +37749,45 @@
                 }
               ],
               "Reviewer": "philpax"
+            },
+            "2.9.0.0": {
+              "TimeReleased": "2024-12-14T01:14:14.1642658+00:00",
+              "Changelog": "- Added config option for NPC highlight color\n- Added ability to highlight multiple NPCs\n- Added ability to highlight menu selections, as well as config option to change color\n- Added more specific shop names for a few special shops\n",
+              "UsedNeeds": [
+                {
+                  "Key": "CheapLoc",
+                  "Version": "1.1.8"
+                },
+                {
+                  "Key": "Dalamud.DrunkenToad",
+                  "Version": "1.9.2"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "Dalamud.Loc",
+                  "Version": "1.1.2"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "Mono.Cecil",
+                  "Version": "0.11.3"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "12.0.2"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
