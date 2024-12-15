@@ -12476,9 +12476,9 @@
           }
         },
         "Wholist": {
-          "BuiltCommit": "50efa8cca9831fe8fc5f062eef602062ffab4f3e",
-          "TimeBuilt": "2024-11-30T20:01:11.4625001+00:00",
-          "EffectiveVersion": "1.8.0.0",
+          "BuiltCommit": "f29c12a1d49f1262a6c698b5c66fd13b54924e97",
+          "TimeBuilt": "2024-12-15T06:55:58.1319268+00:00",
+          "EffectiveVersion": "1.8.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -12696,6 +12696,53 @@
             "1.8.0.0": {
               "TimeReleased": "2024-11-30T20:01:11.4625011+00:00",
               "Changelog": "- Re-added the ability to send tells via the player context menu.\r\n- Added the ability to add players to the in-game blacklist via the player context menu.",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/Blooym/Sirensong.git",
+                  "Version": "4f5c022082172cea7177b4fb49b0e808330539bf"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "BitFaster.Caching",
+                  "Version": "2.4.1"
+                },
+                {
+                  "Key": "Microsoft.Build.Tasks.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Common",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitHub",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitLab",
+                  "Version": "1.1.1"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            },
+            "1.8.1.0": {
+              "TimeReleased": "2024-12-15T06:55:58.1319814+00:00",
+              "Changelog": "- Added the ability to disable hiding blocked players.\r\n- Fixed the Nearby Players list going blank on rare occasions.\r\n- Updated translations.",
               "UsedNeeds": [
                 {
                   "Key": "https://github.com/Blooym/Sirensong.git",
