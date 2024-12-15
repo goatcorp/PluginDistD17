@@ -14449,9 +14449,9 @@
           }
         },
         "Echoglossian": {
-          "BuiltCommit": "671299edab0048a8b45c798e789ae79ed473a9a1",
-          "TimeBuilt": "2024-11-17T02:27:18.8962043+00:00",
-          "EffectiveVersion": "3.16.2411.147",
+          "BuiltCommit": "9362082aded290afcc1d1b3f23e91e79b4e09cd5",
+          "TimeBuilt": "2024-12-15T23:07:20.0562616+00:00",
+          "EffectiveVersion": "3.17.2412.1387",
           "MinimumVersion": null,
           "Changelogs": {
             "2.100.2208.281": {
@@ -14892,6 +14892,325 @@
                 }
               ],
               "Reviewer": "reiichi001"
+            },
+            "3.17.2412.1387": {
+              "TimeReleased": "2024-12-15T23:07:20.0563055+00:00",
+              "Changelog": "v3.17.x \n - fixes:\n - ChatGPT endpoints and additional settings (by @kelvin124124).\n - Updated supported languages for ChatGPT and DeepL",
+              "UsedNeeds": [
+                {
+                  "Key": "AWSSDK.Translate",
+                  "Version": "3.7.400.53"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "DeepL.net",
+                  "Version": "1.11.0"
+                },
+                {
+                  "Key": "GTranslate",
+                  "Version": "2.2.8"
+                },
+                {
+                  "Key": "HtmlAgilityPack",
+                  "Version": "1.11.71"
+                },
+                {
+                  "Key": "Microsoft.EntityFrameworkCore",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "Microsoft.EntityFrameworkCore.Sqlite",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "Microsoft.EntityFrameworkCore.Tools",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.3"
+                },
+                {
+                  "Key": "NTextCat",
+                  "Version": "0.3.65"
+                },
+                {
+                  "Key": "OpenAI",
+                  "Version": "2.0.0"
+                },
+                {
+                  "Key": "RestSharp",
+                  "Version": "112.1.0"
+                },
+                {
+                  "Key": "StyleCop.Analyzers",
+                  "Version": "1.2.0-beta.435"
+                },
+                {
+                  "Key": "System.Drawing.Common",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "System.Drawing.Primitives",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Private.Uri",
+                  "Version": "4.3.2"
+                },
+                {
+                  "Key": "AWSSDK.Core",
+                  "Version": "3.7.400.53"
+                },
+                {
+                  "Key": "Humanizer.Core",
+                  "Version": "2.14.1"
+                },
+                {
+                  "Key": "Microsoft.Bcl.AsyncInterfaces",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "Microsoft.Build.Framework",
+                  "Version": "17.8.3"
+                },
+                {
+                  "Key": "Microsoft.Build.Locator",
+                  "Version": "1.7.8"
+                },
+                {
+                  "Key": "Microsoft.CodeAnalysis.Analyzers",
+                  "Version": "3.3.4"
+                },
+                {
+                  "Key": "Microsoft.CodeAnalysis.Common",
+                  "Version": "4.8.0"
+                },
+                {
+                  "Key": "Microsoft.CodeAnalysis.CSharp",
+                  "Version": "4.8.0"
+                },
+                {
+                  "Key": "Microsoft.CodeAnalysis.CSharp.Workspaces",
+                  "Version": "4.8.0"
+                },
+                {
+                  "Key": "Microsoft.CodeAnalysis.Workspaces.Common",
+                  "Version": "4.8.0"
+                },
+                {
+                  "Key": "Microsoft.CodeAnalysis.Workspaces.MSBuild",
+                  "Version": "4.8.0"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite.Core",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "Microsoft.EntityFrameworkCore.Abstractions",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "Microsoft.EntityFrameworkCore.Analyzers",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "Microsoft.EntityFrameworkCore.Design",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "Microsoft.EntityFrameworkCore.Relational",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "Microsoft.EntityFrameworkCore.Sqlite.Core",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Caching.Abstractions",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Caching.Memory",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Abstractions",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyModel",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Http",
+                  "Version": "5.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Http.Polly",
+                  "Version": "5.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Primitives",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "Microsoft.NETCore.Platforms",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.NETCore.Targets",
+                  "Version": "1.1.3"
+                },
+                {
+                  "Key": "Microsoft.Win32.SystemEvents",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "Mono.TextTemplating",
+                  "Version": "3.0.0"
+                },
+                {
+                  "Key": "Polly",
+                  "Version": "7.1.0"
+                },
+                {
+                  "Key": "Polly.Extensions.Http",
+                  "Version": "3.0.0"
+                },
+                {
+                  "Key": "SQLitePCLRaw.bundle_e_sqlite3",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.core",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.lib.e_sqlite3",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.provider.e_sqlite3",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "StyleCop.Analyzers.Unstable",
+                  "Version": "1.2.0.435"
+                },
+                {
+                  "Key": "System.ClientModel",
+                  "Version": "1.1.0"
+                },
+                {
+                  "Key": "System.CodeDom",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "System.Collections.Immutable",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "System.Composition",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "System.Composition.AttributedModel",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "System.Composition.Convention",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "System.Composition.Hosting",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "System.Composition.Runtime",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "System.Composition.TypedParts",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "System.Diagnostics.DiagnosticSource",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "System.IO.Pipelines",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "System.Memory",
+                  "Version": "4.5.3"
+                },
+                {
+                  "Key": "System.Memory.Data",
+                  "Version": "1.0.2"
+                },
+                {
+                  "Key": "System.Reflection.Metadata",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "System.Runtime",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Runtime.CompilerServices.Unsafe",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "System.Runtime.Extensions",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Text.Encodings.Web",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "System.Text.Json",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "System.Threading.Channels",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "runtime.any.System.Runtime",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "runtime.win.System.Runtime.Extensions",
+                  "Version": "4.3.0"
+                }
+              ],
+              "Reviewer": "philpax"
             }
           }
         },
@@ -38094,9 +38413,9 @@
           }
         },
         "ItemVendorLocation": {
-          "BuiltCommit": "cc571191c780d50647b7afec01bccf5f7aa9fd1f",
-          "TimeBuilt": "2024-12-14T01:14:14.1642269+00:00",
-          "EffectiveVersion": "2.9.0.0",
+          "BuiltCommit": "a991749274a9606acb67ca7116dbb42c4eed02e5",
+          "TimeBuilt": "2024-12-15T23:07:32.4506626+00:00",
+          "EffectiveVersion": "2.9.0.3",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -38278,6 +38597,45 @@
                 }
               ],
               "Reviewer": "reiichi001"
+            },
+            "2.9.0.3": {
+              "TimeReleased": "2024-12-15T23:07:32.4506638+00:00",
+              "Changelog": "- Fix highlighting issue when not every vendor for item has a shop name\n- Fix highlighting issue where menu selection was specific enough (multiple things highlighted)\n- Add additional shop names\n",
+              "UsedNeeds": [
+                {
+                  "Key": "CheapLoc",
+                  "Version": "1.1.8"
+                },
+                {
+                  "Key": "Dalamud.DrunkenToad",
+                  "Version": "1.9.2"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "Dalamud.Loc",
+                  "Version": "1.1.2"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "Mono.Cecil",
+                  "Version": "0.11.3"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "12.0.2"
+                }
+              ],
+              "Reviewer": "philpax"
             }
           }
         },
