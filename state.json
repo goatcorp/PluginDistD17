@@ -44561,9 +44561,9 @@
           }
         },
         "TidyChat": {
-          "BuiltCommit": "9678195b23cc4f69d5fd9c795c849bee824b373e",
-          "TimeBuilt": "2024-12-03T19:20:06.592599+00:00",
-          "EffectiveVersion": "2.0.11.0",
+          "BuiltCommit": "2106cfc2d9ddc7ecc26fadd952e951f3c7a3f2d9",
+          "TimeBuilt": "2024-12-15T22:53:47.2338021+00:00",
+          "EffectiveVersion": "2.0.12.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.2.2.0": {
@@ -44740,6 +44740,29 @@
                 }
               ],
               "Reviewer": "reiichi001"
+            },
+            "2.0.12.0": {
+              "TimeReleased": "2024-12-15T22:53:47.2338418+00:00",
+              "Changelog": "New Emote Filters - disabled by default. Various fixes to filters not working as expected due to improper regex or misleading labels",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "Meziantou.Analyzer",
+                  "Version": "2.0.161"
+                },
+                {
+                  "Key": "TextCopy",
+                  "Version": "6.2.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "7.0.0"
+                }
+              ],
+              "Reviewer": "philpax"
             }
           }
         },
