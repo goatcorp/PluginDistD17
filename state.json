@@ -25736,9 +25736,9 @@
           }
         },
         "EurekaTrackerAutoPopper": {
-          "BuiltCommit": "15befedb2e0203e91f8abef83c2c0b707a15b6e2",
-          "TimeBuilt": "2024-11-15T19:31:24.9706119+00:00",
-          "EffectiveVersion": "1.5.1.5",
+          "BuiltCommit": "ae421ad5aeb0743b6c6a7d500eccb8c62821e565",
+          "TimeBuilt": "2024-12-17T20:17:18.8497612+00:00",
+          "EffectiveVersion": "1.5.2.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.0.4": {
@@ -25853,6 +25853,17 @@
                 }
               ],
               "Reviewer": "goaaats"
+            },
+            "1.5.2.0": {
+              "TimeReleased": "2024-12-17T20:17:18.8498062+00:00",
+              "Changelog": "- Draw coffer circle directly\r\n  - This should prevent focus issues with other plugins",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
@@ -28787,9 +28798,9 @@
           }
         },
         "GatherBuddy": {
-          "BuiltCommit": "c86160592f1a31b2b92f9f451157e96a795b35d2",
-          "TimeBuilt": "2024-11-17T21:47:54.3781411+00:00",
-          "EffectiveVersion": "3.5.0.1",
+          "BuiltCommit": "7c6d403b74f10dd72eb5eb0d0cf317b938de4c74",
+          "TimeBuilt": "2024-12-17T20:17:36.5292114+00:00",
+          "EffectiveVersion": "3.5.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "3.1.4.15926": {
@@ -28855,6 +28866,37 @@
             },
             "3.5.0.1": {
               "TimeReleased": "2024-11-17T21:47:54.3781798+00:00",
+              "Changelog": "nofranz",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/Ottermandias/OtterGui.git",
+                  "Version": "51bab6dd1bd7d98cc468e8122f410e1c79e3c92d"
+                },
+                {
+                  "Key": "https://github.com/Ottermandias/OtterGuiInternal.git",
+                  "Version": "8e144c54022bc7d30f993a8c496ad390764f884f"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "JetBrains.Annotations",
+                  "Version": "2023.3.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "8.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            },
+            "3.5.1.0": {
+              "TimeReleased": "2024-12-17T20:17:36.5292128+00:00",
               "Changelog": "nofranz",
               "UsedNeeds": [
                 {
