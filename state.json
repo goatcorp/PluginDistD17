@@ -46747,9 +46747,9 @@
           }
         },
         "VenueManager": {
-          "BuiltCommit": "7d82573472d07ffae17cbe192a5d9afaedb09255",
-          "TimeBuilt": "2024-12-16T18:09:46.9159068+00:00",
-          "EffectiveVersion": "2.4.2",
+          "BuiltCommit": "3db213e9a26d631198fdf955735a77140d90d1c4",
+          "TimeBuilt": "2024-12-17T20:00:27.9715324+00:00",
+          "EffectiveVersion": "2.5.0",
           "MinimumVersion": null,
           "Changelogs": {
             "2.3.4": {
@@ -46833,6 +46833,45 @@
             "2.4.2": {
               "TimeReleased": "2024-12-16T18:09:46.9159478+00:00",
               "Changelog": "\r\n- updated method for getting house id.\r\n- Added territory id to the setting page for debugging \r\n\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "JsonPoke.MSBuild",
+                  "Version": "1.0.9"
+                },
+                {
+                  "Key": "NAudio",
+                  "Version": "1.10.0"
+                },
+                {
+                  "Key": "Microsoft.NETCore.Platforms",
+                  "Version": "3.1.0"
+                },
+                {
+                  "Key": "Microsoft.Win32.Registry",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "System.Resources.Extensions",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "System.Security.AccessControl",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "System.Security.Principal.Windows",
+                  "Version": "4.7.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            },
+            "2.5.0": {
+              "TimeReleased": "2024-12-17T20:00:27.9715757+00:00",
+              "Changelog": "\r\n- Updated method for getting house id.\r\n- Added territory id to the setting page for debugging \r\n- Updated how being in a house is detected \r\n\r\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
