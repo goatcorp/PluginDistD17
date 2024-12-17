@@ -22069,9 +22069,9 @@
           }
         },
         "TitleEdit": {
-          "BuiltCommit": "5593d55e66d463f9bcc234738d854fe345a927bb",
-          "TimeBuilt": "2024-12-14T21:21:27.6278882+00:00",
-          "EffectiveVersion": "3.0.4.2",
+          "BuiltCommit": "09189a055ee343caa9dff5cd6f43fe932bed1268",
+          "TimeBuilt": "2024-12-17T19:58:39.288955+00:00",
+          "EffectiveVersion": "3.0.4.3",
           "MinimumVersion": null,
           "Changelogs": {
             "2.3.0.0": {
@@ -22530,6 +22530,45 @@
             "3.0.4.2": {
               "TimeReleased": "2024-12-14T21:21:27.6278894+00:00",
               "Changelog": "- Prevent housing stuff from leaking into character creation\n- Fix a housing crash on startup\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.Build.Tasks.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Common",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitHub",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitLab",
+                  "Version": "1.1.1"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            },
+            "3.0.4.3": {
+              "TimeReleased": "2024-12-17T19:58:39.2889939+00:00",
+              "Changelog": "- Fixed player owned mounts check throwing errors every frame\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
