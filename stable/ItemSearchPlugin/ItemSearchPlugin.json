@@ -1,8 +1,8 @@
 {
-  "Author": "Caraxi",
+  "Author": "Caraxi, maintained & updated by Khayle",
   "Name": "Item Search",
   "InternalName": "ItemSearchPlugin",
-  "AssemblyVersion": "1.10.0.3",
+  "AssemblyVersion": "1.10.1.0",
   "Description": "Filterable search for Items and Key Items.\nTry on any item without having to find someone to link it.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Caraxi/ItemSearchPlugin",
