@@ -11348,9 +11348,9 @@
           }
         },
         "StackSellPrice": {
-          "BuiltCommit": "7743650780a74f8f2b257e4e3bdac7a95881349f",
-          "TimeBuilt": "2024-12-20T05:37:07.8913173+00:00",
-          "EffectiveVersion": "4.4.0.0",
+          "BuiltCommit": "887a4a8066ccf3c460f0c1183d1e0f84f6ac6c57",
+          "TimeBuilt": "2024-12-20T23:13:54.2391729+00:00",
+          "EffectiveVersion": "4.4.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.1.0.39314": {
@@ -11392,6 +11392,17 @@
             "4.4.0.0": {
               "TimeReleased": "2024-12-20T05:37:07.8913181+00:00",
               "Changelog": "- Update for API 11\r\n- Removed all usage of XIVCommon~\r\n\r\nNote: \r\nAdopting this from PrincessRTFM as they have no time to look into updating this, see \u003Chttps://discord.com/channels/581875019861328007/684745859497590843/1319457062467670026\u003E",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            },
+            "4.4.1.0": {
+              "TimeReleased": "2024-12-20T23:13:54.2392302+00:00",
+              "Changelog": "- Read most data directly from inventory\r\n- Restore the original string \r\n\r\nBoth of these changes should make it work better with non-english clients",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
