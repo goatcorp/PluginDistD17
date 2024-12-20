@@ -11325,9 +11325,9 @@
           }
         },
         "StackSellPrice": {
-          "BuiltCommit": "811d8a6dd507f1426fd1ffe7c248adeb6fcbfd55",
-          "TimeBuilt": "2024-03-20T20:16:19.796",
-          "EffectiveVersion": "4.3.0",
+          "BuiltCommit": "7743650780a74f8f2b257e4e3bdac7a95881349f",
+          "TimeBuilt": "2024-12-20T05:37:07.8913173+00:00",
+          "EffectiveVersion": "4.4.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.1.0.39314": {
@@ -11365,6 +11365,17 @@
               "Changelog": "Update for patch 6.58, no code changes.",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "4.4.0.0": {
+              "TimeReleased": "2024-12-20T05:37:07.8913181+00:00",
+              "Changelog": "- Update for API 11\r\n- Removed all usage of XIVCommon~\r\n\r\nNote: \r\nAdopting this from PrincessRTFM as they have no time to look into updating this, see \u003Chttps://discord.com/channels/581875019861328007/684745859497590843/1319457062467670026\u003E",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
@@ -14258,9 +14269,9 @@
           }
         },
         "TrackyTrack": {
-          "BuiltCommit": "406471e62414493573d6ce54c25be810502666b5",
-          "TimeBuilt": "2024-12-09T22:18:35.4557128+00:00",
-          "EffectiveVersion": "1.5.5.7",
+          "BuiltCommit": "279c3e5ad8c6eebbf1658046cf1c45d4e0c507d2",
+          "TimeBuilt": "2024-12-20T05:37:46.5773162+00:00",
+          "EffectiveVersion": "1.5.5.8",
           "MinimumVersion": null,
           "Changelogs": {
             "1.5.5.5": {
@@ -14415,6 +14426,57 @@
                 }
               ],
               "Reviewer": "philpax"
+            },
+            "1.5.5.8": {
+              "TimeReleased": "2024-12-20T05:37:46.5773172+00:00",
+              "Changelog": "- New Lockbox UI\r\n  - This is planned for all tabs\r\n- Lockbox data is now refreshed every 30s to prevent FPS drops",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/Ottermandias/OtterGui",
+                  "Version": "8ba88eff15326bb28ed5e6157f5252c114d40b5f"
+                },
+                {
+                  "Key": "https://github.com/Ottermandias/OtterGuiInternal.git",
+                  "Version": "8e144c54022bc7d30f993a8c496ad390764f884f"
+                },
+                {
+                  "Key": "CsvHelper",
+                  "Version": "33.0.1"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "MessagePack",
+                  "Version": "3.0.238-rc.1"
+                },
+                {
+                  "Key": "JetBrains.Annotations",
+                  "Version": "2024.2.0"
+                },
+                {
+                  "Key": "MessagePack.Annotations",
+                  "Version": "3.0.238-rc.1"
+                },
+                {
+                  "Key": "MessagePackAnalyzer",
+                  "Version": "3.0.238-rc.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.NET.StringTools",
+                  "Version": "17.11.4"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
@@ -26453,9 +26515,9 @@
           }
         },
         "OfDungeonsDeep": {
-          "BuiltCommit": "6f7ec926c1b17d8338ea7a932ed59218f2c3cfdb",
-          "TimeBuilt": "2024-12-08T23:45:40.9001559+00:00",
-          "EffectiveVersion": "1.0.3.0",
+          "BuiltCommit": "df8740f974c454cb2b9354228ec9b5292bf3d125",
+          "TimeBuilt": "2024-12-20T05:37:27.5883649+00:00",
+          "EffectiveVersion": "1.0.4.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.2.0": {
@@ -26540,6 +26602,25 @@
                 {
                   "Key": "Microsoft.SourceLink.GitLab",
                   "Version": "1.1.1"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            },
+            "1.0.4.0": {
+              "TimeReleased": "2024-12-20T05:37:27.5883662+00:00",
+              "Changelog": "### Dead Targeting update\n- Added a configuration (opt out) to allow target data info to keep being displayed even if you\u0027re dead, whether from damage or a skill issue, so you can still call out mechanics/attacks to your allies pretending to be a living encyclopedia\n-# -Went deeper into the dungeon\n",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MKhayle/compendium.git",
+                  "Version": "8296b8a78c4cf0f7a954f7cfde9ea27aacc9a247"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.25"
                 }
               ],
               "Reviewer": "reiichi001"
@@ -44945,9 +45026,9 @@
           }
         },
         "ChatTwo": {
-          "BuiltCommit": "7cbaf77fe22da7f4e7b1b171c02d1b15c62e1042",
-          "TimeBuilt": "2024-12-18T17:36:51.0552081+00:00",
-          "EffectiveVersion": "1.29.14.0",
+          "BuiltCommit": "70971d7b8a02011821de75ae47b35a5d2ad55c4d",
+          "TimeBuilt": "2024-12-20T05:37:01.0125064+00:00",
+          "EffectiveVersion": "1.29.15.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.17.5.0": {
@@ -45787,6 +45868,101 @@
                 }
               ],
               "Reviewer": "philpax"
+            },
+            "1.29.15.0": {
+              "TimeReleased": "2024-12-20T05:37:01.0125472+00:00",
+              "Changelog": "- Fix /r issues\r\n- Scope the block functions menu entry\r\n- Don\u0027t show MuteList if accountId is unset",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "MessagePack",
+                  "Version": "3.0.238-rc.1"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "Pidgin",
+                  "Version": "3.3.0"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.5"
+                },
+                {
+                  "Key": "Watson.Lite",
+                  "Version": "6.2.3"
+                },
+                {
+                  "Key": "CavemanTcp",
+                  "Version": "2.0.3"
+                },
+                {
+                  "Key": "IpMatcher",
+                  "Version": "1.0.4.4"
+                },
+                {
+                  "Key": "MessagePack.Annotations",
+                  "Version": "3.0.238-rc.1"
+                },
+                {
+                  "Key": "MessagePackAnalyzer",
+                  "Version": "3.0.238-rc.1"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite.Core",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "Microsoft.NET.StringTools",
+                  "Version": "17.11.4"
+                },
+                {
+                  "Key": "RegexMatcher",
+                  "Version": "1.0.8"
+                },
+                {
+                  "Key": "SQLitePCLRaw.bundle_e_sqlite3",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.core",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.lib.e_sqlite3",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.provider.e_sqlite3",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "System.Memory",
+                  "Version": "4.5.3"
+                },
+                {
+                  "Key": "System.Text.Json",
+                  "Version": "8.0.5"
+                },
+                {
+                  "Key": "Timestamps",
+                  "Version": "1.0.9"
+                },
+                {
+                  "Key": "UrlMatcher",
+                  "Version": "3.0.0"
+                },
+                {
+                  "Key": "Watson.Core",
+                  "Version": "6.2.3"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
@@ -68819,6 +68995,13 @@
       "Version": "1.1.15",
       "ReviewedBy": "reiichi001",
       "ReviewedAt": "2024-12-20T05:33:26.1683912Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/MKhayle/compendium.git",
+      "Version": "8296b8a78c4cf0f7a954f7cfde9ea27aacc9a247",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-12-20T05:37:27.6122787Z"
     }
   ]
 }
