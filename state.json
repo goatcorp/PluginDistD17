@@ -60306,6 +60306,33 @@
               "Reviewer": "philpax"
             }
           }
+        },
+        "MountRadio": {
+          "BuiltCommit": "80ea4d05cb026e2fab30174f16f5e1a8d7049ec4",
+          "TimeBuilt": "2024-12-20T23:17:55.970165+00:00",
+          "EffectiveVersion": "0.0.0.1",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "0.0.0.1": {
+              "TimeReleased": "2024-12-20T23:17:55.9702048+00:00",
+              "Changelog": "Initial Release",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "NAudio.Wasapi",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Core",
+                  "Version": "2.2.1"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            }
+          }
         }
       }
     },

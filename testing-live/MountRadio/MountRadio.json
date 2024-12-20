@@ -1,0 +1,23 @@
+{
+  "Author": "Jen Hyul",
+  "Name": "Mount Radio/Mount Music Player",
+  "InternalName": "MountRadio",
+  "AssemblyVersion": "0.0.0.1",
+  "Description": "/radiosettings, /radiotoggle, /radiovolume, /radioautostart, /radioautostop",
+  "ApplicableVersion": "any",
+  "Tags": [
+    "Radio",
+    "Music",
+    "Mounts",
+    "Mount"
+  ],
+  "DalamudApiLevel": 11,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "Punchline": "URL music player for your mounts! Stream internet radio when on a mount or on foot.",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "testing-live"
+}
