@@ -1,0 +1,22 @@
+{
+  "Author": "wompscode",
+  "Name": "AFKMute",
+  "InternalName": "AFKMute",
+  "AssemblyVersion": "1.0.0.3",
+  "Description": "Mutes your game when you're AFK. /afkmute to toggle.",
+  "ApplicableVersion": "any",
+  "Tags": [
+    "afk",
+    "mute",
+    "qol"
+  ],
+  "DalamudApiLevel": 11,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "Punchline": "Mutes your game when you're AFK.",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "testing-live"
+}

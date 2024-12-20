@@ -60248,6 +60248,53 @@
               "Reviewer": "reiichi001"
             }
           }
+        },
+        "AFKMute": {
+          "BuiltCommit": "7aa1e3a82e9364645feceac40f8cfd3fc4611467",
+          "TimeBuilt": "2024-12-20T17:00:43.3893858+00:00",
+          "EffectiveVersion": "1.0.0.3",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "1.0.0.3": {
+              "TimeReleased": "2024-12-20T17:00:43.3894244+00:00",
+              "Changelog": "Move to api11 and check if master volume was muted prior to going AFK.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.Build.Tasks.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Common",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitHub",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitLab",
+                  "Version": "1.1.1"
+                }
+              ],
+              "Reviewer": "philpax"
+            }
+          }
         }
       }
     },
