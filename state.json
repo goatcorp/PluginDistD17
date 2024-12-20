@@ -60333,6 +60333,72 @@
               "Reviewer": "reiichi001"
             }
           }
+        },
+        "BigNaelQuotes": {
+          "BuiltCommit": "c0a1334e15a4435dbf07327435adce3eb5773d39",
+          "TimeBuilt": "2024-12-20T23:22:45.5721615+00:00",
+          "EffectiveVersion": "0.0.4.0",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "0.0.4.0": {
+              "TimeReleased": "2024-12-20T23:22:45.5722026+00:00",
+              "Changelog": "Randomize test quote selection",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            }
+          }
+        },
+        "QuietDen": {
+          "BuiltCommit": "272365883b313022189374415e8e0cd44a6f10f1",
+          "TimeBuilt": "2024-12-20T23:22:51.7919281+00:00",
+          "EffectiveVersion": "0.0.1.0",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "0.0.1.0": {
+              "TimeReleased": "2024-12-20T23:22:51.7919291+00:00",
+              "Changelog": "Initial Commit, first plugin attempt!",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.Build.Tasks.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Common",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitHub",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitLab",
+                  "Version": "1.1.1"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            }
+          }
         }
       }
     },
