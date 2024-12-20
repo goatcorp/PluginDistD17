@@ -419,9 +419,9 @@
           }
         },
         "Glamaholic": {
-          "BuiltCommit": "3d65cfe8877753199bc1ed3dd476f19a3bccc1d8",
-          "TimeBuilt": "2024-11-23T18:03:47.3240234+00:00",
-          "EffectiveVersion": "1.10.11.0",
+          "BuiltCommit": "15b50a2757b6252656cc7cd3f78b3825676f8334",
+          "TimeBuilt": "2024-12-20T16:55:09.0703872+00:00",
+          "EffectiveVersion": "1.10.12.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.9.8.0": {
@@ -504,6 +504,29 @@
             "1.10.11.0": {
               "TimeReleased": "2024-11-23T18:03:47.3240653+00:00",
               "Changelog": "Fixed a bug wherein the second dye slot would not be set when a plate was applied.\n\nFor troubleshooting, please enable Troubleshooting mode (Settings -\u003E Troubleshooting mode), reproduce the issue, then post any log line from \u0060/xllog\u0060 starting with \u0060[Troubleshooting]\u0060. Thanks!\n",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/Ottermandias/Glamourer.Api.git",
+                  "Version": "4bad56d610132b419335b89896e1f387b9ba2039"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "Fody",
+                  "Version": "6.8.0"
+                },
+                {
+                  "Key": "Resourcer.Fody",
+                  "Version": "1.8.1"
+                }
+              ],
+              "Reviewer": "philpax"
+            },
+            "1.10.12.0": {
+              "TimeReleased": "2024-12-20T16:55:09.0704257+00:00",
+              "Changelog": "- Eorzea Collection glamours with items containing NBSP characters should now import correctly.\n- Added a plugin interop command suggested by @subaruyashiro, see plugin help for more information.\n\nFor troubleshooting, please enable Troubleshooting mode (Settings -\u003E Troubleshooting mode), reproduce the issue, then post any log line from \u0060/xllog\u0060 starting with \u0060[Troubleshooting]\u0060. Thanks!\n",
               "UsedNeeds": [
                 {
                   "Key": "https://github.com/Ottermandias/Glamourer.Api.git",
@@ -14269,9 +14292,9 @@
           }
         },
         "TrackyTrack": {
-          "BuiltCommit": "279c3e5ad8c6eebbf1658046cf1c45d4e0c507d2",
-          "TimeBuilt": "2024-12-20T05:37:46.5773162+00:00",
-          "EffectiveVersion": "1.5.5.8",
+          "BuiltCommit": "d8efd368a12321de594c84d324164b4a0ba0701f",
+          "TimeBuilt": "2024-12-20T16:55:29.6271406+00:00",
+          "EffectiveVersion": "1.5.5.9",
           "MinimumVersion": null,
           "Changelogs": {
             "1.5.5.5": {
@@ -14477,6 +14500,57 @@
                 }
               ],
               "Reviewer": "reiichi001"
+            },
+            "1.5.5.9": {
+              "TimeReleased": "2024-12-20T16:55:29.6271423+00:00",
+              "Changelog": "Overhaul:\r\n- New design for Gacha tab\r\n- New design for Common tab\r\n\r\n  \r\nUpdates:\r\n- Update records (5.1mil now)\r\n- Fix error from HQ items in Lockbox",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/Ottermandias/OtterGui",
+                  "Version": "8ba88eff15326bb28ed5e6157f5252c114d40b5f"
+                },
+                {
+                  "Key": "https://github.com/Ottermandias/OtterGuiInternal.git",
+                  "Version": "8e144c54022bc7d30f993a8c496ad390764f884f"
+                },
+                {
+                  "Key": "CsvHelper",
+                  "Version": "33.0.1"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "MessagePack",
+                  "Version": "3.0.238-rc.1"
+                },
+                {
+                  "Key": "JetBrains.Annotations",
+                  "Version": "2024.2.0"
+                },
+                {
+                  "Key": "MessagePack.Annotations",
+                  "Version": "3.0.238-rc.1"
+                },
+                {
+                  "Key": "MessagePackAnalyzer",
+                  "Version": "3.0.238-rc.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.NET.StringTools",
+                  "Version": "17.11.4"
+                }
+              ],
+              "Reviewer": "philpax"
             }
           }
         },
@@ -49899,9 +49973,9 @@
           }
         },
         "Altoholic": {
-          "BuiltCommit": "6f7d342c893da78c666beead878ac573f0668b0b",
-          "TimeBuilt": "2024-11-28T05:53:49.3192244+00:00",
-          "EffectiveVersion": "0.0.0.27",
+          "BuiltCommit": "ea023f258adace2e5e1209e0a3b0f59aefb2bf31",
+          "TimeBuilt": "2024-12-20T16:55:45.4840541+00:00",
+          "EffectiveVersion": "0.0.0.28",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.0.1": {
@@ -50644,6 +50718,57 @@
                 }
               ],
               "Reviewer": "reiichi001"
+            },
+            "0.0.0.28": {
+              "TimeReleased": "2024-12-20T16:55:45.4840551+00:00",
+              "Changelog": "Version 0.0.0.28: Add unlocked duties indicator to duties list. Add reset command to reset window position. Fix some table width. Add dt Hildibrand",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "Dapper",
+                  "Version": "2.1.35"
+                },
+                {
+                  "Key": "LiteDB",
+                  "Version": "5.0.21"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite.Core",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "SQLitePCLRaw.bundle_e_sqlite3",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.core",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.lib.e_sqlite3",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.provider.e_sqlite3",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "System.Buffers",
+                  "Version": "4.5.1"
+                },
+                {
+                  "Key": "System.Memory",
+                  "Version": "4.5.3"
+                }
+              ],
+              "Reviewer": "philpax"
             }
           }
         },
