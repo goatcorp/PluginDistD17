@@ -31049,9 +31049,9 @@
           }
         },
         "MOAction": {
-          "BuiltCommit": "77703d85e7e9bf57fa5f757856685ef3a0d97cfb",
-          "TimeBuilt": "2024-11-29T22:05:25.3939749+00:00",
-          "EffectiveVersion": "4.3.2.0",
+          "BuiltCommit": "27d77f9864e5b785775ca2bf042d03b4743ac3cb",
+          "TimeBuilt": "2024-12-20T05:51:52.8843117+00:00",
+          "EffectiveVersion": "4.4.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "4.2.7.0": {
@@ -31123,6 +31123,17 @@
             "4.3.2.0": {
               "TimeReleased": "2024-11-29T22:05:25.3939756+00:00",
               "Changelog": "\t\t7.1\n\t\tty alluneve\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            },
+            "4.4.1.0": {
+              "TimeReleased": "2024-12-20T05:51:52.8843506+00:00",
+              "Changelog": "Adoption of this plugin\r\nThanks goes to the previous maintainer attick, and Alluneve for all the work they recently invested into improving this plugin\r\n\r\n**Commands**\r\n- Added 2 new alias /mo and /moaction\r\n\r\n**New TargetType**\r\n- Crosshair\r\n  - A static location that acts exactly like \u0022MouseOver\u0022\r\n  - Can be drawn as crosshair onto the screen to give a visualization\r\n\r\n**UI Changes**\r\n- Use dalamud window system and ImRaii\r\n- Allow stacks to be reordered\r\n- Renamed the MENU to ALT key \r\n- Added Searchable action combos\r\n- General cleanup and small improvements to the UI\r\n  - More is planned for the near future\r\n- Added an about tab\r\n  - Support can be reached by using the discord thread button\r\n\r\n**Internal Changes**\r\n- Use more of CS for easier maintenance in the future\r\n- Removed a lot of old code that was still lingering around\r\n- Migration code for 4.0 was fully removed\r\n- Improve performance by removing string comparison \r\n\r\nFeedback is always welcome, just drop it in the discord thread or as an issue on github :)\r\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
