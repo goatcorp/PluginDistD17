@@ -49984,9 +49984,9 @@
           }
         },
         "Altoholic": {
-          "BuiltCommit": "ea023f258adace2e5e1209e0a3b0f59aefb2bf31",
-          "TimeBuilt": "2024-12-20T16:55:45.4840541+00:00",
-          "EffectiveVersion": "0.0.0.28",
+          "BuiltCommit": "f48c5a20da966c9b105b2afb050c187d8d38b51c",
+          "TimeBuilt": "2024-12-21T17:23:45.7809693+00:00",
+          "EffectiveVersion": "0.0.0.29",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.0.1": {
@@ -50733,6 +50733,57 @@
             "0.0.0.28": {
               "TimeReleased": "2024-12-20T16:55:45.4840551+00:00",
               "Changelog": "Version 0.0.0.28: Add unlocked duties indicator to duties list. Add reset command to reset window position. Fix some table width. Add dt Hildibrand",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "Dapper",
+                  "Version": "2.1.35"
+                },
+                {
+                  "Key": "LiteDB",
+                  "Version": "5.0.21"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite.Core",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "SQLitePCLRaw.bundle_e_sqlite3",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.core",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.lib.e_sqlite3",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.provider.e_sqlite3",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "System.Buffers",
+                  "Version": "4.5.1"
+                },
+                {
+                  "Key": "System.Memory",
+                  "Version": "4.5.3"
+                }
+              ],
+              "Reviewer": "philpax"
+            },
+            "0.0.0.29": {
+              "TimeReleased": "2024-12-21T17:23:45.7810226+00:00",
+              "Changelog": "Version 0.0.0.29: Replace ascii icon to fontawesome",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
