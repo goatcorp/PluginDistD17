@@ -14303,9 +14303,9 @@
           }
         },
         "TrackyTrack": {
-          "BuiltCommit": "d8efd368a12321de594c84d324164b4a0ba0701f",
-          "TimeBuilt": "2024-12-20T16:55:29.6271406+00:00",
-          "EffectiveVersion": "1.5.5.9",
+          "BuiltCommit": "50075d4a6e687e78754ba1d9e3b012fee8f2f425",
+          "TimeBuilt": "2024-12-22T01:09:26.2292789+00:00",
+          "EffectiveVersion": "1.5.5.10",
           "MinimumVersion": null,
           "Changelogs": {
             "1.5.5.5": {
@@ -14515,6 +14515,57 @@
             "1.5.5.9": {
               "TimeReleased": "2024-12-20T16:55:29.6271423+00:00",
               "Changelog": "Overhaul:\r\n- New design for Gacha tab\r\n- New design for Common tab\r\n\r\n  \r\nUpdates:\r\n- Update records (5.1mil now)\r\n- Fix error from HQ items in Lockbox",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/Ottermandias/OtterGui",
+                  "Version": "8ba88eff15326bb28ed5e6157f5252c114d40b5f"
+                },
+                {
+                  "Key": "https://github.com/Ottermandias/OtterGuiInternal.git",
+                  "Version": "8e144c54022bc7d30f993a8c496ad390764f884f"
+                },
+                {
+                  "Key": "CsvHelper",
+                  "Version": "33.0.1"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "MessagePack",
+                  "Version": "3.0.238-rc.1"
+                },
+                {
+                  "Key": "JetBrains.Annotations",
+                  "Version": "2024.2.0"
+                },
+                {
+                  "Key": "MessagePack.Annotations",
+                  "Version": "3.0.238-rc.1"
+                },
+                {
+                  "Key": "MessagePackAnalyzer",
+                  "Version": "3.0.238-rc.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.NET.StringTools",
+                  "Version": "17.11.4"
+                }
+              ],
+              "Reviewer": "philpax"
+            },
+            "1.5.5.10": {
+              "TimeReleased": "2024-12-22T01:09:26.2293174+00:00",
+              "Changelog": "- Overhaul Bunny tab\r\n- Fix cut-off icons",
               "UsedNeeds": [
                 {
                   "Key": "https://github.com/Ottermandias/OtterGui",
