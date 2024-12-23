@@ -1391,9 +1391,9 @@
           }
         },
         "OBSPlugin": {
-          "BuiltCommit": "6ecb1c5034274b70b0429289a37f9f3d31319be0",
-          "TimeBuilt": "2024-11-18T06:37:00.6530435+00:00",
-          "EffectiveVersion": "1.0.4.3",
+          "BuiltCommit": "ac80c1a2e4e13feadcdf02ac738f3208642c382a",
+          "TimeBuilt": "2024-12-23T00:45:42.6080632+00:00",
+          "EffectiveVersion": "1.0.4.4",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.2.3": {
@@ -1460,6 +1460,41 @@
                 }
               ],
               "Reviewer": "reiichi001"
+            },
+            "1.0.4.4": {
+              "TimeReleased": "2024-12-23T00:45:42.6080647+00:00",
+              "Changelog": "- fix: partylist name",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/Bluefissure/obs-websocket-dotnet.git",
+                  "Version": "f7d696bc41d80c89861b66a968dea925ba073fbf"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "Microsoft.NET.ILLink.Tasks",
+                  "Version": "8.0.11"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.3"
+                },
+                {
+                  "Key": "System.Reactive",
+                  "Version": "4.3.2"
+                },
+                {
+                  "Key": "System.Threading.Channels",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "Websocket.Client",
+                  "Version": "4.4.43"
+                }
+              ],
+              "Reviewer": "philpax"
             }
           }
         },
@@ -49772,9 +49807,9 @@
           }
         },
         "MultiHit": {
-          "BuiltCommit": "b3b02f0319ff4eab20970f66db5e432a390b53aa",
-          "TimeBuilt": "2024-11-18T06:36:45.2042375+00:00",
-          "EffectiveVersion": "0.0.2.3",
+          "BuiltCommit": "66f31872439e6a5542323492756fc981dd519381",
+          "TimeBuilt": "2024-12-23T00:45:32.0890813+00:00",
+          "EffectiveVersion": "0.0.2.4",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.2.3": {
@@ -49787,6 +49822,17 @@
                 }
               ],
               "Reviewer": "reiichi001"
+            },
+            "0.0.2.4": {
+              "TimeReleased": "2024-12-23T00:45:32.0891197+00:00",
+              "Changelog": "- make action search case insensitive\n- add command for enable/disable\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "philpax"
             }
           }
         },
@@ -51530,11 +51576,119 @@
           "Changelogs": {}
         },
         "RpUtils": {
-          "BuiltCommit": "f18f14769fbf8aca764fd889d0104a4b8ff02e8c",
-          "TimeBuilt": "2024-07-04T20:37:55.413",
-          "EffectiveVersion": "0.2.3.0",
+          "BuiltCommit": "4c106c5b0bdf6092eb86469c941b590546184f84",
+          "TimeBuilt": "2024-12-23T00:45:52.603132+00:00",
+          "EffectiveVersion": "0.3.0.0",
           "MinimumVersion": null,
-          "Changelogs": {}
+          "Changelogs": {
+            "0.3.0.0": {
+              "TimeReleased": "2024-12-23T00:45:52.6031332+00:00",
+              "Changelog": "0.3.0 (2024.12.08)\r\n- Updated for Dawntrail (7.1) release.\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.SignalR.Client",
+                  "Version": "8.0.3"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Console",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.Connections.Abstractions",
+                  "Version": "8.0.3"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.Http.Connections.Client",
+                  "Version": "8.0.3"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.Http.Connections.Common",
+                  "Version": "8.0.3"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.SignalR.Client.Core",
+                  "Version": "8.0.3"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.SignalR.Common",
+                  "Version": "8.0.3"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.SignalR.Protocols.Json",
+                  "Version": "8.0.3"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Abstractions",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Binder",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "8.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Features",
+                  "Version": "8.0.3"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "8.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Configuration",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options",
+                  "Version": "8.0.2"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options.ConfigurationExtensions",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Primitives",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "System.IO.Pipelines",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "System.Text.Encodings.Web",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "System.Text.Json",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "System.Threading.Channels",
+                  "Version": "8.0.0"
+                }
+              ],
+              "Reviewer": "philpax"
+            }
+          }
         },
         "SortaKinda": {
           "BuiltCommit": "b8f922f7591684f910b8c62ddc0d211b80f99ec5",
@@ -69549,6 +69703,62 @@
       "Version": "8296b8a78c4cf0f7a954f7cfde9ea27aacc9a247",
       "ReviewedBy": "reiichi001",
       "ReviewedAt": "2024-12-20T05:37:27.6122787Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.AspNetCore.SignalR.Client",
+      "Version": "8.0.3",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2024-12-23T00:45:52.6252045Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.AspNetCore.Connections.Abstractions",
+      "Version": "8.0.3",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2024-12-23T00:45:52.6252396Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.AspNetCore.Http.Connections.Client",
+      "Version": "8.0.3",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2024-12-23T00:45:52.6252397Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.AspNetCore.Http.Connections.Common",
+      "Version": "8.0.3",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2024-12-23T00:45:52.6252398Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.AspNetCore.SignalR.Client.Core",
+      "Version": "8.0.3",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2024-12-23T00:45:52.62524Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.AspNetCore.SignalR.Common",
+      "Version": "8.0.3",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2024-12-23T00:45:52.6252406Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.AspNetCore.SignalR.Protocols.Json",
+      "Version": "8.0.3",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2024-12-23T00:45:52.6252408Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Extensions.Features",
+      "Version": "8.0.3",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2024-12-23T00:45:52.6252415Z"
     }
   ]
 }
