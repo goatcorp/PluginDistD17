@@ -32513,9 +32513,9 @@
           }
         },
         "AvantGarde": {
-          "BuiltCommit": "4c726adba26b3f80387a36ed920faaaa15519ccc",
-          "TimeBuilt": "2024-11-17T21:00:49.9203718+00:00",
-          "EffectiveVersion": "1.0.1.0",
+          "BuiltCommit": "760c3060588001a6a3d9b9af6092cdd844600e38",
+          "TimeBuilt": "2024-12-27T16:06:04.3682889+00:00",
+          "EffectiveVersion": "1.0.2.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.1.1": {
@@ -32546,6 +32546,17 @@
                 }
               ],
               "Reviewer": "reiichi001"
+            },
+            "1.0.2.0": {
+              "TimeReleased": "2024-12-27T16:06:04.3683266+00:00",
+              "Changelog": "Minor GUI fixes\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "philpax"
             }
           }
         },
