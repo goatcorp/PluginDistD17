@@ -24464,9 +24464,9 @@
           }
         },
         "TitleEdit": {
-          "BuiltCommit": "09189a055ee343caa9dff5cd6f43fe932bed1268",
-          "TimeBuilt": "2024-12-17T19:58:39.288955+00:00",
-          "EffectiveVersion": "3.0.4.3",
+          "BuiltCommit": "d489747b624d84d17d81f7c6857e914d132493d7",
+          "TimeBuilt": "2024-12-28T17:45:58.3338919+00:00",
+          "EffectiveVersion": "3.0.4.4",
           "MinimumVersion": null,
           "Changelogs": {
             "2.3.0.0": {
@@ -24999,6 +24999,45 @@
                 }
               ],
               "Reviewer": "reiichi001"
+            },
+            "3.0.4.4": {
+              "TimeReleased": "2024-12-28T17:45:58.3339322+00:00",
+              "Changelog": "- Fixed a race condition crash relating to a 3rd party plugin\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.Build.Tasks.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Common",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitHub",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitLab",
+                  "Version": "1.1.1"
+                }
+              ],
+              "Reviewer": "philpax"
             }
           }
         },
