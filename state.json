@@ -43973,9 +43973,9 @@
           }
         },
         "HimbeertoniRaidTool": {
-          "BuiltCommit": "bc840b90ecc64409f297c1191e4fcd65b4f0beac",
-          "TimeBuilt": "2024-11-17T18:02:08.9666088+00:00",
-          "EffectiveVersion": "1.7.0.0",
+          "BuiltCommit": "e03797e6e4ae61cf6a9f0c6f5cd158cf8f1486ea",
+          "TimeBuilt": "2024-12-29T19:13:55.5446849+00:00",
+          "EffectiveVersion": "1.8.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.33": {
@@ -44326,6 +44326,61 @@
                 {
                   "Key": "DalamudPackager",
                   "Version": "11.0.0"
+                },
+                {
+                  "Key": "NetStone",
+                  "Version": "1.3.1"
+                },
+                {
+                  "Key": "HtmlAgilityPack",
+                  "Version": "1.11.46"
+                },
+                {
+                  "Key": "Karashiiro.HtmlAgilityPack.CssSelectors.NetCoreFork",
+                  "Version": "0.0.2"
+                },
+                {
+                  "Key": "Lumina",
+                  "Version": "5.2.1"
+                },
+                {
+                  "Key": "Lumina.Excel",
+                  "Version": "7.1.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.ObjectPool",
+                  "Version": "8.0.7"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.3"
+                },
+                {
+                  "Key": "XIVCalc",
+                  "Version": "0.3.0"
+                },
+                {
+                  "Key": "XIVCalc.Lumina",
+                  "Version": "7.1.0"
+                }
+              ],
+              "Reviewer": "philpax"
+            },
+            "1.8.0.0": {
+              "TimeReleased": "2024-12-29T19:13:55.5447357+00:00",
+              "Changelog": "Gear: GearSets now support selection of food. You need to update all set from etro.gg and XivGear.app to get the food\n    Configuration: You can trigger updates for all gear sets from the options\n    Bugfix: XivGear.app sets now behave as expected (on update and edit)\n    System: A lot of changes on underlying systems. If you notice anything behaving strangely let me know via the official discord",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/Koenari/HimbeertoniRaidTool.Common.git",
+                  "Version": "944036a858513c912711b5beb2868b3b276227ce"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.25"
                 },
                 {
                   "Key": "NetStone",
@@ -55283,9 +55338,9 @@
           }
         },
         "PlayerTrack": {
-          "BuiltCommit": "79f2bf5699def91503ea635466a7f7a3f0a9bd6b",
-          "TimeBuilt": "2024-12-27T23:33:18.1389367+00:00",
-          "EffectiveVersion": "3.4.11.0",
+          "BuiltCommit": "c08678a0dde686d0bd24bbe9d47af8bb1fd623d9",
+          "TimeBuilt": "2024-12-29T19:14:17.1872287+00:00",
+          "EffectiveVersion": "3.4.12.0",
           "MinimumVersion": null,
           "Changelogs": {
             "3.4.10.0": {
@@ -55941,6 +55996,337 @@
                 }
               ],
               "Reviewer": "reiichi001"
+            },
+            "3.4.12.0": {
+              "TimeReleased": "2024-12-29T19:14:17.1872302+00:00",
+              "Changelog": "_Search gets a boost and fixes for a bunch of stability/log spam issues._\r\n### Added\r\n- Add special search commands like \u0022fc:uwu\u0022 to search for FC tags - see Settings-\u003EHelp for more info.\r\n### Fixed\r\n- Add some missing localization from last release.\r\n- Fix imgui assert errors for pop/push.\r\n- Fix imgui assert errors for calc item height.\r\n- Fix object table outside thread warnings.",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/kalilistic/dalamud.drunkentoad",
+                  "Version": "281b3cb958fa693d32fdcddcbbc2aaf53322c926"
+                },
+                {
+                  "Key": "Dalamud.Loc",
+                  "Version": "1.2.1"
+                },
+                {
+                  "Key": "FlexConfig",
+                  "Version": "1.0.0"
+                },
+                {
+                  "Key": "AutoMapper",
+                  "Version": "12.0.1"
+                },
+                {
+                  "Key": "Dapper",
+                  "Version": "2.0.123"
+                },
+                {
+                  "Key": "Dapper.Contrib",
+                  "Version": "2.0.78"
+                },
+                {
+                  "Key": "FluentDapperLite",
+                  "Version": "0.0.7"
+                },
+                {
+                  "Key": "FluentMigrator",
+                  "Version": "3.3.2"
+                },
+                {
+                  "Key": "FluentMigrator.Abstractions",
+                  "Version": "3.3.2"
+                },
+                {
+                  "Key": "FluentMigrator.Extensions.Oracle",
+                  "Version": "3.3.2"
+                },
+                {
+                  "Key": "FluentMigrator.Extensions.Postgres",
+                  "Version": "3.3.2"
+                },
+                {
+                  "Key": "FluentMigrator.Extensions.SqlAnywhere",
+                  "Version": "3.3.2"
+                },
+                {
+                  "Key": "FluentMigrator.Extensions.SqlServer",
+                  "Version": "3.3.2"
+                },
+                {
+                  "Key": "FluentMigrator.Runner",
+                  "Version": "3.3.2"
+                },
+                {
+                  "Key": "FluentMigrator.Runner.Core",
+                  "Version": "3.3.2"
+                },
+                {
+                  "Key": "FluentMigrator.Runner.Db2",
+                  "Version": "3.3.2"
+                },
+                {
+                  "Key": "FluentMigrator.Runner.Firebird",
+                  "Version": "3.3.2"
+                },
+                {
+                  "Key": "FluentMigrator.Runner.Hana",
+                  "Version": "3.3.2"
+                },
+                {
+                  "Key": "FluentMigrator.Runner.MySql",
+                  "Version": "3.3.2"
+                },
+                {
+                  "Key": "FluentMigrator.Runner.Oracle",
+                  "Version": "3.3.2"
+                },
+                {
+                  "Key": "FluentMigrator.Runner.Postgres",
+                  "Version": "3.3.2"
+                },
+                {
+                  "Key": "FluentMigrator.Runner.Redshift",
+                  "Version": "3.3.2"
+                },
+                {
+                  "Key": "FluentMigrator.Runner.SqlAnywhere",
+                  "Version": "3.3.2"
+                },
+                {
+                  "Key": "FluentMigrator.Runner.SQLite",
+                  "Version": "3.3.2"
+                },
+                {
+                  "Key": "FluentMigrator.Runner.SqlServer",
+                  "Version": "3.3.2"
+                },
+                {
+                  "Key": "FluentMigrator.Runner.SqlServerCe",
+                  "Version": "3.3.2"
+                },
+                {
+                  "Key": "HtmlAgilityPack",
+                  "Version": "1.11.46"
+                },
+                {
+                  "Key": "Karashiiro.HtmlAgilityPack.CssSelectors.NetCoreFork",
+                  "Version": "0.0.2"
+                },
+                {
+                  "Key": "Microsoft.CSharp",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "Microsoft.Data.SqlClient",
+                  "Version": "2.1.2"
+                },
+                {
+                  "Key": "Microsoft.Data.SqlClient.SNI.runtime",
+                  "Version": "2.1.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Abstractions",
+                  "Version": "2.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging",
+                  "Version": "2.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "2.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options",
+                  "Version": "2.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Primitives",
+                  "Version": "2.0.0"
+                },
+                {
+                  "Key": "Microsoft.Identity.Client",
+                  "Version": "4.21.1"
+                },
+                {
+                  "Key": "Microsoft.IdentityModel.JsonWebTokens",
+                  "Version": "6.8.0"
+                },
+                {
+                  "Key": "Microsoft.IdentityModel.Logging",
+                  "Version": "6.8.0"
+                },
+                {
+                  "Key": "Microsoft.IdentityModel.Protocols",
+                  "Version": "6.8.0"
+                },
+                {
+                  "Key": "Microsoft.IdentityModel.Protocols.OpenIdConnect",
+                  "Version": "6.8.0"
+                },
+                {
+                  "Key": "Microsoft.IdentityModel.Tokens",
+                  "Version": "6.8.0"
+                },
+                {
+                  "Key": "Microsoft.NETCore.Platforms",
+                  "Version": "3.1.0"
+                },
+                {
+                  "Key": "Microsoft.Win32.Registry",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "Microsoft.Win32.SystemEvents",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "NetStone",
+                  "Version": "1.2.0"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.3"
+                },
+                {
+                  "Key": "Stub.System.Data.SQLite.Core.NetStandard",
+                  "Version": "1.0.117"
+                },
+                {
+                  "Key": "System.ComponentModel.Annotations",
+                  "Version": "4.4.1"
+                },
+                {
+                  "Key": "System.Configuration.ConfigurationManager",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "System.Data.SQLite.Core",
+                  "Version": "1.0.117"
+                },
+                {
+                  "Key": "System.Diagnostics.DiagnosticSource",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "System.Drawing.Common",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "System.IdentityModel.Tokens.Jwt",
+                  "Version": "6.8.0"
+                },
+                {
+                  "Key": "System.Runtime.Caching",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "System.Runtime.CompilerServices.Unsafe",
+                  "Version": "4.4.0"
+                },
+                {
+                  "Key": "System.Security.AccessControl",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "System.Security.Cryptography.Cng",
+                  "Version": "4.5.0"
+                },
+                {
+                  "Key": "System.Security.Cryptography.ProtectedData",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "System.Security.Permissions",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "System.Security.Principal.Windows",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "System.Text.Encoding.CodePages",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "System.ValueTuple",
+                  "Version": "4.4.0"
+                },
+                {
+                  "Key": "System.Windows.Extensions",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "StyleCop.Analyzers",
+                  "Version": "1.1.118"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "Dapper",
+                  "Version": "2.0.78"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.1"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "LiteHelper",
+                  "Version": "0.0.6"
+                },
+                {
+                  "Key": "LiteDB",
+                  "Version": "5.0.16"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Primitives",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "Serilog",
+                  "Version": "2.12.0"
+                },
+                {
+                  "Key": "Serilog.Extensions.Logging",
+                  "Version": "3.1.0"
+                },
+                {
+                  "Key": "Serilog.Sinks.File",
+                  "Version": "5.0.0"
+                }
+              ],
+              "Reviewer": "philpax"
             }
           }
         },
@@ -71534,6 +71920,13 @@
       "Version": "978eaf4c17f5ba7612161b75b91656c96b232873",
       "ReviewedBy": "reiichi001",
       "ReviewedAt": "2024-12-29T03:01:08.2750648Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/Koenari/HimbeertoniRaidTool.Common.git",
+      "Version": "944036a858513c912711b5beb2868b3b276227ce",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2024-12-29T19:13:55.5856954Z"
     }
   ]
 }
