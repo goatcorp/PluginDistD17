@@ -42079,9 +42079,9 @@
           }
         },
         "PositionalGuide": {
-          "BuiltCommit": "3e4d13e48e5a7875abbace37181aa0dfece90645",
-          "TimeBuilt": "2024-07-08T18:31:41.627",
-          "EffectiveVersion": "4.6.2",
+          "BuiltCommit": "c6b4e851b15dfebdd7e0823d5bc8ce51b0724405",
+          "TimeBuilt": "2024-12-29T03:00:55.3572741+00:00",
+          "EffectiveVersion": "4.7.0",
           "MinimumVersion": null,
           "Changelogs": {
             "3.0.8467.16512": {
@@ -42137,6 +42137,17 @@
               "Changelog": "The word \u0022colour\u0022 was spelled wrong in one place, and spelled \u0022wrong\u0022 (american version) in another. These have now been corrected. No functional changes.",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "4.7.0": {
+              "TimeReleased": "2024-12-29T03:00:55.3573155+00:00",
+              "Changelog": "Update to API11 PR\u0027d by a friendly user. No functional changes.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
@@ -44564,9 +44575,9 @@
           }
         },
         "DeepDungeonDex": {
-          "BuiltCommit": "8430c98dd8d4eabab659b8a3f1020c1e0d2604d5",
-          "TimeBuilt": "2024-11-16T00:49:13.4378537+00:00",
-          "EffectiveVersion": "2.12.0.0",
+          "BuiltCommit": "70c7e8291352db171b3db0776a4c5ec5a7547404",
+          "TimeBuilt": "2024-12-29T03:01:08.2367958+00:00",
+          "EffectiveVersion": "2.12.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.8.1.0": {
@@ -44798,6 +44809,33 @@
                 {
                   "Key": "https://github.com/wolfcomp/MonsterDex.git",
                   "Version": "e2e5c19b2e468939c3cd43ef3ae9c9a39bf114db"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "YamlDotNet",
+                  "Version": "13.4.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "8.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            },
+            "2.12.1.0": {
+              "TimeReleased": "2024-12-29T03:01:08.2367974+00:00",
+              "Changelog": "### 2.12.1 (2024-12-28)\n\n\n### Bug Fixes\n\n* correct instance display (883e26c)",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/wolfcomp/MonsterDex.git",
+                  "Version": "978eaf4c17f5ba7612161b75b91656c96b232873"
                 },
                 {
                   "Key": "DalamudPackager",
@@ -71489,6 +71527,13 @@
       "Version": "281b3cb958fa693d32fdcddcbbc2aaf53322c926",
       "ReviewedBy": "reiichi001",
       "ReviewedAt": "2024-12-27T23:33:18.1640369Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/wolfcomp/MonsterDex.git",
+      "Version": "978eaf4c17f5ba7612161b75b91656c96b232873",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2024-12-29T03:01:08.2750648Z"
     }
   ]
 }
