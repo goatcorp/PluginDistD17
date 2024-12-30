@@ -62918,6 +62918,37 @@
               "Reviewer": "reiichi001"
             }
           }
+        },
+        "CurrencySpender": {
+          "BuiltCommit": "5f4244918e43b5dcd69748d95684f3ab472d1f4f",
+          "TimeBuilt": "2024-12-30T13:49:29.400485+00:00",
+          "EffectiveVersion": "1.0.2.0",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "1.0.2.0": {
+              "TimeReleased": "2024-12-30T13:49:29.400524+00:00",
+              "Changelog": "1.0.2",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/NightmareXIV/ECommons.git",
+                  "Version": "3673f3c1e2fa1d68f7ab4c04463fd376d5659e13"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.25"
+                },
+                {
+                  "Key": "JetBrains.Annotations",
+                  "Version": "2021.2.0"
+                }
+              ],
+              "Reviewer": "philpax"
+            }
+          }
         }
       }
     },
@@ -71927,6 +71958,20 @@
       "Version": "944036a858513c912711b5beb2868b3b276227ce",
       "ReviewedBy": "philpax",
       "ReviewedAt": "2024-12-29T19:13:55.5856954Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/NightmareXIV/ECommons.git",
+      "Version": "3673f3c1e2fa1d68f7ab4c04463fd376d5659e13",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2024-12-30T13:49:29.4447725Z"
+    },
+    {
+      "Type": 1,
+      "Key": "JetBrains.Annotations",
+      "Version": "2021.2.0",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2024-12-30T13:49:29.4448025Z"
     }
   ]
 }
