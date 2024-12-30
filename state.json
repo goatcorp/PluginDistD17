@@ -43973,9 +43973,9 @@
           }
         },
         "HimbeertoniRaidTool": {
-          "BuiltCommit": "e03797e6e4ae61cf6a9f0c6f5cd158cf8f1486ea",
-          "TimeBuilt": "2024-12-29T19:13:55.5446849+00:00",
-          "EffectiveVersion": "1.8.0.0",
+          "BuiltCommit": "59fedafc070abbe7da35f72b78f32121ca0282a5",
+          "TimeBuilt": "2024-12-30T13:57:00.8523228+00:00",
+          "EffectiveVersion": "1.8.0.1",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.33": {
@@ -44373,6 +44373,61 @@
                 {
                   "Key": "https://github.com/Koenari/HimbeertoniRaidTool.Common.git",
                   "Version": "944036a858513c912711b5beb2868b3b276227ce"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.25"
+                },
+                {
+                  "Key": "NetStone",
+                  "Version": "1.3.1"
+                },
+                {
+                  "Key": "HtmlAgilityPack",
+                  "Version": "1.11.46"
+                },
+                {
+                  "Key": "Karashiiro.HtmlAgilityPack.CssSelectors.NetCoreFork",
+                  "Version": "0.0.2"
+                },
+                {
+                  "Key": "Lumina",
+                  "Version": "5.2.1"
+                },
+                {
+                  "Key": "Lumina.Excel",
+                  "Version": "7.1.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.ObjectPool",
+                  "Version": "8.0.7"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.3"
+                },
+                {
+                  "Key": "XIVCalc",
+                  "Version": "0.3.0"
+                },
+                {
+                  "Key": "XIVCalc.Lumina",
+                  "Version": "7.1.0"
+                }
+              ],
+              "Reviewer": "philpax"
+            },
+            "1.8.0.1": {
+              "TimeReleased": "2024-12-30T13:57:00.8523599+00:00",
+              "Changelog": "User Interface: Added food information wherever relevant\n    User Interface: Tooltips for food now contain the food\u0027s effects\n    Bugfix: Fix Gear/BiS equality with materia enabled\n    Bugfix: Fixed crash on startup in certain cases",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/Koenari/HimbeertoniRaidTool.Common.git",
+                  "Version": "d8c918661bb76047566bb90acd536dc547e551ff"
                 },
                 {
                   "Key": "DalamudPackager",
@@ -62949,6 +63004,146 @@
               "Reviewer": "philpax"
             }
           }
+        },
+        "ShopItemRevealer": {
+          "BuiltCommit": "6ac075b68ce4c8241be348a84e655b443c66371f",
+          "TimeBuilt": "2024-12-30T13:57:10.7047096+00:00",
+          "EffectiveVersion": "1.0.0.0",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "1.0.0.0": {
+              "TimeReleased": "2024-12-30T13:57:10.7047116+00:00",
+              "Changelog": "Initial release",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.Build.Tasks.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Common",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitHub",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitLab",
+                  "Version": "1.1.1"
+                }
+              ],
+              "Reviewer": "philpax"
+            }
+          }
+        },
+        "RetainerSales": {
+          "BuiltCommit": "1ba53cc87382692f0070aecae937e862c69952b5",
+          "TimeBuilt": "2024-12-30T13:57:17.1714303+00:00",
+          "EffectiveVersion": "1.0.0.1",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "1.0.0.1": {
+              "TimeReleased": "2024-12-30T13:57:17.1714318+00:00",
+              "Changelog": "Initial Release",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "philpax"
+            }
+          }
+        },
+        "HUDLayoutHelper": {
+          "BuiltCommit": "e383f68b638725a386fa778af0f5fb61dffb74b9",
+          "TimeBuilt": "2024-12-30T13:57:24.2295832+00:00",
+          "EffectiveVersion": "0.0.0.1",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "0.0.0.1": {
+              "TimeReleased": "2024-12-30T13:57:24.2295846+00:00",
+              "Changelog": "- Added undo, redo, copy and paste functionalities to the HUD Layout editor.  \r\n- Added a toggleable overlay for helping with alignment of elements in the HUD Layout editor.  \r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "System.Numerics.Vectors",
+                  "Version": "4.5.0"
+                }
+              ],
+              "Reviewer": "philpax"
+            }
+          }
+        },
+        "AcquisitionDate": {
+          "BuiltCommit": "9d48f6a4abe792fd367c545d7289a037f36879ee",
+          "TimeBuilt": "2024-12-30T13:57:33.5352351+00:00",
+          "EffectiveVersion": "0.1.0.0",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "0.1.0.0": {
+              "TimeReleased": "2024-12-30T13:57:33.5352378+00:00",
+              "Changelog": "    [0.1.0.0]\n    Initial commit of Acquired Date!\n\n    This plugin tracks and shows you the date you acquired/got the following:\n    - Achievements\n    - Quests\n    - Duties\n    - Levels (For any Job)\n    - Fish\n    - Sightseeing Log Entries\n    - Glasses\n    - Minions\n    - Mouts\n    - Orchestrion Rolls\n    - Fashion Accessories\n    And more!\n\n    Using the lodestone you can import a backlog of the following dates:\n    - Achievements\n    - Quests\n    - Glasses\n    - Minions\n    - Mounts\n\n    Expect a UI rework and more ways of importing data soon after release!\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "HtmlAgilityPack",
+                  "Version": "1.11.71"
+                },
+                {
+                  "Key": "Microsoft.Build.Tasks.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Common",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitHub",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitLab",
+                  "Version": "1.1.1"
+                }
+              ],
+              "Reviewer": "philpax"
+            }
+          }
         }
       }
     },
@@ -71972,6 +72167,13 @@
       "Version": "2021.2.0",
       "ReviewedBy": "philpax",
       "ReviewedAt": "2024-12-30T13:49:29.4448025Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/Koenari/HimbeertoniRaidTool.Common.git",
+      "Version": "d8c918661bb76047566bb90acd536dc547e551ff",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2024-12-30T13:57:00.8933087Z"
     }
   ]
 }

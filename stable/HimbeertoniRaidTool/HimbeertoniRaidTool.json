@@ -2,7 +2,7 @@
   "Author": "Koenari",
   "Name": "Himbeertoni Raid Tool",
   "InternalName": "HimbeertoniRaidTool",
-  "AssemblyVersion": "1.8.0.0",
+  "AssemblyVersion": "1.8.0.1",
   "Description": "A collection of useful tools for raid groups, including loot management",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Koenari/HimbeertoniRaidTool/",
@@ -18,7 +18,7 @@
   "CanUnloadAsync": false,
   "LoadPriority": 0,
   "Punchline": "All you need for Raiding",
-  "Changelog": "    Gear: GearSets now support selection of food. You need to update all set from etro.gg and XivGear.app to get the food\n    Configuration: You can trigger updates for all gear sets from the options\n    Bugfix: XivGear.app sets now behave as expected (on update and edit)\n    System: A lot of changes on underlying systems. If you notice anything behaving strangely let me know via the official discord\n",
+  "Changelog": "    User Interface: Added food information wherever relevant\n    User Interface: Tooltips for food now contain the food's effects\n    Bugfix: Fix Gear/BiS equality with materia enabled\n    Bugfix: Fixed crash on startup in certain cases\n",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "stable"

@@ -1,0 +1,28 @@
+{
+  "Author": "MaryUsagi",
+  "Name": "HUD Layout Helper",
+  "InternalName": "HUDLayoutHelper",
+  "AssemblyVersion": "0.0.0.1",
+  "Description": "Allows you to use keyboard shortcuts in the HUD Layout Editor, like Ctrl+C and Ctrl+V to copy and paste the position of individual HUD elements, and Ctrl+Z and Ctrl+Y to undo and redo changes. \n\nCan also display an overlay showing alignment to other elements with Ctrl+R. ",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/Mary-Usagi/FFXIV-HUDLayoutHelper",
+  "Tags": [
+    "hud",
+    "layout",
+    "copy",
+    "paste",
+    "undo",
+    "align",
+    "qol"
+  ],
+  "DalamudApiLevel": 11,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "IconUrl": "https://github.com/Mary-Usagi/FFXIV-HUDLayoutHelper/tree/main/images/icon.png",
+  "Punchline": "Adds QoL features to the native HUD layout editor: Undo, Redo, Copy, Paste and alignment lines. ",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "testing-live"
+}
