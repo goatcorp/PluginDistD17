@@ -2,7 +2,7 @@
   "Author": "Era",
   "Name": "Shop Item Revealer",
   "InternalName": "ShopItemRevealer",
-  "AssemblyVersion": "1.0.0.0",
+  "AssemblyVersion": "1.0.0.1",
   "Description": "Opens a window when speaking with a supported vendor, showing items that are not unlocked and what their conditions are. It checks quests, achievements, and reputation requirements.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Era-FFXIV/ShopItemRevealer",

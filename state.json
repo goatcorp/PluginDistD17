@@ -727,9 +727,9 @@
           }
         },
         "Tourist": {
-          "BuiltCommit": "80bbef448fff5175bf9559e4259d971418f80661",
-          "TimeBuilt": "2024-07-02T19:41:11.833",
-          "EffectiveVersion": "1.2.15",
+          "BuiltCommit": "976befbe9cb2755ae9076356dde189d1654bd9c0",
+          "TimeBuilt": "2024-12-30T20:40:05.3795658+00:00",
+          "EffectiveVersion": "1.2.16",
           "MinimumVersion": null,
           "Changelogs": {
             "1.2.9": {
@@ -773,6 +773,61 @@
               "Changelog": "Dawntrail",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "1.2.16": {
+              "TimeReleased": "2024-12-30T20:40:05.3795669+00:00",
+              "Changelog": "API 11",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/reiichi001/FFXIVWeather.Lumina.git",
+                  "Version": "5893e2fa4cbd0cfed29c75dbee11d1767d230992"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Lumina",
+                  "Version": "5.5.0"
+                },
+                {
+                  "Key": "Lumina.Excel",
+                  "Version": "7.1.2"
+                },
+                {
+                  "Key": "Microsoft.Build.Tasks.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.ObjectPool",
+                  "Version": "8.0.7"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Common",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitHub",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitLab",
+                  "Version": "1.1.1"
+                }
+              ],
+              "Reviewer": "philpax"
             }
           }
         },
@@ -3598,9 +3653,9 @@
           }
         },
         "NoTankYou": {
-          "BuiltCommit": "e780382b91bf4af4a7fe6c5b28d3f8e91236f49f",
-          "TimeBuilt": "2024-12-03T21:24:15.6225794+00:00",
-          "EffectiveVersion": "7.2.0.3",
+          "BuiltCommit": "24dd5e462ffa269a33fa0d2d17a1729a84c8a108",
+          "TimeBuilt": "2024-12-30T20:39:48.1322823+00:00",
+          "EffectiveVersion": "7.2.0.4",
           "MinimumVersion": null,
           "Changelogs": {
             "7.1.0.2": {
@@ -3870,6 +3925,69 @@
                 {
                   "Key": "https://github.com/MidoriKami/KamiToolKit.git",
                   "Version": "d26598451448a92bce729d2f039d725c75ba1360"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "NetStone",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "HtmlAgilityPack",
+                  "Version": "1.11.46"
+                },
+                {
+                  "Key": "Karashiiro.HtmlAgilityPack.CssSelectors.NetCoreFork",
+                  "Version": "0.0.2"
+                },
+                {
+                  "Key": "Microsoft.Build.Tasks.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Common",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitHub",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitLab",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.3"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "philpax"
+            },
+            "7.2.0.4": {
+              "TimeReleased": "2024-12-30T20:39:48.1323245+00:00",
+              "Changelog": "Add Chaotic Alliance options",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiLib",
+                  "Version": "947748ff0c4b45b0ce2fc39069fbebe72ae46cb3"
+                },
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit.git",
+                  "Version": "3a56d263f88632fe2429591cb5f3bf1ad9a8e254"
                 },
                 {
                   "Key": "DotNet.ReproducibleBuilds",
@@ -22530,9 +22648,9 @@
           }
         },
         "EurekaHelper": {
-          "BuiltCommit": "299aba46c6998bb56e7c948954aeb064788def47",
-          "TimeBuilt": "2024-12-01T21:30:18.5467575+00:00",
-          "EffectiveVersion": "2.0.0.1",
+          "BuiltCommit": "ddf86b5171bc86d770dadac06dc2644ad679ac86",
+          "TimeBuilt": "2024-12-30T20:39:55.6187433+00:00",
+          "EffectiveVersion": "2.0.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.7": {
@@ -22688,6 +22806,17 @@
                 }
               ],
               "Reviewer": "reiichi001"
+            },
+            "2.0.1.0": {
+              "TimeReleased": "2024-12-30T20:39:55.6187444+00:00",
+              "Changelog": "- SoundEffect to ChatSoundEffect\n- Minor updates to Chat message sending to use CS values over direct addresses\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "philpax"
             }
           }
         },
@@ -63006,13 +63135,52 @@
           }
         },
         "ShopItemRevealer": {
-          "BuiltCommit": "6ac075b68ce4c8241be348a84e655b443c66371f",
-          "TimeBuilt": "2024-12-30T13:57:10.7047096+00:00",
-          "EffectiveVersion": "1.0.0.0",
+          "BuiltCommit": "865a86317d0c3af6c1870895559f2b7cc61d9b2b",
+          "TimeBuilt": "2024-12-30T20:40:14.080934+00:00",
+          "EffectiveVersion": "1.0.0.1",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
               "TimeReleased": "2024-12-30T13:57:10.7047116+00:00",
+              "Changelog": "Initial release",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.Build.Tasks.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Common",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitHub",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitLab",
+                  "Version": "1.1.1"
+                }
+              ],
+              "Reviewer": "philpax"
+            },
+            "1.0.0.1": {
+              "TimeReleased": "2024-12-30T20:40:14.0809356+00:00",
               "Changelog": "Initial release",
               "UsedNeeds": [
                 {
@@ -63095,14 +63263,57 @@
           }
         },
         "AcquisitionDate": {
-          "BuiltCommit": "9d48f6a4abe792fd367c545d7289a037f36879ee",
-          "TimeBuilt": "2024-12-30T13:57:33.5352351+00:00",
-          "EffectiveVersion": "0.1.0.0",
+          "BuiltCommit": "e2c8629cf1aaef98ed89fbc1d0007da9ca1dcd74",
+          "TimeBuilt": "2024-12-30T20:40:22.362541+00:00",
+          "EffectiveVersion": "0.1.0.1",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.0.0": {
               "TimeReleased": "2024-12-30T13:57:33.5352378+00:00",
               "Changelog": "    [0.1.0.0]\n    Initial commit of Acquired Date!\n\n    This plugin tracks and shows you the date you acquired/got the following:\n    - Achievements\n    - Quests\n    - Duties\n    - Levels (For any Job)\n    - Fish\n    - Sightseeing Log Entries\n    - Glasses\n    - Minions\n    - Mouts\n    - Orchestrion Rolls\n    - Fashion Accessories\n    And more!\n\n    Using the lodestone you can import a backlog of the following dates:\n    - Achievements\n    - Quests\n    - Glasses\n    - Minions\n    - Mounts\n\n    Expect a UI rework and more ways of importing data soon after release!\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "HtmlAgilityPack",
+                  "Version": "1.11.71"
+                },
+                {
+                  "Key": "Microsoft.Build.Tasks.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Common",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitHub",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitLab",
+                  "Version": "1.1.1"
+                }
+              ],
+              "Reviewer": "philpax"
+            },
+            "0.1.0.1": {
+              "TimeReleased": "2024-12-30T20:40:22.3625421+00:00",
+              "Changelog": "    [0.1.0.1]\n    Shows a couple more warnings and tutorials in the UI for the session token.\n    Fixed a bug where disabling the Show Placeholder Dates option would prevent any date from showing up. \n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -72174,6 +72385,41 @@
       "Version": "d8c918661bb76047566bb90acd536dc547e551ff",
       "ReviewedBy": "philpax",
       "ReviewedAt": "2024-12-30T13:57:00.8933087Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/MidoriKami/KamiLib",
+      "Version": "947748ff0c4b45b0ce2fc39069fbebe72ae46cb3",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2024-12-30T20:39:48.1728308Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/MidoriKami/KamiToolKit.git",
+      "Version": "3a56d263f88632fe2429591cb5f3bf1ad9a8e254",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2024-12-30T20:39:48.1728663Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/reiichi001/FFXIVWeather.Lumina.git",
+      "Version": "5893e2fa4cbd0cfed29c75dbee11d1767d230992",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2024-12-30T20:40:05.3949046Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Lumina",
+      "Version": "5.5.0",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2024-12-30T20:40:05.3949065Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Lumina.Excel",
+      "Version": "7.1.2",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2024-12-30T20:40:05.3949068Z"
     }
   ]
 }
