@@ -3653,9 +3653,9 @@
           }
         },
         "NoTankYou": {
-          "BuiltCommit": "24dd5e462ffa269a33fa0d2d17a1729a84c8a108",
-          "TimeBuilt": "2024-12-30T20:39:48.1322823+00:00",
-          "EffectiveVersion": "7.2.0.4",
+          "BuiltCommit": "130353c2d16565567e4e670a2a8ccead524850ff",
+          "TimeBuilt": "2024-12-31T14:46:20.8711144+00:00",
+          "EffectiveVersion": "7.2.0.5",
           "MinimumVersion": null,
           "Changelogs": {
             "7.1.0.2": {
@@ -3984,6 +3984,69 @@
                 {
                   "Key": "https://github.com/MidoriKami/KamiLib",
                   "Version": "947748ff0c4b45b0ce2fc39069fbebe72ae46cb3"
+                },
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit.git",
+                  "Version": "3a56d263f88632fe2429591cb5f3bf1ad9a8e254"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "NetStone",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "HtmlAgilityPack",
+                  "Version": "1.11.46"
+                },
+                {
+                  "Key": "Karashiiro.HtmlAgilityPack.CssSelectors.NetCoreFork",
+                  "Version": "0.0.2"
+                },
+                {
+                  "Key": "Microsoft.Build.Tasks.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Common",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitHub",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitLab",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.3"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "philpax"
+            },
+            "7.2.0.5": {
+              "TimeReleased": "2024-12-31T14:46:20.8711546+00:00",
+              "Changelog": "nofranz\r\n\r\nfix using wrong row id for the sheet I was using",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiLib",
+                  "Version": "c96ee4d7007f69568400dcf427e992c4abc0ce42"
                 },
                 {
                   "Key": "https://github.com/MidoriKami/KamiToolKit.git",
@@ -22648,9 +22711,9 @@
           }
         },
         "EurekaHelper": {
-          "BuiltCommit": "ddf86b5171bc86d770dadac06dc2644ad679ac86",
-          "TimeBuilt": "2024-12-30T20:39:55.6187433+00:00",
-          "EffectiveVersion": "2.0.1.0",
+          "BuiltCommit": "bc04896bf5d0fa68c4336f027e5afbd17a9acdfe",
+          "TimeBuilt": "2024-12-31T14:46:28.8332097+00:00",
+          "EffectiveVersion": "2.0.1.1",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.7": {
@@ -22810,6 +22873,17 @@
             "2.0.1.0": {
               "TimeReleased": "2024-12-30T20:39:55.6187444+00:00",
               "Changelog": "- SoundEffect to ChatSoundEffect\n- Minor updates to Chat message sending to use CS values over direct addresses\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "philpax"
+            },
+            "2.0.1.1": {
+              "TimeReleased": "2024-12-31T14:46:28.8332104+00:00",
+              "Changelog": "- SoundEffect to ChatSoundEffect (fixed migration)\n- Minor updates to Chat message sending to use CS values over direct addresses\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -72420,6 +72494,13 @@
       "Version": "7.1.2",
       "ReviewedBy": "philpax",
       "ReviewedAt": "2024-12-30T20:40:05.3949068Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/MidoriKami/KamiLib",
+      "Version": "c96ee4d7007f69568400dcf427e992c4abc0ce42",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2024-12-31T14:46:20.9179945Z"
     }
   ]
 }
