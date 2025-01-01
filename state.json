@@ -63418,9 +63418,9 @@
           }
         },
         "RetainerSales": {
-          "BuiltCommit": "1ba53cc87382692f0070aecae937e862c69952b5",
-          "TimeBuilt": "2024-12-30T13:57:17.1714303+00:00",
-          "EffectiveVersion": "1.0.0.1",
+          "BuiltCommit": "f6c18f4f634ef1380c3cd22efe9def81da5082f4",
+          "TimeBuilt": "2025-01-01T22:02:53.2080858+00:00",
+          "EffectiveVersion": "1.0.0.2",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.1": {
@@ -63433,6 +63433,17 @@
                 }
               ],
               "Reviewer": "philpax"
+            },
+            "1.0.0.2": {
+              "TimeReleased": "2025-01-01T22:02:53.2081278+00:00",
+              "Changelog": "fix error when opening unrelated selectstring addon",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "goaaats"
             }
           }
         },
