@@ -22895,9 +22895,9 @@
           }
         },
         "BozjaBuddy": {
-          "BuiltCommit": "83ca4edcca4aeb9685196acb05d18bbffb6d09dc",
-          "TimeBuilt": "2024-11-30T20:01:02.9203847+00:00",
-          "EffectiveVersion": "1.1.6.3",
+          "BuiltCommit": "6ee0849b5465ded2882b062ef05f9e682f915d47",
+          "TimeBuilt": "2025-01-01T04:08:14.433055+00:00",
+          "EffectiveVersion": "1.1.6.4",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -23211,6 +23211,129 @@
                 }
               ],
               "Reviewer": "reiichi001"
+            },
+            "1.1.6.4": {
+              "TimeReleased": "2025-01-01T04:08:14.4330933+00:00",
+              "Changelog": "[1.1.6.4] Added new servers in DRS community tab\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "FFXIVWeather",
+                  "Version": "1.0.16"
+                },
+                {
+                  "Key": "NAudio.Wasapi",
+                  "Version": "2.1.0"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.2"
+                },
+                {
+                  "Key": "QuickGraph",
+                  "Version": "3.6.61119.7"
+                },
+                {
+                  "Key": "System.Data.SQLite",
+                  "Version": "1.0.117"
+                },
+                {
+                  "Key": "System.Data.SQLite.Core",
+                  "Version": "1.0.117"
+                },
+                {
+                  "Key": "EntityFramework",
+                  "Version": "6.4.4"
+                },
+                {
+                  "Key": "Microsoft.CSharp",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "Microsoft.NETCore.Platforms",
+                  "Version": "3.1.0"
+                },
+                {
+                  "Key": "Microsoft.Win32.Registry",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "Microsoft.Win32.SystemEvents",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "NAudio.Core",
+                  "Version": "2.1.0"
+                },
+                {
+                  "Key": "runtime.native.System.Data.SqlClient.sni",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "runtime.win-arm64.runtime.native.System.Data.SqlClient.sni",
+                  "Version": "4.4.0"
+                },
+                {
+                  "Key": "runtime.win-x64.runtime.native.System.Data.SqlClient.sni",
+                  "Version": "4.4.0"
+                },
+                {
+                  "Key": "runtime.win-x86.runtime.native.System.Data.SqlClient.sni",
+                  "Version": "4.4.0"
+                },
+                {
+                  "Key": "Stub.System.Data.SQLite.Core.NetStandard",
+                  "Version": "1.0.117"
+                },
+                {
+                  "Key": "System.CodeDom",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "System.ComponentModel.Annotations",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "System.Configuration.ConfigurationManager",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "System.Data.SqlClient",
+                  "Version": "4.8.1"
+                },
+                {
+                  "Key": "System.Data.SQLite.EF6",
+                  "Version": "1.0.117"
+                },
+                {
+                  "Key": "System.Drawing.Common",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "System.Security.AccessControl",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "System.Security.Cryptography.ProtectedData",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "System.Security.Permissions",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "System.Security.Principal.Windows",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "System.Windows.Extensions",
+                  "Version": "4.7.0"
+                }
+              ],
+              "Reviewer": "philpax"
             }
           }
         },
