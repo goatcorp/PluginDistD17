@@ -63441,9 +63441,9 @@
           }
         },
         "ShopItemRevealer": {
-          "BuiltCommit": "865a86317d0c3af6c1870895559f2b7cc61d9b2b",
-          "TimeBuilt": "2024-12-30T20:40:14.080934+00:00",
-          "EffectiveVersion": "1.0.0.1",
+          "BuiltCommit": "e8f0eaf87960b7554bf815da5423bdbb0d2a3396",
+          "TimeBuilt": "2025-01-01T23:31:44.560189+00:00",
+          "EffectiveVersion": "1.0.2.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -63523,6 +63523,45 @@
                 }
               ],
               "Reviewer": "philpax"
+            },
+            "1.0.2.0": {
+              "TimeReleased": "2025-01-01T23:31:44.5602265+00:00",
+              "Changelog": "1.0.2\n- Adds sorting the table by item name (default) or quantity required.\n- Fixes another imgui assert.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.Build.Tasks.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Common",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitHub",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitLab",
+                  "Version": "1.1.1"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
