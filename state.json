@@ -22711,9 +22711,9 @@
           }
         },
         "EurekaHelper": {
-          "BuiltCommit": "bc04896bf5d0fa68c4336f027e5afbd17a9acdfe",
-          "TimeBuilt": "2024-12-31T14:46:28.8332097+00:00",
-          "EffectiveVersion": "2.0.1.1",
+          "BuiltCommit": "f7d39c0e081f5297702a02d88e404adff0c4caef",
+          "TimeBuilt": "2025-01-01T23:29:22.4593243+00:00",
+          "EffectiveVersion": "2.0.1.2",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.7": {
@@ -22891,6 +22891,17 @@
                 }
               ],
               "Reviewer": "philpax"
+            },
+            "2.0.1.2": {
+              "TimeReleased": "2025-01-01T23:29:22.4593625+00:00",
+              "Changelog": "- Allows switching to use chat sound effects\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
