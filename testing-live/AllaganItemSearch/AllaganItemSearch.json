@@ -2,20 +2,20 @@
   "Author": "Critical_Impact",
   "Name": "Allagan Item Search",
   "InternalName": "AllaganItemSearch",
-  "AssemblyVersion": "1.0.0.0",
-  "Description": "Allagan Item Search's primary purpose is to provide a list of all retainer listings/sales across all characters.\n\nIt'll do it's best to track your sales but it works best when it's always on!",
+  "AssemblyVersion": "1.0.0.1",
+  "Description": "Allagan Item Search is a dalamud plugin designed to help you search and filter all the items available in the game.",
   "ApplicableVersion": "any",
   "Tags": [
-    "market",
-    "sales",
-    "retainers"
+    "search",
+    "items",
+    "filters"
   ],
   "DalamudApiLevel": 11,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
   "LoadPriority": 0,
-  "Punchline": "Get your retainer sales organized, track active sales, historical sales and undercutting!",
+  "Punchline": "Trying to find that item you don't know the name of? Maybe Allagan Item Searh can help.",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "testing-live"
