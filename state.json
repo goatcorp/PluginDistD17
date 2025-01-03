@@ -14721,9 +14721,9 @@
           }
         },
         "TrackyTrack": {
-          "BuiltCommit": "50075d4a6e687e78754ba1d9e3b012fee8f2f425",
-          "TimeBuilt": "2024-12-22T01:09:26.2292789+00:00",
-          "EffectiveVersion": "1.5.5.10",
+          "BuiltCommit": "137a6d7635e75254fa1395340eb0768c054d4a05",
+          "TimeBuilt": "2025-01-03T02:10:19.8196108+00:00",
+          "EffectiveVersion": "1.5.6.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.5.5.5": {
@@ -14984,6 +14984,57 @@
             "1.5.5.10": {
               "TimeReleased": "2024-12-22T01:09:26.2293174+00:00",
               "Changelog": "- Overhaul Bunny tab\r\n- Fix cut-off icons",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/Ottermandias/OtterGui",
+                  "Version": "8ba88eff15326bb28ed5e6157f5252c114d40b5f"
+                },
+                {
+                  "Key": "https://github.com/Ottermandias/OtterGuiInternal.git",
+                  "Version": "8e144c54022bc7d30f993a8c496ad390764f884f"
+                },
+                {
+                  "Key": "CsvHelper",
+                  "Version": "33.0.1"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "MessagePack",
+                  "Version": "3.0.238-rc.1"
+                },
+                {
+                  "Key": "JetBrains.Annotations",
+                  "Version": "2024.2.0"
+                },
+                {
+                  "Key": "MessagePack.Annotations",
+                  "Version": "3.0.238-rc.1"
+                },
+                {
+                  "Key": "MessagePackAnalyzer",
+                  "Version": "3.0.238-rc.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.NET.StringTools",
+                  "Version": "17.11.4"
+                }
+              ],
+              "Reviewer": "philpax"
+            },
+            "1.5.6.0": {
+              "TimeReleased": "2025-01-03T02:10:19.8196119+00:00",
+              "Changelog": "- **Retainer venture results are now uploaded**\r\n  - Results are soon to be published on the gacha spreadsheet :)\r\n- Read the expansions max level from game files\r\n  - This affects the stats page, all ventures after DT weren\u0027t counted as \u0022venture coffer valid\u0022 if your retainer was above 90\r\n- Overhaul Retainer tab\r\n- Fix tracking of Firmament tickets",
               "UsedNeeds": [
                 {
                   "Key": "https://github.com/Ottermandias/OtterGui",
@@ -47944,9 +47995,9 @@
           }
         },
         "Umbra": {
-          "BuiltCommit": "c8995ba2f8cba7d812839a244122bc6a6165362a",
-          "TimeBuilt": "2024-12-22T19:10:12.2260451+00:00",
-          "EffectiveVersion": "2.3.7.0",
+          "BuiltCommit": "c0444d8fca63c1e91a49921dea189faf77bef6d1",
+          "TimeBuilt": "2025-01-03T02:10:02.9457932+00:00",
+          "EffectiveVersion": "2.3.8.0",
           "MinimumVersion": null,
           "Changelogs": {
             "2.1.8.0": {
@@ -48556,6 +48607,37 @@
             "2.3.7.0": {
               "TimeReleased": "2024-12-22T19:10:12.226088+00:00",
               "Changelog": "# Umbra 2.3.7\n\n## New Additions\n\n- Added the addition of bonus icons in the Custom Deliveries widget (By [wolfcomp](https://github.com/wolfcomp) and [Bloodsoul](https://github.com/Bloodsoul)).\n- Added max rank level color customization for the buttons in the gearset switcher widget. This adds a new color (\u0022_Maximum Level indicator_\u0022) to the theme system that can be customized in the Appearance tab in Umbra\u0027s Settings window. (By [Bloodsoul](https://github.com/Bloodsoul)).\n\nJoin [Umbra\u0027s Discord server](https://discord.gg/xaEnsuAhmm) for the latest updates and information.\nVisit the [website](https://una-xiv.github.io/umbra-docs/) for more information and guides on how to make the most out of Umbra.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/una-xiv/drawing.git",
+                  "Version": "ebba7bc435ac270e0c0488ac99b54ac4e90ade43"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.ObjectPool",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "SkiaSharp",
+                  "Version": "3.118.0-preview.1.2"
+                },
+                {
+                  "Key": "SkiaSharp.NativeAssets.macOS",
+                  "Version": "3.118.0-preview.1.2"
+                },
+                {
+                  "Key": "SkiaSharp.NativeAssets.Win32",
+                  "Version": "3.118.0-preview.1.2"
+                }
+              ],
+              "Reviewer": "philpax"
+            },
+            "2.3.8.0": {
+              "TimeReleased": "2025-01-03T02:10:02.9458318+00:00",
+              "Changelog": "# Umbra 2.3.8\n\n## New Additions\n\n- Added an option to hide the \u0022Lv. XXX\u0022 text from gearset buttons in the Gearset Switcher widget for jobs with capped levels.\n\n## Fixes \u0026 Improvements\n\n- Dynamically resize the popup width of the Custom Deliveries widget based on the amount of bonus icons shown.\n- Fixed the default \u0022Max level indicator\u0022 text color. It wasn\u0027t supposed to look pink.\n- Split the location widget text into 2 lines when visiting the company workshop and the \u0022Show district label\u0022 option is turned on.\n\nJoin [Umbra\u0027s Discord server](https://discord.gg/xaEnsuAhmm) for the latest updates and information.\nVisit the [website](https://una-xiv.github.io/umbra-docs/) for more information and guides on how to make the most out of Umbra.\n",
               "UsedNeeds": [
                 {
                   "Key": "https://github.com/una-xiv/drawing.git",
