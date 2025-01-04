@@ -48022,9 +48022,9 @@
           }
         },
         "Umbra": {
-          "BuiltCommit": "c0444d8fca63c1e91a49921dea189faf77bef6d1",
-          "TimeBuilt": "2025-01-03T02:10:02.9457932+00:00",
-          "EffectiveVersion": "2.3.8.0",
+          "BuiltCommit": "7ca6fa0228ebdee874b8b10b0f7006fe86c62088",
+          "TimeBuilt": "2025-01-04T01:17:33.2410197+00:00",
+          "EffectiveVersion": "2.3.9.0",
           "MinimumVersion": null,
           "Changelogs": {
             "2.1.8.0": {
@@ -48692,6 +48692,37 @@
                 }
               ],
               "Reviewer": "philpax"
+            },
+            "2.3.9.0": {
+              "TimeReleased": "2025-01-04T01:17:33.241059+00:00",
+              "Changelog": "# Umbra 2.3.9\n\n## Fixes \u0026 Improvements\n\n- Fixed the dynamic width calculation of the Custom Deliveries widget popup (By [wolfcomp](https://github.com/wolfcomp) and [Bloodsoul](https://github.com/Bloodsoul)).\n\nJoin [Umbra\u0027s Discord server](https://discord.gg/xaEnsuAhmm) for the latest updates and information.\nVisit the [website](https://una-xiv.github.io/umbra-docs/) for more information and guides on how to make the most out of Umbra.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/una-xiv/drawing.git",
+                  "Version": "ebba7bc435ac270e0c0488ac99b54ac4e90ade43"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.ObjectPool",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "SkiaSharp",
+                  "Version": "3.118.0-preview.1.2"
+                },
+                {
+                  "Key": "SkiaSharp.NativeAssets.macOS",
+                  "Version": "3.118.0-preview.1.2"
+                },
+                {
+                  "Key": "SkiaSharp.NativeAssets.Win32",
+                  "Version": "3.118.0-preview.1.2"
+                }
+              ],
+              "Reviewer": "philpax"
             }
           }
         },
@@ -49093,9 +49124,9 @@
           }
         },
         "DragoonMayCry": {
-          "BuiltCommit": "e58e6183cdb71abfe67b4e74c7f5d166a435690c",
-          "TimeBuilt": "2024-12-05T00:07:26.4406024+00:00",
-          "EffectiveVersion": "1.2.4.0",
+          "BuiltCommit": "919d5499ca8903af877f1d93a2d4dfa659492ed3",
+          "TimeBuilt": "2025-01-04T01:17:45.0905535+00:00",
+          "EffectiveVersion": "1.2.4.1",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -49949,6 +49980,77 @@
                 }
               ],
               "Reviewer": "reiichi001"
+            },
+            "1.2.4.1": {
+              "TimeReleased": "2025-01-04T01:17:45.090554+00:00",
+              "Changelog": "- Fix error pop up when opening job configuration menu\n",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/Felscream/KamiLib",
+                  "Version": "42c1720b042c69763c6787c409ab0efd342aaf86"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "NAudio",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Vorbis",
+                  "Version": "1.5.0"
+                },
+                {
+                  "Key": "Microsoft.NETCore.Platforms",
+                  "Version": "3.1.0"
+                },
+                {
+                  "Key": "Microsoft.Win32.Registry",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "NAudio.Asio",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Core",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Midi",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Wasapi",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.WinMM",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NVorbis",
+                  "Version": "0.10.4"
+                },
+                {
+                  "Key": "System.Memory",
+                  "Version": "4.5.3"
+                },
+                {
+                  "Key": "System.Security.AccessControl",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "System.Security.Principal.Windows",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "System.ValueTuple",
+                  "Version": "4.5.0"
+                }
+              ],
+              "Reviewer": "philpax"
             }
           }
         },
