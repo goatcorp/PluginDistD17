@@ -51657,6 +51657,53 @@
               "Reviewer": "goaaats"
             }
           }
+        },
+        "ShopItemRevealer": {
+          "BuiltCommit": "e8f0eaf87960b7554bf815da5423bdbb0d2a3396",
+          "TimeBuilt": "2025-01-04T19:27:04.1697967+00:00",
+          "EffectiveVersion": "1.0.2.0",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "1.0.2.0": {
+              "TimeReleased": "2025-01-04T19:27:04.1698718+00:00",
+              "Changelog": "1.0.2\n- Adds sorting the table by item name (default) or quantity required.\n- Fixes another imgui assert.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.Build.Tasks.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Common",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitHub",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitLab",
+                  "Version": "1.1.1"
+                }
+              ],
+              "Reviewer": "philpax"
+            }
+          }
         }
       }
     },
