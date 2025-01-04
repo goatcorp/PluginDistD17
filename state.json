@@ -28604,9 +28604,9 @@
           }
         },
         "EurekaTrackerAutoPopper": {
-          "BuiltCommit": "ae421ad5aeb0743b6c6a7d500eccb8c62821e565",
-          "TimeBuilt": "2024-12-17T20:17:18.8497612+00:00",
-          "EffectiveVersion": "1.5.2.0",
+          "BuiltCommit": "7e67c8e26be5bd80dd06007a2b7b469f96da30d5",
+          "TimeBuilt": "2025-01-04T19:30:19.4965674+00:00",
+          "EffectiveVersion": "1.5.2.1",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.0.4": {
@@ -28732,6 +28732,17 @@
                 }
               ],
               "Reviewer": "reiichi001"
+            },
+            "1.5.2.1": {
+              "TimeReleased": "2025-01-04T19:30:19.4966084+00:00",
+              "Changelog": "- Fix markers vanishing if map is reopened",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "philpax"
             }
           }
         },
@@ -63999,14 +64010,37 @@
           }
         },
         "CurrencySpender": {
-          "BuiltCommit": "5f4244918e43b5dcd69748d95684f3ab472d1f4f",
-          "TimeBuilt": "2024-12-30T13:49:29.400485+00:00",
-          "EffectiveVersion": "1.0.2.0",
+          "BuiltCommit": "7e339e0ec37b27ec233cd715048b84f7ed968e71",
+          "TimeBuilt": "2025-01-04T19:30:31.2201899+00:00",
+          "EffectiveVersion": "1.0.4.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.2.0": {
               "TimeReleased": "2024-12-30T13:49:29.400524+00:00",
               "Changelog": "1.0.2",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/NightmareXIV/ECommons.git",
+                  "Version": "3673f3c1e2fa1d68f7ab4c04463fd376d5659e13"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.25"
+                },
+                {
+                  "Key": "JetBrains.Annotations",
+                  "Version": "2021.2.0"
+                }
+              ],
+              "Reviewer": "philpax"
+            },
+            "1.0.4.0": {
+              "TimeReleased": "2025-01-04T19:30:31.2201916+00:00",
+              "Changelog": "**1.0.4**\r\n- Added: Bicolor gemstone warnings now dynamically react to the current status of Shared Fates\r\n- Added: Made the tables a bit fancier\r\n- Added: Possibility to add items to an \u0022Items of Interest\u0022 list\r\n- Fixed: Player login logic to trigger player updates automatically\r\n- Fixed: Some locations \u0026 aetherytes were incorrect\r\n- Changed: Rewrote GC Shop handling\r\n",
               "UsedNeeds": [
                 {
                   "Key": "https://github.com/NightmareXIV/ECommons.git",

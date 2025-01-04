@@ -2,7 +2,7 @@
   "Author": "Blackcatz1911",
   "Name": "Currency Spender",
   "InternalName": "CurrencySpender",
-  "AssemblyVersion": "1.0.2.0",
+  "AssemblyVersion": "1.0.4.0",
   "Description": "'What the heck do I do with that?' will be a question for the past. Get the current prices from universalis, missing collectables from that currency and see what you can do with those currencies...",
   "ApplicableVersion": "any",
   "Tags": [
