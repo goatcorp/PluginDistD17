@@ -63944,9 +63944,9 @@
           }
         },
         "BigNaelQuotes": {
-          "BuiltCommit": "c0a1334e15a4435dbf07327435adce3eb5773d39",
-          "TimeBuilt": "2024-12-20T23:22:45.5721615+00:00",
-          "EffectiveVersion": "0.0.4.0",
+          "BuiltCommit": "fbb82b130f4c1f1b5b6f1569d8a82c1231a55bf6",
+          "TimeBuilt": "2025-01-05T03:50:26.4705926+00:00",
+          "EffectiveVersion": "0.0.5.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.4.0": {
@@ -63959,6 +63959,17 @@
                 }
               ],
               "Reviewer": "reiichi001"
+            },
+            "0.0.5.0": {
+              "TimeReleased": "2025-01-05T03:50:26.4706356+00:00",
+              "Changelog": "Add JP/CN support",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "philpax"
             }
           }
         },
