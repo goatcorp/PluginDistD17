@@ -1,0 +1,23 @@
+{
+  "Author": "Due",
+  "Name": "ContactsTracker",
+  "InternalName": "ContactsTracker",
+  "AssemblyVersion": "0.1.0.1",
+  "Description": "Record Duty Completeion and Team Composition (TODO).\nRemember to check Settings Tab.\nYou can use the Settings button below to enter analyze window",
+  "ApplicableVersion": "any",
+  "Tags": [
+    "plugin",
+    "track",
+    "duty",
+    "roulette"
+  ],
+  "DalamudApiLevel": 11,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "Punchline": "Help you Record Duty Completeion.",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "testing-live"
+}

@@ -65215,6 +65215,33 @@
               "Reviewer": "reiichi001"
             }
           }
+        },
+        "ContactsTracker": {
+          "BuiltCommit": "bbc06de4d55debc4fb3bde8d06d286e89f0d6e08",
+          "TimeBuilt": "2025-01-05T01:25:25.1644628+00:00",
+          "EffectiveVersion": "0.1.0.1",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "0.1.0.1": {
+              "TimeReleased": "2025-01-05T01:25:25.1645032+00:00",
+              "Changelog": "This is my first plugin, please let me know if there are any issues.\r\n\r\n---\r\n\r\nThis plugin records the party composition at the end of each duty, similar to the in-game _Contacts_ function. It also logs the entry method (e.g., Just select it or Duty Roulette), duration, jobs, and levels. Edge cases like disconnection, rejoining, and early termination are somewhat handled. However, I couldn\u2019t extensively test certain scenarios like Solo Duties in MSQ or being kicked etc. \r\n\r\nMy current objective is to log duty data, which will help address user interest in metrics such as the average time spent on any roulette or the percentage of specific duties, like Crystal Tower in Alliance Raids.\r\n\r\nAny Feedback is appreciate!\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "CsvHelper",
+                  "Version": "33.0.1"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.25"
+                }
+              ],
+              "Reviewer": "philpax"
+            }
+          }
         }
       }
     },
