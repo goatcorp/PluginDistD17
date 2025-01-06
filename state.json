@@ -27721,9 +27721,9 @@
           }
         },
         "BetterPartyFinder": {
-          "BuiltCommit": "8702434d1303c713b6800d5e619fdfb738826167",
-          "TimeBuilt": "2024-11-19T17:29:38.0546389+00:00",
-          "EffectiveVersion": "1.4.9.0",
+          "BuiltCommit": "44a5e28877cb9e27ec4922ae0f46a8a37164d832",
+          "TimeBuilt": "2025-01-06T00:24:17.949053+00:00",
+          "EffectiveVersion": "1.5.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.2.6": {
@@ -27798,6 +27798,17 @@
                 }
               ],
               "Reviewer": "philpax"
+            },
+            "1.5.1.0": {
+              "TimeReleased": "2025-01-06T00:24:17.9490922+00:00",
+              "Changelog": "- Add Chaotic as category\r\n- Show Cloud of Darkness (Chaotic) under duties\r\n- Player filter shows now all world on the logical DC",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
