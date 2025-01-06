@@ -14743,9 +14743,9 @@
           }
         },
         "OpenerCreator": {
-          "BuiltCommit": "627cc80495ae78259c83750b686de57e0008ed9a",
-          "TimeBuilt": "2024-08-31T13:13:07.279",
-          "EffectiveVersion": "0.3.1.0",
+          "BuiltCommit": "51856098e893e26d74782311a64b55fe16268383",
+          "TimeBuilt": "2025-01-06T00:40:57.6133836+00:00",
+          "EffectiveVersion": "0.3.2.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.2.0.0": {
@@ -14759,6 +14759,105 @@
               "Changelog": "- Add ability ants for next action\n- Add SAM standard opener (oops)\n",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "0.3.2.0": {
+              "TimeReleased": "2025-01-06T00:40:57.6134256+00:00",
+              "Changelog": "- API 11 update\r\n- ImRaii everything\r\n- Adopt config window style\r\n- Update GNB openers for 7.1\r\n- Switch hook to use cs\r\n- Cleanup\r\n- Use Dalamud SDK\r\n\r\nAdopting this plugin in accordance with the original dev: https://discord.com/channels/581875019861328007/653504487352303619/1324395926864793712",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.Build.Tasks.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Common",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitHub",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitLab",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "coverlet.collector",
+                  "Version": "6.0.3"
+                },
+                {
+                  "Key": "Microsoft.NET.Test.Sdk",
+                  "Version": "17.12.0"
+                },
+                {
+                  "Key": "xunit",
+                  "Version": "2.9.2"
+                },
+                {
+                  "Key": "xunit.runner.visualstudio",
+                  "Version": "3.0.0"
+                },
+                {
+                  "Key": "Microsoft.CodeCoverage",
+                  "Version": "17.12.0"
+                },
+                {
+                  "Key": "Microsoft.TestPlatform.ObjectModel",
+                  "Version": "17.12.0"
+                },
+                {
+                  "Key": "Microsoft.TestPlatform.TestHost",
+                  "Version": "17.12.0"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.1"
+                },
+                {
+                  "Key": "System.Reflection.Metadata",
+                  "Version": "1.6.0"
+                },
+                {
+                  "Key": "xunit.abstractions",
+                  "Version": "2.0.3"
+                },
+                {
+                  "Key": "xunit.analyzers",
+                  "Version": "1.16.0"
+                },
+                {
+                  "Key": "xunit.assert",
+                  "Version": "2.9.2"
+                },
+                {
+                  "Key": "xunit.core",
+                  "Version": "2.9.2"
+                },
+                {
+                  "Key": "xunit.extensibility.core",
+                  "Version": "2.9.2"
+                },
+                {
+                  "Key": "xunit.extensibility.execution",
+                  "Version": "2.9.2"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
@@ -74892,6 +74991,48 @@
       "Version": "2938ab8bc79286992ab37e08236c4a9665822133",
       "ReviewedBy": "reiichi001",
       "ReviewedAt": "2025-01-06T00:35:39.85054Z"
+    },
+    {
+      "Type": 1,
+      "Key": "coverlet.collector",
+      "Version": "6.0.3",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2025-01-06T00:40:57.6559048Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.NET.Test.Sdk",
+      "Version": "17.12.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2025-01-06T00:40:57.6559328Z"
+    },
+    {
+      "Type": 1,
+      "Key": "xunit.runner.visualstudio",
+      "Version": "3.0.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2025-01-06T00:40:57.6559331Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.CodeCoverage",
+      "Version": "17.12.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2025-01-06T00:40:57.6559333Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.TestPlatform.ObjectModel",
+      "Version": "17.12.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2025-01-06T00:40:57.6559334Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.TestPlatform.TestHost",
+      "Version": "17.12.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2025-01-06T00:40:57.6559339Z"
     }
   ]
 }

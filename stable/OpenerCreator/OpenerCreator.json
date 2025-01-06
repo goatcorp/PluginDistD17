@@ -1,10 +1,11 @@
 {
-  "Author": "herulume, sevii",
+  "Author": "Infi, herulume, sevii",
   "Name": "OpenerCreator",
   "InternalName": "OpenerCreator",
-  "AssemblyVersion": "0.3.1.0",
+  "AssemblyVersion": "0.3.2.0",
   "Description": "Create your opener and practice with a striking dummy. Provides basic analysis.",
   "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/Infiziert90/OpenerCreator",
   "Tags": [
     "pve",
     "rotation",
@@ -17,7 +18,7 @@
   "CategoryTags": [
     "jobs"
   ],
-  "DalamudApiLevel": 10,
+  "DalamudApiLevel": 11,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
