@@ -1,10 +1,11 @@
 {
-  "Author": "herulume, sevii",
+  "Author": "Infi, herulume, sevii",
   "Name": "Directional",
   "InternalName": "Directional",
-  "AssemblyVersion": "0.0.1.0",
+  "AssemblyVersion": "0.0.2.0",
   "Description": "Draw the compass directionals around the target (boss relative or true north)",
   "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/Infiziert90/Directional",
   "Tags": [
     "pve",
     "helper",
@@ -16,16 +17,16 @@
     "overlay",
     "indicator"
   ],
-  "DalamudApiLevel": 10,
+  "DalamudApiLevel": 11,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
   "LoadPriority": 0,
   "ImageUrls": [
-    "https://raw.githubusercontent.com/herulume/Directional/master/images/img1.png",
-    "https://raw.githubusercontent.com/herulume/Directional/master/images/img2.png"
+    "https://raw.githubusercontent.com/Infiziert90/Directional/master/images/img1.png",
+    "https://raw.githubusercontent.com/Infiziert90/Directional/master/images/img2.png"
   ],
-  "IconUrl": "https://raw.githubusercontent.com/herulume/Directional/master/images/icon.png",
+  "IconUrl": "https://raw.githubusercontent.com/Infiziert90/Directional/master/images/icon.png",
   "Punchline": "Draw the compass directionals around the target for easier callouts",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
