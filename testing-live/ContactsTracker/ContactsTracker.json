@@ -2,7 +2,7 @@
   "Author": "Due",
   "Name": "ContactsTracker",
   "InternalName": "ContactsTracker",
-  "AssemblyVersion": "0.1.0.1",
+  "AssemblyVersion": "0.1.0.2",
   "Description": "Record Duty Completeion and Team Composition (TODO).\nRemember to check Settings Tab.\nYou can use the Settings button below to enter analyze window",
   "ApplicableVersion": "any",
   "Tags": [
