@@ -49293,9 +49293,9 @@
           }
         },
         "EngageTimer": {
-          "BuiltCommit": "d94ce5dbea7b2b088aaa5310ae4b49cfafcfadff",
-          "TimeBuilt": "2024-11-19T20:47:45.5642029+00:00",
-          "EffectiveVersion": "2.4.1.1",
+          "BuiltCommit": "1b76fb8a3403de88282b496897651def6e49e843",
+          "TimeBuilt": "2025-01-06T13:16:01.733786+00:00",
+          "EffectiveVersion": "2.4.1.2",
           "MinimumVersion": null,
           "Changelogs": {
             "2.2.2.2": {
@@ -49429,6 +49429,33 @@
                 }
               ],
               "Reviewer": "philpax"
+            },
+            "2.4.1.2": {
+              "TimeReleased": "2025-01-06T13:16:01.7338243+00:00",
+              "Changelog": "- Fix imgui asserts\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "EmbedIO",
+                  "Version": "3.5.2"
+                },
+                {
+                  "Key": "JetBrains.Annotations",
+                  "Version": "2024.3.0"
+                },
+                {
+                  "Key": "System.ValueTuple",
+                  "Version": "4.5.0"
+                },
+                {
+                  "Key": "Unosquare.Swan.Lite",
+                  "Version": "3.1.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
@@ -66368,9 +66395,9 @@
           }
         },
         "XIVCombo": {
-          "BuiltCommit": "d74183f033706fe2b7c7716615187166ceb45d58",
-          "TimeBuilt": "2025-01-06T06:45:31.134794+00:00",
-          "EffectiveVersion": "2.0.0.1",
+          "BuiltCommit": "12f47364163769f26f34bda69aa8a984dc6ab6de",
+          "TimeBuilt": "2025-01-06T13:16:11.1152185+00:00",
+          "EffectiveVersion": "2.0.0.2",
           "MinimumVersion": null,
           "Changelogs": {
             "2.0.0.0": {
@@ -66415,6 +66442,45 @@
             "2.0.0.1": {
               "TimeReleased": "2025-01-06T06:45:31.1348319+00:00",
               "Changelog": "- Added back BLM\u0027s Freeze/Flare to the Enochian feature. Apologies! \n\t\t",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.Build.Tasks.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Common",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitHub",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitLab",
+                  "Version": "1.1.1"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            },
+            "2.0.0.2": {
+              "TimeReleased": "2025-01-06T13:16:11.1152193+00:00",
+              "Changelog": "- Fixed MCH\u0027s Hypercharge not behaving like it used to. \n\t\t",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
