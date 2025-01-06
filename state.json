@@ -65888,9 +65888,9 @@
           }
         },
         "ContactsTracker": {
-          "BuiltCommit": "8335d8b1ff54adcc6fb60848033a582646eb2178",
-          "TimeBuilt": "2025-01-06T00:28:50.4227001+00:00",
-          "EffectiveVersion": "0.1.0.2",
+          "BuiltCommit": "ada6ada1119df00071ddf1dae52985f20243a6fe",
+          "TimeBuilt": "2025-01-06T06:43:59.210718+00:00",
+          "EffectiveVersion": "0.1.0.3",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.0.1": {
@@ -65915,6 +65915,25 @@
             "0.1.0.2": {
               "TimeReleased": "2025-01-06T00:28:50.4227437+00:00",
               "Changelog": "[0.1.0.2]\r\n- New History Tab UI\r\n- Average Duration Query\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "CsvHelper",
+                  "Version": "33.0.1"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.25"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            },
+            "0.1.0.3": {
+              "TimeReleased": "2025-01-06T06:43:59.2107575+00:00",
+              "Changelog": "[0.1.0.3]\r\n- Update Description\r\n- Add Missing Configuration for Incomplete entry\r\n- Hold CTRL to Delete\r\n",
               "UsedNeeds": [
                 {
                   "Key": "CsvHelper",
