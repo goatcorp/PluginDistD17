@@ -65932,6 +65932,53 @@
               "Reviewer": "reiichi001"
             }
           }
+        },
+        "XIVCombo": {
+          "BuiltCommit": "11879795f2b26eedd092f6dc24ca8d419abcd517",
+          "TimeBuilt": "2025-01-06T02:26:22.7961393+00:00",
+          "EffectiveVersion": "2.0.0.0",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "2.0.0.0": {
+              "TimeReleased": "2025-01-06T02:26:22.7961825+00:00",
+              "Changelog": "## Adoption of XIVCombo\n\t\t- A new UI, more modern and more fitting for the increasing amount of jobs has been added to XIVCombo.\n\t\t- Currently, all 65 existing combos have been kept while keeping feature parity as much as possible.\n\t\t- Your previous settings will not carry over this new version. A welcoming pop-up will warn you about it.\n\t\t- No new features, except the new UI. Maybe later, who knows? Updates should be more consistent from now on.\n\t\t- The GitHub repository will be cleaned up (issues and pull requests closed) as nothing there are relevant anymore.\n\t\t- Please use the Feedback feature of Dalamud to report any issues you would meet.\n\t\t-# :french_bread: :croissant:  \n\t\t",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.Build.Tasks.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Common",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitHub",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitLab",
+                  "Version": "1.1.1"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            }
+          }
         }
       }
     },
