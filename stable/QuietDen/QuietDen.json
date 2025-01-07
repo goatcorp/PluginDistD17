@@ -1,0 +1,22 @@
+{
+  "Author": "XorelCodes",
+  "Name": "Quiet The Den",
+  "InternalName": "QuietDen",
+  "AssemblyVersion": "1.0.0.0",
+  "Description": "Auto-mute BGM while in the Wolves' Den, because I've had enough and it ends here.",
+  "ApplicableVersion": "any",
+  "Tags": [
+    "bgm",
+    "plugin",
+    "machinations"
+  ],
+  "DalamudApiLevel": 11,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "Punchline": "Stop yer ears bleedin' in the Wolves' Den",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "stable"
+}
