@@ -4213,9 +4213,9 @@
           }
         },
         "PetRenamer": {
-          "BuiltCommit": "cd27d7e8fbe78f9f1e2f6b2bfa3b21ddec42fd89",
-          "TimeBuilt": "2024-12-14T21:21:18.5443465+00:00",
-          "EffectiveVersion": "2.3.0.7",
+          "BuiltCommit": "6c6f6a22716c4f21bacc21ddbc38e92e153d88c0",
+          "TimeBuilt": "2025-01-07T21:52:28.8154954+00:00",
+          "EffectiveVersion": "2.3.0.9",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -4599,6 +4599,21 @@
             "2.3.0.7": {
               "TimeReleased": "2024-12-14T21:21:18.5443472+00:00",
               "Changelog": "    [2.3.0.7]\r\n    Fixes the import button literally not working if you didn\u0027t have that user in your list via a previous update (This button hasn\u0027t worked in a WHILE).\r\n    Tentative fix for chat messages appearing empty in spots where pets with or without a nickname should appear. \r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "HtmlAgilityPack",
+                  "Version": "1.11.71"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            },
+            "2.3.0.9": {
+              "TimeReleased": "2025-01-07T21:52:28.8155337+00:00",
+              "Changelog": "    [2.3.0.9]\r\n    Fixes profile pictures not downloading for people with \u0027 and - in their name.\r\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -65488,9 +65503,9 @@
           }
         },
         "AcquisitionDate": {
-          "BuiltCommit": "b24077b42e2c2380640169d7bf6ac10aedfee629",
-          "TimeBuilt": "2025-01-01T22:07:09.4275884+00:00",
-          "EffectiveVersion": "0.1.1.0",
+          "BuiltCommit": "d0ec533871169ccb25caec2d570f479986dfb640",
+          "TimeBuilt": "2025-01-07T21:52:37.0616069+00:00",
+          "EffectiveVersion": "0.1.1.1",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.0.0": {
@@ -65621,6 +65636,49 @@
                 }
               ],
               "Reviewer": "goaaats"
+            },
+            "0.1.1.1": {
+              "TimeReleased": "2025-01-07T21:52:37.0616078+00:00",
+              "Changelog": "    [0.1.1.1]\n    Fixes acquisition for users with \u0027 and - in their name to not work.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "HtmlAgilityPack",
+                  "Version": "1.11.71"
+                },
+                {
+                  "Key": "Microsoft.Build.Tasks.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Common",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitHub",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitLab",
+                  "Version": "1.1.1"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
