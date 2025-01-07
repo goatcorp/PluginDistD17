@@ -66962,9 +66962,9 @@
           }
         },
         "XIVCombo": {
-          "BuiltCommit": "12f47364163769f26f34bda69aa8a984dc6ab6de",
-          "TimeBuilt": "2025-01-06T13:16:11.1152185+00:00",
-          "EffectiveVersion": "2.0.0.2",
+          "BuiltCommit": "f17911f9f770357c90b8e141b8ab4f1d8dee17b1",
+          "TimeBuilt": "2025-01-07T21:41:37.842533+00:00",
+          "EffectiveVersion": "2.0.0.3",
           "MinimumVersion": null,
           "Changelogs": {
             "2.0.0.0": {
@@ -67048,6 +67048,45 @@
             "2.0.0.2": {
               "TimeReleased": "2025-01-06T13:16:11.1152193+00:00",
               "Changelog": "- Fixed MCH\u0027s Hypercharge not behaving like it used to. \n\t\t",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.Build.Tasks.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Common",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitHub",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitLab",
+                  "Version": "1.1.1"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            },
+            "2.0.0.3": {
+              "TimeReleased": "2025-01-07T21:41:37.8425919+00:00",
+              "Changelog": "- Fixed PCT\u0027s Substractive applying to both Fire in Red and Blizzard in Cyan, only applying to Fire in Red now as it used to.\n\t\t",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
