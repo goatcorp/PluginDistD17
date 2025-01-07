@@ -14862,9 +14862,9 @@
           }
         },
         "TrackyTrack": {
-          "BuiltCommit": "137a6d7635e75254fa1395340eb0768c054d4a05",
-          "TimeBuilt": "2025-01-03T02:10:19.8196108+00:00",
-          "EffectiveVersion": "1.5.6.0",
+          "BuiltCommit": "52bcf324a7c896d5ec14a7dffedda05320ea021e",
+          "TimeBuilt": "2025-01-07T03:36:15.5525369+00:00",
+          "EffectiveVersion": "1.5.6.2",
           "MinimumVersion": null,
           "Changelogs": {
             "1.5.5.5": {
@@ -15223,6 +15223,57 @@
                 }
               ],
               "Reviewer": "philpax"
+            },
+            "1.5.6.2": {
+              "TimeReleased": "2025-01-07T03:36:15.5525753+00:00",
+              "Changelog": "- Massively improve retainer task tracking\r\n  - This also fixes an issue that ventures would end up a different type\r\n- Implement Session tab\r\n  - Currently only supports eureka bunny coffers\r\n- Fix wrong indent in Stats",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/Ottermandias/OtterGui",
+                  "Version": "8ba88eff15326bb28ed5e6157f5252c114d40b5f"
+                },
+                {
+                  "Key": "https://github.com/Ottermandias/OtterGuiInternal.git",
+                  "Version": "8e144c54022bc7d30f993a8c496ad390764f884f"
+                },
+                {
+                  "Key": "CsvHelper",
+                  "Version": "33.0.1"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "MessagePack",
+                  "Version": "3.0.238-rc.1"
+                },
+                {
+                  "Key": "JetBrains.Annotations",
+                  "Version": "2024.2.0"
+                },
+                {
+                  "Key": "MessagePack.Annotations",
+                  "Version": "3.0.238-rc.1"
+                },
+                {
+                  "Key": "MessagePackAnalyzer",
+                  "Version": "3.0.238-rc.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.NET.StringTools",
+                  "Version": "17.11.4"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
