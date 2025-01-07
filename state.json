@@ -52441,9 +52441,9 @@
           }
         },
         "AFKMute": {
-          "BuiltCommit": "7aa1e3a82e9364645feceac40f8cfd3fc4611467",
-          "TimeBuilt": "2025-01-01T22:07:00.5154204+00:00",
-          "EffectiveVersion": "1.0.0.3",
+          "BuiltCommit": "3bbbd030b46ed95424be9685571f7244284ec239",
+          "TimeBuilt": "2025-01-07T16:32:42.0780776+00:00",
+          "EffectiveVersion": "1.0.0.4",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.3": {
@@ -52484,6 +52484,45 @@
                 }
               ],
               "Reviewer": "goaaats"
+            },
+            "1.0.0.4": {
+              "TimeReleased": "2025-01-07T16:32:42.0781162+00:00",
+              "Changelog": "Save state of master volume and last known AFK state of player, and unmute on game start accordingly. Thanks for reporting this.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.Build.Tasks.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Common",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitHub",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitLab",
+                  "Version": "1.1.1"
+                }
+              ],
+              "Reviewer": "philpax"
             }
           }
         },
@@ -66792,9 +66831,9 @@
           }
         },
         "ContactsTracker": {
-          "BuiltCommit": "ada6ada1119df00071ddf1dae52985f20243a6fe",
-          "TimeBuilt": "2025-01-06T06:43:59.210718+00:00",
-          "EffectiveVersion": "0.1.0.3",
+          "BuiltCommit": "ef9ba911dc6f07c3cfa6dad272a05bcfe1a043d3",
+          "TimeBuilt": "2025-01-07T16:32:50.3844437+00:00",
+          "EffectiveVersion": "0.2.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.0.1": {
@@ -66853,6 +66892,25 @@
                 }
               ],
               "Reviewer": "reiichi001"
+            },
+            "0.2.0.0": {
+              "TimeReleased": "2025-01-07T16:32:50.3844447+00:00",
+              "Changelog": "[0.2.0.0]\r\n- Log Party Members\u0027 Job\r\n- Add About Tab\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "CsvHelper",
+                  "Version": "33.0.1"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.25"
+                }
+              ],
+              "Reviewer": "philpax"
             }
           }
         },

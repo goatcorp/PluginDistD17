@@ -2,7 +2,7 @@
   "Author": "Due",
   "Name": "ContactsTracker",
   "InternalName": "ContactsTracker",
-  "AssemblyVersion": "0.1.0.3",
+  "AssemblyVersion": "0.2.0.0",
   "Description": "Record Duty and Party Member.\nRemember to check Settings Tab.\nUse the Settings button to enter analyze window.",
   "ApplicableVersion": "any",
   "Tags": [
