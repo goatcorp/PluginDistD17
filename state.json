@@ -52634,6 +52634,44 @@
               "Reviewer": "reiichi001"
             }
           }
+        },
+        "BigNaelQuotes": {
+          "BuiltCommit": "1f714db51274db325afc49955cb84fcb21d6e901",
+          "TimeBuilt": "2025-01-08T17:08:42.4599058+00:00",
+          "EffectiveVersion": "0.0.5.0",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "0.0.5.0": {
+              "TimeReleased": "2025-01-08T17:08:42.4599074+00:00",
+              "Changelog": "Add JP/CN support",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "philpax"
+            }
+          }
+        },
+        "RetainerSales": {
+          "BuiltCommit": "f6c18f4f634ef1380c3cd22efe9def81da5082f4",
+          "TimeBuilt": "2025-01-08T17:08:50.7223072+00:00",
+          "EffectiveVersion": "1.0.0.2",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "1.0.0.2": {
+              "TimeReleased": "2025-01-08T17:08:50.7223088+00:00",
+              "Changelog": "Leave testing",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "philpax"
+            }
+          }
         }
       }
     },
@@ -65193,36 +65231,6 @@
             }
           }
         },
-        "BigNaelQuotes": {
-          "BuiltCommit": "fbb82b130f4c1f1b5b6f1569d8a82c1231a55bf6",
-          "TimeBuilt": "2025-01-05T03:50:26.4705926+00:00",
-          "EffectiveVersion": "0.0.5.0",
-          "MinimumVersion": null,
-          "Changelogs": {
-            "0.0.4.0": {
-              "TimeReleased": "2024-12-20T23:22:45.5722026+00:00",
-              "Changelog": "Randomize test quote selection",
-              "UsedNeeds": [
-                {
-                  "Key": "DalamudPackager",
-                  "Version": "11.0.0"
-                }
-              ],
-              "Reviewer": "reiichi001"
-            },
-            "0.0.5.0": {
-              "TimeReleased": "2025-01-05T03:50:26.4706356+00:00",
-              "Changelog": "Add JP/CN support",
-              "UsedNeeds": [
-                {
-                  "Key": "DalamudPackager",
-                  "Version": "11.0.0"
-                }
-              ],
-              "Reviewer": "philpax"
-            }
-          }
-        },
         "QuietDen": {
           "BuiltCommit": "272365883b313022189374415e8e0cd44a6f10f1",
           "TimeBuilt": "2024-12-20T23:22:51.7919281+00:00",
@@ -65271,9 +65279,9 @@
           }
         },
         "CurrencySpender": {
-          "BuiltCommit": "7e339e0ec37b27ec233cd715048b84f7ed968e71",
-          "TimeBuilt": "2025-01-04T19:30:31.2201899+00:00",
-          "EffectiveVersion": "1.0.4.0",
+          "BuiltCommit": "8a05067f07f3a29d4eed7a35c0dd4edd3dbe0c37",
+          "TimeBuilt": "2025-01-08T17:09:02.6142046+00:00",
+          "EffectiveVersion": "1.0.5.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.2.0": {
@@ -65302,6 +65310,29 @@
             "1.0.4.0": {
               "TimeReleased": "2025-01-04T19:30:31.2201916+00:00",
               "Changelog": "**1.0.4**\r\n- Added: Bicolor gemstone warnings now dynamically react to the current status of Shared Fates\r\n- Added: Made the tables a bit fancier\r\n- Added: Possibility to add items to an \u0022Items of Interest\u0022 list\r\n- Fixed: Player login logic to trigger player updates automatically\r\n- Fixed: Some locations \u0026 aetherytes were incorrect\r\n- Changed: Rewrote GC Shop handling\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/NightmareXIV/ECommons.git",
+                  "Version": "3673f3c1e2fa1d68f7ab4c04463fd376d5659e13"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.25"
+                },
+                {
+                  "Key": "JetBrains.Annotations",
+                  "Version": "2021.2.0"
+                }
+              ],
+              "Reviewer": "philpax"
+            },
+            "1.0.5.0": {
+              "TimeReleased": "2025-01-08T17:09:02.6142058+00:00",
+              "Changelog": "**1.0.5**\r\n- Fixed: Flame and Serpent NPCs were swapped\r\n- Fixed: Battlefield Etiquette tracking issues\r\n- Changed: Rephrased the punchline and description of the plugin\r\n",
               "UsedNeeds": [
                 {
                   "Key": "https://github.com/NightmareXIV/ECommons.git",
