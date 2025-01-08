@@ -67020,9 +67020,9 @@
           }
         },
         "XIVCombo": {
-          "BuiltCommit": "f17911f9f770357c90b8e141b8ab4f1d8dee17b1",
-          "TimeBuilt": "2025-01-07T21:41:37.842533+00:00",
-          "EffectiveVersion": "2.0.0.3",
+          "BuiltCommit": "f89a819cf9ec9a28715f261d41ae00ba4d9bb8ef",
+          "TimeBuilt": "2025-01-08T17:05:32.1101697+00:00",
+          "EffectiveVersion": "2.0.0.4",
           "MinimumVersion": null,
           "Changelogs": {
             "2.0.0.0": {
@@ -67180,6 +67180,45 @@
                 }
               ],
               "Reviewer": "reiichi001"
+            },
+            "2.0.0.4": {
+              "TimeReleased": "2025-01-08T17:05:32.1102078+00:00",
+              "Changelog": "- Fixed RDM\u0027s Verstone/Verfire Feature procs overwriting Scorch and Resolution.\n- Fixed RDM\u0027s AoE Combo icons displaying Energy Drain instead of Swiftcast,\n- Fixed an issue with RPR\u0027s Communio not turning properly into Perfectio when using the Enshroud Communio Feature.\n- -# Made some 0.0001ms optimizations for lesser entropy (or bigger?)\n\t\t",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.Build.Tasks.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Common",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitHub",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitLab",
+                  "Version": "1.1.1"
+                }
+              ],
+              "Reviewer": "philpax"
             }
           }
         }
