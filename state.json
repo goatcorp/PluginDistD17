@@ -65534,9 +65534,9 @@
           }
         },
         "AcquisitionDate": {
-          "BuiltCommit": "d0ec533871169ccb25caec2d570f479986dfb640",
-          "TimeBuilt": "2025-01-07T21:52:37.0616069+00:00",
-          "EffectiveVersion": "0.1.1.1",
+          "BuiltCommit": "d58089c5009f1e99d8c14eb2422a8f2d0c83da41",
+          "TimeBuilt": "2025-01-09T02:23:33.296422+00:00",
+          "EffectiveVersion": "0.1.1.2",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.0.0": {
@@ -65671,6 +65671,49 @@
             "0.1.1.1": {
               "TimeReleased": "2025-01-07T21:52:37.0616078+00:00",
               "Changelog": "    [0.1.1.1]\n    Fixes acquisition for users with \u0027 and - in their name to not work.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "HtmlAgilityPack",
+                  "Version": "1.11.71"
+                },
+                {
+                  "Key": "Microsoft.Build.Tasks.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Common",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitHub",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitLab",
+                  "Version": "1.1.1"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            },
+            "0.1.1.2": {
+              "TimeReleased": "2025-01-09T02:23:33.2964636+00:00",
+              "Changelog": "    [0.1.1.2]\n    Fixes acquisition for users with \u0027 in their name to not work (For real this time c:).\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
