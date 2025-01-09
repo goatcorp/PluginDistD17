@@ -1,0 +1,22 @@
+{
+  "Author": "Blackcatz1911",
+  "Name": "Currency Spender",
+  "InternalName": "CurrencySpender",
+  "AssemblyVersion": "1.0.5.0",
+  "Description": "Never wonder 'What should I do with this?' again. Access real-time prices from Universalis, identify missing collectibles tied to your currencies, and unlock new possibilities for utilizing your in-game resources effectively.",
+  "ApplicableVersion": "any",
+  "Tags": [
+    "currency",
+    "poetics",
+    "tomestone"
+  ],
+  "DalamudApiLevel": 11,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "Punchline": "Discover how to use all the in-game currencies.",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "stable"
+}

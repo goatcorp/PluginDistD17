@@ -52672,6 +52672,37 @@
               "Reviewer": "philpax"
             }
           }
+        },
+        "CurrencySpender": {
+          "BuiltCommit": "8a05067f07f3a29d4eed7a35c0dd4edd3dbe0c37",
+          "TimeBuilt": "2025-01-09T16:00:09.34731+00:00",
+          "EffectiveVersion": "1.0.5.0",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "1.0.5.0": {
+              "TimeReleased": "2025-01-09T16:00:09.3473497+00:00",
+              "Changelog": "**1.0.5**\n- Fixed: Flame and Serpent NPCs were swapped\n- Fixed: Battlefield Etiquette tracking issues\n- Changed: Rephrased the punchline and description of the plugin\n",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/NightmareXIV/ECommons.git",
+                  "Version": "3673f3c1e2fa1d68f7ab4c04463fd376d5659e13"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.25"
+                },
+                {
+                  "Key": "JetBrains.Annotations",
+                  "Version": "2021.2.0"
+                }
+              ],
+              "Reviewer": "philpax"
+            }
+          }
         }
       }
     },
