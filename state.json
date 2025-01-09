@@ -62470,9 +62470,9 @@
           }
         },
         "BetterShadows": {
-          "BuiltCommit": "e09614012a9585fbaadbd93d8b18aca915e65c33",
-          "TimeBuilt": "2024-07-17T06:19:59.554",
-          "EffectiveVersion": "1.4.3.0",
+          "BuiltCommit": "8a2da61c4a3bb4638a692d4529d410a6fefddbcc",
+          "TimeBuilt": "2025-01-09T02:25:25.2824702+00:00",
+          "EffectiveVersion": "1.4.4.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.4.3.0": {
@@ -62480,6 +62480,21 @@
               "Changelog": "- Adjust dynamic cascade formula to be less conservative, and to have more significant changes at 4096p shadows.\n- Add option to use a separate shadowmap for combat, with the intent of allowing users to improve their performance when it matters.\n",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "1.4.4.0": {
+              "TimeReleased": "2025-01-09T02:25:25.2825216+00:00",
+              "Changelog": "- Updated for most recent patch\n- Reimplemented combat shadowmaps\n",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/Drahsid/DrahsidLib.git",
+                  "Version": "278ea0172bb77a606402daf723701c166715b6fd"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
