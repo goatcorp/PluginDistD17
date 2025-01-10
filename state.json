@@ -43617,9 +43617,9 @@
           }
         },
         "EasyTranslate.DalamudPlugin": {
-          "BuiltCommit": "28c6eb2a53ae9df39df6785249a7f9a2b096290f",
-          "TimeBuilt": "2024-11-17T02:23:00.1334128+00:00",
-          "EffectiveVersion": "4.0.0.0",
+          "BuiltCommit": "8e977350e81a1aa49bbe6881241c645ca585ff8c",
+          "TimeBuilt": "2025-01-10T06:41:53.19309+00:00",
+          "EffectiveVersion": "4.1.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "2.0.0.0": {
@@ -43667,6 +43667,29 @@
             "4.0.0.0": {
               "TimeReleased": "2024-11-17T02:23:00.1334135+00:00",
               "Changelog": "- Updated for patch 7.1\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "8.0.1"
+                },
+                {
+                  "Key": "SonarAnalyzer.CSharp",
+                  "Version": "9.32.0.97167"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "8.0.2"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            },
+            "4.1.0.0": {
+              "TimeReleased": "2025-01-10T06:41:53.1930908+00:00",
+              "Changelog": "- Add new advanced search options that allow changing the search language on the fly\n- Searching from a context menu now always searches using the game language\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -52542,9 +52565,9 @@
           }
         },
         "ShopItemRevealer": {
-          "BuiltCommit": "e8f0eaf87960b7554bf815da5423bdbb0d2a3396",
-          "TimeBuilt": "2025-01-04T19:27:04.1697967+00:00",
-          "EffectiveVersion": "1.0.2.0",
+          "BuiltCommit": "b82169e2a58ec2e07aafd69dbb2844cdb334e10f",
+          "TimeBuilt": "2025-01-10T06:41:41.8769856+00:00",
+          "EffectiveVersion": "1.1.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.2.0": {
@@ -52585,6 +52608,45 @@
                 }
               ],
               "Reviewer": "philpax"
+            },
+            "1.1.0.0": {
+              "TimeReleased": "2025-01-10T06:41:41.8770272+00:00",
+              "Changelog": "1.1.0\n - Adds gemstone vendor support with FATE rank requirement tracking.\n - Added some help desk at the bottom of the window.\n - Showing/hiding unrevealed items now re-sorts the table correctly.\n - Some code cleanup\n1.0.2\n- Adds sorting the table by item name (default) or quantity required.\n- Fixes another imgui assert.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.Build.Tasks.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Common",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitHub",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitLab",
+                  "Version": "1.1.1"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
