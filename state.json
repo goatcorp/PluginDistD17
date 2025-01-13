@@ -16208,9 +16208,9 @@
           }
         },
         "Echoglossian": {
-          "BuiltCommit": "8ab6d0f3dc1f33fd5f533d64f030b832eecd5913",
-          "TimeBuilt": "2024-12-24T17:15:20.6956586+00:00",
-          "EffectiveVersion": "3.19.2412.1035",
+          "BuiltCommit": "b765ae28de79aaca29377d0db03c6dbd0a61d917",
+          "TimeBuilt": "2025-01-13T01:12:02.1831316+00:00",
+          "EffectiveVersion": "3.20.2501.72",
           "MinimumVersion": null,
           "Changelogs": {
             "2.100.2208.281": {
@@ -17608,6 +17608,325 @@
                 }
               ],
               "Reviewer": "philpax"
+            },
+            "3.20.2501.72": {
+              "TimeReleased": "2025-01-13T01:12:02.1831867+00:00",
+              "Changelog": "v3.20.x \n fixes:\n - Tentative fix for \u0027Plugin could not be loaded error\u0027.",
+              "UsedNeeds": [
+                {
+                  "Key": "AWSSDK.Translate",
+                  "Version": "3.7.400.69"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "DeepL.net",
+                  "Version": "1.11.0"
+                },
+                {
+                  "Key": "GTranslate",
+                  "Version": "2.2.8"
+                },
+                {
+                  "Key": "HtmlAgilityPack",
+                  "Version": "1.11.71"
+                },
+                {
+                  "Key": "Microsoft.EntityFrameworkCore",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "Microsoft.EntityFrameworkCore.Sqlite",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "Microsoft.EntityFrameworkCore.Tools",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.3"
+                },
+                {
+                  "Key": "NTextCat",
+                  "Version": "0.3.65"
+                },
+                {
+                  "Key": "OpenAI",
+                  "Version": "2.1.0"
+                },
+                {
+                  "Key": "RestSharp",
+                  "Version": "112.1.0"
+                },
+                {
+                  "Key": "StyleCop.Analyzers",
+                  "Version": "1.2.0-beta.435"
+                },
+                {
+                  "Key": "System.Drawing.Common",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "System.Drawing.Primitives",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Private.Uri",
+                  "Version": "4.3.2"
+                },
+                {
+                  "Key": "AWSSDK.Core",
+                  "Version": "3.7.400.69"
+                },
+                {
+                  "Key": "Humanizer.Core",
+                  "Version": "2.14.1"
+                },
+                {
+                  "Key": "Microsoft.Bcl.AsyncInterfaces",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "Microsoft.Build.Framework",
+                  "Version": "17.8.3"
+                },
+                {
+                  "Key": "Microsoft.Build.Locator",
+                  "Version": "1.7.8"
+                },
+                {
+                  "Key": "Microsoft.CodeAnalysis.Analyzers",
+                  "Version": "3.3.4"
+                },
+                {
+                  "Key": "Microsoft.CodeAnalysis.Common",
+                  "Version": "4.8.0"
+                },
+                {
+                  "Key": "Microsoft.CodeAnalysis.CSharp",
+                  "Version": "4.8.0"
+                },
+                {
+                  "Key": "Microsoft.CodeAnalysis.CSharp.Workspaces",
+                  "Version": "4.8.0"
+                },
+                {
+                  "Key": "Microsoft.CodeAnalysis.Workspaces.Common",
+                  "Version": "4.8.0"
+                },
+                {
+                  "Key": "Microsoft.CodeAnalysis.Workspaces.MSBuild",
+                  "Version": "4.8.0"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite.Core",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "Microsoft.EntityFrameworkCore.Abstractions",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "Microsoft.EntityFrameworkCore.Analyzers",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "Microsoft.EntityFrameworkCore.Design",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "Microsoft.EntityFrameworkCore.Relational",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "Microsoft.EntityFrameworkCore.Sqlite.Core",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Caching.Abstractions",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Caching.Memory",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Abstractions",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyModel",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Http",
+                  "Version": "5.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Http.Polly",
+                  "Version": "5.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Primitives",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "Microsoft.NETCore.Platforms",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.NETCore.Targets",
+                  "Version": "1.1.3"
+                },
+                {
+                  "Key": "Microsoft.Win32.SystemEvents",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "Mono.TextTemplating",
+                  "Version": "3.0.0"
+                },
+                {
+                  "Key": "Polly",
+                  "Version": "7.1.0"
+                },
+                {
+                  "Key": "Polly.Extensions.Http",
+                  "Version": "3.0.0"
+                },
+                {
+                  "Key": "SQLitePCLRaw.bundle_e_sqlite3",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.core",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.lib.e_sqlite3",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.provider.e_sqlite3",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "StyleCop.Analyzers.Unstable",
+                  "Version": "1.2.0.435"
+                },
+                {
+                  "Key": "System.ClientModel",
+                  "Version": "1.2.1"
+                },
+                {
+                  "Key": "System.CodeDom",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "System.Collections.Immutable",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "System.Composition",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "System.Composition.AttributedModel",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "System.Composition.Convention",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "System.Composition.Hosting",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "System.Composition.Runtime",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "System.Composition.TypedParts",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "System.Diagnostics.DiagnosticSource",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "System.IO.Pipelines",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "System.Memory",
+                  "Version": "4.5.3"
+                },
+                {
+                  "Key": "System.Memory.Data",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "System.Reflection.Metadata",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "System.Runtime",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Runtime.CompilerServices.Unsafe",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "System.Runtime.Extensions",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Text.Encodings.Web",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "System.Text.Json",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "System.Threading.Channels",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "runtime.any.System.Runtime",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "runtime.win.System.Runtime.Extensions",
+                  "Version": "4.3.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
@@ -33153,9 +33472,9 @@
           }
         },
         "MOAction": {
-          "BuiltCommit": "27d77f9864e5b785775ca2bf042d03b4743ac3cb",
-          "TimeBuilt": "2024-12-20T05:51:52.8843117+00:00",
-          "EffectiveVersion": "4.4.1.0",
+          "BuiltCommit": "4876be3a210fe333ad49e03237de3344f5c36596",
+          "TimeBuilt": "2025-01-13T01:12:09.833537+00:00",
+          "EffectiveVersion": "4.4.2.0",
           "MinimumVersion": null,
           "Changelogs": {
             "4.2.7.0": {
@@ -33238,6 +33557,17 @@
             "4.4.1.0": {
               "TimeReleased": "2024-12-20T05:51:52.8843506+00:00",
               "Changelog": "Adoption of this plugin\r\nThanks goes to the previous maintainer attick, and Alluneve for all the work they recently invested into improving this plugin\r\n\r\n**Commands**\r\n- Added 2 new alias /mo and /moaction\r\n\r\n**New TargetType**\r\n- Crosshair\r\n  - A static location that acts exactly like \u0022MouseOver\u0022\r\n  - Can be drawn as crosshair onto the screen to give a visualization\r\n\r\n**UI Changes**\r\n- Use dalamud window system and ImRaii\r\n- Allow stacks to be reordered\r\n- Renamed the MENU to ALT key \r\n- Added Searchable action combos\r\n- General cleanup and small improvements to the UI\r\n  - More is planned for the near future\r\n- Added an about tab\r\n  - Support can be reached by using the discord thread button\r\n\r\n**Internal Changes**\r\n- Use more of CS for easier maintenance in the future\r\n- Removed a lot of old code that was still lingering around\r\n- Migration code for 4.0 was fully removed\r\n- Improve performance by removing string comparison \r\n\r\nFeedback is always welcome, just drop it in the discord thread or as an issue on github :)\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            },
+            "4.4.2.0": {
+              "TimeReleased": "2025-01-13T01:12:09.8335383+00:00",
+              "Changelog": "- Add wizard tab\r\n  - This allows the importing of basic stacks for some of the classes [thanks Alluneve]",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -67475,9 +67805,9 @@
           }
         },
         "Inspecto": {
-          "BuiltCommit": "95b73421ec92e267fee9a4e4ebf673814e13d0fe",
-          "TimeBuilt": "2025-01-13T00:44:46.7448781+00:00",
-          "EffectiveVersion": "0.0.0.1",
+          "BuiltCommit": "020427e1c768d9bdd0e882773d138a8d76dff573",
+          "TimeBuilt": "2025-01-13T01:12:17.5184076+00:00",
+          "EffectiveVersion": "0.0.0.2",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.0.1": {
@@ -67522,6 +67852,49 @@
                 }
               ],
               "Reviewer": "philpax"
+            },
+            "0.0.0.2": {
+              "TimeReleased": "2025-01-13T01:12:17.5184083+00:00",
+              "Changelog": "nofranz",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.6"
+                },
+                {
+                  "Key": "Microsoft.Build.Tasks.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Common",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitHub",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitLab",
+                  "Version": "1.1.1"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         }
