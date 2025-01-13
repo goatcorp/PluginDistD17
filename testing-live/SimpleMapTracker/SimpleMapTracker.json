@@ -1,0 +1,18 @@
+{
+  "Author": "Caraxi",
+  "Name": "Simple Map Tracker",
+  "InternalName": "SimpleMapTracker",
+  "AssemblyVersion": "0.0.1.0",
+  "Description": "Utilizes an external server to share your current treasure hunt target with your party members.",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/Caraxi/SimpleMapTracker",
+  "DalamudApiLevel": 11,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "Punchline": "Automatically keep track of treasure hunt maps within your party.",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "testing-live"
+}

@@ -51605,9 +51605,9 @@
           }
         },
         "ChatContext": {
-          "BuiltCommit": "8f5b26273a69dfa30ec8f8c8c89a0210d315581a",
-          "TimeBuilt": "2024-11-18T20:47:27.1913762+00:00",
-          "EffectiveVersion": "0.0.1.1",
+          "BuiltCommit": "f9c3aa52c80d86a9fd2d22d399eaf5f88ec9fe84",
+          "TimeBuilt": "2025-01-13T00:44:29.5036757+00:00",
+          "EffectiveVersion": "0.0.1.2",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.0.2": {
@@ -51631,6 +51631,17 @@
                 }
               ],
               "Reviewer": "reiichi001"
+            },
+            "0.0.1.2": {
+              "TimeReleased": "2025-01-13T00:44:29.5037312+00:00",
+              "Changelog": " - Fix chat type selection not being persisted properly",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "philpax"
             }
           }
         },
@@ -67403,6 +67414,116 @@
               "Reviewer": "philpax"
             }
           }
+        },
+        "SimpleMapTracker": {
+          "BuiltCommit": "8e1496fd78ef0c9cd29a8c1db1664489ebe46184",
+          "TimeBuilt": "2025-01-13T00:44:38.4893615+00:00",
+          "EffectiveVersion": "0.0.1.0",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "0.0.1.0": {
+              "TimeReleased": "2025-01-13T00:44:38.4893679+00:00",
+              "Changelog": "\u0060Simple Map Tracker\u0060 is a simple (for real this time) plugin that keeps track of open treasure hunt maps within your current party.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "GitInfo",
+                  "Version": "3.5.0"
+                },
+                {
+                  "Key": "Websocket.Client",
+                  "Version": "5.1.2"
+                },
+                {
+                  "Key": "Microsoft.CSharp",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.IO.RecyclableMemoryStream",
+                  "Version": "3.0.0"
+                },
+                {
+                  "Key": "System.Reactive",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "System.Threading.Channels",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "System.Threading.Tasks.Extensions",
+                  "Version": "4.5.4"
+                },
+                {
+                  "Key": "ThisAssembly.Constants",
+                  "Version": "2.0.6"
+                }
+              ],
+              "Reviewer": "goaaats"
+            }
+          }
+        },
+        "Inspecto": {
+          "BuiltCommit": "95b73421ec92e267fee9a4e4ebf673814e13d0fe",
+          "TimeBuilt": "2025-01-13T00:44:46.7448781+00:00",
+          "EffectiveVersion": "0.0.0.1",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "0.0.0.1": {
+              "TimeReleased": "2025-01-13T00:44:46.7448802+00:00",
+              "Changelog": "Look back at that cute search comment even hours later~\r\n\r\n**Inspecto**\r\nA simple plugin that keeps a local history of people you inspected.\r\n(History is not yet stored to disk, but planned for the future.)\r\n\r\n![MainWindow](https://github.com/user-attachments/assets/7c247f07-2a5a-4c20-9ab2-e9444f5d364e)\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.6"
+                },
+                {
+                  "Key": "Microsoft.Build.Tasks.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Common",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitHub",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitLab",
+                  "Version": "1.1.1"
+                }
+              ],
+              "Reviewer": "philpax"
+            }
+          }
         }
       }
     },
@@ -76566,6 +76687,27 @@
       "Version": "1.1.16",
       "ReviewedBy": "reiichi001",
       "ReviewedAt": "2025-01-06T19:12:35.1203095Z"
+    },
+    {
+      "Type": 1,
+      "Key": "GitInfo",
+      "Version": "3.5.0",
+      "ReviewedBy": "goaaats",
+      "ReviewedAt": "2025-01-13T00:44:38.5122642Z"
+    },
+    {
+      "Type": 1,
+      "Key": "ThisAssembly.Constants",
+      "Version": "2.0.6",
+      "ReviewedBy": "goaaats",
+      "ReviewedAt": "2025-01-13T00:44:38.5123223Z"
+    },
+    {
+      "Type": 1,
+      "Key": "SixLabors.ImageSharp",
+      "Version": "3.1.6",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2025-01-13T00:44:46.7801159Z"
     }
   ]
 }
