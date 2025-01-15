@@ -5229,9 +5229,9 @@
           }
         },
         "XIVCombo": {
-          "BuiltCommit": "35c8e78d8039d40236c29d72b809b1faa6816c14",
-          "TimeBuilt": "2024-12-06T03:08:46.1871122+00:00",
-          "EffectiveVersion": "1.8.6.0",
+          "BuiltCommit": "964a0d9b9651a2225f961f24e43fba81bdfc01cd",
+          "TimeBuilt": "2025-01-15T19:52:32.6905254+00:00",
+          "EffectiveVersion": "2.0.0.5",
           "MinimumVersion": null,
           "Changelogs": {
             "1.7.14.0": {
@@ -5313,6 +5313,45 @@
                 {
                   "Key": "DalamudPackager",
                   "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            },
+            "2.0.0.5": {
+              "TimeReleased": "2025-01-15T19:52:32.6905268+00:00",
+              "Changelog": "## Adoption of XIVCombo\n- \u003C:croissant:\u003E\n- A new UI, more modern and more fitting for the increasing amount of jobs has been added to XIVCombo.\n- Currently, all 65 existing combos have been kept while keeping feature parity as much as possible.\n- Your previous settings will not carry over this new version. A welcoming pop-up will warn you about it.\n- No new features, except the new UI. Maybe later, who knows? Updates should be more consistent from now on.\n- The GitHub repository will be cleaned up (issues and pull requests closed) as nothing there are relevant anymore.\n- Please use the Feedback feature of Dalamud to report any issues you would meet.\n- \u003C/:croissant:\u003E\n\n### New from 2.0.0.5\n- Fixed DRK\u0027s Stalwart Soul not reverting to Unleash when below level 40.\n\t\t",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.Build.Tasks.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Common",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitHub",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitLab",
+                  "Version": "1.1.1"
                 }
               ],
               "Reviewer": "reiichi001"
@@ -21121,9 +21160,9 @@
           }
         },
         "Eventy": {
-          "BuiltCommit": "902c673532d89f108c2a3326735f3951606ef038",
-          "TimeBuilt": "2024-11-15T19:32:54.2563457+00:00",
-          "EffectiveVersion": "1.0.2.1",
+          "BuiltCommit": "c4bcc7492af9827e6fccf5ef674ce3740fcf4fea",
+          "TimeBuilt": "2025-01-15T19:52:54.0026027+00:00",
+          "EffectiveVersion": "1.0.2.2",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.2.0": {
@@ -21147,6 +21186,17 @@
                 }
               ],
               "Reviewer": "goaaats"
+            },
+            "1.0.2.2": {
+              "TimeReleased": "2025-01-15T19:52:54.0026038+00:00",
+              "Changelog": "- Add PvP seasons [default hide]",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
@@ -48303,9 +48353,9 @@
           }
         },
         "BetterPlaytime": {
-          "BuiltCommit": "b0beb77ed82b29f4f2bcf546e4bbf131129743eb",
-          "TimeBuilt": "2024-11-15T19:31:16.731302+00:00",
-          "EffectiveVersion": "1.4.1.1",
+          "BuiltCommit": "0970e47bfb5012b3abe03dfe274ea92f8347d503",
+          "TimeBuilt": "2025-01-15T19:52:40.2051827+00:00",
+          "EffectiveVersion": "1.4.1.2",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -48384,6 +48434,17 @@
                 }
               ],
               "Reviewer": "goaaats"
+            },
+            "1.4.1.2": {
+              "TimeReleased": "2025-01-15T19:52:40.2051838+00:00",
+              "Changelog": "- Use to ImRaii everywhere\r\n- Switch to Resx Loc\r\n- Cleanup",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
@@ -50301,9 +50362,9 @@
           }
         },
         "MBHistory": {
-          "BuiltCommit": "9194f1ce4dee42ccfc1c7358a04ece7a4a843fdb",
-          "TimeBuilt": "2024-11-15T19:31:46.5761613+00:00",
-          "EffectiveVersion": "1.0.1.1",
+          "BuiltCommit": "b9ca9e1e138dfe858ff1a647d30f1552c679da96",
+          "TimeBuilt": "2025-01-15T19:52:47.2474444+00:00",
+          "EffectiveVersion": "1.0.1.2",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -50328,6 +50389,17 @@
                 }
               ],
               "Reviewer": "goaaats"
+            },
+            "1.0.1.2": {
+              "TimeReleased": "2025-01-15T19:52:47.2474456+00:00",
+              "Changelog": "- Implement default config window\r\n- Replace Text with TextUnformatted\r\n- Better button placement\r\n- Fix asserts",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
@@ -67897,9 +67969,9 @@
           }
         },
         "ContactsTracker": {
-          "BuiltCommit": "ef9ba911dc6f07c3cfa6dad272a05bcfe1a043d3",
-          "TimeBuilt": "2025-01-07T16:32:50.3844437+00:00",
-          "EffectiveVersion": "0.2.0.0",
+          "BuiltCommit": "226ab0fba7ad9d1cf314123d3207f8468fe1f5f3",
+          "TimeBuilt": "2025-01-15T19:53:02.1853754+00:00",
+          "EffectiveVersion": "0.2.0.1",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.0.1": {
@@ -67977,209 +68049,25 @@
                 }
               ],
               "Reviewer": "philpax"
-            }
-          }
-        },
-        "XIVCombo": {
-          "BuiltCommit": "f89a819cf9ec9a28715f261d41ae00ba4d9bb8ef",
-          "TimeBuilt": "2025-01-08T17:05:32.1101697+00:00",
-          "EffectiveVersion": "2.0.0.4",
-          "MinimumVersion": null,
-          "Changelogs": {
-            "2.0.0.0": {
-              "TimeReleased": "2025-01-06T02:26:22.7961825+00:00",
-              "Changelog": "## Adoption of XIVCombo\n\t\t- A new UI, more modern and more fitting for the increasing amount of jobs has been added to XIVCombo.\n\t\t- Currently, all 65 existing combos have been kept while keeping feature parity as much as possible.\n\t\t- Your previous settings will not carry over this new version. A welcoming pop-up will warn you about it.\n\t\t- No new features, except the new UI. Maybe later, who knows? Updates should be more consistent from now on.\n\t\t- The GitHub repository will be cleaned up (issues and pull requests closed) as nothing there are relevant anymore.\n\t\t- Please use the Feedback feature of Dalamud to report any issues you would meet.\n\t\t-# :french_bread: :croissant:  \n\t\t",
+            },
+            "0.2.0.1": {
+              "TimeReleased": "2025-01-15T19:53:02.1853766+00:00",
+              "Changelog": "[0.2.0.1]\r\n- Disable record when using ARR\r\n",
               "UsedNeeds": [
+                {
+                  "Key": "CsvHelper",
+                  "Version": "33.0.1"
+                },
                 {
                   "Key": "DalamudPackager",
                   "Version": "11.0.0"
                 },
                 {
                   "Key": "DotNet.ReproducibleBuilds",
-                  "Version": "1.1.1"
-                },
-                {
-                  "Key": "Microsoft.Build.Tasks.Git",
-                  "Version": "1.1.1"
-                },
-                {
-                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
-                  "Version": "1.1.1"
-                },
-                {
-                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
-                  "Version": "1.1.1"
-                },
-                {
-                  "Key": "Microsoft.SourceLink.Common",
-                  "Version": "1.1.1"
-                },
-                {
-                  "Key": "Microsoft.SourceLink.GitHub",
-                  "Version": "1.1.1"
-                },
-                {
-                  "Key": "Microsoft.SourceLink.GitLab",
-                  "Version": "1.1.1"
+                  "Version": "1.2.25"
                 }
               ],
               "Reviewer": "reiichi001"
-            },
-            "2.0.0.1": {
-              "TimeReleased": "2025-01-06T06:45:31.1348319+00:00",
-              "Changelog": "- Added back BLM\u0027s Freeze/Flare to the Enochian feature. Apologies! \n\t\t",
-              "UsedNeeds": [
-                {
-                  "Key": "DalamudPackager",
-                  "Version": "11.0.0"
-                },
-                {
-                  "Key": "DotNet.ReproducibleBuilds",
-                  "Version": "1.1.1"
-                },
-                {
-                  "Key": "Microsoft.Build.Tasks.Git",
-                  "Version": "1.1.1"
-                },
-                {
-                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
-                  "Version": "1.1.1"
-                },
-                {
-                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
-                  "Version": "1.1.1"
-                },
-                {
-                  "Key": "Microsoft.SourceLink.Common",
-                  "Version": "1.1.1"
-                },
-                {
-                  "Key": "Microsoft.SourceLink.GitHub",
-                  "Version": "1.1.1"
-                },
-                {
-                  "Key": "Microsoft.SourceLink.GitLab",
-                  "Version": "1.1.1"
-                }
-              ],
-              "Reviewer": "reiichi001"
-            },
-            "2.0.0.2": {
-              "TimeReleased": "2025-01-06T13:16:11.1152193+00:00",
-              "Changelog": "- Fixed MCH\u0027s Hypercharge not behaving like it used to. \n\t\t",
-              "UsedNeeds": [
-                {
-                  "Key": "DalamudPackager",
-                  "Version": "11.0.0"
-                },
-                {
-                  "Key": "DotNet.ReproducibleBuilds",
-                  "Version": "1.1.1"
-                },
-                {
-                  "Key": "Microsoft.Build.Tasks.Git",
-                  "Version": "1.1.1"
-                },
-                {
-                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
-                  "Version": "1.1.1"
-                },
-                {
-                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
-                  "Version": "1.1.1"
-                },
-                {
-                  "Key": "Microsoft.SourceLink.Common",
-                  "Version": "1.1.1"
-                },
-                {
-                  "Key": "Microsoft.SourceLink.GitHub",
-                  "Version": "1.1.1"
-                },
-                {
-                  "Key": "Microsoft.SourceLink.GitLab",
-                  "Version": "1.1.1"
-                }
-              ],
-              "Reviewer": "reiichi001"
-            },
-            "2.0.0.3": {
-              "TimeReleased": "2025-01-07T21:41:37.8425919+00:00",
-              "Changelog": "- Fixed PCT\u0027s Substractive applying to both Fire in Red and Blizzard in Cyan, only applying to Fire in Red now as it used to.\n\t\t",
-              "UsedNeeds": [
-                {
-                  "Key": "DalamudPackager",
-                  "Version": "11.0.0"
-                },
-                {
-                  "Key": "DotNet.ReproducibleBuilds",
-                  "Version": "1.1.1"
-                },
-                {
-                  "Key": "Microsoft.Build.Tasks.Git",
-                  "Version": "1.1.1"
-                },
-                {
-                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
-                  "Version": "1.1.1"
-                },
-                {
-                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
-                  "Version": "1.1.1"
-                },
-                {
-                  "Key": "Microsoft.SourceLink.Common",
-                  "Version": "1.1.1"
-                },
-                {
-                  "Key": "Microsoft.SourceLink.GitHub",
-                  "Version": "1.1.1"
-                },
-                {
-                  "Key": "Microsoft.SourceLink.GitLab",
-                  "Version": "1.1.1"
-                }
-              ],
-              "Reviewer": "reiichi001"
-            },
-            "2.0.0.4": {
-              "TimeReleased": "2025-01-08T17:05:32.1102078+00:00",
-              "Changelog": "- Fixed RDM\u0027s Verstone/Verfire Feature procs overwriting Scorch and Resolution.\n- Fixed RDM\u0027s AoE Combo icons displaying Energy Drain instead of Swiftcast,\n- Fixed an issue with RPR\u0027s Communio not turning properly into Perfectio when using the Enshroud Communio Feature.\n- -# Made some 0.0001ms optimizations for lesser entropy (or bigger?)\n\t\t",
-              "UsedNeeds": [
-                {
-                  "Key": "DalamudPackager",
-                  "Version": "11.0.0"
-                },
-                {
-                  "Key": "DotNet.ReproducibleBuilds",
-                  "Version": "1.1.1"
-                },
-                {
-                  "Key": "Microsoft.Build.Tasks.Git",
-                  "Version": "1.1.1"
-                },
-                {
-                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
-                  "Version": "1.1.1"
-                },
-                {
-                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
-                  "Version": "1.1.1"
-                },
-                {
-                  "Key": "Microsoft.SourceLink.Common",
-                  "Version": "1.1.1"
-                },
-                {
-                  "Key": "Microsoft.SourceLink.GitHub",
-                  "Version": "1.1.1"
-                },
-                {
-                  "Key": "Microsoft.SourceLink.GitLab",
-                  "Version": "1.1.1"
-                }
-              ],
-              "Reviewer": "philpax"
             }
           }
         },
