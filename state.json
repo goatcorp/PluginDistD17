@@ -34699,9 +34699,9 @@
           }
         },
         "Accountant": {
-          "BuiltCommit": "de83d6575a3372be68bdd301c99e86a2bd38f24b",
-          "TimeBuilt": "2024-11-16T21:37:25.4996259+00:00",
-          "EffectiveVersion": "1.7.0.0",
+          "BuiltCommit": "2f55c67441106e286bb04428bb0f139dd74c1be7",
+          "TimeBuilt": "2025-01-16T20:51:40.4044724+00:00",
+          "EffectiveVersion": "1.7.0.1",
           "MinimumVersion": null,
           "Changelogs": {
             "1.3.2.0": {
@@ -34761,6 +34761,17 @@
             "1.7.0.0": {
               "TimeReleased": "2024-11-16T21:37:25.4996648+00:00",
               "Changelog": "-  API11 and 7.1 update\r\n- Changed FC handling slightly\r\n- Changed Plot Tracking slightly, it now happens in the Demolition Tracker \r\n  - Instead of just naming them, plots can now configured to track their visits. \r\n  - Aside from the custom name (which should be migrated), plots can set a number of days until they show up in the timer window, and until they show as popup warnings. \r\n  - To track visits, you need to manually add players that should reset the remaining days.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            },
+            "1.7.0.1": {
+              "TimeReleased": "2025-01-16T20:51:40.4045739+00:00",
+              "Changelog": "nofranz",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
