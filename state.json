@@ -21160,9 +21160,9 @@
           }
         },
         "Eventy": {
-          "BuiltCommit": "c4bcc7492af9827e6fccf5ef674ce3740fcf4fea",
-          "TimeBuilt": "2025-01-15T19:52:54.0026027+00:00",
-          "EffectiveVersion": "1.0.2.2",
+          "BuiltCommit": "acb5d65566e027a8c635be4cfde6e9a708671824",
+          "TimeBuilt": "2025-01-16T20:43:02.4272183+00:00",
+          "EffectiveVersion": "1.0.2.3",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.2.0": {
@@ -21197,6 +21197,17 @@
                 }
               ],
               "Reviewer": "reiichi001"
+            },
+            "1.0.2.3": {
+              "TimeReleased": "2025-01-16T20:43:02.4272753+00:00",
+              "Changelog": "- Fixes the issue with pvp showing up in the serverbar counter",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "philpax"
             }
           }
         },
