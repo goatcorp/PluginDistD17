@@ -5229,9 +5229,9 @@
           }
         },
         "XIVCombo": {
-          "BuiltCommit": "964a0d9b9651a2225f961f24e43fba81bdfc01cd",
-          "TimeBuilt": "2025-01-15T19:52:32.6905254+00:00",
-          "EffectiveVersion": "2.0.0.5",
+          "BuiltCommit": "b36a4b66e3f0dae14a563c9eecceb7431e291280",
+          "TimeBuilt": "2025-01-16T21:08:46.7846557+00:00",
+          "EffectiveVersion": "2.0.0.6",
           "MinimumVersion": null,
           "Changelogs": {
             "1.7.14.0": {
@@ -5355,6 +5355,45 @@
                 }
               ],
               "Reviewer": "reiichi001"
+            },
+            "2.0.0.6": {
+              "TimeReleased": "2025-01-16T21:08:46.7847275+00:00",
+              "Changelog": "- Fixed MCH\u0027s Hypercharge and Spreadshot combos being swapped.\n\t\t",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.Build.Tasks.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Common",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitHub",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitLab",
+                  "Version": "1.1.1"
+                }
+              ],
+              "Reviewer": "philpax"
             }
           }
         },
