@@ -44805,9 +44805,9 @@
           }
         },
         "XIVLogger": {
-          "BuiltCommit": "2d6a9c7049f9c710581dd301f0f0506f40d10454",
-          "TimeBuilt": "2024-11-15T20:37:20.3888105+00:00",
-          "EffectiveVersion": "1.0.7.2",
+          "BuiltCommit": "b27c9c0daf9567518fb7b10e1186e09e22d23660",
+          "TimeBuilt": "2025-01-17T22:09:46.0542745+00:00",
+          "EffectiveVersion": "1.0.7.3",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.4.2": {
@@ -44832,6 +44832,17 @@
                 }
               ],
               "Reviewer": "reiichi001"
+            },
+            "1.0.7.3": {
+              "TimeReleased": "2025-01-17T22:09:46.0543357+00:00",
+              "Changelog": "- Use active config\r\n- Add resx loc\r\n- Standardize config window layout\r\n- ImRaii everything\r\n- Cleanup",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "philpax"
             }
           }
         },
