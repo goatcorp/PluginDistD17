@@ -68770,6 +68770,113 @@
               "Reviewer": "reiichi001"
             }
           }
+        },
+        "NoSoliciting": {
+          "BuiltCommit": "7cbad9b16582564fd0a154853bea339de7561ca8",
+          "TimeBuilt": "2025-01-19T21:35:28.4117401+00:00",
+          "EffectiveVersion": "3.1.3.0",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "3.1.3.0": {
+              "TimeReleased": "2025-01-19T21:35:28.4118014+00:00",
+              "Changelog": "Adoption message:https://discord.com/channels/581875019861328007/653504487352303619/1330302402288418920\r\n\r\nI have restored the report function, it is pointing to https://visualnovelonline.com/report (domain that I own for a now defunct project) for now, it\u0027s setup to use https://, I have not changed what is sent in the report for now.\r\n\r\nOnly testing has report back, want to confirm my endpoint setup is working correctly(and not making me go bankrupt), stable remains unchanged",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/kalilistic/NoSoliciting.Interface.git",
+                  "Version": "b0029857a9eaee62aa8615be53030c3319c41f81"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "Fody",
+                  "Version": "6.8.0"
+                },
+                {
+                  "Key": "Microsoft.ML",
+                  "Version": "2.0.1"
+                },
+                {
+                  "Key": "Resourcer.Fody",
+                  "Version": "1.8.1"
+                },
+                {
+                  "Key": "YamlDotNet",
+                  "Version": "13.4.0"
+                },
+                {
+                  "Key": "Microsoft.ML.CpuMath",
+                  "Version": "2.0.1"
+                },
+                {
+                  "Key": "Microsoft.ML.DataView",
+                  "Version": "2.0.1"
+                },
+                {
+                  "Key": "Microsoft.NETCore.Platforms",
+                  "Version": "1.1.0"
+                },
+                {
+                  "Key": "Microsoft.NETCore.Targets",
+                  "Version": "1.1.0"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.1"
+                },
+                {
+                  "Key": "System.CodeDom",
+                  "Version": "4.5.0"
+                },
+                {
+                  "Key": "System.Collections.Immutable",
+                  "Version": "1.5.0"
+                },
+                {
+                  "Key": "System.IO",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Memory",
+                  "Version": "4.5.3"
+                },
+                {
+                  "Key": "System.Reflection",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Reflection.Emit.ILGeneration",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Reflection.Emit.Lightweight",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Reflection.Primitives",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Runtime",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Text.Encoding",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Threading.Channels",
+                  "Version": "4.7.1"
+                },
+                {
+                  "Key": "System.Threading.Tasks",
+                  "Version": "4.3.0"
+                }
+              ],
+              "Reviewer": "philpax"
+            }
+          }
         }
       }
     },
