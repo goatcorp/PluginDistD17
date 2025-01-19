@@ -2,7 +2,7 @@
   "Author": "Koenari",
   "Name": "Himbeertoni Raid Tool",
   "InternalName": "HimbeertoniRaidTool",
-  "AssemblyVersion": "1.8.0.2",
+  "AssemblyVersion": "1.8.0.3",
   "Description": "A collection of useful tools for raid groups, including loot management",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Koenari/HimbeertoniRaidTool/",
@@ -18,7 +18,7 @@
   "CanUnloadAsync": false,
   "LoadPriority": 0,
   "Punchline": "All you need for Raiding",
-  "Changelog": "    User Interface: Add quick select for job/character/player (similar to gear sets)\n    User Interface: Improved usability of BiS section in gear edit\n    Bugfix: 2nd,3rd,... set from XivGear.app sheets are now fetched correctly, not always the 1st\n",
+  "Changelog": "    New Feature: Stats can now take a party bonus into account (adjust the default in settings)\n",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "stable"

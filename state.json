@@ -45990,9 +45990,9 @@
           }
         },
         "HimbeertoniRaidTool": {
-          "BuiltCommit": "35151e31bcda28cfca13ec51a7d77e39707ef0aa",
-          "TimeBuilt": "2025-01-06T00:44:16.181705+00:00",
-          "EffectiveVersion": "1.8.0.2",
+          "BuiltCommit": "4be4fdaed527626e0ca2c79caecc16876e8e3ac1",
+          "TimeBuilt": "2025-01-19T16:35:22.1316091+00:00",
+          "EffectiveVersion": "1.8.0.3",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.33": {
@@ -46547,6 +46547,61 @@
                 }
               ],
               "Reviewer": "reiichi001"
+            },
+            "1.8.0.3": {
+              "TimeReleased": "2025-01-19T16:35:22.1316688+00:00",
+              "Changelog": "New Feature: Stats can now take a party bonus into account (adjust the default in settings)",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/Koenari/HimbeertoniRaidTool.Common.git",
+                  "Version": "77798d3a8b30e0047f63ae0b044256fbac7a0f94"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.25"
+                },
+                {
+                  "Key": "NetStone",
+                  "Version": "1.3.1"
+                },
+                {
+                  "Key": "HtmlAgilityPack",
+                  "Version": "1.11.46"
+                },
+                {
+                  "Key": "Karashiiro.HtmlAgilityPack.CssSelectors.NetCoreFork",
+                  "Version": "0.0.2"
+                },
+                {
+                  "Key": "Lumina",
+                  "Version": "5.6.0"
+                },
+                {
+                  "Key": "Lumina.Excel",
+                  "Version": "7.1.3"
+                },
+                {
+                  "Key": "Microsoft.Extensions.ObjectPool",
+                  "Version": "8.0.7"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.3"
+                },
+                {
+                  "Key": "XIVCalc",
+                  "Version": "0.3.1"
+                },
+                {
+                  "Key": "XIVCalc.Lumina",
+                  "Version": "7.1.3"
+                }
+              ],
+              "Reviewer": "philpax"
             }
           }
         },
@@ -77896,6 +77951,41 @@
       "Version": "2.1.7",
       "ReviewedBy": "philpax",
       "ReviewedAt": "2025-01-14T20:25:47.1370797Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/Koenari/HimbeertoniRaidTool.Common.git",
+      "Version": "77798d3a8b30e0047f63ae0b044256fbac7a0f94",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2025-01-19T16:35:22.161478Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Lumina",
+      "Version": "5.6.0",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2025-01-19T16:35:22.1615388Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Lumina.Excel",
+      "Version": "7.1.3",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2025-01-19T16:35:22.1615393Z"
+    },
+    {
+      "Type": 1,
+      "Key": "XIVCalc",
+      "Version": "0.3.1",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2025-01-19T16:35:22.1615396Z"
+    },
+    {
+      "Type": 1,
+      "Key": "XIVCalc.Lumina",
+      "Version": "7.1.3",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2025-01-19T16:35:22.1615398Z"
     }
   ]
 }
