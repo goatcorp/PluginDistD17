@@ -28752,9 +28752,9 @@
           }
         },
         "NextUIPlugin": {
-          "BuiltCommit": "e76592ba4a67c7b677a8224e9d9ab8f4002ac4d9",
-          "TimeBuilt": "2024-07-23T02:11:12.041",
-          "EffectiveVersion": "10.0.0.2",
+          "BuiltCommit": "19238d1cd0ad0db3dfbfc1fa63d7e8ad644e3df3",
+          "TimeBuilt": "2025-01-19T16:54:33.3885263+00:00",
+          "EffectiveVersion": "11.0.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "7.0.0.6": {
@@ -28786,6 +28786,37 @@
               "Changelog": "Updated for patch 7 - pid and path fix\nUpdated for patch 6.5",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "11.0.0.0": {
+              "TimeReleased": "2025-01-19T16:54:33.3885824+00:00",
+              "Changelog": "Updated for patch 7.15\nUpdated for patch 7 - pid and path fix\nUpdated for patch 6.5",
+              "UsedNeeds": [
+                {
+                  "Key": "cef.redist.x64",
+                  "Version": "110.0.28"
+                },
+                {
+                  "Key": "Microsoft.NET.ILLink.Tasks",
+                  "Version": "8.0.7"
+                },
+                {
+                  "Key": "NSubsys",
+                  "Version": "1.0.0"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "Fleck",
+                  "Version": "1.2.0"
+                },
+                {
+                  "Key": "System.Reactive",
+                  "Version": "5.0.0"
+                }
+              ],
+              "Reviewer": "philpax"
             }
           }
         },
@@ -77986,6 +78017,34 @@
       "Version": "7.1.3",
       "ReviewedBy": "philpax",
       "ReviewedAt": "2025-01-19T16:35:22.1615398Z"
+    },
+    {
+      "Type": 1,
+      "Key": "cef.redist.x64",
+      "Version": "110.0.28",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2025-01-19T16:54:33.4224235Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.NET.ILLink.Tasks",
+      "Version": "8.0.7",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2025-01-19T16:54:33.4224711Z"
+    },
+    {
+      "Type": 1,
+      "Key": "NSubsys",
+      "Version": "1.0.0",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2025-01-19T16:54:33.4224713Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Fleck",
+      "Version": "1.2.0",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2025-01-19T16:54:33.4224718Z"
     }
   ]
 }
