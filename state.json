@@ -53488,9 +53488,9 @@
           }
         },
         "ShopItemRevealer": {
-          "BuiltCommit": "b82169e2a58ec2e07aafd69dbb2844cdb334e10f",
-          "TimeBuilt": "2025-01-10T06:41:41.8769856+00:00",
-          "EffectiveVersion": "1.1.0.0",
+          "BuiltCommit": "53e40a7e15edb24484be6cdc422c3eda289707c7",
+          "TimeBuilt": "2025-01-19T02:49:57.2708232+00:00",
+          "EffectiveVersion": "1.1.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.2.0": {
@@ -53570,6 +53570,21 @@
                 }
               ],
               "Reviewer": "reiichi001"
+            },
+            "1.1.1.0": {
+              "TimeReleased": "2025-01-19T02:49:57.2708783+00:00",
+              "Changelog": "## Version 1.1.1\r\n- Changes fate item names the data json to IDs, allowing for game sheet lookup for localized names.\r\n- Table now has its header frozen while scrolling.\r\n- Adjustments to handling player shared FATE data. This will require regenerating them on update.\r\n- A button to open the Shared FATEs window appears if needed.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.25"
+                }
+              ],
+              "Reviewer": "philpax"
             }
           }
         },
