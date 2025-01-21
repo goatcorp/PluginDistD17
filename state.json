@@ -18424,9 +18424,9 @@
           }
         },
         "QoLBar": {
-          "BuiltCommit": "c72bdcd31a1d7ab538db10a52e678b7a3cf43169",
-          "TimeBuilt": "2024-11-18T22:45:54.3495618+00:00",
-          "EffectiveVersion": "2.3.3.2",
+          "BuiltCommit": "3b72e2ea37030aa3992a9b0b03ce15735af54505",
+          "TimeBuilt": "2025-01-21T04:29:05.6806507+00:00",
+          "EffectiveVersion": "2.3.3.3",
           "MinimumVersion": null,
           "Changelogs": {
             "2.3.2.0": {
@@ -18467,6 +18467,17 @@
             "2.3.3.2": {
               "TimeReleased": "2024-11-18T22:45:54.3496028+00:00",
               "Changelog": "- Fixed macros",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            },
+            "2.3.3.3": {
+              "TimeReleased": "2025-01-21T04:29:05.6807077+00:00",
+              "Changelog": "- Fixed ImGui asserts",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
