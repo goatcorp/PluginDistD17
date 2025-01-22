@@ -17140,9 +17140,9 @@
           }
         },
         "FaderPlugin": {
-          "BuiltCommit": "672b398ba5880748ce919a0be487b937c07f2bd9",
-          "TimeBuilt": "2025-01-22T14:18:21.5623456+00:00",
-          "EffectiveVersion": "2.6.2.6",
+          "BuiltCommit": "befc480bafaf5dc1c8c2d436e7d2f432a9246ab6",
+          "TimeBuilt": "2025-01-22T14:33:21.3045152+00:00",
+          "EffectiveVersion": "2.6.2.7",
           "MinimumVersion": null,
           "Changelogs": {
             "2.3.0.0": {
@@ -17207,6 +17207,17 @@
             "2.6.2.6": {
               "TimeReleased": "2025-01-22T14:18:21.562424+00:00",
               "Changelog": "- Add \u0022In Fate Area\u0022 condition\r\n- Add \u0022Is Moving\u0022 condition\r\n- Add addon highlights\r\n  - Hovering an element will now display a green box around the ingame addon\r\n- Unify config ui\r\n- Add localization resx\r\n- Massive cleanup\r\n\r\nNote for PAC why i forked this:\r\n\u003Chttps://discord.com/channels/581875019861328007/653504487352303619/1331613649139400784\u003E",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "philpax"
+            },
+            "2.6.2.7": {
+              "TimeReleased": "2025-01-22T14:33:21.3045687+00:00",
+              "Changelog": "nofranz",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
