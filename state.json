@@ -27038,9 +27038,9 @@
           }
         },
         "TitleEdit": {
-          "BuiltCommit": "d489747b624d84d17d81f7c6857e914d132493d7",
-          "TimeBuilt": "2024-12-28T17:45:58.3338919+00:00",
-          "EffectiveVersion": "3.0.4.4",
+          "BuiltCommit": "a89494ad110eb5244fe437d876d3ee5277592ca1",
+          "TimeBuilt": "2025-01-22T15:44:57.3013716+00:00",
+          "EffectiveVersion": "3.0.4.5",
           "MinimumVersion": null,
           "Changelogs": {
             "2.3.0.0": {
@@ -27577,6 +27577,45 @@
             "3.0.4.4": {
               "TimeReleased": "2024-12-28T17:45:58.3339322+00:00",
               "Changelog": "- Fixed a race condition crash relating to a 3rd party plugin\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.Build.Tasks.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Common",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitHub",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitLab",
+                  "Version": "1.1.1"
+                }
+              ],
+              "Reviewer": "philpax"
+            },
+            "3.0.4.5": {
+              "TimeReleased": "2025-01-22T15:44:57.3014413+00:00",
+              "Changelog": "- Updated for patch 7.16\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
