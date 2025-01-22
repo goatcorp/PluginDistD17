@@ -31211,9 +31211,9 @@
           }
         },
         "SimpleTweaksPlugin": {
-          "BuiltCommit": "5681dacfc9c1f5b8c231bf46a53fc2d5def384e1",
-          "TimeBuilt": "2024-12-02T06:40:54.6821168+00:00",
-          "EffectiveVersion": "1.10.5.1",
+          "BuiltCommit": "3bba4db1c3e5cc6636922c3dac3aae7713d7294d",
+          "TimeBuilt": "2025-01-22T14:09:55.8860128+00:00",
+          "EffectiveVersion": "1.10.6.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.10.3.1": {
@@ -31335,6 +31335,21 @@
                 }
               ],
               "Reviewer": "reiichi001"
+            },
+            "1.10.6.0": {
+              "TimeReleased": "2025-01-22T14:09:55.8860778+00:00",
+              "Changelog": "***New Tweaks***\r\n- **\u0060Disable Novice Network Auto-Switch\u0060** - Disables automatically selecting novice network when logging in or transferring to another server.\r\n\r\n- **\u0060Ensure tooltips remain on screen\u0060** - Prevents tooltips from extending below the bottom of the screen. Useful when using tweaks that make the tooltips longer.\r\n\r\n- **\u0060Logos Tooltips\u0060** - Adds which kind of Logos Mnenes you can obtain from a Logogram in its tooltip. *(Khayle)*\r\n\r\n- **\u0060Special Character Input\u0060** - Adds a window for adding special characters to text inputs.\r\n\r\n\r\n***Tweak Changes***\r\n- **\u0060Item Level in Examine\u0060** - Tweak now uses item level provided by the game, improving accuracy.\r\n\r\n- **\u0060Screenshot Improvements\u0060** - Fixed \u0027Remove Copyright Text\u0027 option.\r\n\r\n- **\u0060Show Desynthesis Skill\u0060** - Fixed tweak not working on french clients.\r\n\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "System.Numerics.Vectors",
+                  "Version": "4.6.0"
+                }
+              ],
+              "Reviewer": "philpax"
             }
           }
         },
