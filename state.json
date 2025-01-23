@@ -70174,6 +70174,29 @@
               "Reviewer": "philpax"
             }
           }
+        },
+        "RezoPlugin": {
+          "BuiltCommit": "7de73385857121c3665cc6330a0ebd91b3a896ac",
+          "TimeBuilt": "2025-01-23T02:05:16.1017013+00:00",
+          "EffectiveVersion": "1.0.0.1",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "1.0.0.1": {
+              "TimeReleased": "2025-01-23T02:05:16.1017576+00:00",
+              "Changelog": "This plugin allows you to set your 3D Resolution Scaling to any value below 50%. Useful for when you\u0027re on a 4K screen but not so good of a graphics card.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.25"
+                }
+              ],
+              "Reviewer": "philpax"
+            }
+          }
         }
       }
     },
