@@ -54563,9 +54563,9 @@
           }
         },
         "CurrencySpender": {
-          "BuiltCommit": "8a05067f07f3a29d4eed7a35c0dd4edd3dbe0c37",
-          "TimeBuilt": "2025-01-09T16:00:09.34731+00:00",
-          "EffectiveVersion": "1.0.5.0",
+          "BuiltCommit": "9042081e7091f6624c3fa34c5067dec91f026a12",
+          "TimeBuilt": "2025-01-23T17:54:30.8603938+00:00",
+          "EffectiveVersion": "1.1.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.5.0": {
@@ -54575,6 +54575,29 @@
                 {
                   "Key": "https://github.com/NightmareXIV/ECommons.git",
                   "Version": "3673f3c1e2fa1d68f7ab4c04463fd376d5659e13"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.25"
+                },
+                {
+                  "Key": "JetBrains.Annotations",
+                  "Version": "2021.2.0"
+                }
+              ],
+              "Reviewer": "philpax"
+            },
+            "1.1.0.0": {
+              "TimeReleased": "2025-01-23T17:54:30.8604495+00:00",
+              "Changelog": "## 1.1.0\n### Added\n- A setting to filter out unwanted collectables.\n- A setting to filter out unwanted currencies.\n- A setting to display how many selected collectables are missing directly in the main window.\n- Sortable tables for all sections except ventures.\n- MGP, Crafters\u0027 Scrip, Gatherers\u0027 Scrip, and Skybuilders\u0027 Scrip were added to the currency list.\n- A configuration wizard to guide users through new settings.\n### Fixed \n- Veteran\u0027s Clan Mark Log and Mythic Clan Mark Log were missing as sub currency.\n- Grand Company seals were not correctly tracked in certain scenarios.\n### Changed\n- New and cleaner UI for the main window displaying the currencies.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/NightmareXIV/ECommons.git",
+                  "Version": "2c01433dba269cd7624b88e86cc8b74f904b34c7"
                 },
                 {
                   "Key": "DalamudPackager",
@@ -79572,6 +79595,13 @@
       "Version": "0.9.14",
       "ReviewedBy": "philpax",
       "ReviewedAt": "2025-01-23T17:49:11.2262099Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/NightmareXIV/ECommons.git",
+      "Version": "2c01433dba269cd7624b88e86cc8b74f904b34c7",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2025-01-23T17:54:30.8903104Z"
     }
   ]
 }
