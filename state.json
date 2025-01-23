@@ -70197,6 +70197,92 @@
               "Reviewer": "philpax"
             }
           }
+        },
+        "JobTitles": {
+          "BuiltCommit": "36306a7f5cbc0586165ac343c61213319a5d7db3",
+          "TimeBuilt": "2025-01-23T17:49:03.7124575+00:00",
+          "EffectiveVersion": "0.0.1.3",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "0.0.1.3": {
+              "TimeReleased": "2025-01-23T17:49:03.7125166+00:00",
+              "Changelog": "Initial Release",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Lumina",
+                  "Version": "5.6.1"
+                },
+                {
+                  "Key": "Lumina.Excel",
+                  "Version": "7.1.3"
+                },
+                {
+                  "Key": "Microsoft.Build.Tasks.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.ObjectPool",
+                  "Version": "8.0.7"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Common",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitHub",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitLab",
+                  "Version": "1.1.1"
+                }
+              ],
+              "Reviewer": "philpax"
+            }
+          }
+        },
+        "NowPlaying": {
+          "BuiltCommit": "02e4a6f08def3b39aa2b011b64f911326e9a2c5b",
+          "TimeBuilt": "2025-01-23T17:49:11.2034844+00:00",
+          "EffectiveVersion": "1.0.0.0",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "1.0.0.0": {
+              "TimeReleased": "2025-01-23T17:49:11.2034857+00:00",
+              "Changelog": "Initial version of NowPlaying. Supported (officially - haven\u0027t tested outside of Windows) on Windows only.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.25"
+                },
+                {
+                  "Key": "NPSMLib",
+                  "Version": "0.9.14"
+                }
+              ],
+              "Reviewer": "philpax"
+            }
+          }
         }
       }
     },
@@ -79472,6 +79558,20 @@
       "Version": "1.2.0",
       "ReviewedBy": "philpax",
       "ReviewedAt": "2025-01-19T16:54:33.4224718Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Lumina",
+      "Version": "5.6.1",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2025-01-23T17:49:03.7436822Z"
+    },
+    {
+      "Type": 1,
+      "Key": "NPSMLib",
+      "Version": "0.9.14",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2025-01-23T17:49:11.2262099Z"
     }
   ]
 }
