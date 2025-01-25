@@ -2,7 +2,7 @@
   "Author": "Sylf",
   "Name": "Monster Loot Hunter",
   "InternalName": "MonsterLootHunter",
-  "AssemblyVersion": "1.2.23.7",
+  "AssemblyVersion": "1.2.24.7",
   "Description": "Check where you can obtain a material from monsters, duties, crafting, gathering or where they can be bought from NPCs.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/danielbrenom/MonsterLootHunter",
@@ -19,7 +19,7 @@
   "CanUnloadAsync": false,
   "LoadPriority": 0,
   "Punchline": "Check where you can obtain materials.",
-  "Changelog": "- Updated to API 11",
+  "Changelog": "- Fixed issues with map button link\n- Fixed map territory data loading\n- Fixed gathering location parsing",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "stable"

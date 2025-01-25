@@ -46538,9 +46538,9 @@
           }
         },
         "MonsterLootHunter": {
-          "BuiltCommit": "6687817d6a3b24c0bae19eada37c51bc004510e2",
-          "TimeBuilt": "2024-12-06T18:15:45.5641484+00:00",
-          "EffectiveVersion": "1.2.23.7",
+          "BuiltCommit": "462d11511c62265f88670db25152befbe20fa5c9",
+          "TimeBuilt": "2025-01-25T03:29:55.6971692+00:00",
+          "EffectiveVersion": "1.2.24.7",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.4.0": {
@@ -46672,6 +46672,61 @@
             "1.2.23.7": {
               "TimeReleased": "2024-12-06T18:15:45.5641905+00:00",
               "Changelog": "- Dalamud API updated to 11\n ",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Fizzler.Systems.HtmlAgilityPack",
+                  "Version": "1.2.1"
+                },
+                {
+                  "Key": "HtmlAgilityPack",
+                  "Version": "1.11.54"
+                },
+                {
+                  "Key": "XivCommon",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "Fizzler",
+                  "Version": "1.2.0"
+                },
+                {
+                  "Key": "Microsoft.Build.Tasks.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Common",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitHub",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitLab",
+                  "Version": "1.1.1"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            },
+            "1.2.24.7": {
+              "TimeReleased": "2025-01-25T03:29:55.6972231+00:00",
+              "Changelog": "- Fixed issues with map button link\n- Fixed map territory data loading\n- Fixed gathering location parsing\n ",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -54951,9 +55006,9 @@
           }
         },
         "Altoholic": {
-          "BuiltCommit": "367bcd15c59eb1459bc37ac23c9e526f7f3d9cea",
-          "TimeBuilt": "2025-01-01T22:07:23.0648085+00:00",
-          "EffectiveVersion": "0.0.0.30",
+          "BuiltCommit": "61140c957cfdfcf39d429ea915bc508ec1907eab",
+          "TimeBuilt": "2025-01-25T03:30:11.7654852+00:00",
+          "EffectiveVersion": "0.0.0.31",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.0.1": {
@@ -55849,6 +55904,57 @@
                 }
               ],
               "Reviewer": "goaaats"
+            },
+            "0.0.0.31": {
+              "TimeReleased": "2025-01-25T03:30:11.7654868+00:00",
+              "Changelog": "Version 0.0.0.31: Add button to delete housing. Add autosave, autosave timer setting and chat message.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "Dapper",
+                  "Version": "2.1.35"
+                },
+                {
+                  "Key": "LiteDB",
+                  "Version": "5.0.21"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite",
+                  "Version": "9.0.1"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite.Core",
+                  "Version": "9.0.1"
+                },
+                {
+                  "Key": "SQLitePCLRaw.bundle_e_sqlite3",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.core",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.lib.e_sqlite3",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.provider.e_sqlite3",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "System.Buffers",
+                  "Version": "4.5.1"
+                },
+                {
+                  "Key": "System.Memory",
+                  "Version": "4.5.3"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
@@ -79602,6 +79708,20 @@
       "Version": "2c01433dba269cd7624b88e86cc8b74f904b34c7",
       "ReviewedBy": "philpax",
       "ReviewedAt": "2025-01-23T17:54:30.8903104Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Data.Sqlite",
+      "Version": "9.0.1",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2025-01-25T03:30:11.8050021Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Data.Sqlite.Core",
+      "Version": "9.0.1",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2025-01-25T03:30:11.8050758Z"
     }
   ]
 }
