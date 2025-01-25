@@ -3,9 +3,9 @@
     "stable": {
       "Plugins": {
         "Dalamud.RichPresence": {
-          "BuiltCommit": "503c1f56ddd42f89f0e4211d96d1ab5e0c272c49",
-          "TimeBuilt": "2024-12-02T19:09:32.0917999+00:00",
-          "EffectiveVersion": "2.0.6.4",
+          "BuiltCommit": "13b153ca1cbbc1cad20cea84d501f11be95af940",
+          "TimeBuilt": "2025-01-25T19:37:24.6857894+00:00",
+          "EffectiveVersion": "2.0.6.5",
           "MinimumVersion": null,
           "Changelogs": {
             "2.0.1.0": {
@@ -356,6 +356,69 @@
             "2.0.6.4": {
               "TimeReleased": "2024-12-02T19:09:32.09184+00:00",
               "Changelog": "nofranz\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "DiscordRichPresence",
+                  "Version": "1.2.1.24"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.Build.Tasks.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.NETCore.Platforms",
+                  "Version": "2.0.0"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Common",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitHub",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitLab",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.Win32.Registry",
+                  "Version": "4.5.0"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.1"
+                },
+                {
+                  "Key": "System.Security.AccessControl",
+                  "Version": "4.5.0"
+                },
+                {
+                  "Key": "System.Security.Principal.Windows",
+                  "Version": "4.5.0"
+                }
+              ],
+              "Reviewer": "philpax"
+            },
+            "2.0.6.5": {
+              "TimeReleased": "2025-01-25T19:37:24.685791+00:00",
+              "Changelog": "Bump WineRPCBridge version. (Thankyou @blooym)\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -44934,9 +44997,9 @@
           }
         },
         "WorkshopOptimizerPlugin": {
-          "BuiltCommit": "c8b20c92965ca827185a5423de56c41f50328cbe",
-          "TimeBuilt": "2024-11-23T01:16:48.216472+00:00",
-          "EffectiveVersion": "0.3.0.0",
+          "BuiltCommit": "3177568776d528502b7f38002c48d6478df70d54",
+          "TimeBuilt": "2025-01-25T19:37:17.2061869+00:00",
+          "EffectiveVersion": "0.3.0.1",
           "MinimumVersion": null,
           "Changelogs": {
             "0.2.5.0": {
@@ -45043,6 +45106,45 @@
                 }
               ],
               "Reviewer": "reiichi001"
+            },
+            "0.3.0.1": {
+              "TimeReleased": "2025-01-25T19:37:17.2062405+00:00",
+              "Changelog": "Update for 7.1/API11.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.Build.Tasks.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Common",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitHub",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitLab",
+                  "Version": "1.1.1"
+                }
+              ],
+              "Reviewer": "philpax"
             }
           }
         },
@@ -55006,9 +55108,9 @@
           }
         },
         "Altoholic": {
-          "BuiltCommit": "61140c957cfdfcf39d429ea915bc508ec1907eab",
-          "TimeBuilt": "2025-01-25T03:30:11.7654852+00:00",
-          "EffectiveVersion": "0.0.0.31",
+          "BuiltCommit": "792f6738f721325353f765f2d6d33fcc359a5c4f",
+          "TimeBuilt": "2025-01-25T19:37:39.8800109+00:00",
+          "EffectiveVersion": "0.0.0.32",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.0.1": {
@@ -55955,6 +56057,57 @@
                 }
               ],
               "Reviewer": "reiichi001"
+            },
+            "0.0.0.32": {
+              "TimeReleased": "2025-01-25T19:37:39.8800124+00:00",
+              "Changelog": "Version 0.0.0.32: Add DT master rolequest. Add chaotic raid. Fix setting language combo crash. Remove plugin word in plugin name",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "Dapper",
+                  "Version": "2.1.35"
+                },
+                {
+                  "Key": "LiteDB",
+                  "Version": "5.0.21"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite",
+                  "Version": "9.0.1"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite.Core",
+                  "Version": "9.0.1"
+                },
+                {
+                  "Key": "SQLitePCLRaw.bundle_e_sqlite3",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.core",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.lib.e_sqlite3",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.provider.e_sqlite3",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "System.Buffers",
+                  "Version": "4.5.1"
+                },
+                {
+                  "Key": "System.Memory",
+                  "Version": "4.5.3"
+                }
+              ],
+              "Reviewer": "philpax"
             }
           }
         },
