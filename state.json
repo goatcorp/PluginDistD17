@@ -4804,9 +4804,9 @@
           }
         },
         "Honorific": {
-          "BuiltCommit": "5e226953fb66d673ef508d3d4cca493925936b86",
-          "TimeBuilt": "2025-01-26T09:07:08.8214644+00:00",
-          "EffectiveVersion": "1.5.1.0",
+          "BuiltCommit": "fb88a7392cc02f9591704fb13fe394e5a1368bb7",
+          "TimeBuilt": "2025-01-26T14:44:51.974771+00:00",
+          "EffectiveVersion": "1.5.1.1",
           "MinimumVersion": null,
           "Changelogs": {
             "1.5.0.3": {
@@ -4823,6 +4823,17 @@
             "1.5.1.0": {
               "TimeReleased": "2025-01-26T09:07:08.8215534+00:00",
               "Changelog": "- Added colour previews in the character config window.\r\n  - Can be disabled in main plugin config.\r\n- Added location based condition.\r\n  - Housing zones can be further filtered by Ward, Plot and Room",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "philpax"
+            },
+            "1.5.1.1": {
+              "TimeReleased": "2025-01-26T14:44:51.9747718+00:00",
+              "Changelog": "- Added world restriction to location conditionals\r\n- Allow setting plot restriction to outdoor housing locations",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -46213,9 +46224,9 @@
           }
         },
         "NoSoliciting": {
-          "BuiltCommit": "62e4610cde147aff2ecaf4701668037dbc97570e",
-          "TimeBuilt": "2025-01-06T00:35:11.1738977+00:00",
-          "EffectiveVersion": "3.1.2.0",
+          "BuiltCommit": "5613fc2b9886b5a65696c97bc9b4193176c5e04b",
+          "TimeBuilt": "2025-01-26T14:44:44.6721058+00:00",
+          "EffectiveVersion": "3.1.4.0",
           "MinimumVersion": null,
           "Changelogs": {
             "3.0.3": {
@@ -46441,6 +46452,105 @@
                 }
               ],
               "Reviewer": "reiichi001"
+            },
+            "3.1.4.0": {
+              "TimeReleased": "2025-01-26T14:44:44.672163+00:00",
+              "Changelog": "Promoting testing to stable\r\nReporting feature has been restored, and also changed model manifest location from kal\u0027s setup to mine.",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/kalilistic/NoSoliciting.Interface.git",
+                  "Version": "b0029857a9eaee62aa8615be53030c3319c41f81"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "Fody",
+                  "Version": "6.8.0"
+                },
+                {
+                  "Key": "Microsoft.ML",
+                  "Version": "2.0.1"
+                },
+                {
+                  "Key": "Resourcer.Fody",
+                  "Version": "1.8.1"
+                },
+                {
+                  "Key": "YamlDotNet",
+                  "Version": "13.4.0"
+                },
+                {
+                  "Key": "Microsoft.ML.CpuMath",
+                  "Version": "2.0.1"
+                },
+                {
+                  "Key": "Microsoft.ML.DataView",
+                  "Version": "2.0.1"
+                },
+                {
+                  "Key": "Microsoft.NETCore.Platforms",
+                  "Version": "1.1.0"
+                },
+                {
+                  "Key": "Microsoft.NETCore.Targets",
+                  "Version": "1.1.0"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.1"
+                },
+                {
+                  "Key": "System.CodeDom",
+                  "Version": "4.5.0"
+                },
+                {
+                  "Key": "System.Collections.Immutable",
+                  "Version": "1.5.0"
+                },
+                {
+                  "Key": "System.IO",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Memory",
+                  "Version": "4.5.3"
+                },
+                {
+                  "Key": "System.Reflection",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Reflection.Emit.ILGeneration",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Reflection.Emit.Lightweight",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Reflection.Primitives",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Runtime",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Text.Encoding",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Threading.Channels",
+                  "Version": "4.7.1"
+                },
+                {
+                  "Key": "System.Threading.Tasks",
+                  "Version": "4.3.0"
+                }
+              ],
+              "Reviewer": "philpax"
             }
           }
         },
