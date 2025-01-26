@@ -15949,9 +15949,9 @@
           }
         },
         "TrackyTrack": {
-          "BuiltCommit": "52bcf324a7c896d5ec14a7dffedda05320ea021e",
-          "TimeBuilt": "2025-01-07T03:36:15.5525369+00:00",
-          "EffectiveVersion": "1.5.6.2",
+          "BuiltCommit": "c05f3e5cd7a09377274978e349bce62dbb4c7f5a",
+          "TimeBuilt": "2025-01-26T20:12:52.0254878+00:00",
+          "EffectiveVersion": "1.5.7.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.5.5.5": {
@@ -16314,6 +16314,57 @@
             "1.5.6.2": {
               "TimeReleased": "2025-01-07T03:36:15.5525753+00:00",
               "Changelog": "- Massively improve retainer task tracking\r\n  - This also fixes an issue that ventures would end up a different type\r\n- Implement Session tab\r\n  - Currently only supports eureka bunny coffers\r\n- Fix wrong indent in Stats",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/Ottermandias/OtterGui",
+                  "Version": "8ba88eff15326bb28ed5e6157f5252c114d40b5f"
+                },
+                {
+                  "Key": "https://github.com/Ottermandias/OtterGuiInternal.git",
+                  "Version": "8e144c54022bc7d30f993a8c496ad390764f884f"
+                },
+                {
+                  "Key": "CsvHelper",
+                  "Version": "33.0.1"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "MessagePack",
+                  "Version": "3.0.238-rc.1"
+                },
+                {
+                  "Key": "JetBrains.Annotations",
+                  "Version": "2024.2.0"
+                },
+                {
+                  "Key": "MessagePack.Annotations",
+                  "Version": "3.0.238-rc.1"
+                },
+                {
+                  "Key": "MessagePackAnalyzer",
+                  "Version": "3.0.238-rc.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.NET.StringTools",
+                  "Version": "17.11.4"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            },
+            "1.5.7.0": {
+              "TimeReleased": "2025-01-26T20:12:52.0254888+00:00",
+              "Changelog": "- Switch away from Supabase as upload receiver\r\n  - Uploads now go to a VPS fully managed by me",
               "UsedNeeds": [
                 {
                   "Key": "https://github.com/Ottermandias/OtterGui",
@@ -36801,9 +36852,9 @@
           }
         },
         "SubmarineTracker": {
-          "BuiltCommit": "3be779a2b0dd7f03fac0e9339bb023890001ea49",
-          "TimeBuilt": "2024-12-22T14:19:46.3546531+00:00",
-          "EffectiveVersion": "1.9.5.2",
+          "BuiltCommit": "d53fb53785f00851a9b537b366dbf24a32dc0a7a",
+          "TimeBuilt": "2025-01-26T20:12:35.639349+00:00",
+          "EffectiveVersion": "1.9.6.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.1.0.0": {
@@ -39007,6 +39058,65 @@
                 }
               ],
               "Reviewer": "philpax"
+            },
+            "1.9.6.0": {
+              "TimeReleased": "2025-01-26T20:12:35.6394237+00:00",
+              "Changelog": "- Switch away from Supabase as upload receiver\r\n  - Uploads now go to a VPS fully managed by me",
+              "UsedNeeds": [
+                {
+                  "Key": "CsvHelper",
+                  "Version": "33.0.1"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "MessagePack",
+                  "Version": "3.1.1"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "MessagePack.Annotations",
+                  "Version": "3.1.1"
+                },
+                {
+                  "Key": "MessagePackAnalyzer",
+                  "Version": "3.1.1"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite.Core",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "Microsoft.NET.StringTools",
+                  "Version": "17.11.4"
+                },
+                {
+                  "Key": "SQLitePCLRaw.bundle_e_sqlite3",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.core",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.lib.e_sqlite3",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.provider.e_sqlite3",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "System.Memory",
+                  "Version": "4.5.3"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
@@ -79996,6 +80106,27 @@
       "Version": "9.0.1",
       "ReviewedBy": "reiichi001",
       "ReviewedAt": "2025-01-25T03:30:11.8050758Z"
+    },
+    {
+      "Type": 1,
+      "Key": "MessagePack",
+      "Version": "3.1.1",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2025-01-26T20:12:35.6698376Z"
+    },
+    {
+      "Type": 1,
+      "Key": "MessagePack.Annotations",
+      "Version": "3.1.1",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2025-01-26T20:12:35.6698873Z"
+    },
+    {
+      "Type": 1,
+      "Key": "MessagePackAnalyzer",
+      "Version": "3.1.1",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2025-01-26T20:12:35.6698876Z"
     }
   ]
 }
