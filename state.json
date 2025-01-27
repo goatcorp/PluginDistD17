@@ -70771,14 +70771,33 @@
           }
         },
         "NowPlaying": {
-          "BuiltCommit": "02e4a6f08def3b39aa2b011b64f911326e9a2c5b",
-          "TimeBuilt": "2025-01-23T17:49:11.2034844+00:00",
-          "EffectiveVersion": "1.0.0.0",
+          "BuiltCommit": "fc3f576b4cff540555e733bc00a934330ac660e2",
+          "TimeBuilt": "2025-01-27T10:05:20.968274+00:00",
+          "EffectiveVersion": "1.1.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
               "TimeReleased": "2025-01-23T17:49:11.2034857+00:00",
               "Changelog": "Initial version of NowPlaying. Supported (officially - haven\u0027t tested outside of Windows) on Windows only.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.25"
+                },
+                {
+                  "Key": "NPSMLib",
+                  "Version": "0.9.14"
+                }
+              ],
+              "Reviewer": "philpax"
+            },
+            "1.1.0.0": {
+              "TimeReleased": "2025-01-27T10:05:20.9683496+00:00",
+              "Changelog": "Implement hiding status bar element on pause (new default), and add play and pause command (implemented from feedback requests). Rewrite command argument handler.",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
