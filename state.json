@@ -54951,9 +54951,9 @@
           }
         },
         "CurrencySpender": {
-          "BuiltCommit": "9042081e7091f6624c3fa34c5067dec91f026a12",
-          "TimeBuilt": "2025-01-23T17:54:30.8603938+00:00",
-          "EffectiveVersion": "1.1.0.0",
+          "BuiltCommit": "c9c6517417d1de0532568b47e394e2e16c81d13e",
+          "TimeBuilt": "2025-01-27T19:12:48.482053+00:00",
+          "EffectiveVersion": "1.1.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.5.0": {
@@ -55001,6 +55001,29 @@
                 }
               ],
               "Reviewer": "philpax"
+            },
+            "1.1.1.0": {
+              "TimeReleased": "2025-01-27T19:12:48.4821087+00:00",
+              "Changelog": "## 1.1.1\n### Added\n- Tooltip for Map and Teleport Buttons.\n### Fixed \n- Missing NPC data for Quinnana was added.\n- Default Scrip Exchange is now in Limsa Lower Decks.\n### Changed\n- Code Cleanup tasks.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/NightmareXIV/ECommons.git",
+                  "Version": "2c01433dba269cd7624b88e86cc8b74f904b34c7"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.25"
+                },
+                {
+                  "Key": "JetBrains.Annotations",
+                  "Version": "2021.2.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         }
