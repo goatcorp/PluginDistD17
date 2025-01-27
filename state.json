@@ -4804,9 +4804,9 @@
           }
         },
         "Honorific": {
-          "BuiltCommit": "fb88a7392cc02f9591704fb13fe394e5a1368bb7",
-          "TimeBuilt": "2025-01-26T14:44:51.974771+00:00",
-          "EffectiveVersion": "1.5.1.1",
+          "BuiltCommit": "2ee598182975e43cb9aaa958b5444e734f5ac5b4",
+          "TimeBuilt": "2025-01-27T19:19:12.0865966+00:00",
+          "EffectiveVersion": "1.5.1.2",
           "MinimumVersion": null,
           "Changelogs": {
             "1.5.0.3": {
@@ -4841,6 +4841,17 @@
                 }
               ],
               "Reviewer": "philpax"
+            },
+            "1.5.1.2": {
+              "TimeReleased": "2025-01-27T19:19:12.0866556+00:00",
+              "Changelog": "- Fixes coloured previews of titles in the config window drawing outside the window bounds.\r\n- Adds safeties to the \u0022import titles from clipboard\u0022 button.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
