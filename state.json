@@ -14103,9 +14103,9 @@
           }
         },
         "WaymarkPresetPlugin": {
-          "BuiltCommit": "cf698698a4570cd610b994c21ae15350c3914fb6",
-          "TimeBuilt": "2024-11-15T19:49:23.0341307+00:00",
-          "EffectiveVersion": "1.5.2.5",
+          "BuiltCommit": "96d40c2a52ed6f19c34c5dbc01b3b91afa24279a",
+          "TimeBuilt": "2025-01-28T13:06:04.912956+00:00",
+          "EffectiveVersion": "1.5.3.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.4.3.1": {
@@ -14178,6 +14178,17 @@
                 }
               ],
               "Reviewer": "reiichi001"
+            },
+            "1.5.3.0": {
+              "TimeReleased": "2025-01-28T13:06:04.912957+00:00",
+              "Changelog": "- Use dalamud window system\r\n- ImRaii everything\r\n- Switch to resx loc\r\n- Cleanup\r\n- Helper window got moved into the config window",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "philpax"
             }
           }
         },
@@ -55037,6 +55048,124 @@
               "Reviewer": "reiichi001"
             }
           }
+        },
+        "JobTitles": {
+          "BuiltCommit": "1eaf92200e9f859432b43c454ee67d8bfc037788",
+          "TimeBuilt": "2025-01-28T13:05:50.3545152+00:00",
+          "EffectiveVersion": "0.1.0.0",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "0.1.0.0": {
+              "TimeReleased": "2025-01-28T13:05:50.3545181+00:00",
+              "Changelog": "- Moved from Testing to Stable.\n- Added a new UI.\n- Added options for base classes, e.g. Marauder.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Lumina",
+                  "Version": "5.6.1"
+                },
+                {
+                  "Key": "Lumina.Excel",
+                  "Version": "7.1.3"
+                },
+                {
+                  "Key": "Microsoft.Build.Tasks.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.ObjectPool",
+                  "Version": "8.0.7"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Common",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitHub",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitLab",
+                  "Version": "1.1.1"
+                }
+              ],
+              "Reviewer": "philpax"
+            }
+          }
+        },
+        "SimpleMapTracker": {
+          "BuiltCommit": "8e1496fd78ef0c9cd29a8c1db1664489ebe46184",
+          "TimeBuilt": "2025-01-28T13:05:57.4676071+00:00",
+          "EffectiveVersion": "0.0.1.0",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "0.0.1.0": {
+              "TimeReleased": "2025-01-28T13:05:57.4676085+00:00",
+              "Changelog": "- Use dalamud window system\r\n- ImRaii everything\r\n- Switch to resx loc\r\n- Cleanup\r\n- Helper window got moved into the config window",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "GitInfo",
+                  "Version": "3.5.0"
+                },
+                {
+                  "Key": "Websocket.Client",
+                  "Version": "5.1.2"
+                },
+                {
+                  "Key": "Microsoft.CSharp",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.IO.RecyclableMemoryStream",
+                  "Version": "3.0.0"
+                },
+                {
+                  "Key": "System.Reactive",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "System.Threading.Channels",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "System.Threading.Tasks.Extensions",
+                  "Version": "4.5.4"
+                },
+                {
+                  "Key": "ThisAssembly.Constants",
+                  "Version": "2.0.6"
+                }
+              ],
+              "Reviewer": "philpax"
+            }
+          }
         }
       }
     },
@@ -70462,65 +70591,6 @@
             }
           }
         },
-        "SimpleMapTracker": {
-          "BuiltCommit": "8e1496fd78ef0c9cd29a8c1db1664489ebe46184",
-          "TimeBuilt": "2025-01-13T00:44:38.4893615+00:00",
-          "EffectiveVersion": "0.0.1.0",
-          "MinimumVersion": null,
-          "Changelogs": {
-            "0.0.1.0": {
-              "TimeReleased": "2025-01-13T00:44:38.4893679+00:00",
-              "Changelog": "\u0060Simple Map Tracker\u0060 is a simple (for real this time) plugin that keeps track of open treasure hunt maps within your current party.",
-              "UsedNeeds": [
-                {
-                  "Key": "DalamudPackager",
-                  "Version": "11.0.0"
-                },
-                {
-                  "Key": "GitInfo",
-                  "Version": "3.5.0"
-                },
-                {
-                  "Key": "Websocket.Client",
-                  "Version": "5.1.2"
-                },
-                {
-                  "Key": "Microsoft.CSharp",
-                  "Version": "4.7.0"
-                },
-                {
-                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
-                  "Version": "8.0.0"
-                },
-                {
-                  "Key": "Microsoft.Extensions.Logging.Abstractions",
-                  "Version": "8.0.0"
-                },
-                {
-                  "Key": "Microsoft.IO.RecyclableMemoryStream",
-                  "Version": "3.0.0"
-                },
-                {
-                  "Key": "System.Reactive",
-                  "Version": "6.0.0"
-                },
-                {
-                  "Key": "System.Threading.Channels",
-                  "Version": "8.0.0"
-                },
-                {
-                  "Key": "System.Threading.Tasks.Extensions",
-                  "Version": "4.5.4"
-                },
-                {
-                  "Key": "ThisAssembly.Constants",
-                  "Version": "2.0.6"
-                }
-              ],
-              "Reviewer": "goaaats"
-            }
-          }
-        },
         "Inspecto": {
           "BuiltCommit": "020427e1c768d9bdd0e882773d138a8d76dff573",
           "TimeBuilt": "2025-01-13T01:12:17.5184076+00:00",
@@ -70739,65 +70809,6 @@
                 {
                   "Key": "DotNet.ReproducibleBuilds",
                   "Version": "1.2.25"
-                }
-              ],
-              "Reviewer": "philpax"
-            }
-          }
-        },
-        "JobTitles": {
-          "BuiltCommit": "36306a7f5cbc0586165ac343c61213319a5d7db3",
-          "TimeBuilt": "2025-01-23T17:49:03.7124575+00:00",
-          "EffectiveVersion": "0.0.1.3",
-          "MinimumVersion": null,
-          "Changelogs": {
-            "0.0.1.3": {
-              "TimeReleased": "2025-01-23T17:49:03.7125166+00:00",
-              "Changelog": "Initial Release",
-              "UsedNeeds": [
-                {
-                  "Key": "DalamudPackager",
-                  "Version": "11.0.0"
-                },
-                {
-                  "Key": "DotNet.ReproducibleBuilds",
-                  "Version": "1.1.1"
-                },
-                {
-                  "Key": "Lumina",
-                  "Version": "5.6.1"
-                },
-                {
-                  "Key": "Lumina.Excel",
-                  "Version": "7.1.3"
-                },
-                {
-                  "Key": "Microsoft.Build.Tasks.Git",
-                  "Version": "1.1.1"
-                },
-                {
-                  "Key": "Microsoft.Extensions.ObjectPool",
-                  "Version": "8.0.7"
-                },
-                {
-                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
-                  "Version": "1.1.1"
-                },
-                {
-                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
-                  "Version": "1.1.1"
-                },
-                {
-                  "Key": "Microsoft.SourceLink.Common",
-                  "Version": "1.1.1"
-                },
-                {
-                  "Key": "Microsoft.SourceLink.GitHub",
-                  "Version": "1.1.1"
-                },
-                {
-                  "Key": "Microsoft.SourceLink.GitLab",
-                  "Version": "1.1.1"
                 }
               ],
               "Reviewer": "philpax"
