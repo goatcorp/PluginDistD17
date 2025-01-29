@@ -2,7 +2,7 @@
   "Author": "wompscode",
   "Name": "NowPlaying",
   "InternalName": "NowPlaying",
-  "AssemblyVersion": "1.1.0.0",
+  "AssemblyVersion": "1.2.0.0",
   "Description": "Play/pause/skip songs that are currently playing. Ideal for macro usage. (Windows only)",
   "ApplicableVersion": "any",
   "Tags": [
