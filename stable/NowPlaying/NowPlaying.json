@@ -2,8 +2,8 @@
   "Author": "wompscode",
   "Name": "NowPlaying",
   "InternalName": "NowPlaying",
-  "AssemblyVersion": "1.2.0.0",
-  "Description": "Play/pause/skip songs that are currently playing. Ideal for macro usage. (Windows only)",
+  "AssemblyVersion": "1.3.0.0",
+  "Description": "Display what is playing in your server bar, and play/pause/skip. Great with macros! (--> Windows only <--)",
   "ApplicableVersion": "any",
   "Tags": [
     "music",
@@ -15,8 +15,8 @@
   "LoadSync": false,
   "CanUnloadAsync": false,
   "LoadPriority": 0,
-  "Punchline": "Play/pause/skip songs that are currently playing. (Windows only)",
+  "Punchline": "Display what is playing in your server bar, and play/pause/skip. (Windows only)",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
-  "_Dip17Channel": "testing-live"
+  "_Dip17Channel": "stable"
 }

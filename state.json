@@ -55248,6 +55248,33 @@
               "Reviewer": "philpax"
             }
           }
+        },
+        "NowPlaying": {
+          "BuiltCommit": "308e82d0f1609cbcec031a1f25555c718fdcfdad",
+          "TimeBuilt": "2025-01-31T16:34:02.2113873+00:00",
+          "EffectiveVersion": "1.3.0.0",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "1.3.0.0": {
+              "TimeReleased": "2025-01-31T16:34:02.2113909+00:00",
+              "Changelog": "Alterations to how bar element hides based on song metadata. Cleanup to main class, and change description, etc. Move to stable.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.25"
+                },
+                {
+                  "Key": "NPSMLib",
+                  "Version": "0.9.14"
+                }
+              ],
+              "Reviewer": "philpax"
+            }
+          }
         }
       }
     },
@@ -70913,71 +70940,6 @@
                 }
               ],
               "Reviewer": "philpax"
-            }
-          }
-        },
-        "NowPlaying": {
-          "BuiltCommit": "078db9333483d494c565d78ed1bf16ab3440e215",
-          "TimeBuilt": "2025-01-29T19:26:58.4173862+00:00",
-          "EffectiveVersion": "1.2.0.0",
-          "MinimumVersion": null,
-          "Changelogs": {
-            "1.0.0.0": {
-              "TimeReleased": "2025-01-23T17:49:11.2034857+00:00",
-              "Changelog": "Initial version of NowPlaying. Supported (officially - haven\u0027t tested outside of Windows) on Windows only.",
-              "UsedNeeds": [
-                {
-                  "Key": "DalamudPackager",
-                  "Version": "11.0.0"
-                },
-                {
-                  "Key": "DotNet.ReproducibleBuilds",
-                  "Version": "1.2.25"
-                },
-                {
-                  "Key": "NPSMLib",
-                  "Version": "0.9.14"
-                }
-              ],
-              "Reviewer": "philpax"
-            },
-            "1.1.0.0": {
-              "TimeReleased": "2025-01-27T10:05:20.9683496+00:00",
-              "Changelog": "Implement hiding status bar element on pause (new default), and add play and pause command (implemented from feedback requests). Rewrite command argument handler.",
-              "UsedNeeds": [
-                {
-                  "Key": "DalamudPackager",
-                  "Version": "11.0.0"
-                },
-                {
-                  "Key": "DotNet.ReproducibleBuilds",
-                  "Version": "1.2.25"
-                },
-                {
-                  "Key": "NPSMLib",
-                  "Version": "0.9.14"
-                }
-              ],
-              "Reviewer": "philpax"
-            },
-            "1.2.0.0": {
-              "TimeReleased": "2025-01-29T19:26:58.4173874+00:00",
-              "Changelog": "Allow player session to be cycled. /nowplaying cycle or click the server bar element.\n\nCleanup and changes to how media controls are sent (send via SMTC so more than one player can be used at once, keep fallback of virtual key presses though). This definitely breaks any sort of Linux support that could\u0027ve been had (I don\u0027t know if WINE handles virtual keypresses either. I didn\u0027t get that far in testing.)",
-              "UsedNeeds": [
-                {
-                  "Key": "DalamudPackager",
-                  "Version": "11.0.0"
-                },
-                {
-                  "Key": "DotNet.ReproducibleBuilds",
-                  "Version": "1.2.25"
-                },
-                {
-                  "Key": "NPSMLib",
-                  "Version": "0.9.14"
-                }
-              ],
-              "Reviewer": "reiichi001"
             }
           }
         }
