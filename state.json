@@ -14103,9 +14103,9 @@
           }
         },
         "WaymarkPresetPlugin": {
-          "BuiltCommit": "96d40c2a52ed6f19c34c5dbc01b3b91afa24279a",
-          "TimeBuilt": "2025-01-28T13:06:04.912956+00:00",
-          "EffectiveVersion": "1.5.3.0",
+          "BuiltCommit": "cd4c8b761946b0c3bde07434745724214cf92ee1",
+          "TimeBuilt": "2025-01-31T18:11:33.7746388+00:00",
+          "EffectiveVersion": "1.5.3.1",
           "MinimumVersion": null,
           "Changelogs": {
             "1.4.3.1": {
@@ -14182,6 +14182,17 @@
             "1.5.3.0": {
               "TimeReleased": "2025-01-28T13:06:04.912957+00:00",
               "Changelog": "- Use dalamud window system\r\n- ImRaii everything\r\n- Switch to resx loc\r\n- Cleanup\r\n- Helper window got moved into the config window",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "philpax"
+            },
+            "1.5.3.1": {
+              "TimeReleased": "2025-01-31T18:11:33.7746938+00:00",
+              "Changelog": "- Fix window move if it was attached\r\n- Maybe fix endless width scale for info pane\r\n- Remove window which had no use",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
