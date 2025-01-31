@@ -14103,9 +14103,9 @@
           }
         },
         "WaymarkPresetPlugin": {
-          "BuiltCommit": "cd4c8b761946b0c3bde07434745724214cf92ee1",
-          "TimeBuilt": "2025-01-31T18:11:33.7746388+00:00",
-          "EffectiveVersion": "1.5.3.1",
+          "BuiltCommit": "cede55f5a38d17c8b47222044105df24c931fc64",
+          "TimeBuilt": "2025-01-31T23:17:13.2034533+00:00",
+          "EffectiveVersion": "1.5.3.2",
           "MinimumVersion": null,
           "Changelogs": {
             "1.4.3.1": {
@@ -14193,6 +14193,17 @@
             "1.5.3.1": {
               "TimeReleased": "2025-01-31T18:11:33.7746938+00:00",
               "Changelog": "- Fix window move if it was attached\r\n- Maybe fix endless width scale for info pane\r\n- Remove window which had no use",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "philpax"
+            },
+            "1.5.3.2": {
+              "TimeReleased": "2025-01-31T23:17:13.2034541+00:00",
+              "Changelog": "- Fix endless width scale with non-default font size",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -14971,9 +14982,9 @@
           }
         },
         "Wholist": {
-          "BuiltCommit": "f29c12a1d49f1262a6c698b5c66fd13b54924e97",
-          "TimeBuilt": "2024-12-15T06:55:58.1319268+00:00",
-          "EffectiveVersion": "1.8.1.0",
+          "BuiltCommit": "60a18e70a4ed6fccc33617185f5a1b5b62b6c4b5",
+          "TimeBuilt": "2025-01-31T23:17:06.9899197+00:00",
+          "EffectiveVersion": "1.8.2.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -15281,6 +15292,53 @@
                 }
               ],
               "Reviewer": "reiichi001"
+            },
+            "1.8.2.0": {
+              "TimeReleased": "2025-01-31T23:17:06.9899738+00:00",
+              "Changelog": "- Added the ability to disable the filtering of players under level 3 (not recommended as this hides most bots)\r\n- Updated translations\r\n- Removed the ability to disable window moving and resizing as this has become a base Dalamud feature (click the three lines on the nearby players window!)",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/Blooym/Sirensong.git",
+                  "Version": "4f5c022082172cea7177b4fb49b0e808330539bf"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "BitFaster.Caching",
+                  "Version": "2.4.1"
+                },
+                {
+                  "Key": "Microsoft.Build.Tasks.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Common",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitHub",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitLab",
+                  "Version": "1.1.1"
+                }
+              ],
+              "Reviewer": "philpax"
             }
           }
         },
