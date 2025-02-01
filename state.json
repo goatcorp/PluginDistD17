@@ -55275,14 +55275,65 @@
           }
         },
         "SimpleMapTracker": {
-          "BuiltCommit": "8e1496fd78ef0c9cd29a8c1db1664489ebe46184",
-          "TimeBuilt": "2025-01-28T13:05:57.4676071+00:00",
-          "EffectiveVersion": "0.0.1.0",
+          "BuiltCommit": "bdbe25ff614fcd8bcb044fdaa3a0cd46c58f403f",
+          "TimeBuilt": "2025-02-01T01:09:15.7336353+00:00",
+          "EffectiveVersion": "1.0.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.1.0": {
               "TimeReleased": "2025-01-28T13:05:57.4676085+00:00",
               "Changelog": "- Use dalamud window system\r\n- ImRaii everything\r\n- Switch to resx loc\r\n- Cleanup\r\n- Helper window got moved into the config window",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "GitInfo",
+                  "Version": "3.5.0"
+                },
+                {
+                  "Key": "Websocket.Client",
+                  "Version": "5.1.2"
+                },
+                {
+                  "Key": "Microsoft.CSharp",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.IO.RecyclableMemoryStream",
+                  "Version": "3.0.0"
+                },
+                {
+                  "Key": "System.Reactive",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "System.Threading.Channels",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "System.Threading.Tasks.Extensions",
+                  "Version": "4.5.4"
+                },
+                {
+                  "Key": "ThisAssembly.Constants",
+                  "Version": "2.0.6"
+                }
+              ],
+              "Reviewer": "philpax"
+            },
+            "1.0.1.0": {
+              "TimeReleased": "2025-02-01T01:09:15.7336965+00:00",
+              "Changelog": "Fix issue with 2% of maps not correctly reporting.",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
