@@ -72258,6 +72258,53 @@
               "Reviewer": "philpax"
             }
           }
+        },
+        "RazerReader": {
+          "BuiltCommit": "270e3731e9a51aa79d48e2d022c67270e449813e",
+          "TimeBuilt": "2025-02-04T00:58:38.0035009+00:00",
+          "EffectiveVersion": "0.1.0.1",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "0.1.0.1": {
+              "TimeReleased": "2025-02-04T00:58:38.0035584+00:00",
+              "Changelog": "Initial plugin release",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.Build.Tasks.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Common",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitHub",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitLab",
+                  "Version": "1.1.1"
+                }
+              ],
+              "Reviewer": "philpax"
+            }
+          }
         }
       }
     },
