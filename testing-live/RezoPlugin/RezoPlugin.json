@@ -2,8 +2,8 @@
   "Author": "Azure Gem",
   "Name": "Rezo Scale Plugin",
   "InternalName": "RezoPlugin",
-  "AssemblyVersion": "1.0.0.1",
-  "Description": "Ever wanted to render at lower resolution? Now you can!",
+  "AssemblyVersion": "1.1.0.1",
+  "Description": "Ever wanted to render at lower resolution? Now you can!\nOnly works with AMD FSR graphics upscaler",
   "ApplicableVersion": "any",
   "Tags": [
     "graphics",
