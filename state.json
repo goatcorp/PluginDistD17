@@ -47368,9 +47368,9 @@
           }
         },
         "NoSoliciting": {
-          "BuiltCommit": "5613fc2b9886b5a65696c97bc9b4193176c5e04b",
-          "TimeBuilt": "2025-01-26T14:44:44.6721058+00:00",
-          "EffectiveVersion": "3.1.4.0",
+          "BuiltCommit": "875b43f42cfed3d074a3e1a55c9e5f694942ed55",
+          "TimeBuilt": "2025-02-05T18:04:38.5768923+00:00",
+          "EffectiveVersion": "3.1.5.0",
           "MinimumVersion": null,
           "Changelogs": {
             "3.0.3": {
@@ -47600,6 +47600,105 @@
             "3.1.4.0": {
               "TimeReleased": "2025-01-26T14:44:44.672163+00:00",
               "Changelog": "Promoting testing to stable\r\nReporting feature has been restored, and also changed model manifest location from kal\u0027s setup to mine.",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/kalilistic/NoSoliciting.Interface.git",
+                  "Version": "b0029857a9eaee62aa8615be53030c3319c41f81"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "Fody",
+                  "Version": "6.8.0"
+                },
+                {
+                  "Key": "Microsoft.ML",
+                  "Version": "2.0.1"
+                },
+                {
+                  "Key": "Resourcer.Fody",
+                  "Version": "1.8.1"
+                },
+                {
+                  "Key": "YamlDotNet",
+                  "Version": "13.4.0"
+                },
+                {
+                  "Key": "Microsoft.ML.CpuMath",
+                  "Version": "2.0.1"
+                },
+                {
+                  "Key": "Microsoft.ML.DataView",
+                  "Version": "2.0.1"
+                },
+                {
+                  "Key": "Microsoft.NETCore.Platforms",
+                  "Version": "1.1.0"
+                },
+                {
+                  "Key": "Microsoft.NETCore.Targets",
+                  "Version": "1.1.0"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.1"
+                },
+                {
+                  "Key": "System.CodeDom",
+                  "Version": "4.5.0"
+                },
+                {
+                  "Key": "System.Collections.Immutable",
+                  "Version": "1.5.0"
+                },
+                {
+                  "Key": "System.IO",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Memory",
+                  "Version": "4.5.3"
+                },
+                {
+                  "Key": "System.Reflection",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Reflection.Emit.ILGeneration",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Reflection.Emit.Lightweight",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Reflection.Primitives",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Runtime",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Text.Encoding",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Threading.Channels",
+                  "Version": "4.7.1"
+                },
+                {
+                  "Key": "System.Threading.Tasks",
+                  "Version": "4.3.0"
+                }
+              ],
+              "Reviewer": "philpax"
+            },
+            "3.1.5.0": {
+              "TimeReleased": "2025-02-05T18:04:38.5769761+00:00",
+              "Changelog": "Change a type in message report to make it easier to deal with in the backend",
               "UsedNeeds": [
                 {
                   "Key": "https://github.com/kalilistic/NoSoliciting.Interface.git",
