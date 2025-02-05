@@ -15084,9 +15084,9 @@
           }
         },
         "MacroRecorded": {
-          "BuiltCommit": "1a2b90909b1ea5ea0ac1a32dc26b4c048075d436",
-          "TimeBuilt": "2024-07-03T01:51:30.064",
-          "EffectiveVersion": "1.0.3.2",
+          "BuiltCommit": "7448fe4dd62d72e9df49b4dfc124c5236b9da751",
+          "TimeBuilt": "2025-02-05T23:35:00.8694919+00:00",
+          "EffectiveVersion": "1.0.4.2",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.2": {
@@ -15112,6 +15112,45 @@
               "Changelog": "- Updated to 7.0\n ",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "1.0.4.2": {
+              "TimeReleased": "2025-02-05T23:35:00.8695484+00:00",
+              "Changelog": "- Updated plugin\n ",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.Build.Tasks.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Common",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitHub",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitLab",
+                  "Version": "1.1.1"
+                }
+              ],
+              "Reviewer": "philpax"
             }
           }
         },
