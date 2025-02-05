@@ -37827,9 +37827,9 @@
           }
         },
         "SubmarineTracker": {
-          "BuiltCommit": "d53fb53785f00851a9b537b366dbf24a32dc0a7a",
-          "TimeBuilt": "2025-01-26T20:12:35.639349+00:00",
-          "EffectiveVersion": "1.9.6.0",
+          "BuiltCommit": "9ffb01bf5a4e066267055030f8015e885efb9ec3",
+          "TimeBuilt": "2025-02-05T17:59:09.9628667+00:00",
+          "EffectiveVersion": "1.9.7.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.1.0.0": {
@@ -40092,6 +40092,65 @@
                 }
               ],
               "Reviewer": "reiichi001"
+            },
+            "1.9.7.0": {
+              "TimeReleased": "2025-02-05T17:59:09.9629383+00:00",
+              "Changelog": "- Implement offline return notification [default false]\r\n  - Please read all content of the \u0022Offline Mode Explanation\u0022 header\r\n- Added the backend golang program that is processing return notifications",
+              "UsedNeeds": [
+                {
+                  "Key": "CsvHelper",
+                  "Version": "33.0.1"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "MessagePack",
+                  "Version": "3.1.1"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "MessagePack.Annotations",
+                  "Version": "3.1.1"
+                },
+                {
+                  "Key": "MessagePackAnalyzer",
+                  "Version": "3.1.1"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite.Core",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "Microsoft.NET.StringTools",
+                  "Version": "17.11.4"
+                },
+                {
+                  "Key": "SQLitePCLRaw.bundle_e_sqlite3",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.core",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.lib.e_sqlite3",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.provider.e_sqlite3",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "System.Memory",
+                  "Version": "4.5.3"
+                }
+              ],
+              "Reviewer": "philpax"
             }
           }
         },
