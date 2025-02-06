@@ -37866,9 +37866,9 @@
           }
         },
         "SubmarineTracker": {
-          "BuiltCommit": "9ffb01bf5a4e066267055030f8015e885efb9ec3",
-          "TimeBuilt": "2025-02-05T17:59:09.9628667+00:00",
-          "EffectiveVersion": "1.9.7.0",
+          "BuiltCommit": "05f0f389e3ca64b2290adb8f465bd4e2376f9eb9",
+          "TimeBuilt": "2025-02-06T19:30:06.5527066+00:00",
+          "EffectiveVersion": "1.9.7.2",
           "MinimumVersion": null,
           "Changelogs": {
             "1.1.0.0": {
@@ -40135,6 +40135,65 @@
             "1.9.7.0": {
               "TimeReleased": "2025-02-05T17:59:09.9629383+00:00",
               "Changelog": "- Implement offline return notification [default false]\r\n  - Please read all content of the \u0022Offline Mode Explanation\u0022 header\r\n- Added the backend golang program that is processing return notifications",
+              "UsedNeeds": [
+                {
+                  "Key": "CsvHelper",
+                  "Version": "33.0.1"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "MessagePack",
+                  "Version": "3.1.1"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "MessagePack.Annotations",
+                  "Version": "3.1.1"
+                },
+                {
+                  "Key": "MessagePackAnalyzer",
+                  "Version": "3.1.1"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite.Core",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "Microsoft.NET.StringTools",
+                  "Version": "17.11.4"
+                },
+                {
+                  "Key": "SQLitePCLRaw.bundle_e_sqlite3",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.core",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.lib.e_sqlite3",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.provider.e_sqlite3",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "System.Memory",
+                  "Version": "4.5.3"
+                }
+              ],
+              "Reviewer": "philpax"
+            },
+            "1.9.7.2": {
+              "TimeReleased": "2025-02-06T19:30:06.5527747+00:00",
+              "Changelog": "- Prevent error on load if migration already happened\r\n  - This should only happen if user had some form of corruption ...\r\n- Fix submarine list gettig cut-off if window is too small\r\n- Add role mentions to offline mode notification",
               "UsedNeeds": [
                 {
                   "Key": "CsvHelper",
