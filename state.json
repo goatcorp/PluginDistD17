@@ -56712,14 +56712,33 @@
           }
         },
         "NowPlaying": {
-          "BuiltCommit": "308e82d0f1609cbcec031a1f25555c718fdcfdad",
-          "TimeBuilt": "2025-01-31T16:34:02.2113873+00:00",
-          "EffectiveVersion": "1.3.0.0",
+          "BuiltCommit": "0d4ac238db59fea511f0103904b9d6093a42f55c",
+          "TimeBuilt": "2025-02-06T01:54:03.5454714+00:00",
+          "EffectiveVersion": "1.3.0.1",
           "MinimumVersion": null,
           "Changelogs": {
             "1.3.0.0": {
               "TimeReleased": "2025-01-31T16:34:02.2113909+00:00",
               "Changelog": "Alterations to how bar element hides based on song metadata. Cleanup to main class, and change description, etc. Move to stable.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.25"
+                },
+                {
+                  "Key": "NPSMLib",
+                  "Version": "0.9.14"
+                }
+              ],
+              "Reviewer": "philpax"
+            },
+            "1.3.0.1": {
+              "TimeReleased": "2025-02-06T01:54:03.5455328+00:00",
+              "Changelog": "Bandaid fix to temporary occasional bug.",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
