@@ -2,9 +2,10 @@
   "Author": "Due",
   "Name": "ContactsTracker",
   "InternalName": "ContactsTracker",
-  "AssemblyVersion": "0.3.0.0",
-  "Description": "Record Duty and Party Member.\nRemember to check Settings Tab.\nUse the Settings button to enter analyze window.",
+  "AssemblyVersion": "0.3.0.1",
+  "Description": "Remember to change setting according to your need.\nUse the Settings button to enter analyze window.",
   "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/DueDine/ContactsTracker",
   "Tags": [
     "plugin",
     "track",
@@ -16,7 +17,7 @@
   "LoadSync": false,
   "CanUnloadAsync": false,
   "LoadPriority": 0,
-  "Punchline": "Help you Record Duty Completeion.",
+  "Punchline": "Help you record duty and who you met.",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "testing-live"

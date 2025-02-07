@@ -72343,9 +72343,9 @@
           }
         },
         "ContactsTracker": {
-          "BuiltCommit": "9fca7a2c8c66f7b69171db4c310cc45ab7457e59",
-          "TimeBuilt": "2025-01-29T19:27:05.2280627+00:00",
-          "EffectiveVersion": "0.3.0.0",
+          "BuiltCommit": "fe003bddab0a4cd38e249a2cb0b94c26037ee121",
+          "TimeBuilt": "2025-02-07T20:09:57.0984854+00:00",
+          "EffectiveVersion": "0.3.0.1",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.0.1": {
@@ -72461,6 +72461,25 @@
                 }
               ],
               "Reviewer": "reiichi001"
+            },
+            "0.3.0.1": {
+              "TimeReleased": "2025-02-07T20:09:57.0985754+00:00",
+              "Changelog": "[0.3.0.1]\r\n- Fix error when handle in-progress entry\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "CsvHelper",
+                  "Version": "33.0.1"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.25"
+                }
+              ],
+              "Reviewer": "philpax"
             }
           }
         },
