@@ -56667,9 +56667,9 @@
           }
         },
         "CurrencySpender": {
-          "BuiltCommit": "c9c6517417d1de0532568b47e394e2e16c81d13e",
-          "TimeBuilt": "2025-01-27T19:12:48.482053+00:00",
-          "EffectiveVersion": "1.1.1.0",
+          "BuiltCommit": "3bc285bf5e4297aa67e2d9b2cc4090ed8b8dd972",
+          "TimeBuilt": "2025-02-08T20:25:42.245991+00:00",
+          "EffectiveVersion": "1.1.2.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.5.0": {
@@ -56740,6 +56740,29 @@
                 }
               ],
               "Reviewer": "reiichi001"
+            },
+            "1.1.2.0": {
+              "TimeReleased": "2025-02-08T20:25:42.2460445+00:00",
+              "Changelog": "## 1.1.2\n### Added\n- A setting to toggle the display of sellable items on the marketboard.\n- Material coffers and Triple Triad card packs added to collectables.\n- Island cowries were added to the currencies.\n- The Mahjong vendor, and therefore a new collectable type, was added.\n- Added a context menu for items, allowing users to either link or copy the item name.\n### Fixed \n- Unlock status of items should now be correctly reflected.\n### Changed\n- Adjustments to the Grand Company rankings to address issues with item display.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/NightmareXIV/ECommons.git",
+                  "Version": "2c01433dba269cd7624b88e86cc8b74f904b34c7"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.25"
+                },
+                {
+                  "Key": "JetBrains.Annotations",
+                  "Version": "2021.2.0"
+                }
+              ],
+              "Reviewer": "karashiiro"
             }
           }
         },
