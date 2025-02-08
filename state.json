@@ -55125,9 +55125,9 @@
           }
         },
         "VenueManager": {
-          "BuiltCommit": "3db213e9a26d631198fdf955735a77140d90d1c4",
-          "TimeBuilt": "2024-12-17T20:00:27.9715324+00:00",
-          "EffectiveVersion": "2.5.0",
+          "BuiltCommit": "22454057c578a3736deccc8160d7afce35ff0c74",
+          "TimeBuilt": "2025-02-08T15:56:44.9744388+00:00",
+          "EffectiveVersion": "2.5.1",
           "MinimumVersion": null,
           "Changelogs": {
             "2.3.4": {
@@ -55285,6 +55285,45 @@
                 }
               ],
               "Reviewer": "reiichi001"
+            },
+            "2.5.1": {
+              "TimeReleased": "2025-02-08T15:56:44.9745014+00:00",
+              "Changelog": "\r\n- Fixed district detection to be more accurate with new house interior features\r\n\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "JsonPoke.MSBuild",
+                  "Version": "1.0.9"
+                },
+                {
+                  "Key": "NAudio",
+                  "Version": "1.10.0"
+                },
+                {
+                  "Key": "Microsoft.NETCore.Platforms",
+                  "Version": "3.1.0"
+                },
+                {
+                  "Key": "Microsoft.Win32.Registry",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "System.Resources.Extensions",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "System.Security.AccessControl",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "System.Security.Principal.Windows",
+                  "Version": "4.7.0"
+                }
+              ],
+              "Reviewer": "philpax"
             }
           }
         },
