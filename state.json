@@ -38630,9 +38630,9 @@
           }
         },
         "SubmarineTracker": {
-          "BuiltCommit": "5a9bdd7e403f98193ee6d7bf7fff25824b7b2551",
-          "TimeBuilt": "2025-02-06T19:43:16.8423535+00:00",
-          "EffectiveVersion": "1.9.7.3",
+          "BuiltCommit": "cb358790c36b6166310c32417b5178567c2bfa51",
+          "TimeBuilt": "2025-02-09T20:01:57.6474856+00:00",
+          "EffectiveVersion": "1.9.8.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.1.0.0": {
@@ -41017,6 +41017,65 @@
             "1.9.7.3": {
               "TimeReleased": "2025-02-06T19:43:16.8424086+00:00",
               "Changelog": "- Allow custom webhook urls, if offline mode is disabled",
+              "UsedNeeds": [
+                {
+                  "Key": "CsvHelper",
+                  "Version": "33.0.1"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "MessagePack",
+                  "Version": "3.1.1"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "MessagePack.Annotations",
+                  "Version": "3.1.1"
+                },
+                {
+                  "Key": "MessagePackAnalyzer",
+                  "Version": "3.1.1"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite.Core",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "Microsoft.NET.StringTools",
+                  "Version": "17.11.4"
+                },
+                {
+                  "Key": "SQLitePCLRaw.bundle_e_sqlite3",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.core",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.lib.e_sqlite3",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.provider.e_sqlite3",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "System.Memory",
+                  "Version": "4.5.3"
+                }
+              ],
+              "Reviewer": "philpax"
+            },
+            "1.9.8.0": {
+              "TimeReleased": "2025-02-09T20:01:57.6475734+00:00",
+              "Changelog": "**New**\r\n- Show storage message on login [default false]\r\n\r\n**Fix**\r\n- Offline mode not triggering if dispatch disabled\r\n\r\n**Misc**\r\n- ImRaii everything\r\n- Switch to resx loc\r\n- Improvements to overlays\r\n- Small performance improvements\r\n- Massive cleanup",
               "UsedNeeds": [
                 {
                   "Key": "CsvHelper",
