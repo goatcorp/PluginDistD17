@@ -3,9 +3,9 @@
     "stable": {
       "Plugins": {
         "Dalamud.RichPresence": {
-          "BuiltCommit": "13b153ca1cbbc1cad20cea84d501f11be95af940",
-          "TimeBuilt": "2025-01-25T19:37:24.6857894+00:00",
-          "EffectiveVersion": "2.0.6.5",
+          "BuiltCommit": "490e4ec708142a2d8d1bc9910e9146efe07648ca",
+          "TimeBuilt": "2025-02-09T23:39:45.7487965+00:00",
+          "EffectiveVersion": "2.0.6.6",
           "MinimumVersion": null,
           "Changelogs": {
             "2.0.1.0": {
@@ -419,6 +419,69 @@
             "2.0.6.5": {
               "TimeReleased": "2025-01-25T19:37:24.685791+00:00",
               "Changelog": "Bump WineRPCBridge version. (Thankyou @blooym)\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "DiscordRichPresence",
+                  "Version": "1.2.1.24"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.Build.Tasks.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.NETCore.Platforms",
+                  "Version": "2.0.0"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Common",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitHub",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitLab",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.Win32.Registry",
+                  "Version": "4.5.0"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.1"
+                },
+                {
+                  "Key": "System.Security.AccessControl",
+                  "Version": "4.5.0"
+                },
+                {
+                  "Key": "System.Security.Principal.Windows",
+                  "Version": "4.5.0"
+                }
+              ],
+              "Reviewer": "philpax"
+            },
+            "2.0.6.6": {
+              "TimeReleased": "2025-02-09T23:39:45.7488526+00:00",
+              "Changelog": "Replace WineRPCBridge with a version that doesn\u0027t get flagged as a false positive by Windows AVs. (Windows users will never run this file btw. It\u0027s only for Linux users.)\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
