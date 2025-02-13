@@ -33736,9 +33736,9 @@
           }
         },
         "SimpleTweaksPlugin": {
-          "BuiltCommit": "c85d8519766ada403f93f451e8d47d8cd5e3ed5d",
-          "TimeBuilt": "2025-02-01T00:12:26.9742562+00:00",
-          "EffectiveVersion": "1.10.7.0",
+          "BuiltCommit": "47c41c9adaee12b77e34fda3d0d32adaeb7e64e2",
+          "TimeBuilt": "2025-02-13T19:12:11.4023987+00:00",
+          "EffectiveVersion": "1.10.8.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.10.3.1": {
@@ -33890,6 +33890,21 @@
                 }
               ],
               "Reviewer": "philpax"
+            },
+            "1.10.8.0": {
+              "TimeReleased": "2025-02-13T19:12:11.402453+00:00",
+              "Changelog": "***New Tweaks***\r\n- **\u0060Display EXP Gain Percentage of Level\u0060** - Adds the percentage of your next level to exp gains in chat. *(zajrik)*\r\n\r\n- **\u0060Grow Buff List Vertically\u0060** - Allows you to change the buff/debuff vertical justification, enabling the list to grow from bottom to top. *(LINKAD0)*\r\n\r\n- **\u0060Talk Adjustments\u0060** - Allows further customisation to the Talk addon. *(croizat)*\r\n\r\n- **\u0060Track Outfits\u0060** - Shows whether or not you\u0027ve made an outfit out of the hovered item. *(croizat)*\r\n\r\n\r\n***Tweak Changes***\r\n- **\u0060Improved Blue Mage Action Tooltips\u0060** - Fixed tweak incorrectly applying to some pseudo-actions.\r\n\r\n- **\u0060Scenario Progression Display\u0060** - Once again fixed logic.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "System.Numerics.Vectors",
+                  "Version": "4.6.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
