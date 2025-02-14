@@ -1340,9 +1340,9 @@
           }
         },
         "PlayerTrack": {
-          "BuiltCommit": "fa2f27d74225452e68562fb6c0c489aaf257f70c",
-          "TimeBuilt": "2025-02-12T16:57:56.6577246+00:00",
-          "EffectiveVersion": "3.5.0.1",
+          "BuiltCommit": "a1d4748abf0a33d71e156e0d380382b613b7a4f4",
+          "TimeBuilt": "2025-02-14T19:18:12.1170196+00:00",
+          "EffectiveVersion": "3.5.0.2",
           "MinimumVersion": null,
           "Changelogs": {
             "3.4.9.0": {
@@ -2201,6 +2201,273 @@
                 }
               ],
               "Reviewer": "philpax"
+            },
+            "3.5.0.2": {
+              "TimeReleased": "2025-02-14T19:18:12.1170209+00:00",
+              "Changelog": "- Fix issues around the newly added cache cooldown\r\n- Fix error that could happen if tags changed",
+              "UsedNeeds": [
+                {
+                  "Key": "AutoMapper",
+                  "Version": "12.0.1"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "Dapper",
+                  "Version": "2.0.123"
+                },
+                {
+                  "Key": "Dapper.Contrib",
+                  "Version": "2.0.78"
+                },
+                {
+                  "Key": "FlexConfig",
+                  "Version": "1.0.0"
+                },
+                {
+                  "Key": "FluentDapperLite",
+                  "Version": "0.0.7"
+                },
+                {
+                  "Key": "FluentMigrator",
+                  "Version": "3.3.2"
+                },
+                {
+                  "Key": "FluentMigrator.Abstractions",
+                  "Version": "3.3.2"
+                },
+                {
+                  "Key": "FluentMigrator.Runner",
+                  "Version": "3.3.2"
+                },
+                {
+                  "Key": "NetStone",
+                  "Version": "1.2.0"
+                },
+                {
+                  "Key": "System.Data.SQLite.Core",
+                  "Version": "1.0.117"
+                },
+                {
+                  "Key": "FluentMigrator.Extensions.Oracle",
+                  "Version": "3.3.2"
+                },
+                {
+                  "Key": "FluentMigrator.Extensions.Postgres",
+                  "Version": "3.3.2"
+                },
+                {
+                  "Key": "FluentMigrator.Extensions.SqlAnywhere",
+                  "Version": "3.3.2"
+                },
+                {
+                  "Key": "FluentMigrator.Extensions.SqlServer",
+                  "Version": "3.3.2"
+                },
+                {
+                  "Key": "FluentMigrator.Runner.Core",
+                  "Version": "3.3.2"
+                },
+                {
+                  "Key": "FluentMigrator.Runner.Db2",
+                  "Version": "3.3.2"
+                },
+                {
+                  "Key": "FluentMigrator.Runner.Firebird",
+                  "Version": "3.3.2"
+                },
+                {
+                  "Key": "FluentMigrator.Runner.Hana",
+                  "Version": "3.3.2"
+                },
+                {
+                  "Key": "FluentMigrator.Runner.MySql",
+                  "Version": "3.3.2"
+                },
+                {
+                  "Key": "FluentMigrator.Runner.Oracle",
+                  "Version": "3.3.2"
+                },
+                {
+                  "Key": "FluentMigrator.Runner.Postgres",
+                  "Version": "3.3.2"
+                },
+                {
+                  "Key": "FluentMigrator.Runner.Redshift",
+                  "Version": "3.3.2"
+                },
+                {
+                  "Key": "FluentMigrator.Runner.SqlAnywhere",
+                  "Version": "3.3.2"
+                },
+                {
+                  "Key": "FluentMigrator.Runner.SQLite",
+                  "Version": "3.3.2"
+                },
+                {
+                  "Key": "FluentMigrator.Runner.SqlServer",
+                  "Version": "3.3.2"
+                },
+                {
+                  "Key": "FluentMigrator.Runner.SqlServerCe",
+                  "Version": "3.3.2"
+                },
+                {
+                  "Key": "HtmlAgilityPack",
+                  "Version": "1.11.46"
+                },
+                {
+                  "Key": "Karashiiro.HtmlAgilityPack.CssSelectors.NetCoreFork",
+                  "Version": "0.0.2"
+                },
+                {
+                  "Key": "Microsoft.CSharp",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "Microsoft.Data.SqlClient",
+                  "Version": "2.1.2"
+                },
+                {
+                  "Key": "Microsoft.Data.SqlClient.SNI.runtime",
+                  "Version": "2.1.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Abstractions",
+                  "Version": "2.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "2.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "2.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging",
+                  "Version": "2.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "2.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options",
+                  "Version": "2.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Primitives",
+                  "Version": "2.0.0"
+                },
+                {
+                  "Key": "Microsoft.Identity.Client",
+                  "Version": "4.21.1"
+                },
+                {
+                  "Key": "Microsoft.IdentityModel.JsonWebTokens",
+                  "Version": "6.8.0"
+                },
+                {
+                  "Key": "Microsoft.IdentityModel.Logging",
+                  "Version": "6.8.0"
+                },
+                {
+                  "Key": "Microsoft.IdentityModel.Protocols",
+                  "Version": "6.8.0"
+                },
+                {
+                  "Key": "Microsoft.IdentityModel.Protocols.OpenIdConnect",
+                  "Version": "6.8.0"
+                },
+                {
+                  "Key": "Microsoft.IdentityModel.Tokens",
+                  "Version": "6.8.0"
+                },
+                {
+                  "Key": "Microsoft.NETCore.Platforms",
+                  "Version": "3.1.0"
+                },
+                {
+                  "Key": "Microsoft.Win32.Registry",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "Microsoft.Win32.SystemEvents",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.3"
+                },
+                {
+                  "Key": "Stub.System.Data.SQLite.Core.NetStandard",
+                  "Version": "1.0.117"
+                },
+                {
+                  "Key": "System.ComponentModel.Annotations",
+                  "Version": "4.4.1"
+                },
+                {
+                  "Key": "System.Configuration.ConfigurationManager",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "System.Diagnostics.DiagnosticSource",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "System.Drawing.Common",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "System.IdentityModel.Tokens.Jwt",
+                  "Version": "6.8.0"
+                },
+                {
+                  "Key": "System.Runtime.Caching",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "System.Runtime.CompilerServices.Unsafe",
+                  "Version": "4.4.0"
+                },
+                {
+                  "Key": "System.Security.AccessControl",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "System.Security.Cryptography.Cng",
+                  "Version": "4.5.0"
+                },
+                {
+                  "Key": "System.Security.Cryptography.ProtectedData",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "System.Security.Permissions",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "System.Security.Principal.Windows",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "System.Text.Encoding.CodePages",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "System.ValueTuple",
+                  "Version": "4.4.0"
+                },
+                {
+                  "Key": "System.Windows.Extensions",
+                  "Version": "4.7.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
@@ -58321,6 +58588,33 @@
                 }
               ],
               "Reviewer": "philpax"
+            }
+          }
+        },
+        "ContactsTracker": {
+          "BuiltCommit": "a82446da711aa633bf53bd200ebeb6a49410a8db",
+          "TimeBuilt": "2025-02-14T19:17:57.8721678+00:00",
+          "EffectiveVersion": "1.0.0.0",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "1.0.0.0": {
+              "TimeReleased": "2025-02-14T19:17:57.8722248+00:00",
+              "Changelog": "[1.0.0.0]\r\n- Move to stable\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "CsvHelper",
+                  "Version": "33.0.1"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.25"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         }

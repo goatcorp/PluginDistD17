@@ -1,0 +1,24 @@
+{
+  "Author": "Due",
+  "Name": "ContactsTracker",
+  "InternalName": "ContactsTracker",
+  "AssemblyVersion": "1.0.0.0",
+  "Description": "Remember to change setting according to your need.\nUse the Settings button to enter analyze window.",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/DueDine/ContactsTracker",
+  "Tags": [
+    "plugin",
+    "track",
+    "duty",
+    "roulette"
+  ],
+  "DalamudApiLevel": 11,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "Punchline": "Help you record duty and who you met.",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "stable"
+}
