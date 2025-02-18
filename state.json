@@ -16754,9 +16754,9 @@
           }
         },
         "Wholist": {
-          "BuiltCommit": "60a18e70a4ed6fccc33617185f5a1b5b62b6c4b5",
-          "TimeBuilt": "2025-01-31T23:17:06.9899197+00:00",
-          "EffectiveVersion": "1.8.2.0",
+          "BuiltCommit": "0ad16f6cc613ea5de2380817ea21858d010b81b1",
+          "TimeBuilt": "2025-02-18T19:26:12.3976216+00:00",
+          "EffectiveVersion": "1.8.2.1",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -17111,6 +17111,53 @@
                 }
               ],
               "Reviewer": "philpax"
+            },
+            "1.8.2.1": {
+              "TimeReleased": "2025-02-18T19:26:12.397927+00:00",
+              "Changelog": "Fixes showing a broken \u0022adventurer\u0022 player when disabling the minimum level filter.",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/Blooym/Sirensong.git",
+                  "Version": "4f5c022082172cea7177b4fb49b0e808330539bf"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "BitFaster.Caching",
+                  "Version": "2.4.1"
+                },
+                {
+                  "Key": "Microsoft.Build.Tasks.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Common",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitHub",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitLab",
+                  "Version": "1.1.1"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
