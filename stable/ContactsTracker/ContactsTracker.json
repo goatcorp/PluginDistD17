@@ -2,7 +2,7 @@
   "Author": "Due",
   "Name": "ContactsTracker",
   "InternalName": "ContactsTracker",
-  "AssemblyVersion": "1.0.0.0",
+  "AssemblyVersion": "1.0.1.0",
   "Description": "Remember to change setting according to your need.\nUse the Settings button to enter analyze window.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/DueDine/ContactsTracker",

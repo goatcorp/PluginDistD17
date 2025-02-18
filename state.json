@@ -27040,9 +27040,9 @@
           }
         },
         "AutoMountBgm": {
-          "BuiltCommit": "33f4c4b1fe41ae11c69f6d62b4671417217cdba8",
-          "TimeBuilt": "2024-07-15T23:18:20.961",
-          "EffectiveVersion": "2.2.3.0",
+          "BuiltCommit": "223d9bbd1828185912ed4cd3861ee1dad935554c",
+          "TimeBuilt": "2025-02-18T19:28:54.7102592+00:00",
+          "EffectiveVersion": "2.2.4.0",
           "MinimumVersion": null,
           "Changelogs": {
             "2.0.1.0": {
@@ -27080,6 +27080,17 @@
               "Changelog": "UI checkboxes work correctly now. Additionally, I\u0027ve actually released the fix that was sitting on my hard drive for the last week.",
               "UsedNeeds": null,
               "Reviewer": null
+            },
+            "2.2.4.0": {
+              "TimeReleased": "2025-02-18T19:28:54.7102602+00:00",
+              "Changelog": "Plugin should work on latest patch now. Untested because my sub expired recently.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
@@ -58690,14 +58701,33 @@
           }
         },
         "ContactsTracker": {
-          "BuiltCommit": "a82446da711aa633bf53bd200ebeb6a49410a8db",
-          "TimeBuilt": "2025-02-14T19:17:57.8721678+00:00",
-          "EffectiveVersion": "1.0.0.0",
+          "BuiltCommit": "ad38a9e9f118b78d3abaa05dbae555abd332ec06",
+          "TimeBuilt": "2025-02-18T19:28:47.235744+00:00",
+          "EffectiveVersion": "1.0.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
               "TimeReleased": "2025-02-14T19:17:57.8722248+00:00",
               "Changelog": "[1.0.0.0]\r\n- Move to stable\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "CsvHelper",
+                  "Version": "33.0.1"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.25"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            },
+            "1.0.1.0": {
+              "TimeReleased": "2025-02-18T19:28:47.235806+00:00",
+              "Changelog": "[1.0.1.0]\r\n- Add query: frequency of dungeon in each roulette\r\n- Add button to open analyze window directly\r\n",
               "UsedNeeds": [
                 {
                   "Key": "CsvHelper",
