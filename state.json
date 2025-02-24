@@ -5556,9 +5556,9 @@
           }
         },
         "Waitingway.Dalamud": {
-          "BuiltCommit": "6697dd6c3509915ce22880cd55ddeb0d72bb1e7b",
-          "TimeBuilt": "2024-11-23T22:39:20.7633745+00:00",
-          "EffectiveVersion": "2.2.2.0",
+          "BuiltCommit": "6e76ff49f12042a99288f38dc6ad89e98322941d",
+          "TimeBuilt": "2025-02-24T00:36:14.6191661+00:00",
+          "EffectiveVersion": "2.2.92.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.2.4": {
@@ -5610,6 +5610,37 @@
               "TimeReleased": "2024-11-23T22:39:20.7634118+00:00",
               "Changelog": "- Fixes crashing when clicking the \u0022World\u0022 tab in the Character Selection screen.\r\n- Redesigned the UI layout of the \u0022World\u0022 tab to keep up with 7.1 changes.\r\n- Fixed bug where the Waitingway settings button turned into a different icon.",
               "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "Humanizer.Core",
+                  "Version": "3.0.0-beta.54"
+                },
+                {
+                  "Key": "Meziantou.Analyzer",
+                  "Version": "2.0.179"
+                },
+                {
+                  "Key": "System.Memory",
+                  "Version": "4.5.5"
+                },
+                {
+                  "Key": "System.ValueTuple",
+                  "Version": "4.5.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            },
+            "2.2.92.0": {
+              "TimeReleased": "2025-02-24T00:36:14.6191671+00:00",
+              "Changelog": "changelog tbd",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/WorkingRobot/TemporalStasis.git",
+                  "Version": "4a8467e2fb4d17a961ffda592d22ef3ab1cc15fe"
+                },
                 {
                   "Key": "DalamudPackager",
                   "Version": "11.0.0"
@@ -18908,9 +18939,9 @@
           }
         },
         "CoordImporter": {
-          "BuiltCommit": "9c7daefbdda79b39b763f42112ab9116dd2089b0",
-          "TimeBuilt": "2024-11-17T02:09:06.8102719+00:00",
-          "EffectiveVersion": "1.2.0.1",
+          "BuiltCommit": "03bafa66d870fba38e23d677b14419124d11f737",
+          "TimeBuilt": "2025-02-24T00:36:06.2568539+00:00",
+          "EffectiveVersion": "1.2.0.2",
           "MinimumVersion": null,
           "Changelogs": {
             "1.2.0.0": {
@@ -19138,6 +19169,229 @@
                 {
                   "Key": "CSharpFunctionalExtensions",
                   "Version": "2.40.3"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            },
+            "1.2.0.2": {
+              "TimeReleased": "2025-02-24T00:36:06.2568553+00:00",
+              "Changelog": "Fix non-English clients failing to convert input to HuntHelper",
+              "UsedNeeds": [
+                {
+                  "Key": "CSharpFunctionalExtensions",
+                  "Version": "2.40.3"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Hosting",
+                  "Version": "7.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Abstractions",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Binder",
+                  "Version": "7.0.3"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.CommandLine",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.EnvironmentVariables",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.FileExtensions",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Json",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.UserSecrets",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileProviders.Abstractions",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileProviders.Physical",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileSystemGlobbing",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Hosting.Abstractions",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Configuration",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Console",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Debug",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.EventLog",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.EventSource",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options",
+                  "Version": "7.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options.ConfigurationExtensions",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Primitives",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "System.Diagnostics.DiagnosticSource",
+                  "Version": "7.0.1"
+                },
+                {
+                  "Key": "System.Diagnostics.EventLog",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "System.Text.Encodings.Web",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "System.Text.Json",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "coverlet.collector",
+                  "Version": "3.2.0"
+                },
+                {
+                  "Key": "DitzyExtensions",
+                  "Version": "1.0.1"
+                },
+                {
+                  "Key": "Lib.Harmony",
+                  "Version": "2.3.0-prerelease.2"
+                },
+                {
+                  "Key": "Microsoft.NET.Test.Sdk",
+                  "Version": "17.7.1"
+                },
+                {
+                  "Key": "NSubstitute",
+                  "Version": "5.1.0"
+                },
+                {
+                  "Key": "NUnit",
+                  "Version": "3.13.3"
+                },
+                {
+                  "Key": "NUnit.Analyzers",
+                  "Version": "3.6.1"
+                },
+                {
+                  "Key": "NUnit3TestAdapter",
+                  "Version": "4.4.2"
+                },
+                {
+                  "Key": "Castle.Core",
+                  "Version": "5.1.1"
+                },
+                {
+                  "Key": "CSharpFunctionalExtensions",
+                  "Version": "2.42.5"
+                },
+                {
+                  "Key": "Microsoft.CodeCoverage",
+                  "Version": "17.7.1"
+                },
+                {
+                  "Key": "Microsoft.NETCore.Platforms",
+                  "Version": "1.1.0"
+                },
+                {
+                  "Key": "Microsoft.TestPlatform.ObjectModel",
+                  "Version": "17.7.1"
+                },
+                {
+                  "Key": "Microsoft.TestPlatform.TestHost",
+                  "Version": "17.7.1"
+                },
+                {
+                  "Key": "Mono.Cecil",
+                  "Version": "0.11.4"
+                },
+                {
+                  "Key": "MonoMod.Backports",
+                  "Version": "1.0.0-prerelease.2"
+                },
+                {
+                  "Key": "MonoMod.Core",
+                  "Version": "1.0.0-prerelease.2"
+                },
+                {
+                  "Key": "MonoMod.ILHelpers",
+                  "Version": "1.0.0-prerelease.2"
+                },
+                {
+                  "Key": "MonoMod.Utils",
+                  "Version": "25.0.0-prerelease.2"
+                },
+                {
+                  "Key": "NETStandard.Library",
+                  "Version": "2.0.0"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.1"
+                },
+                {
+                  "Key": "NuGet.Frameworks",
+                  "Version": "6.5.0"
+                },
+                {
+                  "Key": "System.Reflection.Metadata",
+                  "Version": "1.6.0"
                 }
               ],
               "Reviewer": "reiichi001"
@@ -38716,9 +38970,9 @@
           }
         },
         "CurrencyAlert": {
-          "BuiltCommit": "ec17b75cb0d9776a79fd85b8a4d3e75ce6a02d1e",
-          "TimeBuilt": "2025-02-20T05:22:24.0248018+00:00",
-          "EffectiveVersion": "2.2.0.4",
+          "BuiltCommit": "62f89e9dd4734efcbc054049a7a9cbf3dcde11de",
+          "TimeBuilt": "2025-02-24T00:35:58.9348604+00:00",
+          "EffectiveVersion": "2.2.0.5",
           "MinimumVersion": null,
           "Changelogs": {
             "0.4.0.0": {
@@ -38862,6 +39116,69 @@
             "2.2.0.4": {
               "TimeReleased": "2025-02-20T05:22:24.0248615+00:00",
               "Changelog": "Fix custom text warnings not working correctly.",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiLib.git",
+                  "Version": "188848ea4894291dfbff8cac0fc25ad7994e9e35"
+                },
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit.git",
+                  "Version": "d26598451448a92bce729d2f039d725c75ba1360"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "HtmlAgilityPack",
+                  "Version": "1.11.46"
+                },
+                {
+                  "Key": "Karashiiro.HtmlAgilityPack.CssSelectors.NetCoreFork",
+                  "Version": "0.0.2"
+                },
+                {
+                  "Key": "Microsoft.Build.Tasks.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Common",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitHub",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitLab",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "NetStone",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.3"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            },
+            "2.2.0.5": {
+              "TimeReleased": "2025-02-24T00:35:58.9349157+00:00",
+              "Changelog": "Fixes last update causing configs to be completely reset.\r\n\r\nThis update should only reset the custom text option for the currency overlay.",
               "UsedNeeds": [
                 {
                   "Key": "https://github.com/MidoriKami/KamiLib.git",
@@ -63798,9 +64115,9 @@
           }
         },
         "CoordImporter": {
-          "BuiltCommit": "9c7daefbdda79b39b763f42112ab9116dd2089b0",
-          "TimeBuilt": "2024-11-16T15:00:38.0892532+00:00",
-          "EffectiveVersion": "1.2.0.1",
+          "BuiltCommit": "03bafa66d870fba38e23d677b14419124d11f737",
+          "TimeBuilt": "2025-02-24T00:36:22.4570429+00:00",
+          "EffectiveVersion": "1.2.0.2",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.1": {
@@ -64073,6 +64390,229 @@
                 }
               ],
               "Reviewer": "goaaats"
+            },
+            "1.2.0.2": {
+              "TimeReleased": "2025-02-24T00:36:22.4570439+00:00",
+              "Changelog": "Fix non-English clients failing to convert input to HuntHelper",
+              "UsedNeeds": [
+                {
+                  "Key": "CSharpFunctionalExtensions",
+                  "Version": "2.40.3"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Hosting",
+                  "Version": "7.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Abstractions",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Binder",
+                  "Version": "7.0.3"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.CommandLine",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.EnvironmentVariables",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.FileExtensions",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Json",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.UserSecrets",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileProviders.Abstractions",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileProviders.Physical",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileSystemGlobbing",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Hosting.Abstractions",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Configuration",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Console",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Debug",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.EventLog",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.EventSource",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options",
+                  "Version": "7.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options.ConfigurationExtensions",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Primitives",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "System.Diagnostics.DiagnosticSource",
+                  "Version": "7.0.1"
+                },
+                {
+                  "Key": "System.Diagnostics.EventLog",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "System.Text.Encodings.Web",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "System.Text.Json",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "coverlet.collector",
+                  "Version": "3.2.0"
+                },
+                {
+                  "Key": "DitzyExtensions",
+                  "Version": "1.0.1"
+                },
+                {
+                  "Key": "Lib.Harmony",
+                  "Version": "2.3.0-prerelease.2"
+                },
+                {
+                  "Key": "Microsoft.NET.Test.Sdk",
+                  "Version": "17.7.1"
+                },
+                {
+                  "Key": "NSubstitute",
+                  "Version": "5.1.0"
+                },
+                {
+                  "Key": "NUnit",
+                  "Version": "3.13.3"
+                },
+                {
+                  "Key": "NUnit.Analyzers",
+                  "Version": "3.6.1"
+                },
+                {
+                  "Key": "NUnit3TestAdapter",
+                  "Version": "4.4.2"
+                },
+                {
+                  "Key": "Castle.Core",
+                  "Version": "5.1.1"
+                },
+                {
+                  "Key": "CSharpFunctionalExtensions",
+                  "Version": "2.42.5"
+                },
+                {
+                  "Key": "Microsoft.CodeCoverage",
+                  "Version": "17.7.1"
+                },
+                {
+                  "Key": "Microsoft.NETCore.Platforms",
+                  "Version": "1.1.0"
+                },
+                {
+                  "Key": "Microsoft.TestPlatform.ObjectModel",
+                  "Version": "17.7.1"
+                },
+                {
+                  "Key": "Microsoft.TestPlatform.TestHost",
+                  "Version": "17.7.1"
+                },
+                {
+                  "Key": "Mono.Cecil",
+                  "Version": "0.11.4"
+                },
+                {
+                  "Key": "MonoMod.Backports",
+                  "Version": "1.0.0-prerelease.2"
+                },
+                {
+                  "Key": "MonoMod.Core",
+                  "Version": "1.0.0-prerelease.2"
+                },
+                {
+                  "Key": "MonoMod.ILHelpers",
+                  "Version": "1.0.0-prerelease.2"
+                },
+                {
+                  "Key": "MonoMod.Utils",
+                  "Version": "25.0.0-prerelease.2"
+                },
+                {
+                  "Key": "NETStandard.Library",
+                  "Version": "2.0.0"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.1"
+                },
+                {
+                  "Key": "NuGet.Frameworks",
+                  "Version": "6.5.0"
+                },
+                {
+                  "Key": "System.Reflection.Metadata",
+                  "Version": "1.6.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
@@ -85007,6 +85547,13 @@
       "Version": "3.1.3",
       "ReviewedBy": "philpax",
       "ReviewedAt": "2025-02-12T16:57:33.5018904Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/WorkingRobot/TemporalStasis.git",
+      "Version": "4a8467e2fb4d17a961ffda592d22ef3ab1cc15fe",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2025-02-24T00:36:14.6522274Z"
     }
   ]
 }
