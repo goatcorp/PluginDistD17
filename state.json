@@ -59408,9 +59408,9 @@
           }
         },
         "JobTitles": {
-          "BuiltCommit": "c1b5a908bf8b65a90f5c5ef6a6e0612e9ff0b159",
-          "TimeBuilt": "2025-01-29T19:26:50.6109249+00:00",
-          "EffectiveVersion": "0.1.1.0",
+          "BuiltCommit": "166179d59bd17066f4475ad108a26514d37bf918",
+          "TimeBuilt": "2025-02-24T07:24:18.3615484+00:00",
+          "EffectiveVersion": "0.1.2.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.0.0": {
@@ -59511,6 +59511,21 @@
                 {
                   "Key": "Microsoft.SourceLink.GitLab",
                   "Version": "1.1.1"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            },
+            "0.1.2.0": {
+              "TimeReleased": "2025-02-24T07:24:18.3616105+00:00",
+              "Changelog": "- Added option to use GARO titles in PVP\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.25"
                 }
               ],
               "Reviewer": "reiichi001"
