@@ -50581,9 +50581,9 @@
           }
         },
         "PvpStats": {
-          "BuiltCommit": "d4dfc5ab5f70b41900eb6375bf985920fe547a92",
-          "TimeBuilt": "2025-02-09T18:34:37.3092372+00:00",
-          "EffectiveVersion": "2.3.0.0",
+          "BuiltCommit": "2daf3a10cfb90dd4866201dc351d3dc7378c4c86",
+          "TimeBuilt": "2025-02-24T18:11:58.4141751+00:00",
+          "EffectiveVersion": "2.3.0.1",
           "MinimumVersion": null,
           "Changelogs": {
             "0.2.3.2": {
@@ -50798,6 +50798,21 @@
                 }
               ],
               "Reviewer": "philpax"
+            },
+            "2.3.0.1": {
+              "TimeReleased": "2025-02-24T18:11:58.4142382+00:00",
+              "Changelog": "* Removed ContentId and AccountId recording.\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "LiteDB",
+                  "Version": "5.0.16"
+                }
+              ],
+              "Reviewer": "perchbirdd"
             }
           }
         },
