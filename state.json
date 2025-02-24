@@ -5140,9 +5140,9 @@
           }
         },
         "PetRenamer": {
-          "BuiltCommit": "6c6f6a22716c4f21bacc21ddbc38e92e153d88c0",
-          "TimeBuilt": "2025-01-07T21:52:28.8154954+00:00",
-          "EffectiveVersion": "2.3.0.9",
+          "BuiltCommit": "d3159038a1b06a55f98d733f5a864bf655c7f246",
+          "TimeBuilt": "2025-02-24T00:46:50.7879714+00:00",
+          "EffectiveVersion": "2.3.0.10",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -5541,6 +5541,21 @@
             "2.3.0.9": {
               "TimeReleased": "2025-01-07T21:52:28.8155337+00:00",
               "Changelog": "    [2.3.0.9]\r\n    Fixes profile pictures not downloading for people with \u0027 and - in their name.\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "HtmlAgilityPack",
+                  "Version": "1.11.71"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            },
+            "2.3.0.10": {
+              "TimeReleased": "2025-02-24T00:46:50.7880321+00:00",
+              "Changelog": "    [2.3.0.10]\r\n    Now shows version number on windows.\r\n    Uses BNpcName name instead of Pet name fixing some display names not renaming properly.\r\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
