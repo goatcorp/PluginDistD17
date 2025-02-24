@@ -42872,9 +42872,9 @@
           }
         },
         "SonarPlugin": {
-          "BuiltCommit": "8633f2547a15df6588506075b6df8efeb12c06f6",
-          "TimeBuilt": "2024-11-20T10:27:57.7088292+00:00",
-          "EffectiveVersion": "0.6.7.1",
+          "BuiltCommit": "fed66ff43cd7b9c76174c5765f314c28b8070067",
+          "TimeBuilt": "2025-02-24T02:05:47.3823408+00:00",
+          "EffectiveVersion": "0.6.9.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.5.2.6": {
@@ -45493,6 +45493,545 @@
                 }
               ],
               "Reviewer": "philpax"
+            },
+            "0.6.9.0": {
+              "TimeReleased": "2025-02-24T02:05:47.3824031+00:00",
+              "Changelog": "Check Sonar News for more information: https://news.ffxivsonar.com",
+              "UsedNeeds": [
+                {
+                  "Key": "AG.Collections.Concurrent",
+                  "Version": "0.0.6-alpha"
+                },
+                {
+                  "Key": "Farmhash.Sharp",
+                  "Version": "0.9.0"
+                },
+                {
+                  "Key": "XoshiroPRNG.Net",
+                  "Version": "1.6.0"
+                },
+                {
+                  "Key": "AG",
+                  "Version": "0.0.6-alpha"
+                },
+                {
+                  "Key": "AG.Collections.Generic",
+                  "Version": "0.0.6-alpha"
+                },
+                {
+                  "Key": "ConfigureAwait.Fody",
+                  "Version": "3.3.2"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "DryIoc.dll",
+                  "Version": "5.4.3"
+                },
+                {
+                  "Key": "Fody",
+                  "Version": "6.9.1"
+                },
+                {
+                  "Key": "NAudio.Core",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Wasapi",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.WinMM",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "AG.NonBlocking",
+                  "Version": "2.1.1"
+                },
+                {
+                  "Key": "DeviceId",
+                  "Version": "6.8.0"
+                },
+                {
+                  "Key": "DeviceId.Linux",
+                  "Version": "6.8.0"
+                },
+                {
+                  "Key": "DeviceId.Mac",
+                  "Version": "6.8.0"
+                },
+                {
+                  "Key": "DeviceId.Windows",
+                  "Version": "6.8.0"
+                },
+                {
+                  "Key": "DeviceId.Windows.Wmi",
+                  "Version": "6.8.0"
+                },
+                {
+                  "Key": "DryIoc.MefAttributedModel.dll",
+                  "Version": "7.0.2"
+                },
+                {
+                  "Key": "DryIocAttributes.dll",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "InterlockedUtils",
+                  "Version": "1.0.1"
+                },
+                {
+                  "Key": "MessagePack",
+                  "Version": "3.1.3"
+                },
+                {
+                  "Key": "MessagePack.Annotations",
+                  "Version": "3.1.3"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.Connections.Abstractions",
+                  "Version": "9.0.2"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.Http.Connections.Client",
+                  "Version": "9.0.2"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.Http.Connections.Common",
+                  "Version": "9.0.2"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.SignalR.Client",
+                  "Version": "9.0.2"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.SignalR.Client.Core",
+                  "Version": "9.0.2"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.SignalR.Common",
+                  "Version": "9.0.2"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.SignalR.Protocols.Json",
+                  "Version": "9.0.2"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.SignalR.Protocols.MessagePack",
+                  "Version": "9.0.2"
+                },
+                {
+                  "Key": "Microsoft.Bcl.AsyncInterfaces",
+                  "Version": "9.0.2"
+                },
+                {
+                  "Key": "Microsoft.Bcl.TimeProvider",
+                  "Version": "9.0.2"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "9.0.2"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "9.0.2"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Features",
+                  "Version": "9.0.2"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging",
+                  "Version": "9.0.2"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "9.0.2"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options",
+                  "Version": "9.0.2"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Primitives",
+                  "Version": "9.0.2"
+                },
+                {
+                  "Key": "Microsoft.NET.StringTools",
+                  "Version": "17.11.4"
+                },
+                {
+                  "Key": "Microsoft.NETCore.Platforms",
+                  "Version": "5.0.0"
+                },
+                {
+                  "Key": "Microsoft.Win32.Registry",
+                  "Version": "5.0.0"
+                },
+                {
+                  "Key": "System.CodeDom",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "System.ComponentModel.Composition",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "System.Diagnostics.DiagnosticSource",
+                  "Version": "9.0.2"
+                },
+                {
+                  "Key": "System.IO.Pipelines",
+                  "Version": "9.0.2"
+                },
+                {
+                  "Key": "System.Management",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "System.Net.ServerSentEvents",
+                  "Version": "9.0.2"
+                },
+                {
+                  "Key": "System.Runtime.CompilerServices.Unsafe",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "System.Security.AccessControl",
+                  "Version": "5.0.0"
+                },
+                {
+                  "Key": "System.Security.Principal.Windows",
+                  "Version": "5.0.0"
+                },
+                {
+                  "Key": "System.Text.Encodings.Web",
+                  "Version": "9.0.2"
+                },
+                {
+                  "Key": "System.Text.Json",
+                  "Version": "9.0.2"
+                },
+                {
+                  "Key": "System.Threading.Channels",
+                  "Version": "9.0.2"
+                },
+                {
+                  "Key": "ZString",
+                  "Version": "2.6.0"
+                },
+                {
+                  "Key": "coverlet.collector",
+                  "Version": "6.0.4"
+                },
+                {
+                  "Key": "Microsoft.NET.Test.Sdk",
+                  "Version": "17.13.0"
+                },
+                {
+                  "Key": "xunit",
+                  "Version": "2.9.3"
+                },
+                {
+                  "Key": "xunit.runner.visualstudio",
+                  "Version": "3.0.2"
+                },
+                {
+                  "Key": "Microsoft.CodeCoverage",
+                  "Version": "17.13.0"
+                },
+                {
+                  "Key": "Microsoft.TestPlatform.ObjectModel",
+                  "Version": "17.13.0"
+                },
+                {
+                  "Key": "Microsoft.TestPlatform.TestHost",
+                  "Version": "17.13.0"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.1"
+                },
+                {
+                  "Key": "System.Reflection.Metadata",
+                  "Version": "1.6.0"
+                },
+                {
+                  "Key": "xunit.abstractions",
+                  "Version": "2.0.3"
+                },
+                {
+                  "Key": "xunit.analyzers",
+                  "Version": "1.18.0"
+                },
+                {
+                  "Key": "xunit.assert",
+                  "Version": "2.9.3"
+                },
+                {
+                  "Key": "xunit.core",
+                  "Version": "2.9.3"
+                },
+                {
+                  "Key": "xunit.extensibility.core",
+                  "Version": "2.9.3"
+                },
+                {
+                  "Key": "xunit.extensibility.execution",
+                  "Version": "2.9.3"
+                },
+                {
+                  "Key": "Blurhash.ImageSharp",
+                  "Version": "4.0.0"
+                },
+                {
+                  "Key": "FileSystemLinks",
+                  "Version": "1.0.3"
+                },
+                {
+                  "Key": "Humanizer",
+                  "Version": "2.14.1"
+                },
+                {
+                  "Key": "Lumina",
+                  "Version": "5.6.1"
+                },
+                {
+                  "Key": "Lumina.Excel",
+                  "Version": "7.1.3"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.3"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.6"
+                },
+                {
+                  "Key": "Spectre.Console",
+                  "Version": "0.49.1"
+                },
+                {
+                  "Key": "Blurhash.Core",
+                  "Version": "4.0.0"
+                },
+                {
+                  "Key": "Humanizer.Core",
+                  "Version": "2.14.1"
+                },
+                {
+                  "Key": "Humanizer.Core.af",
+                  "Version": "2.14.1"
+                },
+                {
+                  "Key": "Humanizer.Core.ar",
+                  "Version": "2.14.1"
+                },
+                {
+                  "Key": "Humanizer.Core.az",
+                  "Version": "2.14.1"
+                },
+                {
+                  "Key": "Humanizer.Core.bg",
+                  "Version": "2.14.1"
+                },
+                {
+                  "Key": "Humanizer.Core.bn-BD",
+                  "Version": "2.14.1"
+                },
+                {
+                  "Key": "Humanizer.Core.cs",
+                  "Version": "2.14.1"
+                },
+                {
+                  "Key": "Humanizer.Core.da",
+                  "Version": "2.14.1"
+                },
+                {
+                  "Key": "Humanizer.Core.de",
+                  "Version": "2.14.1"
+                },
+                {
+                  "Key": "Humanizer.Core.el",
+                  "Version": "2.14.1"
+                },
+                {
+                  "Key": "Humanizer.Core.es",
+                  "Version": "2.14.1"
+                },
+                {
+                  "Key": "Humanizer.Core.fa",
+                  "Version": "2.14.1"
+                },
+                {
+                  "Key": "Humanizer.Core.fi-FI",
+                  "Version": "2.14.1"
+                },
+                {
+                  "Key": "Humanizer.Core.fr",
+                  "Version": "2.14.1"
+                },
+                {
+                  "Key": "Humanizer.Core.fr-BE",
+                  "Version": "2.14.1"
+                },
+                {
+                  "Key": "Humanizer.Core.he",
+                  "Version": "2.14.1"
+                },
+                {
+                  "Key": "Humanizer.Core.hr",
+                  "Version": "2.14.1"
+                },
+                {
+                  "Key": "Humanizer.Core.hu",
+                  "Version": "2.14.1"
+                },
+                {
+                  "Key": "Humanizer.Core.hy",
+                  "Version": "2.14.1"
+                },
+                {
+                  "Key": "Humanizer.Core.id",
+                  "Version": "2.14.1"
+                },
+                {
+                  "Key": "Humanizer.Core.is",
+                  "Version": "2.14.1"
+                },
+                {
+                  "Key": "Humanizer.Core.it",
+                  "Version": "2.14.1"
+                },
+                {
+                  "Key": "Humanizer.Core.ja",
+                  "Version": "2.14.1"
+                },
+                {
+                  "Key": "Humanizer.Core.ko-KR",
+                  "Version": "2.14.1"
+                },
+                {
+                  "Key": "Humanizer.Core.ku",
+                  "Version": "2.14.1"
+                },
+                {
+                  "Key": "Humanizer.Core.lv",
+                  "Version": "2.14.1"
+                },
+                {
+                  "Key": "Humanizer.Core.ms-MY",
+                  "Version": "2.14.1"
+                },
+                {
+                  "Key": "Humanizer.Core.mt",
+                  "Version": "2.14.1"
+                },
+                {
+                  "Key": "Humanizer.Core.nb",
+                  "Version": "2.14.1"
+                },
+                {
+                  "Key": "Humanizer.Core.nb-NO",
+                  "Version": "2.14.1"
+                },
+                {
+                  "Key": "Humanizer.Core.nl",
+                  "Version": "2.14.1"
+                },
+                {
+                  "Key": "Humanizer.Core.pl",
+                  "Version": "2.14.1"
+                },
+                {
+                  "Key": "Humanizer.Core.pt",
+                  "Version": "2.14.1"
+                },
+                {
+                  "Key": "Humanizer.Core.ro",
+                  "Version": "2.14.1"
+                },
+                {
+                  "Key": "Humanizer.Core.ru",
+                  "Version": "2.14.1"
+                },
+                {
+                  "Key": "Humanizer.Core.sk",
+                  "Version": "2.14.1"
+                },
+                {
+                  "Key": "Humanizer.Core.sl",
+                  "Version": "2.14.1"
+                },
+                {
+                  "Key": "Humanizer.Core.sr",
+                  "Version": "2.14.1"
+                },
+                {
+                  "Key": "Humanizer.Core.sr-Latn",
+                  "Version": "2.14.1"
+                },
+                {
+                  "Key": "Humanizer.Core.sv",
+                  "Version": "2.14.1"
+                },
+                {
+                  "Key": "Humanizer.Core.th-TH",
+                  "Version": "2.14.1"
+                },
+                {
+                  "Key": "Humanizer.Core.tr",
+                  "Version": "2.14.1"
+                },
+                {
+                  "Key": "Humanizer.Core.uk",
+                  "Version": "2.14.1"
+                },
+                {
+                  "Key": "Humanizer.Core.uz-Cyrl-UZ",
+                  "Version": "2.14.1"
+                },
+                {
+                  "Key": "Humanizer.Core.uz-Latn-UZ",
+                  "Version": "2.14.1"
+                },
+                {
+                  "Key": "Humanizer.Core.vi",
+                  "Version": "2.14.1"
+                },
+                {
+                  "Key": "Humanizer.Core.zh-CN",
+                  "Version": "2.14.1"
+                },
+                {
+                  "Key": "Humanizer.Core.zh-Hans",
+                  "Version": "2.14.1"
+                },
+                {
+                  "Key": "Humanizer.Core.zh-Hant",
+                  "Version": "2.14.1"
+                },
+                {
+                  "Key": "MessagePackAnalyzer",
+                  "Version": "3.1.3"
+                },
+                {
+                  "Key": "Microsoft.Extensions.ObjectPool",
+                  "Version": "8.0.7"
+                },
+                {
+                  "Key": "System.Memory",
+                  "Version": "4.5.5"
+                },
+                {
+                  "Key": "DnsClient",
+                  "Version": "1.8.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
@@ -85671,6 +86210,349 @@
       "Version": "4a8467e2fb4d17a961ffda592d22ef3ab1cc15fe",
       "ReviewedBy": "reiichi001",
       "ReviewedAt": "2025-02-24T00:36:14.6522274Z"
+    },
+    {
+      "Type": 1,
+      "Key": "AG.Collections.Concurrent",
+      "Version": "0.0.6-alpha",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2025-02-24T02:05:47.4176883Z"
+    },
+    {
+      "Type": 1,
+      "Key": "AG",
+      "Version": "0.0.6-alpha",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2025-02-24T02:05:47.4177391Z"
+    },
+    {
+      "Type": 1,
+      "Key": "AG.Collections.Generic",
+      "Version": "0.0.6-alpha",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2025-02-24T02:05:47.4177393Z"
+    },
+    {
+      "Type": 1,
+      "Key": "DeviceId",
+      "Version": "6.8.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2025-02-24T02:05:47.4177398Z"
+    },
+    {
+      "Type": 1,
+      "Key": "DeviceId.Linux",
+      "Version": "6.8.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2025-02-24T02:05:47.4177399Z"
+    },
+    {
+      "Type": 1,
+      "Key": "DeviceId.Mac",
+      "Version": "6.8.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2025-02-24T02:05:47.4177409Z"
+    },
+    {
+      "Type": 1,
+      "Key": "DeviceId.Windows",
+      "Version": "6.8.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2025-02-24T02:05:47.417741Z"
+    },
+    {
+      "Type": 1,
+      "Key": "DeviceId.Windows.Wmi",
+      "Version": "6.8.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2025-02-24T02:05:47.4177412Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.AspNetCore.Connections.Abstractions",
+      "Version": "9.0.2",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2025-02-24T02:05:47.4177414Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.AspNetCore.Http.Connections.Client",
+      "Version": "9.0.2",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2025-02-24T02:05:47.4177416Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.AspNetCore.Http.Connections.Common",
+      "Version": "9.0.2",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2025-02-24T02:05:47.4177417Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.AspNetCore.SignalR.Client",
+      "Version": "9.0.2",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2025-02-24T02:05:47.4177419Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.AspNetCore.SignalR.Client.Core",
+      "Version": "9.0.2",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2025-02-24T02:05:47.417742Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.AspNetCore.SignalR.Common",
+      "Version": "9.0.2",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2025-02-24T02:05:47.4177421Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.AspNetCore.SignalR.Protocols.Json",
+      "Version": "9.0.2",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2025-02-24T02:05:47.4177422Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.AspNetCore.SignalR.Protocols.MessagePack",
+      "Version": "9.0.2",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2025-02-24T02:05:47.4177422Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Bcl.AsyncInterfaces",
+      "Version": "9.0.2",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2025-02-24T02:05:47.4177423Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Bcl.TimeProvider",
+      "Version": "9.0.2",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2025-02-24T02:05:47.4177425Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Extensions.DependencyInjection",
+      "Version": "9.0.2",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2025-02-24T02:05:47.4177426Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+      "Version": "9.0.2",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2025-02-24T02:05:47.4177427Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Extensions.Features",
+      "Version": "9.0.2",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2025-02-24T02:05:47.4177428Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Extensions.Logging",
+      "Version": "9.0.2",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2025-02-24T02:05:47.4177429Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Extensions.Logging.Abstractions",
+      "Version": "9.0.2",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2025-02-24T02:05:47.417743Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Extensions.Options",
+      "Version": "9.0.2",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2025-02-24T02:05:47.4177432Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Extensions.Primitives",
+      "Version": "9.0.2",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2025-02-24T02:05:47.4177433Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.CodeDom",
+      "Version": "9.0.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2025-02-24T02:05:47.4177436Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Diagnostics.DiagnosticSource",
+      "Version": "9.0.2",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2025-02-24T02:05:47.4177438Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.IO.Pipelines",
+      "Version": "9.0.2",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2025-02-24T02:05:47.4177439Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Management",
+      "Version": "9.0.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2025-02-24T02:05:47.417744Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Net.ServerSentEvents",
+      "Version": "9.0.2",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2025-02-24T02:05:47.4177441Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Text.Encodings.Web",
+      "Version": "9.0.2",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2025-02-24T02:05:47.4177442Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Text.Json",
+      "Version": "9.0.2",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2025-02-24T02:05:47.4177444Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Threading.Channels",
+      "Version": "9.0.2",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2025-02-24T02:05:47.4177444Z"
+    },
+    {
+      "Type": 1,
+      "Key": "coverlet.collector",
+      "Version": "6.0.4",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2025-02-24T02:05:47.4177447Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.NET.Test.Sdk",
+      "Version": "17.13.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2025-02-24T02:05:47.4177448Z"
+    },
+    {
+      "Type": 1,
+      "Key": "xunit",
+      "Version": "2.9.3",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2025-02-24T02:05:47.4177449Z"
+    },
+    {
+      "Type": 1,
+      "Key": "xunit.runner.visualstudio",
+      "Version": "3.0.2",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2025-02-24T02:05:47.417745Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.CodeCoverage",
+      "Version": "17.13.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2025-02-24T02:05:47.4177451Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.TestPlatform.ObjectModel",
+      "Version": "17.13.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2025-02-24T02:05:47.4177452Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.TestPlatform.TestHost",
+      "Version": "17.13.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2025-02-24T02:05:47.4177453Z"
+    },
+    {
+      "Type": 1,
+      "Key": "xunit.analyzers",
+      "Version": "1.18.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2025-02-24T02:05:47.4177455Z"
+    },
+    {
+      "Type": 1,
+      "Key": "xunit.assert",
+      "Version": "2.9.3",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2025-02-24T02:05:47.4177456Z"
+    },
+    {
+      "Type": 1,
+      "Key": "xunit.core",
+      "Version": "2.9.3",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2025-02-24T02:05:47.4177457Z"
+    },
+    {
+      "Type": 1,
+      "Key": "xunit.extensibility.core",
+      "Version": "2.9.3",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2025-02-24T02:05:47.4177458Z"
+    },
+    {
+      "Type": 1,
+      "Key": "xunit.extensibility.execution",
+      "Version": "2.9.3",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2025-02-24T02:05:47.4177459Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Blurhash.ImageSharp",
+      "Version": "4.0.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2025-02-24T02:05:47.417746Z"
+    },
+    {
+      "Type": 1,
+      "Key": "FileSystemLinks",
+      "Version": "1.0.3",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2025-02-24T02:05:47.4177461Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Spectre.Console",
+      "Version": "0.49.1",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2025-02-24T02:05:47.4177463Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Blurhash.Core",
+      "Version": "4.0.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2025-02-24T02:05:47.4177465Z"
     }
   ]
 }
