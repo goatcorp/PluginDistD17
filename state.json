@@ -62718,9 +62718,9 @@
           }
         },
         "WhosTalking": {
-          "BuiltCommit": "c84979998561420e7ed3e5915b5bdcdf303fb5ff",
-          "TimeBuilt": "2025-02-09T18:34:45.1497967+00:00",
-          "EffectiveVersion": "0.8.3.0",
+          "BuiltCommit": "6b9edf1cd47dc4fb1f539534ad650668dc1b25f5",
+          "TimeBuilt": "2025-02-24T01:58:14.2694669+00:00",
+          "EffectiveVersion": "0.8.4.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.0.0": {
@@ -63003,6 +63003,65 @@
                 }
               ],
               "Reviewer": "philpax"
+            },
+            "0.8.4.0": {
+              "TimeReleased": "2025-02-24T01:58:14.2695266+00:00",
+              "Changelog": "**Version 0.8.4.0**\n\nYou can now configure which port Who\u0027s Talking uses to communicate with the Discord client. This is primarily useful if you have multiple Discord clients open at the same time.\n\nMany thanks to SayuShira for implementing this feature!\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "JetBrains.Annotations",
+                  "Version": "2022.3.1"
+                },
+                {
+                  "Key": "Websocket.Client",
+                  "Version": "5.0.0"
+                },
+                {
+                  "Key": "Microsoft.Build.Tasks.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "7.0.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Common",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitHub",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitLab",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "System.Reactive",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "System.Threading.Channels",
+                  "Version": "7.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
