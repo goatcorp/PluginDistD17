@@ -29454,9 +29454,9 @@
           }
         },
         "TitleEdit": {
-          "BuiltCommit": "a89494ad110eb5244fe437d876d3ee5277592ca1",
-          "TimeBuilt": "2025-01-22T15:44:57.3013716+00:00",
-          "EffectiveVersion": "3.0.4.5",
+          "BuiltCommit": "638935b30af2b2c7aff6475750cec385166f3534",
+          "TimeBuilt": "2025-02-24T01:56:41.969053+00:00",
+          "EffectiveVersion": "3.0.4.8",
           "MinimumVersion": null,
           "Changelogs": {
             "2.3.0.0": {
@@ -30067,6 +30067,45 @@
                 }
               ],
               "Reviewer": "philpax"
+            },
+            "3.0.4.8": {
+              "TimeReleased": "2025-02-24T01:56:41.9690543+00:00",
+              "Changelog": "- Fixed a rare on load issue\n- Added the option to hide vanilla and built in presets\n- Updated the about section\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.Build.Tasks.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Common",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitHub",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitLab",
+                  "Version": "1.1.1"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
@@ -59140,6 +59179,29 @@
               "Reviewer": "reiichi001"
             }
           }
+        },
+        "RezoPlugin": {
+          "BuiltCommit": "289d7fb555c0ec713c6903cd55e3f211e273b5bd",
+          "TimeBuilt": "2025-02-24T01:56:34.1465428+00:00",
+          "EffectiveVersion": "1.2.1.0",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "1.2.1.0": {
+              "TimeReleased": "2025-02-24T01:56:34.1465454+00:00",
+              "Changelog": "No changes - move to stable",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.25"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            }
+          }
         }
       }
     },
@@ -75989,44 +76051,6 @@
                 {
                   "Key": "System.Threading.Tasks",
                   "Version": "4.3.0"
-                }
-              ],
-              "Reviewer": "philpax"
-            }
-          }
-        },
-        "RezoPlugin": {
-          "BuiltCommit": "e706dea4be848faf43df4650497d2226089a5810",
-          "TimeBuilt": "2025-02-04T21:26:00.1246666+00:00",
-          "EffectiveVersion": "1.1.0.1",
-          "MinimumVersion": null,
-          "Changelogs": {
-            "1.0.0.1": {
-              "TimeReleased": "2025-01-23T02:05:16.1017576+00:00",
-              "Changelog": "This plugin allows you to set your 3D Resolution Scaling to any value below 50%. Useful for when you\u0027re on a 4K screen but not so good of a graphics card.",
-              "UsedNeeds": [
-                {
-                  "Key": "DalamudPackager",
-                  "Version": "11.0.0"
-                },
-                {
-                  "Key": "DotNet.ReproducibleBuilds",
-                  "Version": "1.2.25"
-                }
-              ],
-              "Reviewer": "philpax"
-            },
-            "1.1.0.1": {
-              "TimeReleased": "2025-02-04T21:26:00.1247218+00:00",
-              "Changelog": "Allow disabling FSR sharpening filter",
-              "UsedNeeds": [
-                {
-                  "Key": "DalamudPackager",
-                  "Version": "11.0.0"
-                },
-                {
-                  "Key": "DotNet.ReproducibleBuilds",
-                  "Version": "1.2.25"
                 }
               ],
               "Reviewer": "philpax"

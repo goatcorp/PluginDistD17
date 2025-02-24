@@ -2,7 +2,7 @@
   "Author": "Azure Gem",
   "Name": "Rezo Scale Plugin",
   "InternalName": "RezoPlugin",
-  "AssemblyVersion": "1.1.0.1",
+  "AssemblyVersion": "1.2.1.0",
   "Description": "Ever wanted to render at lower resolution? Now you can!\nOnly works with AMD FSR graphics upscaler",
   "ApplicableVersion": "any",
   "Tags": [
@@ -24,5 +24,5 @@
   "Punchline": "Lower 3D Resolution Scale",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
-  "_Dip17Channel": "testing-live"
+  "_Dip17Channel": "stable"
 }
