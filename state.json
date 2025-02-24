@@ -59135,9 +59135,9 @@
           }
         },
         "ContactsTracker": {
-          "BuiltCommit": "ad38a9e9f118b78d3abaa05dbae555abd332ec06",
-          "TimeBuilt": "2025-02-18T19:28:47.235744+00:00",
-          "EffectiveVersion": "1.0.1.0",
+          "BuiltCommit": "3fd474b24b7b4cbdd6ab4735eace534a2443d0b3",
+          "TimeBuilt": "2025-02-24T02:00:04.6329177+00:00",
+          "EffectiveVersion": "1.0.2.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -59162,6 +59162,25 @@
             "1.0.1.0": {
               "TimeReleased": "2025-02-18T19:28:47.235806+00:00",
               "Changelog": "[1.0.1.0]\r\n- Add query: frequency of dungeon in each roulette\r\n- Add button to open analyze window directly\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "CsvHelper",
+                  "Version": "33.0.1"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.25"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            },
+            "1.0.2.0": {
+              "TimeReleased": "2025-02-24T02:00:04.6329731+00:00",
+              "Changelog": "[1.0.2.0]\r\n- Add localization support (Only English at the moment)\r\n",
               "UsedNeeds": [
                 {
                   "Key": "CsvHelper",
