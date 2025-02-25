@@ -5571,9 +5571,9 @@
           }
         },
         "Waitingway.Dalamud": {
-          "BuiltCommit": "6e76ff49f12042a99288f38dc6ad89e98322941d",
-          "TimeBuilt": "2025-02-24T00:36:14.6191661+00:00",
-          "EffectiveVersion": "2.2.92.0",
+          "BuiltCommit": "c2a38392f96781806e011b67dfbb6dc5ce2c9f44",
+          "TimeBuilt": "2025-02-25T19:47:37.9581162+00:00",
+          "EffectiveVersion": "2.2.95.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.2.4": {
@@ -5655,6 +5655,37 @@
                 {
                   "Key": "https://github.com/WorkingRobot/TemporalStasis.git",
                   "Version": "4a8467e2fb4d17a961ffda592d22ef3ab1cc15fe"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "Humanizer.Core",
+                  "Version": "3.0.0-beta.54"
+                },
+                {
+                  "Key": "Meziantou.Analyzer",
+                  "Version": "2.0.179"
+                },
+                {
+                  "Key": "System.Memory",
+                  "Version": "4.5.5"
+                },
+                {
+                  "Key": "System.ValueTuple",
+                  "Version": "4.5.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            },
+            "2.2.95.0": {
+              "TimeReleased": "2025-02-25T19:47:37.9581741+00:00",
+              "Changelog": "- Changed around some settings\r\n- Added configuration for duty queue notifications\r\n- Fixed crashing when queuing into some non-standard duties\r\n- Waitingway no longer requires you to stay in the support server to receive notifications",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/WorkingRobot/TemporalStasis.git",
+                  "Version": "7445923435a3667090eadf0ef1fdf1efc532285f"
                 },
                 {
                   "Key": "DalamudPackager",
@@ -86583,6 +86614,13 @@
       "Version": "4.0.0",
       "ReviewedBy": "reiichi001",
       "ReviewedAt": "2025-02-24T02:05:47.4177465Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/WorkingRobot/TemporalStasis.git",
+      "Version": "7445923435a3667090eadf0ef1fdf1efc532285f",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2025-02-25T19:47:37.9890647Z"
     }
   ]
 }
