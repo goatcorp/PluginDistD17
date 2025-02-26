@@ -76891,6 +76891,119 @@
               "Reviewer": "reiichi001"
             }
           }
+        },
+        "Racingway": {
+          "BuiltCommit": "07910f47d0ec9e5c5f700fff2ff8277f6dae72c8",
+          "TimeBuilt": "2025-02-26T19:20:12.7125336+00:00",
+          "EffectiveVersion": "0.0.4.1",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "0.0.4.1": {
+              "TimeReleased": "2025-02-26T19:20:12.7125881+00:00",
+              "Changelog": "Fix crash that happened when TrackOthers was enabled.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "LiteDB",
+                  "Version": "5.0.21"
+                },
+                {
+                  "Key": "System.Buffers",
+                  "Version": "4.5.1"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            }
+          }
+        },
+        "DotCalculator": {
+          "BuiltCommit": "9b597b694a0c3a54db27b5324bcddf91c5e9f107",
+          "TimeBuilt": "2025-02-26T19:20:18.7316001+00:00",
+          "EffectiveVersion": "0.0.3.0",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "0.0.3.0": {
+              "TimeReleased": "2025-02-26T19:20:18.7316016+00:00",
+              "Changelog": "DoT Calculator is a new plugin that attempts to tell you just how salted the earth is.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.Build.Tasks.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Common",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitHub",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitLab",
+                  "Version": "1.1.1"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            }
+          }
+        },
+        "BisBuddy": {
+          "BuiltCommit": "1c9f70eadc092ed9c9b6265af65300931207d523",
+          "TimeBuilt": "2025-02-26T19:20:26.1298071+00:00",
+          "EffectiveVersion": "0.0.3.0",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "0.0.3.0": {
+              "TimeReleased": "2025-02-26T19:20:26.1298086+00:00",
+              "Changelog": "##Initial testing release##\n - Added ability to customize highlight color in config\n - Added search for gearpiece items in inventory\n - Added configurable behavior for matching behavior of auto-assignment\n - resx localization (en impl. only)\n - bugfixes\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "Fastenshtein",
+                  "Version": "1.0.10"
+                },
+                {
+                  "Key": "LinearAssignment",
+                  "Version": "1.2.0"
+                },
+                {
+                  "Key": "Lumina",
+                  "Version": "5.5.0"
+                },
+                {
+                  "Key": "Lumina.Excel",
+                  "Version": "7.1.3"
+                },
+                {
+                  "Key": "Microsoft.Extensions.ObjectPool",
+                  "Version": "9.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            }
+          }
         }
       }
     },
@@ -86705,6 +86818,20 @@
       "Version": "4.1.0",
       "ReviewedBy": "reiichi001",
       "ReviewedAt": "2025-02-26T19:15:32.4244007Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Fastenshtein",
+      "Version": "1.0.10",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2025-02-26T19:20:26.1534355Z"
+    },
+    {
+      "Type": 1,
+      "Key": "LinearAssignment",
+      "Version": "1.2.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2025-02-26T19:20:26.1535017Z"
     }
   ]
 }

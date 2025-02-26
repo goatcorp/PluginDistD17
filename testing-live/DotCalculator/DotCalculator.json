@@ -1,0 +1,23 @@
+{
+  "Author": "Noevain",
+  "Name": "Dot Calculator",
+  "InternalName": "DotCalculator",
+  "AssemblyVersion": "0.0.3.0",
+  "Description": "Show as FlyText or chat prints how much damage the current DoT you have put on the target has dealt",
+  "ApplicableVersion": "any",
+  "Tags": [
+    "DoT",
+    "plugin",
+    "damage"
+  ],
+  "DalamudApiLevel": 11,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "IconUrl": "https://raw.githubusercontent.com/Noevain/DotCalculator/refs/heads/master/images/icon.png",
+  "Punchline": "Show how much damage your DoTs have dealt so far",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "testing-live"
+}
