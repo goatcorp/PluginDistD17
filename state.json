@@ -76828,6 +76828,69 @@
               "Reviewer": "philpax"
             }
           }
+        },
+        "MogMogCheck": {
+          "BuiltCommit": "adf33d27b8e71bf81a9bfcb789d3ac526c37b6e0",
+          "TimeBuilt": "2025-02-26T19:15:32.3942752+00:00",
+          "EffectiveVersion": "3.0.2.0",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "3.0.2.0": {
+              "TimeReleased": "2025-02-26T19:15:32.3943393+00:00",
+              "Changelog": "MogMogCheck is a small plugin to assist you in tracking the rewards of the Moogle Treasure Trove event.",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/Haselnussbomber/HaselCommon.git",
+                  "Version": "85982f6bc48b8a8a4165ebdd40bab8fe7b40e66f"
+                },
+                {
+                  "Key": "AutoCtor",
+                  "Version": "2.5.0"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.25"
+                },
+                {
+                  "Key": "Injectio",
+                  "Version": "4.1.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "9.0.2"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "9.0.2"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging",
+                  "Version": "9.0.2"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "9.0.2"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options",
+                  "Version": "9.0.2"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Primitives",
+                  "Version": "9.0.2"
+                },
+                {
+                  "Key": "System.Diagnostics.DiagnosticSource",
+                  "Version": "9.0.2"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            }
+          }
         }
       }
     },
@@ -86621,6 +86684,27 @@
       "Version": "7445923435a3667090eadf0ef1fdf1efc532285f",
       "ReviewedBy": "reiichi001",
       "ReviewedAt": "2025-02-25T19:47:37.9890647Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/Haselnussbomber/HaselCommon.git",
+      "Version": "85982f6bc48b8a8a4165ebdd40bab8fe7b40e66f",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2025-02-26T19:15:32.4243534Z"
+    },
+    {
+      "Type": 1,
+      "Key": "AutoCtor",
+      "Version": "2.5.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2025-02-26T19:15:32.4243992Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Injectio",
+      "Version": "4.1.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2025-02-26T19:15:32.4244007Z"
     }
   ]
 }
