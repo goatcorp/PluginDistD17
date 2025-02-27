@@ -77328,14 +77328,33 @@
           }
         },
         "Racingway": {
-          "BuiltCommit": "07910f47d0ec9e5c5f700fff2ff8277f6dae72c8",
-          "TimeBuilt": "2025-02-26T19:20:12.7125336+00:00",
-          "EffectiveVersion": "0.0.4.1",
+          "BuiltCommit": "0d0c8d1cd992a080423d5dd11e24988f657c50b8",
+          "TimeBuilt": "2025-02-27T08:07:54.0437693+00:00",
+          "EffectiveVersion": "0.0.4.3",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.4.1": {
               "TimeReleased": "2025-02-26T19:20:12.7125881+00:00",
               "Changelog": "Fix crash that happened when TrackOthers was enabled.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "LiteDB",
+                  "Version": "5.0.21"
+                },
+                {
+                  "Key": "System.Buffers",
+                  "Version": "4.5.1"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            },
+            "0.0.4.3": {
+              "TimeReleased": "2025-02-27T08:07:54.0438229+00:00",
+              "Changelog": "v0.0.4.3 [TESTING]\r\n- Fixed crash when Track Others was enabled\r\n\r\nKnown Issues:\r\n- Need to refresh when importing routes from clipboard\r\n- Triggers displaying incorrectly when a portion is behind the camera\r\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
