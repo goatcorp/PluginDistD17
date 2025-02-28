@@ -5571,9 +5571,9 @@
           }
         },
         "Waitingway.Dalamud": {
-          "BuiltCommit": "c2a38392f96781806e011b67dfbb6dc5ce2c9f44",
-          "TimeBuilt": "2025-02-25T19:47:37.9581162+00:00",
-          "EffectiveVersion": "2.2.95.0",
+          "BuiltCommit": "3da87dc6453493e4c90c87f91101cdf8a31a0a9a",
+          "TimeBuilt": "2025-02-28T22:41:30.1433449+00:00",
+          "EffectiveVersion": "2.2.97.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.2.4": {
@@ -5682,6 +5682,37 @@
             "2.2.95.0": {
               "TimeReleased": "2025-02-25T19:47:37.9581741+00:00",
               "Changelog": "- Changed around some settings\r\n- Added configuration for duty queue notifications\r\n- Fixed crashing when queuing into some non-standard duties\r\n- Waitingway no longer requires you to stay in the support server to receive notifications",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/WorkingRobot/TemporalStasis.git",
+                  "Version": "7445923435a3667090eadf0ef1fdf1efc532285f"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "Humanizer.Core",
+                  "Version": "3.0.0-beta.54"
+                },
+                {
+                  "Key": "Meziantou.Analyzer",
+                  "Version": "2.0.179"
+                },
+                {
+                  "Key": "System.Memory",
+                  "Version": "4.5.5"
+                },
+                {
+                  "Key": "System.ValueTuple",
+                  "Version": "4.5.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            },
+            "2.2.97.0": {
+              "TimeReleased": "2025-02-28T22:41:30.1434104+00:00",
+              "Changelog": "Fixes a configuration bug that causes the plugin to fail to load.",
               "UsedNeeds": [
                 {
                   "Key": "https://github.com/WorkingRobot/TemporalStasis.git",
@@ -60395,9 +60426,9 @@
           }
         },
         "JobTitles": {
-          "BuiltCommit": "166179d59bd17066f4475ad108a26514d37bf918",
-          "TimeBuilt": "2025-02-24T07:24:18.3615484+00:00",
-          "EffectiveVersion": "0.1.2.0",
+          "BuiltCommit": "a8344690d531e9cd0a3b03bff26cc5d4fc1db3ce",
+          "TimeBuilt": "2025-02-28T22:41:36.4131204+00:00",
+          "EffectiveVersion": "0.1.2.1",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.0.0": {
@@ -60505,6 +60536,21 @@
             "0.1.2.0": {
               "TimeReleased": "2025-02-24T07:24:18.3616105+00:00",
               "Changelog": "- Added option to use GARO titles in PVP\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.25"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            },
+            "0.1.2.1": {
+              "TimeReleased": "2025-02-28T22:41:36.4131212+00:00",
+              "Changelog": "- various minor logic fixes\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -77771,9 +77817,9 @@
           }
         },
         "MogMogCheck": {
-          "BuiltCommit": "adf33d27b8e71bf81a9bfcb789d3ac526c37b6e0",
-          "TimeBuilt": "2025-02-26T19:15:32.3942752+00:00",
-          "EffectiveVersion": "3.0.2.0",
+          "BuiltCommit": "9094bcfd50e7e86af73464d14fa70eae9e06d014",
+          "TimeBuilt": "2025-02-28T22:41:47.7460331+00:00",
+          "EffectiveVersion": "3.0.3.0",
           "MinimumVersion": null,
           "Changelogs": {
             "3.0.2.0": {
@@ -77787,6 +77833,61 @@
                 {
                   "Key": "AutoCtor",
                   "Version": "2.5.0"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.25"
+                },
+                {
+                  "Key": "Injectio",
+                  "Version": "4.1.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "9.0.2"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "9.0.2"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging",
+                  "Version": "9.0.2"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "9.0.2"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options",
+                  "Version": "9.0.2"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Primitives",
+                  "Version": "9.0.2"
+                },
+                {
+                  "Key": "System.Diagnostics.DiagnosticSource",
+                  "Version": "9.0.2"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            },
+            "3.0.3.0": {
+              "TimeReleased": "2025-02-28T22:41:47.7460343+00:00",
+              "Changelog": "- **Added:** Items can now be linked in chat.",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/Haselnussbomber/HaselCommon.git",
+                  "Version": "eb6d62682b69ff4771e2b19853adb03ece5a2a42"
+                },
+                {
+                  "Key": "AutoCtor",
+                  "Version": "2.5.1"
                 },
                 {
                   "Key": "DalamudPackager",
@@ -87846,6 +87947,20 @@
       "Version": "87b7a574d775b3b9f445858fb7f614d29c80b144",
       "ReviewedBy": "reiichi001",
       "ReviewedAt": "2025-02-27T20:05:08.8712897Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/Haselnussbomber/HaselCommon.git",
+      "Version": "eb6d62682b69ff4771e2b19853adb03ece5a2a42",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2025-02-28T22:41:47.7643381Z"
+    },
+    {
+      "Type": 1,
+      "Key": "AutoCtor",
+      "Version": "2.5.1",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2025-02-28T22:41:47.7644014Z"
     }
   ]
 }
