@@ -57332,9 +57332,9 @@
           }
         },
         "DragoonMayCry": {
-          "BuiltCommit": "11ead230217e2b880d530ce4153678e2cfe9aa08",
-          "TimeBuilt": "2025-02-02T22:51:41.9841467+00:00",
-          "EffectiveVersion": "1.2.5.0",
+          "BuiltCommit": "2a2bd104f7d84d62a167ebbdb802f6bca91d5991",
+          "TimeBuilt": "2025-02-28T07:21:20.5736914+00:00",
+          "EffectiveVersion": "1.2.6.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -58330,6 +58330,77 @@
                 }
               ],
               "Reviewer": "philpax"
+            },
+            "1.2.6.0": {
+              "TimeReleased": "2025-02-28T07:21:20.5737744+00:00",
+              "Changelog": "Added commands\n\u0060dmc bgm\u0060 toggles dynamic BGM on / off (global setting)\n\u0060dmc job\u0060 toggles the plugin on / off for the current job (music \u002B gauge)\n",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/Felscream/KamiLib",
+                  "Version": "42c1720b042c69763c6787c409ab0efd342aaf86"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "NAudio",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Vorbis",
+                  "Version": "1.5.0"
+                },
+                {
+                  "Key": "Microsoft.NETCore.Platforms",
+                  "Version": "3.1.0"
+                },
+                {
+                  "Key": "Microsoft.Win32.Registry",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "NAudio.Asio",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Core",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Midi",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Wasapi",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.WinMM",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NVorbis",
+                  "Version": "0.10.4"
+                },
+                {
+                  "Key": "System.Memory",
+                  "Version": "4.5.3"
+                },
+                {
+                  "Key": "System.Security.AccessControl",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "System.Security.Principal.Windows",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "System.ValueTuple",
+                  "Version": "4.5.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
@@ -77763,9 +77834,9 @@
           }
         },
         "Racingway": {
-          "BuiltCommit": "0d0c8d1cd992a080423d5dd11e24988f657c50b8",
-          "TimeBuilt": "2025-02-27T08:07:54.0437693+00:00",
-          "EffectiveVersion": "0.0.4.3",
+          "BuiltCommit": "e48b7686a3b9b08a246e6b8fb5ddb4dc4e145426",
+          "TimeBuilt": "2025-02-28T07:21:29.7636311+00:00",
+          "EffectiveVersion": "0.0.4.5",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.4.1": {
@@ -77790,6 +77861,25 @@
             "0.0.4.3": {
               "TimeReleased": "2025-02-27T08:07:54.0438229+00:00",
               "Changelog": "v0.0.4.3 [TESTING]\r\n- Fixed crash when Track Others was enabled\r\n\r\nKnown Issues:\r\n- Need to refresh when importing routes from clipboard\r\n- Triggers displaying incorrectly when a portion is behind the camera\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "LiteDB",
+                  "Version": "5.0.21"
+                },
+                {
+                  "Key": "System.Buffers",
+                  "Version": "4.5.1"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            },
+            "0.0.4.5": {
+              "TimeReleased": "2025-02-28T07:21:29.7636319+00:00",
+              "Changelog": "v0.0.4.5 [TESTING]\r\n- Fixed tracking characters that aren\u0027t players.\r\n- Added about tab with links to github, Strange Housing, and Ko-fi\r\n- Added warning about database being deleted.\r\n\r\nKnown Issues:\r\n- Need to refresh when importing routes from clipboard\r\n- Triggers displaying incorrectly when a portion is behind the camera\r\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
