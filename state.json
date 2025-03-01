@@ -40391,9 +40391,9 @@
           }
         },
         "CurrencyAlert": {
-          "BuiltCommit": "62f89e9dd4734efcbc054049a7a9cbf3dcde11de",
-          "TimeBuilt": "2025-02-24T00:35:58.9348604+00:00",
-          "EffectiveVersion": "2.2.0.5",
+          "BuiltCommit": "cc5d879396d1254345101cebef8b70ddd68388eb",
+          "TimeBuilt": "2025-03-01T13:26:48.8398263+00:00",
+          "EffectiveVersion": "2.2.0.6",
           "MinimumVersion": null,
           "Changelogs": {
             "0.4.0.0": {
@@ -40659,6 +40659,69 @@
                 }
               ],
               "Reviewer": "reiichi001"
+            },
+            "2.2.0.6": {
+              "TimeReleased": "2025-03-01T13:26:48.8398793+00:00",
+              "Changelog": "Fix border not rendering correctly",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiLib.git",
+                  "Version": "c96ee4d7007f69568400dcf427e992c4abc0ce42"
+                },
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit.git",
+                  "Version": "6aabf5f3306a2d663d0b91e675efabf1c6aa2a29"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "NetStone",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "HtmlAgilityPack",
+                  "Version": "1.11.46"
+                },
+                {
+                  "Key": "Karashiiro.HtmlAgilityPack.CssSelectors.NetCoreFork",
+                  "Version": "0.0.2"
+                },
+                {
+                  "Key": "Microsoft.Build.Tasks.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Common",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitHub",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitLab",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.3"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "philpax"
             }
           }
         },
@@ -61579,9 +61642,9 @@
           }
         },
         "Altoholic": {
-          "BuiltCommit": "311f18f3a89d0519a80eb2ab0f5b427a26eb8971",
-          "TimeBuilt": "2025-02-20T05:22:40.126699+00:00",
-          "EffectiveVersion": "0.0.0.34",
+          "BuiltCommit": "573fa3d43acc206dbd605aff5562afae76f737b1",
+          "TimeBuilt": "2025-03-01T13:27:03.2854603+00:00",
+          "EffectiveVersion": "0.0.0.35",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.0.1": {
@@ -62681,6 +62744,57 @@
                 }
               ],
               "Reviewer": "reiichi001"
+            },
+            "0.0.0.35": {
+              "TimeReleased": "2025-03-01T13:27:03.2854622+00:00",
+              "Changelog": "- **Currencies**: Add missing currency separator in currency all and retainer all\n- **General**: Fix blacklisted warning on blacklisted character when trying to open altoholic\n- **Progress**: Fix wrong mount id for moogle event Phantasmagoria for legendary kamuy\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "Dapper",
+                  "Version": "2.1.35"
+                },
+                {
+                  "Key": "LiteDB",
+                  "Version": "5.0.21"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite",
+                  "Version": "9.0.1"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite.Core",
+                  "Version": "9.0.1"
+                },
+                {
+                  "Key": "SQLitePCLRaw.bundle_e_sqlite3",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.core",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.lib.e_sqlite3",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.provider.e_sqlite3",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "System.Buffers",
+                  "Version": "4.5.1"
+                },
+                {
+                  "Key": "System.Memory",
+                  "Version": "4.5.3"
+                }
+              ],
+              "Reviewer": "philpax"
             }
           }
         },
@@ -88403,6 +88517,20 @@
       "Version": "bc44ed40502b2576db405c4d8e99831b2060c418",
       "ReviewedBy": "reiichi001",
       "ReviewedAt": "2025-02-28T22:49:02.7452033Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/MidoriKami/KamiLib.git",
+      "Version": "c96ee4d7007f69568400dcf427e992c4abc0ce42",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2025-03-01T13:26:48.8707304Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/MidoriKami/KamiToolKit.git",
+      "Version": "6aabf5f3306a2d663d0b91e675efabf1c6aa2a29",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2025-03-01T13:26:48.8707817Z"
     }
   ]
 }
