@@ -18167,9 +18167,9 @@
           }
         },
         "Wholist": {
-          "BuiltCommit": "0ad16f6cc613ea5de2380817ea21858d010b81b1",
-          "TimeBuilt": "2025-02-18T19:26:12.3976216+00:00",
-          "EffectiveVersion": "1.8.2.1",
+          "BuiltCommit": "7e2ded404f24a07b92efdc257086eee9c734b3bc",
+          "TimeBuilt": "2025-03-03T02:12:10.2303754+00:00",
+          "EffectiveVersion": "1.9.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -18528,6 +18528,53 @@
             "1.8.2.1": {
               "TimeReleased": "2025-02-18T19:26:12.397927+00:00",
               "Changelog": "Fixes showing a broken \u0022adventurer\u0022 player when disabling the minimum level filter.",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/Blooym/Sirensong.git",
+                  "Version": "4f5c022082172cea7177b4fb49b0e808330539bf"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "BitFaster.Caching",
+                  "Version": "2.4.1"
+                },
+                {
+                  "Key": "Microsoft.Build.Tasks.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Common",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitHub",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitLab",
+                  "Version": "1.1.1"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            },
+            "1.9.0.0": {
+              "TimeReleased": "2025-03-03T02:12:10.2304351+00:00",
+              "Changelog": "- New feature: show the number of nearby players in the server info bar, click to open the main UI. This is enabled by default, but can be disabled by navigating to the \u0022Server Info\u0022 tab in Dalamud Settings and unchecking \u0022Nearby Player Count\u0022. Thanks Gwen for doing the German translations for this feature ahead of time \u003C3\r\n- Bug fix: the \u0022add to blacklist\u0022 context menu item will be disabled if the player in question is on your friends list. ",
               "UsedNeeds": [
                 {
                   "Key": "https://github.com/Blooym/Sirensong.git",
@@ -72443,9 +72490,9 @@
           }
         },
         "GlamourSpamRemover": {
-          "BuiltCommit": "107ffe9326600c6209f497db59cca7e4a4f8772c",
-          "TimeBuilt": "2024-11-26T06:03:41.5533038+00:00",
-          "EffectiveVersion": "1.2.3.0",
+          "BuiltCommit": "608f82ebec6f16855e12a039b90164c09fe5df0d",
+          "TimeBuilt": "2025-03-03T02:12:24.4624468+00:00",
+          "EffectiveVersion": "1.2.4.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.1": {
@@ -72503,6 +72550,17 @@
                 }
               ],
               "Reviewer": "philpax"
+            },
+            "1.2.4.0": {
+              "TimeReleased": "2025-03-03T02:12:24.4624478+00:00",
+              "Changelog": "Added Korean language support. Thank you, pb29!",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
@@ -78744,9 +78802,9 @@
           }
         },
         "BisBuddy": {
-          "BuiltCommit": "1c9f70eadc092ed9c9b6265af65300931207d523",
-          "TimeBuilt": "2025-02-26T19:20:26.1298071+00:00",
-          "EffectiveVersion": "0.0.3.0",
+          "BuiltCommit": "49fa67b3fd48557688475ee6b4e229fad0a681ff",
+          "TimeBuilt": "2025-03-03T02:12:19.2047924+00:00",
+          "EffectiveVersion": "0.1.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.3.0": {
@@ -78776,6 +78834,53 @@
                 {
                   "Key": "Microsoft.Extensions.ObjectPool",
                   "Version": "9.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            },
+            "0.1.0.0": {
+              "TimeReleased": "2025-03-03T02:12:19.2047937+00:00",
+              "Changelog": "**Version 0.1.0.0**\n - Complete rewrite of item prerequisite system to support more sources\n - Use LuminaSupplemental for coffer contents\n - Indent gearpieces in UI for increased readability\n - Increase initial main window size\n - Fix bug where changes would not save if no gearset changes were applied\n - Fix assignment handling for gearpieces with empty materia slots\n - Fix incorrect gearpiece display color when unobtainable\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "Fastenshtein",
+                  "Version": "1.0.10"
+                },
+                {
+                  "Key": "LinearAssignment",
+                  "Version": "1.2.0"
+                },
+                {
+                  "Key": "Lumina",
+                  "Version": "5.5.0"
+                },
+                {
+                  "Key": "Lumina.Excel",
+                  "Version": "7.1.3"
+                },
+                {
+                  "Key": "LuminaSupplemental.Excel",
+                  "Version": "2.2.4"
+                },
+                {
+                  "Key": "Microsoft.Extensions.ObjectPool",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "CSVFile",
+                  "Version": "3.2.0"
+                },
+                {
+                  "Key": "CsvHelper",
+                  "Version": "30.0.1"
+                },
+                {
+                  "Key": "Sylvan.Data.Csv",
+                  "Version": "1.3.9"
                 }
               ],
               "Reviewer": "reiichi001"
@@ -88679,6 +88784,13 @@
       "Version": "6aabf5f3306a2d663d0b91e675efabf1c6aa2a29",
       "ReviewedBy": "philpax",
       "ReviewedAt": "2025-03-01T13:26:48.8707817Z"
+    },
+    {
+      "Type": 1,
+      "Key": "LuminaSupplemental.Excel",
+      "Version": "2.2.4",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2025-03-03T02:12:19.2275002Z"
     }
   ]
 }
