@@ -59282,9 +59282,9 @@
           }
         },
         "VenueManager": {
-          "BuiltCommit": "22454057c578a3736deccc8160d7afce35ff0c74",
-          "TimeBuilt": "2025-02-08T15:56:44.9744388+00:00",
-          "EffectiveVersion": "2.5.1",
+          "BuiltCommit": "9c3fcb59113a3fa5786270410ec683429d08776a",
+          "TimeBuilt": "2025-03-03T01:50:10.0367577+00:00",
+          "EffectiveVersion": "2.5.2",
           "MinimumVersion": null,
           "Changelogs": {
             "2.3.4": {
@@ -59481,6 +59481,45 @@
                 }
               ],
               "Reviewer": "philpax"
+            },
+            "2.5.2": {
+              "TimeReleased": "2025-03-03T01:50:10.0368403+00:00",
+              "Changelog": "\r\n- Another fix for district detection to be more accurate with new house interior features\r\n\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "JsonPoke.MSBuild",
+                  "Version": "1.0.9"
+                },
+                {
+                  "Key": "NAudio",
+                  "Version": "1.10.0"
+                },
+                {
+                  "Key": "Microsoft.NETCore.Platforms",
+                  "Version": "3.1.0"
+                },
+                {
+                  "Key": "Microsoft.Win32.Registry",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "System.Resources.Extensions",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "System.Security.AccessControl",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "System.Security.Principal.Windows",
+                  "Version": "4.7.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
@@ -59667,9 +59706,9 @@
           }
         },
         "ChatContext": {
-          "BuiltCommit": "f9c3aa52c80d86a9fd2d22d399eaf5f88ec9fe84",
-          "TimeBuilt": "2025-01-13T00:44:29.5036757+00:00",
-          "EffectiveVersion": "0.0.1.2",
+          "BuiltCommit": "fac9016a5c290a4b8aeb044e98f5a7a6eef6c8f5",
+          "TimeBuilt": "2025-03-03T01:50:15.1756379+00:00",
+          "EffectiveVersion": "0.0.1.3",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.0.2": {
@@ -59704,6 +59743,17 @@
                 }
               ],
               "Reviewer": "philpax"
+            },
+            "0.0.1.3": {
+              "TimeReleased": "2025-03-03T01:50:15.1756391+00:00",
+              "Changelog": " - Fix crash when main window is partially out of screen",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
@@ -78366,9 +78416,9 @@
           }
         },
         "MogMogCheck": {
-          "BuiltCommit": "9094bcfd50e7e86af73464d14fa70eae9e06d014",
-          "TimeBuilt": "2025-02-28T22:41:47.7460331+00:00",
-          "EffectiveVersion": "3.0.3.0",
+          "BuiltCommit": "646305291a012d8434543f998c711e9733a2ead8",
+          "TimeBuilt": "2025-03-03T01:50:25.4001862+00:00",
+          "EffectiveVersion": "3.1.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "3.0.2.0": {
@@ -78429,6 +78479,61 @@
             "3.0.3.0": {
               "TimeReleased": "2025-02-28T22:41:47.7460343+00:00",
               "Changelog": "- **Added:** Items can now be linked in chat.",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/Haselnussbomber/HaselCommon.git",
+                  "Version": "eb6d62682b69ff4771e2b19853adb03ece5a2a42"
+                },
+                {
+                  "Key": "AutoCtor",
+                  "Version": "2.5.1"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.25"
+                },
+                {
+                  "Key": "Injectio",
+                  "Version": "4.1.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "9.0.2"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "9.0.2"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging",
+                  "Version": "9.0.2"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "9.0.2"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options",
+                  "Version": "9.0.2"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Primitives",
+                  "Version": "9.0.2"
+                },
+                {
+                  "Key": "System.Diagnostics.DiagnosticSource",
+                  "Version": "9.0.2"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            },
+            "3.1.0.0": {
+              "TimeReleased": "2025-03-03T01:50:25.4001872+00:00",
+              "Changelog": "- **Added:** Equipable items for \u0022All Classes\u0022 will now show a check mark if they are in any Inventory or the Glamour Dresser.",
               "UsedNeeds": [
                 {
                   "Key": "https://github.com/Haselnussbomber/HaselCommon.git",
