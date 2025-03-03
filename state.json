@@ -18167,9 +18167,9 @@
           }
         },
         "Wholist": {
-          "BuiltCommit": "7e2ded404f24a07b92efdc257086eee9c734b3bc",
-          "TimeBuilt": "2025-03-03T02:12:10.2303754+00:00",
-          "EffectiveVersion": "1.9.0.0",
+          "BuiltCommit": "eed830f38b385b8c83aeb4b4289acdb80ab78b7e",
+          "TimeBuilt": "2025-03-03T19:43:00.9616546+00:00",
+          "EffectiveVersion": "1.9.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -18575,6 +18575,53 @@
             "1.9.0.0": {
               "TimeReleased": "2025-03-03T02:12:10.2304351+00:00",
               "Changelog": "- New feature: show the number of nearby players in the server info bar, click to open the main UI. This is enabled by default, but can be disabled by navigating to the \u0022Server Info\u0022 tab in Dalamud Settings and unchecking \u0022Nearby Player Count\u0022. Thanks Gwen for doing the German translations for this feature ahead of time \u003C3\r\n- Bug fix: the \u0022add to blacklist\u0022 context menu item will be disabled if the player in question is on your friends list. ",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/Blooym/Sirensong.git",
+                  "Version": "4f5c022082172cea7177b4fb49b0e808330539bf"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "BitFaster.Caching",
+                  "Version": "2.4.1"
+                },
+                {
+                  "Key": "Microsoft.Build.Tasks.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Common",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitHub",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitLab",
+                  "Version": "1.1.1"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            },
+            "1.9.1.0": {
+              "TimeReleased": "2025-03-03T19:43:00.9617094+00:00",
+              "Changelog": "nofranz\r\n\r\nMoves processing of DTR nearby players to run on framework updates and disables the nearby player count in PvP just to be safe.",
               "UsedNeeds": [
                 {
                   "Key": "https://github.com/Blooym/Sirensong.git",
@@ -61739,9 +61786,9 @@
           }
         },
         "Altoholic": {
-          "BuiltCommit": "573fa3d43acc206dbd605aff5562afae76f737b1",
-          "TimeBuilt": "2025-03-01T13:27:03.2854603+00:00",
-          "EffectiveVersion": "0.0.0.35",
+          "BuiltCommit": "217f9fb04ed857a4a8ef89b6417ce0d6bb77db06",
+          "TimeBuilt": "2025-03-03T19:43:21.1377043+00:00",
+          "EffectiveVersion": "0.0.0.36",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.0.1": {
@@ -62892,6 +62939,57 @@
                 }
               ],
               "Reviewer": "philpax"
+            },
+            "0.0.0.36": {
+              "TimeReleased": "2025-03-03T19:43:21.1377059+00:00",
+              "Changelog": "- **Progress**: Adding Little Ladies\u0027 Day 2025 event\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "Dapper",
+                  "Version": "2.1.35"
+                },
+                {
+                  "Key": "LiteDB",
+                  "Version": "5.0.21"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite",
+                  "Version": "9.0.1"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite.Core",
+                  "Version": "9.0.1"
+                },
+                {
+                  "Key": "SQLitePCLRaw.bundle_e_sqlite3",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.core",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.lib.e_sqlite3",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.provider.e_sqlite3",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "System.Buffers",
+                  "Version": "4.5.1"
+                },
+                {
+                  "Key": "System.Memory",
+                  "Version": "4.5.3"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
@@ -78740,9 +78838,9 @@
           }
         },
         "MogMogCheck": {
-          "BuiltCommit": "646305291a012d8434543f998c711e9733a2ead8",
-          "TimeBuilt": "2025-03-03T01:50:25.4001862+00:00",
-          "EffectiveVersion": "3.1.0.0",
+          "BuiltCommit": "6a9bf1b035bd1b16b88f13f3be6db452c54b37a3",
+          "TimeBuilt": "2025-03-03T19:43:40.8531676+00:00",
+          "EffectiveVersion": "3.2.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "3.0.2.0": {
@@ -78909,6 +79007,61 @@
                 }
               ],
               "Reviewer": "reiichi001"
+            },
+            "3.2.0.0": {
+              "TimeReleased": "2025-03-03T19:43:40.853169+00:00",
+              "Changelog": "- **Added:** The MogMogCheck window now automatically opens when the Item Exchange Shop is opened (only for the current event). This can be disabled with the new config option \u0022Open/Close with Shop window\u0022 (default on).\r\n- **Added:** An option to \u0022Automatically turn off tracking for purchased rewards\u0022 (default on). This requires the Checkbox-Mode to be enabled.\r\n- **Added:** An option to \u0022Gray out collected items\u0022 (default off).\r\n- **Fixed:** The checkmark for collected equippable items for \u0022All Classes\u0022 will also show when the data is not fresh.\r\n- **Fixed:** To get an accurate collected status the item quantity cache is now cleared when logged in and when opening the MogMogCheck window.\r\n- **Fixed:** The MogMogCheck window is no longer focused when opened with the Mogpendium.",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/Haselnussbomber/HaselCommon.git",
+                  "Version": "e7d598576676b425ef4fbbf367512c820345c5a1"
+                },
+                {
+                  "Key": "AutoCtor",
+                  "Version": "2.5.2"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.25"
+                },
+                {
+                  "Key": "Injectio",
+                  "Version": "4.1.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "9.0.2"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "9.0.2"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging",
+                  "Version": "9.0.2"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "9.0.2"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options",
+                  "Version": "9.0.2"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Primitives",
+                  "Version": "9.0.2"
+                },
+                {
+                  "Key": "System.Diagnostics.DiagnosticSource",
+                  "Version": "9.0.2"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
@@ -79025,9 +79178,9 @@
           }
         },
         "BisBuddy": {
-          "BuiltCommit": "49fa67b3fd48557688475ee6b4e229fad0a681ff",
-          "TimeBuilt": "2025-03-03T02:12:19.2047924+00:00",
-          "EffectiveVersion": "0.1.0.0",
+          "BuiltCommit": "90f83ac47c0b976ec546b8ad411390271acded61",
+          "TimeBuilt": "2025-03-03T19:43:29.8541881+00:00",
+          "EffectiveVersion": "0.1.0.1",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.3.0": {
@@ -79064,6 +79217,53 @@
             "0.1.0.0": {
               "TimeReleased": "2025-03-03T02:12:19.2047937+00:00",
               "Changelog": "**Version 0.1.0.0**\n - Complete rewrite of item prerequisite system to support more sources\n - Use LuminaSupplemental for coffer contents\n - Indent gearpieces in UI for increased readability\n - Increase initial main window size\n - Fix bug where changes would not save if no gearset changes were applied\n - Fix assignment handling for gearpieces with empty materia slots\n - Fix incorrect gearpiece display color when unobtainable\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "Fastenshtein",
+                  "Version": "1.0.10"
+                },
+                {
+                  "Key": "LinearAssignment",
+                  "Version": "1.2.0"
+                },
+                {
+                  "Key": "Lumina",
+                  "Version": "5.5.0"
+                },
+                {
+                  "Key": "Lumina.Excel",
+                  "Version": "7.1.3"
+                },
+                {
+                  "Key": "LuminaSupplemental.Excel",
+                  "Version": "2.2.4"
+                },
+                {
+                  "Key": "Microsoft.Extensions.ObjectPool",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "CSVFile",
+                  "Version": "3.2.0"
+                },
+                {
+                  "Key": "CsvHelper",
+                  "Version": "30.0.1"
+                },
+                {
+                  "Key": "Sylvan.Data.Csv",
+                  "Version": "1.3.9"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            },
+            "0.1.0.1": {
+              "TimeReleased": "2025-03-03T19:43:29.8541894+00:00",
+              "Changelog": "**Version 0.1.0.1**\n - Fix config migration not updating version\n - Fix web imports of gearsets with no gearpieces\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -89231,6 +89431,20 @@
       "Version": "9.0.1",
       "ReviewedBy": "reiichi001",
       "ReviewedAt": "2025-03-03T02:53:19.2535509Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/Haselnussbomber/HaselCommon.git",
+      "Version": "e7d598576676b425ef4fbbf367512c820345c5a1",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2025-03-03T19:43:40.8682802Z"
+    },
+    {
+      "Type": 1,
+      "Key": "AutoCtor",
+      "Version": "2.5.2",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2025-03-03T19:43:40.8683376Z"
     }
   ]
 }
