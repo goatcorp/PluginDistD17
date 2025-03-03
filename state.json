@@ -74311,9 +74311,9 @@
           }
         },
         "AbsoluteRoleplay": {
-          "BuiltCommit": "1225131ae56628bf3a7a02425adb88b2dec80383",
-          "TimeBuilt": "2024-12-03T21:24:54.9439799+00:00",
-          "EffectiveVersion": "0.0.0.18",
+          "BuiltCommit": "6ecde8c91b922c0c1d27cb3dbca77258c1d30a89",
+          "TimeBuilt": "2025-03-03T02:53:19.222651+00:00",
+          "EffectiveVersion": "0.0.0.19",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.0.1": {
@@ -75969,6 +75969,229 @@
                 }
               ],
               "Reviewer": "philpax"
+            },
+            "0.0.0.19": {
+              "TimeReleased": "2025-03-03T02:53:19.2227071+00:00",
+              "Changelog": "Added more options for tooltips to disable when bound to pvp or duty as well as a new profile preview button.",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/Ottermandias/OtterGui.git",
+                  "Version": "c2738e1d42974cddbe5a31238c6ed236a831d17d"
+                },
+                {
+                  "Key": "https://github.com/Ottermandias/OtterGuiInternal.git",
+                  "Version": "89d145286c148f6cb23ef6f7757e5f750a71e223"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "K4os.Compression.LZ4",
+                  "Version": "1.3.8"
+                },
+                {
+                  "Key": "K4os.Compression.LZ4.Legacy",
+                  "Version": "1.3.8"
+                },
+                {
+                  "Key": "Lumina",
+                  "Version": "5.6.0"
+                },
+                {
+                  "Key": "Lumina.Excel",
+                  "Version": "7.1.3"
+                },
+                {
+                  "Key": "MessagePack",
+                  "Version": "3.1.1"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.SignalR.Client",
+                  "Version": "9.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Hosting.Abstractions",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging",
+                  "Version": "9.0.1"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.3"
+                },
+                {
+                  "Key": "NReco.Logging.File",
+                  "Version": "1.2.2"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.6"
+                },
+                {
+                  "Key": "System.Drawing.Common",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "System.IdentityModel.Tokens.Jwt",
+                  "Version": "8.3.1"
+                },
+                {
+                  "Key": "JetBrains.Annotations",
+                  "Version": "2023.3.0"
+                },
+                {
+                  "Key": "MessagePack.Annotations",
+                  "Version": "3.1.1"
+                },
+                {
+                  "Key": "MessagePackAnalyzer",
+                  "Version": "3.1.1"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.Connections.Abstractions",
+                  "Version": "9.0.1"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.Http.Connections.Client",
+                  "Version": "9.0.1"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.Http.Connections.Common",
+                  "Version": "9.0.1"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.SignalR.Client.Core",
+                  "Version": "9.0.1"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.SignalR.Common",
+                  "Version": "9.0.1"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.SignalR.Protocols.Json",
+                  "Version": "9.0.1"
+                },
+                {
+                  "Key": "Microsoft.Bcl.AsyncInterfaces",
+                  "Version": "9.0.1"
+                },
+                {
+                  "Key": "Microsoft.Bcl.Memory",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "Microsoft.Bcl.TimeProvider",
+                  "Version": "9.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Abstractions",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Binder",
+                  "Version": "8.0.2"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "9.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "9.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Diagnostics.Abstractions",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Features",
+                  "Version": "9.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileProviders.Abstractions",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "9.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Configuration",
+                  "Version": "8.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.ObjectPool",
+                  "Version": "8.0.7"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options",
+                  "Version": "9.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options.ConfigurationExtensions",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Primitives",
+                  "Version": "9.0.1"
+                },
+                {
+                  "Key": "Microsoft.IdentityModel.Abstractions",
+                  "Version": "8.3.1"
+                },
+                {
+                  "Key": "Microsoft.IdentityModel.JsonWebTokens",
+                  "Version": "8.3.1"
+                },
+                {
+                  "Key": "Microsoft.IdentityModel.Logging",
+                  "Version": "8.3.1"
+                },
+                {
+                  "Key": "Microsoft.IdentityModel.Tokens",
+                  "Version": "8.3.1"
+                },
+                {
+                  "Key": "Microsoft.NET.StringTools",
+                  "Version": "17.11.4"
+                },
+                {
+                  "Key": "Microsoft.Win32.SystemEvents",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "System.Diagnostics.DiagnosticSource",
+                  "Version": "9.0.1"
+                },
+                {
+                  "Key": "System.IO.Pipelines",
+                  "Version": "9.0.1"
+                },
+                {
+                  "Key": "System.Net.ServerSentEvents",
+                  "Version": "9.0.1"
+                },
+                {
+                  "Key": "System.Text.Encodings.Web",
+                  "Version": "9.0.1"
+                },
+                {
+                  "Key": "System.Text.Json",
+                  "Version": "9.0.1"
+                },
+                {
+                  "Key": "System.Threading.Channels",
+                  "Version": "9.0.1"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
@@ -88791,6 +89014,223 @@
       "Version": "2.2.4",
       "ReviewedBy": "reiichi001",
       "ReviewedAt": "2025-03-03T02:12:19.2275002Z"
+    },
+    {
+      "Type": 1,
+      "Key": "K4os.Compression.LZ4",
+      "Version": "1.3.8",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2025-03-03T02:53:19.2534969Z"
+    },
+    {
+      "Type": 1,
+      "Key": "K4os.Compression.LZ4.Legacy",
+      "Version": "1.3.8",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2025-03-03T02:53:19.2535433Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.AspNetCore.SignalR.Client",
+      "Version": "9.0.1",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2025-03-03T02:53:19.2535439Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Extensions.Logging",
+      "Version": "9.0.1",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2025-03-03T02:53:19.2535441Z"
+    },
+    {
+      "Type": 1,
+      "Key": "NReco.Logging.File",
+      "Version": "1.2.2",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2025-03-03T02:53:19.2535443Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.IdentityModel.Tokens.Jwt",
+      "Version": "8.3.1",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2025-03-03T02:53:19.2535458Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.AspNetCore.Connections.Abstractions",
+      "Version": "9.0.1",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2025-03-03T02:53:19.2535462Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.AspNetCore.Http.Connections.Client",
+      "Version": "9.0.1",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2025-03-03T02:53:19.2535464Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.AspNetCore.Http.Connections.Common",
+      "Version": "9.0.1",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2025-03-03T02:53:19.2535465Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.AspNetCore.SignalR.Client.Core",
+      "Version": "9.0.1",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2025-03-03T02:53:19.2535467Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.AspNetCore.SignalR.Common",
+      "Version": "9.0.1",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2025-03-03T02:53:19.2535469Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.AspNetCore.SignalR.Protocols.Json",
+      "Version": "9.0.1",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2025-03-03T02:53:19.253547Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Bcl.AsyncInterfaces",
+      "Version": "9.0.1",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2025-03-03T02:53:19.2535472Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Bcl.Memory",
+      "Version": "9.0.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2025-03-03T02:53:19.2535473Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Bcl.TimeProvider",
+      "Version": "9.0.1",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2025-03-03T02:53:19.2535475Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Extensions.DependencyInjection",
+      "Version": "9.0.1",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2025-03-03T02:53:19.253548Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+      "Version": "9.0.1",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2025-03-03T02:53:19.2535481Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Extensions.Features",
+      "Version": "9.0.1",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2025-03-03T02:53:19.2535484Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Extensions.Logging.Abstractions",
+      "Version": "9.0.1",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2025-03-03T02:53:19.2535487Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Extensions.Options",
+      "Version": "9.0.1",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2025-03-03T02:53:19.2535491Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Extensions.Primitives",
+      "Version": "9.0.1",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2025-03-03T02:53:19.2535493Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.IdentityModel.Abstractions",
+      "Version": "8.3.1",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2025-03-03T02:53:19.2535494Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.IdentityModel.JsonWebTokens",
+      "Version": "8.3.1",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2025-03-03T02:53:19.2535495Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.IdentityModel.Logging",
+      "Version": "8.3.1",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2025-03-03T02:53:19.2535497Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.IdentityModel.Tokens",
+      "Version": "8.3.1",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2025-03-03T02:53:19.2535499Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Diagnostics.DiagnosticSource",
+      "Version": "9.0.1",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2025-03-03T02:53:19.2535501Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.IO.Pipelines",
+      "Version": "9.0.1",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2025-03-03T02:53:19.2535503Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Net.ServerSentEvents",
+      "Version": "9.0.1",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2025-03-03T02:53:19.2535504Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Text.Encodings.Web",
+      "Version": "9.0.1",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2025-03-03T02:53:19.2535506Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Text.Json",
+      "Version": "9.0.1",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2025-03-03T02:53:19.2535508Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Threading.Channels",
+      "Version": "9.0.1",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2025-03-03T02:53:19.2535509Z"
     }
   ]
 }
