@@ -25799,9 +25799,9 @@
           }
         },
         "Eventy": {
-          "BuiltCommit": "acb5d65566e027a8c635be4cfde6e9a708671824",
-          "TimeBuilt": "2025-01-16T20:43:02.4272183+00:00",
-          "EffectiveVersion": "1.0.2.3",
+          "BuiltCommit": "a828237af281bc4c4e4b6ab79ca4a579695b3fbc",
+          "TimeBuilt": "2025-03-05T04:53:54.3318114+00:00",
+          "EffectiveVersion": "1.0.3.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.2.0": {
@@ -25847,6 +25847,17 @@
                 }
               ],
               "Reviewer": "philpax"
+            },
+            "1.0.3.0": {
+              "TimeReleased": "2025-03-05T04:53:54.331866+00:00",
+              "Changelog": "- Allow for events to be marked as completed\r\n- Add option to still display completed events",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
