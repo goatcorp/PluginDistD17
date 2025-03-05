@@ -61478,9 +61478,9 @@
           }
         },
         "MogMogCheck": {
-          "BuiltCommit": "6a9bf1b035bd1b16b88f13f3be6db452c54b37a3",
-          "TimeBuilt": "2025-03-05T19:13:46.4560394+00:00",
-          "EffectiveVersion": "3.2.0.0",
+          "BuiltCommit": "c7775142445b546e2871fe832df0fa9efbfca3e0",
+          "TimeBuilt": "2025-03-05T20:55:35.2785131+00:00",
+          "EffectiveVersion": "3.2.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "3.2.0.0": {
@@ -61537,6 +61537,61 @@
                 }
               ],
               "Reviewer": "reiichi001"
+            },
+            "3.2.1.0": {
+              "TimeReleased": "2025-03-05T20:55:35.2785682+00:00",
+              "Changelog": "Stable release of MogMogCheck, a small plugin to assist you in tracking the rewards of the Moogle Treasure Trove event.",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/Haselnussbomber/HaselCommon.git",
+                  "Version": "e7d598576676b425ef4fbbf367512c820345c5a1"
+                },
+                {
+                  "Key": "AutoCtor",
+                  "Version": "2.5.2"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.25"
+                },
+                {
+                  "Key": "Injectio",
+                  "Version": "4.1.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "9.0.2"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "9.0.2"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging",
+                  "Version": "9.0.2"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "9.0.2"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options",
+                  "Version": "9.0.2"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Primitives",
+                  "Version": "9.0.2"
+                },
+                {
+                  "Key": "System.Diagnostics.DiagnosticSource",
+                  "Version": "9.0.2"
+                }
+              ],
+              "Reviewer": "goaaats"
             }
           }
         }
