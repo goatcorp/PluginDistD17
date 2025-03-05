@@ -44053,9 +44053,9 @@
           }
         },
         "ChatTranslated": {
-          "BuiltCommit": "ce9ea6065ea386a65e8cb835effdd86c8fee1d04",
-          "TimeBuilt": "2024-12-03T21:24:23.1018674+00:00",
-          "EffectiveVersion": "3.3.1.0",
+          "BuiltCommit": "f392de595e92775f6eac52eb7fc97e3d500aac46",
+          "TimeBuilt": "2025-03-05T19:13:35.0729947+00:00",
+          "EffectiveVersion": "3.3.2.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.2.0.0": {
@@ -44384,6 +44384,21 @@
                 }
               ],
               "Reviewer": "philpax"
+            },
+            "3.3.2.0": {
+              "TimeReleased": "2025-03-05T19:13:35.073053+00:00",
+              "Changelog": "Fix broken deepl translate.\r\nGoogle translate quality dropped. Use bing for backup for now.\r\nBump GTranslate.\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "GTranslate",
+                  "Version": "2.3.0"
+                }
+              ],
+              "Reviewer": "reiichi001"
             }
           }
         },
@@ -61456,6 +61471,69 @@
                 {
                   "Key": "DotNet.ReproducibleBuilds",
                   "Version": "1.2.25"
+                }
+              ],
+              "Reviewer": "reiichi001"
+            }
+          }
+        },
+        "MogMogCheck": {
+          "BuiltCommit": "6a9bf1b035bd1b16b88f13f3be6db452c54b37a3",
+          "TimeBuilt": "2025-03-05T19:13:46.4560394+00:00",
+          "EffectiveVersion": "3.2.0.0",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "3.2.0.0": {
+              "TimeReleased": "2025-03-05T19:13:46.4560423+00:00",
+              "Changelog": "Sightseeingway is a small plugin to automatically rename FFXIV screenshots, adding character name, map name, and coordinates to the filename.\r\n\r\nThis addon helps keep growing screenshot collections organized, especially for gpose enthusiasts who want to easily track and revisit scenic locations.\r\n\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/Haselnussbomber/HaselCommon.git",
+                  "Version": "e7d598576676b425ef4fbbf367512c820345c5a1"
+                },
+                {
+                  "Key": "AutoCtor",
+                  "Version": "2.5.2"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.25"
+                },
+                {
+                  "Key": "Injectio",
+                  "Version": "4.1.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "9.0.2"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "9.0.2"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging",
+                  "Version": "9.0.2"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "9.0.2"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options",
+                  "Version": "9.0.2"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Primitives",
+                  "Version": "9.0.2"
+                },
+                {
+                  "Key": "System.Diagnostics.DiagnosticSource",
+                  "Version": "9.0.2"
                 }
               ],
               "Reviewer": "reiichi001"
@@ -89667,6 +89745,13 @@
       "Version": "2.5.2",
       "ReviewedBy": "reiichi001",
       "ReviewedAt": "2025-03-03T19:43:40.8683376Z"
+    },
+    {
+      "Type": 1,
+      "Key": "GTranslate",
+      "Version": "2.3.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2025-03-05T19:13:35.1044879Z"
     }
   ]
 }

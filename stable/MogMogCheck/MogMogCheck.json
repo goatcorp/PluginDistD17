@@ -1,0 +1,19 @@
+{
+  "Author": "Haselnussbomber",
+  "Name": "MogMogCheck",
+  "InternalName": "MogMogCheck",
+  "AssemblyVersion": "3.2.0.0",
+  "Description": "MogMogCheck is a small plugin to assist you in tracking the rewards of the Moogle Treasure Trove event (called Mog Mog Kollektion in German, hence the name).",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/Haselnussbomber/MogMogCheck",
+  "DalamudApiLevel": 11,
+  "LoadRequiredState": 1,
+  "LoadSync": false,
+  "CanUnloadAsync": true,
+  "LoadPriority": 0,
+  "IconUrl": "https://raw.githubusercontent.com/Haselnussbomber/MogMogCheck/refs/heads/dev/MogMogCheck/Assets/Icon.png",
+  "Punchline": "Tracking assistant for Moogle Treasure Trove rewards.",
+  "AcceptsFeedback": false,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "stable"
+}
