@@ -45695,9 +45695,9 @@
           }
         },
         "ChatTranslated": {
-          "BuiltCommit": "f392de595e92775f6eac52eb7fc97e3d500aac46",
-          "TimeBuilt": "2025-03-05T19:13:35.0729947+00:00",
-          "EffectiveVersion": "3.3.2.0",
+          "BuiltCommit": "8cff873725b39fe7e9abfce56b248fd5bea14e67",
+          "TimeBuilt": "2025-03-06T11:51:25.0243078+00:00",
+          "EffectiveVersion": "3.3.2.1",
           "MinimumVersion": null,
           "Changelogs": {
             "1.2.0.0": {
@@ -46086,6 +46086,22 @@
               ],
               "Reviewer": "reiichi001",
               "Submitter": null
+            },
+            "3.3.2.1": {
+              "TimeReleased": "2025-03-06T11:51:25.0243634+00:00",
+              "Changelog": "Now uses backup options when translated text returned is the same as the original string.\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "GTranslate",
+                  "Version": "2.3.0"
+                }
+              ],
+              "Reviewer": "philpax",
+              "Submitter": "kelvin124124"
             }
           }
         },
