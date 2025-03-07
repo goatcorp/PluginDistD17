@@ -75948,9 +75948,9 @@
           }
         },
         "GlamourSpamRemover": {
-          "BuiltCommit": "608f82ebec6f16855e12a039b90164c09fe5df0d",
-          "TimeBuilt": "2025-03-03T02:12:24.4624468+00:00",
-          "EffectiveVersion": "1.2.4.0",
+          "BuiltCommit": "55ae3d4d13aa474c8ea23f924e5d990048339632",
+          "TimeBuilt": "2025-03-07T00:33:29.9501384+00:00",
+          "EffectiveVersion": "1.2.5.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.1": {
@@ -76026,6 +76026,18 @@
               ],
               "Reviewer": "reiichi001",
               "Submitter": null
+            },
+            "1.2.5.0": {
+              "TimeReleased": "2025-03-07T00:33:29.9501923+00:00",
+              "Changelog": "Added Chinese language support. Thank you, lsl1225!",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "goaaats",
+              "Submitter": "Shezwick"
             }
           }
         },
