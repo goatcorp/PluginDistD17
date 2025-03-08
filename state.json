@@ -54086,9 +54086,9 @@
           }
         },
         "PvpStats": {
-          "BuiltCommit": "2daf3a10cfb90dd4866201dc351d3dc7378c4c86",
-          "TimeBuilt": "2025-02-24T18:11:58.4141751+00:00",
-          "EffectiveVersion": "2.3.0.1",
+          "BuiltCommit": "6b672469abac2a16258ce1664996fafdc48533ca",
+          "TimeBuilt": "2025-03-08T00:13:25.4505622+00:00",
+          "EffectiveVersion": "2.3.0.2",
           "MinimumVersion": null,
           "Changelogs": {
             "0.2.3.2": {
@@ -54341,6 +54341,22 @@
               ],
               "Reviewer": "perchbirdd",
               "Submitter": null
+            },
+            "2.3.0.2": {
+              "TimeReleased": "2025-03-08T00:13:25.4506167+00:00",
+              "Changelog": "* Added 7.2X periods to time filter.\r\n* Fixed a bug with blacklisted player names on match intro.\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "LiteDB",
+                  "Version": "5.0.16"
+                }
+              ],
+              "Reviewer": "goaaats",
+              "Submitter": "wrath16"
             }
           }
         },
