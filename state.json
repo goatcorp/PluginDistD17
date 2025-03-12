@@ -19938,9 +19938,9 @@
           }
         },
         "TrackyTrack": {
-          "BuiltCommit": "27aedf73fae7827bbc6237688ebbadbbe630bfde",
-          "TimeBuilt": "2025-02-16T18:37:16.5783003+00:00",
-          "EffectiveVersion": "1.5.7.1",
+          "BuiltCommit": "9c7087b6f9e39860e8a3fb225efddfbb60662ec1",
+          "TimeBuilt": "2025-03-12T19:15:08.958179+00:00",
+          "EffectiveVersion": "1.5.7.2",
           "MinimumVersion": null,
           "Changelogs": {
             "1.5.5.5": {
@@ -20462,6 +20462,58 @@
               ],
               "Reviewer": "reiichi001",
               "Submitter": null
+            },
+            "1.5.7.2": {
+              "TimeReleased": "2025-03-12T19:15:08.9582343+00:00",
+              "Changelog": "- Fix \u0022Limited-time bonus activated\u0022 log message appearing for all loot",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/Ottermandias/OtterGui",
+                  "Version": "8ba88eff15326bb28ed5e6157f5252c114d40b5f"
+                },
+                {
+                  "Key": "https://github.com/Ottermandias/OtterGuiInternal.git",
+                  "Version": "8e144c54022bc7d30f993a8c496ad390764f884f"
+                },
+                {
+                  "Key": "CsvHelper",
+                  "Version": "33.0.1"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "MessagePack",
+                  "Version": "3.0.238-rc.1"
+                },
+                {
+                  "Key": "JetBrains.Annotations",
+                  "Version": "2024.2.0"
+                },
+                {
+                  "Key": "MessagePack.Annotations",
+                  "Version": "3.0.238-rc.1"
+                },
+                {
+                  "Key": "MessagePackAnalyzer",
+                  "Version": "3.0.238-rc.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.NET.StringTools",
+                  "Version": "17.11.4"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "Infiziert90"
             }
           }
         },
