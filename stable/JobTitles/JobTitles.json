@@ -2,7 +2,7 @@
   "Author": "keifufu",
   "Name": "JobTitles",
   "InternalName": "JobTitles",
-  "AssemblyVersion": "0.1.2.1",
+  "AssemblyVersion": "0.2.0.0",
   "Description": "Changes your title based on the current job, with per-character settings.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/keifufu/JobTitles",

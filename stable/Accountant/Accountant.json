@@ -2,7 +2,7 @@
   "Author": "Ottermandias",
   "Name": "Accountant",
   "InternalName": "Accountant",
-  "AssemblyVersion": "1.7.0.1",
+  "AssemblyVersion": "1.7.0.2",
   "Description": "Keep track of retainer, airship, submersible, aetherial wheel and crop timers\nas well as several miscellaneous tasks of multiple characters.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Ottermandias/Accountant",
