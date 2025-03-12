@@ -83471,9 +83471,9 @@
           }
         },
         "BisBuddy": {
-          "BuiltCommit": "90f83ac47c0b976ec546b8ad411390271acded61",
-          "TimeBuilt": "2025-03-03T19:43:29.8541881+00:00",
-          "EffectiveVersion": "0.1.0.1",
+          "BuiltCommit": "ab63af76b6b40ead7c9faa6cf1dde3cbaa7adc31",
+          "TimeBuilt": "2025-03-12T19:27:19.5706389+00:00",
+          "EffectiveVersion": "0.1.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.3.0": {
@@ -83603,6 +83603,54 @@
               ],
               "Reviewer": "reiichi001",
               "Submitter": null
+            },
+            "0.1.1.0": {
+              "TimeReleased": "2025-03-12T19:27:19.5706939+00:00",
+              "Changelog": "**Changes**\n - Updated importing UI (and backend)\n - Added import support for Teamcraft plaintext gearsets\n - Added option \u0022Next Materia Only\u0022 to only show next materia to meld, disabled by default\n - Added color to individual materia in meld plan window to convey meld status\n**Fixes**\n - Fix importing from etro for HQ items with materia\n - Fix prerequisite assignment logic not working, like at all\n - Fix item tooltip gearset names truncating too aggressively with low gearset counts\n - Fix bug with highlights not getting updated immediately with some inventory changes\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "Fastenshtein",
+                  "Version": "1.0.10"
+                },
+                {
+                  "Key": "LinearAssignment",
+                  "Version": "1.2.0"
+                },
+                {
+                  "Key": "Lumina",
+                  "Version": "5.5.0"
+                },
+                {
+                  "Key": "Lumina.Excel",
+                  "Version": "7.1.3"
+                },
+                {
+                  "Key": "LuminaSupplemental.Excel",
+                  "Version": "2.2.4"
+                },
+                {
+                  "Key": "Microsoft.Extensions.ObjectPool",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "CSVFile",
+                  "Version": "3.2.0"
+                },
+                {
+                  "Key": "CsvHelper",
+                  "Version": "30.0.1"
+                },
+                {
+                  "Key": "Sylvan.Data.Csv",
+                  "Version": "1.3.9"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "RajahOmen"
             }
           }
         }
