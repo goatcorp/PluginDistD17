@@ -83419,9 +83419,9 @@
           }
         },
         "Racingway": {
-          "BuiltCommit": "4cdea5b5948126b8b652c45a7877d76a2212fa1f",
-          "TimeBuilt": "2025-03-14T01:05:08.3098453+00:00",
-          "EffectiveVersion": "0.0.5.6",
+          "BuiltCommit": "d4475b45191c70cd8cd5e189f2dcaefe22df90b0",
+          "TimeBuilt": "2025-03-14T10:49:05.5415362+00:00",
+          "EffectiveVersion": "0.0.5.7",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.4.1": {
@@ -83487,6 +83487,26 @@
             "0.0.5.6": {
               "TimeReleased": "2025-03-14T01:05:08.3098464+00:00",
               "Changelog": "This update wipes your DB! This shouldn\u0027t happen again in the future.\r\n\r\nv0.0.5.6 [TESTING]\r\n- Rewrite on how routes are saved\r\n- Accurate address creation for routes\r\n- Create explore tab for showing all routes\r\n- Save records to routes\r\n- Added tracking of fails and finishes for client\r\n- Added display of db size on disk\r\n\r\nIf you find issues, please submit any feedback!\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "LiteDB",
+                  "Version": "5.0.21"
+                },
+                {
+                  "Key": "System.Buffers",
+                  "Version": "4.5.1"
+                }
+              ],
+              "Reviewer": "philpax",
+              "Submitter": "Abyeon"
+            },
+            "0.0.5.7": {
+              "TimeReleased": "2025-03-14T10:49:05.5415893+00:00",
+              "Changelog": "v0.0.5.7 [TESTING]\r\n- Fixed route import/export not working\r\n\r\nIf you find issues, please submit any feedback!\r\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
