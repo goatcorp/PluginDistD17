@@ -30265,9 +30265,9 @@
           }
         },
         "EurekaHelper": {
-          "BuiltCommit": "f7d39c0e081f5297702a02d88e404adff0c4caef",
-          "TimeBuilt": "2025-01-01T23:29:22.4593243+00:00",
-          "EffectiveVersion": "2.0.1.2",
+          "BuiltCommit": "2de0b52ca801f5ac3839d1a1ae10473a687c45f2",
+          "TimeBuilt": "2025-03-14T01:04:58.1769059+00:00",
+          "EffectiveVersion": "2.0.2.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.7": {
@@ -30483,6 +30483,18 @@
               ],
               "Reviewer": "reiichi001",
               "Submitter": null
+            },
+            "2.0.2.0": {
+              "TimeReleased": "2025-03-14T01:04:58.1769661+00:00",
+              "Changelog": "- Updates to tracker window to include more sortable columns\n- Fixes to \u0027Respawn In\u0027 column sort (#8)\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "philpax",
+              "Submitter": "KangasZ"
             }
           }
         },
@@ -65187,9 +65199,9 @@
           }
         },
         "Altoholic": {
-          "BuiltCommit": "81cb64bc2e4b2476a249c0a05e33acdffe46297b",
-          "TimeBuilt": "2025-03-12T19:23:58.6825762+00:00",
-          "EffectiveVersion": "0.0.0.37",
+          "BuiltCommit": "f4842a692dc33b8715e24b1068f43fbe314844c5",
+          "TimeBuilt": "2025-03-14T01:05:23.9982689+00:00",
+          "EffectiveVersion": "0.0.0.38",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.0.1": {
@@ -66477,6 +66489,58 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "Sohtoren"
+            },
+            "0.0.0.38": {
+              "TimeReleased": "2025-03-14T01:05:23.9982698+00:00",
+              "Changelog": "- **General**: Rework hairstyles tracking and add facepaint part\n- **Collection**: Collectable (ie: Purchasable) Hairstyles and Facepaints are now added\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "Dapper",
+                  "Version": "2.1.35"
+                },
+                {
+                  "Key": "LiteDB",
+                  "Version": "5.0.21"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite",
+                  "Version": "9.0.1"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite.Core",
+                  "Version": "9.0.1"
+                },
+                {
+                  "Key": "SQLitePCLRaw.bundle_e_sqlite3",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.core",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.lib.e_sqlite3",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.provider.e_sqlite3",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "System.Buffers",
+                  "Version": "4.5.1"
+                },
+                {
+                  "Key": "System.Memory",
+                  "Version": "4.5.3"
+                }
+              ],
+              "Reviewer": "philpax",
               "Submitter": "Sohtoren"
             }
           }
@@ -83355,9 +83419,9 @@
           }
         },
         "Racingway": {
-          "BuiltCommit": "e48b7686a3b9b08a246e6b8fb5ddb4dc4e145426",
-          "TimeBuilt": "2025-02-28T07:21:29.7636311+00:00",
-          "EffectiveVersion": "0.0.4.5",
+          "BuiltCommit": "4cdea5b5948126b8b652c45a7877d76a2212fa1f",
+          "TimeBuilt": "2025-03-14T01:05:08.3098453+00:00",
+          "EffectiveVersion": "0.0.5.6",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.4.1": {
@@ -83419,6 +83483,26 @@
               ],
               "Reviewer": "reiichi001",
               "Submitter": null
+            },
+            "0.0.5.6": {
+              "TimeReleased": "2025-03-14T01:05:08.3098464+00:00",
+              "Changelog": "This update wipes your DB! This shouldn\u0027t happen again in the future.\r\n\r\nv0.0.5.6 [TESTING]\r\n- Rewrite on how routes are saved\r\n- Accurate address creation for routes\r\n- Create explore tab for showing all routes\r\n- Save records to routes\r\n- Added tracking of fails and finishes for client\r\n- Added display of db size on disk\r\n\r\nIf you find issues, please submit any feedback!\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "LiteDB",
+                  "Version": "5.0.21"
+                },
+                {
+                  "Key": "System.Buffers",
+                  "Version": "4.5.1"
+                }
+              ],
+              "Reviewer": "philpax",
+              "Submitter": "Abyeon"
             }
           }
         },
