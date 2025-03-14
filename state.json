@@ -83757,6 +83757,30 @@
               "Submitter": "RajahOmen"
             }
           }
+        },
+        "ArchipelagoXIV": {
+          "BuiltCommit": "ecc9145078e1edce1a965914c638a7243063ba63",
+          "TimeBuilt": "2025-03-14T16:04:00.7217388+00:00",
+          "EffectiveVersion": "0.19.5.0",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "0.19.5.0": {
+              "TimeReleased": "2025-03-14T16:04:00.7217959+00:00",
+              "Changelog": "Coloured text chat and (one-way) Deathlink support.",
+              "UsedNeeds": [
+                {
+                  "Key": "Archipelago.MultiClient.Net",
+                  "Version": "6.5.0"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "philpax",
+              "Submitter": "silasary"
+            }
+          }
         }
       }
     },
@@ -93907,6 +93931,13 @@
       "Version": "ae4992ae263e4aefd19d43814271df0ed1d855e4",
       "ReviewedBy": "reiichi001",
       "ReviewedAt": "2025-03-12T19:23:44.019806Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Archipelago.MultiClient.Net",
+      "Version": "6.5.0",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2025-03-14T16:04:00.757755Z"
     }
   ]
 }
