@@ -84057,6 +84057,30 @@
               "Submitter": "LeonAquitaine"
             }
           }
+        },
+        "DutyPusher": {
+          "BuiltCommit": "76f2f8f64aac31da0309a694cb1ce53039599e07",
+          "TimeBuilt": "2025-03-14T22:58:36.9584398+00:00",
+          "EffectiveVersion": "0.1.2.0",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "0.1.2.0": {
+              "TimeReleased": "2025-03-14T22:58:36.958496+00:00",
+              "Changelog": "Initial test release.\r\nAPI 11\r\nAdd Telegram Official Bot API Support\r\nRefactored the code logic to reduce coupling between certain services.\r\nCompletely rewritten the DutyListener.\r\nAdded localization support for de, es, fr, it, ja, ko, no, ru, and tw.\r\nBug Fixed:\r\n1. Error URL initialization in BarkChannel;\r\n2. Uncatchable thrown exception.\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "Dalamud.Loc",
+                  "Version": "1.2.1"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "philpax",
+              "Submitter": "MorCherlf"
+            }
+          }
         }
       }
     },
