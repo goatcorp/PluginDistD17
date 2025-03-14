@@ -5280,9 +5280,9 @@
           }
         },
         "PetRenamer": {
-          "BuiltCommit": "d3159038a1b06a55f98d733f5a864bf655c7f246",
-          "TimeBuilt": "2025-02-24T00:46:50.7879714+00:00",
-          "EffectiveVersion": "2.3.0.10",
+          "BuiltCommit": "9b50d3882861e564a9f0f46cdfc4932f8217baf9",
+          "TimeBuilt": "2025-03-14T21:04:10.1437115+00:00",
+          "EffectiveVersion": "2.3.0.12",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -5762,6 +5762,22 @@
               ],
               "Reviewer": "reiichi001",
               "Submitter": null
+            },
+            "2.3.0.12": {
+              "TimeReleased": "2025-03-14T21:04:10.1437705+00:00",
+              "Changelog": "[2.3.0.12]\r\nTentative fix for memory leak from faulty IPC users.\r\nCouple small stability changes (Thanks Haselnussbomber) :erm:\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "HtmlAgilityPack",
+                  "Version": "1.11.71"
+                }
+              ],
+              "Reviewer": "philpax",
+              "Submitter": "Glyceri"
             }
           }
         },
