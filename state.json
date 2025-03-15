@@ -558,9 +558,9 @@
           }
         },
         "Glamaholic": {
-          "BuiltCommit": "15b50a2757b6252656cc7cd3f78b3825676f8334",
-          "TimeBuilt": "2024-12-20T16:55:09.0703872+00:00",
-          "EffectiveVersion": "1.10.12.0",
+          "BuiltCommit": "9061a78593e583949402e3bd4038c32196e2974a",
+          "TimeBuilt": "2025-03-15T13:21:22.5706307+00:00",
+          "EffectiveVersion": "1.10.13.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.9.8.0": {
@@ -697,6 +697,30 @@
               ],
               "Reviewer": "philpax",
               "Submitter": null
+            },
+            "1.10.13.0": {
+              "TimeReleased": "2025-03-15T13:21:22.5706325+00:00",
+              "Changelog": "- Fixed an issue in the UI drawing code which would cause an assert if enabled.\n\nFor troubleshooting, please enable Troubleshooting mode (Settings -\u003E Troubleshooting mode), reproduce the issue, then post any log line from \u0060/xllog\u0060 starting with \u0060[Troubleshooting]\u0060. Thanks!\n",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/Ottermandias/Glamourer.Api.git",
+                  "Version": "9f9bdf0873899d2e45fabaca446bb1624303b418"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "Fody",
+                  "Version": "6.8.0"
+                },
+                {
+                  "Key": "Resourcer.Fody",
+                  "Version": "1.8.1"
+                }
+              ],
+              "Reviewer": "philpax",
+              "Submitter": "caitlyn-gg"
             }
           }
         },
@@ -58133,9 +58157,9 @@
           }
         },
         "ChatTwo": {
-          "BuiltCommit": "14cb3af13a13e866571d022fe6cf93d39e25b73a",
-          "TimeBuilt": "2025-02-07T14:12:18.4037441+00:00",
-          "EffectiveVersion": "1.29.19.0",
+          "BuiltCommit": "a6b71f50e66dca5b0decc5c77fe9d859fedefe56",
+          "TimeBuilt": "2025-03-15T13:21:13.1213409+00:00",
+          "EffectiveVersion": "1.29.20.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.17.5.0": {
@@ -59476,6 +59500,102 @@
               ],
               "Reviewer": "philpax",
               "Submitter": null
+            },
+            "1.29.20.0": {
+              "TimeReleased": "2025-03-15T13:21:13.1214266+00:00",
+              "Changelog": "- Both item and action tooltips are now checked for clipping, if \u0022Next To Cursor\u0022 is enabled",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "MessagePack",
+                  "Version": "3.1.3"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "Pidgin",
+                  "Version": "3.3.0"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.7"
+                },
+                {
+                  "Key": "Watson.Lite",
+                  "Version": "6.2.3"
+                },
+                {
+                  "Key": "CavemanTcp",
+                  "Version": "2.0.3"
+                },
+                {
+                  "Key": "IpMatcher",
+                  "Version": "1.0.4.4"
+                },
+                {
+                  "Key": "MessagePack.Annotations",
+                  "Version": "3.1.3"
+                },
+                {
+                  "Key": "MessagePackAnalyzer",
+                  "Version": "3.1.3"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite.Core",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "Microsoft.NET.StringTools",
+                  "Version": "17.11.4"
+                },
+                {
+                  "Key": "RegexMatcher",
+                  "Version": "1.0.8"
+                },
+                {
+                  "Key": "SQLitePCLRaw.bundle_e_sqlite3",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.core",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.lib.e_sqlite3",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.provider.e_sqlite3",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "System.Memory",
+                  "Version": "4.5.3"
+                },
+                {
+                  "Key": "System.Text.Json",
+                  "Version": "8.0.5"
+                },
+                {
+                  "Key": "Timestamps",
+                  "Version": "1.0.9"
+                },
+                {
+                  "Key": "UrlMatcher",
+                  "Version": "3.0.0"
+                },
+                {
+                  "Key": "Watson.Core",
+                  "Version": "6.2.3"
+                }
+              ],
+              "Reviewer": "philpax",
+              "Submitter": "Infiziert90"
             }
           }
         },
@@ -84221,6 +84341,30 @@
               "Submitter": "MorCherlf"
             }
           }
+        },
+        "CustomResolution2782": {
+          "BuiltCommit": "c0117122393f3a66d8e90f535f01d05f8274b832",
+          "TimeBuilt": "2025-03-15T13:21:31.3273753+00:00",
+          "EffectiveVersion": "0.3.0.0",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "0.3.0.0": {
+              "TimeReleased": "2025-03-15T13:21:31.3273804+00:00",
+              "Changelog": "- Initial release\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "TerraFX.Interop.Windows",
+                  "Version": "10.0.22621.2"
+                }
+              ],
+              "Reviewer": "philpax",
+              "Submitter": "0x0ade"
+            }
+          }
         }
       }
     },
@@ -94378,6 +94522,27 @@
       "Version": "6.5.0",
       "ReviewedBy": "philpax",
       "ReviewedAt": "2025-03-14T16:04:00.757755Z"
+    },
+    {
+      "Type": 1,
+      "Key": "SixLabors.ImageSharp",
+      "Version": "3.1.7",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2025-03-15T13:21:13.1563711Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/Ottermandias/Glamourer.Api.git",
+      "Version": "9f9bdf0873899d2e45fabaca446bb1624303b418",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2025-03-15T13:21:22.5961522Z"
+    },
+    {
+      "Type": 1,
+      "Key": "TerraFX.Interop.Windows",
+      "Version": "10.0.22621.2",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2025-03-15T13:21:31.3628305Z"
     }
   ]
 }
