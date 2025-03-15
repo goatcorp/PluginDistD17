@@ -83767,9 +83767,9 @@
           }
         },
         "Racingway": {
-          "BuiltCommit": "d4475b45191c70cd8cd5e189f2dcaefe22df90b0",
-          "TimeBuilt": "2025-03-14T10:49:05.5415362+00:00",
-          "EffectiveVersion": "0.0.5.7",
+          "BuiltCommit": "e9e0ba53b84e4605af522aacd7d473cab595e653",
+          "TimeBuilt": "2025-03-15T05:23:33.9322144+00:00",
+          "EffectiveVersion": "0.0.5.8",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.4.1": {
@@ -83870,6 +83870,26 @@
                 }
               ],
               "Reviewer": "philpax",
+              "Submitter": "Abyeon"
+            },
+            "0.0.5.8": {
+              "TimeReleased": "2025-03-15T05:23:33.9322688+00:00",
+              "Changelog": "v0.0.5.8 [TESTING]\r\n- Fix routes tab using old export code\r\n- Add timer overlay\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "LiteDB",
+                  "Version": "5.0.21"
+                },
+                {
+                  "Key": "System.Buffers",
+                  "Version": "4.5.1"
+                }
+              ],
+              "Reviewer": "Critical-Impact",
               "Submitter": "Abyeon"
             }
           }
