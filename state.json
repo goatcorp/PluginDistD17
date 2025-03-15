@@ -60873,9 +60873,9 @@
           }
         },
         "EngageTimer": {
-          "BuiltCommit": "1b76fb8a3403de88282b496897651def6e49e843",
-          "TimeBuilt": "2025-01-06T13:16:01.733786+00:00",
-          "EffectiveVersion": "2.4.1.2",
+          "BuiltCommit": "45ed92ad94b814bcb076e8ccf66bdb8408266711",
+          "TimeBuilt": "2025-03-15T16:05:08.2849932+00:00",
+          "EffectiveVersion": "2.4.2.0",
           "MinimumVersion": null,
           "Changelogs": {
             "2.2.2.2": {
@@ -61052,6 +61052,34 @@
               ],
               "Reviewer": "reiichi001",
               "Submitter": null
+            },
+            "2.4.2.0": {
+              "TimeReleased": "2025-03-15T16:05:08.2850559+00:00",
+              "Changelog": "- Option to Hide FW Timer in Combat-Related Cutscenes (#77)\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "EmbedIO",
+                  "Version": "3.5.2"
+                },
+                {
+                  "Key": "JetBrains.Annotations",
+                  "Version": "2024.3.0"
+                },
+                {
+                  "Key": "System.ValueTuple",
+                  "Version": "4.5.0"
+                },
+                {
+                  "Key": "Unosquare.Swan.Lite",
+                  "Version": "3.1.0"
+                }
+              ],
+              "Reviewer": "philpax",
+              "Submitter": "xorus"
             }
           }
         },
