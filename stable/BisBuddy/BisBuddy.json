@@ -1,0 +1,41 @@
+{
+  "Author": "Lily",
+  "Name": "BISBuddy",
+  "InternalName": "BisBuddy",
+  "AssemblyVersion": "0.1.1.0",
+  "Description": "Highlights gear, coffers, and materia needed for all your gearsets. Imports directly from Etro or Xivgear for frictionless setup.\n\nHighlights items needed for gearsets on:\n    - Need/Greed Loot Windows\n    - NPC Shops and Exchanges\n    - Marketboard\n    - Player Inventories\n    - Item Tooltips\n\nWhen melding materia, highlights:\n    - Items to meld\n    - Materia to meld to item\n\nAutomatically syncs gearsets with player inventory",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/RajahOmen/BisBuddy",
+  "Tags": [
+    "loot",
+    "bis",
+    "best in slot",
+    "need",
+    "greed",
+    "gearset",
+    "gear",
+    "coffer",
+    "materia",
+    "meld",
+    "etro",
+    "xivgear"
+  ],
+  "DalamudApiLevel": 11,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "ImageUrls": [
+    "https://raw.githubusercontent.com/RajahOmen/BisBuddy/main/images/needgreed.png",
+    "https://raw.githubusercontent.com/RajahOmen/BisBuddy/main/images/npcshopexchange.png",
+    "https://raw.githubusercontent.com/RajahOmen/BisBuddy/main/images/materiamelding.png",
+    "https://raw.githubusercontent.com/RajahOmen/BisBuddy/main/images/marketboard.png",
+    "https://raw.githubusercontent.com/RajahOmen/BisBuddy/main/images/inventory.png",
+    "https://raw.githubusercontent.com/RajahOmen/BisBuddy/main/images/itemtooltip.png"
+  ],
+  "IconUrl": "https://raw.githubusercontent.com/RajahOmen/BisBuddy/main/images/icon.png",
+  "Punchline": "Gearing, streamlined.",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "stable"
+}

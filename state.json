@@ -18481,9 +18481,9 @@
           }
         },
         "TooltipNotes": {
-          "BuiltCommit": "60d1c73f065dddcadb7848ed648ac40c83fd0175",
-          "TimeBuilt": "2024-11-24T17:32:35.0859108+00:00",
-          "EffectiveVersion": "1.5.0.0",
+          "BuiltCommit": "4e673fb8370e5c5b830bd43303883555738f8b04",
+          "TimeBuilt": "2025-03-15T23:22:42.413729+00:00",
+          "EffectiveVersion": "1.5.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -18560,6 +18560,46 @@
               ],
               "Reviewer": "philpax",
               "Submitter": null
+            },
+            "1.5.1.0": {
+              "TimeReleased": "2025-03-15T23:22:42.413802+00:00",
+              "Changelog": "1.5.1.0\n\nNew Plugin Fixes, now actually TooltipNotes again and not just notes\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.Build.Tasks.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Common",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitHub",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitLab",
+                  "Version": "1.1.1"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "Lerofni"
             }
           }
         },
@@ -65046,6 +65086,62 @@
               ],
               "Reviewer": "philpax",
               "Submitter": "Haselnussbomber"
+            }
+          }
+        },
+        "BisBuddy": {
+          "BuiltCommit": "ab63af76b6b40ead7c9faa6cf1dde3cbaa7adc31",
+          "TimeBuilt": "2025-03-15T23:22:49.5666642+00:00",
+          "EffectiveVersion": "0.1.1.0",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "0.1.1.0": {
+              "TimeReleased": "2025-03-15T23:22:49.5666673+00:00",
+              "Changelog": "First stable release of BisBuddy",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "Fastenshtein",
+                  "Version": "1.0.10"
+                },
+                {
+                  "Key": "LinearAssignment",
+                  "Version": "1.2.0"
+                },
+                {
+                  "Key": "Lumina",
+                  "Version": "5.5.0"
+                },
+                {
+                  "Key": "Lumina.Excel",
+                  "Version": "7.1.3"
+                },
+                {
+                  "Key": "LuminaSupplemental.Excel",
+                  "Version": "2.2.4"
+                },
+                {
+                  "Key": "Microsoft.Extensions.ObjectPool",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "CSVFile",
+                  "Version": "3.2.0"
+                },
+                {
+                  "Key": "CsvHelper",
+                  "Version": "30.0.1"
+                },
+                {
+                  "Key": "Sylvan.Data.Csv",
+                  "Version": "1.3.9"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "RajahOmen"
             }
           }
         }
