@@ -28912,9 +28912,9 @@
           }
         },
         "NeatNoter": {
-          "BuiltCommit": "b17d7bb9e96bbb7752af03bf5786ed36232ed671",
-          "TimeBuilt": "2024-11-26T06:03:35.5972926+00:00",
-          "EffectiveVersion": "2.7.0.0",
+          "BuiltCommit": "33695e5b5397198c6a90c006942d9a7c9c203e87",
+          "TimeBuilt": "2025-03-15T03:00:49.3535839+00:00",
+          "EffectiveVersion": "2.7.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "2.6.1.0": {
@@ -28997,6 +28997,66 @@
               ],
               "Reviewer": "philpax",
               "Submitter": null
+            },
+            "2.7.1.0": {
+              "TimeReleased": "2025-03-15T03:00:49.3536383+00:00",
+              "Changelog": "# NeatNoter 2.7.1\n\n## Features\n\n- Created an option to reset the overlay position\n\nIf any bug if found, please report at: https://github.com/shadowkras/NeatNoter/issues/\n",
+              "UsedNeeds": [
+                {
+                  "Key": "CsvHelper",
+                  "Version": "33.0.1"
+                },
+                {
+                  "Key": "Dalamud.DrunkenToad",
+                  "Version": "1.9.1"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.25"
+                },
+                {
+                  "Key": "LiteDB",
+                  "Version": "5.0.21"
+                },
+                {
+                  "Key": "StyleCop.Analyzers",
+                  "Version": "1.2.0-beta.556"
+                },
+                {
+                  "Key": "System.Drawing.Common",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "Dalamud.Loc",
+                  "Version": "1.1.2"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "Microsoft.Win32.SystemEvents",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "StyleCop.Analyzers.Unstable",
+                  "Version": "1.2.0.556"
+                },
+                {
+                  "Key": "System.Buffers",
+                  "Version": "4.5.1"
+                }
+              ],
+              "Reviewer": "goaaats",
+              "Submitter": "shadowkras"
             }
           }
         },
@@ -70981,9 +71041,9 @@
           }
         },
         "NeatNoter": {
-          "BuiltCommit": "b17d7bb9e96bbb7752af03bf5786ed36232ed671",
-          "TimeBuilt": "2024-11-21T20:28:45.2495114+00:00",
-          "EffectiveVersion": "2.7.0.0",
+          "BuiltCommit": "33695e5b5397198c6a90c006942d9a7c9c203e87",
+          "TimeBuilt": "2025-03-15T03:00:59.0012498+00:00",
+          "EffectiveVersion": "2.7.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "2.6.1.0": {
@@ -71073,6 +71133,66 @@
               ],
               "Reviewer": "reiichi001",
               "Submitter": null
+            },
+            "2.7.1.0": {
+              "TimeReleased": "2025-03-15T03:00:59.0012508+00:00",
+              "Changelog": "# NeatNoter 2.7.1 (Test)\n\n## Features\n\n- Created an option to reset the overlay position.\n\nIf any bug if found, please report at: https://github.com/shadowkras/NeatNoter/issues/\n",
+              "UsedNeeds": [
+                {
+                  "Key": "CsvHelper",
+                  "Version": "33.0.1"
+                },
+                {
+                  "Key": "Dalamud.DrunkenToad",
+                  "Version": "1.9.1"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.25"
+                },
+                {
+                  "Key": "LiteDB",
+                  "Version": "5.0.21"
+                },
+                {
+                  "Key": "StyleCop.Analyzers",
+                  "Version": "1.2.0-beta.556"
+                },
+                {
+                  "Key": "System.Drawing.Common",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "Dalamud.Loc",
+                  "Version": "1.1.2"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "Microsoft.Win32.SystemEvents",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "StyleCop.Analyzers.Unstable",
+                  "Version": "1.2.0.556"
+                },
+                {
+                  "Key": "System.Buffers",
+                  "Version": "4.5.1"
+                }
+              ],
+              "Reviewer": "goaaats",
+              "Submitter": "shadowkras"
             }
           }
         },
