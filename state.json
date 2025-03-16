@@ -84027,9 +84027,9 @@
           }
         },
         "Racingway": {
-          "BuiltCommit": "e9e0ba53b84e4605af522aacd7d473cab595e653",
-          "TimeBuilt": "2025-03-15T05:23:33.9322144+00:00",
-          "EffectiveVersion": "0.0.5.8",
+          "BuiltCommit": "fbef2d0a687b0a2fa8ee048eaac2259f1a73e114",
+          "TimeBuilt": "2025-03-16T10:26:05.8362789+00:00",
+          "EffectiveVersion": "0.0.6.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.4.1": {
@@ -84135,6 +84135,26 @@
             "0.0.5.8": {
               "TimeReleased": "2025-03-15T05:23:33.9322688+00:00",
               "Changelog": "v0.0.5.8 [TESTING]\r\n- Fix routes tab using old export code\r\n- Add timer overlay\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "LiteDB",
+                  "Version": "5.0.21"
+                },
+                {
+                  "Key": "System.Buffers",
+                  "Version": "4.5.1"
+                }
+              ],
+              "Reviewer": "Critical-Impact",
+              "Submitter": "Abyeon"
+            },
+            "0.0.6.0": {
+              "TimeReleased": "2025-03-16T10:26:05.8363347+00:00",
+              "Changelog": "v0.0.6.0 [TESTING]\r\n- Add font manager\r\n- Update UI for settings tab\r\n- Fix issue where importing from the routes tab would cause null exceptions\r\n- Fix issue where you couldn\u0027t delete routes if they weren\u0027t loaded\r\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
