@@ -5184,9 +5184,9 @@
           }
         },
         "PushyFinder": {
-          "BuiltCommit": "527a3ed5658d0a85ca268b5267db75731a3738ef",
-          "TimeBuilt": "2024-11-27T00:35:27.0511684+00:00",
-          "EffectiveVersion": "1.3.0.1",
+          "BuiltCommit": "c524570c72088fbd72bf7d18731caa445846a433",
+          "TimeBuilt": "2025-03-16T18:40:18.531478+00:00",
+          "EffectiveVersion": "1.3.0.2",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.1": {
@@ -5243,6 +5243,26 @@
               ],
               "Reviewer": "reiichi001",
               "Submitter": null
+            },
+            "1.3.0.2": {
+              "TimeReleased": "2025-03-16T18:40:18.5315333+00:00",
+              "Changelog": "Minor fix for Ntfy.sh content formatting.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "Flurl.Http",
+                  "Version": "4.0.2"
+                },
+                {
+                  "Key": "Flurl",
+                  "Version": "4.0.0"
+                }
+              ],
+              "Reviewer": "karashiiro",
+              "Submitter": "snightshade"
             }
           }
         },
