@@ -54738,9 +54738,9 @@
           }
         },
         "PvpStats": {
-          "BuiltCommit": "6b672469abac2a16258ce1664996fafdc48533ca",
-          "TimeBuilt": "2025-03-08T00:13:25.4505622+00:00",
-          "EffectiveVersion": "2.3.0.2",
+          "BuiltCommit": "955731903d405c554e5765d5a5cbf37ae7c31794",
+          "TimeBuilt": "2025-03-16T03:06:19.1306128+00:00",
+          "EffectiveVersion": "2.3.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.2.3.2": {
@@ -55008,6 +55008,22 @@
                 }
               ],
               "Reviewer": "goaaats",
+              "Submitter": "wrath16"
+            },
+            "2.3.1.0": {
+              "TimeReleased": "2025-03-16T03:06:19.1306742+00:00",
+              "Changelog": "* Added Graphs tab to Rival Wings match details window.\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "LiteDB",
+                  "Version": "5.0.16"
+                }
+              ],
+              "Reviewer": "Critical-Impact",
               "Submitter": "wrath16"
             }
           }
