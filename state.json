@@ -65616,6 +65616,54 @@
               "Submitter": "RajahOmen"
             }
           }
+        },
+        "RazerReader": {
+          "BuiltCommit": "270e3731e9a51aa79d48e2d022c67270e449813e",
+          "TimeBuilt": "2025-03-19T22:31:03.8201415+00:00",
+          "EffectiveVersion": "0.1.0.1",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "0.1.0.1": {
+              "TimeReleased": "2025-03-19T22:31:03.8201437+00:00",
+              "Changelog": "Initial plugin release",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.Build.Tasks.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Common",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitHub",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitLab",
+                  "Version": "1.1.1"
+                }
+              ],
+              "Reviewer": "philpax",
+              "Submitter": "mashirochan"
+            }
+          }
         }
       }
     },
@@ -65991,9 +66039,9 @@
           }
         },
         "Altoholic": {
-          "BuiltCommit": "f4842a692dc33b8715e24b1068f43fbe314844c5",
-          "TimeBuilt": "2025-03-14T01:05:23.9982689+00:00",
-          "EffectiveVersion": "0.0.0.38",
+          "BuiltCommit": "caa80dcc2658f5f58ab763ebf82e40c556efcbb1",
+          "TimeBuilt": "2025-03-19T22:31:24.7356035+00:00",
+          "EffectiveVersion": "0.0.0.39",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.0.1": {
@@ -67286,6 +67334,58 @@
             "0.0.0.38": {
               "TimeReleased": "2025-03-14T01:05:23.9982698+00:00",
               "Changelog": "- **General**: Rework hairstyles tracking and add facepaint part\n- **Collection**: Collectable (ie: Purchasable) Hairstyles and Facepaints are now added\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "Dapper",
+                  "Version": "2.1.35"
+                },
+                {
+                  "Key": "LiteDB",
+                  "Version": "5.0.21"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite",
+                  "Version": "9.0.1"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite.Core",
+                  "Version": "9.0.1"
+                },
+                {
+                  "Key": "SQLitePCLRaw.bundle_e_sqlite3",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.core",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.lib.e_sqlite3",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.provider.e_sqlite3",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "System.Buffers",
+                  "Version": "4.5.1"
+                },
+                {
+                  "Key": "System.Memory",
+                  "Version": "4.5.3"
+                }
+              ],
+              "Reviewer": "philpax",
+              "Submitter": "Sohtoren"
+            },
+            "0.0.0.39": {
+              "TimeReleased": "2025-03-19T22:31:24.735605+00:00",
+              "Changelog": "- **General**: Add secret recipe book and vista tracking\n- **Collection**: secret recipe books (tomes) and sightseeing log (vista) are now added\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -84386,54 +84486,6 @@
             }
           }
         },
-        "RazerReader": {
-          "BuiltCommit": "270e3731e9a51aa79d48e2d022c67270e449813e",
-          "TimeBuilt": "2025-02-04T00:58:38.0035009+00:00",
-          "EffectiveVersion": "0.1.0.1",
-          "MinimumVersion": null,
-          "Changelogs": {
-            "0.1.0.1": {
-              "TimeReleased": "2025-02-04T00:58:38.0035584+00:00",
-              "Changelog": "Initial plugin release",
-              "UsedNeeds": [
-                {
-                  "Key": "DalamudPackager",
-                  "Version": "11.0.0"
-                },
-                {
-                  "Key": "DotNet.ReproducibleBuilds",
-                  "Version": "1.1.1"
-                },
-                {
-                  "Key": "Microsoft.Build.Tasks.Git",
-                  "Version": "1.1.1"
-                },
-                {
-                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
-                  "Version": "1.1.1"
-                },
-                {
-                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
-                  "Version": "1.1.1"
-                },
-                {
-                  "Key": "Microsoft.SourceLink.Common",
-                  "Version": "1.1.1"
-                },
-                {
-                  "Key": "Microsoft.SourceLink.GitHub",
-                  "Version": "1.1.1"
-                },
-                {
-                  "Key": "Microsoft.SourceLink.GitLab",
-                  "Version": "1.1.1"
-                }
-              ],
-              "Reviewer": "philpax",
-              "Submitter": null
-            }
-          }
-        },
         "NoTypeSay": {
           "BuiltCommit": "dad2bd9d349261c1d88e5e1a25e6e897459da512",
           "TimeBuilt": "2025-02-12T16:53:29.8253775+00:00",
@@ -84483,9 +84535,9 @@
           }
         },
         "Racingway": {
-          "BuiltCommit": "fbef2d0a687b0a2fa8ee048eaac2259f1a73e114",
-          "TimeBuilt": "2025-03-16T10:26:05.8362789+00:00",
-          "EffectiveVersion": "0.0.6.0",
+          "BuiltCommit": "a96b2c75c19ca48d237b67e0b136bbc14e7e9532",
+          "TimeBuilt": "2025-03-19T22:31:11.2396957+00:00",
+          "EffectiveVersion": "0.0.6.1",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.4.1": {
@@ -84611,6 +84663,26 @@
             "0.0.6.0": {
               "TimeReleased": "2025-03-16T10:26:05.8363347+00:00",
               "Changelog": "v0.0.6.0 [TESTING]\r\n- Add font manager\r\n- Update UI for settings tab\r\n- Fix issue where importing from the routes tab would cause null exceptions\r\n- Fix issue where you couldn\u0027t delete routes if they weren\u0027t loaded\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "LiteDB",
+                  "Version": "5.0.21"
+                },
+                {
+                  "Key": "System.Buffers",
+                  "Version": "4.5.1"
+                }
+              ],
+              "Reviewer": "Critical-Impact",
+              "Submitter": "Abyeon"
+            },
+            "0.0.6.1": {
+              "TimeReleased": "2025-03-19T22:31:11.2396968+00:00",
+              "Changelog": "v0.0.6.1 [TESTING]\r\n- Fix hitches when finishing/failing routes\r\n- Fix hitches when updating route information\r\n- Racingway should hopefully just be more performative now\r\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
