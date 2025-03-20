@@ -22637,9 +22637,9 @@
           }
         },
         "FaderPlugin": {
-          "BuiltCommit": "befc480bafaf5dc1c8c2d436e7d2f432a9246ab6",
-          "TimeBuilt": "2025-01-22T14:33:21.3045152+00:00",
-          "EffectiveVersion": "2.6.2.7",
+          "BuiltCommit": "51afb2420af7a599e5bacac8e00737c7adb3ebd0",
+          "TimeBuilt": "2025-03-20T10:48:22.7352395+00:00",
+          "EffectiveVersion": "2.7.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "2.3.0.0": {
@@ -22733,6 +22733,18 @@
               ],
               "Reviewer": "philpax",
               "Submitter": null
+            },
+            "2.7.0.0": {
+              "TimeReleased": "2025-03-20T10:48:22.7353001+00:00",
+              "Changelog": "![423004279-0deb9336-249c-4d51-8f24-50556ff76561](https://github.com/user-attachments/assets/53e67de0-85ac-4cd6-978f-2fd71d1319d4)\r\n\r\n(Thanks PhibrXIV)\r\n- Each UI Element now has its own opacity value\r\n- Added Hover State:\r\n  - Elements using the hover state have their opacity adjusted on a per-addon basis\r\n\r\nNote:\r\n\u003E The previous method of hiding elements far off screen can still be used with the disable Element option on the default state.\r\noption to hide an element only appears when the opacity is set to a value lower than 0.05. The idea being that it would look awkward for an element to start fading away, but then to just suddenly pop out of existence.\r\n\r\n![423000861-2cb5dbec-ccbc-4686-926e-65e7dc26f896](https://github.com/user-attachments/assets/3e3a6e6d-9acf-4fb4-b1b3-e4512a49670a)\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "Critical-Impact",
+              "Submitter": "Infiziert90"
             }
           }
         },
