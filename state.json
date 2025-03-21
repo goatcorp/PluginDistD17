@@ -5508,9 +5508,9 @@
           }
         },
         "PetRenamer": {
-          "BuiltCommit": "dbcfa944f9e5f5966649b7fa7ecc26ffe53bf1d6",
-          "TimeBuilt": "2025-03-21T17:36:23.498813+00:00",
-          "EffectiveVersion": "2.3.0.13",
+          "BuiltCommit": "4c6544127838263017fe2d02d8b393aad391b462",
+          "TimeBuilt": "2025-03-21T19:02:02.2545463+00:00",
+          "EffectiveVersion": "2.3.0.14",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -6009,6 +6009,22 @@
             },
             "2.3.0.13": {
               "TimeReleased": "2025-03-21T17:36:23.4988664+00:00",
+              "Changelog": "[2.3.0.14]\r\nFixes a quite common crash.\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "HtmlAgilityPack",
+                  "Version": "1.11.71"
+                }
+              ],
+              "Reviewer": "philpax",
+              "Submitter": "Glyceri"
+            },
+            "2.3.0.14": {
+              "TimeReleased": "2025-03-21T19:02:02.2546105+00:00",
               "Changelog": "[2.3.0.14]\r\nFixes a quite common crash.\r\n",
               "UsedNeeds": [
                 {
