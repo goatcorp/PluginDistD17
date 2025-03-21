@@ -55390,9 +55390,9 @@
           }
         },
         "PvpStats": {
-          "BuiltCommit": "955731903d405c554e5765d5a5cbf37ae7c31794",
-          "TimeBuilt": "2025-03-16T03:06:19.1306128+00:00",
-          "EffectiveVersion": "2.3.1.0",
+          "BuiltCommit": "8638bb5f879d2ecb9fb12d83d32f4e0d2732c31d",
+          "TimeBuilt": "2025-03-21T17:32:14.3398631+00:00",
+          "EffectiveVersion": "2.3.2.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.2.3.2": {
@@ -55676,6 +55676,22 @@
                 }
               ],
               "Reviewer": "Critical-Impact",
+              "Submitter": "wrath16"
+            },
+            "2.3.2.0": {
+              "TimeReleased": "2025-03-21T17:32:14.339918+00:00",
+              "Changelog": "* Added mech count graph to Rival Wings match details.\r\n* Added mid and merc event icons to Rival Wings match details graphs.\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "LiteDB",
+                  "Version": "5.0.16"
+                }
+              ],
+              "Reviewer": "philpax",
               "Submitter": "wrath16"
             }
           }
