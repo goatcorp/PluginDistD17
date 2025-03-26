@@ -2,20 +2,20 @@
   "Author": "Tischel",
   "Name": "NOTED",
   "InternalName": "NOTED",
-  "AssemblyVersion": "1.4.0.0",
+  "AssemblyVersion": "1.5.0.0",
   "Description": "Lets you create notes that are linked to specific duties (they will only show during those duties).\nYou can also tie notes to certain jobs so they only appear when on the right job.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Tischel/NOTED",
   "Tags": [
     "UI"
   ],
-  "DalamudApiLevel": 11,
+  "DalamudApiLevel": 12,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
   "LoadPriority": 0,
   "Punchline": "Duty-specific notes!",
-  "Changelog": "1.4.0.0\n\n- Added support for Patch 7.1 and Dalamud API 11.",
+  "Changelog": "1.5.0.0\n\n- Added support for Patch 7.2 and Dalamud API 12.",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "stable"

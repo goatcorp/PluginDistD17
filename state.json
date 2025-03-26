@@ -7536,9 +7536,9 @@
           }
         },
         "NOTED": {
-          "BuiltCommit": "71538acac1f6979c03b0d83fa4f457df495df609",
-          "TimeBuilt": "2024-11-16T03:44:00.7169706+00:00",
-          "EffectiveVersion": "1.4.0.0",
+          "BuiltCommit": "9c5e5512ae8682fe9a5a6737c6bc49b8d69849ce",
+          "TimeBuilt": "2025-03-26T23:20:06.6993843+00:00",
+          "EffectiveVersion": "1.5.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -7608,6 +7608,18 @@
               ],
               "Reviewer": "reiichi001",
               "Submitter": null
+            },
+            "1.5.0.0": {
+              "TimeReleased": "2025-03-26T23:20:06.6994411+00:00",
+              "Changelog": "- Added support for Patch 7.2 and Dalamud API 12.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "12.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "Tischel"
             }
           }
         },
