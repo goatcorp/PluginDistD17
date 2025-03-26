@@ -31017,9 +31017,9 @@
           }
         },
         "Redirect": {
-          "BuiltCommit": "0feec227f3ae7d17dcc3c91ebc7b9bf7973061a9",
-          "TimeBuilt": "2024-11-17T15:53:17.3339497+00:00",
-          "EffectiveVersion": "1.2.4.1",
+          "BuiltCommit": "c4c87937844bf3647ec189993a324d1c55eea53f",
+          "TimeBuilt": "2025-03-26T23:06:07.7694524+00:00",
+          "EffectiveVersion": "1.2.5.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.2.1.1": {
@@ -31082,6 +31082,18 @@
               ],
               "Reviewer": "philpax",
               "Submitter": null
+            },
+            "1.2.5.0": {
+              "TimeReleased": "2025-03-26T23:06:07.7695128+00:00",
+              "Changelog": "- Update for 7.2 / API12",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "12.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "cairthenn"
             }
           }
         },
