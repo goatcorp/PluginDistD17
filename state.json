@@ -1371,9 +1371,9 @@
           }
         },
         "PingPlugin": {
-          "BuiltCommit": "9131fa97f7945537161f19caf013e0703755e5dc",
-          "TimeBuilt": "2024-11-17T02:08:41.1471858+00:00",
-          "EffectiveVersion": "2.8.0.0",
+          "BuiltCommit": "30e45e3186af72460056ab5d7d81f6ec73a8eaab",
+          "TimeBuilt": "2025-03-26T21:11:43.9007541+00:00",
+          "EffectiveVersion": "2.8.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "2.5.0.0": {
@@ -1436,6 +1436,18 @@
               ],
               "Reviewer": "reiichi001",
               "Submitter": null
+            },
+            "2.8.1.0": {
+              "TimeReleased": "2025-03-26T21:11:43.9008094+00:00",
+              "Changelog": "- Updated for 7.2\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "12.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "karashiiro"
             }
           }
         },
