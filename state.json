@@ -17632,9 +17632,9 @@
           }
         },
         "ChatProximity": {
-          "BuiltCommit": "084b16d0ba06213e335581fdd22f0071cfa3d93e",
-          "TimeBuilt": "2024-12-08T23:45:11.1469521+00:00",
-          "EffectiveVersion": "1.3.1.0",
+          "BuiltCommit": "15d0b8a6ead70ae66289a9c037cd0d9e88c37858",
+          "TimeBuilt": "2025-03-26T21:31:56.9922373+00:00",
+          "EffectiveVersion": "1.3.2.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -17693,6 +17693,22 @@
               ],
               "Reviewer": "philpax",
               "Submitter": null
+            },
+            "1.3.2.0": {
+              "TimeReleased": "2025-03-26T21:31:56.9922389+00:00",
+              "Changelog": "## 1.3.2\n- Updated to API 12/.NET 9\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "12.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.25"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "iv230"
             }
           }
         },
@@ -65482,9 +65498,9 @@
           }
         },
         "ShopItemRevealer": {
-          "BuiltCommit": "53e40a7e15edb24484be6cdc422c3eda289707c7",
-          "TimeBuilt": "2025-01-19T02:49:57.2708232+00:00",
-          "EffectiveVersion": "1.1.1.0",
+          "BuiltCommit": "5ec06b6500ce39156772bb92bf011192106856b0",
+          "TimeBuilt": "2025-03-26T21:31:49.006311+00:00",
+          "EffectiveVersion": "1.1.2.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.2.0": {
@@ -65582,6 +65598,22 @@
               ],
               "Reviewer": "philpax",
               "Submitter": null
+            },
+            "1.1.2.0": {
+              "TimeReleased": "2025-03-26T21:31:49.0063304+00:00",
+              "Changelog": "API12 update, no functional changes.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "12.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.25"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "nathanctech"
             }
           }
         },
@@ -83618,134 +83650,6 @@
                 }
               ],
               "Reviewer": "philpax",
-              "Submitter": null
-            }
-          }
-        },
-        "ShopItemRevealer": {
-          "BuiltCommit": "e8f0eaf87960b7554bf815da5423bdbb0d2a3396",
-          "TimeBuilt": "2025-01-01T23:31:44.560189+00:00",
-          "EffectiveVersion": "1.0.2.0",
-          "MinimumVersion": null,
-          "Changelogs": {
-            "1.0.0.0": {
-              "TimeReleased": "2024-12-30T13:57:10.7047116+00:00",
-              "Changelog": "Initial release",
-              "UsedNeeds": [
-                {
-                  "Key": "DalamudPackager",
-                  "Version": "11.0.0"
-                },
-                {
-                  "Key": "DotNet.ReproducibleBuilds",
-                  "Version": "1.1.1"
-                },
-                {
-                  "Key": "Microsoft.Build.Tasks.Git",
-                  "Version": "1.1.1"
-                },
-                {
-                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
-                  "Version": "1.1.1"
-                },
-                {
-                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
-                  "Version": "1.1.1"
-                },
-                {
-                  "Key": "Microsoft.SourceLink.Common",
-                  "Version": "1.1.1"
-                },
-                {
-                  "Key": "Microsoft.SourceLink.GitHub",
-                  "Version": "1.1.1"
-                },
-                {
-                  "Key": "Microsoft.SourceLink.GitLab",
-                  "Version": "1.1.1"
-                }
-              ],
-              "Reviewer": "philpax",
-              "Submitter": null
-            },
-            "1.0.0.1": {
-              "TimeReleased": "2024-12-30T20:40:14.0809356+00:00",
-              "Changelog": "Initial release",
-              "UsedNeeds": [
-                {
-                  "Key": "DalamudPackager",
-                  "Version": "11.0.0"
-                },
-                {
-                  "Key": "DotNet.ReproducibleBuilds",
-                  "Version": "1.1.1"
-                },
-                {
-                  "Key": "Microsoft.Build.Tasks.Git",
-                  "Version": "1.1.1"
-                },
-                {
-                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
-                  "Version": "1.1.1"
-                },
-                {
-                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
-                  "Version": "1.1.1"
-                },
-                {
-                  "Key": "Microsoft.SourceLink.Common",
-                  "Version": "1.1.1"
-                },
-                {
-                  "Key": "Microsoft.SourceLink.GitHub",
-                  "Version": "1.1.1"
-                },
-                {
-                  "Key": "Microsoft.SourceLink.GitLab",
-                  "Version": "1.1.1"
-                }
-              ],
-              "Reviewer": "philpax",
-              "Submitter": null
-            },
-            "1.0.2.0": {
-              "TimeReleased": "2025-01-01T23:31:44.5602265+00:00",
-              "Changelog": "1.0.2\n- Adds sorting the table by item name (default) or quantity required.\n- Fixes another imgui assert.\n",
-              "UsedNeeds": [
-                {
-                  "Key": "DalamudPackager",
-                  "Version": "11.0.0"
-                },
-                {
-                  "Key": "DotNet.ReproducibleBuilds",
-                  "Version": "1.1.1"
-                },
-                {
-                  "Key": "Microsoft.Build.Tasks.Git",
-                  "Version": "1.1.1"
-                },
-                {
-                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
-                  "Version": "1.1.1"
-                },
-                {
-                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
-                  "Version": "1.1.1"
-                },
-                {
-                  "Key": "Microsoft.SourceLink.Common",
-                  "Version": "1.1.1"
-                },
-                {
-                  "Key": "Microsoft.SourceLink.GitHub",
-                  "Version": "1.1.1"
-                },
-                {
-                  "Key": "Microsoft.SourceLink.GitLab",
-                  "Version": "1.1.1"
-                }
-              ],
-              "Reviewer": "reiichi001",
               "Submitter": null
             }
           }
