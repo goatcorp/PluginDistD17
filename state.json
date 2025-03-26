@@ -2667,9 +2667,9 @@
           }
         },
         "Dalamud.LoadingImage": {
-          "BuiltCommit": "3c89f036177f0d364e6d141ae6b1948132a7cfc0",
-          "TimeBuilt": "2024-11-27T00:35:21.0463235+00:00",
-          "EffectiveVersion": "1.0.0.13",
+          "BuiltCommit": "98f73d9dc10bbb6467d6db37f598edfabd5e0760",
+          "TimeBuilt": "2025-03-26T22:46:19.5235868+00:00",
+          "EffectiveVersion": "1.0.0.14",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.13": {
@@ -2695,6 +2695,34 @@
               ],
               "Reviewer": "reiichi001",
               "Submitter": null
+            },
+            "1.0.0.14": {
+              "TimeReleased": "2025-03-26T22:46:19.523588+00:00",
+              "Changelog": null,
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "12.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.25"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.3"
+                },
+                {
+                  "Key": "StyleCop.Analyzers",
+                  "Version": "1.2.0-beta.333"
+                },
+                {
+                  "Key": "StyleCop.Analyzers.Unstable",
+                  "Version": "1.2.0.333"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "MapleHinata"
             }
           }
         },
@@ -6903,9 +6931,9 @@
           }
         },
         "RemotePartyFinder": {
-          "BuiltCommit": "031cb81faf9a1988235784ad6f641814c7ade9e1",
-          "TimeBuilt": "2025-01-03T19:13:25.5022223+00:00",
-          "EffectiveVersion": "1.0.15.0",
+          "BuiltCommit": "8f964f53dd079d48801c07bac6c745c01a368c76",
+          "TimeBuilt": "2025-03-26T22:46:42.3514538+00:00",
+          "EffectiveVersion": "1.0.16.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.8.0": {
@@ -6989,6 +7017,18 @@
               ],
               "Reviewer": "reiichi001",
               "Submitter": null
+            },
+            "1.0.16.0": {
+              "TimeReleased": "2025-03-26T22:46:42.3514548+00:00",
+              "Changelog": "Update for 7.2",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "12.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "zeroeightysix"
             }
           }
         },
@@ -37522,9 +37562,9 @@
           }
         },
         "AdventurerInNeed": {
-          "BuiltCommit": "60430b01fdcc34ccc44e690fefc4efd5daa4adb1",
-          "TimeBuilt": "2025-02-09T18:34:29.2578969+00:00",
-          "EffectiveVersion": "1.5.0.2",
+          "BuiltCommit": "63772f62151bf4dc70a7fddee94588e3f2d8010c",
+          "TimeBuilt": "2025-03-26T22:46:05.9638827+00:00",
+          "EffectiveVersion": "1.5.0.3",
           "MinimumVersion": null,
           "Changelogs": {
             "1.5.0.1": {
@@ -37550,6 +37590,18 @@
               ],
               "Reviewer": "philpax",
               "Submitter": null
+            },
+            "1.5.0.3": {
+              "TimeReleased": "2025-03-26T22:46:05.9639445+00:00",
+              "Changelog": "API12 / NET9 / Update for 7.2",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "12.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "Caraxi"
             }
           }
         },
@@ -39429,9 +39481,9 @@
           }
         },
         "Dalamud.FullscreenCutscenes": {
-          "BuiltCommit": "0913753c7874210f62f1ad9e37635887901bc4bd",
-          "TimeBuilt": "2024-11-27T00:35:39.776264+00:00",
-          "EffectiveVersion": "1.0.0.4",
+          "BuiltCommit": "2fedfd7507dca350bf2dfc58e00ff1fe5bc938c7",
+          "TimeBuilt": "2025-03-26T22:46:47.6626904+00:00",
+          "EffectiveVersion": "1.0.0.5",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.4": {
@@ -39445,6 +39497,18 @@
               ],
               "Reviewer": "reiichi001",
               "Submitter": null
+            },
+            "1.0.0.5": {
+              "TimeReleased": "2025-03-26T22:46:47.6626914+00:00",
+              "Changelog": null,
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "12.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "MapleHinata"
             }
           }
         },
@@ -45036,9 +45100,9 @@
           }
         },
         "FPSPlugin": {
-          "BuiltCommit": "81716104a1a1c5d00dbd090604a0aab36da4d952",
-          "TimeBuilt": "2024-11-17T15:52:38.9823001+00:00",
-          "EffectiveVersion": "1.7.0.1",
+          "BuiltCommit": "237aee50da8a63994c083bf7eb6578bab4c89cbf",
+          "TimeBuilt": "2025-03-26T22:46:30.3740613+00:00",
+          "EffectiveVersion": "1.7.0.2",
           "MinimumVersion": null,
           "Changelogs": {
             "1.7.0.1": {
@@ -45052,6 +45116,18 @@
               ],
               "Reviewer": "philpax",
               "Submitter": null
+            },
+            "1.7.0.2": {
+              "TimeReleased": "2025-03-26T22:46:30.3740623+00:00",
+              "Changelog": "API12 / NET9",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "12.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "Caraxi"
             }
           }
         },
@@ -60082,9 +60158,9 @@
           }
         },
         "MacroChain": {
-          "BuiltCommit": "6302d3f98b2f5371546f203feeb27b265efc97cd",
-          "TimeBuilt": "2024-11-17T15:52:55.6254468+00:00",
-          "EffectiveVersion": "2.2.0.1",
+          "BuiltCommit": "3a4769b86e41edac6238fb2a74c7f9569878f6b8",
+          "TimeBuilt": "2025-03-26T22:46:25.1565259+00:00",
+          "EffectiveVersion": "2.2.0.2",
           "MinimumVersion": null,
           "Changelogs": {
             "2.2.0.1": {
@@ -60098,6 +60174,18 @@
               ],
               "Reviewer": "philpax",
               "Submitter": null
+            },
+            "2.2.0.2": {
+              "TimeReleased": "2025-03-26T22:46:25.1565268+00:00",
+              "Changelog": "API12 / NET9",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "12.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "Caraxi"
             }
           }
         },
@@ -60395,9 +60483,9 @@
           }
         },
         "HighFpsPhysicsPlugin": {
-          "BuiltCommit": "6a1c76e9977f4b56c71dabb86bcc6ec0ca935979",
-          "TimeBuilt": "2024-11-20T23:48:55.8607209+00:00",
-          "EffectiveVersion": "8.0.2.0",
+          "BuiltCommit": "b6e15bbc4d29fc18cea610aee42c09acaf60ebcd",
+          "TimeBuilt": "2025-03-26T22:46:12.6406001+00:00",
+          "EffectiveVersion": "8.1.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "8.0.1.0": {
@@ -60418,6 +60506,18 @@
               ],
               "Reviewer": "philpax",
               "Submitter": null
+            },
+            "8.1.0.0": {
+              "TimeReleased": "2025-03-26T22:46:12.6406011+00:00",
+              "Changelog": "Update for 7.2, and took ownership from Kirrana",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "12.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "ItsLunaYup"
             }
           }
         },
@@ -67754,9 +67854,9 @@
           }
         },
         "SimpleMapTracker": {
-          "BuiltCommit": "bdbe25ff614fcd8bcb044fdaa3a0cd46c58f403f",
-          "TimeBuilt": "2025-02-01T01:09:15.7336353+00:00",
-          "EffectiveVersion": "1.0.1.0",
+          "BuiltCommit": "85119c0621e6a62160edecc6782d15cbaf77f4da",
+          "TimeBuilt": "2025-03-26T22:46:36.5469605+00:00",
+          "EffectiveVersion": "1.0.2.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.1.0": {
@@ -67862,6 +67962,58 @@
               ],
               "Reviewer": "philpax",
               "Submitter": null
+            },
+            "1.0.2.0": {
+              "TimeReleased": "2025-03-26T22:46:36.5469616+00:00",
+              "Changelog": "API12 / NET9",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "12.0.0"
+                },
+                {
+                  "Key": "GitInfo",
+                  "Version": "3.5.0"
+                },
+                {
+                  "Key": "Websocket.Client",
+                  "Version": "5.1.2"
+                },
+                {
+                  "Key": "Microsoft.CSharp",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.IO.RecyclableMemoryStream",
+                  "Version": "3.0.0"
+                },
+                {
+                  "Key": "System.Reactive",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "System.Threading.Channels",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "System.Threading.Tasks.Extensions",
+                  "Version": "4.5.4"
+                },
+                {
+                  "Key": "ThisAssembly.Constants",
+                  "Version": "2.0.6"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "Caraxi"
             }
           }
         },
