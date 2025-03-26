@@ -2,7 +2,7 @@
   "Author": "Infi, PunishedPineapple",
   "Name": "Ready Check Helper",
   "InternalName": "ReadyCheckHelper",
-  "AssemblyVersion": "1.0.7.7",
+  "AssemblyVersion": "1.0.8.0",
   "Description": "Displays the names of the players that were not ready in chat following the completion of a ready check, and optionally adds ready check status icons over the party and alliance lists.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Infiziert90/ReadyCheckHelper",
@@ -12,7 +12,7 @@
     "Check",
     "QoL"
   ],
-  "DalamudApiLevel": 11,
+  "DalamudApiLevel": 12,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,

@@ -2,7 +2,7 @@
   "Author": "Fools by Goat, taken over by Roselyn, on life support by Franz",
   "Name": "Elden Ring April Fools",
   "InternalName": "EldenRing",
-  "AssemblyVersion": "0.0.3.1",
+  "AssemblyVersion": "0.0.3.2",
   "Description": "Currently under development with extra features, should currently function as the April Fools joke did.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/reiichi001/EldenRingDalamud",
@@ -12,7 +12,7 @@
     "Death",
     "Craft"
   ],
-  "DalamudApiLevel": 11,
+  "DalamudApiLevel": 12,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,

@@ -2,7 +2,7 @@
   "Author": "Attick, daemitus, maintained by Khayle",
   "Name": "XIV Combo",
   "InternalName": "XIVCombo",
-  "AssemblyVersion": "2.0.0.6",
+  "AssemblyVersion": "2.0.1.0",
   "Description": "This plugin condenses combos and mutually exclusive abilities onto a single button. /pcombo to open menu",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/MKhayle/XivComboPlugin",
@@ -11,7 +11,7 @@
     "XIVCombo",
     "pcombo"
   ],
-  "DalamudApiLevel": 11,
+  "DalamudApiLevel": 12,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,

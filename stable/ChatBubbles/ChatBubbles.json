@@ -2,7 +2,7 @@
   "Author": "Haplo064, Khayle",
   "Name": "Chat Bubbles",
   "InternalName": "ChatBubbles",
-  "AssemblyVersion": "2.1.7.2",
+  "AssemblyVersion": "2.1.7.3",
   "Description": "Using native chat bubble display, see who is talking about what in a more natural fashion.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Haplo064/ChatBubbles",
@@ -13,7 +13,7 @@
     "Bubbles",
     "Chat"
   ],
-  "DalamudApiLevel": 11,
+  "DalamudApiLevel": 12,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
