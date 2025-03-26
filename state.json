@@ -66898,9 +66898,9 @@
           }
         },
         "XIVUncombo": {
-          "BuiltCommit": "38601f8d7d5b4302c16e648c3bafd8ebc966a740",
-          "TimeBuilt": "2024-11-16T00:50:49.3891084+00:00",
-          "EffectiveVersion": "1.0.0.1",
+          "BuiltCommit": "9038135bfeafa062d96ff0e23e472a2c479e71a8",
+          "TimeBuilt": "2025-03-26T23:37:08.6079521+00:00",
+          "EffectiveVersion": "1.0.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.1": {
@@ -66926,6 +66926,22 @@
               ],
               "Reviewer": "reiichi001",
               "Submitter": null
+            },
+            "1.0.1.0": {
+              "TimeReleased": "2025-03-26T23:37:08.6080174+00:00",
+              "Changelog": "- API 12 update",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "12.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.25"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "MKhayle"
             }
           }
         },
