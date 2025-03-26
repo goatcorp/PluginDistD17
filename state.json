@@ -5120,9 +5120,9 @@
           }
         },
         "ItemSearchPlugin": {
-          "BuiltCommit": "7a8d553a2fbc049594c44b935adf53b2d4b174fa",
-          "TimeBuilt": "2024-12-18T00:03:05.6853025+00:00",
-          "EffectiveVersion": "1.10.1.0",
+          "BuiltCommit": "00663ca5fb1560960d052130d38341f39f33f891",
+          "TimeBuilt": "2025-03-26T23:55:42.9562174+00:00",
+          "EffectiveVersion": "1.10.2.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.10.0.2": {
@@ -5268,6 +5268,30 @@
               ],
               "Reviewer": "reiichi001",
               "Submitter": null
+            },
+            "1.10.2.0": {
+              "TimeReleased": "2025-03-26T23:55:42.9562732+00:00",
+              "Changelog": "- API 12 update\n- 7.2 data update\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "12.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.25"
+                },
+                {
+                  "Key": "System.Linq.Async",
+                  "Version": "6.0.1"
+                },
+                {
+                  "Key": "Microsoft.Bcl.AsyncInterfaces",
+                  "Version": "6.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "MKhayle"
             }
           }
         },
