@@ -57764,9 +57764,9 @@
           }
         },
         "Browsingway": {
-          "BuiltCommit": "fde17ad94892719fbf241acfe710d95aef844e6a",
-          "TimeBuilt": "2024-11-15T19:32:46.9693317+00:00",
-          "EffectiveVersion": "1.6.3",
+          "BuiltCommit": "26700d37e23d3f069242e9a24f5772b865f4be6f",
+          "TimeBuilt": "2025-03-26T21:47:57.6989328+00:00",
+          "EffectiveVersion": "1.6.4",
           "MinimumVersion": null,
           "Changelogs": {
             "1.5.1.0": {
@@ -57891,6 +57891,66 @@
               ],
               "Reviewer": "goaaats",
               "Submitter": null
+            },
+            "1.6.4": {
+              "TimeReleased": "2025-03-26T21:47:57.6989911+00:00",
+              "Changelog": "- Bump Chromium to 134.0.6998.118\n- Api 12 support\n",
+              "UsedNeeds": [
+                {
+                  "Key": "CefSharp.Common.NETCore",
+                  "Version": "134.3.60"
+                },
+                {
+                  "Key": "CefSharp.OffScreen.NETCore",
+                  "Version": "134.3.60"
+                },
+                {
+                  "Key": "SharedMemory",
+                  "Version": "2.3.2"
+                },
+                {
+                  "Key": "chromiumembeddedframework.runtime",
+                  "Version": "134.3.6"
+                },
+                {
+                  "Key": "FlatSharp.Runtime",
+                  "Version": "7.8.0"
+                },
+                {
+                  "Key": "Microsoft.NETCore.Platforms",
+                  "Version": "3.1.9"
+                },
+                {
+                  "Key": "Microsoft.Win32.SystemEvents",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "System.Drawing.Common",
+                  "Version": "4.7.3"
+                },
+                {
+                  "Key": "System.Memory",
+                  "Version": "4.5.5"
+                },
+                {
+                  "Key": "System.Reflection.Emit.Lightweight",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "chromiumembeddedframework.runtime.win-x64",
+                  "Version": "134.3.6"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "12.0.0"
+                },
+                {
+                  "Key": "FlatSharp.Compiler",
+                  "Version": "7.8.0"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "Styr1x"
             }
           }
         },
@@ -86163,9 +86223,9 @@
           }
         },
         "Racingway": {
-          "BuiltCommit": "a96b2c75c19ca48d237b67e0b136bbc14e7e9532",
-          "TimeBuilt": "2025-03-19T22:31:11.2396957+00:00",
-          "EffectiveVersion": "0.0.6.1",
+          "BuiltCommit": "9b4c62e0dc286dc181042c2281359a4f52be1d97",
+          "TimeBuilt": "2025-03-26T21:48:06.6128171+00:00",
+          "EffectiveVersion": "0.0.6.3",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.4.1": {
@@ -86326,6 +86386,30 @@
                 }
               ],
               "Reviewer": "Critical-Impact",
+              "Submitter": "Abyeon"
+            },
+            "0.0.6.3": {
+              "TimeReleased": "2025-03-26T21:48:06.6128191+00:00",
+              "Changelog": "v0.0.6.3 [TESTING]\r\n- Update to api 12\r\n- Fix UI timer not resetting when going back to start\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "12.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.25"
+                },
+                {
+                  "Key": "LiteDB",
+                  "Version": "5.0.21"
+                },
+                {
+                  "Key": "System.Buffers",
+                  "Version": "4.5.1"
+                }
+              ],
+              "Reviewer": "reiichi001",
               "Submitter": "Abyeon"
             }
           }
@@ -96887,6 +96971,48 @@
       "Version": "12.0.0",
       "ReviewedBy": "reiichi001",
       "ReviewedAt": "2025-03-26T06:26:21.6590028Z"
+    },
+    {
+      "Type": 1,
+      "Key": "CefSharp.Common.NETCore",
+      "Version": "134.3.60",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2025-03-26T21:47:57.7327574Z"
+    },
+    {
+      "Type": 1,
+      "Key": "CefSharp.OffScreen.NETCore",
+      "Version": "134.3.60",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2025-03-26T21:47:57.7328234Z"
+    },
+    {
+      "Type": 1,
+      "Key": "chromiumembeddedframework.runtime",
+      "Version": "134.3.6",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2025-03-26T21:47:57.7328239Z"
+    },
+    {
+      "Type": 1,
+      "Key": "FlatSharp.Runtime",
+      "Version": "7.8.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2025-03-26T21:47:57.7328242Z"
+    },
+    {
+      "Type": 1,
+      "Key": "chromiumembeddedframework.runtime.win-x64",
+      "Version": "134.3.6",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2025-03-26T21:47:57.7328257Z"
+    },
+    {
+      "Type": 1,
+      "Key": "FlatSharp.Compiler",
+      "Version": "7.8.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2025-03-26T21:47:57.7328275Z"
     }
   ]
 }
