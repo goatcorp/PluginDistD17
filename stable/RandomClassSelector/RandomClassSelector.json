@@ -2,7 +2,7 @@
   "Author": "Aida Enna",
   "Name": "Random Class Selector",
   "InternalName": "RandomClassSelector",
-  "AssemblyVersion": "1.0.0.3",
+  "AssemblyVersion": "1.0.0.4",
   "Description": "Allows you to select a random class to do dailies/etc on.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Aida-Enna/RandomClassSelector",
@@ -11,7 +11,7 @@
     "class",
     "aida"
   ],
-  "DalamudApiLevel": 11,
+  "DalamudApiLevel": 12,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,

@@ -2,7 +2,7 @@
   "Author": "Aida Enna",
   "Name": "Graphics Config",
   "InternalName": "GraphicsConfig",
-  "AssemblyVersion": "1.0.0.7",
+  "AssemblyVersion": "1.0.0.8",
   "Description": "Allows you to save/load/share graphical setting presets (based on your System Configuration menu) at any time, including when triggered by events like entering a battle, cutscene, or gpose.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Aida-Enna/GraphicsConfig",
@@ -11,7 +11,7 @@
     "config",
     "aida"
   ],
-  "DalamudApiLevel": 11,
+  "DalamudApiLevel": 12,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,

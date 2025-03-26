@@ -2,7 +2,7 @@
   "Author": "Chirp",
   "Name": "SelfCare",
   "InternalName": "SelfCare",
-  "AssemblyVersion": "0.2.1.0",
+  "AssemblyVersion": "0.2.2.0",
   "Description": "Configurable reminders to hydrate and maintain a healthy posture.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/chirpxiv/SelfCare",
@@ -12,7 +12,7 @@
     "hydrate",
     "water"
   ],
-  "DalamudApiLevel": 11,
+  "DalamudApiLevel": 12,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,

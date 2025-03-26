@@ -2,7 +2,7 @@
   "Author": "apetih",
   "Name": "RTyping",
   "InternalName": "rtyping",
-  "AssemblyVersion": "0.1.0.5",
+  "AssemblyVersion": "0.1.0.6",
   "Description": "Allows other people using this plugin to see your typing status when in the same party.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/apetih/rtyping",
@@ -15,7 +15,7 @@
     "ui",
     "utility"
   ],
-  "DalamudApiLevel": 11,
+  "DalamudApiLevel": 12,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,

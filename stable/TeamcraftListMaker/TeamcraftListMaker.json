@@ -2,7 +2,7 @@
   "Author": "Aida Enna",
   "Name": "Teamcraft List Maker",
   "InternalName": "TeamcraftListMaker",
-  "AssemblyVersion": "1.0.0.4",
+  "AssemblyVersion": "1.0.0.5",
   "Description": "No more alt tabbing, no more writing down names of items, just add and export!\n\nThis plugin is not created by Teamcraft staff and they are not responsible for it. To report issues or request new features, please click the globe icon and submit them using the issues tab.\n\n(Logo used with permission from Teamcraft owner)",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Aida-Enna/TeamcraftListMaker",
@@ -12,7 +12,7 @@
     "list",
     "aida"
   ],
-  "DalamudApiLevel": 11,
+  "DalamudApiLevel": 12,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,

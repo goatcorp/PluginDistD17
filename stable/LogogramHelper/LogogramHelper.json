@@ -2,7 +2,7 @@
   "Author": "apetih",
   "Name": "Logogram Helper",
   "InternalName": "LogogramHelper",
-  "AssemblyVersion": "0.0.3.3",
+  "AssemblyVersion": "0.0.3.4",
   "Description": "Shows amounts of possible combinations for Eureka's Logos Actions upon entering the Logos Manipulator.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/apetih/LogogramHelper",
@@ -13,7 +13,7 @@
   "CategoryTags": [
     "utility"
   ],
-  "DalamudApiLevel": 11,
+  "DalamudApiLevel": 12,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,

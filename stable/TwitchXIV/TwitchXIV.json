@@ -2,7 +2,7 @@
   "Author": "Aida Enna",
   "Name": "Twitch XIV",
   "InternalName": "TwitchXIV",
-  "AssemblyVersion": "1.0.0.5",
+  "AssemblyVersion": "1.0.0.6",
   "Description": "Allows you to join a Twitch chat and send messages and (optionally) have the twitch chat come through your chatbox.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Aida-Enna/TwitchXIV",
@@ -10,7 +10,7 @@
     "twitch",
     "aida"
   ],
-  "DalamudApiLevel": 11,
+  "DalamudApiLevel": 12,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,

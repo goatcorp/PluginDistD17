@@ -2,7 +2,7 @@
   "Author": "keifufu",
   "Name": "JobTitles",
   "InternalName": "JobTitles",
-  "AssemblyVersion": "0.2.0.1",
+  "AssemblyVersion": "0.2.0.2",
   "Description": "Changes your title based on the current job, with per-character settings.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/keifufu/JobTitles",
@@ -11,7 +11,7 @@
     "Class",
     "Title"
   ],
-  "DalamudApiLevel": 11,
+  "DalamudApiLevel": 12,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
