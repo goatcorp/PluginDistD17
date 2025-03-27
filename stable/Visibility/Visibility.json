@@ -2,7 +2,7 @@
   "Author": "SheepGoMeh",
   "Name": "Visibility",
   "InternalName": "Visibility",
-  "AssemblyVersion": "1.1.8.2",
+  "AssemblyVersion": "1.1.8.3",
   "Description": "Allows you to hide players, pets, chocobos and minions.\nIncludes VoidList, which is a better blacklist.\nAccessible via /pvis\nMore information available via /xlhelp",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/SheepGoMeh/VisibilityPlugin",
@@ -15,7 +15,7 @@
     "Visibility",
     "QoL"
   ],
-  "DalamudApiLevel": 11,
+  "DalamudApiLevel": 12,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,

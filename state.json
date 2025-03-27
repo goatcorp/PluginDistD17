@@ -963,9 +963,9 @@
           }
         },
         "Tourist": {
-          "BuiltCommit": "976befbe9cb2755ae9076356dde189d1654bd9c0",
-          "TimeBuilt": "2024-12-30T20:40:05.3795658+00:00",
-          "EffectiveVersion": "1.2.16",
+          "BuiltCommit": "32e83f8d1d46f81ef1210bc770a6931f398a576c",
+          "TimeBuilt": "2025-03-27T19:01:17.6687397+00:00",
+          "EffectiveVersion": "1.2.17.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.2.9": {
@@ -1072,6 +1072,38 @@
               ],
               "Reviewer": "philpax",
               "Submitter": null
+            },
+            "1.2.17.0": {
+              "TimeReleased": "2025-03-27T19:01:17.668797+00:00",
+              "Changelog": "API 12",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/foophoof/FFXIVWeather.Lumina.git",
+                  "Version": "fe9ded81692de70b6a726cc2caf8613c31a7b45b"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "12.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.25"
+                },
+                {
+                  "Key": "Lumina",
+                  "Version": "5.6.1"
+                },
+                {
+                  "Key": "Lumina.Excel",
+                  "Version": "7.2.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.ObjectPool",
+                  "Version": "8.0.7"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "foophoof"
             }
           }
         },
@@ -22417,9 +22449,9 @@
           }
         },
         "PriceInsight": {
-          "BuiltCommit": "3f3998e00a3a9150b813655b7785d6a2c61a8384",
-          "TimeBuilt": "2024-11-24T17:31:44.1514228+00:00",
-          "EffectiveVersion": "2.11.1.1",
+          "BuiltCommit": "7345796aab76083e542f1e1210f6b828b8ddd66c",
+          "TimeBuilt": "2025-03-27T19:01:25.8791829+00:00",
+          "EffectiveVersion": "2.11.2.0",
           "MinimumVersion": null,
           "Changelogs": {
             "2.2.0.0": {
@@ -22724,6 +22756,74 @@
               ],
               "Reviewer": "philpax",
               "Submitter": null
+            },
+            "2.11.2.0": {
+              "TimeReleased": "2025-03-27T19:01:25.879184+00:00",
+              "Changelog": "- Update to ffxiv 7.2 and dalamud api12\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "12.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.25"
+                },
+                {
+                  "Key": "EasyCaching.InMemory",
+                  "Version": "1.9.2"
+                },
+                {
+                  "Key": "EasyCaching.Core",
+                  "Version": "1.9.2"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Abstractions",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Binder",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options.ConfigurationExtensions",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Primitives",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "System.Diagnostics.DiagnosticSource",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "System.Runtime.CompilerServices.Unsafe",
+                  "Version": "6.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "Kouzukii"
             }
           }
         },
@@ -25517,9 +25617,9 @@
           }
         },
         "Visibility": {
-          "BuiltCommit": "2fe7047d5c4d4345811eaf3de98764967ef6466d",
-          "TimeBuilt": "2024-11-16T00:40:07.7897774+00:00",
-          "EffectiveVersion": "1.1.8.2",
+          "BuiltCommit": "155bfb0b35961e8db713fbdd51f98f5221792c21",
+          "TimeBuilt": "2025-03-27T19:01:34.3578358+00:00",
+          "EffectiveVersion": "1.1.8.3",
           "MinimumVersion": null,
           "Changelogs": {
             "1.1.3.6": {
@@ -25643,6 +25743,22 @@
               ],
               "Reviewer": "karashiiro",
               "Submitter": null
+            },
+            "1.1.8.3": {
+              "TimeReleased": "2025-03-27T19:01:34.3578371+00:00",
+              "Changelog": "- Updated plugin for 7.2",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "12.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.25"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "SheepGoMeh"
             }
           }
         },
@@ -106975,6 +107091,20 @@
       "Version": "1.0.4",
       "ReviewedBy": "philpax",
       "ReviewedAt": "2025-03-27T17:54:48.2054843Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/foophoof/FFXIVWeather.Lumina.git",
+      "Version": "fe9ded81692de70b6a726cc2caf8613c31a7b45b",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2025-03-27T19:01:17.7034946Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Lumina.Excel",
+      "Version": "7.2.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2025-03-27T19:01:17.7035434Z"
     }
   ]
 }
