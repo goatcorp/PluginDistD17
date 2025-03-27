@@ -66509,9 +66509,9 @@
           }
         },
         "autoSweep": {
-          "BuiltCommit": "6f3c668f4d8490cf34b4ebe2107b01e812008027",
-          "TimeBuilt": "2024-11-18T04:35:15.0066999+00:00",
-          "EffectiveVersion": "1.4.6.0",
+          "BuiltCommit": "54533674c987d26476c04ad51f6c88f71e8015a6",
+          "TimeBuilt": "2025-03-27T23:25:11.3302027+00:00",
+          "EffectiveVersion": "1.4.7.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.4.2.0": {
@@ -66561,6 +66561,30 @@
               ],
               "Reviewer": "reiichi001",
               "Submitter": null
+            },
+            "1.4.7.0": {
+              "TimeReleased": "2025-03-27T23:25:11.3302556+00:00",
+              "Changelog": "Updated for 7.2",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "12.0.0"
+                },
+                {
+                  "Key": "DebounceThrottle",
+                  "Version": "2.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.25"
+                },
+                {
+                  "Key": "WebSocketSharp.Standard",
+                  "Version": "1.0.3"
+                }
+              ],
+              "Reviewer": "philpax",
+              "Submitter": "zhudotexe"
             }
           }
         },
