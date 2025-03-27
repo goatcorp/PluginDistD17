@@ -2,7 +2,7 @@
   "Author": "kalilistic, karashiiro, shadow_kras",
   "Name": "NeatNoter",
   "InternalName": "NeatNoter",
-  "AssemblyVersion": "2.7.1.0",
+  "AssemblyVersion": "2.7.2.0",
   "Description": "NeatNoter allows you to take notes without switching windows or any of that.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/shadowkras/NeatNoter",
@@ -12,7 +12,7 @@
     "tool",
     "overlay"
   ],
-  "DalamudApiLevel": 11,
+  "DalamudApiLevel": 12,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,

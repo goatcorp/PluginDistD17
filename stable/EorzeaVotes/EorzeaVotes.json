@@ -2,8 +2,8 @@
   "Author": "Anna",
   "Name": "Eorzea Votes",
   "InternalName": "EorzeaVotes",
-  "AssemblyVersion": "1.3.2.0",
-  "Description": "Cast your vote in daily lighthearted opinion polls!\n",
+  "AssemblyVersion": "1.3.3.0",
+  "Description": "Cast your vote in weekly lighthearted opinion polls!\n",
   "ApplicableVersion": "any",
   "Tags": [
     "vote",
@@ -11,12 +11,12 @@
     "questions",
     "eorzea"
   ],
-  "DalamudApiLevel": 9,
+  "DalamudApiLevel": 12,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
   "LoadPriority": 0,
-  "Punchline": "Cast your vote in daily lighthearted opinion polls! Is a hot dog a sandwich?",
+  "Punchline": "Cast your vote in weekly lighthearted opinion polls! Is a hot dog a sandwich?",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "stable"

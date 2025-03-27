@@ -2,7 +2,7 @@
   "Author": "rekyuu",
   "Name": "Stanley Parable XIV",
   "InternalName": "StanleyParableXiv",
-  "AssemblyVersion": "3.2.1.0",
+  "AssemblyVersion": "3.3.0.0",
   "Description": "Check /narrator for full options or use /narratorvolume to set volume manually.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/rekyuu/StanleyParableXiv",
@@ -13,7 +13,7 @@
     "Stanley Parable",
     "narrator"
   ],
-  "DalamudApiLevel": 11,
+  "DalamudApiLevel": 12,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
