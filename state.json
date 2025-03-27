@@ -4809,9 +4809,9 @@
           }
         },
         "WinTitle": {
-          "BuiltCommit": "87c921adfa3e60f858c3b7e272a34894d8b4d5ce",
-          "TimeBuilt": "2024-11-27T16:38:09.4284345+00:00",
-          "EffectiveVersion": "1.2.0.0",
+          "BuiltCommit": "a5597c70633623c903ebbb93c0f513ccffb5b1be",
+          "TimeBuilt": "2025-03-27T15:27:47.4729694+00:00",
+          "EffectiveVersion": "1.2.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.4.0": {
@@ -4916,6 +4916,22 @@
               ],
               "Reviewer": "philpax",
               "Submitter": null
+            },
+            "1.2.1.0": {
+              "TimeReleased": "2025-03-27T15:27:47.4729709+00:00",
+              "Changelog": "API 12 bump",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "12.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.25"
+                }
+              ],
+              "Reviewer": "philpax",
+              "Submitter": "rreminy"
             }
           }
         },
@@ -40088,9 +40104,9 @@
           }
         },
         "PeepingTom": {
-          "BuiltCommit": "1fd837a6ca75a02817436be3627897018e96a511",
-          "TimeBuilt": "2024-11-28T05:34:10.6138476+00:00",
-          "EffectiveVersion": "1.7.18",
+          "BuiltCommit": "9e1e08aa6a89e291a9a454c9b80644a2806443b8",
+          "TimeBuilt": "2025-03-27T15:27:55.9243532+00:00",
+          "EffectiveVersion": "1.7.19",
           "MinimumVersion": null,
           "Changelogs": {
             "1.7.11": {
@@ -40169,6 +40185,34 @@
               ],
               "Reviewer": "reiichi001",
               "Submitter": null
+            },
+            "1.7.19": {
+              "TimeReleased": "2025-03-27T15:27:55.9243542+00:00",
+              "Changelog": "\\\n- API 12\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "12.0.0"
+                },
+                {
+                  "Key": "Fody",
+                  "Version": "6.9.1"
+                },
+                {
+                  "Key": "NAudio.Core",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Wasapi",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "Resourcer.Fody",
+                  "Version": "1.8.1"
+                }
+              ],
+              "Reviewer": "philpax",
+              "Submitter": "Caraxi"
             }
           }
         },
@@ -40789,9 +40833,9 @@
           }
         },
         "WhoDidThat": {
-          "BuiltCommit": "bd80740c60fa91414ef69418f52a481b26a4d633",
-          "TimeBuilt": "2024-11-16T21:12:05.0649587+00:00",
-          "EffectiveVersion": "1.7.1.0",
+          "BuiltCommit": "0114485526efda46736e45b5cf12b80d24441bea",
+          "TimeBuilt": "2025-03-27T15:27:33.0372851+00:00",
+          "EffectiveVersion": "1.8.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.1.1.1": {
@@ -40868,6 +40912,22 @@
               ],
               "Reviewer": "reiichi001",
               "Submitter": null
+            },
+            "1.8.0.0": {
+              "TimeReleased": "2025-03-27T15:27:33.0373387+00:00",
+              "Changelog": "Updated to 7.2, Added Resurrection toggle.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "12.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.25"
+                }
+              ],
+              "Reviewer": "philpax",
+              "Submitter": "spide-r"
             }
           }
         },
@@ -73906,9 +73966,9 @@
           }
         },
         "RezoPlugin": {
-          "BuiltCommit": "289d7fb555c0ec713c6903cd55e3f211e273b5bd",
-          "TimeBuilt": "2025-02-24T01:56:34.1465428+00:00",
-          "EffectiveVersion": "1.2.1.0",
+          "BuiltCommit": "f3946a999d8d51e45fa468010338a9188ac4ecf0",
+          "TimeBuilt": "2025-03-27T15:27:40.2773318+00:00",
+          "EffectiveVersion": "1.2.2.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.2.1.0": {
@@ -73926,6 +73986,22 @@
               ],
               "Reviewer": "reiichi001",
               "Submitter": null
+            },
+            "1.2.2.0": {
+              "TimeReleased": "2025-03-27T15:27:40.2773327+00:00",
+              "Changelog": "API 12 Bump",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "12.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.25"
+                }
+              ],
+              "Reviewer": "philpax",
+              "Submitter": "rreminy"
             }
           }
         },
@@ -94927,9 +95003,9 @@
           }
         },
         "Sightseeingway": {
-          "BuiltCommit": "4836a59fd6642601b133a940dd4b65b84b8cc1f8",
-          "TimeBuilt": "2025-03-26T22:22:46.0269347+00:00",
-          "EffectiveVersion": "0.0.0.2",
+          "BuiltCommit": "da514beb44f88040bbdcff0c2afd633a6e77c81c",
+          "TimeBuilt": "2025-03-27T15:28:04.8923868+00:00",
+          "EffectiveVersion": "0.0.0.3",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.0.1": {
@@ -94986,6 +95062,22 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "LeonAquitaine"
+            },
+            "0.0.0.3": {
+              "TimeReleased": "2025-03-27T15:28:04.8923877+00:00",
+              "Changelog": "Updated for 7.2 / API 12",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "12.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.25"
+                }
+              ],
+              "Reviewer": "philpax",
               "Submitter": "LeonAquitaine"
             }
           }
@@ -95107,6 +95199,38 @@
               ],
               "Reviewer": "Critical-Impact",
               "Submitter": "Caraxi"
+            }
+          }
+        },
+        "QuestMap": {
+          "BuiltCommit": "2d26ed9a43c21bc4014340a843dd6289d267e402",
+          "TimeBuilt": "2025-03-27T15:28:12.3514145+00:00",
+          "EffectiveVersion": "1.7.0.0",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "1.7.0.0": {
+              "TimeReleased": "2025-03-27T15:28:12.351421+00:00",
+              "Changelog": "API 12 Bump",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "12.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.25"
+                },
+                {
+                  "Key": "Msagl",
+                  "Version": "1.2.1"
+                },
+                {
+                  "Key": "System.Threading.Channels",
+                  "Version": "8.0.0"
+                }
+              ],
+              "Reviewer": "philpax",
+              "Submitter": "rreminy"
             }
           }
         }
@@ -106309,6 +106433,13 @@
       "Version": "9.0.3",
       "ReviewedBy": "Critical-Impact",
       "ReviewedAt": "2025-03-27T12:32:10.1964974Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Msagl",
+      "Version": "1.2.1",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2025-03-27T15:28:12.3672453Z"
     }
   ]
 }
