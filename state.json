@@ -7225,9 +7225,9 @@
           }
         },
         "Wordsmith": {
-          "BuiltCommit": "e36b53f5b6e9557397031c58b20cad3b5f4dfe5b",
-          "TimeBuilt": "2024-11-23T17:00:50.0335879+00:00",
-          "EffectiveVersion": "1.15.3.0",
+          "BuiltCommit": "c0da57c95e91b5fa2d5d4f26a5b6b188684c7c92",
+          "TimeBuilt": "2025-03-27T02:11:48.0499469+00:00",
+          "EffectiveVersion": "1.15.4.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.4.3": {
@@ -7379,6 +7379,18 @@
               ],
               "Reviewer": "philpax",
               "Submitter": null
+            },
+            "1.15.4.0": {
+              "TimeReleased": "2025-03-27T02:11:48.05001+00:00",
+              "Changelog": "# Wordsmith v1.15.4\nUpdated to latest Dalamud version",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "12.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "MythicPalette"
             }
           }
         },

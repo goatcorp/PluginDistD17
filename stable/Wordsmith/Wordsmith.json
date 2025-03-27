@@ -2,14 +2,14 @@
   "Author": "Mythic Palette",
   "Name": "Wordsmith",
   "InternalName": "Wordsmith",
-  "AssemblyVersion": "1.15.3.0",
+  "AssemblyVersion": "1.15.4.0",
   "Description": "Wordsmith is a text editor with roleplayers in mind. It automatically breaks your text up for easy copy/paste, has advanced features, spellcheck, and even a thesaurus.",
   "ApplicableVersion": "any",
   "Tags": [
     "Social",
     "Utility"
   ],
-  "DalamudApiLevel": 11,
+  "DalamudApiLevel": 12,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
