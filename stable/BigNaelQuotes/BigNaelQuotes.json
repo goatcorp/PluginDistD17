@@ -2,7 +2,7 @@
   "Author": "hunter2_, originally by Eisenhuth",
   "Name": "Big Nael Quotes",
   "InternalName": "BigNaelQuotes",
-  "AssemblyVersion": "0.0.5.0",
+  "AssemblyVersion": "0.0.6.0",
   "Description": "Displays Nael quotes using the Dawntrail gimmick-text so they're easier to read.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/hunter2actual/BigNaelQuotes",
@@ -11,7 +11,7 @@
     "nael",
     "quotes"
   ],
-  "DalamudApiLevel": 11,
+  "DalamudApiLevel": 12,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
@@ -20,7 +20,7 @@
     "https://i.imgur.com/LLZ1yN9.png"
   ],
   "Punchline": "Makes Nael quotes more visible.",
-  "Changelog": "Randomize quote selection",
+  "Changelog": "Update for api12/dotnet9",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "stable"

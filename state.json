@@ -73546,9 +73546,9 @@
           }
         },
         "BigNaelQuotes": {
-          "BuiltCommit": "1f714db51274db325afc49955cb84fcb21d6e901",
-          "TimeBuilt": "2025-01-08T17:08:42.4599058+00:00",
-          "EffectiveVersion": "0.0.5.0",
+          "BuiltCommit": "247396fe883b01329f116a8bd528a84451318ec0",
+          "TimeBuilt": "2025-03-27T19:56:55.991026+00:00",
+          "EffectiveVersion": "0.0.6.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.5.0": {
@@ -73562,6 +73562,18 @@
               ],
               "Reviewer": "philpax",
               "Submitter": null
+            },
+            "0.0.6.0": {
+              "TimeReleased": "2025-03-27T19:56:55.9910839+00:00",
+              "Changelog": "Update for api12/dotnet9",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "12.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "hunter2actual"
             }
           }
         },
@@ -95790,9 +95802,9 @@
           }
         },
         "Sightseeingway": {
-          "BuiltCommit": "1c6eb412f42ee2b8559a2823276cb65d68da7551",
-          "TimeBuilt": "2025-03-27T18:31:44.4519911+00:00",
-          "EffectiveVersion": "0.0.0.4",
+          "BuiltCommit": "28ed48dd8c43dd3830d02e042e2486cff24f501f",
+          "TimeBuilt": "2025-03-27T19:57:03.4450747+00:00",
+          "EffectiveVersion": "0.0.0.5",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.0.1": {
@@ -95881,6 +95893,22 @@
                 }
               ],
               "Reviewer": "philpax",
+              "Submitter": "LeonAquitaine"
+            },
+            "0.0.0.5": {
+              "TimeReleased": "2025-03-27T19:57:03.4450762+00:00",
+              "Changelog": "Updated for 7.2 / API 12 \u002B Fixes",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "12.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.25"
+                }
+              ],
+              "Reviewer": "reiichi001",
               "Submitter": "LeonAquitaine"
             }
           }
