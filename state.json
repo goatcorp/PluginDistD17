@@ -82812,9 +82812,9 @@
           }
         },
         "FCNameColor": {
-          "BuiltCommit": "bda9fd3d0696e9f50407f1dc2e8ad658260a5843",
-          "TimeBuilt": "2024-08-01T23:59:26.75",
-          "EffectiveVersion": "5.0.1.0",
+          "BuiltCommit": "2f18729e74477f3a1a78056733897602461a0a96",
+          "TimeBuilt": "2025-03-27T19:47:15.2440333+00:00",
+          "EffectiveVersion": "5.1.0.1",
           "MinimumVersion": null,
           "Changelogs": {
             "3.0.0.0": {
@@ -82865,6 +82865,42 @@
               "UsedNeeds": null,
               "Reviewer": null,
               "Submitter": null
+            },
+            "5.1.0.1": {
+              "TimeReleased": "2025-03-27T19:47:15.2440886+00:00",
+              "Changelog": "- Fix FC matching issue\n",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/xivapi/NetStone.git",
+                  "Version": "4d21f40497f701d6fe1afb433bbcb565f2b3544a"
+                },
+                {
+                  "Key": "https://github.com/google/flatbuffers.git",
+                  "Version": "354d97f6da18cbbdeddfcdd2d5aebf1bcc57a092"
+                },
+                {
+                  "Key": "https://github.com/karashiiro/lodestone-data-exports",
+                  "Version": "4fb0d3a47f6e653aac1d156f1c8fe7730fb7c2cf"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "12.0.0"
+                },
+                {
+                  "Key": "HtmlAgilityPack",
+                  "Version": "1.11.46"
+                },
+                {
+                  "Key": "Karashiiro.HtmlAgilityPack.CssSelectors.NetCoreFork",
+                  "Version": "0.0.2"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.3"
+                }
+              ],
+              "Reviewer": "philpax",
+              "Submitter": "WesselKuipers"
             }
           }
         },
