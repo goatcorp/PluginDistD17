@@ -2,7 +2,7 @@
   "Author": "Noevain",
   "Name": "Dot Calculator",
   "InternalName": "DotCalculator",
-  "AssemblyVersion": "0.0.3.0",
+  "AssemblyVersion": "0.0.4.0",
   "Description": "Show as FlyText or chat prints how much damage the current DoT you have put on the target has dealt",
   "ApplicableVersion": "any",
   "Tags": [
@@ -10,7 +10,7 @@
     "plugin",
     "damage"
   ],
-  "DalamudApiLevel": 11,
+  "DalamudApiLevel": 12,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,

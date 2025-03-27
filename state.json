@@ -40653,9 +40653,9 @@
           }
         },
         "OfDungeonsDeep": {
-          "BuiltCommit": "df8740f974c454cb2b9354228ec9b5292bf3d125",
-          "TimeBuilt": "2024-12-20T05:37:27.5883649+00:00",
-          "EffectiveVersion": "1.0.4.0",
+          "BuiltCommit": "086debc8f56aa751195fb1840e6c34b16a44740a",
+          "TimeBuilt": "2025-03-27T12:31:40.6207027+00:00",
+          "EffectiveVersion": "1.0.4.2",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.2.0": {
@@ -40765,6 +40765,26 @@
               ],
               "Reviewer": "reiichi001",
               "Submitter": null
+            },
+            "1.0.4.2": {
+              "TimeReleased": "2025-03-27T12:31:40.620704+00:00",
+              "Changelog": "- API 12 update\n",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MKhayle/compendium.git",
+                  "Version": "e84c4314a278df58d44656083fe9f635209c4877"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "12.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.25"
+                }
+              ],
+              "Reviewer": "Critical-Impact",
+              "Submitter": "MKhayle"
             }
           }
         },
@@ -44462,9 +44482,9 @@
           "Changelogs": {}
         },
         "ExtraChat": {
-          "BuiltCommit": "a3528a81709dd956f293a405a9a6fa32ab892c64",
-          "TimeBuilt": "2024-11-28T05:37:35.4200587+00:00",
-          "EffectiveVersion": "1.3.7.0",
+          "BuiltCommit": "099a5103260fa307df937284274b14dbfa551cc1",
+          "TimeBuilt": "2025-03-27T12:32:10.1797936+00:00",
+          "EffectiveVersion": "1.3.8.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.2.2.0": {
@@ -44809,6 +44829,286 @@
               ],
               "Reviewer": "reiichi001",
               "Submitter": null
+            },
+            "1.3.8.0": {
+              "TimeReleased": "2025-03-27T12:32:10.1797951+00:00",
+              "Changelog": "\\\n- API 12\n",
+              "UsedNeeds": [
+                {
+                  "Key": "ASodium",
+                  "Version": "0.6.1"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "12.0.0"
+                },
+                {
+                  "Key": "MessagePack",
+                  "Version": "2.5.192"
+                },
+                {
+                  "Key": "System.Net.WebSockets.Client",
+                  "Version": "4.3.2"
+                },
+                {
+                  "Key": "System.Threading.Channels",
+                  "Version": "9.0.3"
+                },
+                {
+                  "Key": "libsodium",
+                  "Version": "1.0.19"
+                },
+                {
+                  "Key": "MessagePack.Annotations",
+                  "Version": "2.5.192"
+                },
+                {
+                  "Key": "Microsoft.NET.StringTools",
+                  "Version": "17.6.3"
+                },
+                {
+                  "Key": "Microsoft.NETCore.Platforms",
+                  "Version": "1.1.0"
+                },
+                {
+                  "Key": "Microsoft.NETCore.Targets",
+                  "Version": "1.1.0"
+                },
+                {
+                  "Key": "Microsoft.Win32.Primitives",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "runtime.fedora.23-x64.runtime.native.System.Security.Cryptography.OpenSsl",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "runtime.fedora.24-x64.runtime.native.System.Security.Cryptography.OpenSsl",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "runtime.native.System",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "runtime.native.System.Net.Http",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "runtime.native.System.Net.Security",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "runtime.native.System.Security.Cryptography.Apple",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "runtime.native.System.Security.Cryptography.OpenSsl",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "runtime.opensuse.13.2-x64.runtime.native.System.Security.Cryptography.OpenSsl",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "runtime.opensuse.42.1-x64.runtime.native.System.Security.Cryptography.OpenSsl",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "runtime.osx.10.10-x64.runtime.native.System.Security.Cryptography.Apple",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "runtime.osx.10.10-x64.runtime.native.System.Security.Cryptography.OpenSsl",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "runtime.rhel.7-x64.runtime.native.System.Security.Cryptography.OpenSsl",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "runtime.ubuntu.14.04-x64.runtime.native.System.Security.Cryptography.OpenSsl",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "runtime.ubuntu.16.04-x64.runtime.native.System.Security.Cryptography.OpenSsl",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "runtime.ubuntu.16.10-x64.runtime.native.System.Security.Cryptography.OpenSsl",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Collections",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Collections.Concurrent",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Diagnostics.Debug",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Diagnostics.Tracing",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Globalization",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Globalization.Calendars",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Globalization.Extensions",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.IO",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.IO.FileSystem",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.IO.FileSystem.Primitives",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Linq",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Net.NameResolution",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Net.Primitives",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Net.Security",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Net.Sockets",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Net.WebHeaderCollection",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Net.WebSockets",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Reflection",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Reflection.Primitives",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Resources.ResourceManager",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Runtime",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Runtime.Extensions",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Runtime.Handles",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Runtime.InteropServices",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Runtime.Numerics",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Security.Claims",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Security.Cryptography.Algorithms",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Security.Cryptography.Cng",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Security.Cryptography.Csp",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Security.Cryptography.Encoding",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Security.Cryptography.OpenSsl",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Security.Cryptography.Primitives",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Security.Cryptography.X509Certificates",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Security.Principal",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Security.Principal.Windows",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Text.Encoding",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Text.Encoding.Extensions",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Threading",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Threading.Tasks",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Threading.ThreadPool",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Threading.Timer",
+                  "Version": "4.3.0"
+                }
+              ],
+              "Reviewer": "Critical-Impact",
+              "Submitter": "anna-is-cute"
             }
           }
         },
@@ -45759,9 +46059,9 @@
           }
         },
         "RepairMe": {
-          "BuiltCommit": "64aa53dbd2f2e62dcdef4c19fee4e4fc98a8741f",
-          "TimeBuilt": "2024-12-11T22:22:47.1960035+00:00",
-          "EffectiveVersion": "1.0.1.17",
+          "BuiltCommit": "646eabc50d9485432faaade51a98ea761caed119",
+          "TimeBuilt": "2025-03-27T12:31:48.5977759+00:00",
+          "EffectiveVersion": "1.0.1.18",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.1.12": {
@@ -45803,6 +46103,22 @@
               ],
               "Reviewer": "reiichi001",
               "Submitter": null
+            },
+            "1.0.1.18": {
+              "TimeReleased": "2025-03-27T12:31:48.5977773+00:00",
+              "Changelog": "Update for patch 7.2",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "12.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.25"
+                }
+              ],
+              "Reviewer": "Critical-Impact",
+              "Submitter": "chalkos"
             }
           }
         },
@@ -47083,9 +47399,9 @@
           }
         },
         "OrangeGuidanceTomestone": {
-          "BuiltCommit": "8842c04ccd1f24c57a64c40fc07420f443213c3e",
-          "TimeBuilt": "2024-11-28T05:26:28.1516754+00:00",
-          "EffectiveVersion": "1.10.2.0",
+          "BuiltCommit": "db34bfc2c6092993fb2fe8ac376413b7a469f298",
+          "TimeBuilt": "2025-03-27T12:31:07.7328441+00:00",
+          "EffectiveVersion": "1.10.3.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.4.0.0": {
@@ -47232,6 +47548,26 @@
               ],
               "Reviewer": "reiichi001",
               "Submitter": null
+            },
+            "1.10.3.0": {
+              "TimeReleased": "2025-03-27T12:31:07.7328453+00:00",
+              "Changelog": "- API 12\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "12.0.0"
+                },
+                {
+                  "Key": "Fody",
+                  "Version": "6.9.2"
+                },
+                {
+                  "Key": "Resourcer.Fody",
+                  "Version": "1.8.1"
+                }
+              ],
+              "Reviewer": "Critical-Impact",
+              "Submitter": "anna-is-cute"
             }
           }
         },
@@ -61895,9 +62231,9 @@
           }
         },
         "NoSoliciting": {
-          "BuiltCommit": "875b43f42cfed3d074a3e1a55c9e5f694942ed55",
-          "TimeBuilt": "2025-02-05T18:04:38.5768923+00:00",
-          "EffectiveVersion": "3.1.5.0",
+          "BuiltCommit": "0b8ab1bd78b039f94bb7e3ba9294780cf9abc3d1",
+          "TimeBuilt": "2025-03-27T12:31:59.7381087+00:00",
+          "EffectiveVersion": "3.1.6.0",
           "MinimumVersion": null,
           "Changelogs": {
             "3.0.3": {
@@ -62330,6 +62666,110 @@
               ],
               "Reviewer": "philpax",
               "Submitter": null
+            },
+            "3.1.6.0": {
+              "TimeReleased": "2025-03-27T12:31:59.7381107+00:00",
+              "Changelog": "API12 adblock update",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/kalilistic/NoSoliciting.Interface.git",
+                  "Version": "24cc30ca29d16085da31e51b3ad93d0ac6e79b6a"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "12.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.25"
+                },
+                {
+                  "Key": "Fody",
+                  "Version": "6.8.0"
+                },
+                {
+                  "Key": "Microsoft.ML",
+                  "Version": "2.0.1"
+                },
+                {
+                  "Key": "Resourcer.Fody",
+                  "Version": "1.8.1"
+                },
+                {
+                  "Key": "YamlDotNet",
+                  "Version": "13.4.0"
+                },
+                {
+                  "Key": "Microsoft.ML.CpuMath",
+                  "Version": "2.0.1"
+                },
+                {
+                  "Key": "Microsoft.ML.DataView",
+                  "Version": "2.0.1"
+                },
+                {
+                  "Key": "Microsoft.NETCore.Platforms",
+                  "Version": "1.1.0"
+                },
+                {
+                  "Key": "Microsoft.NETCore.Targets",
+                  "Version": "1.1.0"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.1"
+                },
+                {
+                  "Key": "System.CodeDom",
+                  "Version": "4.5.0"
+                },
+                {
+                  "Key": "System.Collections.Immutable",
+                  "Version": "1.5.0"
+                },
+                {
+                  "Key": "System.IO",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Memory",
+                  "Version": "4.5.3"
+                },
+                {
+                  "Key": "System.Reflection",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Reflection.Emit.ILGeneration",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Reflection.Emit.Lightweight",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Reflection.Primitives",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Runtime",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Text.Encoding",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Threading.Channels",
+                  "Version": "4.7.1"
+                },
+                {
+                  "Key": "System.Threading.Tasks",
+                  "Version": "4.3.0"
+                }
+              ],
+              "Reviewer": "Critical-Impact",
+              "Submitter": "Noevain"
             }
           }
         },
@@ -71242,9 +71682,9 @@
           }
         },
         "ZDs": {
-          "BuiltCommit": "c41bc24cf956ed10feb1b7d0b044484146fdf65e",
-          "TimeBuilt": "2024-11-18T15:53:34.3908243+00:00",
-          "EffectiveVersion": "1.0.0.6",
+          "BuiltCommit": "6529559e9ede5cf61ec07a040d30c67753f37db4",
+          "TimeBuilt": "2025-03-27T12:30:58.9548111+00:00",
+          "EffectiveVersion": "1.0.0.7",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.3": {
@@ -71294,6 +71734,18 @@
               ],
               "Reviewer": "philpax",
               "Submitter": null
+            },
+            "1.0.0.7": {
+              "TimeReleased": "2025-03-27T12:30:58.9548659+00:00",
+              "Changelog": "# 1.0.0.7\n- Update to API12",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "12.0.0"
+                }
+              ],
+              "Reviewer": "Critical-Impact",
+              "Submitter": "Zeffuro"
             }
           }
         },
@@ -72066,9 +72518,9 @@
           }
         },
         "VoiceDirector": {
-          "BuiltCommit": "07f2e9063220613fe17807d88968fc9eaa21f36c",
-          "TimeBuilt": "2024-11-30T20:00:27.1114345+00:00",
-          "EffectiveVersion": "1.2.0.0",
+          "BuiltCommit": "19cb983aa127638a4fd0ac8681421be626aed995",
+          "TimeBuilt": "2025-03-27T12:31:15.272566+00:00",
+          "EffectiveVersion": "1.3.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.2.0.0": {
@@ -72082,6 +72534,22 @@
               ],
               "Reviewer": "reiichi001",
               "Submitter": null
+            },
+            "1.3.0.0": {
+              "TimeReleased": "2025-03-27T12:31:15.2725669+00:00",
+              "Changelog": "API12 updated,yipee",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "12.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.25"
+                }
+              ],
+              "Reviewer": "Critical-Impact",
+              "Submitter": "Noevain"
             }
           }
         },
@@ -85386,9 +85854,9 @@
           }
         },
         "ZDs": {
-          "BuiltCommit": "c41bc24cf956ed10feb1b7d0b044484146fdf65e",
-          "TimeBuilt": "2024-11-18T15:54:06.6811203+00:00",
-          "EffectiveVersion": "1.0.0.6",
+          "BuiltCommit": "6529559e9ede5cf61ec07a040d30c67753f37db4",
+          "TimeBuilt": "2025-03-27T12:32:20.3795917+00:00",
+          "EffectiveVersion": "1.0.0.7",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -85445,6 +85913,18 @@
               ],
               "Reviewer": "philpax",
               "Submitter": null
+            },
+            "1.0.0.7": {
+              "TimeReleased": "2025-03-27T12:32:20.3795931+00:00",
+              "Changelog": "# 1.0.0.7\n- Update to API12",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "12.0.0"
+                }
+              ],
+              "Reviewer": "Critical-Impact",
+              "Submitter": "Zeffuro"
             }
           }
         },
@@ -94175,9 +94655,9 @@
           }
         },
         "DotCalculator": {
-          "BuiltCommit": "9b597b694a0c3a54db27b5324bcddf91c5e9f107",
-          "TimeBuilt": "2025-02-26T19:20:18.7316001+00:00",
-          "EffectiveVersion": "0.0.3.0",
+          "BuiltCommit": "526c430d3b150d2566f7e4941be2375e0ade30cd",
+          "TimeBuilt": "2025-03-27T12:32:27.4737774+00:00",
+          "EffectiveVersion": "0.0.4.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.3.0": {
@@ -94219,6 +94699,22 @@
               ],
               "Reviewer": "reiichi001",
               "Submitter": null
+            },
+            "0.0.4.0": {
+              "TimeReleased": "2025-03-27T12:32:27.4737785+00:00",
+              "Changelog": "API12 update, the earth is unsalted...\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "12.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.25"
+                }
+              ],
+              "Reviewer": "Critical-Impact",
+              "Submitter": "Noevain"
             }
           }
         },
@@ -94559,9 +95055,9 @@
           }
         },
         "SimpleTweaksPlugin": {
-          "BuiltCommit": "f94ff2776c192de761943a215be059d913521d22",
-          "TimeBuilt": "2025-03-27T02:27:35.5979354+00:00",
-          "EffectiveVersion": "1.10.8.2",
+          "BuiltCommit": "e09b4ae7b879fa7db7a9e6091a1d79067513dd39",
+          "TimeBuilt": "2025-03-27T12:32:39.1748277+00:00",
+          "EffectiveVersion": "1.10.8.3",
           "MinimumVersion": null,
           "Changelogs": {
             "1.10.8.1": {
@@ -94594,6 +95090,22 @@
                 }
               ],
               "Reviewer": "philpax",
+              "Submitter": "Caraxi"
+            },
+            "1.10.8.3": {
+              "TimeReleased": "2025-03-27T12:32:39.1748291+00:00",
+              "Changelog": "Fix \u0060Rename Free Company Chest Tabs\u0060 crashing game\r\nFix \u0060Increased Zoom on Character Previews\u0060 not working correctly\r\nFix \u0060Screenshot Improvements\u0060 not working",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "12.0.0"
+                },
+                {
+                  "Key": "System.Numerics.Vectors",
+                  "Version": "4.6.0"
+                }
+              ],
+              "Reviewer": "Critical-Impact",
               "Submitter": "Caraxi"
             }
           }
@@ -105776,6 +106288,27 @@
       "Version": "2.3.0",
       "ReviewedBy": "reiichi001",
       "ReviewedAt": "2025-03-27T07:24:02.0754211Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/MKhayle/compendium.git",
+      "Version": "e84c4314a278df58d44656083fe9f635209c4877",
+      "ReviewedBy": "Critical-Impact",
+      "ReviewedAt": "2025-03-27T12:31:40.6373641Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/kalilistic/NoSoliciting.Interface.git",
+      "Version": "24cc30ca29d16085da31e51b3ad93d0ac6e79b6a",
+      "ReviewedBy": "Critical-Impact",
+      "ReviewedAt": "2025-03-27T12:31:59.7566736Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Threading.Channels",
+      "Version": "9.0.3",
+      "ReviewedBy": "Critical-Impact",
+      "ReviewedAt": "2025-03-27T12:32:10.1964974Z"
     }
   ]
 }
