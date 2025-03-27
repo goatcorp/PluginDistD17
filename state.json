@@ -74174,9 +74174,9 @@
           "Changelogs": {}
         },
         "HUDManager": {
-          "BuiltCommit": "b38e64bcbbf763e1662f7bcc0fef74aac9be27fe",
-          "TimeBuilt": "2024-11-16T15:00:45.8780783+00:00",
-          "EffectiveVersion": "2.5.21.0",
+          "BuiltCommit": "ce3824416003ddfd9aab41cad2c0e520f1f76f5f",
+          "TimeBuilt": "2025-03-27T02:27:22.7212473+00:00",
+          "EffectiveVersion": "2.5.21.1",
           "MinimumVersion": null,
           "Changelogs": {
             "2.5.20.1": {
@@ -74210,6 +74210,22 @@
               ],
               "Reviewer": "goaaats",
               "Submitter": null
+            },
+            "2.5.21.1": {
+              "TimeReleased": "2025-03-27T02:27:22.7213057+00:00",
+              "Changelog": "Update for API 12",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "12.0.0"
+                },
+                {
+                  "Key": "YamlDotNet",
+                  "Version": "12.3.1"
+                }
+              ],
+              "Reviewer": "philpax",
+              "Submitter": "nebel"
             }
           }
         },
@@ -91667,14 +91683,30 @@
           }
         },
         "SimpleTweaksPlugin": {
-          "BuiltCommit": "06ff525ef7530d63316fcfedcc7524bfd798fb96",
-          "TimeBuilt": "2025-03-27T01:57:27.686375+00:00",
-          "EffectiveVersion": "1.10.8.1",
+          "BuiltCommit": "f94ff2776c192de761943a215be059d913521d22",
+          "TimeBuilt": "2025-03-27T02:27:35.5979354+00:00",
+          "EffectiveVersion": "1.10.8.2",
           "MinimumVersion": null,
           "Changelogs": {
             "1.10.8.1": {
               "TimeReleased": "2025-03-27T01:57:27.6864323+00:00",
               "Changelog": "Testing update for API12 / NET9 / 7.2",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "12.0.0"
+                },
+                {
+                  "Key": "System.Numerics.Vectors",
+                  "Version": "4.6.0"
+                }
+              ],
+              "Reviewer": "philpax",
+              "Submitter": "Caraxi"
+            },
+            "1.10.8.2": {
+              "TimeReleased": "2025-03-27T02:27:35.5979367+00:00",
+              "Changelog": "Tweak Fixes",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
