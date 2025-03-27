@@ -1,0 +1,22 @@
+{
+  "Author": "Critical_Impact",
+  "Name": "Allagan Item Search",
+  "InternalName": "AllaganItemSearch",
+  "AssemblyVersion": "1.0.0.3",
+  "Description": "Allagan Item Search is a dalamud plugin designed to help you search and filter all the items available in the game.",
+  "ApplicableVersion": "any",
+  "Tags": [
+    "search",
+    "items",
+    "filters"
+  ],
+  "DalamudApiLevel": 12,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "Punchline": "Trying to find that item you don't know the name of? Maybe Allagan Item Search can help.",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "stable"
+}
