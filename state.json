@@ -59794,9 +59794,9 @@
           }
         },
         "PartyIcons": {
-          "BuiltCommit": "b2efcf0f3884255912dce0ac5d99bc6b45281bcc",
-          "TimeBuilt": "2024-11-16T14:59:10.4053024+00:00",
-          "EffectiveVersion": "1.2.2.0",
+          "BuiltCommit": "fe52bd22ac4c61484d617a59c20f82948ae7a926",
+          "TimeBuilt": "2025-03-27T02:31:25.3889849+00:00",
+          "EffectiveVersion": "1.2.2.1",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.8": {
@@ -59901,6 +59901,18 @@
               ],
               "Reviewer": "goaaats",
               "Submitter": null
+            },
+            "1.2.2.1": {
+              "TimeReleased": "2025-03-27T02:31:25.3890601+00:00",
+              "Changelog": "- Update for API 12\r\n- Fix an issue with chat message formatting when entering the _Whorleater_ duty",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "12.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "nebel"
             }
           }
         },
