@@ -73282,9 +73282,9 @@
           }
         },
         "NowPlaying": {
-          "BuiltCommit": "0d4ac238db59fea511f0103904b9d6093a42f55c",
-          "TimeBuilt": "2025-02-06T01:54:03.5454714+00:00",
-          "EffectiveVersion": "1.3.0.1",
+          "BuiltCommit": "a5a8774fddce2f5469d1ef9885b5653471729225",
+          "TimeBuilt": "2025-03-27T08:26:31.7590151+00:00",
+          "EffectiveVersion": "1.3.0.2",
           "MinimumVersion": null,
           "Changelogs": {
             "1.3.0.0": {
@@ -73326,6 +73326,26 @@
               ],
               "Reviewer": "philpax",
               "Submitter": null
+            },
+            "1.3.0.2": {
+              "TimeReleased": "2025-03-27T08:26:31.7590769+00:00",
+              "Changelog": "7.2, bump to API12 - clarification for some possible warnings in log.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "12.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.25"
+                },
+                {
+                  "Key": "NPSMLib",
+                  "Version": "0.9.14"
+                }
+              ],
+              "Reviewer": "Critical-Impact",
+              "Submitter": "wompscode"
             }
           }
         },
