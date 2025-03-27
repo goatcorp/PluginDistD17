@@ -72118,9 +72118,9 @@
           }
         },
         "AFKMute": {
-          "BuiltCommit": "3bbbd030b46ed95424be9685571f7244284ec239",
-          "TimeBuilt": "2025-01-07T16:32:42.0780776+00:00",
-          "EffectiveVersion": "1.0.0.4",
+          "BuiltCommit": "a0db4885ba88e4e5de7b071a6d4a0c8de26eedee",
+          "TimeBuilt": "2025-03-27T08:17:05.0245903+00:00",
+          "EffectiveVersion": "1.0.0.5",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.3": {
@@ -72202,6 +72202,22 @@
               ],
               "Reviewer": "philpax",
               "Submitter": null
+            },
+            "1.0.0.5": {
+              "TimeReleased": "2025-03-27T08:17:05.0246702+00:00",
+              "Changelog": "Patch 7.2: bump to api12",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "12.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.25"
+                }
+              ],
+              "Reviewer": "Critical-Impact",
+              "Submitter": "wompscode"
             }
           }
         },

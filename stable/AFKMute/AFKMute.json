@@ -2,7 +2,7 @@
   "Author": "wompscode",
   "Name": "AFKMute",
   "InternalName": "AFKMute",
-  "AssemblyVersion": "1.0.0.4",
+  "AssemblyVersion": "1.0.0.5",
   "Description": "Mutes your game when you're AFK. /afkmute to toggle.",
   "ApplicableVersion": "any",
   "Tags": [
@@ -10,7 +10,7 @@
     "mute",
     "qol"
   ],
-  "DalamudApiLevel": 11,
+  "DalamudApiLevel": 12,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
