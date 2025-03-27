@@ -78780,9 +78780,9 @@
           }
         },
         "GaugeOMatic": {
-          "BuiltCommit": "dc362527f7336bdd456da1f150466b0c292f96f4",
-          "TimeBuilt": "2025-03-26T22:23:16.0776988+00:00",
-          "EffectiveVersion": "0.8.1.6",
+          "BuiltCommit": "4d2e7144a388468d33164d18a302e5275e4eb03d",
+          "TimeBuilt": "2025-03-27T03:07:33.729998+00:00",
+          "EffectiveVersion": "0.8.1.7",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.1.6": {
@@ -79023,6 +79023,18 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "ItsBexy"
+            },
+            "0.8.1.7": {
+              "TimeReleased": "2025-03-27T03:07:33.7300597+00:00",
+              "Changelog": "- Fix for a crash on player logout\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "12.0.0"
+                }
+              ],
+              "Reviewer": "philpax",
               "Submitter": "ItsBexy"
             }
           }
