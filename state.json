@@ -85408,9 +85408,9 @@
           "Changelogs": {}
         },
         "Pathfinder": {
-          "BuiltCommit": "227ead58f0a52806ef03bfec1335750dca5d9470",
-          "TimeBuilt": "2024-09-18T19:24:47.817",
-          "EffectiveVersion": "0.1.2.0",
+          "BuiltCommit": "8fa8f1b1259e5d4864845db8b0631cf6b86a32da",
+          "TimeBuilt": "2025-03-27T19:32:10.5974738+00:00",
+          "EffectiveVersion": "0.1.3.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.1.0": {
@@ -85426,6 +85426,26 @@
               "UsedNeeds": null,
               "Reviewer": null,
               "Submitter": null
+            },
+            "0.1.3.0": {
+              "TimeReleased": "2025-03-27T19:32:10.5975275+00:00",
+              "Changelog": "DAPI 12",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "12.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "7.0.0"
+                }
+              ],
+              "Reviewer": "philpax",
+              "Submitter": "chirpxiv"
             }
           }
         },

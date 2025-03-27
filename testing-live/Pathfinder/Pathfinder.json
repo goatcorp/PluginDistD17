@@ -2,7 +2,7 @@
   "Author": "Chirp",
   "Name": "Pathfinder",
   "InternalName": "Pathfinder",
-  "AssemblyVersion": "0.1.2.0",
+  "AssemblyVersion": "0.1.3.0",
   "Description": "A tool for visually locating any model path in the game world.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/chirpxiv/ffxiv-pathfinder",
@@ -13,7 +13,7 @@
     "paths",
     "mdl"
   ],
-  "DalamudApiLevel": 10,
+  "DalamudApiLevel": 12,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
