@@ -2,7 +2,7 @@
   "Author": "NotNite",
   "Name": "ReSanctuary",
   "InternalName": "ReSanctuary",
-  "AssemblyVersion": "1.4.0.2",
+  "AssemblyVersion": "1.4.0.3",
   "Description": "A plugin to improve Island Sanctuary. Features:\n\n- Mark items to gather on the proper map\n- Gathering & crafting todo-list, showing you what mats you require\n- Widget for quick access to information\n\nIcon from the Mutant Standard project.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/NotNite/ReSanctuary",
@@ -10,7 +10,7 @@
     "island",
     "sanctuary"
   ],
-  "DalamudApiLevel": 11,
+  "DalamudApiLevel": 12,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,

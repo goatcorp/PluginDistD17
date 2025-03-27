@@ -40099,9 +40099,9 @@
           }
         },
         "cl_showpos": {
-          "BuiltCommit": "d2a893b6093809dc48617164645d1b5c2ec99ad9",
-          "TimeBuilt": "2024-11-15T20:12:47.0257394+00:00",
-          "EffectiveVersion": "1.1.0.3",
+          "BuiltCommit": "c0c3ff52c89adc6d58e10f1ac3429289474de22e",
+          "TimeBuilt": "2025-03-27T18:56:03.5227377+00:00",
+          "EffectiveVersion": "1.1.0.4",
           "MinimumVersion": null,
           "Changelogs": {
             "1.1.0.3": {
@@ -40143,6 +40143,22 @@
               ],
               "Reviewer": "reiichi001",
               "Submitter": null
+            },
+            "1.1.0.4": {
+              "TimeReleased": "2025-03-27T18:56:03.5227387+00:00",
+              "Changelog": "Updated for Patch 7.2. Where plurgongle?",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "12.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.25"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "NotNite"
             }
           }
         },
@@ -47410,9 +47426,9 @@
           }
         },
         "DistantSeas": {
-          "BuiltCommit": "4dfa1c7f8ce53faaefadb7c0a0fd8c7328770e4c",
-          "TimeBuilt": "2024-11-16T00:48:39.5358981+00:00",
-          "EffectiveVersion": "1.1.0.2",
+          "BuiltCommit": "1855d6bb630bccce738aad9df37d722ee57e0547",
+          "TimeBuilt": "2025-03-27T18:56:12.2391528+00:00",
+          "EffectiveVersion": "1.1.0.3",
           "MinimumVersion": null,
           "Changelogs": {
             "1.1.0.2": {
@@ -47454,6 +47470,22 @@
               ],
               "Reviewer": "reiichi001",
               "Submitter": null
+            },
+            "1.1.0.3": {
+              "TimeReleased": "2025-03-27T18:56:12.2391539+00:00",
+              "Changelog": "Updated for Patch 7.2. Where planet?",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "12.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.25"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "NotNite"
             }
           }
         },
@@ -66566,9 +66598,9 @@
           }
         },
         "ReSanctuary": {
-          "BuiltCommit": "f95623d4bde1fa3ff4a2a009cc81a112d381c9ad",
-          "TimeBuilt": "2024-11-21T20:27:48.2148101+00:00",
-          "EffectiveVersion": "1.4.0.2",
+          "BuiltCommit": "cdd77559b354c8ac950563c924a6db27212d71a1",
+          "TimeBuilt": "2025-03-27T18:55:55.9489937+00:00",
+          "EffectiveVersion": "1.4.0.3",
           "MinimumVersion": null,
           "Changelogs": {
             "1.4.0.1": {
@@ -66594,6 +66626,22 @@
               ],
               "Reviewer": "reiichi001",
               "Submitter": null
+            },
+            "1.4.0.3": {
+              "TimeReleased": "2025-03-27T18:55:55.9490544+00:00",
+              "Changelog": "Updated for Patch 7.2. Where plogobodgon?",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "12.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.25"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "NotNite"
             }
           }
         },
