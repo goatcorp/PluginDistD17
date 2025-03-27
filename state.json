@@ -48542,9 +48542,9 @@
           }
         },
         "ChatCoordinates": {
-          "BuiltCommit": "80aa169fc1fd00241fe57fa1daf6c17bf4a101e6",
-          "TimeBuilt": "2024-11-16T14:59:52.6084792+00:00",
-          "EffectiveVersion": "2.1.2.6",
+          "BuiltCommit": "2a176b4dde94f34c9173ca68333a995de5374183",
+          "TimeBuilt": "2025-03-27T19:42:43.9609461+00:00",
+          "EffectiveVersion": "2.1.2.7",
           "MinimumVersion": null,
           "Changelogs": {
             "2.1.2.1": {
@@ -48593,6 +48593,22 @@
               ],
               "Reviewer": "goaaats",
               "Submitter": null
+            },
+            "2.1.2.7": {
+              "TimeReleased": "2025-03-27T19:42:43.9609473+00:00",
+              "Changelog": "API 12",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "12.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.25"
+                }
+              ],
+              "Reviewer": "philpax",
+              "Submitter": "kissorjeyabalan"
             }
           }
         },
@@ -68816,9 +68832,9 @@
           }
         },
         "DalamudMinesweeper": {
-          "BuiltCommit": "8c4d06c400af3c7406373b5a55919948399f3fb3",
-          "TimeBuilt": "2024-12-07T22:18:30.1575408+00:00",
-          "EffectiveVersion": "1.2.3.0",
+          "BuiltCommit": "ba0ed1121c8dba80d7da149d58095bd50a33f258",
+          "TimeBuilt": "2025-03-27T19:42:37.4512162+00:00",
+          "EffectiveVersion": "1.3.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.1.0.4": {
@@ -68870,6 +68886,18 @@
               ],
               "Reviewer": "philpax",
               "Submitter": null
+            },
+            "1.3.0.0": {
+              "TimeReleased": "2025-03-27T19:42:37.4512705+00:00",
+              "Changelog": "Update for api12/dotnet9",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "12.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "hunter2actual"
             }
           }
         },

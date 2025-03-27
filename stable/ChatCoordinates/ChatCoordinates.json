@@ -2,7 +2,7 @@
   "Author": "kij",
   "Name": "ChatCoordinates",
   "InternalName": "ChatCoordinates",
-  "AssemblyVersion": "2.1.2.6",
+  "AssemblyVersion": "2.1.2.7",
   "Description": "Places flag marker on map from coordinates in chat.\nOpens map with given coordinates for current or given zone.\nSee \"/coord\" for configuration and usage info.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/kissorjeyabalan/dalamud-chatcoordinates",
@@ -11,7 +11,7 @@
     "map",
     "coordinates"
   ],
-  "DalamudApiLevel": 11,
+  "DalamudApiLevel": 12,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
