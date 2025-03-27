@@ -36848,9 +36848,9 @@
           }
         },
         "TitleEdit": {
-          "BuiltCommit": "764114be644d69f985750aa5d94dfb709c62ac16",
-          "TimeBuilt": "2025-03-27T17:54:28.6757754+00:00",
-          "EffectiveVersion": "3.0.5.1",
+          "BuiltCommit": "bcc82999bff6b6b1a56c02796c557b1f61ae36e9",
+          "TimeBuilt": "2025-03-27T20:22:57.4646882+00:00",
+          "EffectiveVersion": "3.0.5.2",
           "MinimumVersion": null,
           "Changelogs": {
             "2.3.0.0": {
@@ -37534,6 +37534,22 @@
                 }
               ],
               "Reviewer": "philpax",
+              "Submitter": "RokasKil"
+            },
+            "3.0.5.2": {
+              "TimeReleased": "2025-03-27T20:22:57.4647507+00:00",
+              "Changelog": "- Fixed camera bouncing in character select when using the \u0022Character model position\u0022 Camera follow setting\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "12.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.25"
+                }
+              ],
+              "Reviewer": "reiichi001",
               "Submitter": "RokasKil"
             }
           }
