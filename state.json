@@ -44877,9 +44877,9 @@
           }
         },
         "ResLogger2.Plugin": {
-          "BuiltCommit": "4cbf9580447a559a462b58a8201a8ba37f9eae89",
-          "TimeBuilt": "2024-11-28T05:53:33.8911155+00:00",
-          "EffectiveVersion": "0.0.2.9",
+          "BuiltCommit": "db7b1a58aa531df593149f358f94458025617c45",
+          "TimeBuilt": "2025-03-27T06:53:39.0226442+00:00",
+          "EffectiveVersion": "0.0.2.10",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.2.7": {
@@ -45285,6 +45285,246 @@
               ],
               "Reviewer": "reiichi001",
               "Submitter": null
+            },
+            "0.0.2.10": {
+              "TimeReleased": "2025-03-27T06:53:39.0227093+00:00",
+              "Changelog": "- Adds a left-click to copy path, right-click to copy full data to each path in the UI. Thanks to @lumxiv",
+              "UsedNeeds": [
+                {
+                  "Key": "Microsoft.EntityFrameworkCore.Design",
+                  "Version": "9.0.3"
+                },
+                {
+                  "Key": "Microsoft.EntityFrameworkCore.Sqlite",
+                  "Version": "9.0.3"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.3"
+                },
+                {
+                  "Key": "Npgsql.EntityFrameworkCore.PostgreSQL",
+                  "Version": "9.0.4"
+                },
+                {
+                  "Key": "System.IO.Hashing",
+                  "Version": "9.0.3"
+                },
+                {
+                  "Key": "ZiPatchLib",
+                  "Version": "3.0.0"
+                },
+                {
+                  "Key": "Humanizer.Core",
+                  "Version": "2.14.1"
+                },
+                {
+                  "Key": "Microsoft.Bcl.AsyncInterfaces",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "Microsoft.Build.Framework",
+                  "Version": "17.8.3"
+                },
+                {
+                  "Key": "Microsoft.Build.Locator",
+                  "Version": "1.7.8"
+                },
+                {
+                  "Key": "Microsoft.CodeAnalysis.Analyzers",
+                  "Version": "3.3.4"
+                },
+                {
+                  "Key": "Microsoft.CodeAnalysis.Common",
+                  "Version": "4.8.0"
+                },
+                {
+                  "Key": "Microsoft.CodeAnalysis.CSharp",
+                  "Version": "4.8.0"
+                },
+                {
+                  "Key": "Microsoft.CodeAnalysis.CSharp.Workspaces",
+                  "Version": "4.8.0"
+                },
+                {
+                  "Key": "Microsoft.CodeAnalysis.Workspaces.Common",
+                  "Version": "4.8.0"
+                },
+                {
+                  "Key": "Microsoft.CodeAnalysis.Workspaces.MSBuild",
+                  "Version": "4.8.0"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite.Core",
+                  "Version": "9.0.3"
+                },
+                {
+                  "Key": "Microsoft.EntityFrameworkCore",
+                  "Version": "9.0.3"
+                },
+                {
+                  "Key": "Microsoft.EntityFrameworkCore.Abstractions",
+                  "Version": "9.0.3"
+                },
+                {
+                  "Key": "Microsoft.EntityFrameworkCore.Analyzers",
+                  "Version": "9.0.3"
+                },
+                {
+                  "Key": "Microsoft.EntityFrameworkCore.Relational",
+                  "Version": "9.0.3"
+                },
+                {
+                  "Key": "Microsoft.EntityFrameworkCore.Sqlite.Core",
+                  "Version": "9.0.3"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Caching.Abstractions",
+                  "Version": "9.0.3"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Caching.Memory",
+                  "Version": "9.0.3"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Abstractions",
+                  "Version": "9.0.3"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "9.0.3"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "9.0.3"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyModel",
+                  "Version": "9.0.3"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging",
+                  "Version": "9.0.3"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "9.0.3"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options",
+                  "Version": "9.0.3"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Primitives",
+                  "Version": "9.0.3"
+                },
+                {
+                  "Key": "Mono.TextTemplating",
+                  "Version": "3.0.0"
+                },
+                {
+                  "Key": "Npgsql",
+                  "Version": "9.0.3"
+                },
+                {
+                  "Key": "SQLitePCLRaw.bundle_e_sqlite3",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.core",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.lib.e_sqlite3",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.provider.e_sqlite3",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "System.CodeDom",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "System.Collections.Immutable",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "System.Composition",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "System.Composition.AttributedModel",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "System.Composition.Convention",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "System.Composition.Hosting",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "System.Composition.Runtime",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "System.Composition.TypedParts",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "System.IO.Pipelines",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "System.Memory",
+                  "Version": "4.5.3"
+                },
+                {
+                  "Key": "System.Reflection.Metadata",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "System.Runtime.CompilerServices.Unsafe",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "System.Text.Json",
+                  "Version": "9.0.3"
+                },
+                {
+                  "Key": "System.Threading.Channels",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "12.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.25"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite",
+                  "Version": "9.0.3"
+                },
+                {
+                  "Key": "PeNet",
+                  "Version": "4.1.2"
+                },
+                {
+                  "Key": "PeNet.Asn1",
+                  "Version": "2.0.1"
+                },
+                {
+                  "Key": "System.Security.Cryptography.Pkcs",
+                  "Version": "8.0.1"
+                }
+              ],
+              "Reviewer": "Critical-Impact",
+              "Submitter": "perchbirdd"
             }
           }
         },
@@ -102687,6 +102927,153 @@
       "Version": "9.0.3",
       "ReviewedBy": "perchbirdd",
       "ReviewedAt": "2025-03-27T05:11:08.6517471Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.EntityFrameworkCore.Design",
+      "Version": "9.0.3",
+      "ReviewedBy": "Critical-Impact",
+      "ReviewedAt": "2025-03-27T06:53:39.0567512Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.EntityFrameworkCore.Sqlite",
+      "Version": "9.0.3",
+      "ReviewedBy": "Critical-Impact",
+      "ReviewedAt": "2025-03-27T06:53:39.0567985Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Npgsql.EntityFrameworkCore.PostgreSQL",
+      "Version": "9.0.4",
+      "ReviewedBy": "Critical-Impact",
+      "ReviewedAt": "2025-03-27T06:53:39.0567989Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.IO.Hashing",
+      "Version": "9.0.3",
+      "ReviewedBy": "Critical-Impact",
+      "ReviewedAt": "2025-03-27T06:53:39.0567991Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.EntityFrameworkCore",
+      "Version": "9.0.3",
+      "ReviewedBy": "Critical-Impact",
+      "ReviewedAt": "2025-03-27T06:53:39.0568004Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.EntityFrameworkCore.Abstractions",
+      "Version": "9.0.3",
+      "ReviewedBy": "Critical-Impact",
+      "ReviewedAt": "2025-03-27T06:53:39.0568013Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.EntityFrameworkCore.Analyzers",
+      "Version": "9.0.3",
+      "ReviewedBy": "Critical-Impact",
+      "ReviewedAt": "2025-03-27T06:53:39.0568017Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.EntityFrameworkCore.Relational",
+      "Version": "9.0.3",
+      "ReviewedBy": "Critical-Impact",
+      "ReviewedAt": "2025-03-27T06:53:39.0568018Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.EntityFrameworkCore.Sqlite.Core",
+      "Version": "9.0.3",
+      "ReviewedBy": "Critical-Impact",
+      "ReviewedAt": "2025-03-27T06:53:39.056802Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Extensions.Caching.Abstractions",
+      "Version": "9.0.3",
+      "ReviewedBy": "Critical-Impact",
+      "ReviewedAt": "2025-03-27T06:53:39.0568023Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Extensions.Caching.Memory",
+      "Version": "9.0.3",
+      "ReviewedBy": "Critical-Impact",
+      "ReviewedAt": "2025-03-27T06:53:39.0568026Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Extensions.Configuration.Abstractions",
+      "Version": "9.0.3",
+      "ReviewedBy": "Critical-Impact",
+      "ReviewedAt": "2025-03-27T06:53:39.0568028Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Extensions.DependencyModel",
+      "Version": "9.0.3",
+      "ReviewedBy": "Critical-Impact",
+      "ReviewedAt": "2025-03-27T06:53:39.0568032Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Extensions.Logging",
+      "Version": "9.0.3",
+      "ReviewedBy": "Critical-Impact",
+      "ReviewedAt": "2025-03-27T06:53:39.0568033Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Extensions.Logging.Abstractions",
+      "Version": "9.0.3",
+      "ReviewedBy": "Critical-Impact",
+      "ReviewedAt": "2025-03-27T06:53:39.0568035Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Extensions.Options",
+      "Version": "9.0.3",
+      "ReviewedBy": "Critical-Impact",
+      "ReviewedAt": "2025-03-27T06:53:39.0568037Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Extensions.Primitives",
+      "Version": "9.0.3",
+      "ReviewedBy": "Critical-Impact",
+      "ReviewedAt": "2025-03-27T06:53:39.0568038Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Npgsql",
+      "Version": "9.0.3",
+      "ReviewedBy": "Critical-Impact",
+      "ReviewedAt": "2025-03-27T06:53:39.0568042Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Text.Json",
+      "Version": "9.0.3",
+      "ReviewedBy": "Critical-Impact",
+      "ReviewedAt": "2025-03-27T06:53:39.0568057Z"
+    },
+    {
+      "Type": 1,
+      "Key": "PeNet",
+      "Version": "4.1.2",
+      "ReviewedBy": "Critical-Impact",
+      "ReviewedAt": "2025-03-27T06:53:39.0568062Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Security.Cryptography.Pkcs",
+      "Version": "8.0.1",
+      "ReviewedBy": "Critical-Impact",
+      "ReviewedAt": "2025-03-27T06:53:39.0568065Z"
     }
   ]
 }
