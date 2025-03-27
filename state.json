@@ -3,9 +3,9 @@
     "stable": {
       "Plugins": {
         "Dalamud.RichPresence": {
-          "BuiltCommit": "490e4ec708142a2d8d1bc9910e9146efe07648ca",
-          "TimeBuilt": "2025-02-09T23:39:45.7487965+00:00",
-          "EffectiveVersion": "2.0.6.6",
+          "BuiltCommit": "25b9605a9ea5bc68619b50576769b3850d7c0b0e",
+          "TimeBuilt": "2025-03-27T01:54:01.8183863+00:00",
+          "EffectiveVersion": "2.0.6.7",
           "MinimumVersion": null,
           "Changelogs": {
             "2.0.1.0": {
@@ -554,6 +554,46 @@
               ],
               "Reviewer": "philpax",
               "Submitter": null
+            },
+            "2.0.6.7": {
+              "TimeReleased": "2025-03-27T01:54:01.8183884+00:00",
+              "Changelog": "Updated for API 12.\n\nReminder: WineRPCBridge could get flagged as a false positive by Windows AVs. (Windows users will never run this file. It\u0027s only for Linux users.)\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "12.0.0"
+                },
+                {
+                  "Key": "DiscordRichPresence",
+                  "Version": "1.2.1.24"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.25"
+                },
+                {
+                  "Key": "Microsoft.NETCore.Platforms",
+                  "Version": "2.0.0"
+                },
+                {
+                  "Key": "Microsoft.Win32.Registry",
+                  "Version": "4.5.0"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.1"
+                },
+                {
+                  "Key": "System.Security.AccessControl",
+                  "Version": "4.5.0"
+                },
+                {
+                  "Key": "System.Security.Principal.Windows",
+                  "Version": "4.5.0"
+                }
+              ],
+              "Reviewer": "philpax",
+              "Submitter": "reiichi001"
             }
           }
         },
@@ -30151,9 +30191,9 @@
           }
         },
         "BurntToast": {
-          "BuiltCommit": "b462e5db2319f4420591953b2892a1cced8a9174",
-          "TimeBuilt": "2024-11-21T08:02:53.6511089+00:00",
-          "EffectiveVersion": "1.3.5.0",
+          "BuiltCommit": "bdd9cb8ce8100016e5dbe8fba0f3d26dafd882b9",
+          "TimeBuilt": "2025-03-27T01:54:24.9788419+00:00",
+          "EffectiveVersion": "1.4.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.2.5": {
@@ -30311,6 +30351,82 @@
               ],
               "Reviewer": "reiichi001",
               "Submitter": null
+            },
+            "1.4.1.0": {
+              "TimeReleased": "2025-03-27T01:54:24.9788434+00:00",
+              "Changelog": "Support for patch 7.2.\nYou can now filter those text popups with the red background that tell you how to play the game.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "12.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.25"
+                },
+                {
+                  "Key": "JetBrains.Annotations",
+                  "Version": "2024.2.0"
+                },
+                {
+                  "Key": "Microsoft.NET.Test.Sdk",
+                  "Version": "17.10.0"
+                },
+                {
+                  "Key": "xunit",
+                  "Version": "2.9.0"
+                },
+                {
+                  "Key": "xunit.runner.visualstudio",
+                  "Version": "2.8.2"
+                },
+                {
+                  "Key": "Microsoft.CodeCoverage",
+                  "Version": "17.10.0"
+                },
+                {
+                  "Key": "Microsoft.TestPlatform.ObjectModel",
+                  "Version": "17.10.0"
+                },
+                {
+                  "Key": "Microsoft.TestPlatform.TestHost",
+                  "Version": "17.10.0"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.1"
+                },
+                {
+                  "Key": "System.Reflection.Metadata",
+                  "Version": "1.6.0"
+                },
+                {
+                  "Key": "xunit.abstractions",
+                  "Version": "2.0.3"
+                },
+                {
+                  "Key": "xunit.analyzers",
+                  "Version": "1.15.0"
+                },
+                {
+                  "Key": "xunit.assert",
+                  "Version": "2.9.0"
+                },
+                {
+                  "Key": "xunit.core",
+                  "Version": "2.9.0"
+                },
+                {
+                  "Key": "xunit.extensibility.core",
+                  "Version": "2.9.0"
+                },
+                {
+                  "Key": "xunit.extensibility.execution",
+                  "Version": "2.9.0"
+                }
+              ],
+              "Reviewer": "philpax",
+              "Submitter": "Xpahtalo"
             }
           }
         },
@@ -43743,9 +43859,9 @@
           }
         },
         "ChatTyper": {
-          "BuiltCommit": "a6c0a4b7430f0e7e0183045fad8ab7ea5b13685b",
-          "TimeBuilt": "2024-11-16T14:59:46.5636746+00:00",
-          "EffectiveVersion": "0.1.5.0",
+          "BuiltCommit": "d55944b9c84cf66b0940db31ee0f99e946b2581d",
+          "TimeBuilt": "2025-03-27T01:54:09.5469326+00:00",
+          "EffectiveVersion": "0.1.6.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.1.1": {
@@ -43815,6 +43931,22 @@
               ],
               "Reviewer": "goaaats",
               "Submitter": null
+            },
+            "0.1.6.0": {
+              "TimeReleased": "2025-03-27T01:54:09.5469338+00:00",
+              "Changelog": "API 12 update",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "12.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.25"
+                }
+              ],
+              "Reviewer": "philpax",
+              "Submitter": "reiichi001"
             }
           }
         },
@@ -44412,9 +44544,9 @@
           }
         },
         "FlashOnTell": {
-          "BuiltCommit": "b28f666d5ab9fe92baa4d27a5dde6d479a6fc83a",
-          "TimeBuilt": "2024-11-16T14:59:25.3827208+00:00",
-          "EffectiveVersion": "0.0.7.0",
+          "BuiltCommit": "a24e75116ec87c1d5aff5435d7a809fadab94383",
+          "TimeBuilt": "2025-03-27T01:54:17.149404+00:00",
+          "EffectiveVersion": "0.0.8.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.2.0": {
@@ -44491,6 +44623,22 @@
               ],
               "Reviewer": "goaaats",
               "Submitter": null
+            },
+            "0.0.8.0": {
+              "TimeReleased": "2025-03-27T01:54:17.149408+00:00",
+              "Changelog": "API 12 update",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "12.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.25"
+                }
+              ],
+              "Reviewer": "philpax",
+              "Submitter": "reiichi001"
             }
           }
         },
@@ -47496,9 +47644,9 @@
           }
         },
         "WhereAmIAgain": {
-          "BuiltCommit": "14191bd27f6c404b87f4ad850b1d6408072cdbcd",
-          "TimeBuilt": "2024-11-16T00:49:59.3452098+00:00",
-          "EffectiveVersion": "2.1.0.0",
+          "BuiltCommit": "206a9fd7e3ae5f393768a193f0c36424d307d802",
+          "TimeBuilt": "2025-03-27T01:54:40.9854158+00:00",
+          "EffectiveVersion": "2.1.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.0.11": {
@@ -47561,6 +47709,22 @@
               ],
               "Reviewer": "reiichi001",
               "Submitter": null
+            },
+            "2.1.1.0": {
+              "TimeReleased": "2025-03-27T01:54:40.9854176+00:00",
+              "Changelog": "API 12 Update\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "12.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.25"
+                }
+              ],
+              "Reviewer": "philpax",
+              "Submitter": "reiichi001"
             }
           }
         },
@@ -63498,9 +63662,9 @@
           }
         },
         "owofy": {
-          "BuiltCommit": "835b0df807037416e641e5944b136aca54a58da8",
-          "TimeBuilt": "2024-11-16T14:59:39.7820468+00:00",
-          "EffectiveVersion": "1.7.0.0",
+          "BuiltCommit": "065f09d6e5ba370d1bb4c2f3d0fe9f1dcc1c8e6f",
+          "TimeBuilt": "2025-03-27T01:54:32.7642133+00:00",
+          "EffectiveVersion": "1.7.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.4.2.0": {
@@ -63570,6 +63734,22 @@
               ],
               "Reviewer": "goaaats",
               "Submitter": null
+            },
+            "1.7.1.0": {
+              "TimeReleased": "2025-03-27T01:54:32.7642155+00:00",
+              "Changelog": "The most important plugin, now updated for API 12.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "12.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.25"
+                }
+              ],
+              "Reviewer": "philpax",
+              "Submitter": "reiichi001"
             }
           }
         },
@@ -88639,114 +88819,6 @@
                 {
                   "Key": "DalamudPackager",
                   "Version": "11.0.0"
-                }
-              ],
-              "Reviewer": "reiichi001",
-              "Submitter": null
-            }
-          }
-        },
-        "BurntToast": {
-          "BuiltCommit": "1421fa6a17fdd144e0c176686cf83d0a7a11c998",
-          "TimeBuilt": "2024-12-10T22:42:38.2488478+00:00",
-          "EffectiveVersion": "1.4.0.0",
-          "MinimumVersion": null,
-          "Changelogs": {
-            "1.4.0.0": {
-              "TimeReleased": "2024-12-10T22:42:38.2488495+00:00",
-              "Changelog": "Add GimmickText support. (That text with the red background telling you to do mechanics.)",
-              "UsedNeeds": [
-                {
-                  "Key": "JetBrains.Annotations",
-                  "Version": "2024.2.0"
-                },
-                {
-                  "Key": "Microsoft.NET.Test.Sdk",
-                  "Version": "17.10.0"
-                },
-                {
-                  "Key": "xunit",
-                  "Version": "2.9.0"
-                },
-                {
-                  "Key": "xunit.runner.visualstudio",
-                  "Version": "2.8.2"
-                },
-                {
-                  "Key": "DalamudPackager",
-                  "Version": "11.0.0"
-                },
-                {
-                  "Key": "Microsoft.CodeCoverage",
-                  "Version": "17.10.0"
-                },
-                {
-                  "Key": "Microsoft.TestPlatform.ObjectModel",
-                  "Version": "17.10.0"
-                },
-                {
-                  "Key": "Microsoft.TestPlatform.TestHost",
-                  "Version": "17.10.0"
-                },
-                {
-                  "Key": "Newtonsoft.Json",
-                  "Version": "13.0.1"
-                },
-                {
-                  "Key": "System.Reflection.Metadata",
-                  "Version": "1.6.0"
-                },
-                {
-                  "Key": "xunit.abstractions",
-                  "Version": "2.0.3"
-                },
-                {
-                  "Key": "xunit.analyzers",
-                  "Version": "1.15.0"
-                },
-                {
-                  "Key": "xunit.assert",
-                  "Version": "2.9.0"
-                },
-                {
-                  "Key": "xunit.core",
-                  "Version": "2.9.0"
-                },
-                {
-                  "Key": "xunit.extensibility.core",
-                  "Version": "2.9.0"
-                },
-                {
-                  "Key": "xunit.extensibility.execution",
-                  "Version": "2.9.0"
-                },
-                {
-                  "Key": "DotNet.ReproducibleBuilds",
-                  "Version": "1.1.1"
-                },
-                {
-                  "Key": "Microsoft.Build.Tasks.Git",
-                  "Version": "1.1.1"
-                },
-                {
-                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
-                  "Version": "1.1.1"
-                },
-                {
-                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
-                  "Version": "1.1.1"
-                },
-                {
-                  "Key": "Microsoft.SourceLink.Common",
-                  "Version": "1.1.1"
-                },
-                {
-                  "Key": "Microsoft.SourceLink.GitHub",
-                  "Version": "1.1.1"
-                },
-                {
-                  "Key": "Microsoft.SourceLink.GitLab",
-                  "Version": "1.1.1"
                 }
               ],
               "Reviewer": "reiichi001",
