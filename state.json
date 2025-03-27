@@ -57321,9 +57321,9 @@
           }
         },
         "SillyChat": {
-          "BuiltCommit": "82f65c44cee32c8d489e0552ac83e4abf0a374a5",
-          "TimeBuilt": "2024-12-08T23:45:55.9575614+00:00",
-          "EffectiveVersion": "1.7.1.0",
+          "BuiltCommit": "385e2af0c619ca93533765fb3e35085c4574fab1",
+          "TimeBuilt": "2025-03-27T00:24:03.4172287+00:00",
+          "EffectiveVersion": "1.7.1.1",
           "MinimumVersion": null,
           "Changelogs": {
             "1.7.1.0": {
@@ -57373,6 +57373,30 @@
               ],
               "Reviewer": "reiichi001",
               "Submitter": null
+            },
+            "1.7.1.1": {
+              "TimeReleased": "2025-03-27T00:24:03.4172819+00:00",
+              "Changelog": "- API 12 update\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "12.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.25"
+                },
+                {
+                  "Key": "StyleCop.Analyzers",
+                  "Version": "1.1.118"
+                },
+                {
+                  "Key": "XivCommon",
+                  "Version": "9.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "MKhayle"
             }
           }
         },
