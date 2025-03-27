@@ -2,7 +2,7 @@
   "Author": "Kouzukii",
   "Name": "Which Patch Was That?",
   "InternalName": "WhichPatchWasThat",
-  "AssemblyVersion": "7.1.0.0",
+  "AssemblyVersion": "7.2.0.0",
   "Description": "Whenever you mouseover an item, the tooltip will show you the patch the item was released in.\nNever carry around old useless crafting materials again!\n",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/kouzukii/ffxiv-itempatch",
@@ -14,7 +14,7 @@
     "ui",
     "utility"
   ],
-  "DalamudApiLevel": 11,
+  "DalamudApiLevel": 12,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,

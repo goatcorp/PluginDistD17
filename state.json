@@ -765,9 +765,9 @@
           }
         },
         "DeathRecap": {
-          "BuiltCommit": "de6427210bb95d47311d5447fb90504ee14780b7",
-          "TimeBuilt": "2024-11-17T15:53:49.5117134+00:00",
-          "EffectiveVersion": "1.13.0.0",
+          "BuiltCommit": "75826ebe91713e34578ad4d7ed0cc98f5622154b",
+          "TimeBuilt": "2025-03-27T19:07:49.2169886+00:00",
+          "EffectiveVersion": "1.13.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.8.0.2": {
@@ -872,6 +872,22 @@
               ],
               "Reviewer": "philpax",
               "Submitter": null
+            },
+            "1.13.1.0": {
+              "TimeReleased": "2025-03-27T19:07:49.2169898+00:00",
+              "Changelog": "- Update to ffxiv 7.2 and dalamud api12\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "12.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.25"
+                }
+              ],
+              "Reviewer": "philpax",
+              "Submitter": "Kouzukii"
             }
           }
         },
@@ -34142,9 +34158,9 @@
           }
         },
         "GearsetHelperPlugin": {
-          "BuiltCommit": "6a85a6c2e86529695bf62c8a64977e52aa5dc6a7",
-          "TimeBuilt": "2024-11-16T06:38:00.7134906+00:00",
-          "EffectiveVersion": "2.5.0.0",
+          "BuiltCommit": "5ff34dc0f3020cec054bf0574b0003e2c7a8652d",
+          "TimeBuilt": "2025-03-27T19:08:09.4158762+00:00",
+          "EffectiveVersion": "2.6.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "2.2.1.0": {
@@ -34179,6 +34195,22 @@
               ],
               "Reviewer": "reiichi001",
               "Submitter": null
+            },
+            "2.6.0.0": {
+              "TimeReleased": "2025-03-27T19:08:09.4158775+00:00",
+              "Changelog": "* Changed: Update damage math.\n* Fixed: Ensure a job\u0027s speed attribute is always displayed in the stat table.\n* Maintenance: Migrate to Dalamud SDK / API 12.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "12.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.25"
+                }
+              ],
+              "Reviewer": "philpax",
+              "Submitter": "KhloeLeclair"
             }
           }
         },
@@ -37712,9 +37744,9 @@
           }
         },
         "WhichPatchWasThat": {
-          "BuiltCommit": "458b6e1ddeac8d9618fa4f15c99efdddf7cba475",
-          "TimeBuilt": "2024-11-17T15:53:42.6656593+00:00",
-          "EffectiveVersion": "7.1.0.0",
+          "BuiltCommit": "25d2753dabb142ca4b729a1437ce0a41e92d105e",
+          "TimeBuilt": "2025-03-27T19:08:18.9452821+00:00",
+          "EffectiveVersion": "7.2.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.1.0.0": {
@@ -37784,6 +37816,22 @@
               ],
               "Reviewer": "philpax",
               "Submitter": null
+            },
+            "7.2.0.0": {
+              "TimeReleased": "2025-03-27T19:08:18.9452831+00:00",
+              "Changelog": "- Update to ffxiv 7.2 and dalamud api12\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "12.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.25"
+                }
+              ],
+              "Reviewer": "philpax",
+              "Submitter": "Kouzukii"
             }
           }
         },
@@ -48285,9 +48333,9 @@
           }
         },
         "SoundFilter": {
-          "BuiltCommit": "18dce1368b46a6dec8bca782dee9552853f7ceb0",
-          "TimeBuilt": "2024-12-05T19:55:34.0666558+00:00",
-          "EffectiveVersion": "1.4.15.0",
+          "BuiltCommit": "84014879fa8edef2be99374d9491049fab3dcfe0",
+          "TimeBuilt": "2025-03-27T19:07:40.5646823+00:00",
+          "EffectiveVersion": "1.4.16.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.4.9.0": {
@@ -48355,6 +48403,34 @@
               ],
               "Reviewer": "reiichi001",
               "Submitter": null
+            },
+            "1.4.16.0": {
+              "TimeReleased": "2025-03-27T19:07:40.5647606+00:00",
+              "Changelog": "7.2 / API 12",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "12.0.0"
+                },
+                {
+                  "Key": "DotNet.Glob",
+                  "Version": "3.1.3"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.25"
+                },
+                {
+                  "Key": "Fody",
+                  "Version": "6.9.1"
+                },
+                {
+                  "Key": "Resourcer.Fody",
+                  "Version": "1.8.1"
+                }
+              ],
+              "Reviewer": "philpax",
+              "Submitter": "Cytraen"
             }
           }
         },
@@ -65261,9 +65337,9 @@
           }
         },
         "CharacterPanelRefined": {
-          "BuiltCommit": "5cf304f1247b7f8cbe900d35f4cd1d9852467a7b",
-          "TimeBuilt": "2024-11-23T01:16:40.7988334+00:00",
-          "EffectiveVersion": "1.8.2.1",
+          "BuiltCommit": "71ac32ff338a7c2c445d68b49d250d1f74dfae7a",
+          "TimeBuilt": "2025-03-27T19:07:58.8193999+00:00",
+          "EffectiveVersion": "1.8.3.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.1.2.0": {
@@ -65465,6 +65541,26 @@
               ],
               "Reviewer": "reiichi001",
               "Submitter": null
+            },
+            "1.8.3.0": {
+              "TimeReleased": "2025-03-27T19:07:58.8194009+00:00",
+              "Changelog": "- Update to ffxiv 7.2 and dalamud api12\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "2.1.8"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "12.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.25"
+                }
+              ],
+              "Reviewer": "philpax",
+              "Submitter": "Kouzukii"
             }
           }
         },
@@ -95875,6 +95971,42 @@
               ],
               "Reviewer": "philpax",
               "Submitter": "rreminy"
+            }
+          }
+        },
+        "SoundFilter": {
+          "BuiltCommit": "ac0727e6602c6aae0031552ba51dfc465fea521d",
+          "TimeBuilt": "2025-03-27T19:08:29.0864346+00:00",
+          "EffectiveVersion": "1.5.0.0",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "1.5.0.0": {
+              "TimeReleased": "2025-03-27T19:08:29.0864404+00:00",
+              "Changelog": "Fix long-standing \u0022Ambient Sounds\u0022 channel noise bug",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "12.0.0"
+                },
+                {
+                  "Key": "DotNet.Glob",
+                  "Version": "3.1.3"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.25"
+                },
+                {
+                  "Key": "Fody",
+                  "Version": "6.9.1"
+                },
+                {
+                  "Key": "Resourcer.Fody",
+                  "Version": "1.8.1"
+                }
+              ],
+              "Reviewer": "philpax",
+              "Submitter": "Cytraen"
             }
           }
         }

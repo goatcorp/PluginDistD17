@@ -2,7 +2,7 @@
   "Author": "Kouzukii",
   "Name": "Character Panel Refined",
   "InternalName": "CharacterPanelRefined",
-  "AssemblyVersion": "1.8.2.1",
+  "AssemblyVersion": "1.8.3.0",
   "Description": "Character Panel Refined cuts away useless information from the character panel, while adding useful stats like critical hit and direct hit percentages as well as estimates damage output to allow for easier comparison of gear.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Kouzukii/ffxiv-characterstatus-refined",
@@ -13,7 +13,7 @@
   "CategoryTags": [
     "ui"
   ],
-  "DalamudApiLevel": 11,
+  "DalamudApiLevel": 12,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
