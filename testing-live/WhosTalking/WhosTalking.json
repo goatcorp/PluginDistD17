@@ -2,13 +2,13 @@
   "Author": "ash",
   "Name": "Who's Talking",
   "InternalName": "WhosTalking",
-  "AssemblyVersion": "0.8.4.0",
+  "AssemblyVersion": "0.8.5.0",
   "Description": "Once installed, join a Discord voice channel and an XIV party, and have people put their character names in their Discord nicknames (or configure things manually in the plugin settings). You should get colourful outlines around the job icons on the party list: green for talking, blue for muted, red for deafened, and yellow for unknown name.\n\nNote that you'll get a permission prompt mentioning \"StreamKit Overlay\" – this is expected.\n\nSome icons by Google, Apache 2.0.",
   "ApplicableVersion": "any",
   "Tags": [
     "UI"
   ],
-  "DalamudApiLevel": 11,
+  "DalamudApiLevel": 12,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
