@@ -95467,9 +95467,9 @@
           }
         },
         "Sightseeingway": {
-          "BuiltCommit": "da514beb44f88040bbdcff0c2afd633a6e77c81c",
-          "TimeBuilt": "2025-03-27T15:28:04.8923868+00:00",
-          "EffectiveVersion": "0.0.0.3",
+          "BuiltCommit": "1c6eb412f42ee2b8559a2823276cb65d68da7551",
+          "TimeBuilt": "2025-03-27T18:31:44.4519911+00:00",
+          "EffectiveVersion": "0.0.0.4",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.0.1": {
@@ -95530,6 +95530,22 @@
             },
             "0.0.0.3": {
               "TimeReleased": "2025-03-27T15:28:04.8923877+00:00",
+              "Changelog": "Updated for 7.2 / API 12",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "12.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.25"
+                }
+              ],
+              "Reviewer": "philpax",
+              "Submitter": "LeonAquitaine"
+            },
+            "0.0.0.4": {
+              "TimeReleased": "2025-03-27T18:31:44.4520492+00:00",
               "Changelog": "Updated for 7.2 / API 12",
               "UsedNeeds": [
                 {
