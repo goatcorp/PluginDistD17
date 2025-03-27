@@ -18775,9 +18775,9 @@
           }
         },
         "BigPlayerDebuffs": {
-          "BuiltCommit": "69d1a682c77c1d0adc85ee564b20aa319ab3a7c3",
-          "TimeBuilt": "2024-11-18T14:14:55.8285367+00:00",
-          "EffectiveVersion": "1.1.0.11",
+          "BuiltCommit": "e59b6395fd598537312c4498bf579dd60600f880",
+          "TimeBuilt": "2025-03-27T05:10:57.006699+00:00",
+          "EffectiveVersion": "1.1.0.12",
           "MinimumVersion": null,
           "Changelogs": {
             "1.1.0.6": {
@@ -18826,6 +18826,22 @@
               ],
               "Reviewer": "reiichi001",
               "Submitter": null
+            },
+            "1.1.0.12": {
+              "TimeReleased": "2025-03-27T05:10:57.0067609+00:00",
+              "Changelog": "v1.1.0.12 - API 12 Update",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "12.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.25"
+                }
+              ],
+              "Reviewer": "perchbirdd",
+              "Submitter": "d87"
             }
           }
         },
@@ -26995,9 +27011,9 @@
           }
         },
         "QoLBar": {
-          "BuiltCommit": "3b72e2ea37030aa3992a9b0b03ce15735af54505",
-          "TimeBuilt": "2025-01-21T04:29:05.6806507+00:00",
-          "EffectiveVersion": "2.3.3.3",
+          "BuiltCommit": "8c35009c67c6366080d96bad5d46aeb30d474133",
+          "TimeBuilt": "2025-03-27T05:11:16.6353453+00:00",
+          "EffectiveVersion": "2.3.3.4",
           "MinimumVersion": null,
           "Changelogs": {
             "2.3.2.0": {
@@ -27063,6 +27079,22 @@
               ],
               "Reviewer": "reiichi001",
               "Submitter": null
+            },
+            "2.3.3.4": {
+              "TimeReleased": "2025-03-27T05:11:16.6353469+00:00",
+              "Changelog": "- Fixed for 7.2",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "12.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.25"
+                }
+              ],
+              "Reviewer": "perchbirdd",
+              "Submitter": "UnknownX7"
             }
           }
         },
@@ -30125,9 +30157,9 @@
           }
         },
         "DeepDungeonTracker": {
-          "BuiltCommit": "904cd5c09009fdce743319dd662952f1d4e6a495",
-          "TimeBuilt": "2024-11-18T04:35:26.4823935+00:00",
-          "EffectiveVersion": "1.0.1.0",
+          "BuiltCommit": "ea164ccf9fedeb43d117d59d3d440f23b242accc",
+          "TimeBuilt": "2025-03-27T05:11:08.6227656+00:00",
+          "EffectiveVersion": "1.0.1.1",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -30219,6 +30251,30 @@
               ],
               "Reviewer": "reiichi001",
               "Submitter": null
+            },
+            "1.0.1.1": {
+              "TimeReleased": "2025-03-27T05:11:08.6227674+00:00",
+              "Changelog": "- Patch 7.2 / Dalamud API 12 update.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "12.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.25"
+                },
+                {
+                  "Key": "System.Drawing.Common",
+                  "Version": "9.0.3"
+                },
+                {
+                  "Key": "Microsoft.Win32.SystemEvents",
+                  "Version": "9.0.3"
+                }
+              ],
+              "Reviewer": "perchbirdd",
+              "Submitter": "marconsou"
             }
           }
         },
@@ -70746,9 +70802,9 @@
           }
         },
         "QuietDen": {
-          "BuiltCommit": "593a71908817dcc86cb2a6177bdbc44e07db44f0",
-          "TimeBuilt": "2025-01-07T21:34:23.1595105+00:00",
-          "EffectiveVersion": "1.0.0.0",
+          "BuiltCommit": "094cca835b5dbd2aed23e6a222e13f6f33b61630",
+          "TimeBuilt": "2025-03-27T05:11:23.0490176+00:00",
+          "EffectiveVersion": "1.1.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -70790,6 +70846,22 @@
               ],
               "Reviewer": "reiichi001",
               "Submitter": null
+            },
+            "1.1.0.0": {
+              "TimeReleased": "2025-03-27T05:11:23.0490189+00:00",
+              "Changelog": "QuietDen v1.1 API 12",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "12.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.25"
+                }
+              ],
+              "Reviewer": "perchbirdd",
+              "Submitter": "xorelcodes"
             }
           }
         },
@@ -84488,9 +84560,9 @@
           }
         },
         "GlamourSpamRemover": {
-          "BuiltCommit": "55ae3d4d13aa474c8ea23f924e5d990048339632",
-          "TimeBuilt": "2025-03-07T00:33:29.9501384+00:00",
-          "EffectiveVersion": "1.2.5.0",
+          "BuiltCommit": "a93d46d19c38f2678f9841cfe7e21e57146e0a02",
+          "TimeBuilt": "2025-03-27T05:11:30.9861005+00:00",
+          "EffectiveVersion": "1.7.2.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.1": {
@@ -84577,6 +84649,22 @@
                 }
               ],
               "Reviewer": "goaaats",
+              "Submitter": "Shezwick"
+            },
+            "1.7.2.0": {
+              "TimeReleased": "2025-03-27T05:11:30.9861017+00:00",
+              "Changelog": "Updated for patch 7.2",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "12.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.25"
+                }
+              ],
+              "Reviewer": "perchbirdd",
               "Submitter": "Shezwick"
             }
           }
@@ -102517,6 +102605,20 @@
       "Version": "cef2daf92a000f721ccff703c48b707db6d3f729",
       "ReviewedBy": "perchbirdd",
       "ReviewedAt": "2025-03-27T05:07:24.6332651Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Drawing.Common",
+      "Version": "9.0.3",
+      "ReviewedBy": "perchbirdd",
+      "ReviewedAt": "2025-03-27T05:11:08.651692Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Win32.SystemEvents",
+      "Version": "9.0.3",
+      "ReviewedBy": "perchbirdd",
+      "ReviewedAt": "2025-03-27T05:11:08.6517471Z"
     }
   ]
 }

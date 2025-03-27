@@ -2,7 +2,7 @@
   "Author": "Shezwick",
   "Name": "Glamour Spam Remover",
   "InternalName": "GlamourSpamRemover",
-  "AssemblyVersion": "1.2.5.0",
+  "AssemblyVersion": "1.7.2.0",
   "Description": "No settings needed, just add and forget.\n\nLove linking plates to gearsets but hate all the chat spam when you swap? Here's your solution.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Shezwick/GlamourSpamRemover.git",
@@ -10,7 +10,7 @@
     "chat",
     "glamour"
   ],
-  "DalamudApiLevel": 11,
+  "DalamudApiLevel": 12,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
