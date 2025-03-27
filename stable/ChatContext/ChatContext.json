@@ -2,7 +2,7 @@
   "Author": "Anya Hichu",
   "Name": "ChatContext",
   "InternalName": "ChatContext",
-  "AssemblyVersion": "0.0.1.3",
+  "AssemblyVersion": "0.0.2.0",
   "Description": "Add sender target name in chat messages and displays nearly player targets",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/anya-hichu/ChatContext",
@@ -11,7 +11,7 @@
     "context",
     "target"
   ],
-  "DalamudApiLevel": 11,
+  "DalamudApiLevel": 12,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
