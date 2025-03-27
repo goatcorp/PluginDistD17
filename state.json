@@ -38234,9 +38234,9 @@
           }
         },
         "BetterPartyFinder": {
-          "BuiltCommit": "44a5e28877cb9e27ec4922ae0f46a8a37164d832",
-          "TimeBuilt": "2025-01-06T00:24:17.949053+00:00",
-          "EffectiveVersion": "1.5.1.0",
+          "BuiltCommit": "8b613abac9e7173508a8a1f368d354d6bc362e87",
+          "TimeBuilt": "2025-03-27T00:28:32.9005141+00:00",
+          "EffectiveVersion": "1.5.2.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.2.6": {
@@ -38331,6 +38331,22 @@
               ],
               "Reviewer": "reiichi001",
               "Submitter": null
+            },
+            "1.5.2.0": {
+              "TimeReleased": "2025-03-27T00:28:32.9005151+00:00",
+              "Changelog": "- API 12",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "12.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.25"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "Infiziert90"
             }
           }
         },
@@ -59787,9 +59803,9 @@
           }
         },
         "DeepDungeonDex": {
-          "BuiltCommit": "70c7e8291352db171b3db0776a4c5ec5a7547404",
-          "TimeBuilt": "2024-12-29T03:01:08.2367958+00:00",
-          "EffectiveVersion": "2.12.1.0",
+          "BuiltCommit": "5f574c233159e7a48804ac1843e841e9e1d82168",
+          "TimeBuilt": "2025-03-27T00:28:24.7076006+00:00",
+          "EffectiveVersion": "2.12.2.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.8.1.0": {
@@ -60106,6 +60122,38 @@
               ],
               "Reviewer": "reiichi001",
               "Submitter": null
+            },
+            "2.12.2.0": {
+              "TimeReleased": "2025-03-27T00:28:24.7076563+00:00",
+              "Changelog": "### 2.12.2 (2025-03-26)\n\n\n### Bug Fixes\n\n* 7.2 release changes (d280581)\n* change one type to CS (5da2903)",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/wolfcomp/MonsterDex.git",
+                  "Version": "5c3a6dff9825ba8eae71423416c44722b78c2ffd"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "12.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.25"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "YamlDotNet",
+                  "Version": "13.4.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "8.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "wolfcomp"
             }
           }
         },
@@ -99419,6 +99467,13 @@
       "Version": "5c5d85df0e8fc02b673298515baae04aa26cc3cb",
       "ReviewedBy": "reiichi001",
       "ReviewedAt": "2025-03-26T22:51:55.2010157Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/wolfcomp/MonsterDex.git",
+      "Version": "5c3a6dff9825ba8eae71423416c44722b78c2ffd",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2025-03-27T00:28:24.7423591Z"
     }
   ]
 }
