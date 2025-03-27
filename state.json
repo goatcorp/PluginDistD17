@@ -22328,9 +22328,9 @@
           }
         },
         "ARealmRecorded": {
-          "BuiltCommit": "4fd56892905b42eb822ccd5620fa2c9d5396ed22",
-          "TimeBuilt": "2024-12-26T03:32:53.6561211+00:00",
-          "EffectiveVersion": "1.0.1.3",
+          "BuiltCommit": "aa811eff801914f248ade408d5a3b3498459d896",
+          "TimeBuilt": "2025-03-27T05:07:24.6012036+00:00",
+          "EffectiveVersion": "1.0.1.4",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -22408,6 +22408,26 @@
               ],
               "Reviewer": "philpax",
               "Submitter": null
+            },
+            "1.0.1.4": {
+              "TimeReleased": "2025-03-27T05:07:24.6012636+00:00",
+              "Changelog": "- Fixed for 7.2",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/UnknownX7/Hypostasis.git",
+                  "Version": "cef2daf92a000f721ccff703c48b707db6d3f729"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "12.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.25"
+                }
+              ],
+              "Reviewer": "perchbirdd",
+              "Submitter": "UnknownX7"
             }
           }
         },
@@ -102490,6 +102510,13 @@
       "Version": "1b5c7655a1523113ba060310b044a5494ac16715",
       "ReviewedBy": "philpax",
       "ReviewedAt": "2025-03-27T01:37:07.6541647Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/UnknownX7/Hypostasis.git",
+      "Version": "cef2daf92a000f721ccff703c48b707db6d3f729",
+      "ReviewedBy": "perchbirdd",
+      "ReviewedAt": "2025-03-27T05:07:24.6332651Z"
     }
   ]
 }

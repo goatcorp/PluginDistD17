@@ -2,14 +2,14 @@
   "Author": "UnknownX",
   "Name": "A Realm Recorded",
   "InternalName": "ARealmRecorded",
-  "AssemblyVersion": "1.0.1.3",
+  "AssemblyVersion": "1.0.1.4",
   "Description": "Adds additional features to the duty recorder and automatically starts it in most instances.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/UnknownX7/ARealmRecorded",
   "CategoryTags": [
     "utility"
   ],
-  "DalamudApiLevel": 11,
+  "DalamudApiLevel": 12,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
