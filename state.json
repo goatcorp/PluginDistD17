@@ -96036,6 +96036,90 @@
               "Submitter": "Cytraen"
             }
           }
+        },
+        "MagitekStratagem": {
+          "BuiltCommit": "5829bb09edacb82bafe7014eeee8bc5f053769a9",
+          "TimeBuilt": "2025-03-27T19:44:45.0392911+00:00",
+          "EffectiveVersion": "0.11.0.0",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "0.11.0.0": {
+              "TimeReleased": "2025-03-27T19:44:45.0393482+00:00",
+              "Changelog": "Version 0.11.0.0:\n- Upgrade to API12\n- \u26A0\uFE0FExperimental Release.\n- Removed native integrations and native Dll loading, should minimize potential crashes and isolate the game from instability.\n- Built-in standalone server: Tracker integrations are now handled via an child process, automatically managed by the plugin.\n    - To achieve this, the plugin has been given an entrypoint and turned into an AspNet Web project, it can now both be loaded by Dalamud as a Plugin, or run within Dotnet (or via its accompanying .exe) as the Server.\n    - The server automatically starts and stops as needed, and it will also terminate itself if 10 seconds pass with no active connections.\n\nKnown Issues:\n- Windowed mode is currently unsupported.\n- Some entities are not returning to normal after being highlighted by raycast detection.\n- Entities highlighted by proximity are not returning to normal after no longer being the closest.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "12.0.0"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.SignalR.Client",
+                  "Version": "8.0.11"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.Connections.Abstractions",
+                  "Version": "8.0.11"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.Http.Connections.Client",
+                  "Version": "8.0.11"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.Http.Connections.Common",
+                  "Version": "8.0.11"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.SignalR.Client.Core",
+                  "Version": "8.0.11"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.SignalR.Common",
+                  "Version": "8.0.11"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.SignalR.Protocols.Json",
+                  "Version": "8.0.11"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "8.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "8.0.2"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Features",
+                  "Version": "8.0.11"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging",
+                  "Version": "8.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "8.0.2"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options",
+                  "Version": "8.0.2"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Primitives",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "System.IO.Pipelines",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "System.Threading.Channels",
+                  "Version": "8.0.0"
+                }
+              ],
+              "Reviewer": "philpax",
+              "Submitter": "meoiswa"
+            }
+          }
         }
       }
     },
@@ -107264,6 +107348,62 @@
       "Version": "7.2.0",
       "ReviewedBy": "reiichi001",
       "ReviewedAt": "2025-03-27T19:01:17.7035434Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.AspNetCore.SignalR.Client",
+      "Version": "8.0.11",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2025-03-27T19:44:45.0733521Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.AspNetCore.Connections.Abstractions",
+      "Version": "8.0.11",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2025-03-27T19:44:45.0734Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.AspNetCore.Http.Connections.Client",
+      "Version": "8.0.11",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2025-03-27T19:44:45.0734003Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.AspNetCore.Http.Connections.Common",
+      "Version": "8.0.11",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2025-03-27T19:44:45.0734007Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.AspNetCore.SignalR.Client.Core",
+      "Version": "8.0.11",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2025-03-27T19:44:45.0734009Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.AspNetCore.SignalR.Common",
+      "Version": "8.0.11",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2025-03-27T19:44:45.0734022Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.AspNetCore.SignalR.Protocols.Json",
+      "Version": "8.0.11",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2025-03-27T19:44:45.0734024Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Extensions.Features",
+      "Version": "8.0.11",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2025-03-27T19:44:45.0734029Z"
     }
   ]
 }
