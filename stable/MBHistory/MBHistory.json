@@ -2,7 +2,7 @@
   "Author": "Infi",
   "Name": "Easy MBHistory",
   "InternalName": "MBHistory",
-  "AssemblyVersion": "1.0.1.2",
+  "AssemblyVersion": "1.0.2.0",
   "Description": "Copies the marketboard transaction history into your clipboard with configurable options.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Infiziert90/MBHistory",
@@ -12,7 +12,7 @@
     "clipboard",
     "History"
   ],
-  "DalamudApiLevel": 11,
+  "DalamudApiLevel": 12,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,

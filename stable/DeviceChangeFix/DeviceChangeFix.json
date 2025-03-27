@@ -2,7 +2,7 @@
   "Author": "nopjmp, Jessidhia, PGGB",
   "Name": "DeviceChangeFix",
   "InternalName": "DeviceChangeFix",
-  "AssemblyVersion": "2.0.6.0",
+  "AssemblyVersion": "2.0.7.0",
   "Description": "Stops controller input from freezing randomly by ensuring FFXIV only polls for controllers when one is actually connected or disconnected. Doesn't require any configuration.\n\nOriginal plugin by PGGB, icon from Mutant Standard.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/MKhayle/DeviceChangeFix",
@@ -10,7 +10,7 @@
     "fix",
     "gamepad"
   ],
-  "DalamudApiLevel": 11,
+  "DalamudApiLevel": 12,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,

@@ -2,7 +2,7 @@
   "Author": "Glyceri",
   "Name": "Dialog Copy",
   "InternalName": "TalkCopy",
-  "AssemblyVersion": "1.2.1.1",
+  "AssemblyVersion": "1.2.2.0",
   "Description": "Automatically copy ANY text on your screen.\n\nThere are two modes:\n        -Normal Mode: Automatically copies a select number of text elements to your clipboard.\n        -Text Copy Mode: This mode allows you to copy the text of ANY text element on the screen.\n\nDefault keybinds to toggle between the two modes are:\n      [Left Control] [Left Shift] [Spacebar]",
   "ApplicableVersion": "any",
   "Tags": [
@@ -13,7 +13,7 @@
     "text",
     "clipboard"
   ],
-  "DalamudApiLevel": 11,
+  "DalamudApiLevel": 12,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,

@@ -2,7 +2,7 @@
   "Author": "MgAl2O4",
   "Name": "Harp Hero",
   "InternalName": "HarpHero",
-  "AssemblyVersion": "1.11.0.0",
+  "AssemblyVersion": "1.12.0.0",
   "Description": "Assist mode for bards who want to play music but don't know how to.\n- does NOT play anything automatically\n- needs MIDI files to work\n- adapts MIDI tracks to fit in game limitations for you\n- you will be scored :O",
   "ApplicableVersion": "any",
   "Tags": [
@@ -12,7 +12,7 @@
     "midi",
     "harp"
   ],
-  "DalamudApiLevel": 11,
+  "DalamudApiLevel": 12,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,

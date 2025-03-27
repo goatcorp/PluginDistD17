@@ -1,20 +1,20 @@
 {
   "Author": "ArcaneDisgea",
-  "Name": "Beeg Window",
+  "Name": "Beeg Dinosaur Eat Window",
   "InternalName": "BeegWindow",
-  "AssemblyVersion": "0.0.0.2",
+  "AssemblyVersion": "0.0.0.3",
   "Description": "Ensures that the game window is maximized when launching in windowed mode.",
   "ApplicableVersion": "any",
   "Tags": [
-    "beeg",
+    "beeg dinosaur eat",
     "window"
   ],
-  "DalamudApiLevel": 11,
+  "DalamudApiLevel": 12,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
   "LoadPriority": 0,
-  "Punchline": "That sure is a beeg window.",
+  "Punchline": "That sure is a beeg dinosaur eat window.",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "stable"

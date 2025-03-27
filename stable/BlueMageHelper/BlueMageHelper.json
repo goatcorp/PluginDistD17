@@ -2,7 +2,7 @@
   "Author": "Infi, Sl0nderman",
   "Name": "Blue Mage Helper",
   "InternalName": "BlueMageHelper",
-  "AssemblyVersion": "3.0.2.5",
+  "AssemblyVersion": "3.0.3.0",
   "Description": "Adds monster names and coordinates to the \"Where to Learn\" section of your blue mage spellbook.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Infiziert90/BlueMageHelper",
@@ -14,7 +14,7 @@
   "CategoryTags": [
     "jobs"
   ],
-  "DalamudApiLevel": 11,
+  "DalamudApiLevel": 12,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,

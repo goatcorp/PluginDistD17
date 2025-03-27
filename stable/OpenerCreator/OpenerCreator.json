@@ -2,7 +2,7 @@
   "Author": "Infi, herulume, sevii",
   "Name": "OpenerCreator",
   "InternalName": "OpenerCreator",
-  "AssemblyVersion": "0.3.2.0",
+  "AssemblyVersion": "0.4.0.0",
   "Description": "Create your opener and practice with a striking dummy. Provides basic analysis.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Infiziert90/OpenerCreator",
@@ -18,7 +18,7 @@
   "CategoryTags": [
     "jobs"
   ],
-  "DalamudApiLevel": 11,
+  "DalamudApiLevel": 12,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,

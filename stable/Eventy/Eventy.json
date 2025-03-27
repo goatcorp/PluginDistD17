@@ -2,7 +2,7 @@
   "Author": "Infi",
   "Name": "Eventy",
   "InternalName": "Eventy",
-  "AssemblyVersion": "1.0.3.0",
+  "AssemblyVersion": "1.0.4.0",
   "Description": "Simple but useful calender\n- Current events displayed within a server bar entry for quick viewing\n- Browse through current, upcoming and previously held events\n- Special dates for Liveletters and other important occasions are highlighted",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Infiziert90/Eventy",
@@ -12,7 +12,7 @@
     "Dates",
     "DTR"
   ],
-  "DalamudApiLevel": 11,
+  "DalamudApiLevel": 12,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,

@@ -2,7 +2,7 @@
   "Author": "Meoiswa",
   "Name": "Auto BGM",
   "InternalName": "AutoBGM",
-  "AssemblyVersion": "1.2.0.0",
+  "AssemblyVersion": "1.3.0.0",
   "Description": "Enables automatic BGM switching based Conditions.",
   "ApplicableVersion": "any",
   "Tags": [
@@ -12,7 +12,7 @@
     "bgm",
     "switch"
   ],
-  "DalamudApiLevel": 11,
+  "DalamudApiLevel": 12,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,

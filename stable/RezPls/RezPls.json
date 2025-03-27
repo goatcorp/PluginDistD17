@@ -2,7 +2,7 @@
   "Author": "Ottermandias",
   "Name": "RezPls",
   "InternalName": "RezPls",
-  "AssemblyVersion": "1.4.0.0",
+  "AssemblyVersion": "1.5.0.0",
   "Description": "Easy overview about who is currently resurrecting who,\nwho is already resurrected,\nand who has removable detrimental status effects in the world \nas well as in the group or alliance interface.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Ottermandias/RezPls",
@@ -17,7 +17,7 @@
     "Highlight",
     "Interface"
   ],
-  "DalamudApiLevel": 11,
+  "DalamudApiLevel": 12,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
