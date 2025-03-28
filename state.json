@@ -6088,9 +6088,9 @@
           }
         },
         "NoTankYou": {
-          "BuiltCommit": "130353c2d16565567e4e670a2a8ccead524850ff",
-          "TimeBuilt": "2024-12-31T14:46:20.8711144+00:00",
-          "EffectiveVersion": "7.2.0.5",
+          "BuiltCommit": "f56d91429f0a2cff4548fa07e6b6e516f5250862",
+          "TimeBuilt": "2025-03-28T01:18:35.0960696+00:00",
+          "EffectiveVersion": "7.2.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "7.1.0.2": {
@@ -6544,6 +6544,46 @@
               ],
               "Reviewer": "philpax",
               "Submitter": null
+            },
+            "7.2.1.0": {
+              "TimeReleased": "2025-03-28T01:18:35.0961237+00:00",
+              "Changelog": "Update for 7.2",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiLib",
+                  "Version": "62fe58f0fbccbf627ba2f63b362210d0aab37082"
+                },
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit.git",
+                  "Version": "d6c2d2d0016d647907a5b18ed38c364907adbfbf"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "12.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.25"
+                },
+                {
+                  "Key": "HtmlAgilityPack",
+                  "Version": "1.11.46"
+                },
+                {
+                  "Key": "Karashiiro.HtmlAgilityPack.CssSelectors.NetCoreFork",
+                  "Version": "0.0.2"
+                },
+                {
+                  "Key": "NetStone",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.3"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "MidoriKami"
             }
           }
         },
@@ -37004,9 +37044,9 @@
           }
         },
         "SortaKinda": {
-          "BuiltCommit": "3cacca040c2fdb078670a15d987456660eac6fa9",
-          "TimeBuilt": "2024-11-24T04:20:27.0922224+00:00",
-          "EffectiveVersion": "2.1.0.2",
+          "BuiltCommit": "ad0b03b6ad4d984108557a475e55c7d40d8c9ce7",
+          "TimeBuilt": "2025-03-28T01:18:58.4502435+00:00",
+          "EffectiveVersion": "2.1.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "2.1.0.0": {
@@ -37192,6 +37232,42 @@
               ],
               "Reviewer": "reiichi001",
               "Submitter": null
+            },
+            "2.1.1.0": {
+              "TimeReleased": "2025-03-28T01:18:58.4502446+00:00",
+              "Changelog": "Update for 7.2",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiLib.git",
+                  "Version": "62fe58f0fbccbf627ba2f63b362210d0aab37082"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.25"
+                },
+                {
+                  "Key": "NetStone",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "HtmlAgilityPack",
+                  "Version": "1.11.46"
+                },
+                {
+                  "Key": "Karashiiro.HtmlAgilityPack.CssSelectors.NetCoreFork",
+                  "Version": "0.0.2"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.3"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "12.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "MidoriKami"
             }
           }
         },
@@ -40748,9 +40824,9 @@
           }
         },
         "PeepingTom": {
-          "BuiltCommit": "500ed44b4bf16f36e91e230976029e27767392ca",
-          "TimeBuilt": "2025-03-28T00:22:00.9295721+00:00",
-          "EffectiveVersion": "1.7.20",
+          "BuiltCommit": "9046b4e505565f73ba0745f0c3c8d48ddab36702",
+          "TimeBuilt": "2025-03-28T01:19:05.3573042+00:00",
+          "EffectiveVersion": "1.7.21",
           "MinimumVersion": null,
           "Changelogs": {
             "1.7.11": {
@@ -40884,6 +40960,34 @@
                 }
               ],
               "Reviewer": "philpax",
+              "Submitter": "Caraxi"
+            },
+            "1.7.21": {
+              "TimeReleased": "2025-03-28T01:19:05.3573054+00:00",
+              "Changelog": "fix random imgui window appearing... imgui please",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "12.0.0"
+                },
+                {
+                  "Key": "Fody",
+                  "Version": "6.9.1"
+                },
+                {
+                  "Key": "NAudio.Core",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Wasapi",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "Resourcer.Fody",
+                  "Version": "1.8.1"
+                }
+              ],
+              "Reviewer": "reiichi001",
               "Submitter": "Caraxi"
             }
           }
@@ -61446,9 +61550,9 @@
           }
         },
         "HuntBuddy": {
-          "BuiltCommit": "f4a7d18f9d99d01111d5a1e725d102f3983ac2f2",
-          "TimeBuilt": "2024-11-16T00:49:24.2846458+00:00",
-          "EffectiveVersion": "1.2.0.3",
+          "BuiltCommit": "cdef5d9e803d32b808b255fceb6efb5e8612e979",
+          "TimeBuilt": "2025-03-28T01:18:50.5703692+00:00",
+          "EffectiveVersion": "1.2.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.1.0": {
@@ -61532,6 +61636,22 @@
               ],
               "Reviewer": "karashiiro",
               "Submitter": null
+            },
+            "1.2.1.0": {
+              "TimeReleased": "2025-03-28T01:18:50.5703703+00:00",
+              "Changelog": "- Updated for API12",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "12.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.25"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "SheepGoMeh"
             }
           }
         },
@@ -62131,9 +62251,9 @@
           }
         },
         "EasyTranslate.DalamudPlugin": {
-          "BuiltCommit": "8e977350e81a1aa49bbe6881241c645ca585ff8c",
-          "TimeBuilt": "2025-01-10T06:41:53.19309+00:00",
-          "EffectiveVersion": "4.1.0.0",
+          "BuiltCommit": "1adfad561b13046e17be434249aadb8024ec0591",
+          "TimeBuilt": "2025-03-28T01:18:44.104371+00:00",
+          "EffectiveVersion": "5.0.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "2.0.0.0": {
@@ -62232,6 +62352,110 @@
               ],
               "Reviewer": "reiichi001",
               "Submitter": null
+            },
+            "5.0.0.0": {
+              "TimeReleased": "2025-03-28T01:18:44.104374+00:00",
+              "Changelog": "- Updated for 7.2 and Api 12\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.25"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "9.0.3"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "9.0.3"
+                },
+                {
+                  "Key": "Microsoft.NET.Test.Sdk",
+                  "Version": "17.13.0"
+                },
+                {
+                  "Key": "Moq",
+                  "Version": "4.20.72"
+                },
+                {
+                  "Key": "xunit",
+                  "Version": "2.9.3"
+                },
+                {
+                  "Key": "xunit.runner.visualstudio",
+                  "Version": "3.0.2"
+                },
+                {
+                  "Key": "Castle.Core",
+                  "Version": "5.1.1"
+                },
+                {
+                  "Key": "Microsoft.CodeCoverage",
+                  "Version": "17.13.0"
+                },
+                {
+                  "Key": "Microsoft.TestPlatform.ObjectModel",
+                  "Version": "17.13.0"
+                },
+                {
+                  "Key": "Microsoft.TestPlatform.TestHost",
+                  "Version": "17.13.0"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.1"
+                },
+                {
+                  "Key": "System.Diagnostics.EventLog",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "System.Reflection.Metadata",
+                  "Version": "1.6.0"
+                },
+                {
+                  "Key": "xunit.abstractions",
+                  "Version": "2.0.3"
+                },
+                {
+                  "Key": "xunit.analyzers",
+                  "Version": "1.18.0"
+                },
+                {
+                  "Key": "xunit.assert",
+                  "Version": "2.9.3"
+                },
+                {
+                  "Key": "xunit.core",
+                  "Version": "2.9.3"
+                },
+                {
+                  "Key": "xunit.extensibility.core",
+                  "Version": "2.9.3"
+                },
+                {
+                  "Key": "xunit.extensibility.execution",
+                  "Version": "2.9.3"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "12.0.0"
+                },
+                {
+                  "Key": "Snapshooter.Xunit",
+                  "Version": "1.0.1"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.3"
+                },
+                {
+                  "Key": "Snapshooter",
+                  "Version": "1.0.1"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "Olaren15"
             }
           }
         },
@@ -108098,6 +108322,41 @@
       "Version": "5e8da509a7441b1f1e0a946254fe30fbc05ccf4f",
       "ReviewedBy": "philpax",
       "ReviewedAt": "2025-03-27T23:07:06.6475781Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/MidoriKami/KamiToolKit.git",
+      "Version": "d6c2d2d0016d647907a5b18ed38c364907adbfbf",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2025-03-28T01:18:35.1327416Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Moq",
+      "Version": "4.20.72",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2025-03-28T01:18:44.1276532Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Snapshooter.Xunit",
+      "Version": "1.0.1",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2025-03-28T01:18:44.1276554Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Snapshooter",
+      "Version": "1.0.1",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2025-03-28T01:18:44.1276557Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/MidoriKami/KamiLib.git",
+      "Version": "62fe58f0fbccbf627ba2f63b362210d0aab37082",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2025-03-28T01:18:58.4650274Z"
     }
   ]
 }

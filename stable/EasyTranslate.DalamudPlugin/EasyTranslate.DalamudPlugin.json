@@ -2,7 +2,7 @@
   "Author": "Olaren",
   "Name": "Easy Translate",
   "InternalName": "EasyTranslate.DalamudPlugin",
-  "AssemblyVersion": "4.1.0.0",
+  "AssemblyVersion": "5.0.0.0",
   "Description": "Search anything and get the translations in other languages.\nUse /et to open the ui or /et <search term> to search directly!",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Olaren15/ffxiv-easy-translate",
@@ -17,7 +17,7 @@
     "german",
     "japanese"
   ],
-  "DalamudApiLevel": 11,
+  "DalamudApiLevel": 12,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
