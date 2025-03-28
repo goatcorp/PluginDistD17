@@ -96762,9 +96762,9 @@
           }
         },
         "ArchipelagoXIV": {
-          "BuiltCommit": "ecc9145078e1edce1a965914c638a7243063ba63",
-          "TimeBuilt": "2025-03-14T16:04:00.7217388+00:00",
-          "EffectiveVersion": "0.19.5.0",
+          "BuiltCommit": "bfa51ff6975d99624fa05b2f04dac192bb5792d1",
+          "TimeBuilt": "2025-03-28T12:57:46.9189751+00:00",
+          "EffectiveVersion": "0.23.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.19.5.0": {
@@ -96781,6 +96781,26 @@
                 }
               ],
               "Reviewer": "philpax",
+              "Submitter": "silasary"
+            },
+            "0.23.0.0": {
+              "TimeReleased": "2025-03-28T12:57:46.9190312+00:00",
+              "Changelog": "Update for 7.2 duties and API v12.",
+              "UsedNeeds": [
+                {
+                  "Key": "Archipelago.MultiClient.Net",
+                  "Version": "6.6.0"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "12.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.25"
+                }
+              ],
+              "Reviewer": "Critical-Impact",
               "Submitter": "silasary"
             }
           }
@@ -108522,6 +108542,13 @@
       "Version": "5e5c867a095eecac0dd494b30a33298a65e46426",
       "ReviewedBy": "philpax",
       "ReviewedAt": "2025-03-28T09:59:54.3874991Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Archipelago.MultiClient.Net",
+      "Version": "6.6.0",
+      "ReviewedBy": "Critical-Impact",
+      "ReviewedAt": "2025-03-28T12:57:46.9538053Z"
     }
   ]
 }
