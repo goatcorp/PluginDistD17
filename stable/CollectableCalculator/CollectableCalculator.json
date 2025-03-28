@@ -2,7 +2,7 @@
   "Author": "Liza Carvelli",
   "Name": "CollectableCalculator",
   "InternalName": "CollectableCalculator",
-  "AssemblyVersion": "4.1",
+  "AssemblyVersion": "4.2",
   "Description": "Shows how many scrips and items you would receive if you turn in your current inventory.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/mabako/CollectableCalculator",
@@ -10,7 +10,7 @@
     "scrips",
     "collectable"
   ],
-  "DalamudApiLevel": 11,
+  "DalamudApiLevel": 12,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
