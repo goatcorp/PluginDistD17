@@ -32809,9 +32809,9 @@
           }
         },
         "TitleRoulette": {
-          "BuiltCommit": "efd2ff74b1129e4f415fd13934492c69e2c8a390",
-          "TimeBuilt": "2024-11-24T17:32:46.2006916+00:00",
-          "EffectiveVersion": "4.2",
+          "BuiltCommit": "a477d6c7ae7f894a36838abbf21a9a37ac961ee4",
+          "TimeBuilt": "2025-03-28T17:02:26.9939228+00:00",
+          "EffectiveVersion": "4.3",
           "MinimumVersion": null,
           "Changelogs": {
             "4.2": {
@@ -32853,6 +32853,22 @@
               ],
               "Reviewer": "philpax",
               "Submitter": null
+            },
+            "4.3": {
+              "TimeReleased": "2025-03-28T17:02:26.9939814+00:00",
+              "Changelog": "- Update for Patch 7.2\r\n- Add config option to automatically change titles on zone change, thanks to @erdelf\r\n- Add search bar for titles",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "12.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.25"
+                }
+              ],
+              "Reviewer": "perchbirdd",
+              "Submitter": "mabako"
             }
           }
         },
