@@ -3103,9 +3103,9 @@
           }
         },
         "Dalamud.LoadingImage": {
-          "BuiltCommit": "98f73d9dc10bbb6467d6db37f598edfabd5e0760",
-          "TimeBuilt": "2025-03-26T22:46:19.5235868+00:00",
-          "EffectiveVersion": "1.0.0.14",
+          "BuiltCommit": "1a3e1cda9b7d31758a675e8c0c0ba600496805b6",
+          "TimeBuilt": "2025-03-28T20:38:46.5647985+00:00",
+          "EffectiveVersion": "1.0.0.15",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.13": {
@@ -3135,6 +3135,34 @@
             "1.0.0.14": {
               "TimeReleased": "2025-03-26T22:46:19.523588+00:00",
               "Changelog": null,
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "12.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.25"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.3"
+                },
+                {
+                  "Key": "StyleCop.Analyzers",
+                  "Version": "1.2.0-beta.333"
+                },
+                {
+                  "Key": "StyleCop.Analyzers.Unstable",
+                  "Version": "1.2.0.333"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "MapleHinata"
+            },
+            "1.0.0.15": {
+              "TimeReleased": "2025-03-28T20:38:46.5648702+00:00",
+              "Changelog": "Fixes excessive logging on loading screens. ",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -99270,9 +99298,9 @@
           }
         },
         "SimpleTweaksPlugin": {
-          "BuiltCommit": "e09b4ae7b879fa7db7a9e6091a1d79067513dd39",
-          "TimeBuilt": "2025-03-27T12:32:39.1748277+00:00",
-          "EffectiveVersion": "1.10.8.3",
+          "BuiltCommit": "487fb2e6c89a6db32fa9c6b582d89394883ffc6e",
+          "TimeBuilt": "2025-03-28T20:38:59.1422575+00:00",
+          "EffectiveVersion": "1.10.8.4",
           "MinimumVersion": null,
           "Changelogs": {
             "1.10.8.1": {
@@ -99321,6 +99349,22 @@
                 }
               ],
               "Reviewer": "Critical-Impact",
+              "Submitter": "Caraxi"
+            },
+            "1.10.8.4": {
+              "TimeReleased": "2025-03-28T20:38:59.1422584+00:00",
+              "Changelog": "***New Tweaks***\r\n- **\u0060Sort World Visit List\u0060** - Removes the randomization from the data center visit world list.\r\n\r\n\r\n***Tweak Changes***\r\n- **\u0060House Lights Command\u0060** - Added ability to toggle SSAO with \u0027ssao-on\u0027 and \u0027ssao-off\u0027 parameters\r\n\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "12.0.0"
+                },
+                {
+                  "Key": "System.Numerics.Vectors",
+                  "Version": "4.6.0"
+                }
+              ],
+              "Reviewer": "perchbirdd",
               "Submitter": "Caraxi"
             }
           }
