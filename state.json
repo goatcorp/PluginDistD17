@@ -84419,9 +84419,9 @@
           }
         },
         "GaugeOMatic": {
-          "BuiltCommit": "ba237c887c8f1cac3c3d7fa69e4289dc4bdc0b4d",
-          "TimeBuilt": "2025-03-27T19:30:16.3997494+00:00",
-          "EffectiveVersion": "0.8.1.8",
+          "BuiltCommit": "43f2276d04a890d754ca52f3ce70a588a447da39",
+          "TimeBuilt": "2025-03-28T19:55:29.0823381+00:00",
+          "EffectiveVersion": "0.8.1.9",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.1.6": {
@@ -84686,6 +84686,18 @@
                 }
               ],
               "Reviewer": "philpax",
+              "Submitter": "ItsBexy"
+            },
+            "0.8.1.9": {
+              "TimeReleased": "2025-03-28T19:55:29.0824197+00:00",
+              "Changelog": "- Reverting previous temp-fix now that sheets are updated\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "12.0.0"
+                }
+              ],
+              "Reviewer": "perchbirdd",
               "Submitter": "ItsBexy"
             }
           }
