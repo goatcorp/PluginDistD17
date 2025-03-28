@@ -40748,9 +40748,9 @@
           }
         },
         "PeepingTom": {
-          "BuiltCommit": "9e1e08aa6a89e291a9a454c9b80644a2806443b8",
-          "TimeBuilt": "2025-03-27T15:27:55.9243532+00:00",
-          "EffectiveVersion": "1.7.19",
+          "BuiltCommit": "500ed44b4bf16f36e91e230976029e27767392ca",
+          "TimeBuilt": "2025-03-28T00:22:00.9295721+00:00",
+          "EffectiveVersion": "1.7.20",
           "MinimumVersion": null,
           "Changelogs": {
             "1.7.11": {
@@ -40833,6 +40833,34 @@
             "1.7.19": {
               "TimeReleased": "2025-03-27T15:27:55.9243542+00:00",
               "Changelog": "\\\n- API 12\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "12.0.0"
+                },
+                {
+                  "Key": "Fody",
+                  "Version": "6.9.1"
+                },
+                {
+                  "Key": "NAudio.Core",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Wasapi",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "Resourcer.Fody",
+                  "Version": "1.8.1"
+                }
+              ],
+              "Reviewer": "philpax",
+              "Submitter": "Caraxi"
+            },
+            "1.7.20": {
+              "TimeReleased": "2025-03-28T00:22:00.9296328+00:00",
+              "Changelog": "Fix target dots being drawn off screen in some instances\r\nAttempt to fix some target detection logic",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -96134,9 +96162,9 @@
           }
         },
         "BisBuddy": {
-          "BuiltCommit": "ab63af76b6b40ead7c9faa6cf1dde3cbaa7adc31",
-          "TimeBuilt": "2025-03-12T19:27:19.5706389+00:00",
-          "EffectiveVersion": "0.1.1.0",
+          "BuiltCommit": "b03d6b74d12ab39be8d0a838ee2796c1888ea977",
+          "TimeBuilt": "2025-03-28T00:22:10.520233+00:00",
+          "EffectiveVersion": "0.1.1.2",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.3.0": {
@@ -96313,6 +96341,54 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "RajahOmen"
+            },
+            "0.1.1.2": {
+              "TimeReleased": "2025-03-28T00:22:10.5202341+00:00",
+              "Changelog": "**Changes**\n - Updated to 7.2 / API 12\n - Completed meld plans no longer appear when melding\n - Remove opinionated sorting on materia display order, show original\n**Fixes**\n - Fix various errors with item assignment edge cases\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "12.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.25"
+                },
+                {
+                  "Key": "LinearAssignment",
+                  "Version": "1.2.0"
+                },
+                {
+                  "Key": "Lumina",
+                  "Version": "5.6.1"
+                },
+                {
+                  "Key": "Lumina.Excel",
+                  "Version": "7.2.0"
+                },
+                {
+                  "Key": "LuminaSupplemental.Excel",
+                  "Version": "2.3.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.ObjectPool",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "CSVFile",
+                  "Version": "3.2.0"
+                },
+                {
+                  "Key": "CsvHelper",
+                  "Version": "30.0.1"
+                },
+                {
+                  "Key": "Sylvan.Data.Csv",
+                  "Version": "1.3.9"
+                }
+              ],
+              "Reviewer": "philpax",
               "Submitter": "RajahOmen"
             }
           }
