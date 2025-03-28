@@ -2,14 +2,14 @@
   "Author": "electr0sheep, Nuko",
   "Name": "Item Vendor Location",
   "InternalName": "ItemVendorLocation",
-  "AssemblyVersion": "2.9.0.3",
+  "AssemblyVersion": "2.10.0.0",
   "Description": "Adds a context menu option for items that will show you where to find items you can buy off a vendor",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/electr0sheep/ItemVendorLocation",
   "Tags": [
     "item location vendor"
   ],
-  "DalamudApiLevel": 11,
+  "DalamudApiLevel": 12,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
