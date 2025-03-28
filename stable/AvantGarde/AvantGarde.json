@@ -2,7 +2,7 @@
   "Author": "NeNeppie",
   "Name": "Avant-Garde",
   "InternalName": "AvantGarde",
-  "AssemblyVersion": "1.0.2.0",
+  "AssemblyVersion": "1.0.3.0",
   "Description": "This plugin is a crowdsourced project, aiming to provide a comprehensive list for all hint categories.\nSee the github page for information on how you can contribute.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/NeNeppie/AvantGarde",
@@ -15,7 +15,7 @@
     "Utility",
     "UI"
   ],
-  "DalamudApiLevel": 11,
+  "DalamudApiLevel": 12,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,

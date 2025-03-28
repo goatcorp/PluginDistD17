@@ -49652,9 +49652,9 @@
           }
         },
         "AvantGarde": {
-          "BuiltCommit": "760c3060588001a6a3d9b9af6092cdd844600e38",
-          "TimeBuilt": "2024-12-27T16:06:04.3682889+00:00",
-          "EffectiveVersion": "1.0.2.0",
+          "BuiltCommit": "604fef21a0d9d7d85b163a5c8bd4be7202524b09",
+          "TimeBuilt": "2025-03-28T18:29:09.3228752+00:00",
+          "EffectiveVersion": "1.0.3.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.1.1": {
@@ -49701,6 +49701,22 @@
               ],
               "Reviewer": "philpax",
               "Submitter": null
+            },
+            "1.0.3.0": {
+              "TimeReleased": "2025-03-28T18:29:09.3228764+00:00",
+              "Changelog": "Update for Patch 7.2 / API 12\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "12.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.25"
+                }
+              ],
+              "Reviewer": "perchbirdd",
+              "Submitter": "NeNeppie"
             }
           }
         },
@@ -66308,9 +66324,9 @@
           }
         },
         "MiniCactpotSolver": {
-          "BuiltCommit": "55b68a3df4d25b940da1148bdecb303c0a9a820d",
-          "TimeBuilt": "2024-11-16T00:50:40.870806+00:00",
-          "EffectiveVersion": "2.1.0.0",
+          "BuiltCommit": "9bb13fe2af34c51e08c18bb7808a1561e42ec140",
+          "TimeBuilt": "2025-03-28T18:29:02.883287+00:00",
+          "EffectiveVersion": "2.1.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "2.1.0.0": {
@@ -66352,6 +66368,22 @@
               ],
               "Reviewer": "reiichi001",
               "Submitter": null
+            },
+            "2.1.1.0": {
+              "TimeReleased": "2025-03-28T18:29:02.8833411+00:00",
+              "Changelog": "Update for 7.2",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "12.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.25"
+                }
+              ],
+              "Reviewer": "perchbirdd",
+              "Submitter": "MidoriKami"
             }
           }
         },
