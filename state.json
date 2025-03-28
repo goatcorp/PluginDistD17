@@ -598,9 +598,9 @@
           }
         },
         "Glamaholic": {
-          "BuiltCommit": "9061a78593e583949402e3bd4038c32196e2974a",
-          "TimeBuilt": "2025-03-15T13:21:22.5706307+00:00",
-          "EffectiveVersion": "1.10.13.0",
+          "BuiltCommit": "cfd25e91c7836e5baa1eb2c029ad9293833085f0",
+          "TimeBuilt": "2025-03-28T09:59:54.3526861+00:00",
+          "EffectiveVersion": "1.10.14.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.9.8.0": {
@@ -749,6 +749,34 @@
                 {
                   "Key": "DalamudPackager",
                   "Version": "11.0.0"
+                },
+                {
+                  "Key": "Fody",
+                  "Version": "6.8.0"
+                },
+                {
+                  "Key": "Resourcer.Fody",
+                  "Version": "1.8.1"
+                }
+              ],
+              "Reviewer": "philpax",
+              "Submitter": "caitlyn-gg"
+            },
+            "1.10.14.0": {
+              "TimeReleased": "2025-03-28T09:59:54.3527429+00:00",
+              "Changelog": "- Updated for API 12\n\nFor troubleshooting, please enable Troubleshooting mode (Settings -\u003E Troubleshooting mode), reproduce the issue, then post any log line from \u0060/xllog\u0060 starting with \u0060[Troubleshooting]\u0060. Thanks!\n",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/Ottermandias/Glamourer.Api.git",
+                  "Version": "5e5c867a095eecac0dd494b30a33298a65e46426"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "12.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.25"
                 },
                 {
                   "Key": "Fody",
@@ -108487,6 +108515,13 @@
       "Version": "9.0.3",
       "ReviewedBy": "philpax",
       "ReviewedAt": "2025-03-28T02:35:25.9282307Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/Ottermandias/Glamourer.Api.git",
+      "Version": "5e5c867a095eecac0dd494b30a33298a65e46426",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2025-03-28T09:59:54.3874991Z"
     }
   ]
 }
