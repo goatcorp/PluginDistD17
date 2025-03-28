@@ -28551,9 +28551,9 @@
           }
         },
         "BetterMountRoulette": {
-          "BuiltCommit": "6f91990f3174e4b6b89cfc1162731b7f80b09d21",
-          "TimeBuilt": "2024-11-24T07:31:19.1842672+00:00",
-          "EffectiveVersion": "1.6.1.24",
+          "BuiltCommit": "d0816b9ca617f1555820144dd774573fef006030",
+          "TimeBuilt": "2025-03-28T18:34:00.4597453+00:00",
+          "EffectiveVersion": "1.7.0.25",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.2": {
@@ -28677,6 +28677,18 @@
               ],
               "Reviewer": "reiichi001",
               "Submitter": null
+            },
+            "1.7.0.25": {
+              "TimeReleased": "2025-03-28T18:34:00.4598082+00:00",
+              "Changelog": "Update for 7.2\n\nAlso\n- Made Flying Mount Roulette button in Mount Guide and Action List opt-out\n- Hid most error messages\n- Made the remaining error messages opt-out",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "12.0.0"
+                }
+              ],
+              "Reviewer": "perchbirdd",
+              "Submitter": "CMDRNuffin"
             }
           }
         },
