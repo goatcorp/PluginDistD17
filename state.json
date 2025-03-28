@@ -3135,9 +3135,9 @@
           }
         },
         "OBSPlugin": {
-          "BuiltCommit": "ac80c1a2e4e13feadcdf02ac738f3208642c382a",
-          "TimeBuilt": "2024-12-23T00:45:42.6080632+00:00",
-          "EffectiveVersion": "1.0.4.4",
+          "BuiltCommit": "fd926d272b5196b489b54d7de4441624260e1839",
+          "TimeBuilt": "2025-03-28T02:35:25.8989081+00:00",
+          "EffectiveVersion": "1.0.5.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.2.3": {
@@ -3246,6 +3246,42 @@
               ],
               "Reviewer": "philpax",
               "Submitter": null
+            },
+            "1.0.5.0": {
+              "TimeReleased": "2025-03-28T02:35:25.8989091+00:00",
+              "Changelog": "patch 7.2 and api12",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/Bluefissure/obs-websocket-dotnet.git",
+                  "Version": "256c02eb26687e48321e276d0ea436908d430685"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "12.0.0"
+                },
+                {
+                  "Key": "Microsoft.NET.ILLink.Tasks",
+                  "Version": "9.0.3"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.3"
+                },
+                {
+                  "Key": "System.Reactive",
+                  "Version": "4.3.2"
+                },
+                {
+                  "Key": "System.Threading.Channels",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "Websocket.Client",
+                  "Version": "4.4.43"
+                }
+              ],
+              "Reviewer": "philpax",
+              "Submitter": "Bluefissure"
             }
           }
         },
@@ -40354,9 +40390,9 @@
           }
         },
         "MapLinker": {
-          "BuiltCommit": "b4f039cc25bbb25b0482e595462692eee177c540",
-          "TimeBuilt": "2024-11-18T06:36:51.4778907+00:00",
-          "EffectiveVersion": "1.1.9.0",
+          "BuiltCommit": "9c6fe18ef957ff38bb7ac388c68d7a4f1c8a8e77",
+          "TimeBuilt": "2025-03-28T02:35:16.3992031+00:00",
+          "EffectiveVersion": "1.1.10.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.1.6.0": {
@@ -40424,6 +40460,34 @@
               ],
               "Reviewer": "reiichi001",
               "Submitter": null
+            },
+            "1.1.10.0": {
+              "TimeReleased": "2025-03-28T02:35:16.3992658+00:00",
+              "Changelog": "Patch 7.2 \u0026 API12",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "12.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.25"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.1"
+                },
+                {
+                  "Key": "System.Data.DataSetExtensions",
+                  "Version": "4.6.0-preview3.19128.7"
+                },
+                {
+                  "Key": "System.Numerics.Vectors",
+                  "Version": "4.5.0"
+                }
+              ],
+              "Reviewer": "philpax",
+              "Submitter": "Bluefissure"
             }
           }
         },
@@ -49802,9 +49866,9 @@
           }
         },
         "CurrencyAlert": {
-          "BuiltCommit": "cc5d879396d1254345101cebef8b70ddd68388eb",
-          "TimeBuilt": "2025-03-01T13:26:48.8398263+00:00",
-          "EffectiveVersion": "2.2.0.6",
+          "BuiltCommit": "4323af0c3c2fdda699b9ba07c5af20df3761d316",
+          "TimeBuilt": "2025-03-28T02:35:34.8733986+00:00",
+          "EffectiveVersion": "2.2.1.1",
           "MinimumVersion": null,
           "Changelogs": {
             "0.4.0.0": {
@@ -50140,6 +50204,46 @@
               ],
               "Reviewer": "philpax",
               "Submitter": null
+            },
+            "2.2.1.1": {
+              "TimeReleased": "2025-03-28T02:35:34.8734001+00:00",
+              "Changelog": "Update for 7.2",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiLib.git",
+                  "Version": "62fe58f0fbccbf627ba2f63b362210d0aab37082"
+                },
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit.git",
+                  "Version": "d6c2d2d0016d647907a5b18ed38c364907adbfbf"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.25"
+                },
+                {
+                  "Key": "NetStone",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "HtmlAgilityPack",
+                  "Version": "1.11.46"
+                },
+                {
+                  "Key": "Karashiiro.HtmlAgilityPack.CssSelectors.NetCoreFork",
+                  "Version": "0.0.2"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.3"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "12.0.0"
+                }
+              ],
+              "Reviewer": "philpax",
+              "Submitter": "MidoriKami"
             }
           }
         },
@@ -61161,9 +61265,9 @@
           }
         },
         "NoKillPlugin": {
-          "BuiltCommit": "a3648f18379abd9b7b58c273aa7f70e7dae1f7fd",
-          "TimeBuilt": "2024-11-18T06:37:06.4441205+00:00",
-          "EffectiveVersion": "1.2.0.3",
+          "BuiltCommit": "7a9a8a05628292439fe2e2b619184885205e3311",
+          "TimeBuilt": "2025-03-28T02:35:40.9307462+00:00",
+          "EffectiveVersion": "1.2.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.9.0": {
@@ -61198,6 +61302,18 @@
               ],
               "Reviewer": "reiichi001",
               "Submitter": null
+            },
+            "1.2.1.0": {
+              "TimeReleased": "2025-03-28T02:35:40.9307474+00:00",
+              "Changelog": "- 7.2 support \u0026 api12",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "12.0.0"
+                }
+              ],
+              "Reviewer": "philpax",
+              "Submitter": "Bluefissure"
             }
           }
         },
@@ -108357,6 +108473,20 @@
       "Version": "62fe58f0fbccbf627ba2f63b362210d0aab37082",
       "ReviewedBy": "reiichi001",
       "ReviewedAt": "2025-03-28T01:18:58.4650274Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/Bluefissure/obs-websocket-dotnet.git",
+      "Version": "256c02eb26687e48321e276d0ea436908d430685",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2025-03-28T02:35:25.928176Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.NET.ILLink.Tasks",
+      "Version": "9.0.3",
+      "ReviewedBy": "philpax",
+      "ReviewedAt": "2025-03-28T02:35:25.9282307Z"
     }
   ]
 }
