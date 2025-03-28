@@ -2,7 +2,7 @@
   "Author": "MidoriKami",
   "Name": "HUDUnlimited",
   "InternalName": "HUDUnlimited",
-  "AssemblyVersion": "1.1.0.1",
+  "AssemblyVersion": "1.1.1.1",
   "Description": "Allows you to modify any and all individual elements of the user interface to allow you to customize it however you wish.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/MidoriKami/HUDUnlimited",
@@ -13,7 +13,7 @@
     "hud",
     "hotbar"
   ],
-  "DalamudApiLevel": 11,
+  "DalamudApiLevel": 12,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
