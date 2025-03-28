@@ -2,7 +2,7 @@
   "Author": "Infi, X'pahtalo",
   "Name": "Duty Tracker",
   "InternalName": "DutyTracker",
-  "AssemblyVersion": "1.0.3.1",
+  "AssemblyVersion": "1.0.3.2",
   "Description": "Track some duty info. /dt open the menu",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Infiziert90/DutyTracker",
