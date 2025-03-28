@@ -22683,9 +22683,9 @@
           "Changelogs": {}
         },
         "PartyPlanner": {
-          "BuiltCommit": "3601e34723e9924afbd6a52f20d440fc1c2426fb",
-          "TimeBuilt": "2024-11-16T21:29:19.9153997+00:00",
-          "EffectiveVersion": "1.6.3.0",
+          "BuiltCommit": "14afbbbff383b581a1634be1b61db1d3068768e3",
+          "TimeBuilt": "2025-03-28T16:12:54.5082651+00:00",
+          "EffectiveVersion": "1.6.4.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.4.1.0": {
@@ -22801,6 +22801,54 @@
               ],
               "Reviewer": "reiichi001",
               "Submitter": null
+            },
+            "1.6.4.0": {
+              "TimeReleased": "2025-03-28T16:12:54.5082663+00:00",
+              "Changelog": "- Updated to API 12.\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "12.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.25"
+                },
+                {
+                  "Key": "GraphQL.Client",
+                  "Version": "6.1.0"
+                },
+                {
+                  "Key": "GraphQL.Client.Serializer.Newtonsoft",
+                  "Version": "6.1.0"
+                },
+                {
+                  "Key": "Humanizer.Core",
+                  "Version": "2.14.1"
+                },
+                {
+                  "Key": "GraphQL.Client.Abstractions",
+                  "Version": "6.1.0"
+                },
+                {
+                  "Key": "GraphQL.Client.Abstractions.Websocket",
+                  "Version": "6.1.0"
+                },
+                {
+                  "Key": "GraphQL.Primitives",
+                  "Version": "6.1.0"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.3"
+                },
+                {
+                  "Key": "System.Reactive",
+                  "Version": "6.0.0"
+                }
+              ],
+              "Reviewer": "perchbirdd",
+              "Submitter": "edg-l"
             }
           }
         },
@@ -31020,9 +31068,9 @@
           }
         },
         "FCNameColor": {
-          "BuiltCommit": "c8a9687a006a56470729a230014591120dee9447",
-          "TimeBuilt": "2025-03-26T06:26:38.2963837+00:00",
-          "EffectiveVersion": "5.1.0.0",
+          "BuiltCommit": "8c233c09175c9e524ffa45eef271526d0607c3ba",
+          "TimeBuilt": "2025-03-28T16:12:46.8240491+00:00",
+          "EffectiveVersion": "5.1.0.2",
           "MinimumVersion": null,
           "Changelogs": {
             "3.0.0.1": {
@@ -31186,6 +31234,42 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "WesselKuipers"
+            },
+            "5.1.0.2": {
+              "TimeReleased": "2025-03-28T16:12:46.8241115+00:00",
+              "Changelog": "- Update for 7.2\n",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/xivapi/NetStone.git",
+                  "Version": "4d21f40497f701d6fe1afb433bbcb565f2b3544a"
+                },
+                {
+                  "Key": "https://github.com/google/flatbuffers.git",
+                  "Version": "354d97f6da18cbbdeddfcdd2d5aebf1bcc57a092"
+                },
+                {
+                  "Key": "https://github.com/karashiiro/lodestone-data-exports",
+                  "Version": "4fb0d3a47f6e653aac1d156f1c8fe7730fb7c2cf"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "12.0.0"
+                },
+                {
+                  "Key": "HtmlAgilityPack",
+                  "Version": "1.11.46"
+                },
+                {
+                  "Key": "Karashiiro.HtmlAgilityPack.CssSelectors.NetCoreFork",
+                  "Version": "0.0.2"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.3"
+                }
+              ],
+              "Reviewer": "perchbirdd",
               "Submitter": "WesselKuipers"
             }
           }

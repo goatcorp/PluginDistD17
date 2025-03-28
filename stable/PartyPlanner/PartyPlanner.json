@@ -2,7 +2,7 @@
   "Author": "Zhyra",
   "Name": "PartyPlanner",
   "InternalName": "PartyPlanner",
-  "AssemblyVersion": "1.6.3.0",
+  "AssemblyVersion": "1.6.4.0",
   "Description": "Browse community events sourced from partake.gg directly from your client!",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/ZhyraPlugins/PartyPlanner",
@@ -11,7 +11,7 @@
     "partyverse",
     "partake"
   ],
-  "DalamudApiLevel": 11,
+  "DalamudApiLevel": 12,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
