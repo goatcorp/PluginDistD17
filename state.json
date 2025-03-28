@@ -50432,9 +50432,9 @@
           }
         },
         "MemoryMarker": {
-          "BuiltCommit": "b118d713381a9672fa78073c31b969c2a3f10498",
-          "TimeBuilt": "2024-12-09T22:38:57.239541+00:00",
-          "EffectiveVersion": "2.2.1.0",
+          "BuiltCommit": "3676840800f03e182a8e4c0a0ecc0690c9f4dc75",
+          "TimeBuilt": "2025-03-28T13:01:08.9347581+00:00",
+          "EffectiveVersion": "2.2.2.0",
           "MinimumVersion": null,
           "Changelogs": {
             "2.2.0.0": {
@@ -50564,6 +50564,42 @@
               ],
               "Reviewer": "philpax",
               "Submitter": null
+            },
+            "2.2.2.0": {
+              "TimeReleased": "2025-03-28T13:01:08.9348132+00:00",
+              "Changelog": "Updated for patch 7.2/API 12.",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiLib",
+                  "Version": "62fe58f0fbccbf627ba2f63b362210d0aab37082"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.25"
+                },
+                {
+                  "Key": "NetStone",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "HtmlAgilityPack",
+                  "Version": "1.11.46"
+                },
+                {
+                  "Key": "Karashiiro.HtmlAgilityPack.CssSelectors.NetCoreFork",
+                  "Version": "0.0.2"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.3"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "12.0.0"
+                }
+              ],
+              "Reviewer": "Critical-Impact",
+              "Submitter": "sersorrel"
             }
           }
         },
@@ -87186,9 +87222,9 @@
           }
         },
         "MemoryMarker": {
-          "BuiltCommit": "b118d713381a9672fa78073c31b969c2a3f10498",
-          "TimeBuilt": "2024-12-09T22:39:09.2549312+00:00",
-          "EffectiveVersion": "2.2.1.0",
+          "BuiltCommit": "3676840800f03e182a8e4c0a0ecc0690c9f4dc75",
+          "TimeBuilt": "2025-03-28T13:01:18.1308922+00:00",
+          "EffectiveVersion": "2.2.2.0",
           "MinimumVersion": null,
           "Changelogs": {
             "2.2.1.0": {
@@ -87254,6 +87290,42 @@
               ],
               "Reviewer": "philpax",
               "Submitter": null
+            },
+            "2.2.2.0": {
+              "TimeReleased": "2025-03-28T13:01:18.1308943+00:00",
+              "Changelog": "Updated for patch 7.2/API 12.",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiLib",
+                  "Version": "62fe58f0fbccbf627ba2f63b362210d0aab37082"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.25"
+                },
+                {
+                  "Key": "NetStone",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "HtmlAgilityPack",
+                  "Version": "1.11.46"
+                },
+                {
+                  "Key": "Karashiiro.HtmlAgilityPack.CssSelectors.NetCoreFork",
+                  "Version": "0.0.2"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.3"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "12.0.0"
+                }
+              ],
+              "Reviewer": "Critical-Impact",
+              "Submitter": "sersorrel"
             }
           }
         },
