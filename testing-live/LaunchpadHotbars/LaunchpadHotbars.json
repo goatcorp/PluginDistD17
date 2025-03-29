@@ -2,7 +2,7 @@
   "Author": "athene",
   "Name": "Launchpad Hotbars",
   "InternalName": "LaunchpadHotbars",
-  "AssemblyVersion": "1.0.0.1",
+  "AssemblyVersion": "1.0.0.2",
   "Description": "A plugin that allows you to map hotbar actions to a novation launchpad. /lphb to open config.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/gnargle/LPHotbars",
@@ -13,7 +13,7 @@
     "actions",
     "midi"
   ],
-  "DalamudApiLevel": 11,
+  "DalamudApiLevel": 12,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
