@@ -2,7 +2,7 @@
   "Author": "Asriel",
   "Name": "Item Icons",
   "InternalName": "ItemIcons",
-  "AssemblyVersion": "0.5.0.0",
+  "AssemblyVersion": "0.9.0.1",
   "Description": "Display custom icons for items for easier inventory mangement.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/WorkingRobot/ItemIcons",
@@ -16,7 +16,7 @@
   "CategoryTags": [
     "UI"
   ],
-  "DalamudApiLevel": 10,
+  "DalamudApiLevel": 12,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
