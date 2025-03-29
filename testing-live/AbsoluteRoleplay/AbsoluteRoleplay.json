@@ -2,7 +2,7 @@
   "Author": "Lynie",
   "Name": "Absolute Roleplay",
   "InternalName": "AbsoluteRoleplay",
-  "AssemblyVersion": "0.0.0.21",
+  "AssemblyVersion": "0.0.0.22",
   "Description": "Allows users to create, manage, view and bookmark roleplay profiles with FF.",
   "ApplicableVersion": "any",
   "Tags": [
@@ -10,7 +10,7 @@
     "Roleplay",
     "RP"
   ],
-  "DalamudApiLevel": 11,
+  "DalamudApiLevel": 12,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,

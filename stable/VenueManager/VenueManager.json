@@ -2,7 +2,7 @@
   "Author": "Jrogo",
   "Name": "Venue Manager",
   "InternalName": "VenueManager",
-  "AssemblyVersion": "2.5.2",
+  "AssemblyVersion": "2.6.0",
   "Description": "Save and share venues you visit or own. Get updates and logs for visitors coming and going. Guest list management tools for venue owners to view and easily export it for use with other applications. Icon by Silv :)",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Jrogo7/VenueManager",
@@ -11,7 +11,7 @@
     "club",
     "guests"
   ],
-  "DalamudApiLevel": 11,
+  "DalamudApiLevel": 12,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
