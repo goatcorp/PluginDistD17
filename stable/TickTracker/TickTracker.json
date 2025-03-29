@@ -2,7 +2,7 @@
   "Author": "Kurochi",
   "Name": "Tick Tracker",
   "InternalName": "TickTracker",
-  "AssemblyVersion": "1.6.2.0",
+  "AssemblyVersion": "1.6.3.0",
   "Description": "Customizable bars that indicate the tick progress of HP/MP/GP regen",
   "ApplicableVersion": "any",
   "Tags": [
@@ -14,7 +14,7 @@
     "gp",
     "regen"
   ],
-  "DalamudApiLevel": 11,
+  "DalamudApiLevel": 12,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
