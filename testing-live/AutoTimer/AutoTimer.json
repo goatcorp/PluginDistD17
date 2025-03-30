@@ -2,7 +2,7 @@
   "Author": "Aly",
   "Name": "AutoTimer",
   "InternalName": "AutoTimer",
-  "AssemblyVersion": "1.1.0.3",
+  "AssemblyVersion": "1.1.0.4",
   "Description": "Auto-Attack Timer Bar based on the Triggernometry trigger by aya liz.",
   "ApplicableVersion": "any",
   "Tags": [
@@ -10,7 +10,7 @@
     "attack",
     "timer"
   ],
-  "DalamudApiLevel": 11,
+  "DalamudApiLevel": 12,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
