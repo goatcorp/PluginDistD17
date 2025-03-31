@@ -2,7 +2,7 @@
   "Author": "Fuwa Aika",
   "Name": "Razer Reader",
   "InternalName": "RazerReader",
-  "AssemblyVersion": "0.1.0.1",
+  "AssemblyVersion": "1.0.0.0",
   "Description": "Select your installed version of Razer Synapse to automatically pull device battery levels from local log files",
   "ApplicableVersion": "any",
   "Tags": [
@@ -13,7 +13,7 @@
     "keyboard",
     "wireless"
   ],
-  "DalamudApiLevel": 11,
+  "DalamudApiLevel": 12,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
