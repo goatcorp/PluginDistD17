@@ -2,7 +2,7 @@
   "Author": "kelvin124124",
   "Name": "ChatTranslated",
   "InternalName": "ChatTranslated",
-  "AssemblyVersion": "3.3.2.1",
+  "AssemblyVersion": "3.3.3.0",
   "Description": "Ingame chat translator.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/kelvin124124/ChatTranslated",
@@ -11,7 +11,7 @@
     "translate",
     "translation"
   ],
-  "DalamudApiLevel": 11,
+  "DalamudApiLevel": 12,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
