@@ -2,7 +2,7 @@
   "Author": "Koenari",
   "Name": "Himbeertoni Raid Tool",
   "InternalName": "HimbeertoniRaidTool",
-  "AssemblyVersion": "1.9.0.1",
+  "AssemblyVersion": "1.9.0.3",
   "Description": "A collection of useful tools for raid groups, including loot management",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Koenari/HimbeertoniRaidTool/",
@@ -18,7 +18,7 @@
   "CanUnloadAsync": false,
   "LoadPriority": 0,
   "Punchline": "All you need for Raiding",
-  "Changelog": "    General: Updated for 7.2\n    General: Home world transfer /name changes of known characters are now automatically applied with gear updates\n    System: Some changes to item handling which should reduce size of database files\n",
+  "Changelog": "    Bugfix: Babyface coffers resolve to the correct items now\n",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "stable"
