@@ -2,7 +2,7 @@
   "Author": "PunishedPineapple",
   "Name": "Say What?",
   "InternalName": "WhatDidYouSay",
-  "AssemblyVersion": "1.0.2.5",
+  "AssemblyVersion": "1.0.2.6",
   "Description": "Prints NPC speech bubbles to the chat log.  Please check the plugin settings and your chat log filters to make sure that they are compatible with each other.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/PunishedPineapple/WhatDidYouSay",
@@ -10,7 +10,7 @@
     "Chat",
     "NPC"
   ],
-  "DalamudApiLevel": 11,
+  "DalamudApiLevel": 12,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,

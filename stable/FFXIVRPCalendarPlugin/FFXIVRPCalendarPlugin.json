@@ -2,7 +2,7 @@
   "Author": "erroch",
   "Name": "FFXIV RP Event Calendar",
   "InternalName": "FFXIVRPCalendarPlugin",
-  "AssemblyVersion": "1.0.1.5",
+  "AssemblyVersion": "1.0.1.6",
   "Description": "An in game portal to the FFXIV RP Event Calendar (https://ffxiv-rp.org).  Use /events to bring up the list of roleplay events happening this week.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/erroch/FFXIVRPEventCalendarPlugin",
@@ -13,7 +13,7 @@
     "events",
     "rp events"
   ],
-  "DalamudApiLevel": 11,
+  "DalamudApiLevel": 12,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
