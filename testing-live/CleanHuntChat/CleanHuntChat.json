@@ -1,8 +1,8 @@
 {
-  "Author": "Guerzoniansus",
+  "Author": "Guerzoniansus, Karou",
   "Name": "Clean Hunt Chat",
   "InternalName": "CleanHuntChat",
-  "AssemblyVersion": "1.0.0.0",
+  "AssemblyVersion": "1.1.0.0",
   "Description": "Hides shouts and yells, unless they contain flag coordinates or 'switching instance' messages.\nUse /cleanhunt to turn on for a configurable amount of time (default 1 hour).\nUse /cleanhunt off to disable early.",
   "ApplicableVersion": "any",
   "Tags": [
@@ -11,7 +11,7 @@
     "plugin",
     "chat"
   ],
-  "DalamudApiLevel": 10,
+  "DalamudApiLevel": 12,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
