@@ -2,7 +2,7 @@
   "Author": "PunishedPineapple",
   "Name": "Item Use",
   "InternalName": "ItemUse",
-  "AssemblyVersion": "1.0.0.0",
+  "AssemblyVersion": "1.0.0.2",
   "Description": "Displays indicators in the item help popup for when an item is used by leves, GC dailies, etc. to help you decide what is worth keeping, selling, or taking as a reward.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/PunishedPineapple/ItemUse",
@@ -17,7 +17,7 @@
     "Crafting",
     "Coffer"
   ],
-  "DalamudApiLevel": 10,
+  "DalamudApiLevel": 12,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
