@@ -2,7 +2,7 @@
   "Author": "Mistralsa",
   "Name": "Hotbar Backup",
   "InternalName": "HotbarBackup",
-  "AssemblyVersion": "1.0.0.1",
+  "AssemblyVersion": "1.0.0.2",
   "Description": "Exports your current class hotbar into a JSON for backups. Allows imports from the same export on classes you don't have.",
   "ApplicableVersion": "any",
   "Tags": [
@@ -11,7 +11,7 @@
     "backup",
     "utility"
   ],
-  "DalamudApiLevel": 11,
+  "DalamudApiLevel": 12,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,

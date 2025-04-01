@@ -2,7 +2,7 @@
   "Author": "pinapelz",
   "Name": "Malmstone Calculator",
   "InternalName": "Malmstone",
-  "AssemblyVersion": "1.0.7.3",
+  "AssemblyVersion": "1.0.7.4",
   "Description": "Calculates the number of wins/losses needed in different modes of PVP before achieving your target Series Level\n- Receive post-match notifications about progress towards next Series Level\n- Track and display Series Level above 30\n- Calculate Frontline losing streak bonus rewards\n\nUse /pmalm to get started",
   "ApplicableVersion": "any",
   "Tags": [
@@ -11,7 +11,7 @@
     "series",
     "calculator"
   ],
-  "DalamudApiLevel": 11,
+  "DalamudApiLevel": 12,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,

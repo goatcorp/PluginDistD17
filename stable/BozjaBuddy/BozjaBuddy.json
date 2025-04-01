@@ -2,7 +2,7 @@
   "Author": "K-Cli",
   "Name": "Bozja Buddy",
   "InternalName": "BozjaBuddy",
-  "AssemblyVersion": "1.1.6.4",
+  "AssemblyVersion": "1.1.6.6",
   "Description": "Features:\n• Resistance relic guide and tracking.\n• Info about Lost Actions, Fragments, FATEs/CE, Field Notes e.g. location, drops, marketboard price, fate chains, mettle rewards, exp rewards, etc.\n• Node graph viewer.\n• Weather forecast.\n• Alarms based on time, weather, and FATE/CE.\n• Custom loadouts planning, saving, and sharing. Featuring recommended loadouts from many communities.\n• Overlay for Lost Find Cache. Filterable by name, role, fragment, weight, and Custom Loadout of choice.\n• View Bozja stats and Cache from anywhere. Customisable alert for actions that are running low.\n• Delubrum Reginae (Savage) resources and communities.",
   "ApplicableVersion": "any",
   "Tags": [
@@ -17,7 +17,7 @@
     "node",
     "graph"
   ],
-  "DalamudApiLevel": 11,
+  "DalamudApiLevel": 12,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,

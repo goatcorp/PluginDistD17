@@ -2,14 +2,14 @@
   "Author": "Populo",
   "Name": "Retainer Sales",
   "InternalName": "RetainerSales",
-  "AssemblyVersion": "1.0.0.2",
-  "Description": "Indication that a retainer has sold something while you were logged off.",
+  "AssemblyVersion": "1.1.0.0",
+  "Description": "Quickly see which retainers have sold something while you were logged off.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Populo/RetainerSales",
   "Tags": [
     "Other"
   ],
-  "DalamudApiLevel": 11,
+  "DalamudApiLevel": 12,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
