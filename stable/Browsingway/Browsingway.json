@@ -2,7 +2,7 @@
   "Author": "Styr1x",
   "Name": "Browsingway",
   "InternalName": "Browsingway",
-  "AssemblyVersion": "1.6.4",
+  "AssemblyVersion": "1.6.5",
   "Description": "Renders browser overlays in-game to enable playing in fullscreen (and G-SYNC) while having access to ACT overlays.\nUse the settings button below or the '/bw config' command to configure.\nBased on the BrowserHost plugin by ackwell.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Styr1x/Browsingway",
@@ -23,7 +23,7 @@
   "CanUnloadAsync": false,
   "LoadPriority": 0,
   "Punchline": "Browser overlays rendered in-game.",
-  "Changelog": "- Bump Chromium to 134.0.6998.118\n- Api 12 support\n",
+  "Changelog": "- Bump Chromium to 134.0.6998.178\n- (this fixes CVE-2025-2783)\n",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "stable"
