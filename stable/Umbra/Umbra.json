@@ -2,7 +2,7 @@
   "Author": "Una",
   "Name": "Umbra XIV",
   "InternalName": "Umbra",
-  "AssemblyVersion": "2.3.13.0",
+  "AssemblyVersion": "2.3.14.0",
   "Description": "Adds quality of life improvements to the game and consolidates common UI elements and actions into a single uniform interface in the form of a toolbar.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/una-xiv/umbra",
