@@ -2,7 +2,7 @@
   "Author": "AlexCSDev",
   "Name": "XIVWindowResizer",
   "InternalName": "XIVWindowResizer",
-  "AssemblyVersion": "1.0.0.4",
+  "AssemblyVersion": "1.0.0.5",
   "Description": "Set your game window to arbitrary size not limited by your display resolution. Mostly useful for taking high-resolution screenshots without going fullscreen and using DSR/FSR.\r\nRequires borderless or windowed mode.",
   "ApplicableVersion": "any",
   "Tags": [
@@ -10,7 +10,7 @@
     "posing",
     "utility"
   ],
-  "DalamudApiLevel": 11,
+  "DalamudApiLevel": 12,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
