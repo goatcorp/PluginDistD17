@@ -1,21 +1,21 @@
 {
-  "Author": "53m1k0l0n, rennerdo30",
+  "Author": "Cyenia, 53m1k0l0n, rennerdo30",
   "Name": "SimpleCompare",
   "InternalName": "SimpleCompare",
-  "AssemblyVersion": "2.0.0.3",
+  "AssemblyVersion": "2.0.1.0",
   "Description": "Show simple item comparison when pressing SHIFT and hovering over item",
   "ApplicableVersion": "any",
-  "RepoUrl": "https://github.com/53m1k0l0n/ffxiv-simplecompare",
+  "RepoUrl": "https://github.com/Cyenia/ffxiv-simplecompare",
   "Tags": [
     "compare",
-    "plugin"
+    "gear"
   ],
-  "DalamudApiLevel": 10,
+  "DalamudApiLevel": 12,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
   "LoadPriority": 0,
-  "IconUrl": "https://raw.githubusercontent.com/53m1k0l0n/ffxiv-simplecompare/main/SimpleCompare/Images/icon.png",
+  "IconUrl": "https://raw.githubusercontent.com/Cyenia/ffxiv-simplecompare/main/SimpleCompare/Images/icon.png",
   "Punchline": "Simple item comparison",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
