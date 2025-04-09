@@ -2,7 +2,7 @@
   "Author": "Det",
   "Name": "Target Furniture",
   "InternalName": "TargetFurniture",
-  "AssemblyVersion": "1.0.2.1",
+  "AssemblyVersion": "1.0.2.2",
   "Description": "Currently, the only possible way to select a housing item is to click the furniture itself, and this can be a problem if you have multiple items close to each other.\n\nThis plugin adds a new option in the Housing Menu that targets the furniture for you",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/InitialDet/TargetFurniture",
@@ -13,7 +13,7 @@
   "CategoryTags": [
     "utility"
   ],
-  "DalamudApiLevel": 11,
+  "DalamudApiLevel": 12,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
