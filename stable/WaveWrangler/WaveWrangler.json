@@ -1,0 +1,22 @@
+{
+  "Author": "Fuwa Aika",
+  "Name": "Wave Wrangler",
+  "InternalName": "WaveWrangler",
+  "AssemblyVersion": "1.0.0.0",
+  "Description": "Literally all this plugin does is send \"o/\" in chat if you accidentally type \"/o\"",
+  "ApplicableVersion": "any",
+  "Tags": [
+    "wave",
+    "chat",
+    "correct"
+  ],
+  "DalamudApiLevel": 12,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "Punchline": "Never mess up your wave emoticon again!",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "stable"
+}
