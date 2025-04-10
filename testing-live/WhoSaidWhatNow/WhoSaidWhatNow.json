@@ -1,0 +1,24 @@
+{
+  "Author": "perappu",
+  "Name": "Who Said What Now",
+  "InternalName": "WhoSaidWhatNow",
+  "AssemblyVersion": "0.5.5.0",
+  "Description": "Chat history plugin, view history per character, per group, or search.\n Main command /whowhat",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/perappu/WhoSaidWhatNow",
+  "Tags": [
+    "utility",
+    "chat"
+  ],
+  "DalamudApiLevel": 12,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "IconUrl": "https://raw.githubusercontent.com/perappu/WhoSaidWhatNow/master/WhoSaidWhatNow/images/icon.png",
+  "Punchline": "Chat history plugin, view history per character, per group, or search.",
+  "Changelog": "* v0.5.4\n * update for Patch 7.11",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "testing-live"
+}
