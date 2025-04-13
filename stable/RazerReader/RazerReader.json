@@ -2,7 +2,7 @@
   "Author": "Fuwa Aika",
   "Name": "Razer Reader",
   "InternalName": "RazerReader",
-  "AssemblyVersion": "1.1.0.0",
+  "AssemblyVersion": "1.1.1.0",
   "Description": "Select your installed version of Razer Synapse to automatically pull device battery levels from local log files",
   "ApplicableVersion": "any",
   "Tags": [
