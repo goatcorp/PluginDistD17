@@ -2,7 +2,7 @@
   "Author": "Infi, shdwp, Aelexe",
   "Name": "Fader Plugin",
   "InternalName": "FaderPlugin",
-  "AssemblyVersion": "2.7.2.0",
+  "AssemblyVersion": "2.7.2.1",
   "Description": "Lets you automatically hide certain game UI elements based on number of conditions.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Infiziert90/xivFaderPlugin",
