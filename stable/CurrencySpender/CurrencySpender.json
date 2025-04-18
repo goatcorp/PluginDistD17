@@ -2,7 +2,7 @@
   "Author": "Blackcatz1911",
   "Name": "Currency Spender",
   "InternalName": "CurrencySpender",
-  "AssemblyVersion": "1.1.2.0",
+  "AssemblyVersion": "1.2.1.0",
   "Description": "Never wonder 'What should I do with this?' again. Access real-time prices from Universalis, identify missing collectibles tied to your currencies, and unlock new possibilities for utilizing your in-game resources effectively.",
   "ApplicableVersion": "any",
   "Tags": [
@@ -10,7 +10,7 @@
     "poetics",
     "tomestone"
   ],
-  "DalamudApiLevel": 11,
+  "DalamudApiLevel": 12,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
