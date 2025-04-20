@@ -1,0 +1,21 @@
+{
+  "Author": "Karou",
+  "Name": "Render Adjust",
+  "InternalName": "RenderAdjust",
+  "AssemblyVersion": "0.0.0.1",
+  "Description": "Allows you to dynamically adjust the in-game setting for rendered objects by FPS (and GPU Usage if you're on windows) and allows you to set a custom number of rendered objects manually. Uses GPU usage and FPS on Windows, and FPS only on Wine.",
+  "ApplicableVersion": "any",
+  "Tags": [
+    "plugin",
+    "Utility"
+  ],
+  "DalamudApiLevel": 12,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "Punchline": "Dynamically adjust your object rendering settings.",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "testing-live"
+}
