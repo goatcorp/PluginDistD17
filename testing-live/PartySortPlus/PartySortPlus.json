@@ -1,0 +1,23 @@
+{
+  "Author": "Rietty",
+  "Name": "Party Sort+",
+  "InternalName": "PartySortPlus",
+  "AssemblyVersion": "1.0.0.0",
+  "Description": "Sort your party list according to a series of rules built on top of the game's default system. Allowing you to specify based off Duty Instances and Jobs!",
+  "ApplicableVersion": "any",
+  "Tags": [
+    "Party List",
+    "Sorting",
+    "Client Sided",
+    "Rule-based"
+  ],
+  "DalamudApiLevel": 12,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "Punchline": "Never worry about sorting your party again!",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "testing-live"
+}
