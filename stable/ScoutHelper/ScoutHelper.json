@@ -2,7 +2,7 @@
   "Author": "ditzy",
   "Name": "Scout Helper",
   "InternalName": "ScoutHelper",
-  "AssemblyVersion": "1.8.0.0",
+  "AssemblyVersion": "1.8.5.0",
   "Description": "A helper for generating scout tracker links for a-rank hunt trains",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/dit-zy/scout-helper",
@@ -15,7 +15,7 @@
     "scouting",
     "train"
   ],
-  "DalamudApiLevel": 11,
+  "DalamudApiLevel": 12,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
