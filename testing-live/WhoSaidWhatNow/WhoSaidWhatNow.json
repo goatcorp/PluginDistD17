@@ -2,7 +2,7 @@
   "Author": "perappu",
   "Name": "Who Said What Now",
   "InternalName": "WhoSaidWhatNow",
-  "AssemblyVersion": "0.6.0.0",
+  "AssemblyVersion": "0.6.2.0",
   "Description": "Chat history plugin, view history per character, per group, or search.\n Main command /whowhat",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/perappu/WhoSaidWhatNow",

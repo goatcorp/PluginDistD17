@@ -2,7 +2,7 @@
   "Author": "Populo",
   "Name": "Retainer Sales",
   "InternalName": "RetainerSales",
-  "AssemblyVersion": "1.0.0.3",
+  "AssemblyVersion": "1.1.0.0",
   "Description": "Quickly see which retainers have sold something while you were logged off.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Populo/RetainerSales",
