@@ -2,7 +2,7 @@
   "Author": "Kaminaris",
   "Name": "NextUIPlugin",
   "InternalName": "NextUIPlugin",
-  "AssemblyVersion": "11.1.3.0",
+  "AssemblyVersion": "11.1.5.0",
   "Description": "OverlayPlugin replacement for Dalamud, works similarly to BrowserHost with addition to having more options and built in websocket server.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://gitlab.com/kaminariss/nextui-plugin",
