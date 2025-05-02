@@ -1,0 +1,28 @@
+{
+  "Author": "Violet Stardust",
+  "Name": "XivGearExport",
+  "InternalName": "XivGearExport",
+  "AssemblyVersion": "1.0.1.0",
+  "Description": "A simple utility for exporting your gearset to xivgear.app. Use /xivgearexport to export your current gear set.",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/VioletStardustXIV/XivGearExport",
+  "Tags": [
+    "gear",
+    "xivgear.app",
+    "xivgear",
+    "best in slot",
+    "prog",
+    "materia",
+    "bis"
+  ],
+  "DalamudApiLevel": 12,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "IconUrl": "https://raw.githubusercontent.com/VioletStardustXIV/XivGearExport/refs/heads/main/images/icon.png",
+  "Punchline": "A simple utility for exporting your gearset to xivgear.app.",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "testing-live"
+}
