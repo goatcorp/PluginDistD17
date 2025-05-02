@@ -2,7 +2,7 @@
   "Author": "Violet Stardust",
   "Name": "XivGearExport",
   "InternalName": "XivGearExport",
-  "AssemblyVersion": "1.0.1.0",
+  "AssemblyVersion": "1.1.0.0",
   "Description": "A simple utility for exporting your gearset to xivgear.app. Use /xivgearexport to export your current gear set.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/VioletStardustXIV/XivGearExport",
