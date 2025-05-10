@@ -2,7 +2,7 @@
   "Author": "Blooym",
   "Name": "Settings Enhanced",
   "InternalName": "SettingsEnhanced",
-  "AssemblyVersion": "0.1.2.0",
+  "AssemblyVersion": "0.1.3.0",
   "Description": "Settings Enhanced allows you to create zone-specific system and character configurations; For example, you could lower the amount of rendered players in Limsa, or mute other players sound effects while in stellar crafting zones. Your original configuration data is stored and automatically re-applies when entering an area with you have not created zone setting for, or when disabling the plugin/closing the game.\n\nIt is recommended that you create regular backups whilst using this plugin incase something does does break - upon install a check will be ran to see if at least one system/character configuration backup has been created; You will not be able to use the plugin if until you have created one.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Blooym/Dalamud.SettingsEnhanced",
