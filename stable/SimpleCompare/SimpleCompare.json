@@ -2,7 +2,7 @@
   "Author": "Cyenia, 53m1k0l0n, rennerdo30",
   "Name": "SimpleCompare",
   "InternalName": "SimpleCompare",
-  "AssemblyVersion": "2.1.0.0",
+  "AssemblyVersion": "2.1.0.1",
   "Description": "Show simple item comparison when pressing SHIFT and hovering over item",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Cyenia/ffxiv-simplecompare",
