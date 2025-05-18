@@ -2,7 +2,7 @@
   "Author": "Una",
   "Name": "Umbra XIV",
   "InternalName": "Umbra",
-  "AssemblyVersion": "3.0.4.0",
+  "AssemblyVersion": "3.0.5.0",
   "Description": "Consolidates common UI elements and actions into a single uniform interface in the form of a set of highly customizable toolbars.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/una-xiv/umbra",
