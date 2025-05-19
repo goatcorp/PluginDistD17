@@ -1,0 +1,22 @@
+{
+  "Author": "Ibcrootbeer",
+  "Name": "Retainer Alerts",
+  "InternalName": "RetainerAlerts",
+  "AssemblyVersion": "1.0.0.0",
+  "Description": "A simple plugin to remind you when your retainers are done with their ventures.",
+  "ApplicableVersion": "any",
+  "Tags": [
+    "plugin",
+    "retainers",
+    "alert"
+  ],
+  "DalamudApiLevel": 12,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "Punchline": "Reminds you about retainer ventures.",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "testing-live"
+}
