@@ -1,0 +1,20 @@
+{
+  "Author": "Olaren",
+  "Name": "Status Contrast",
+  "InternalName": "StatusContrast",
+  "AssemblyVersion": "1.0.0.0",
+  "Description": "You will finally be able to easily see the timer of your buffs/debuffs properly when the arena background is bright!",
+  "ApplicableVersion": "any",
+  "Tags": [
+    "ui"
+  ],
+  "DalamudApiLevel": 12,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "Punchline": "Add contrast to your status icons",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "stable"
+}
