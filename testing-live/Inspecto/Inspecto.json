@@ -2,7 +2,7 @@
   "Author": "Infi",
   "Name": "Inspecto",
   "InternalName": "Inspecto",
-  "AssemblyVersion": "0.0.0.3",
+  "AssemblyVersion": "0.0.0.4",
   "Description": "A simple plugin that keeps a history of people you inspected.",
   "ApplicableVersion": "any",
   "Tags": [
