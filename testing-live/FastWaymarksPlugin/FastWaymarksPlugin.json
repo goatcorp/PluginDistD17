@@ -1,0 +1,21 @@
+{
+  "Author": "SamuelSapp",
+  "Name": "Fast Waymarks",
+  "InternalName": "FastWaymarksPlugin",
+  "AssemblyVersion": "1.3.0.0",
+  "Description": "Fast waymarks with settings for common configurations. Rotate and resize with a handy preview window.",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/SamuelSapp/FastWaymarksPlugin",
+  "Tags": [
+    "waymarks"
+  ],
+  "DalamudApiLevel": 12,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "Punchline": "For when you want to spend time fighting the boss, not fiddling with waymarks.",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "testing-live"
+}
