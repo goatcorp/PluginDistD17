@@ -2,7 +2,7 @@
   "Author": "Aireil",
   "Name": "FlyTextFilter",
   "InternalName": "FlyTextFilter",
-  "AssemblyVersion": "4.3.0.3",
+  "AssemblyVersion": "4.3.0.4",
   "Description": "Filter fly texts and pop-ups texts based on multiple criteria and allow the adjustment of their positions.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Aireil/FlyTextFilter",
