@@ -2,7 +2,7 @@
   "Author": "MidoriKami",
   "Name": "DailyDuty",
   "InternalName": "DailyDuty",
-  "AssemblyVersion": "5.2.2.5",
+  "AssemblyVersion": "5.3.0.6",
   "Description": "Automatically track and complete many daily and weekly tasks.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/MidoriKami/DailyDuty",
