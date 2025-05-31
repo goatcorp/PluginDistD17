@@ -1,0 +1,23 @@
+{
+  "Author": "Glyceri",
+  "Name": "Fatal Frame",
+  "InternalName": "XivFatalFrame",
+  "AssemblyVersion": "1.0.0.0",
+  "Description": "Takes a screenshot upon death (and other events).",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/Glyceri/XivFatalFrame",
+  "Tags": [
+    "Screenshot",
+    "Death"
+  ],
+  "DalamudApiLevel": 12,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "IconUrl": "https://github.com/Glyceri/XivFatalFrame/raw/main/icon.png",
+  "Punchline": "Takes a screenshot upon death (and other events).",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "stable"
+}
