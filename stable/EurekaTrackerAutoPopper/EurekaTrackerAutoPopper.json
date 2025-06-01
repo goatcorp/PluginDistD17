@@ -2,8 +2,8 @@
   "Author": "Infi, electr0sheep",
   "Name": "Eureka Linker",
   "InternalName": "EurekaTrackerAutoPopper",
-  "AssemblyVersion": "1.5.4.3",
-  "Description": "Automatically notifies you about NMs in Eureka, with the ability to pop them on a tracker.\nOther Features:\n- Fairy Finder\n- Bunny Timer Window\n- Bunny Coffer Helper\n- Stats\n- Quest Guide (clickable coords)\n- Localized (DE, FR, JA)",
+  "AssemblyVersion": "1.5.4.4",
+  "Description": "Automatically notifies you about NMs in Eureka, with the ability to pop them on a tracker.\nOther Features:\n- Fairy Finder\n- Bunny Timer Window\n- Bunny Coffer Helper\n- Stats\n- Quest Guide (clickable coords)\n- Localized (DE, FR, JA)\n\nOccult:\n- Random Treasure Proximity Notification\n- Bunny Carrot Proximity Notification\n- Pot Coffer Helper\n- Pot Timer Window\n- Map Markers For Treasure, Bunny, Pot",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Infiziert90/EurekaTrackerAutoPopper",
   "Tags": [
@@ -13,14 +13,18 @@
     "Quest",
     "Elemental",
     "Fairy",
-    "Bunny"
+    "Bunny",
+    "Occult",
+    "Treasure",
+    "Pots",
+    "Carrot"
   ],
   "DalamudApiLevel": 12,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
   "LoadPriority": 0,
-  "Punchline": "Help, Link and Pop",
+  "Punchline": "We All Love Eureka And Occult",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "stable"
