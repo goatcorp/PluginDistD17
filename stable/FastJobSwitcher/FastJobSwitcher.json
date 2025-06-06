@@ -2,7 +2,7 @@
   "Author": "Meoiswa",
   "Name": "Fast Job Switcher",
   "InternalName": "FastJobSwitcher",
-  "AssemblyVersion": "3.0.0.0",
+  "AssemblyVersion": "3.0.1.0",
   "Description": "Enables the player to switch jobs using their three letter acronyms as commands. (*: five or more)",
   "ApplicableVersion": "any",
   "Tags": [
