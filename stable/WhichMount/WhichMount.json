@@ -2,8 +2,8 @@
   "Author": "Megurt",
   "Name": "Which Mount",
   "InternalName": "WhichMount",
-  "AssemblyVersion": "1.2.0.0",
-  "Description": "Plugin adds a 'Mount Search' button to the target's context menu, showing information in chat about the mount and how to obtain it. Settings allow you to include the current availability of the mount in the game and other details.",
+  "AssemblyVersion": "1.2.0.2",
+  "Description": "Adds a 'Mount Search' option to the target's context menu, displaying mount information and acquisition details in the chat. Also includes a searchable mount database with detailed navigation.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/megurte/WhichMount",
   "Tags": [
@@ -18,7 +18,11 @@
   "LoadSync": false,
   "CanUnloadAsync": false,
   "LoadPriority": 0,
-  "Punchline": "Show mount information of other players",
+  "ImageUrls": [
+    "https://raw.githubusercontent.com/megurte/WhichMount/master/Icon/example1.png",
+    "https://raw.githubusercontent.com/megurte/WhichMount/master/Icon/example2.png"
+  ],
+  "Punchline": "Check what mount someone is using and browse the full mount collection.",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "stable"
