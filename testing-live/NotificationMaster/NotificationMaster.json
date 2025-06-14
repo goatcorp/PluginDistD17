@@ -1,0 +1,21 @@
+{
+  "Author": "NightmareXIV",
+  "Name": "NotificationMaster",
+  "InternalName": "NotificationMaster",
+  "AssemblyVersion": "2.1.1.10",
+  "Description": "Notifies you about various events while your game is minimized.",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/NightmareXIV/NotificationMaster",
+  "Tags": [
+    "notification"
+  ],
+  "DalamudApiLevel": 12,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "Punchline": "Currently supports notifications: chat messages, approaching map flag, duty found, ending of cutscenes, gp restoration, error during logging in, mob has been pulled.",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "testing-live"
+}
