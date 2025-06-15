@@ -2,7 +2,7 @@
   "Author": "Infi, attick",
   "Name": "Mouseover Action",
   "InternalName": "MOAction",
-  "AssemblyVersion": "4.5.0.0",
+  "AssemblyVersion": "4.6.0.0",
   "Description": "This plugin lets you target friends or enemies like a macro, without the clunkiness of a macro. /mo opens the configuration.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Infiziert90/MOActionPlugin",
