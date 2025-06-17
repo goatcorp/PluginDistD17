@@ -1,0 +1,25 @@
+{
+  "Author": "Azure Gem",
+  "Name": "I Hate Caps Lock",
+  "InternalName": "IHateCapsLock",
+  "AssemblyVersion": "0.0.0.2",
+  "Description": "SORRY CAPS\nRemove caps lock when pressing the Enter / Return key.\nThis plugin contains no configuration.",
+  "ApplicableVersion": "any",
+  "Tags": [
+    "caps",
+    "lock",
+    "key"
+  ],
+  "CategoryTags": [
+    "utility"
+  ],
+  "DalamudApiLevel": 12,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "Punchline": "Don't you hate CAPS LOCK so much?",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "testing-live"
+}
