@@ -2,7 +2,7 @@
   "Author": "NightmareXIV, Asuna, Klia",
   "Name": "CashFlow",
   "InternalName": "CashFlow",
-  "AssemblyVersion": "1.0.2.5",
+  "AssemblyVersion": "1.0.2.6",
   "Description": "CashFlow is a plugin that will log your trades, sales and purchases.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/NightmareXIV/CashFlow",
