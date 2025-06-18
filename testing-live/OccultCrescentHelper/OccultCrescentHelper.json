@@ -1,0 +1,31 @@
+{
+  "Author": "Mokocup",
+  "Name": "Occult Crescent Helper",
+  "InternalName": "OccultCrescentHelper",
+  "AssemblyVersion": "0.0.4.7",
+  "Description": "Automatically notifies about FATE, CE or Aurora Mirage in Occult Crescent related content.",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/mokocup/OccultCrescentHelper",
+  "Tags": [
+    "Plugin",
+    "Occult Crescent",
+    "oc",
+    "occult",
+    "crescent",
+    "fork tower",
+    "fork",
+    "tower",
+    "fate",
+    "ce",
+    "ft"
+  ],
+  "DalamudApiLevel": 12,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "Punchline": "Wake up baby, It's touch grass time",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "testing-live"
+}
