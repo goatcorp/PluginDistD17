@@ -2,7 +2,7 @@
   "Author": "Critical_Impact",
   "Name": "Allagan Market",
   "InternalName": "AllaganMarket",
-  "AssemblyVersion": "1.1.0.12",
+  "AssemblyVersion": "1.1.0.13",
   "Description": "Allagan Market's primary purpose is to provide a list of all retainer listings/sales across all characters.\n\nIt'll do it's best to track your sales but it works best when it's always on!",
   "ApplicableVersion": "any",
   "Tags": [
