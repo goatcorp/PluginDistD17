@@ -2,7 +2,7 @@
   "Author": "karashiiro",
   "Name": "TextToTalk",
   "InternalName": "TextToTalk",
-  "AssemblyVersion": "1.30.6.0",
+  "AssemblyVersion": "1.32.0.0",
   "Description": "Chat and game dialogue TTS. Use /tttconfig to configure the enabled channels and triggers/exceptions.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/karashiiro/TextToTalk",
@@ -15,7 +15,7 @@
     "speech",
     "karashiiro"
   ],
-  "DalamudApiLevel": 11,
+  "DalamudApiLevel": 12,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,

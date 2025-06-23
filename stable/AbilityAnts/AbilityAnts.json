@@ -2,7 +2,7 @@
   "Author": "attickdoor",
   "Name": "Ability Ants",
   "InternalName": "AbilityAnts",
-  "AssemblyVersion": "1.0.0.5",
+  "AssemblyVersion": "1.0.0.6",
   "Description": "For the WoW player who can't live without WeakAuras lighting up a button when it's off CD. /pants to configure.",
   "ApplicableVersion": "any",
   "Tags": [
