@@ -2,7 +2,7 @@
   "Author": "Abyeon",
   "Name": "Racingway",
   "InternalName": "Racingway",
-  "AssemblyVersion": "0.1.1.0",
+  "AssemblyVersion": "0.1.1.1",
   "Description": "A simple plugin for timing, logging, and ranking player times for your jumping puzzles!",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Abyeon/Racingway",
