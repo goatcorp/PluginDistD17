@@ -1,0 +1,18 @@
+{
+  "Author": "Cytraen",
+  "Name": "Handy Hotbar Helper",
+  "InternalName": "HandyHotbarHelper",
+  "AssemblyVersion": "0.1.1",
+  "Description": "Shows a window next to the Actions & Traits menu when your hotbars are missing actions.",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/Cytraen/HandyHotbarHelper",
+  "DalamudApiLevel": 12,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "Punchline": "Helps show what actions are missing from your hotbars.",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "testing-live"
+}

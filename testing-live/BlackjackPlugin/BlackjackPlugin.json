@@ -1,0 +1,32 @@
+{
+  "Author": "clepix21",
+  "Name": "Blackjack Casino",
+  "InternalName": "BlackjackPlugin",
+  "AssemblyVersion": "1.0.0.0",
+  "Description": "A plugin to play blackjack just like in a real casino.\nEnjoy an authentic casino experience directly in Final Fantasy XIV.",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/clepix21/BlackjackPlugin",
+  "Tags": [
+    "game",
+    "casino",
+    "blackjack",
+    "cards",
+    "gambling",
+    "entertainment",
+    "minigame"
+  ],
+  "CategoryTags": [
+    "other"
+  ],
+  "DalamudApiLevel": 12,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": true,
+  "LoadPriority": 0,
+  "IconUrl": "https://raw.githubusercontent.com/clepix21/BlackjackPlugin/refs/heads/main/BlackjackPlugin/images/icon.png",
+  "Punchline": "Play blackjack in FFXIV!",
+  "Changelog": "Version initiale du plugin Blackjack avec interface moderne et fonctionnalités complètes.",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "testing-live"
+}
