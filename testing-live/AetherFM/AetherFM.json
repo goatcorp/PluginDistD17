@@ -2,8 +2,8 @@
   "Author": "SalvatoreDevelopment",
   "Name": "AetherFM",
   "InternalName": "AetherFM",
-  "AssemblyVersion": "1.0.0.0",
-  "Description": "In-game radio streaming for Final Fantasy XIV. Enter a stream URL and listen to your favorite radio!",
+  "AssemblyVersion": "1.1.0.0",
+  "Description": "In-game radio streaming for Final Fantgitasy XIV. Enter a stream URL and listen to your favorite radio!\n\nNote: AetherFM is only supported on Windows. Due to its reliance on the NAudio library, audio playback is not available on Linux or non-Windows versions of Dalamud.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/SalvatoreDevelopment/AetherFM",
   "Tags": [
