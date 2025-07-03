@@ -2,10 +2,10 @@
   "Author": "Anna, maintained by Khayle",
   "Name": "Namingway",
   "InternalName": "Namingway",
-  "AssemblyVersion": "1.1.17.1",
+  "AssemblyVersion": "1.1.18.0",
   "Description": "Rename abilities and status effects.",
   "ApplicableVersion": "any",
-  "RepoUrl": "https://github.com/reiichi001/NamingWay/",
+  "RepoUrl": "https://github.com/MKhayle/NamingWay/",
   "Tags": [
     "names",
     "actions",
@@ -19,7 +19,7 @@
   "CanUnloadAsync": false,
   "LoadPriority": 0,
   "Punchline": "Rename abilities and status effects.",
-  "Changelog": "API 12 update. Credits to Franz for the API11 update.",
+  "Changelog": "- Added Occult Crescent actions to the Player Actions filter - Added commands (/namingway <enable|disable|toggle> <GUID>) - Added a GUID field to copy/paste them for macros use - Added the ID of actions in the edit window to differentiate actions with the same name - Fixed an issue with names not being updated at some times",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "stable"
