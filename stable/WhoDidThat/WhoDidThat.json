@@ -2,10 +2,9 @@
   "Author": "spide-r",
   "Name": "Who Did That?",
   "InternalName": "WhoDidThat",
-  "AssemblyVersion": "1.8.2.0",
+  "AssemblyVersion": "1.8.2.1",
   "Description": "This plugin can track the following actions:\n- Rescues\n- Healing actions\n- Status/Buff Application\n- Cleanses \n- Heals\n- Mitigation\n- Provoke\n- Shirk\n\nThese will be logged in your chat when they are used on your character.",
   "ApplicableVersion": "any",
-  "RepoUrl": "https://github.com/spide-r/WhoDidThat",
   "Tags": [
     "mit",
     "rescue",
@@ -14,17 +13,14 @@
     "log",
     "shirk"
   ],
-  "CategoryTags": [
-    "utility",
-    "other"
-  ],
   "DalamudApiLevel": 12,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
   "LoadPriority": 0,
+  "IconUrl": "https://github.com/spide-r/WhoDidThat/blob/main/images/icon.png",
   "Punchline": "Actively logs healing, cleanses, buffs, and more. Finally figure out who rescued you.",
-  "AcceptsFeedback": true,
+  "AcceptsFeedback": false,
   "_isDip17Plugin": true,
   "_Dip17Channel": "stable"
 }
