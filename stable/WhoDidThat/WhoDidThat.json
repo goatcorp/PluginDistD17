@@ -2,7 +2,7 @@
   "Author": "spide-r",
   "Name": "Who Did That?",
   "InternalName": "WhoDidThat",
-  "AssemblyVersion": "1.8.2.1",
+  "AssemblyVersion": "1.8.2.2",
   "Description": "This plugin can track the following actions:\n- Rescues\n- Healing actions\n- Status/Buff Application\n- Cleanses \n- Heals\n- Mitigation\n- Provoke\n- Shirk\n\nThese will be logged in your chat when they are used on your character.",
   "ApplicableVersion": "any",
   "Tags": [
@@ -12,6 +12,10 @@
     "combat",
     "log",
     "shirk"
+  ],
+  "CategoryTags": [
+    "utility",
+    "other"
   ],
   "DalamudApiLevel": 12,
   "LoadRequiredState": 0,
