@@ -2,7 +2,7 @@
   "Author": "Megurt",
   "Name": "Which Mount",
   "InternalName": "WhichMount",
-  "AssemblyVersion": "1.3.0.0",
+  "AssemblyVersion": "1.3.5.0",
   "Description": "Adds a 'Mount Search' option to the target's context menu, displaying mount information and acquisition details in the chat. Also includes a searchable mount database with detailed navigation.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/megurte/WhichMount",
