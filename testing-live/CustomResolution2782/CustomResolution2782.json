@@ -2,7 +2,7 @@
   "Author": "0x0ade",
   "Name": "CustomResolution",
   "InternalName": "CustomResolution2782",
-  "AssemblyVersion": "0.4.2.0",
+  "AssemblyVersion": "0.4.2.1",
   "Description": "Basic plugin that allows you to specify a custom resolution.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://gitea.0x0a.de/0x0ade/DP-CustomResolution",
