@@ -2,7 +2,7 @@
   "Author": "Violet Stardust",
   "Name": "XivGearExport",
   "InternalName": "XivGearExport",
-  "AssemblyVersion": "1.3.0.0",
+  "AssemblyVersion": "1.4.0.0",
   "Description": "A plugin that allows easy export of your gearsets to xivgear.app in edit or view mode. Also includes the ability to export your gearsets from the gearset list.\n\nUse /xivgearexport or /xge to export your current gear set.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/VioletStardustXIV/XivGearExport",
