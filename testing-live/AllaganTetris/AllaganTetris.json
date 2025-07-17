@@ -1,0 +1,20 @@
+{
+  "Author": "Critical-Impact",
+  "Name": "Allagan Tetris",
+  "InternalName": "AllaganTetris",
+  "AssemblyVersion": "1.0.0.0",
+  "Description": "A not so faithful recreation of the legendary game.",
+  "ApplicableVersion": "any",
+  "Tags": [
+    "game"
+  ],
+  "DalamudApiLevel": 12,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "Punchline": "Even the Allags had time to burn!",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "testing-live"
+}
