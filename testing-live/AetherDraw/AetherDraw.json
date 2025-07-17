@@ -2,7 +2,7 @@
   "Author": "rail",
   "Name": "AetherDraw",
   "InternalName": "AetherDraw",
-  "AssemblyVersion": "2.2.2.0",
+  "AssemblyVersion": "2.3.0.0",
   "Description": "Draw strategy images for encounters. Use /aetherdraw to open. Supports live collaboration.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/rail2025/AetherDraw",
@@ -20,7 +20,7 @@
   "ImageUrls": [],
   "IconUrl": "https://raw.githubusercontent.com/rail2025/AetherDraw/refs/heads/master/icon.png",
   "Punchline": "Whiteboard planner",
-  "Changelog": "v2.2.2.0: More import fixes.\nv2.2.1.0: Fixed issues related to raidplan.io imports, including background image scaling and icon layering.\nv2.2.0.0: Added limit cut 1-8 dots. Added raidplan.io url imports.",
+  "Changelog": "v2.3.0.0: Added a tool to place emojis as rotatable images from the clipboard, import a custom background from a URL. More raidplan.io import fixes.\nv2.2.2.0: More import fixes.",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "testing-live"
