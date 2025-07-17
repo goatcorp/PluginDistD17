@@ -2,8 +2,8 @@
   "Author": "iv230",
   "Name": "Chat Proximity",
   "InternalName": "ChatProximity",
-  "AssemblyVersion": "1.3.3.0",
-  "Description": "This plugin will change message in the chat within the \"say\" channel, darkening people when they're far from you.",
+  "AssemblyVersion": "1.4.0.0",
+  "Description": "This plugin will change message in the chat within the \"say\" channel (or other ranged channels), darkening people when they're far from you.",
   "ApplicableVersion": "any",
   "Tags": [
     "chat",
