@@ -2,7 +2,7 @@
   "Author": "MidoriKami, Lharz",
   "Name": "CurrencyAlert",
   "InternalName": "CurrencyAlert",
-  "AssemblyVersion": "2.2.2.1",
+  "AssemblyVersion": "2.2.2.2",
   "Description": "This plugin lets you easily manage your various currencies to prevent from wasting precious resources.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/MidoriKami/CurrencyAlert",

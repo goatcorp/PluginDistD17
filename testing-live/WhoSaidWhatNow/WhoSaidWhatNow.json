@@ -2,7 +2,7 @@
   "Author": "perappu",
   "Name": "Who Said What Now",
   "InternalName": "WhoSaidWhatNow",
-  "AssemblyVersion": "0.6.2.0",
+  "AssemblyVersion": "0.6.3.0",
   "Description": "Chat history plugin, view history per character, per group, or search.\n Main command /whowhat",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/perappu/WhoSaidWhatNow",
@@ -17,7 +17,7 @@
   "LoadPriority": 0,
   "IconUrl": "https://raw.githubusercontent.com/perappu/WhoSaidWhatNow/master/WhoSaidWhatNow/images/icon.png",
   "Punchline": "Chat history plugin, view history per character, per group, or search.",
-  "Changelog": "* v0.6.1\n * add sound notifications",
+  "Changelog": "* v0.6.3\n * add sound notifications\n* v0.6.2\n * fix font weirdness from ImGui using ImRaii",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "testing-live"
