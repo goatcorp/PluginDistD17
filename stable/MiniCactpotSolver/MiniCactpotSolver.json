@@ -2,7 +2,7 @@
   "Author": "daemitus, MidoriKami",
   "Name": "ezMiniCactpot",
   "InternalName": "MiniCactpotSolver",
-  "AssemblyVersion": "2.1.1.0",
+  "AssemblyVersion": "3.0.0.0",
   "Description": "This plugin highlights tiles and lines in MiniCactpot that represent the best potential action you can take.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/MidoriKami/MiniCactpotSolver",
