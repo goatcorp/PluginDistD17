@@ -1,8 +1,8 @@
 {
   "Author": "Haplo064, Khayle",
-  "Name": "Chat Bubbles",
+  "Name": "Chat Butt Bubbles",
   "InternalName": "ChatBubbles",
-  "AssemblyVersion": "2.1.7.3",
+  "AssemblyVersion": "2.1.8.0",
   "Description": "Using native chat bubble display, see who is talking about what in a more natural fashion.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Haplo064/ChatBubbles",
