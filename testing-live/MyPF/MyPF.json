@@ -1,0 +1,27 @@
+{
+  "Author": "Pistachio Herald",
+  "Name": "MyPF",
+  "InternalName": "MyPF",
+  "AssemblyVersion": "1.0.0.0",
+  "Description": "Replaces <mypf> with your current PF listing. Macro friendly.",
+  "ApplicableVersion": "any",
+  "Tags": [
+    "party finder",
+    "pf",
+    "party",
+    "recruitment",
+    "pug",
+    "gamba",
+    "looking",
+    "group"
+  ],
+  "DalamudApiLevel": 12,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "Punchline": "Replaces <mypf> with your current PF listing. Macro friendly.",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "testing-live"
+}

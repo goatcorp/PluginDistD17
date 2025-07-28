@@ -1,0 +1,23 @@
+{
+  "Author": "rail",
+  "Name": "AetherBreakout",
+  "InternalName": "AetherBreakout",
+  "AssemblyVersion": "1.2.0.1",
+  "Description": "A Breakout clone to play during queue times.",
+  "ApplicableVersion": "any",
+  "Tags": [
+    "game",
+    "arcade",
+    "breakout"
+  ],
+  "DalamudApiLevel": 12,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "Punchline": "A classic arcade game.",
+  "Changelog": "Version 1.2.0.1:\n- Features:\n  - Added sfx, music, audio controls.\n  - Enhanced paddle collision physics.\n- Bug Fixes:\n  - Fixed power-up icons to mismatch the effects.\n  - Fixed an issue where power-up effects were not resetting correctly.\n  - Fixed the ball speed setting not being applied at the start of a new game.",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "testing-live"
+}
