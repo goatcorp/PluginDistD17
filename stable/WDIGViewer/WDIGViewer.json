@@ -1,0 +1,25 @@
+{
+  "Author": "rail",
+  "Name": "WDIGViewer",
+  "InternalName": "WDIGViewer",
+  "AssemblyVersion": "1.0.3.0",
+  "Description": "Displays strategy images for encounters. Use /wdig to open.",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/rail2025/WDIGViewer",
+  "Tags": [
+    "viewer",
+    "strategy",
+    "image",
+    "encounter"
+  ],
+  "DalamudApiLevel": 12,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "ImageUrls": [],
+  "Punchline": "View encounter strategy images.",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "stable"
+}
