@@ -1,0 +1,22 @@
+{
+  "Author": "Lynie",
+  "Name": "Absolute Roleplay",
+  "InternalName": "AbsoluteRoleplay",
+  "AssemblyVersion": "0.0.1.0",
+  "Description": "Allows users to create, manage, view and bookmark roleplay profiles with FF.",
+  "ApplicableVersion": "any",
+  "Tags": [
+    "Absolute",
+    "Roleplay",
+    "RP"
+  ],
+  "DalamudApiLevel": 12,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "Punchline": "A plugin for creating profiles and sharing them, with more to come!",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "stable"
+}
