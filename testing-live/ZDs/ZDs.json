@@ -2,14 +2,14 @@
   "Author": "Zeffuro",
   "Name": "ZDs",
   "InternalName": "ZDs",
-  "AssemblyVersion": "1.1.0.2",
+  "AssemblyVersion": "1.1.0.4",
   "Description": "Show when cooldowns come off cooldown in an intuitive way!",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Zeffuro/ZDs",
   "Tags": [
     "UI"
   ],
-  "DalamudApiLevel": 12,
+  "DalamudApiLevel": 13,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,

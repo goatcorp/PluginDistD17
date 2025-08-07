@@ -2,7 +2,7 @@
   "Author": "Infi, Cadaeix",
   "Name": "XIVLogger",
   "InternalName": "XIVLogger",
-  "AssemblyVersion": "1.0.8.1",
+  "AssemblyVersion": "1.0.9.0",
   "Description": "Save chat logs as text files from when this is loaded. /xivlogger for settings, /savelog to save logs, /copylogs to copy logs.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Infiziert90/XIVLogger",
@@ -12,7 +12,7 @@
     "chat",
     "chat log"
   ],
-  "DalamudApiLevel": 12,
+  "DalamudApiLevel": 13,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,

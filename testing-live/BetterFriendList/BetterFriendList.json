@@ -2,7 +2,7 @@
   "Author": "Loody",
   "Name": "BetterFriendList",
   "InternalName": "BetterFriendList",
-  "AssemblyVersion": "0.1.2.1",
+  "AssemblyVersion": "0.1.2.2",
   "Description": "Friend list but with better sorting, can search by name, refresh with a button, color names..\nRight click for context menu.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/devckuw/BetterFriendList",
@@ -11,7 +11,7 @@
     "ui",
     "Loody"
   ],
-  "DalamudApiLevel": 12,
+  "DalamudApiLevel": 13,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,

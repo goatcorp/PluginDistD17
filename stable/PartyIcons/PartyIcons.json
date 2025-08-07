@@ -2,14 +2,14 @@
   "Author": "shdwp, Avaflow, abashby, nebel",
   "Name": "Party Icons",
   "InternalName": "PartyIcons",
-  "AssemblyVersion": "1.2.3.0",
+  "AssemblyVersion": "1.2.3.1",
   "Description": "Adjusts player nameplates base on current content. For example you can display raid positions (that are assigned automatically by listening to the chat), job icons, or names with job icons.\n\nReverse-engineering effort achieved by authors of JobIcons: haplo, daemitus, Loskh, wozaiha, without them this plugin would not be possible!",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/nebel/xivPartyIcons",
   "Tags": [
     "UI"
   ],
-  "DalamudApiLevel": 12,
+  "DalamudApiLevel": 13,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,

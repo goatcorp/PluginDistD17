@@ -2,7 +2,7 @@
   "Author": "Era",
   "Name": "Quest Share",
   "InternalName": "QuestShare",
-  "AssemblyVersion": "1.0.2.0",
+  "AssemblyVersion": "1.0.3.0",
   "Description": "Follow your friends on their questing journey by seeing their progress through a shared quest. Provides markers for quest destinations and (soon) teleporting features.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Era-FFXIV/QuestShare.Plugin",
@@ -11,7 +11,7 @@
     "questing",
     "coop"
   ],
-  "DalamudApiLevel": 12,
+  "DalamudApiLevel": 13,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
