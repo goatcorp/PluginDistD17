@@ -2,7 +2,7 @@
   "Author": "Leon Aquitaine",
   "Name": "Sightseeingway",
   "InternalName": "Sightseeingway",
-  "AssemblyVersion": "1.1.0.2",
+  "AssemblyVersion": "1.1.0.3",
   "Description": "Renames screenshots as they are created to include character name, map name, and coordinates. Monitors default, Reshade and GShade screenshots.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/gposingway/Sightseeingway",
@@ -11,7 +11,7 @@
     "gpose",
     "utility"
   ],
-  "DalamudApiLevel": 12,
+  "DalamudApiLevel": 13,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
