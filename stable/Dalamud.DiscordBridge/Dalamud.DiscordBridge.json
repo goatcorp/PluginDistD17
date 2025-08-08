@@ -2,7 +2,7 @@
   "Author": "goat, modded by Franz",
   "Name": "Discord Chat Bridge",
   "InternalName": "Dalamud.DiscordBridge",
-  "AssemblyVersion": "1.5.2.0",
+  "AssemblyVersion": "1.5.3.0",
   "Description": "This plugin allows you to receive your chat messages via Discord.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/reiichi001/Dalamud.DiscordBridge",
@@ -10,7 +10,7 @@
     "discord",
     "chat"
   ],
-  "DalamudApiLevel": 12,
+  "DalamudApiLevel": 13,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
