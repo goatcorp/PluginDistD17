@@ -2,7 +2,7 @@
   "Author": "Due",
   "Name": "ContactsTracker",
   "InternalName": "ContactsTracker",
-  "AssemblyVersion": "1.0.6.0",
+  "AssemblyVersion": "1.0.7.0",
   "Description": "Remember to change setting according to your need.\nUse the Settings button to enter analyze window.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/DueDine/ContactsTracker",
@@ -12,7 +12,7 @@
     "duty",
     "roulette"
   ],
-  "DalamudApiLevel": 12,
+  "DalamudApiLevel": 13,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
