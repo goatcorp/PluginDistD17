@@ -2,7 +2,7 @@
   "Author": "Anna, maintained by Khayle",
   "Name": "Namingway",
   "InternalName": "Namingway",
-  "AssemblyVersion": "1.1.18.0",
+  "AssemblyVersion": "1.1.19.0",
   "Description": "Rename abilities and status effects.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/MKhayle/NamingWay/",
@@ -13,7 +13,7 @@
     "rename",
     "namingway"
   ],
-  "DalamudApiLevel": 12,
+  "DalamudApiLevel": 13,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
