@@ -2,7 +2,7 @@
   "Author": "rail",
   "Name": "WDIGViewer",
   "InternalName": "WDIGViewer",
-  "AssemblyVersion": "1.0.3.0",
+  "AssemblyVersion": "1.0.3.1",
   "Description": "Displays strategy images for encounters. Use /wdig to open.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/rail2025/WDIGViewer",
@@ -12,7 +12,7 @@
     "image",
     "encounter"
   ],
-  "DalamudApiLevel": 12,
+  "DalamudApiLevel": 13,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
