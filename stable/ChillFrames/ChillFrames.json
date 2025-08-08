@@ -2,7 +2,7 @@
   "Author": "MidoriKami",
   "Name": "Chill Frames",
   "InternalName": "ChillFrames",
-  "AssemblyVersion": "3.1.1.4",
+  "AssemblyVersion": "3.1.1.5",
   "Description": "Tired of your GPU melting your face off while just running around? Why render at 240 FPS when you're just staring at that gathering node? Fret no more! Chill Frames allows you dynamically limit your framerate when doing unimportant tasks!",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/MidoriKami/ChillFrames",
@@ -12,7 +12,7 @@
     "limiter",
     "dtr"
   ],
-  "DalamudApiLevel": 12,
+  "DalamudApiLevel": 13,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,

@@ -2,7 +2,7 @@
   "Author": "Infi, kalilistic",
   "Name": "PlayerTrack",
   "InternalName": "PlayerTrack",
-  "AssemblyVersion": "3.5.1.3",
+  "AssemblyVersion": "3.5.2.0",
   "Description": "PlayerTrack helps you keep a record of who you meet and the content you played together.\nOrganize players into categories, keep notes, and track them across name/world changes.\nCustomization options include colors, icons, nameplates, and alerts.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Infiziert90/PlayerTrack",
@@ -11,7 +11,7 @@
     "track",
     "orwell"
   ],
-  "DalamudApiLevel": 12,
+  "DalamudApiLevel": 13,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,

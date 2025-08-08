@@ -2,7 +2,7 @@
   "Author": "Cytraen",
   "Name": "Combat Cursor Containment",
   "InternalName": "CombatCursorContainment",
-  "AssemblyVersion": "1.0.6.0",
+  "AssemblyVersion": "1.0.7",
   "Description": "Automatically changes the 'limit mouse operation to game window' setting when entering/exiting combat.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Cytraen/CombatCursorContainment",
@@ -12,7 +12,7 @@
   "CategoryTags": [
     "Utility"
   ],
-  "DalamudApiLevel": 12,
+  "DalamudApiLevel": 13,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
