@@ -2,7 +2,7 @@
   "Author": "Meoiswa",
   "Name": "Clarity In Chaos",
   "InternalName": "ClarityInChaos",
-  "AssemblyVersion": "2.2.0.0",
+  "AssemblyVersion": "2.3.0.0",
   "Description": "Automatically adjusts the Battle Effects settings according to Party size.",
   "ApplicableVersion": "any",
   "Tags": [
@@ -11,7 +11,7 @@
     "battle effects",
     "party"
   ],
-  "DalamudApiLevel": 12,
+  "DalamudApiLevel": 13,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
