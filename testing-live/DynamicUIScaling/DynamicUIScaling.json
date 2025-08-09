@@ -2,14 +2,14 @@
   "Author": "Eidolon",
   "Name": "Dynamic UI Scaling",
   "InternalName": "DynamicUIScaling",
-  "AssemblyVersion": "0.0.0.2",
+  "AssemblyVersion": "0.0.0.4",
   "Description": "Automatically finely scales the game UI by resolution.",
   "ApplicableVersion": "any",
   "Tags": [
     "plugin",
     "ui"
   ],
-  "DalamudApiLevel": 10,
+  "DalamudApiLevel": 13,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
