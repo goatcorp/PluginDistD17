@@ -2,7 +2,7 @@
   "Author": "Anna, Maintained by chirp",
   "Name": "Globetrotter",
   "InternalName": "Globetrotter",
-  "AssemblyVersion": "1.2.14",
+  "AssemblyVersion": "1.2.15",
   "Description": "Automatically shows where treasure maps are located.\n\nIcon: Map by Adrien Coquet from the Noun Project",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/chirpxiv/Globetrotter",
