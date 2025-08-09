@@ -2,10 +2,10 @@
   "Author": "Blooym",
   "Name": "Wholist",
   "InternalName": "Wholist",
-  "AssemblyVersion": "1.11.0.0",
+  "AssemblyVersion": "1.11.0.1",
   "Description": "Show nearby players in a stylish way, inspired by the \"/who\" command from World of Warcraft\n\nFeatures:\n- Minimalistic interface that can be scaled down to become part of your HUD.\n- Player context menu items for examining, searching on the Lodestone and more.\n- Customizable colours & behaviour.\n- Random adventure plate command\n- Display nearby player count in the server info bar\n\nPlease note this plugin will automatically disable functionality in PvP.",
   "ApplicableVersion": "any",
-  "RepoUrl": "https://github.com/Blooym/Wholist",
+  "RepoUrl": "https://github.com/Blooym/Dalamud.Wholist",
   "Tags": [
     "Player list"
   ],
@@ -13,7 +13,7 @@
     "UI",
     "Social"
   ],
-  "DalamudApiLevel": 12,
+  "DalamudApiLevel": 13,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
