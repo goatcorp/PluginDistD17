@@ -2,7 +2,7 @@
   "Author": "QuackieMackie",
   "Name": "QuestJournal",
   "InternalName": "QuestJournal",
-  "AssemblyVersion": "1.1.4.0",
+  "AssemblyVersion": "1.2.0.1",
   "Description": "Quest Journal is a detailed quest tracker / viewer. Letting you see information about quest chains without using a wiki.",
   "ApplicableVersion": "any",
   "Tags": [
@@ -10,7 +10,7 @@
     "Journal",
     "QuestJournal"
   ],
-  "DalamudApiLevel": 12,
+  "DalamudApiLevel": 13,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
