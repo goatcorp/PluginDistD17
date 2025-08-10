@@ -1,0 +1,18 @@
+{
+  "Author": "daemitus, MidoriKami",
+  "Name": "ezFauxHollows",
+  "InternalName": "FauxHollowsSolver",
+  "AssemblyVersion": "1.5.1.0",
+  "Description": "This plugin highlights tiles in Faux Hollows that represent the best potential action you can take.",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/MidoriKami/FauxHollowsSolver",
+  "DalamudApiLevel": 13,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "Punchline": "Highlights recommended tiles in Faux Hollows for your next move.",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "testing-live"
+}
