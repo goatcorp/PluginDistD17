@@ -2,7 +2,7 @@
   "Author": "Snowy, KangasZ",
   "Name": "Eureka Helper",
   "InternalName": "EurekaHelper",
-  "AssemblyVersion": "2.0.2.3",
+  "AssemblyVersion": "2.0.3.0",
   "Description": "A tool to assist you on your Eureka adventures, now updated for Dawntrail! Type /eurekahelper to get started.\n\nFeatures include:\n- In-Game Tracker GUI\n- Instance Tracker\n- Elementals Tracker\n- Relic Helper\n- Alarms\n- Money NM weather timings\n- More to come",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/KangasZ/EurekaHelper",
@@ -21,7 +21,7 @@
   "CategoryTags": [
     "Utility"
   ],
-  "DalamudApiLevel": 12,
+  "DalamudApiLevel": 13,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
