@@ -2,7 +2,7 @@
   "Author": "Glyceri",
   "Name": "Fatal Frame",
   "InternalName": "XivFatalFrame",
-  "AssemblyVersion": "1.0.2.0",
+  "AssemblyVersion": "1.0.2.1",
   "Description": "Takes a screenshot upon death (and other events).",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Glyceri/XivFatalFrame",
@@ -10,7 +10,7 @@
     "Screenshot",
     "Death"
   ],
-  "DalamudApiLevel": 12,
+  "DalamudApiLevel": 13,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,

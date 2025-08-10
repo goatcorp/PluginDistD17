@@ -2,7 +2,7 @@
   "Author": "Glyceri",
   "Name": "Acquisition Date",
   "InternalName": "AcquisitionDate",
-  "AssemblyVersion": "1.0.0.1",
+  "AssemblyVersion": "1.0.1.0",
   "Description": "Shows the date when you acquired:\n- Achievements\n- Quests\n- Duties\n- Levels\n- Fish\n- Sightseeing Log Entries\n- Glasses\n- Minions\n- Mounts\n- Orchestrion Rolls\n- Fashion Accessories\nAnd More!",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Glyceri/AcquisitionDate",
@@ -22,7 +22,7 @@
     "orchestrion",
     "fashion"
   ],
-  "DalamudApiLevel": 12,
+  "DalamudApiLevel": 13,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
