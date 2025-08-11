@@ -2,7 +2,7 @@
   "Author": "Elypha",
   "Name": "SimpleMarketBoard",
   "InternalName": "SimpleMarketBoard",
-  "AssemblyVersion": "1.9.5.3",
+  "AssemblyVersion": "1.10.0.1",
   "Description": "A niche plugin designed to be user-friendly and multi-functional with rich customisation options, for power users.\n\nHighlights:\n  - Compact UI and user theme\n  - Customisable search options\n  - Rich ways for plugin interaction\n\nCheck out the 'Introduction' on Config Window for documentation.\n",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Elypha/SimpleMarketBoard",
@@ -17,7 +17,7 @@
     "Utility",
     "Other"
   ],
-  "DalamudApiLevel": 12,
+  "DalamudApiLevel": 13,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
