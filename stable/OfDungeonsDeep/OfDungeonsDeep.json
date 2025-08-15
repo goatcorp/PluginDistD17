@@ -2,7 +2,7 @@
   "Author": "NotNite, MidoriKami, maintained by Khayle",
   "Name": "OfDungeonsDeep",
   "InternalName": "OfDungeonsDeep",
-  "AssemblyVersion": "1.0.4.3",
+  "AssemblyVersion": "1.0.5.0",
   "Description": "Based loosely on DeepDungeonDex (by Strati), OfDungeonsDeep is an all-in-one tool for Deep Dungeon floor and mob information.\nData sourced with permission from https://www.ddcompendium.com/.",
   "ApplicableVersion": "any",
   "Tags": [
@@ -12,7 +12,7 @@
     "deepest",
     "dank"
   ],
-  "DalamudApiLevel": 12,
+  "DalamudApiLevel": 13,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
