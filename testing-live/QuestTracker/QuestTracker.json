@@ -2,7 +2,7 @@
   "Author": "isaiahcat",
   "Name": "Quest Tracker",
   "InternalName": "QuestTracker",
-  "AssemblyVersion": "1.1.0.0",
+  "AssemblyVersion": "1.1.1.0",
   "Description": "Easily track quest completion",
   "ApplicableVersion": "any",
   "Tags": [
@@ -10,7 +10,7 @@
     "quests",
     "tracker"
   ],
-  "DalamudApiLevel": 11,
+  "DalamudApiLevel": 13,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
