@@ -1,0 +1,25 @@
+{
+  "Author": "0x0ade",
+  "Name": "CustomResolution",
+  "InternalName": "CustomResolution2782",
+  "AssemblyVersion": "1.0.0.0",
+  "Description": "Basic plugin that allows you to specify a custom resolution.",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://gitea.0x0a.de/0x0ade/DP-CustomResolution",
+  "Tags": [
+    "dsr",
+    "resolution",
+    "dpi",
+    "scale",
+    "scaling"
+  ],
+  "DalamudApiLevel": 13,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "Punchline": "Enforces a custom resolution for the game, similar to NVIDIA DSR.",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "stable"
+}
