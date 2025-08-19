@@ -2,7 +2,7 @@
   "Author": "ocealot",
   "Name": "VFXEditor",
   "InternalName": "VFXEditor",
-  "AssemblyVersion": "1.9.2.5",
+  "AssemblyVersion": "1.9.2.8",
   "Description": "VFX, animation, and sound editing plugin. Icon by PAPACHIN",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/0ceal0t/Dalamud-VFXEditor",
@@ -10,7 +10,7 @@
     "VFX",
     "AVFX"
   ],
-  "DalamudApiLevel": 12,
+  "DalamudApiLevel": 13,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
