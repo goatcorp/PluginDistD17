@@ -2,15 +2,15 @@
   "Author": "Nightshade System",
   "Name": "PushyFinder",
   "InternalName": "PushyFinder",
-  "AssemblyVersion": "1.3.1.0",
-  "Description": "A plugin that uses Pushover (https://pushover.net), Discord, or Ntfy (https://ntfy.sh) to send mobile push notifications when party members join or leave, or when a duty finder queue is initiated.",
+  "AssemblyVersion": "1.3.1.1",
+  "Description": "A plugin that uses Pushover (https://pushover.net), Discord, SimplePush (http://simplepush.io), or Ntfy (https://ntfy.sh) to send mobile push notifications when party members join or leave, or when a duty finder queue is initiated.",
   "ApplicableVersion": "any",
   "Tags": [
     "party-finder",
     "afk",
     "notifications"
   ],
-  "DalamudApiLevel": 12,
+  "DalamudApiLevel": 13,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
