@@ -2,7 +2,7 @@
   "Author": "grittyfrog",
   "Name": "Macro Mate",
   "InternalName": "MacroMate",
-  "AssemblyVersion": "1.0.25.3",
+  "AssemblyVersion": "1.0.25.4",
   "Description": "Macro Mate lets you store and run an unlimited number of macros. You can also bind macros to normal macro slots.\n\nFor example, you can:\n\n- Automatically swap in the correct raid macro when you enter an instance\n- Store longer macros and automatically split them across multiple macro slots.\n- Use almost any icon in the game for your Macros\n",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/grittyfrog/MacroMate",
