@@ -2,8 +2,8 @@
   "Author": "RedMage1993",
   "Name": "Mimicry Helper",
   "InternalName": "MimicryHelper",
-  "AssemblyVersion": "1.0.1.6",
-  "Description": "Use /mimic to open up the menu and click on the appropriate button to automatically mimic the role you're looking for.",
+  "AssemblyVersion": "1.0.1.7",
+  "Description": "Use /mimic to open up the menu and click on a role to mimic. You may also use d, h, or t in the command, e.g. /mimic d.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/RedMage1993/MimicryHelper",
   "Tags": [
@@ -11,7 +11,7 @@
     "blu",
     "mimicry"
   ],
-  "DalamudApiLevel": 12,
+  "DalamudApiLevel": 13,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
