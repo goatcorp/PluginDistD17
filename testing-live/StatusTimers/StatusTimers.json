@@ -2,7 +2,7 @@
   "Author": "Zeffuro",
   "Name": "StatusTimers",
   "InternalName": "StatusTimers",
-  "AssemblyVersion": "1.0.0.3",
+  "AssemblyVersion": "1.0.0.4",
   "Description": "StatusTimers provides clear, customizable bars for tracking your crucial buffs and debuffs. It helps you keep an eye on active effects, their remaining durations, and stacks, allowing you to optimize your gameplay without constantly staring at your tiny icons.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Zeffuro/StatusTimers",
