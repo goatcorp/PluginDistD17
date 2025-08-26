@@ -2,7 +2,7 @@
   "Author": "Fuwa Aika",
   "Name": "Wave Wrangler",
   "InternalName": "WaveWrangler",
-  "AssemblyVersion": "1.0.0.0",
+  "AssemblyVersion": "1.0.1.0",
   "Description": "Literally all this plugin does is send \"o/\" in chat if you accidentally type \"/o\"",
   "ApplicableVersion": "any",
   "Tags": [
@@ -10,7 +10,7 @@
     "chat",
     "correct"
   ],
-  "DalamudApiLevel": 12,
+  "DalamudApiLevel": 13,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
