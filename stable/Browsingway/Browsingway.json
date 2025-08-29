@@ -2,7 +2,7 @@
   "Author": "Styr1x",
   "Name": "Browsingway",
   "InternalName": "Browsingway",
-  "AssemblyVersion": "1.6.6",
+  "AssemblyVersion": "1.6.7",
   "Description": "Renders browser overlays in-game to enable playing in fullscreen (and G-SYNC) while having access to ACT overlays.\nUse the settings button below or the '/bw config' command to configure.\nBased on the BrowserHost plugin by ackwell.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Styr1x/Browsingway",
@@ -23,7 +23,7 @@
   "CanUnloadAsync": false,
   "LoadPriority": 0,
   "Punchline": "Browser overlays rendered in-game.",
-  "Changelog": "- Bump Chromium to 138.0.7204.184\n- Api 13 support\n- Add HideInPvP setting (by SheepGoMeh)\n",
+  "Changelog": "- Bump Chromium to 139.0.7258.139\n- Improve renderer crash handling\n- Fix CEF not loading when game runs as a privileged process (please don't..)\n",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "stable"
