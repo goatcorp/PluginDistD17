@@ -1,0 +1,22 @@
+{
+  "Author": "Hiroa",
+  "Name": "LazyGatherer",
+  "InternalName": "LazyGatherer",
+  "AssemblyVersion": "1.0.1.0",
+  "Description": "Display the optimal rotation for maximum yield with your current GP.",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/Hiroa/LazyGatherer",
+  "Tags": [
+    "utility"
+  ],
+  "DalamudApiLevel": 13,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "IconUrl": "https://raw.githubusercontent.com/Hiroa/LazyGatherer/main/LazyGatherer/Asset/icon.png",
+  "Punchline": "Optimize your GP.",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "testing-live"
+}
