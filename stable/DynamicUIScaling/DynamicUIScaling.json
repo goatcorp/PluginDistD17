@@ -2,7 +2,7 @@
   "Author": "Eidolon",
   "Name": "Dynamic UI Scaling",
   "InternalName": "DynamicUIScaling",
-  "AssemblyVersion": "1.13.0.0",
+  "AssemblyVersion": "1.13.1.0",
   "Description": "Automatically finely scales the game UI by resolution.",
   "ApplicableVersion": "any",
   "Tags": [
