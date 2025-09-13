@@ -2,7 +2,7 @@
   "Author": "rail",
   "Name": "AetherDraw",
   "InternalName": "AetherDraw",
-  "AssemblyVersion": "2.3.0.4",
+  "AssemblyVersion": "2.3.0.5",
   "Description": "Draw strategy images for encounters. Use /aetherdraw to open. Supports live collaboration.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/rail2025/AetherDraw",
@@ -10,7 +10,10 @@
     "viewer",
     "strategy",
     "image",
-    "encounter"
+    "encounter",
+    "raid",
+    "whiteboard",
+    "planner"
   ],
   "DalamudApiLevel": 13,
   "LoadRequiredState": 0,
@@ -20,7 +23,7 @@
   "ImageUrls": [],
   "IconUrl": "https://raw.githubusercontent.com/rail2025/AetherDraw/refs/heads/master/icon.png",
   "Punchline": "A better whiteboard raid planner",
-  "Changelog": "v2.3.0.4: transform handle visible fix.\nv2.3.0.3: API 13.",
+  "Changelog": "v2.3.0.5: Fixed live session synchronization issue that caused duplicate objects (ghosting).\nv2.3.0.4: transform handle visible fix.\nv2.3.0.3: API 13.",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "stable"
