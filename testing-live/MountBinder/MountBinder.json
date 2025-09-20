@@ -1,0 +1,24 @@
+{
+  "Author": "Rül Hölos",
+  "Name": "Mount Binder",
+  "InternalName": "MountBinder",
+  "AssemblyVersion": "1.0.0.0",
+  "Description": "Use a keyboard key to call your mounts. This way, you don't waste precious hotbar slots!",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/RulHolos/Mount-Binder",
+  "Tags": [
+    "mounts",
+    "mount",
+    "keybind"
+  ],
+  "DalamudApiLevel": 13,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "IconUrl": "https://github.com/RulHolos/Mount-Binder/blob/master/MountBinder/images/icon.png",
+  "Punchline": "Bind one or multiple keys to one or multiple mounts!",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "testing-live"
+}
