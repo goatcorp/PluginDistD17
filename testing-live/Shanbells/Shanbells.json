@@ -1,0 +1,25 @@
+{
+  "Author": "Kliff!!",
+  "Name": "Shanbells",
+  "InternalName": "Shanbells",
+  "AssemblyVersion": "1.2.0.0",
+  "Description": "Replaces the word 'Gil' with 'Shanbells' (or something else entirely!) in the Currency window and Tooltips.",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/kliff-k/ShanbellsPlugin",
+  "Tags": [
+    "shan",
+    "kliff",
+    "currency",
+    "silly"
+  ],
+  "DalamudApiLevel": 13,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "IconUrl": "https://github.com/kliff-k/ShanbellsPlugin/raw/main/icon.png",
+  "Punchline": "Bringing Shananigans to Eorzea",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "testing-live"
+}
