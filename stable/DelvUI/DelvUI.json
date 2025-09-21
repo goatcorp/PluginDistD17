@@ -2,7 +2,7 @@
   "Author": "Tischel",
   "Name": "DelvUI",
   "InternalName": "DelvUI",
-  "AssemblyVersion": "2.5.1.0",
+  "AssemblyVersion": "2.5.1.1",
   "Description": "DelvUI provides a highly configurable HUD replacement and is highly inspired by ElvUI from WoW",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/delvui/delvui",
