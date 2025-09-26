@@ -2,7 +2,7 @@
   "Author": "Hiroa",
   "Name": "LazyGatherer",
   "InternalName": "LazyGatherer",
-  "AssemblyVersion": "1.1.0.0",
+  "AssemblyVersion": "1.1.1.0",
   "Description": "Display the optimal rotation for maximum yield with your current GP.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Hiroa/LazyGatherer",
