@@ -2,7 +2,7 @@
   "Author": "Loody",
   "Name": "BetterFriendList",
   "InternalName": "BetterFriendList",
-  "AssemblyVersion": "1.0.2.0",
+  "AssemblyVersion": "1.0.2.2",
   "Description": "Friend list but with better sorting, can search by name, refresh with a button, color names..\nRight click for context menu.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/devckuw/BetterFriendList",
