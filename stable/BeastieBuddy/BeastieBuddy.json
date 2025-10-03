@@ -1,0 +1,30 @@
+{
+  "Author": "rail",
+  "Name": "BeastieBuddy",
+  "InternalName": "BeastieBuddy",
+  "AssemblyVersion": "1.2.0.0",
+  "Description": "A searchable list of all mobs and their known locations, using community data. Use /bbuddy to open.",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/rail2025/BeastieBuddy",
+  "Tags": [
+    "mob",
+    "hunt",
+    "location",
+    "spawn",
+    "map",
+    "coords",
+    "blue mage",
+    "spell"
+  ],
+  "DalamudApiLevel": 13,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "IconUrl": "https://raw.githubusercontent.com/rail2025/BeastieBuddy/main/icon.png",
+  "Punchline": "A searchable mob database with spawn locations for Beastmaster, Blue Mage, or hunts",
+  "Changelog": "v1.2.0.0: Added the Blue Mage Spellbook tab! You can now browse, search, and track all Blue Mage spells and their sources.\nv1.1.1.1: API 13/Patch 7.3 update.",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "stable"
+}
