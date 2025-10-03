@@ -2,7 +2,7 @@
   "Author": "SaMo",
   "Name": "PvP Tracker",
   "InternalName": "PvpStats",
-  "AssemblyVersion": "2.6.0.2",
+  "AssemblyVersion": "2.6.0.3",
   "Description": "Record, browse and filter your Crystalline Conflict, Frontline and Rival Wings match history, view match scoreboards and view aggregated statistics like win rate and average damage dealt per match.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/wrath16/PvpStats",
