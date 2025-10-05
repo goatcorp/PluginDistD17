@@ -2,7 +2,7 @@
   "Author": "Nylfae",
   "Name": "Hyperfocus",
   "InternalName": "Hyperfocus",
-  "AssemblyVersion": "0.0.0.1",
+  "AssemblyVersion": "0.1.0.0",
   "Description": "Points towards your targets when they're off-screen.",
   "ApplicableVersion": "any",
   "Tags": [

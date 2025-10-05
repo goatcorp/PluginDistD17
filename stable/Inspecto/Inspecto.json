@@ -1,0 +1,23 @@
+{
+  "Author": "Infi",
+  "Name": "Inspecto",
+  "InternalName": "Inspecto",
+  "AssemblyVersion": "0.0.0.6",
+  "Description": "A simple plugin that keeps a history of people you inspected.",
+  "ApplicableVersion": "any",
+  "Tags": [
+    "Plugin",
+    "Inspect",
+    "Examine",
+    "History"
+  ],
+  "DalamudApiLevel": 13,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "Punchline": "Look back at that cute search comment even hours later~",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "stable"
+}
