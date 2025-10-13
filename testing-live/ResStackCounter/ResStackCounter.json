@@ -1,0 +1,22 @@
+{
+  "Author": "Haru",
+  "Name": "Res Stack Counter",
+  "InternalName": "ResStackCounter",
+  "AssemblyVersion": "0.0.1.0",
+  "Description": "List various information about nearby players such as Phantom Job, Remaining Resurrection Stacks in Forked Tower: Blood and Knowledge Level. Use /ressc [settings] to open the main or settings window.",
+  "ApplicableVersion": "any",
+  "Tags": [
+    "field content",
+    "occult crescent",
+    "forked tower"
+  ],
+  "DalamudApiLevel": 13,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "Punchline": "Utility for hosts in Forked Tower runs.",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "testing-live"
+}

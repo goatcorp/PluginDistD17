@@ -1,0 +1,24 @@
+{
+  "Author": "Pistachio Herald",
+  "Name": "Faded Orchestrion Roll Fixer",
+  "InternalName": "FadedRollFixer",
+  "AssemblyVersion": "0.1.1.1",
+  "Description": "Generate a crafting list for the faded orchestrion rolls in your inventory. Use /faded to begin",
+  "ApplicableVersion": "any",
+  "Tags": [
+    "orchestrion",
+    "roll",
+    "faded",
+    "crafting",
+    "music"
+  ],
+  "DalamudApiLevel": 13,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "Punchline": "Generate a crafting list for the faded orchestrion rolls in your inventory",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "testing-live"
+}
