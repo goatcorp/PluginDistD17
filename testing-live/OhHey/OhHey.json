@@ -2,7 +2,7 @@
   "Author": "Mei",
   "Name": "Oh Hey!",
   "InternalName": "OhHey",
-  "AssemblyVersion": "0.0.1.0",
+  "AssemblyVersion": "0.0.2.0",
   "Description": "This plugin notifies you when someone targets you, or emotes at you.\n\nCommands:\n  /ohhey - Opens the main window\n  /ohhey main - Opens the main window\n  /ohhey [config|settings] - Opens the settings window\n  /ohhey help - Displays the help message (will also display on invalid sub-commands)",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/MeiHasCrashed/OhHey",
