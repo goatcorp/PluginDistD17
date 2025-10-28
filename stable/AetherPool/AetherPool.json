@@ -1,0 +1,25 @@
+{
+  "Author": "rail",
+  "Name": "AetherPool",
+  "InternalName": "AetherPool",
+  "AssemblyVersion": "0.5.0.0",
+  "Description": "Play a game of pool directly in a Dalamud window. Use /pool to open.",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/rail2025/AetherPool",
+  "Tags": [
+    "game",
+    "pool",
+    "UI"
+  ],
+  "DalamudApiLevel": 13,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "IconUrl": "https://raw.githubusercontent.com/rail2025/AetherPool/main/icon.png",
+  "Punchline": "A 2D pool game inside Final Fantasy XIV.",
+  "Changelog": "v0.5.0.0: update for Dalamud api 13/patch 7.3.\n v0.4.0.0: Advanced triggers and major UI/visual enhancements. \n - Added 'Open on X' triggers for death, queue, etc.\n - Added a new title screen with background and outlined text.\n - Added a player assignment indicator to the HUD.\n - Added 'Victory'/'Game Over' text at the end of a match.\n - Replaced the cue ball with a new custom texture.",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "stable"
+}
