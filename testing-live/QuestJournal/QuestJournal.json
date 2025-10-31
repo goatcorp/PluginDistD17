@@ -2,7 +2,7 @@
   "Author": "QuackieMackie",
   "Name": "QuestJournal",
   "InternalName": "QuestJournal",
-  "AssemblyVersion": "1.2.0.2",
+  "AssemblyVersion": "1.2.0.3",
   "Description": "Quest Journal is a detailed quest tracker / viewer. Letting you see information about quest chains without using a wiki.",
   "ApplicableVersion": "any",
   "Tags": [
