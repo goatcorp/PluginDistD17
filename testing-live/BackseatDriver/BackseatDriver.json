@@ -2,7 +2,7 @@
   "Author": "Raytheon Vers",
   "Name": "Backseat Driver",
   "InternalName": "BackseatDriver",
-  "AssemblyVersion": "0.1.0.2",
+  "AssemblyVersion": "0.2.1.0",
   "Description": "Get Tank, DPS, and healer-specific advice when loading into an instance - no need to frantically google!",
   "ApplicableVersion": "any",
   "Tags": [

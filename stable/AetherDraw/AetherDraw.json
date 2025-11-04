@@ -2,8 +2,8 @@
   "Author": "rail",
   "Name": "AetherDraw",
   "InternalName": "AetherDraw",
-  "AssemblyVersion": "2.3.1.0",
-  "Description": "Draw strategy plans for encounters. Use /aetherdraw to open. Supports realtime multi-user, multi-platform collaboration. Also available at aetherdraw.me when plugins are down!!",
+  "AssemblyVersion": "2.4.0.0",
+  "Description": "Whiteboard raid planner for encounters. Use /aetherdraw to open. Supports realtime multi-user, multi-platform collaboration. Also available at aetherdraw.me when plugins are down!!",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/rail2025/AetherDraw",
   "Tags": [
@@ -23,7 +23,7 @@
   "ImageUrls": [],
   "IconUrl": "https://raw.githubusercontent.com/rail2025/AetherDraw/refs/heads/master/icon.png",
   "Punchline": "A realtime multi-user whiteboard raid planner. Compatible with aetherdraw.me",
-  "Changelog": "v2.3.1.0:Changed BG to image import, page sync fixes.\nv2.3.0.5: Fixed live session synchronization issue that caused duplicate objects (ghosting).\nv2.3.0.4: transform handle visible fix.\nv2.3.0.3: API 13.",
+  "Changelog": "v2.4.0.0:Added Status Icon search, per-page undo, page re-ordering, and live property editing.\nv2.3.1.0:Changed BG to image import, page sync fixes.",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "stable"

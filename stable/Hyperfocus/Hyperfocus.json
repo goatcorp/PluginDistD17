@@ -1,0 +1,20 @@
+{
+  "Author": "Nylfae",
+  "Name": "Hyperfocus",
+  "InternalName": "Hyperfocus",
+  "AssemblyVersion": "0.1.0.0",
+  "Description": "Points towards your targets when they're off-screen.",
+  "ApplicableVersion": "any",
+  "Tags": [
+    "target"
+  ],
+  "DalamudApiLevel": 13,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "Punchline": "Out of sight, still in mind.",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "stable"
+}
