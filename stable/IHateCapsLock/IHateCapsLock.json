@@ -2,8 +2,8 @@
   "Author": "Azure Gem",
   "Name": "I Hate Caps Lock",
   "InternalName": "IHateCapsLock",
-  "AssemblyVersion": "0.0.1.0",
-  "Description": "SORRY CAPS\nRemove caps lock when pressing the Enter / Return key.\nThis plugin contains no configuration.",
+  "AssemblyVersion": "0.0.2.1",
+  "Description": "SORRY CAPS\nRemove caps lock when pressing any of the configured keys.",
   "ApplicableVersion": "any",
   "Tags": [
     "caps",
