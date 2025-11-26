@@ -1,0 +1,29 @@
+{
+  "Author": "j0giwa",
+  "Name": "ComfyLoot",
+  "InternalName": "ComfyLoot",
+  "AssemblyVersion": "0.9.8.5",
+  "Description": "Tracks the contents and market value of items dropped while killing monsters. And drops from some other activities such as dungeons, raids, gathering, and maps.",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/j0giwa/ComfyLoot",
+  "Tags": [
+    "loot",
+    "drops",
+    "marketboard"
+  ],
+  "CategoryTags": [
+    "utility",
+    "other"
+  ],
+  "DalamudApiLevel": 13,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "ImageUrls": [],
+  "IconUrl": "https://raw.githubusercontent.com/j0giwa/ComfyLoot/refs/heads/master/Data/icon.png",
+  "Punchline": "RuneLite inspired drop-tracker",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "testing-live"
+}
