@@ -1,0 +1,28 @@
+{
+  "Author": "The Redheaded Witch",
+  "Name": "S Rank Assistant",
+  "InternalName": "SRankAssistant",
+  "AssemblyVersion": "1.0.0.0",
+  "Description": "Auto counter for S Rank Summoning! Counts kills, gathering attempts, and even discarding items. Tracker is per zone so you can keep track of multiple locations at once. Even tracks the kills of others.",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/TheRedheadedWitch/SRankAssistant",
+  "Tags": [
+    "Hunt",
+    "Utility"
+  ],
+  "CategoryTags": [
+    "Utility",
+    "UI"
+  ],
+  "DalamudApiLevel": 13,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "IconUrl": "https://raw.githubusercontent.com/TheRedheadedWitch/SRankAssistant/master/SRankAssistant/images/icon.png",
+  "Punchline": "I spent hours wokring hard coding so I could be lazy! Wouldn't you?'",
+  "Changelog": "Fixed some minor bugs.",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "testing-live"
+}

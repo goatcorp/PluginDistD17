@@ -1,0 +1,31 @@
+{
+  "Author": "The Redheaded Witch & WillWolf76",
+  "Name": "Fashion Report Calculator / Dye Finder",
+  "InternalName": "FashionReport",
+  "AssemblyVersion": "1.2.0.0",
+  "Description": "This is the new and improved Fashion Report System. This plugin will allow you to open a window that will show you what your fashion report status is vs the current week's theme.\n\nThere are a few parts to this. Since the only way to get Fashion Report for the week to my knowledge is speaking to Masked Rose after Tuesdays reset, this plugin takes the first person who does talk to him and updates everyone else. So only one person per week needs to speak to Masked Rose.\n\nYou can click on a theme and pull all the known items for that theme for that specific slot. You also get a very detailed breakdown of how much points you are getting based on what you are currently wearing.\n\nThe plugin also stores the attempts of those using the mod (just the data from fashioncheck, no user information) so that we can figure out the dyes faster and share information faster. The information in this table is wiped every week since once we discover the dyes, it is useless.\n\nI still have more upgrades to do, including adding a dye window and the window that will help calculate the weekly dyes. I already have an idea of how I want to write them, so it shouldn't take me too long. If you have suggestions on how I can upgrade this, please share with me on github!\n\nCredit for the program goes to it's original creator, WillWolf76, who wrote this for me originally.\n\nWhen this plugin updates the database, it also updates my Discord Bot which you can set up to post fashion report each week. It's set to update on Tuesdays and Fridays (week start and dye information added). Link to add the Discord Bot is in the about section.",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/TheRedheadedWitch/FashionReport",
+  "Tags": [
+    "Fashion Report",
+    "Gold Saucer",
+    "Mini Game",
+    "Masked Rose",
+    "Glamour",
+    "MGP"
+  ],
+  "CategoryTags": [
+    "Utility",
+    "UI"
+  ],
+  "DalamudApiLevel": 13,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "IconUrl": "https://github.com/TheRedheadedWitch/FashionReport/raw/main/FashionReport/images/icon.png",
+  "Punchline": "Know your Fashion Report points on the spot and help crowdsource new items and dyes!",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "testing-live"
+}

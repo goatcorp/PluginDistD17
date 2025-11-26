@@ -1,0 +1,25 @@
+{
+  "Author": "Beletre",
+  "Name": "Job Mount Roulette",
+  "InternalName": "JobMountRoulette",
+  "AssemblyVersion": "0.0.0.1",
+  "Description": "Enhance your mount roulette experience by customizing which mounts may appear for each job individually.",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/Beletre/JobMountRoulette",
+  "Tags": [
+    "mount",
+    "plugin",
+    "roulette",
+    "job"
+  ],
+  "DalamudApiLevel": 13,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "IconUrl": "https://raw.githubusercontent.com/Beletre/JobMountRoulette/main/images/icon.png",
+  "Punchline": "Customized mount roulette per job.",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "testing-live"
+}

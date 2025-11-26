@@ -1,0 +1,29 @@
+{
+  "Author": "The Redheaded Witch",
+  "Name": "Train Conductor",
+  "InternalName": "TrainConductor",
+  "AssemblyVersion": "1.0.0.0",
+  "Description": "Import your data from Turtle, then manage everything in the GUI!\n\nThere is a known bug with the dragging of List of monsters. Dragging works, but there is a graphical glitch while dragging. It is completely cosmetic but annoying. The arrows work without issue. I will work on fixing this.",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/TheRedheadedWitch/TrainConductor",
+  "Tags": [
+    "Hunt",
+    "Train",
+    "Utility"
+  ],
+  "CategoryTags": [
+    "Utility",
+    "UI"
+  ],
+  "DalamudApiLevel": 13,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "IconUrl": "https://raw.githubusercontent.com/TheRedheadedWitch/TrainConductor/master/TrainConductor/images/icon.png",
+  "Punchline": "Choo Choo",
+  "Changelog": "Fixed some minor bugs.",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "testing-live"
+}
