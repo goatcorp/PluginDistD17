@@ -2,8 +2,8 @@
   "Author": "GitHixy",
   "Name": "LootView",
   "InternalName": "LootView",
-  "AssemblyVersion": "1.2.5.0",
-  "Description": "Track all your loot with detailed statistics, duty tracking, history browser, trends analysis, and data export. Features modern UI with customizable styles and transparency. NEW in 1.2.5: Fishing loot tracking with ilms measurement, performance optimizations (fixed FPS drops), GPL-3.0 license, event cleanup fixes, .NET 9 upgrade.",
+  "AssemblyVersion": "1.2.6.0",
+  "Description": "Track all your loot with detailed statistics, duty tracking, history browser, trends analysis, and data export. Features modern UI with customizable styles and transparency. NEW in 1.2.6: Enhanced crafting synthesis tracking (coil/plank/length/stack/bolt of items), sack of Nuts support, improved item name parsing. v1.2.5: Fishing loot tracking with ilms measurement, performance optimizations (fixed FPS drops), GPL-3.0 license, event cleanup fixes, .NET 9 upgrade.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/GitHixy/LootView",
   "Tags": [
