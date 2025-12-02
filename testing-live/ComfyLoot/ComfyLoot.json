@@ -2,7 +2,7 @@
   "Author": "j0giwa",
   "Name": "ComfyLoot",
   "InternalName": "ComfyLoot",
-  "AssemblyVersion": "0.9.8.5",
+  "AssemblyVersion": "1.0.0.0",
   "Description": "Tracks the contents and market value of items dropped while killing monsters. And drops from some other activities such as dungeons, raids, gathering, and maps.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/j0giwa/ComfyLoot",
