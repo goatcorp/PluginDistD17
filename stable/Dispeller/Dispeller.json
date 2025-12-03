@@ -1,0 +1,25 @@
+{
+  "Author": "pupwife",
+  "Name": "Dispeller",
+  "InternalName": "Dispeller",
+  "AssemblyVersion": "1.1.0.0",
+  "Description": "A cute plugin to help you manage your Glamour Dresser by identifying items that share the same visual models.",
+  "ApplicableVersion": "any",
+  "Tags": [
+    "glamour",
+    "dresser",
+    "models",
+    "fashion",
+    "cute",
+    "utility"
+  ],
+  "DalamudApiLevel": 13,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "Punchline": "Easily clean out your Glamour Dresser.",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "stable"
+}
