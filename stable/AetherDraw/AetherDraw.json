@@ -2,8 +2,8 @@
   "Author": "rail",
   "Name": "AetherDraw",
   "InternalName": "AetherDraw",
-  "AssemblyVersion": "2.4.3.1",
-  "Description": "Whiteboard raid planner for encounters. Use /aetherdraw to open. Supports realtime multi-user, multi-platform collaboration. Also available at aetherdraw.me when plugins are down!!",
+  "AssemblyVersion": "2.4.4.0",
+  "Description": "Whiteboard raid planner for encounters. Use /aetherdraw to open. Supports realtime multi-user, multi-platform collaboration. Also available at https://aetherdraw.me to live sync with plugin users or when plugins are down!!",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/rail2025/AetherDraw",
   "Tags": [
@@ -22,8 +22,8 @@
   "LoadPriority": 0,
   "ImageUrls": [],
   "IconUrl": "https://raw.githubusercontent.com/rail2025/AetherDraw/refs/heads/master/icon.png",
-  "Punchline": "A realtime multi-user whiteboard raid planner. Compatible with aetherdraw.me",
-  "Changelog": "v2.4.3.1:Serialization fix.\nv2.4.3.0: Added Pie/Wedge shape tool. Added Caster role icon. Added Job icon swapping in Properties window. Added new Bind/Ignore target markers. Updated Party icon menu layout.\nv2.4.2.0: Overhauled Load/Import window with tabs. Added ability to 'Append' plans (merge pages) from files or URLs. Replaced old Load popup.\nv2.4.1.0: Added Community Plan Browser (Search & Load).",
+  "Punchline": "A realtime multi-user whiteboard raid planner. Compatible with https://aetherdraw.me",
+  "Changelog": "v2.4.4.0: Added Gaze, Towers, Starburst, and Exas mechanic icons. Added Laser Pointer tool (ephemeral). Added 'Lock All Items' canvas toggle.\nv2.4.3.1:Serialization fix.\nv2.4.3.0: Added Pie/Wedge shape tool. Added Caster role icon. Added Job icon swapping in Properties window. Added new Bind/Ignore target markers. Updated Party icon menu layout.\nv2.4.2.0: Overhauled Load/Import window with tabs. Added ability to 'Append' plans (merge pages) from files or URLs. Replaced old Load popup.\nv2.4.1.0: Added Community Plan Browser (Search & Load).",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "stable"
