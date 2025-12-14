@@ -2,7 +2,7 @@
   "Author": "Koenari",
   "Name": "Himbeertoni Raid Tool",
   "InternalName": "HimbeertoniRaidTool",
-  "AssemblyVersion": "1.10.0.0",
+  "AssemblyVersion": "1.10.0.2",
   "Description": "A collection of useful tools for raid groups, including loot management",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Koenari/HimbeertoniRaidTool/",
@@ -18,7 +18,7 @@
   "CanUnloadAsync": false,
   "LoadPriority": 0,
   "Punchline": "All you need for Raiding",
-  "Changelog": "    New Module: Planner\nPlan and document your raid sessions. Keep track of absences and loot\n Open via /hrt planner\n    Loot Session: Loot assigned in loot session can be saved to the corresponding raid session\n    General: You can disable not needed modules in the config\n",
+  "Changelog": "    User Interface: Better input for dates and times\n    User Interface: Can now add any character to a raid session\n",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "testing-live"
