@@ -1,11 +1,11 @@
 {
-  "Author": "rekyuu",
+  "Author": "rekyuu, gaypotatoemma",
   "Name": "Stanley Parable XIV",
   "InternalName": "StanleyParableXiv",
-  "AssemblyVersion": "4.0.0.0",
-  "Description": "Check /narrator for full options or use /narratorvolume to set volume manually.",
+  "AssemblyVersion": "4.1.0.0",
+  "Description": "Witty commentary to the brilliant things you do.",
   "ApplicableVersion": "any",
-  "RepoUrl": "https://github.com/rekyuu/StanleyParableXiv",
+  "RepoUrl": "https://github.com/gaypotatoemma/StanleyParableXiv",
   "Tags": [
     "narrator",
     "sound",
@@ -13,7 +13,7 @@
     "Stanley Parable",
     "narrator"
   ],
-  "DalamudApiLevel": 13,
+  "DalamudApiLevel": 14,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
