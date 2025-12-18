@@ -2,15 +2,15 @@
   "Author": "Fuwa Aika",
   "Name": "Wave Wrangler",
   "InternalName": "WaveWrangler",
-  "AssemblyVersion": "1.0.1.0",
-  "Description": "Literally all this plugin does is send \"o/\" in chat if you accidentally type \"/o\"",
+  "AssemblyVersion": "1.0.2.0",
+  "Description": "Never mess up your wave emoticon again!",
   "ApplicableVersion": "any",
   "Tags": [
     "wave",
     "chat",
     "correct"
   ],
-  "DalamudApiLevel": 13,
+  "DalamudApiLevel": 14,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
