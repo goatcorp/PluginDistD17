@@ -2,8 +2,8 @@
   "Author": "Fuwa Aika",
   "Name": "Razer Reader",
   "InternalName": "RazerReader",
-  "AssemblyVersion": "1.1.3.0",
-  "Description": "Select your installed version of Razer Synapse to automatically pull device battery levels from local log files",
+  "AssemblyVersion": "1.1.4.0",
+  "Description": "A Dalamud plugin for FFXIV that displays the battery level of your wireless Razer devices",
   "ApplicableVersion": "any",
   "Tags": [
     "razer",
@@ -13,7 +13,7 @@
     "keyboard",
     "wireless"
   ],
-  "DalamudApiLevel": 13,
+  "DalamudApiLevel": 14,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,

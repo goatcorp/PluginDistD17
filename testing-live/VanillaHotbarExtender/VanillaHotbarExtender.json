@@ -2,8 +2,8 @@
   "Author": "mkalash",
   "Name": "Vanilla Hotbar Extender",
   "InternalName": "VanillaHotbarExtender",
-  "AssemblyVersion": "1.2.3.0",
-  "Description": "Allows you to use commands to save the actions in a hotbar and then load them into any other hotbar. Like the vanilla \"/hotbar copy\" command, but unlimited, without taking up other hotbars to save the actions.",
+  "AssemblyVersion": "1.2.4.0",
+  "Description": "Save and load actions into hotbars without taking up extra job hotbars.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/mustafakalash/VanillaHotbarExtender.git",
   "Tags": [
@@ -11,13 +11,13 @@
     "ui",
     "menu"
   ],
-  "DalamudApiLevel": 13,
+  "DalamudApiLevel": 14,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
   "LoadPriority": 0,
   "Punchline": "Save and load actions into hotbars without taking up extra job hotbars.",
-  "Changelog": "7.3/api13",
+  "Changelog": "7.4/api14",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "testing-live"
