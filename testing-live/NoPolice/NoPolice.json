@@ -2,8 +2,8 @@
   "Author": "Nocturn",
   "Name": "NoPolice",
   "InternalName": "NoPolice",
-  "AssemblyVersion": "1.0.0.0",
-  "Description": "Hides the Weeaboo Police. there are no commands, just turning the plugin on/off will hide/show all of them",
+  "AssemblyVersion": "1.0.0.1",
+  "Description": "NoPolice",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Noctrepo/NoPolice",
   "Tags": [
@@ -11,13 +11,13 @@
     "Weeaboo",
     "Weeaboo Police"
   ],
-  "DalamudApiLevel": 13,
+  "DalamudApiLevel": 14,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
   "LoadPriority": 0,
   "IconUrl": "https://github.com/Noctrepo/NoPolice/blob/master/NoPolice/Icon/NoPolice.png",
-  "Punchline": "Tired of seeing the naked Roes? This plugin hides the Weeaboo Police from view",
+  "Punchline": "Removes the Weeaboo Police",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "testing-live"
