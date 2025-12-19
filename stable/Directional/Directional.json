@@ -2,8 +2,8 @@
   "Author": "Infi, herulume, sevii",
   "Name": "Directional",
   "InternalName": "Directional",
-  "AssemblyVersion": "1.0.0.0",
-  "Description": "Draw the compass directionals around the target (boss relative or true north)",
+  "AssemblyVersion": "1.0.1.0",
+  "Description": "Draw the compass directionals around the target for easier callouts.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Infiziert90/Directional",
   "Tags": [
@@ -17,7 +17,7 @@
     "overlay",
     "indicator"
   ],
-  "DalamudApiLevel": 13,
+  "DalamudApiLevel": 14,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,

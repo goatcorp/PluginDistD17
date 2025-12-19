@@ -2,8 +2,8 @@
   "Author": "Beletre",
   "Name": "Job Mount Roulette",
   "InternalName": "JobMountRoulette",
-  "AssemblyVersion": "0.0.0.1",
-  "Description": "Enhance your mount roulette experience by customizing which mounts may appear for each job individually.",
+  "AssemblyVersion": "1.0.0.0",
+  "Description": "Job Mount Roulette",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Beletre/JobMountRoulette",
   "Tags": [
@@ -12,7 +12,7 @@
     "roulette",
     "job"
   ],
-  "DalamudApiLevel": 13,
+  "DalamudApiLevel": 14,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,

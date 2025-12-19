@@ -2,8 +2,8 @@
   "Author": "spide-r",
   "Name": "SoundEffectMuter",
   "InternalName": "SoundEffectMuter",
-  "AssemblyVersion": "1.0.1.0",
-  "Description": "This plugin silences all text sound effects and quick chat while in PvP zones including the Wolves Den.\nNo Configuration needed! Just install and forget.\n\nFor feedback, please contact .spider in the Dalamud discord.",
+  "AssemblyVersion": "1.2.1.0",
+  "Description": "PvP Sound Effect Muter",
   "ApplicableVersion": "any",
   "Tags": [
     "frontlines",
@@ -17,7 +17,7 @@
     "utility",
     "other"
   ],
-  "DalamudApiLevel": 13,
+  "DalamudApiLevel": 14,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,

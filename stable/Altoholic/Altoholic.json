@@ -2,15 +2,15 @@
   "Author": "Sohtoren",
   "Name": "Altoholic",
   "InternalName": "Altoholic",
-  "AssemblyVersion": "1.0.0.0",
-  "Description": "Get informations (gils, currencies,  items, inventory, retainers, etc) and progress from all your characters",
+  "AssemblyVersion": "1.1.0.0",
+  "Description": "Altoholic plugin",
   "ApplicableVersion": "any",
   "Tags": [
     "alts",
     "altoholic",
     "plugin"
   ],
-  "DalamudApiLevel": 13,
+  "DalamudApiLevel": 14,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,

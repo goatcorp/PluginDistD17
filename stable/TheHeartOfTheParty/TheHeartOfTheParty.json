@@ -2,14 +2,14 @@
   "Author": "Anna, maintained by Khayle",
   "Name": "The Heart of the Party",
   "InternalName": "TheHeartOfTheParty",
-  "AssemblyVersion": "1.0.10.0",
+  "AssemblyVersion": "1.0.11.0",
   "Description": "The Heart of the Party is a remake of the in-game title picker, but it\nsupports searching. Note that it doesn't add a command to set your title; use\nthe built-in /title command instead.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://git.anna.lgbt/anna/TheHeartOfTheParty",
   "Tags": [
     "titles"
   ],
-  "DalamudApiLevel": 13,
+  "DalamudApiLevel": 14,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,

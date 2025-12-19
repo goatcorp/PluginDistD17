@@ -1,9 +1,9 @@
 {
-  "Author": "Lynesth",
+  "Author": "Lynesth, maintained by Khayle",
   "Name": "Better Targeting System",
   "InternalName": "BetterTargetingSystem",
-  "AssemblyVersion": "0.0.14.0",
-  "Description": "A more intelligent targeting system for the game which also includes new keybinds.",
+  "AssemblyVersion": "0.0.15.0",
+  "Description": "Better Targeting System",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Lynesth/BetterTargetingSystem",
   "Tags": [
@@ -11,7 +11,7 @@
     "Target",
     "Targeting"
   ],
-  "DalamudApiLevel": 13,
+  "DalamudApiLevel": 14,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,

@@ -2,8 +2,8 @@
   "Author": "spide-r",
   "Name": "PvPAnnouncer",
   "InternalName": "PvPAnnouncer",
-  "AssemblyVersion": "1.2.2.0",
-  "Description": "This plugin will cause Metems voice lines to play mid-match upon specific conditions being met.\n\nYou must have Dawntrail installed & Voice Lines unmuted for this plugin to function!",
+  "AssemblyVersion": "1.3.2.0",
+  "Description": "A PvP Announcer Plugin",
   "ApplicableVersion": "any",
   "Tags": [
     "frontlines",
@@ -17,7 +17,7 @@
     "utility",
     "other"
   ],
-  "DalamudApiLevel": 13,
+  "DalamudApiLevel": 14,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
