@@ -2,7 +2,7 @@
   "Author": "Ennea",
   "Name": "Very Important Item",
   "InternalName": "VeryImportantItem",
-  "AssemblyVersion": "1.0.0.1",
+  "AssemblyVersion": "1.0.0.2",
   "Description": "Adding and removing items to and from the list of very important items can be done in the plugin's configuration window and by right-clicking items in the game. Very important items get their name highlighted in the tooltip, and a sound effect plays in addition to that to ensure you've seen its presence.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Ennea/VeryImportantItem",
@@ -10,7 +10,7 @@
     "tooltip",
     "items"
   ],
-  "DalamudApiLevel": 13,
+  "DalamudApiLevel": 14,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
