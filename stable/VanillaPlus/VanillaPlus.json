@@ -2,13 +2,14 @@
   "Author": "MidoriKami",
   "Name": "VanillaPlus",
   "InternalName": "VanillaPlus",
-  "AssemblyVersion": "1.0.7.15",
-  "Description": "This plugin is primarily focused on various UI adjustments, behavior adjustments, and adding new native elements to the game.",
+  "AssemblyVersion": "1.1.0.0",
+  "Description": "This plugin is primarily focused on various UI adjustments, behavior adjustments, and adding new native elements to the game",
   "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/MidoriKami/VanillaPlus",
   "Tags": [
-    "UI"
+    "ui"
   ],
-  "DalamudApiLevel": 13,
+  "DalamudApiLevel": 14,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
