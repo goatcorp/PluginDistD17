@@ -1,17 +1,17 @@
 {
-  "Author": "Infi, kalilistic",
+  "Author": "Infi, kalilistic, Caitlyn",
   "Name": "PriceCheck",
   "InternalName": "PriceCheck",
-  "AssemblyVersion": "2.7.4.0",
+  "AssemblyVersion": "2.7.5.0",
   "Description": "To check prices, hold your keybind and then hover over an item or via the item's context menu.\nThe prices are pulled from the crowd-sourced site Universalis.",
   "ApplicableVersion": "any",
-  "RepoUrl": "https://github.com/Infiziert90/PriceCheck",
+  "RepoUrl": "https://github.com/caitlyn-gg/PriceCheck",
   "Tags": [
     "price",
     "marketboard",
     "universalis"
   ],
-  "DalamudApiLevel": 13,
+  "DalamudApiLevel": 14,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,

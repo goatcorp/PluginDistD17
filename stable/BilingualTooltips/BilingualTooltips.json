@@ -2,8 +2,8 @@
   "Author": "Elypha",
   "Name": "BilingualTooltips",
   "InternalName": "BilingualTooltips",
-  "AssemblyVersion": "1.4.3.0",
-  "Description": "Yes, we have tooltips displayed in two languages now. You paid SE for 4 languages so make very good use of it.\n\n- Interested in localised item descriptions in different languages?\n- Got fed up of transliterated カタカナ and would rather read just the original words?\n\nWe've got you! See plugin config to customise your own experience.\n",
+  "AssemblyVersion": "1.5.0.0",
+  "Description": "In case the WoL speaks more than one language",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Elypha/BilingualTooltips",
   "Tags": [
@@ -17,7 +17,7 @@
     "UI",
     "Other"
   ],
-  "DalamudApiLevel": 13,
+  "DalamudApiLevel": 14,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
