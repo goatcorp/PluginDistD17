@@ -2,8 +2,8 @@
   "Author": "attickdoor",
   "Name": "Ability Ants",
   "InternalName": "AbilityAnts",
-  "AssemblyVersion": "1.0.2.1",
-  "Description": "For the WoW player who can't live without WeakAuras lighting up a button when it's off CD. /pants to configure.",
+  "AssemblyVersion": "1.0.2.2",
+  "Description": "Ants in your /pants!",
   "ApplicableVersion": "any",
   "Tags": [
     "combat",
@@ -11,7 +11,7 @@
     "ants",
     "aura"
   ],
-  "DalamudApiLevel": 13,
+  "DalamudApiLevel": 14,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
