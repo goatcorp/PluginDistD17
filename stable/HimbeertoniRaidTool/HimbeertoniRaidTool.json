@@ -2,8 +2,8 @@
   "Author": "Koenari",
   "Name": "Himbeertoni Raid Tool",
   "InternalName": "HimbeertoniRaidTool",
-  "AssemblyVersion": "1.9.1.1",
-  "Description": "A collection of useful tools for raid groups, including loot management",
+  "AssemblyVersion": "1.10.1.0",
+  "Description": "A collection of useful tools for RaidGroups, including loot management",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Koenari/HimbeertoniRaidTool/",
   "Tags": [
@@ -12,13 +12,13 @@
     "Equipment",
     "Gear"
   ],
-  "DalamudApiLevel": 13,
+  "DalamudApiLevel": 14,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
   "LoadPriority": 0,
   "Punchline": "All you need for Raiding",
-  "Changelog": "    General: Updated for 7.3\n",
+  "Changelog": "    General: Updated for 7.4\n    Loot Session: All non weapon drops are now pre-selected in loot session\n",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "stable"
