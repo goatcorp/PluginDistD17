@@ -2,14 +2,14 @@
   "Author": "Eidolon",
   "Name": "Dynamic UI Scaling",
   "InternalName": "DynamicUIScaling",
-  "AssemblyVersion": "1.13.1.0",
-  "Description": "Automatically finely scales the game UI by resolution.",
+  "AssemblyVersion": "1.14.1.0",
+  "Description": "Dynamic UI Scaling for FFXIV",
   "ApplicableVersion": "any",
   "Tags": [
     "plugin",
     "ui"
   ],
-  "DalamudApiLevel": 13,
+  "DalamudApiLevel": 14,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
