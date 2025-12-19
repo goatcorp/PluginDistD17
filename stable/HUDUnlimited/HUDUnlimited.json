@@ -2,8 +2,8 @@
   "Author": "MidoriKami",
   "Name": "HUDUnlimited",
   "InternalName": "HUDUnlimited",
-  "AssemblyVersion": "1.1.2.4",
-  "Description": "Allows you to modify any and all individual elements of the user interface to allow you to customize it however you wish.",
+  "AssemblyVersion": "1.2.0.0",
+  "Description": "Allows you to modify any and all individual elements of the user interface to allow you to customize it however you wish",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/MidoriKami/HUDUnlimited",
   "Tags": [
@@ -13,12 +13,12 @@
     "hud",
     "hotbar"
   ],
-  "DalamudApiLevel": 13,
+  "DalamudApiLevel": 14,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
   "LoadPriority": 0,
-  "Punchline": "Total control of your User Interface.",
+  "Punchline": "Total control of your User Interface",
   "AcceptsFeedback": false,
   "_isDip17Plugin": true,
   "_Dip17Channel": "stable"
