@@ -2,8 +2,8 @@
   "Author": "Meoiswa",
   "Name": "Auto BGM",
   "InternalName": "AutoBGM",
-  "AssemblyVersion": "1.4.0.0",
-  "Description": "Enables automatic BGM switching based Conditions.",
+  "AssemblyVersion": "1.5.0.0",
+  "Description": "Automated BGM switching based on Client Conditions.",
   "ApplicableVersion": "any",
   "Tags": [
     "UI",
@@ -12,12 +12,12 @@
     "bgm",
     "switch"
   ],
-  "DalamudApiLevel": 13,
+  "DalamudApiLevel": 14,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
   "LoadPriority": 0,
-  "Punchline": "Like /bgm but auto",
+  "Punchline": "Like /bgm but automatic",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "stable"

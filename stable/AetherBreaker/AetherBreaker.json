@@ -2,8 +2,8 @@
   "Author": "rail",
   "Name": "AetherBreaker",
   "InternalName": "AetherBreaker",
-  "AssemblyVersion": "2.1.0.3",
-  "Description": "Opens on death, or /abreaker. A Puzzle Bobble clone mini-game.",
+  "AssemblyVersion": "2.1.1.3",
+  "Description": "A game to play when dead. Open with /abreaker.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/rail2025/AetherBreaker",
   "Tags": [
@@ -12,14 +12,14 @@
     "idle",
     "pop"
   ],
-  "DalamudApiLevel": 13,
+  "DalamudApiLevel": 14,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
   "LoadPriority": 0,
   "IconUrl": "https://raw.githubusercontent.com/rail2025/AetherDraw/refs/heads/master/icon.png",
   "Punchline": "A game to play when dead. A Puzzle Bobble clone mini-game.",
-  "Changelog": "v2.1.0.3: fixed audio volume setting bug. \nv2.1.0.2:net build fix for compiling\nv2.1.0.1: update for patch 7.3/api 13.\nv2.1.0.0: Music chest unlock added, multiplayer server fix, redesign aiming line.",
+  "Changelog": "v2.1.1.3:API 14, 7.4\nv2.1.0.3: fixed audio volume setting bug. \nv2.1.0.2:net build fix for compiling\nv2.1.0.1: update for patch 7.3/api 13.\nv2.1.0.0: Music chest unlock added, multiplayer server fix, redesign aiming line.",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "stable"
