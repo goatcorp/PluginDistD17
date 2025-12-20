@@ -2,14 +2,14 @@
   "Author": "electr0sheep, Nuko",
   "Name": "Item Vendor Location",
   "InternalName": "ItemVendorLocation",
-  "AssemblyVersion": "2.11.0.0",
-  "Description": "Adds a context menu option for items that will show you where to find items you can buy off a vendor",
+  "AssemblyVersion": "2.12.0.0",
+  "Description": "Dalamud plugin for item vendors",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/electr0sheep/ItemVendorLocation",
   "Tags": [
     "item location vendor"
   ],
-  "DalamudApiLevel": 13,
+  "DalamudApiLevel": 14,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
