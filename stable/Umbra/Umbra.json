@@ -2,8 +2,8 @@
   "Author": "Una",
   "Name": "Umbra XIV",
   "InternalName": "Umbra",
-  "AssemblyVersion": "3.1.9.0",
-  "Description": "Consolidates common UI elements and actions into a single uniform interface in the form of a set of highly customizable toolbars.",
+  "AssemblyVersion": "3.1.10.0",
+  "Description": "Umbra UI",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/una-xiv/umbra",
   "Tags": [
@@ -12,7 +12,7 @@
     "markers",
     "toolbar"
   ],
-  "DalamudApiLevel": 13,
+  "DalamudApiLevel": 14,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,

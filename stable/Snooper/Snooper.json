@@ -2,8 +2,8 @@
   "Author": "Vielle Janlenoux",
   "Name": "Snooper",
   "InternalName": "Snooper",
-  "AssemblyVersion": "1.5.0.0",
-  "Description": "Adds a /snooper command that shows a separate window that shows only messages from the player you're currently targeting. Useful for keeping track of different conversations during crowded RP events.",
+  "AssemblyVersion": "1.5.0.1",
+  "Description": "See chat messages posted by your current target.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://codeberg.org/Linneris/dalamud-snooper",
   "Tags": [
@@ -13,7 +13,7 @@
     "listener",
     "snooper"
   ],
-  "DalamudApiLevel": 13,
+  "DalamudApiLevel": 14,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,

@@ -2,15 +2,15 @@
   "Author": "wompscode",
   "Name": "NowPlaying",
   "InternalName": "NowPlaying",
-  "AssemblyVersion": "1.3.0.5",
-  "Description": "Display what is playing in your server bar, and play/pause/skip. Great with macros! (--> Windows only <--)",
+  "AssemblyVersion": "1.3.0.6",
+  "Description": "Display what is playing in your server bar, and play/pause/skip.",
   "ApplicableVersion": "any",
   "Tags": [
     "music",
     "background",
     "utility"
   ],
-  "DalamudApiLevel": 13,
+  "DalamudApiLevel": 14,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
