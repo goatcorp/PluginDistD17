@@ -2,8 +2,8 @@
   "Author": "Pistachio Herald",
   "Name": "Faded Orchestrion Roll Fixer",
   "InternalName": "FadedRollFixer",
-  "AssemblyVersion": "0.1.1.1",
-  "Description": "Generate a crafting list for the faded orchestrion rolls in your inventory. Use /faded to begin",
+  "AssemblyVersion": "0.1.1.2",
+  "Description": "An FFXIV plugin to make fixing faded orchestrion rolls easier.",
   "ApplicableVersion": "any",
   "Tags": [
     "orchestrion",
@@ -12,7 +12,7 @@
     "crafting",
     "music"
   ],
-  "DalamudApiLevel": 13,
+  "DalamudApiLevel": 14,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,

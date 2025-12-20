@@ -2,15 +2,15 @@
   "Author": "img",
   "Name": "Island Workshop Search",
   "InternalName": "IslandWorkshopSearch",
-  "AssemblyVersion": "1.0.0.4",
-  "Description": "Search items by splitting search terms with | \n     Example: papri|shark|ink \n\nStep-by-step search by splitting terms with a comma [ , ] \n     Example: poti,garn,horn \n     Will search for 'poti' first, then after adding and reopening window, will search for 'garn' \n\n Or just copy and paste the entire Overseas Casuals Squawkbox recommendations. \n\nWorks with every game client language.",
+  "AssemblyVersion": "1.0.0.5",
+  "Description": "idk search the island workshop or something",
   "ApplicableVersion": "any",
   "Tags": [
     "island sanctuary",
     "island workshop",
     "search"
   ],
-  "DalamudApiLevel": 13,
+  "DalamudApiLevel": 14,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
