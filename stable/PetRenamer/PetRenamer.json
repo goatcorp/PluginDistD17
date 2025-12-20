@@ -2,8 +2,8 @@
   "Author": "Glyceri",
   "Name": "Pet Nicknames",
   "InternalName": "PetRenamer",
-  "AssemblyVersion": "2.7.1.0",
-  "Description": "Give your minions, Carbuncles and Faeries cute nicknames\nand share them with your friends.",
+  "AssemblyVersion": "2.8.0.0",
+  "Description": "A pet nickname plugin.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Glyceri/FFXIVPetRenamer",
   "Tags": [
@@ -16,7 +16,7 @@
     "PetNicknames",
     "PetRenamer"
   ],
-  "DalamudApiLevel": 13,
+  "DalamudApiLevel": 14,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,

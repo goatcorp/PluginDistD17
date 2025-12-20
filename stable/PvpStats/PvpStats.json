@@ -2,15 +2,15 @@
   "Author": "SaMo",
   "Name": "PvP Tracker",
   "InternalName": "PvpStats",
-  "AssemblyVersion": "2.6.0.4",
-  "Description": "Record, browse and filter your Crystalline Conflict, Frontline and Rival Wings match history, view match scoreboards and view aggregated statistics like win rate and average damage dealt per match.",
+  "AssemblyVersion": "2.6.1.0",
+  "Description": "Pvp Stats",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/wrath16/PvpStats",
   "Tags": [
     "pvp",
     "statistics"
   ],
-  "DalamudApiLevel": 13,
+  "DalamudApiLevel": 14,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
