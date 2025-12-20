@@ -2,8 +2,8 @@
   "Author": "Fuwa Aika",
   "Name": "Housing Herald",
   "InternalName": "HousingHerald",
-  "AssemblyVersion": "1.0.0.0",
-  "Description": "Upon login, reminds you if it's the entry period and you haven't bid on a house yet. If you have bid, get reminders to check the plot once the results period comes around!",
+  "AssemblyVersion": "1.0.1.0",
+  "Description": "A Dalamud plugin for FFXIV that reminds the player when the results are in for the house they bid on",
   "ApplicableVersion": "any",
   "Tags": [
     "house",
@@ -13,7 +13,7 @@
     "reminder",
     "plot"
   ],
-  "DalamudApiLevel": 13,
+  "DalamudApiLevel": 14,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
