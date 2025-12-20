@@ -2,13 +2,14 @@
   "Author": "Olaren",
   "Name": "Status Contrast",
   "InternalName": "StatusContrast",
-  "AssemblyVersion": "2.0.0.0",
+  "AssemblyVersion": "3.0.0.0",
   "Description": "You will finally be able to easily see the timer of your buffs/debuffs properly when the arena background is bright!",
   "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/Olaren15/ffxiv-status-contrast",
   "Tags": [
-    "ui"
+    "UI"
   ],
-  "DalamudApiLevel": 13,
+  "DalamudApiLevel": 14,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
