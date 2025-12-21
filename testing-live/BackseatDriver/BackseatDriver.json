@@ -2,8 +2,8 @@
   "Author": "Raytheon Vers",
   "Name": "Backseat Driver",
   "InternalName": "BackseatDriver",
-  "AssemblyVersion": "0.2.1.1",
-  "Description": "No more frantic googling in duties. Use to get general and role-specific duty hints straight in the chat window.",
+  "AssemblyVersion": "0.2.1.2",
+  "Description": "Backseat driver plugin.",
   "ApplicableVersion": "any",
   "Tags": [
     "raid",
@@ -11,7 +11,7 @@
     "plugin",
     "helper"
   ],
-  "DalamudApiLevel": 13,
+  "DalamudApiLevel": 14,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
