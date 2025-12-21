@@ -2,8 +2,8 @@
   "Author": "Rül Hölos",
   "Name": "Bartender",
   "InternalName": "Bartender",
-  "AssemblyVersion": "1.1.8.0",
-  "Description": "Save and load hotbars with macros and/or chat commands. We all need more than 10 hotbars, well now we do have those.",
+  "AssemblyVersion": "1.1.8.1",
+  "Description": "Save and load hotbar profiles with chat commands and/or macros.\nAllows for automation too!",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/RulHolos/Bartender",
   "Tags": [
@@ -12,7 +12,7 @@
     "ui",
     "menu"
   ],
-  "DalamudApiLevel": 13,
+  "DalamudApiLevel": 14,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
