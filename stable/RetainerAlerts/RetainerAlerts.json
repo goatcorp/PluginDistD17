@@ -1,0 +1,23 @@
+{
+  "Author": "Ibcrootbeer",
+  "Name": "Retainer Alerts",
+  "InternalName": "RetainerAlerts",
+  "AssemblyVersion": "1.3.0.0",
+  "Description": "Reminds you about retainer ventures.",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/Ibcrootbeer/RetainerAlerts",
+  "Tags": [
+    "retainer",
+    "alert",
+    "venture"
+  ],
+  "DalamudApiLevel": 14,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "Punchline": "Reminds you about retainer ventures.",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "stable"
+}

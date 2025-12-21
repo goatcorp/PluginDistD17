@@ -1,0 +1,26 @@
+{
+  "Author": "Tanker Tanker(aka Nvrnight)",
+  "Name": "Party Finder Search Plugin",
+  "InternalName": "PFSearch",
+  "AssemblyVersion": "1.0.0.0",
+  "Description": "A Party Finder plugin",
+  "ApplicableVersion": "any",
+  "Tags": [
+    "partyfinder",
+    "party",
+    "finder",
+    "pf",
+    "tanker",
+    "nvrnight",
+    "plugin"
+  ],
+  "DalamudApiLevel": 14,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "Punchline": "Find party finder groups easier.",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "stable"
+}
