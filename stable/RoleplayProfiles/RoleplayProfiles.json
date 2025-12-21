@@ -2,8 +2,8 @@
   "Author": "Vielle Janlenoux",
   "Name": "RPP - Roleplay Profiles",
   "InternalName": "RoleplayProfiles",
-  "AssemblyVersion": "1.2.0.3",
-  "Description": "A plugin for roleplayers, displaying character profiles from Central Archives (centralarchives.org) and its regional RP portals, Chaos Archives (chaosarchives.org) and Crystal Archives (crystalarchives.org), for characters with the RP flag on.",
+  "AssemblyVersion": "1.2.0.4",
+  "Description": "Dalamud plugin for in-game roleplay profiles.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://codeberg.org/Linneris/dalamud-roleplay-profiles",
   "Tags": [
@@ -11,7 +11,7 @@
     "rp",
     "tooltip"
   ],
-  "DalamudApiLevel": 13,
+  "DalamudApiLevel": 14,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
