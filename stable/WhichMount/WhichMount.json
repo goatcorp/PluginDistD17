@@ -2,8 +2,8 @@
   "Author": "Megurt",
   "Name": "Which Mount",
   "InternalName": "WhichMount",
-  "AssemblyVersion": "1.3.8.0",
-  "Description": "Adds a 'Mount Search' option to the target's context menu, displaying mount information and acquisition details in the chat. Also includes a searchable mount database with detailed navigation.",
+  "AssemblyVersion": "1.4.0.0",
+  "Description": "Searching for other player's mount",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/megurte/WhichMount",
   "Tags": [
@@ -13,7 +13,7 @@
     "Information",
     "GameData"
   ],
-  "DalamudApiLevel": 13,
+  "DalamudApiLevel": 14,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
