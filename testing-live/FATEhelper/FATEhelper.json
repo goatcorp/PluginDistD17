@@ -2,8 +2,8 @@
   "Author": "Teechep Bird",
   "Name": "FATE Helper",
   "InternalName": "FATEhelper",
-  "AssemblyVersion": "0.0.0.1",
-  "Description": "Displays a list of all FATEs in the current area with: time remaining, percent completed, and bonus marker. Clicking on the FATE name will flag it, and automatically teleport you to the closest aetheryte (if it's faster than flying there). NOTE: this plugin does not track specific FATEs. You can add the Sonar plugin to track those.",
+  "AssemblyVersion": "0.0.0.2",
+  "Description": "Shows a list of active FATEs with option for flagging and teleporting.",
   "ApplicableVersion": "any",
   "Tags": [
     "fate",
@@ -12,7 +12,7 @@
     "qol",
     "quality of life"
   ],
-  "DalamudApiLevel": 13,
+  "DalamudApiLevel": 14,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,

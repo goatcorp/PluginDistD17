@@ -2,8 +2,8 @@
   "Author": "salanth357",
   "Name": "NoTypeSay",
   "InternalName": "NoTypeSay",
-  "AssemblyVersion": "1.0.2.0",
-  "Description": "Adds a button on the duty list for /say quests like quest items and emotes have!\n Compatible with all languages and controllers.",
+  "AssemblyVersion": "1.0.2.1",
+  "Description": "Tired of typing snae ling?",
   "ApplicableVersion": "any",
   "Tags": [
     "quest",
@@ -13,7 +13,7 @@
     "UI",
     "Utility"
   ],
-  "DalamudApiLevel": 13,
+  "DalamudApiLevel": 14,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
