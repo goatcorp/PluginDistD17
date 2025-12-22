@@ -2,8 +2,8 @@
   "Author": "Kurochi",
   "Name": "Pet Scale",
   "InternalName": "PetScale",
-  "AssemblyVersion": "2.0.3.1",
-  "Description": "Adjust the scale of your own pets and other player's pets, independent of each other.",
+  "AssemblyVersion": "2.0.5.0",
+  "Description": "Customize pet scale.",
   "ApplicableVersion": "any",
   "Tags": [
     "pet",
@@ -11,7 +11,7 @@
     "size",
     "summon"
   ],
-  "DalamudApiLevel": 12,
+  "DalamudApiLevel": 14,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
