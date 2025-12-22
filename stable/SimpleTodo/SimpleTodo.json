@@ -2,8 +2,8 @@
   "Author": "Lunalicious",
   "Name": "Simple Todo",
   "InternalName": "SimpleTodo",
-  "AssemblyVersion": "0.0.4.0",
-  "Description": "/ptodo to open the Todo List\n/ptodoconfig to open the Configuration",
+  "AssemblyVersion": "0.0.5.0",
+  "Description": "Todo List Plugin",
   "ApplicableVersion": "any",
   "RepoUrl": "https://gitlab.com/moonfox-projects/simpletodo",
   "Tags": [
@@ -14,7 +14,7 @@
   "CategoryTags": [
     "utility"
   ],
-  "DalamudApiLevel": 13,
+  "DalamudApiLevel": 14,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
