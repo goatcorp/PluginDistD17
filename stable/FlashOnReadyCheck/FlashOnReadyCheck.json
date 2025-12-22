@@ -2,8 +2,8 @@
   "Author": "Pistachio Herald",
   "Name": "Flash On Ready Check",
   "InternalName": "FlashOnReadyCheck",
-  "AssemblyVersion": "0.0.0.1",
-  "Description": "Flash FFXIV's program on the taskbar when a /readycheck starts. Use /readyflash to test the window flashing.",
+  "AssemblyVersion": "0.1.0.1",
+  "Description": "Pass those ready checks, even when alt-tabbed.",
   "ApplicableVersion": "any",
   "Tags": [
     "ready",
@@ -14,7 +14,7 @@
     "duty",
     "alert"
   ],
-  "DalamudApiLevel": 13,
+  "DalamudApiLevel": 14,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
