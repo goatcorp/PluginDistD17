@@ -2,15 +2,18 @@
   "Author": "Infi, attick",
   "Name": "Mouseover Action",
   "InternalName": "MOAction",
-  "AssemblyVersion": "4.8.0.0",
-  "Description": "This plugin lets you target friends or enemies like a macro, without the clunkiness of a macro. /mo opens the configuration.",
+  "AssemblyVersion": "4.9.0.0",
+  "Description": "This plugin allows for actions to be used on mouseover targets without a macro.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Infiziert90/MOActionPlugin",
   "Tags": [
     "Mouseover",
-    "Macro"
+    "Macro",
+    "Ground Queue",
+    "Skills",
+    "Job"
   ],
-  "DalamudApiLevel": 13,
+  "DalamudApiLevel": 14,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
