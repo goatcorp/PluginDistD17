@@ -2,7 +2,7 @@
   "Author": "Elypha",
   "Name": "BilingualTooltips",
   "InternalName": "BilingualTooltips",
-  "AssemblyVersion": "1.5.0.0",
+  "AssemblyVersion": "1.6.0.0",
   "Description": "In case the WoL speaks more than one language",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Elypha/BilingualTooltips",
