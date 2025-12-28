@@ -2,7 +2,7 @@
   "Author": "Lily",
   "Name": "BISBuddy",
   "InternalName": "BisBuddy",
-  "AssemblyVersion": "0.2.5.0",
+  "AssemblyVersion": "0.2.6.0",
   "Description": "Highlights gear, coffers, and materia needed for all your gearsets\nImport from from Etro, Xivgear, or Teamcraft for easy setup\n            \nHighlights items needed for gearsets on:\n    - Need/Greed Loot Windows\n    - NPC Shops and Exchanges\n    - Marketboard\n    - Player Inventories\n    - Item Tooltips\n           \nWhen melding materia, highlights:\n    - Items to meld\n    - Materia to meld to item\n            \nAutomatically syncs gearsets with player inventory",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/RajahOmen/BisBuddy",

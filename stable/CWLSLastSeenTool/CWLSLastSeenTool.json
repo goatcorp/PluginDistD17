@@ -2,15 +2,15 @@
   "Author": "radax864",
   "Name": "CWLSLastSeenTool",
   "InternalName": "CWLSLastSeenTool",
-  "AssemblyVersion": "1.1.5.0",
-  "Description": "A tool for tracking when CWLS members were last seen online. /cwlslst to open the tool.",
+  "AssemblyVersion": "1.1.6.1",
+  "Description": "A tool for tracking when CWLS members were last seen online.",
   "ApplicableVersion": "any",
   "Tags": [
     "cwls",
     "cross-world linkshell",
     "linkshell"
   ],
-  "DalamudApiLevel": 13,
+  "DalamudApiLevel": 14,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
