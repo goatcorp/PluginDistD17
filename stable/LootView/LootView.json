@@ -2,7 +2,7 @@
   "Author": "GitHixy",
   "Name": "LootView",
   "InternalName": "LootView",
-  "AssemblyVersion": "1.3.1.0",
+  "AssemblyVersion": "1.3.2.0",
   "Description": "Track all your loot with detailed statistics, duty tracking, history browser, trends analysis, and data export. Features modern UI with customizable styles and transparency. NEW in 1.3.0: 'loop of' crafting tracking, 'is added to your inventory' message support, 'The' prefix item name matching, Show On Duty Start setting, Item Blacklist system with right-click context menu. v1.2.6: Enhanced crafting synthesis tracking (coil/plank/length/stack/bolt of items), sack of Nuts support.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/GitHixy/LootView",

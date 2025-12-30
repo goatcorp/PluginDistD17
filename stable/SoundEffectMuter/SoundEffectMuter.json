@@ -2,7 +2,7 @@
   "Author": "spide-r",
   "Name": "SoundEffectMuter",
   "InternalName": "SoundEffectMuter",
-  "AssemblyVersion": "1.3.0.0",
+  "AssemblyVersion": "1.3.1.0",
   "Description": "This plugin silences all text sound effects and quick chat.\n\nFor feedback, please contact .spider in the Dalamud discord.",
   "ApplicableVersion": "any",
   "Tags": [
