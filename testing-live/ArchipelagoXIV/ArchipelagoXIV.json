@@ -2,15 +2,15 @@
   "Author": "silasary",
   "Name": "ArchipelagoXIV",
   "InternalName": "ArchipelagoXIV",
-  "AssemblyVersion": "0.25.0.0",
-  "Description": "Key Item Randomizer for FFIXV",
+  "AssemblyVersion": "0.26.0.0",
+  "Description": "Archipelago Client",
   "ApplicableVersion": "any",
   "Tags": [
     "Archipelago",
     "multiworld",
     "randomizer"
   ],
-  "DalamudApiLevel": 13,
+  "DalamudApiLevel": 14,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,

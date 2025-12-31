@@ -1,0 +1,22 @@
+{
+  "Author": "Haru",
+  "Name": "Res Stack Counter",
+  "InternalName": "ResStackCounter",
+  "AssemblyVersion": "1.0.0.0",
+  "Description": "Res Stack Counter",
+  "ApplicableVersion": "any",
+  "Tags": [
+    "field content",
+    "occult crescent",
+    "forked tower"
+  ],
+  "DalamudApiLevel": 14,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "Punchline": "Utility for hosts in Forked Tower runs.",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "stable"
+}

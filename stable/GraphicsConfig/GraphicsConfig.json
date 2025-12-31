@@ -2,13 +2,16 @@
   "Author": "Aida Enna",
   "Name": "Graphics Config",
   "InternalName": "GraphicsConfig",
-  "AssemblyVersion": "1.0.1.1",
-  "Description": "Allows you to save/load/share graphical setting presets (based on your System Configuration menu) at any time, including when triggered by events like entering a battle, cutscene, or gpose.",
+  "AssemblyVersion": "1.0.1.2",
+  "Description": "Allows you to save/load/share graphics setting presets (based on your System Configuration menu) at any time, including when triggered by events like entering a battle, cutscene, duty, gpose, and more. Also supports conditions like loading into a city or foray areas.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Aida-Enna/GraphicsConfig",
   "Tags": [
     "graphics",
     "config",
+    "fps",
+    "graphic",
+    "preset",
     "aida"
   ],
   "DalamudApiLevel": 14,
@@ -17,7 +20,7 @@
   "CanUnloadAsync": false,
   "LoadPriority": 0,
   "IconUrl": "https://i.imgur.com/vda2BRM.png",
-  "Punchline": "Save/load/share graphical setting presets at any time!",
+  "Punchline": "Save/load shareable graphics setting presets at any time or auto-load them during specified conditions like where you are or what content you are doing.",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "stable"
