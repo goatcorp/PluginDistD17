@@ -2,7 +2,7 @@
   "Author": "rail",
   "Name": "AetherDraw",
   "InternalName": "AetherDraw",
-  "AssemblyVersion": "2.4.4.2",
+  "AssemblyVersion": "2.4.5.0",
   "Description": "A realtime multi-user whiteboard raid planner plugin to draw encounter strategies. Supports url imports",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/rail2025/AetherDraw",
@@ -23,7 +23,7 @@
   "ImageUrls": [],
   "IconUrl": "https://raw.githubusercontent.com/rail2025/AetherDraw/refs/heads/master/icon.png",
   "Punchline": "A realtime multi-user whiteboard raid planner. Compatible with https://aetherdraw.me",
-  "Changelog": "v2.4.4.2: API 14, 7.4\nv2.4.4.1: wrong version of lock canvas+undo bug\nv2.4.4.0: Added Gaze, Towers, Starburst, and Exas mechanic icons. Added Laser Pointer tool (ephemeral). Added 'Lock All Items' canvas toggle.\nv2.4.3.1:Serialization fix.\nv2.4.3.0: Added Pie/Wedge shape tool. Added Caster role icon. Added Job icon swapping in Properties window. Added new Bind/Ignore target markers. Updated Party icon menu layout.\nv2.4.2.0: Overhauled Load/Import window with tabs. Added ability to 'Append' plans (merge pages) from files or URLs. Replaced old Load popup.\nv2.4.1.0: Added Community Plan Browser (Search & Load).",
+  "Changelog": "v2.4.5.0: arena background, job icons expanded.\nv2.4.4.2: API 14, 7.4\nv2.4.4.1: wrong version of lock canvas+undo bug\nv2.4.4.0: Added Gaze, Towers, Starburst, and Exas mechanic icons. Added Laser Pointer tool (ephemeral). Added 'Lock All Items' canvas toggle.\nv2.4.3.1:Serialization fix.\nv2.4.3.0: Added Pie/Wedge shape tool. Added Caster role icon. Added Job icon swapping in Properties window. Added new Bind/Ignore target markers. Updated Party icon menu layout.\nv2.4.2.0: Overhauled Load/Import window with tabs. Added ability to 'Append' plans (merge pages) from files or URLs. Replaced old Load popup.\nv2.4.1.0: Added Community Plan Browser (Search & Load).",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "stable"
