@@ -1,0 +1,22 @@
+{
+  "Author": "hunter2_",
+  "Name": "Minesweeper",
+  "InternalName": "DalamudMinesweeper",
+  "AssemblyVersion": "1.5.0.0",
+  "Description": "A logic puzzle featuring hidden mines.",
+  "ApplicableVersion": "any",
+  "Tags": [
+    "minesweeper",
+    "minigame",
+    "puzzle"
+  ],
+  "DalamudApiLevel": 14,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "Punchline": "Classic puzzle game.",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "testing-live"
+}
