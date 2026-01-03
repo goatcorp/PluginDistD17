@@ -2,7 +2,7 @@
   "Author": "Aida Enna",
   "Name": "Nicknamer",
   "InternalName": "Nicknamer",
-  "AssemblyVersion": "1.0.0.0",
+  "AssemblyVersion": "1.0.0.1",
   "Description": "Lets you add a nickname to players in chat so you remember who they actually are or any other information you want to remember about them.\nSupports different customization per person or global customization.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Aida-Enna/Nicknamer",
