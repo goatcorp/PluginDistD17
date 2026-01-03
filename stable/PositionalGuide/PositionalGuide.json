@@ -2,7 +2,7 @@
   "Author": "VariableVixen",
   "Name": "Positional Assistant",
   "InternalName": "PositionalGuide",
-  "AssemblyVersion": "4.7.3",
+  "AssemblyVersion": "4.8.1",
   "Description": "If you have a hard time telling whether you're in the right spot for positional attacks, this plugin can draw guidelines on your screen to help you tell where you need to be.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/VariableVixen/PositionalAssistant",
@@ -13,7 +13,7 @@
     "combat",
     "target"
   ],
-  "DalamudApiLevel": 13,
+  "DalamudApiLevel": 14,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
