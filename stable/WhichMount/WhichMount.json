@@ -2,7 +2,7 @@
   "Author": "Megurt",
   "Name": "Which Mount",
   "InternalName": "WhichMount",
-  "AssemblyVersion": "1.4.0.0",
+  "AssemblyVersion": "1.4.1.0",
   "Description": "Searching for other player's mount",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/megurte/WhichMount",
