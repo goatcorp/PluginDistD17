@@ -2,8 +2,8 @@
   "Author": "Sylf",
   "Name": "Monster Loot Hunter",
   "InternalName": "MonsterLootHunter",
-  "AssemblyVersion": "1.4.24.7",
-  "Description": "Check where you can obtain a material from monsters, duties, crafting, gathering or where they can be bought from NPCs.",
+  "AssemblyVersion": "1.5.24.7",
+  "Description": "A monster loot finder plugin.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/danielbrenom/MonsterLootHunter",
   "Tags": [
@@ -13,13 +13,13 @@
     "hunter",
     "finder"
   ],
-  "DalamudApiLevel": 13,
+  "DalamudApiLevel": 14,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
   "LoadPriority": 0,
   "Punchline": "Check where you can obtain materials.",
-  "Changelog": "- Update for API 13",
+  "Changelog": "- Update for API 14\n- Loot data cache\n- Refactors on code",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "stable"

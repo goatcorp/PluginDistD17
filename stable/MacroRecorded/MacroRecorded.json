@@ -2,8 +2,8 @@
   "Author": "Sylf",
   "Name": "Macro Recorded",
   "InternalName": "MacroRecorded",
-  "AssemblyVersion": "1.0.6.2",
-  "Description": "Records a crafting rotation you start and provides a way to export it to a macro so you can reutilize it.",
+  "AssemblyVersion": "1.0.7.2",
+  "Description": "A crafting macro recorder plugin.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/danielbrenom/MacroRecorded",
   "Tags": [
@@ -12,13 +12,13 @@
     "export",
     "crafting"
   ],
-  "DalamudApiLevel": 13,
+  "DalamudApiLevel": 14,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
   "LoadPriority": 0,
   "Punchline": "Records a crafting rotation and export it as a macro.",
-  "Changelog": "- Updated API 13",
+  "Changelog": "- Updated API 14",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "stable"
