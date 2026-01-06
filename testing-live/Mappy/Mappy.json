@@ -1,24 +1,27 @@
 {
-  "Author": "MidoriKami",
+  "Author": "MidoriKami, harbingerftw",
   "Name": "Mappy",
   "InternalName": "Mappy",
-  "AssemblyVersion": "3.1.6.10",
+  "AssemblyVersion": "3.1.7.0",
   "Description": "Replaces the in-game map with an ImGui implementation with several additional features.",
   "ApplicableVersion": "any",
-  "RepoUrl": "https://github.com/MidoriKami/Mappy",
+  "RepoUrl": "https://github.com/harbingerftw/Mappy",
   "Tags": [
     "map",
     "mapping",
     "overlay",
     "utility"
   ],
-  "DalamudApiLevel": 13,
+  "CategoryTags": [
+    "jobs"
+  ],
+  "DalamudApiLevel": 14,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
   "LoadPriority": 0,
-  "Punchline": "A more versatile in-game map",
-  "AcceptsFeedback": false,
+  "Punchline": "A more versatile in-game map.",
+  "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "testing-live"
 }
