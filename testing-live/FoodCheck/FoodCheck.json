@@ -1,0 +1,25 @@
+{
+  "Author": "Aida Enna",
+  "Name": "Food Check",
+  "InternalName": "FoodCheck",
+  "AssemblyVersion": "1.0.0.0",
+  "Description": "See who is missing (or running out of) food buff at countdown start and/or ready check and post to echo chat with a customizable message.",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/Aida-Enna/FoodCheck",
+  "Tags": [
+    "food",
+    "foodcheck",
+    "raid",
+    "aida"
+  ],
+  "DalamudApiLevel": 14,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "IconUrl": "https://imgur.com/a/C92TsgG",
+  "Punchline": "Someone in our group wouldn't eat their food. I got tired of keeping track if they had or not. Now the plugin does.",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "testing-live"
+}
