@@ -1,0 +1,17 @@
+{
+  "Author": "Tangy",
+  "Name": "Lap Cat Counter",
+  "InternalName": "LapCatCounter",
+  "AssemblyVersion": "1.0.19.0",
+  "Description": "Tracks lap sits per person.",
+  "ApplicableVersion": "any",
+  "DalamudApiLevel": 14,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "Punchline": "Counts how many laps you sit in :3",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "testing-live"
+}
