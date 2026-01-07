@@ -1,0 +1,21 @@
+{
+  "Author": "Aly",
+  "Name": "Conga Helper",
+  "InternalName": "CongaHelper",
+  "AssemblyVersion": "0.0.0.1",
+  "Description": "Automatically rearrange party list for TOP. /conga",
+  "ApplicableVersion": "any",
+  "Tags": [
+    "TOP",
+    "party"
+  ],
+  "DalamudApiLevel": 14,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "Punchline": "Automatically rearrange party list for TOP.",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "testing-live"
+}
