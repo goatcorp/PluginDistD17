@@ -1,0 +1,25 @@
+{
+  "Author": "Vali",
+  "Name": "Job Auto Switcher",
+  "InternalName": "JobAutoSwitcher",
+  "AssemblyVersion": "1.0.0.0",
+  "Description": "Automatically switches to the correct job when clicking Commence.",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/Valiice/JobAutoSwitcher",
+  "Tags": [
+    "job",
+    "switcher",
+    "duty",
+    "qol"
+  ],
+  "DalamudApiLevel": 14,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "IconUrl": "https://raw.githubusercontent.com/Valiice/JobAutoSwitcher/master/images/icon.png",
+  "Punchline": "Never miss a queue pop because of the wrong job again.",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "testing-live"
+}
