@@ -2,8 +2,8 @@
   "Author": "Mei",
   "Name": "Oh Hey!",
   "InternalName": "OhHey",
-  "AssemblyVersion": "0.0.3.0",
-  "Description": "This plugin notifies you when someone targets you, or emotes at you.\n\nCommands:\n  /ohhey - Opens the main window\n  /ohhey main - Opens the main window\n  /ohhey [config|settings] - Opens the settings window\n  /ohhey help - Displays the help message (will also display on invalid sub-commands)",
+  "AssemblyVersion": "0.0.4.0",
+  "Description": "Ever wanted to get notified when someone targets you or emotes at you? Now you can !",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/MeiHasCrashed/OhHey",
   "Tags": [
@@ -11,7 +11,7 @@
     "emote",
     "target"
   ],
-  "DalamudApiLevel": 13,
+  "DalamudApiLevel": 14,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
