@@ -2,7 +2,7 @@
   "Author": "ItsLunaYup",
   "Name": "High FPS Physics Fix",
   "InternalName": "HighFpsPhysicsPlugin",
-  "AssemblyVersion": "9.0.0.0",
+  "AssemblyVersion": "9.0.0.1",
   "Description": "Simple plugin that divides the physics' refresh rate, making physics (kinda) work at high fps.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/ItsLunaYup/xivlauncher_physics_plugin",
