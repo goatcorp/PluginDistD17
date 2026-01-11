@@ -2,7 +2,7 @@
   "Author": "hunter2_",
   "Name": "Minesweeper",
   "InternalName": "DalamudMinesweeper",
-  "AssemblyVersion": "1.5.0.0",
+  "AssemblyVersion": "1.5.1.0",
   "Description": "A logic puzzle featuring hidden mines.",
   "ApplicableVersion": "any",
   "Tags": [
