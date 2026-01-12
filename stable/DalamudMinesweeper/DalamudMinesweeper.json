@@ -2,15 +2,15 @@
   "Author": "hunter2_",
   "Name": "Minesweeper",
   "InternalName": "DalamudMinesweeper",
-  "AssemblyVersion": "1.4.0.0",
-  "Description": "Logic puzzle in which you find and flag hidden mines.\n\nLeft click to uncover a square, right click to place a flag.\nThe game ends when all safe squares have been uncovered.\nClick the smiley face to start a new game.",
+  "AssemblyVersion": "1.5.1.0",
+  "Description": "A logic puzzle featuring hidden mines.",
   "ApplicableVersion": "any",
   "Tags": [
     "minesweeper",
     "minigame",
     "puzzle"
   ],
-  "DalamudApiLevel": 13,
+  "DalamudApiLevel": 14,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
