@@ -2,7 +2,7 @@
   "Author": "Rül Hölos",
   "Name": "Bartender",
   "InternalName": "Bartender",
-  "AssemblyVersion": "1.1.8.1",
+  "AssemblyVersion": "1.1.8.2",
   "Description": "Save and load hotbar profiles with chat commands and/or macros.\nAllows for automation too!",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/RulHolos/Bartender",

@@ -2,7 +2,7 @@
   "Author": "Tangy",
   "Name": "Lap Cat Counter",
   "InternalName": "LapCatCounter",
-  "AssemblyVersion": "1.0.20.0",
+  "AssemblyVersion": "1.0.21.0",
   "Description": "Tracks lap sits per person.",
   "ApplicableVersion": "any",
   "DalamudApiLevel": 14,
