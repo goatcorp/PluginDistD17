@@ -2,15 +2,15 @@
   "Author": "in1tiate",
   "Name": "Wikilinx Rightclicks",
   "InternalName": "Wikilinx",
-  "AssemblyVersion": "0.0.0.7",
-  "Description": "Never forget how to get an item again! Just right-click, and *gobbie-BOOM!* Integrates with any community wiki as well as the official Eorzea DB.",
+  "AssemblyVersion": "0.0.0.8",
+  "Description": "Wiki and Eorzea DB context menu integration plugin",
   "ApplicableVersion": "any",
   "Tags": [
     "wiki",
     "context",
     "goblin"
   ],
-  "DalamudApiLevel": 13,
+  "DalamudApiLevel": 14,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
