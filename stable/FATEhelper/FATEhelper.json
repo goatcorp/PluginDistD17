@@ -2,7 +2,7 @@
   "Author": "Teechep Bird",
   "Name": "FATE Helper",
   "InternalName": "FATEhelper",
-  "AssemblyVersion": "1.0.0.0",
+  "AssemblyVersion": "1.0.1.0",
   "Description": "Displays a list of all FATEs in the current area with: time remaining, percent completed, and bonus marker. Clicking on FATE name will flag it and teleport you, if flying isn't faster. Works with Eureka and Occult FATEs, and Bozja skirmishes. NOTE: this plugin does not track specific FATEs. You can add the Sonar plugin to track those.",
   "ApplicableVersion": "any",
   "Tags": [
