@@ -1,11 +1,11 @@
 {
-  "Author": "Infi, Sl0nderman",
+  "Author": "Infi, Sl0nderman, harbingerftw",
   "Name": "Blue Mage Helper",
   "InternalName": "BlueMageHelper",
-  "AssemblyVersion": "2.0.1.0",
-  "Description": "Adds monster names and coordinates to the \"Where to Learn\" section of your blue mage spellbook.",
+  "AssemblyVersion": "3.2.0.0",
+  "Description": "Adds a window to show all missing Blue Magic, allowing you to search for spells and teleport or mark the source on your map. Adds monster names and coordinates to the \"Where to Learn\" section of your blue mage spellbook.",
   "ApplicableVersion": "any",
-  "RepoUrl": "https://github.com/Infiziert90/BlueMageHelper",
+  "RepoUrl": "https://github.com/harbingerftw/BlueMageHelper",
   "Tags": [
     "spells",
     "spellbook",
@@ -14,9 +14,10 @@
   "CategoryTags": [
     "jobs"
   ],
-  "DalamudApiLevel": 8,
+  "DalamudApiLevel": 14,
   "LoadRequiredState": 0,
   "LoadSync": false,
+  "CanUnloadAsync": false,
   "LoadPriority": 0,
   "Punchline": "Helps you fill out your Blue Mage Spellbook",
   "AcceptsFeedback": true,
