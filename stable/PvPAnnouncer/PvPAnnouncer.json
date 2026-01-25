@@ -2,8 +2,8 @@
   "Author": "spide-r",
   "Name": "PvPAnnouncer",
   "InternalName": "PvPAnnouncer",
-  "AssemblyVersion": "1.3.6.4",
-  "Description": "This plugin will cause Metems voice lines to play mid-match upon specific conditions being met.\n\nYou must have Dawntrail installed & Voice Lines unmuted for this plugin to function!",
+  "AssemblyVersion": "1.4.6.6",
+  "Description": "This plugin will cause character voice lines to play mid-match upon specific conditions being met.\n\nYou must have Dawntrail installed & Voice Lines unmuted for this plugin to function!",
   "ApplicableVersion": "any",
   "Tags": [
     "frontlines",
@@ -11,7 +11,12 @@
     "pvp",
     "announcer",
     "metem",
-    "arcadion"
+    "arcadion",
+    "scions",
+    "alisaie",
+    "alphinaud",
+    "thancred",
+    "graha"
   ],
   "CategoryTags": [
     "utility",
@@ -23,8 +28,8 @@
   "CanUnloadAsync": false,
   "LoadPriority": 0,
   "IconUrl": "https://github.com/spide-r/PvPAnnouncer/blob/main/images/icon.png",
-  "Punchline": "Do you want an announcer in your PvP Matches? Metem has offered to be of service!",
-  "AcceptsFeedback": false,
+  "Punchline": "Do you want an announcer in your PvP Matches? Metem and the Scions have offered their services!",
+  "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "stable"
 }
