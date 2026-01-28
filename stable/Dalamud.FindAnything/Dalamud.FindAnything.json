@@ -2,7 +2,7 @@
   "Author": "goat",
   "Name": "Wotsit",
   "InternalName": "Dalamud.FindAnything",
-  "AssemblyVersion": "1.0.7.0",
+  "AssemblyVersion": "1.1.1.0",
   "Description": "Finder of anything",
   "ApplicableVersion": "any",
   "Tags": [
