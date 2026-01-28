@@ -2,7 +2,7 @@
   "Author": "Gotest",
   "Name": "Audible Character Status",
   "InternalName": "AudibleCharacterStatus",
-  "AssemblyVersion": "1.0.1.8",
+  "AssemblyVersion": "1.0.1.9",
   "Description": "Plays a sound for certain statuses of the player. Such as low HP or MP.\nYou will need to provide your own sound files.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Arrenton/AudibleCharacterStatus",
@@ -11,7 +11,7 @@
     "player",
     "status"
   ],
-  "DalamudApiLevel": 13,
+  "DalamudApiLevel": 14,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
