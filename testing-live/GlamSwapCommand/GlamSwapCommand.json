@@ -1,0 +1,26 @@
+{
+  "Author": "Skyde789",
+  "Name": "GlamSwapCommand",
+  "InternalName": "GlamSwapCommand",
+  "AssemblyVersion": "1.0.0.0",
+  "Description": "Adds a command to swap glamours without needing to specify which gearset. Why this isn't in the base game, I don't know. Usage: /cgs <glamNumber>",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/Skyde789/GlamSwapCommandPlugin",
+  "Tags": [
+    "glam",
+    "glamour",
+    "command",
+    "plugin",
+    "gearset"
+  ],
+  "DalamudApiLevel": 14,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "IconUrl": "https://github.com/Skyde789/GlamSwapCommandPlugin/blob/master/images/icon.png",
+  "Punchline": "Swap glams to your currently selected gearset!",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "testing-live"
+}

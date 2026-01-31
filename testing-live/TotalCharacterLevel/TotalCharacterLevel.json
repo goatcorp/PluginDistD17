@@ -1,0 +1,21 @@
+{
+  "Author": "anqied",
+  "Name": "Total Character Level",
+  "InternalName": "TotalCharacterLevel",
+  "AssemblyVersion": "0.0.0.1",
+  "Description": "Adds numbers to the Classes/Jobs panel showing the sum of the levels of all your jobs.",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/Anqied/ffxiv-level-plugin",
+  "Tags": [
+    "ui"
+  ],
+  "DalamudApiLevel": 14,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "Punchline": "Ever wanted to know how many levels you have across all your jobs?",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "testing-live"
+}
