@@ -2,7 +2,7 @@
   "Author": "Glyceri",
   "Name": "Acquisition Date",
   "InternalName": "AcquisitionDate",
-  "AssemblyVersion": "1.1.0.0",
+  "AssemblyVersion": "1.1.0.1",
   "Description": "A plugin that shows the acquisition date of stuff.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Glyceri/AcquisitionDate",

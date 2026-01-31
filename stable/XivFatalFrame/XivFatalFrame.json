@@ -2,7 +2,7 @@
   "Author": "Glyceri",
   "Name": "Fatal Frame",
   "InternalName": "XivFatalFrame",
-  "AssemblyVersion": "1.2.0.0",
+  "AssemblyVersion": "1.2.0.1",
   "Description": "Takes screenshots automatically for events.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Glyceri/XivFatalFrame",
