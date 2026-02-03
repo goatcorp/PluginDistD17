@@ -2,7 +2,7 @@
   "Author": "spide-r",
   "Name": "PvPAnnouncer",
   "InternalName": "PvPAnnouncer",
-  "AssemblyVersion": "1.4.7.7",
+  "AssemblyVersion": "1.4.7.8",
   "Description": "This plugin will cause character voice lines to play mid-match upon specific conditions being met.\n\nYou must have Dawntrail installed & Voice Lines unmuted for this plugin to function!",
   "ApplicableVersion": "any",
   "Tags": [

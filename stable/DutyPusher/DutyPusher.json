@@ -2,10 +2,10 @@
   "Author": "MorCherlf",
   "Name": "DutyPusher",
   "InternalName": "DutyPusher",
-  "AssemblyVersion": "0.1.4.4",
+  "AssemblyVersion": "0.1.4.5",
   "Description": "DutyPusher",
   "ApplicableVersion": "any",
-  "RepoUrl": "https://github.com/MorCherlf/FFXIVDutyPusher",
+  "RepoUrl": "https://github.com/DutyPusher/FFXIVDutyPusher",
   "Tags": [
     "utility",
     "Notification"
@@ -15,7 +15,7 @@
   "LoadSync": false,
   "CanUnloadAsync": false,
   "LoadPriority": 0,
-  "IconUrl": "https://raw.githubusercontent.com/MorCherlf/FFXIVDutyPusher/master/Resources/img/icon.png",
+  "IconUrl": "https://raw.githubusercontent.com/DutyPusher/FFXIVDutyPusher/master/Resources/img/icon.png",
   "Punchline": "Push notify to your device when your duty is ready",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
