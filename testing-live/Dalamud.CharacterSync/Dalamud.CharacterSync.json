@@ -1,0 +1,27 @@
+{
+  "Author": "X'pahtalo (originally goat and Franz)",
+  "Name": "Character Data Sync",
+  "InternalName": "Dalamud.CharacterSync",
+  "AssemblyVersion": "2.1.0.0",
+  "Description": "This plugin allows you to use your character data from your main character on all others.\n\nIn-game, use the configuration menu to choose your main character, the restart the game to start syncing!.",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/Xpahtalo/Dalamud.CharacterSync",
+  "CategoryTags": [
+    "Utility"
+  ],
+  "DalamudApiLevel": 14,
+  "LoadRequiredState": 1,
+  "LoadSync": true,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "ImageUrls": [
+    "hotbar",
+    "macro",
+    "settings"
+  ],
+  "IconUrl": "https://github.com/Xpahtalo/Dalamud.CharacterSync/raw/master/res/icon.png",
+  "Punchline": "Sync your character data from your main character to all others",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "testing-live"
+}
