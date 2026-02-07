@@ -2,7 +2,7 @@
   "Author": "Critical_Impact",
   "Name": "Allagan Item Search",
   "InternalName": "AllaganItemSearch",
-  "AssemblyVersion": "1.2.0.0",
+  "AssemblyVersion": "1.2.0.1",
   "Description": "A plugin designed for quickly searching through all in-game items, providing detailed information on gear, crafting materials, and collectibles.",
   "ApplicableVersion": "any",
   "Tags": [
