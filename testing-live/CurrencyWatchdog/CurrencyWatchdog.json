@@ -2,22 +2,26 @@
   "Author": "nebel",
   "Name": "Currency Watchdog",
   "InternalName": "CurrencyWatchdog",
-  "AssemblyVersion": "1.0.1.0",
-  "Description": "Provides a configurable overlay with a powerful rule system for displaying how many currency (or non-currency) items you have (or don't have). A spiritual successor to CurrencyAlert.",
+  "AssemblyVersion": "1.0.1.1",
+  "Description": "Provides a configurable overlay, configurable alerts, and a powerful rule system for displaying how many currency (or non-currency) items you have (or don't have). A spiritual successor to CurrencyAlert.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/nebel/CurrencyWatchdog",
   "Tags": [
     "Currency",
     "Tomestones",
+    "Overlay",
     "Alert",
     "Tracker"
+  ],
+  "CategoryTags": [
+    "UI"
   ],
   "DalamudApiLevel": 14,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
   "LoadPriority": 0,
-  "Punchline": "Shows an overlay and/or sends alerts when your held currency items (or non-currency items) match configurable rules.",
+  "Punchline": "Shows an overlay and/or sends alerts when your held currency items (or non-currency items) match configurable rules. A spiritual successor to CurrencyAlert.",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "testing-live"
