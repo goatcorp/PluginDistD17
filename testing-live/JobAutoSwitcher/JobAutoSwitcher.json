@@ -2,7 +2,7 @@
   "Author": "Vali",
   "Name": "Job Auto Switcher",
   "InternalName": "JobAutoSwitcher",
-  "AssemblyVersion": "1.0.0.0",
+  "AssemblyVersion": "1.2.0.0",
   "Description": "Automatically switches to the correct job when clicking Commence.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Valiice/JobAutoSwitcher",
