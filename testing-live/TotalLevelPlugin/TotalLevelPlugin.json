@@ -2,7 +2,7 @@
   "Author": "meoiswa",
   "Name": "Total Level",
   "InternalName": "TotalLevelPlugin",
-  "AssemblyVersion": "0.0.0.2",
+  "AssemblyVersion": "0.0.0.3",
   "Description": "Shows the total level of a Character in the Search Info panel",
   "ApplicableVersion": "any",
   "Tags": [

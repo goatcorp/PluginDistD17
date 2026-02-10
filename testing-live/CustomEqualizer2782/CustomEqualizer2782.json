@@ -1,0 +1,25 @@
+{
+  "Author": "0x0ade",
+  "Name": "CustomEqualizer",
+  "InternalName": "CustomEqualizer2782",
+  "AssemblyVersion": "0.1.0.0",
+  "Description": "Did you know that the EQ presets in the system settings are powered by a 4-band EQ? Let's make our own presets!",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://gitea.0x0a.de/0x0ade/DP-CustomEqualizer",
+  "Tags": [
+    "eq",
+    "equalizer",
+    "audio",
+    "sound",
+    "music"
+  ],
+  "DalamudApiLevel": 14,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": true,
+  "LoadPriority": 0,
+  "Punchline": "Tweak the built-in 4-band EQ with custom presets.",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "testing-live"
+}
