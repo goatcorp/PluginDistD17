@@ -2,9 +2,10 @@
   "Author": "Nesrie",
   "Name": "WachuMakeyMaking?",
   "InternalName": "WachuMakeyMaking",
-  "AssemblyVersion": "1.0.6.0",
-  "Description": "/wymm takes what you have in your inventory and calculates the optimal combination of items to make. Item prices are fetched from Universalis, or can be manually overridden.",
+  "AssemblyVersion": "1.0.7.0",
+  "Description": "WachuMakeyMaking takes what you have in your inventory and calculates the optimal combination of items to make. Item prices are fetched from Universalis, or can be manually overridden.",
   "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/ArcaneAj/WachuMakeyMaking",
   "Tags": [
     "crafting"
   ],
