@@ -1,0 +1,22 @@
+{
+  "Author": "Enthusiastus",
+  "Name": "AkuTrack",
+  "InternalName": "AkuTrack",
+  "AssemblyVersion": "0.0.0.1",
+  "Description": "AkuTrack /akut",
+  "ApplicableVersion": "any",
+  "Tags": [
+    "plugin",
+    "object"
+  ],
+  "DalamudApiLevel": 14,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "IconUrl": "https://raw.githubusercontent.com/amki/AkuTrack/master/akutrack.png",
+  "Punchline": "A Plugin to track objects in the game and send them to Akurosia Kamo.",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "testing-live"
+}
