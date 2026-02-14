@@ -2,7 +2,7 @@
   "Author": "TheThirdDoor",
   "Name": "Conditional Tweaks",
   "InternalName": "ConditionalTweaks",
-  "AssemblyVersion": "7.4.0.0",
+  "AssemblyVersion": "7.4.1.0",
   "Description": "Changes game settings based on character state.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/lackyas/TTD-s-Conditional-Tweaks",
