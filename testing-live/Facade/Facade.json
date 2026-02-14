@@ -2,7 +2,7 @@
   "Author": "keifufu",
   "Name": "Facade",
   "InternalName": "Facade",
-  "AssemblyVersion": "0.1.0.1",
+  "AssemblyVersion": "0.1.0.2",
   "Description": "Visually change the exterior appearance of any house so it's no longer an eyesore. (Note: Changes reset upon entering the plot to restore intended collission)",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/keifufu/Facade",
