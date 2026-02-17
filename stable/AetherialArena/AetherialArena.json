@@ -1,0 +1,25 @@
+{
+  "Author": "rail",
+  "Name": "Aetherial Arena",
+  "InternalName": "AetherialArena",
+  "AssemblyVersion": "1.0.0.0",
+  "Description": "A collectable battling mini game",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/rail2025/AetherialArena",
+  "Tags": [
+    "find",
+    "collect",
+    "fight",
+    "minion battler"
+  ],
+  "DalamudApiLevel": 14,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "Punchline": "Find and collect creatures to fight.",
+  "Changelog": "v1.0.0.0: stable release \\v0.9.9.3:API 14, 7.4\\nv0.9.9.2: Update to Dalamud api 13/patch 7.3, fix credits scrolling\\nv0.9.9.1: reset ui scaling button, manual entry input",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "stable"
+}
