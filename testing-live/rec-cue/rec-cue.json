@@ -2,7 +2,7 @@
   "Author": "Miu-B",
   "Name": "rec-cue",
   "InternalName": "rec-cue",
-  "AssemblyVersion": "0.0.0.1",
+  "AssemblyVersion": "0.0.3.0",
   "Description": "A Dalamud plugin that monitors a configurable folder for recording file activity and shows an in-game [Rec] indicator when capture is likely active. Use /reccue to configure.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Miu-B/rec-cue",

@@ -2,8 +2,8 @@
   "Author": "Enthusiastus",
   "Name": "AkuTrack",
   "InternalName": "AkuTrack",
-  "AssemblyVersion": "0.0.0.1",
-  "Description": "AkuTrack /akut",
+  "AssemblyVersion": "0.0.32.0",
+  "Description": "AkuTrack is a project to offer an improved ingame map enriched with information found by visiting on site.\n\nThis is achieved by collecting the data on a remote server once a user encounters it.\n\n\t- Adds NPC spawns to the map\n\t- Adds objects like Entrances and Exits\n\t- Adds Gathering Points independent of current job",
   "ApplicableVersion": "any",
   "Tags": [
     "plugin",
@@ -14,8 +14,8 @@
   "LoadSync": false,
   "CanUnloadAsync": false,
   "LoadPriority": 0,
-  "IconUrl": "https://raw.githubusercontent.com/amki/AkuTrack/master/akutrack.png",
-  "Punchline": "A Plugin to track objects in the game and send them to Akurosia Kamo.",
+  "IconUrl": "https://raw.githubusercontent.com/amki/AkuTrack/master/images/icon.png",
+  "Punchline": "Shows an improved ingame (and outgame map) and collects the seen information to display later.",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "testing-live"
