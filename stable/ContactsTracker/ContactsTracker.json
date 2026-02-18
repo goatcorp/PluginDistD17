@@ -2,7 +2,7 @@
   "Author": "Due",
   "Name": "ContactsTracker",
   "InternalName": "ContactsTracker",
-  "AssemblyVersion": "1.0.8.0",
+  "AssemblyVersion": "1.0.9.0",
   "Description": "Help you remember previous contacts.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/DueDine/ContactsTracker",

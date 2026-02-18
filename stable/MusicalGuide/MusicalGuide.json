@@ -1,0 +1,22 @@
+{
+  "Author": "YF",
+  "Name": "Musical Guide",
+  "InternalName": "MusicalGuide",
+  "AssemblyVersion": "1.3.6.0",
+  "Description": "Provides real first person view to see your character, and adjusts camera distance based on game conditions (e.g. close in camera when you begin crafting, maximum distance when combat begins or you enter an instanced area)\n\n/mguide to open configuration window.",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/Sidiousious/musical-guide",
+  "Tags": [
+    "Camera"
+  ],
+  "DalamudApiLevel": 14,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "IconUrl": "https://yfplugins.kinkop.eu/musical-guide.png",
+  "Punchline": "Enhanced camera distance control and first-person experience.",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "stable"
+}
