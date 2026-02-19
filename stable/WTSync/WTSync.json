@@ -1,16 +1,16 @@
 {
-  "Author": "Khloe Leclair",
+  "Author": "Khloe Leclair, BoxuChan",
   "Name": "WTSync",
   "InternalName": "WTSync",
-  "AssemblyVersion": "0.17.0.1",
-  "Description": "WTSync keeps uses an external server to keep track of the duties in your Wondrous Tails book. When you're in a party, and other players in the party are also using WTSync, you can open a UI to see which duties everyone needs at once in one convenient list.",
+  "AssemblyVersion": "0.17.1.0",
+  "Description": "WTSync",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/KhloeLeclair/WTSync",
   "Tags": [
     "UI",
     "wondrous tails"
   ],
-  "DalamudApiLevel": 13,
+  "DalamudApiLevel": 14,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
