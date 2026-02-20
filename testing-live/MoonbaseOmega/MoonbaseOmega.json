@@ -2,7 +2,7 @@
   "Author": "NotNite",
   "Name": "Moonbase Omega",
   "InternalName": "MoonbaseOmega",
-  "AssemblyVersion": "1.1.0.0",
+  "AssemblyVersion": "1.1.0.2",
   "Description": "Plays chat messages sent in Cosmic Exploration via DECtalk (the TTS used in Moonbase Alpha).",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/NotNite/MoonbaseOmega",
@@ -13,7 +13,7 @@
     "dectalk",
     "aeiou"
   ],
-  "DalamudApiLevel": 12,
+  "DalamudApiLevel": 14,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
