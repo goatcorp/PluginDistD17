@@ -8,7 +8,7 @@ jobs:
   generate:
     name: Regenerate PluginMaster
     if: github.repository == 'goatcorp/PluginDistD17'
-    runs-on: windows-2019
+    runs-on: ubuntu-24.04
     steps:
       - name: Clear Web Services cache
         run: curl -X POST --fail https://kamori.goats.dev/Plugin/ClearCache?key=$env:CACHE_CLEAR_KEY
