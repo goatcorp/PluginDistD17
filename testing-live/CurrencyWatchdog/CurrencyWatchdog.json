@@ -2,7 +2,7 @@
   "Author": "nebel",
   "Name": "Currency Watchdog",
   "InternalName": "CurrencyWatchdog",
-  "AssemblyVersion": "1.0.1.2",
+  "AssemblyVersion": "1.0.2.0",
   "Description": "Provides a configurable overlay, configurable alerts, and a powerful rule system for displaying how many currency (or non-currency) items you have (or don't have). A spiritual successor to CurrencyAlert.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/nebel/CurrencyWatchdog",
