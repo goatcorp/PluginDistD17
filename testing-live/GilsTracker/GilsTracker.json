@@ -2,7 +2,7 @@
   "Author": "Nickoos",
   "Name": "Gils Tracker",
   "InternalName": "GilsTracker",
-  "AssemblyVersion": "0.0.0.1",
+  "AssemblyVersion": "0.0.0.2",
   "Description": "Counts how much gil you gain or lose while playing.",
   "ApplicableVersion": "any",
   "Tags": [
