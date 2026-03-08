@@ -1,0 +1,28 @@
+{
+  "Author": "Saevath",
+  "Name": "CrystalRadio",
+  "InternalName": "CrystalRadio",
+  "AssemblyVersion": "0.0.0.1",
+  "Description": "Listen to your favorite internet radio stations directly in-game. Browse stations and manage your favorites. Use /cradio to open the radio player",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/Saevath/CrystalRadio",
+  "Tags": [
+    "radio",
+    "music",
+    "audio"
+  ],
+  "CategoryTags": [
+    "other",
+    "test"
+  ],
+  "DalamudApiLevel": 14,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "IconUrl": "https://raw.githubusercontent.com/Saevath/CrystalRadio/refs/heads/master/CrystalRadio/images/icon.png",
+  "Punchline": "Stream internet radio stations while playing FFXIV",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "testing-live"
+}
