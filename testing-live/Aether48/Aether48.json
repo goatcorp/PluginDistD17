@@ -1,0 +1,25 @@
+{
+  "Author": "rail",
+  "Name": "Aether48",
+  "InternalName": "Aether48",
+  "AssemblyVersion": "1.0.0.2",
+  "Description": "A 2048 clone. Open with /a48.",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/rail2025/Aether48",
+  "Tags": [
+    "game",
+    "death",
+    "idle",
+    "2048"
+  ],
+  "DalamudApiLevel": 14,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "Punchline": "A game to play when dead. A 2048 clone mini-game.",
+  "Changelog": "v1.0.0.2: bug fixes, see dalamud app store installer for plugin description\nv1.0.0.0: clean up\nv0.0.0.1:Initial release.",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "testing-live"
+}
