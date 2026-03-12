@@ -1,0 +1,23 @@
+{
+  "Author": "Speedas",
+  "Name": "Steam Recording Enhanced",
+  "InternalName": "SteamRecordingEnhanced",
+  "AssemblyVersion": "0.1.2.8",
+  "Description": "Enhance Steam Game Recording by automatically adding configurable in-game events to the timeline, allowing for easy rewinding and clipping. Rewind to the moment of your death to reassure yourself that you did dodge the AOE before it went off and that the game does hate you personally with greater efficiency than ever!\n\nNon-steam users will have to follow a setup guide located in the configuration's window Status tab to get everything working.",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/RokasKil/SteamRecordingEnhanced",
+  "Tags": [
+    "UI",
+    "steam",
+    "recording"
+  ],
+  "DalamudApiLevel": 14,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "Punchline": "Add various in-game events to your Steam Game Recording timeline, comes with instructions for non-steam users!",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "testing-live"
+}
