@@ -1,0 +1,25 @@
+{
+  "Author": "rail",
+  "Name": "AetherGon",
+  "InternalName": "AetherGon",
+  "AssemblyVersion": "1.2.0.1",
+  "Description": "A super hexagon clone. Open with /agon.A/D or left right arrow",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/rail2025/AetherGon",
+  "Tags": [
+    "game",
+    "death",
+    "idle",
+    "gon"
+  ],
+  "DalamudApiLevel": 14,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "Punchline": "A game to play when dead. A super hexagon clone mini-game.",
+  "Changelog": "v1.2.0.1:code clean up, see dalamud app store installer for plugin description\nv1.2.0.0: clean up assets\n1.1.0.0: beat sequencer added\n1.0.0.0: difficulty, settings and stuff\nv0.0.0.1:Initial release.",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "testing-live"
+}
