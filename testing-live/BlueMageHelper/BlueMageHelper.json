@@ -2,7 +2,7 @@
   "Author": "Infi, Sl0nderman, harbingerftw",
   "Name": "Blue Mage Helper",
   "InternalName": "BlueMageHelper",
-  "AssemblyVersion": "3.3.0.0",
+  "AssemblyVersion": "3.3.1.0",
   "Description": "Adds a window to show all Blue Magic, letting you search for spells and then teleport or mark the location on your map or open the dutyfinder. Can also mark mobs in world that drop spells you need.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/harbingerftw/BlueMageHelper",
