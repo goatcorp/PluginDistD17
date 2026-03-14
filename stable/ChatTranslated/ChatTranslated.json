@@ -2,8 +2,8 @@
   "Author": "kelvin124124",
   "Name": "ChatTranslated",
   "InternalName": "ChatTranslated",
-  "AssemblyVersion": "3.5.1.3",
-  "Description": "In-game chat translator.",
+  "AssemblyVersion": "3.5.2.0",
+  "Description": "Ingame chat translator.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/kelvin124124/ChatTranslated",
   "Tags": [
