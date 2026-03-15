@@ -2,9 +2,10 @@
   "Author": "Azure Gem",
   "Name": "I Hate Caps Lock",
   "InternalName": "IHateCapsLock",
-  "AssemblyVersion": "14.0.0.0",
+  "AssemblyVersion": "14.745.1.0",
   "Description": "SORRY CAPS\nRemove caps lock when pressing any of the configured keys.",
   "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/GemPlugins/IHateCapsLock",
   "Tags": [
     "caps",
     "lock",
