@@ -2,8 +2,8 @@
   "Author": "Critical_Impact",
   "Name": "Allagan Item Search",
   "InternalName": "AllaganItemSearch",
-  "AssemblyVersion": "1.2.0.1",
-  "Description": "A plugin designed for quickly searching through all in-game items, providing detailed information on gear, crafting materials, and collectibles.",
+  "AssemblyVersion": "1.2.0.2",
+  "Description": "Allagan Item Search is a dalamud plugin designed to help you search and filter all the items available in the game.",
   "ApplicableVersion": "any",
   "Tags": [
     "search",
