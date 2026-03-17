@@ -2,7 +2,7 @@
   "Author": "SaMo",
   "Name": "PvP Tracker",
   "InternalName": "PvpStats",
-  "AssemblyVersion": "2.6.1.0",
+  "AssemblyVersion": "2.6.1.1",
   "Description": "Pvp Stats",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/wrath16/PvpStats",
