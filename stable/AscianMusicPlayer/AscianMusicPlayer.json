@@ -1,0 +1,21 @@
+{
+  "Author": "gaypotatoemma",
+  "Name": "Ascian Music Player",
+  "InternalName": "AscianMusicPlayer",
+  "AssemblyVersion": "1.1.0.2",
+  "Description": "A music player to play your own music files from within the game.",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/GayPotatoEmma/Ascian-Music-Player",
+  "Tags": [
+    "music"
+  ],
+  "DalamudApiLevel": 14,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "Punchline": "Even the Ascians needed some tunes.",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "stable"
+}
