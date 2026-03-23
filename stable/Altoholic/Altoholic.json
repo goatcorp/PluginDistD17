@@ -2,7 +2,7 @@
   "Author": "Sohtoren",
   "Name": "Altoholic",
   "InternalName": "Altoholic",
-  "AssemblyVersion": "1.8.5.0",
+  "AssemblyVersion": "1.9.3.0",
   "Description": "Get informations (gils, currencies,  items, inventory, retainers, etc) and progress from all your characters",
   "ApplicableVersion": "any",
   "Tags": [
