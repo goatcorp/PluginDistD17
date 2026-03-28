@@ -2,8 +2,8 @@
   "Author": "Nylfae",
   "Name": "Hyperfocus",
   "InternalName": "Hyperfocus",
-  "AssemblyVersion": "0.1.1.0",
-  "Description": "Out of sight, still in mind.",
+  "AssemblyVersion": "0.1.1.1",
+  "Description": "Points towards your targets when they're off-screen.",
   "ApplicableVersion": "any",
   "Tags": [
     "target"
