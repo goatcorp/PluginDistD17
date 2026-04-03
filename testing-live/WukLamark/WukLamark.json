@@ -1,0 +1,27 @@
+{
+  "Author": "Bronya Rand",
+  "Name": "WukLamark",
+  "InternalName": "WukLamark",
+  "AssemblyVersion": "1.0.2.2",
+  "Description": "Allows players to create and manage persistent custom map markers across Eorzea. Whether it's a favorite GPose spot, a venue you want to revisit, or any interesting location, WukLamark lets you drop a marker that appears seamlessly on both your main map and minimap. Features include:\n- Customizable game icons for markers\n- Organize markers into groups\n- Cross-character sharing configurations\n- Add personal notes for context\n- Import/export markers with friends\n\nThink of it as dropping a flag on the map but persistent.",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/Bronya-Rand/WukLamark",
+  "Tags": [
+    "waymark",
+    "marker",
+    "map",
+    "flag",
+    "wuk",
+    "ww",
+    "wuklamark"
+  ],
+  "DalamudApiLevel": 14,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "Punchline": "`<flag>` but permanent",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "testing-live"
+}
