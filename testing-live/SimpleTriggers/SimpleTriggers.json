@@ -1,0 +1,23 @@
+{
+  "Author": "Brolijah",
+  "Name": "Simple Triggers",
+  "InternalName": "SimpleTriggers",
+  "AssemblyVersion": "0.3.2.0",
+  "Description": "This plugin allows you to create custom responses to in-game messages.\nOptions include responding through in-game chat, in-game sound effects, and even Text-to-Speech.",
+  "ApplicableVersion": "any",
+  "Tags": [
+    "chat",
+    "tts",
+    "triggers",
+    "alerts"
+  ],
+  "DalamudApiLevel": 14,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "Punchline": "For those of us too lazy to read their screens.",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "testing-live"
+}
