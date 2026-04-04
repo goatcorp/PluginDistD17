@@ -2,7 +2,7 @@
   "Author": "rail",
   "Name": "AetherDraw",
   "InternalName": "AetherDraw",
-  "AssemblyVersion": "2.4.6.0",
+  "AssemblyVersion": "2.4.8.0",
   "Description": "A realtime multi-user whiteboard raid planner plugin to draw encounter strategies. Searchable database of community plans, supports url imports",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/rail2025/AetherDraw",
@@ -23,7 +23,7 @@
   "ImageUrls": [],
   "IconUrl": "https://raw.githubusercontent.com/rail2025/AetherDraw/refs/heads/master/icon.png",
   "Punchline": "A realtime multi-user whiteboard raid planner and strat viewer. Compatible with https://aetherdraw.me",
-  "Changelog": "v2.4.6.0:api bump, criterion support\nv2.4.5.0: arena background, job icons expanded.\nv2.4.4.2: API 14, 7.4",
+  "Changelog": "v2.4.8.0:IPC support for AetherBlackbox imports\nv2.4.6.0:api bump, criterion support\nv2.4.5.0: arena background, job icons expanded.\nv2.4.4.2: API 14, 7.4",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "stable"
