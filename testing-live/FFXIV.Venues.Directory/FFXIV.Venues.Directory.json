@@ -2,7 +2,7 @@
   "Author": "AEBus",
   "Name": "FFXIV Venues Directory",
   "InternalName": "FFXIV.Venues.Directory",
-  "AssemblyVersion": "1.0.0.0",
+  "AssemblyVersion": "1.1.0.0",
   "Description": "Discover open FFXIV venues by region, data center, world, tags, and schedule. View detailed venue cards with addresses, banners, and external links directly in-game.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/AEBus/FFXIV.Venues.Directory",
@@ -23,6 +23,7 @@
   "CanUnloadAsync": false,
   "LoadPriority": 0,
   "Punchline": "Browse FFXIV roleplay venues in-game with rich filters and schedules.",
+  "Changelog": "This update makes venue browsing easier and cleaner in everyday use.\n\n- Refined the browser layout for a more readable list and detail view.\n- Improved filters and sorting so it is faster to find the venue you want.\n- Better address and action handling for copying details or opening venue links.\n- Schedule display is clearer and easier to follow in your local timezone.\n- General polish across banners, descriptions, and venue details.",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "testing-live"
