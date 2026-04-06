@@ -1,0 +1,21 @@
+{
+  "Author": "mikelosx",
+  "Name": "Shrinkage",
+  "InternalName": "Shrinkage",
+  "AssemblyVersion": "0.1.1.0",
+  "Description": "This plugin will shrink and grow characters based on how much health they have, affects you and your party \n\n/shrinkage to open the config window.",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/mikelosx/Shrinkage",
+  "Tags": [
+    "funny"
+  ],
+  "DalamudApiLevel": 14,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "Punchline": "Shrinks characters based on their Health!",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "testing-live"
+}
