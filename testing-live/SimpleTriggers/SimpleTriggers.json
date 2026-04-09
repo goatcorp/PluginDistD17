@@ -2,8 +2,8 @@
   "Author": "Brolijah",
   "Name": "Simple Triggers",
   "InternalName": "SimpleTriggers",
-  "AssemblyVersion": "0.3.2.0",
-  "Description": "This plugin allows you to create custom responses to in-game messages.\nOptions include responding through in-game chat, in-game sound effects, and even Text-to-Speech.",
+  "AssemblyVersion": "0.3.3.2",
+  "Description": "This plugin allows you to create custom triggers to in-game messages.\nOptions include responding through in-game chat, in-game sound effects, and even Text-to-Speech.",
   "ApplicableVersion": "any",
   "Tags": [
     "chat",
