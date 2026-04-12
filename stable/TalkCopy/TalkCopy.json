@@ -2,7 +2,7 @@
   "Author": "Glyceri",
   "Name": "Dialog Copy",
   "InternalName": "TalkCopy",
-  "AssemblyVersion": "1.3.0.0",
+  "AssemblyVersion": "1.4.0.0",
   "Description": "Dialogue copy will copy text from the dialogue box to your clipboard.",
   "ApplicableVersion": "any",
   "Tags": [
