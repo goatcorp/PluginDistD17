@@ -2,8 +2,8 @@
   "Author": "YF",
   "Name": "Musical Guide",
   "InternalName": "MusicalGuide",
-  "AssemblyVersion": "1.5.0.0",
-  "Description": "Provides real first person view to see your character, and adjusts camera distance based on game conditions (e.g. close in camera when you begin crafting, maximum distance when combat begins or you enter an instanced area)\n\n/mguide to open configuration window.",
+  "AssemblyVersion": "1.6.1.0",
+  "Description": "Provides real first person view to see your character, and adjusts camera distance based on game conditions (e.g. close in camera when you begin crafting, maximum distance when combat begins or you enter an instanced area)\n\n/mguide to open configuration window.\n/mguide help for more commands.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Sidiousious/musical-guide",
   "Tags": [
