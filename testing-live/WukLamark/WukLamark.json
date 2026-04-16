@@ -2,8 +2,8 @@
   "Author": "Bronya Rand",
   "Name": "WukLamark",
   "InternalName": "WukLamark",
-  "AssemblyVersion": "1.0.2.4",
-  "Description": "Allows players to create and manage persistent custom map markers across Eorzea. Whether it's a favorite GPose spot, a venue you want to revisit, or any interesting location, WukLamark lets you drop a map marker that appears seamlessly on both your main map and minimap.\n\nFeatures include:\n- Customizable game icons and shapes for map markers\n- Organize map markers into groups\n- Cross-character sharing configurations\n- Add personal notes for context\n- Import/export map markers with friends\n\nThink of it as dropping a flag on the map but persistent.",
+  "AssemblyVersion": "1.0.2.5",
+  "Description": "Allows players to create and manage persistent custom map markers across Eorzea. Whether it's a favorite GPose spot, a venue you want to revisit, or any interesting location, WukLamark lets you drop a map marker that appears seamlessly on both your main map and minimap.\n\nFeatures include:\n- Customizable game icons and shapes for map markers (with optional icon tinting)\n- Per-marker icon/shape sizes\n- Organize map markers into groups (with map marker import/export)\n- Cross-character sharing configurations\n- Crossworld markers\n- Add personal notes for context\n- Import/export one or multiple map markers with friends\n\nThink of it as dropping a flag on the map but persistent.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Bronya-Rand/WukLamark",
   "Tags": [
@@ -25,7 +25,7 @@
   "LoadSync": false,
   "CanUnloadAsync": false,
   "LoadPriority": 0,
-  "Punchline": "`<flag>` but permanent",
+  "Punchline": "Create custom map markers on the map/minimap! Like `<flag>` but permanent.",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "testing-live"
