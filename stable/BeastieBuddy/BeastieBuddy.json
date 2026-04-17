@@ -2,7 +2,7 @@
   "Author": "rail",
   "Name": "BeastieBuddy",
   "InternalName": "BeastieBuddy",
-  "AssemblyVersion": "1.3.3.1",
+  "AssemblyVersion": "7.45.1.0",
   "Description": "A searchable list of all mobs and their known locations, using community data. Use /bbuddy to open, or search with /bbuddy <mob_name>.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/rail2025/BeastieBuddy",
@@ -22,7 +22,7 @@
   "CanUnloadAsync": false,
   "LoadPriority": 0,
   "Punchline": "A searchable mob database with spawn locations for Beastmaster, Blue Mage, or hunts",
-  "Changelog": "v1.3.3.1:api bump, search hang fix\nv1.3.3.0: UI adjustments and data syncing improvements.\nv1.3.2.0: stats",
+  "Changelog": "v7.45.1: version matching to game\nv1.3.3.1:api bump, search hang fix\nv1.3.3.0: UI adjustments and data syncing improvements.\nv1.3.2.0: stats",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "stable"
