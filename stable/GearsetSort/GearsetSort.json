@@ -1,0 +1,24 @@
+{
+  "Author": "Treezy",
+  "Name": "Gearset Sort",
+  "InternalName": "GearsetSort",
+  "AssemblyVersion": "0.0.7.0",
+  "Description": "A cleaner interface to sort your gearsets that allows both swap/insert methods.",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/Ryan-RH/GearsetSort",
+  "Tags": [
+    "GearsetSort",
+    "Gearset",
+    "Sort"
+  ],
+  "DalamudApiLevel": 14,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "IconUrl": "https://raw.githubusercontent.com/Ryan-RH/GearsetSort/master/images/icon.png",
+  "Punchline": "Better Gearset Sorting",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "stable"
+}
