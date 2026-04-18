@@ -2,7 +2,7 @@
   "Author": "Callum Carmicheal (with help from Aida Enna)",
   "Name": "The Great Controller HUD Switcher",
   "InternalName": "XIVControllerToggle",
-  "AssemblyVersion": "1.2.3.0",
+  "AssemblyVersion": "1.2.4.0",
   "Description": "The Great Controller HUD Switcher",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/CallumCarmicheal/XIVControllerToggle",
