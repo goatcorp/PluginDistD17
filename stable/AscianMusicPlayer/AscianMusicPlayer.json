@@ -2,7 +2,7 @@
   "Author": "gaypotatoemma",
   "Name": "Ascian Music Player",
   "InternalName": "AscianMusicPlayer",
-  "AssemblyVersion": "1.2.1.1",
+  "AssemblyVersion": "1.2.1.2",
   "Description": "A music player to play your own music files from within the game.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/GayPotatoEmma/Ascian-Music-Player",
