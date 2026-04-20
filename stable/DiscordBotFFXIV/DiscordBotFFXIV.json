@@ -1,0 +1,24 @@
+{
+  "Author": "Loody",
+  "Name": "DiscordBotFFXIV",
+  "InternalName": "DiscordBotFFXIV",
+  "AssemblyVersion": "1.1.2.2",
+  "Description": "Discord / FFXIV bot to send msg from discord to the game",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/devckuw/DiscordBotFFXIV",
+  "Tags": [
+    "discord",
+    "message",
+    "friend"
+  ],
+  "DalamudApiLevel": 14,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "IconUrl": "https://raw.githubusercontent.com/devckuw/DiscordBotFFXIV/master/DiscordBotFFXIV/images/icon.png",
+  "Punchline": "Send message to friends from discord",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "stable"
+}
