@@ -2,8 +2,8 @@
   "Author": "Bronya Rand",
   "Name": "WukLamark",
   "InternalName": "WukLamark",
-  "AssemblyVersion": "1.0.4.1",
-  "Description": "Allows players to create and manage persistent custom map markers across Eorzea. Whether it's a favorite GPose spot, a venue you want to revisit, or any interesting location, WukLamark lets you drop a map marker that appears seamlessly on both your main map and minimap.\n\nFeatures:\n- Customizable game icons and shapes for map markers (with optional icon tinting)\n- Per-marker icon/shape sizes\n- Organize map markers into groups (with map marker import/export)\n- Cross-character sharing configurations\n- Crossworld markers\n- Add personal notes for context\n- Import/export one or multiple map markers with friends\n- Partial support for Native markers*\n  > * - With a reduced feature set. Only applicable to the map, not the minimap.\n\nThink of it as dropping a flag on the map but persistent.",
+  "AssemblyVersion": "1.0.5.0",
+  "Description": "Allows players to create and manage persistent custom map markers across Eorzea. Whether it's a favorite GPose spot, a venue you want to revisit, or any interesting location, WukLamark lets you drop a map marker that appears seamlessly on both your main map and minimap.\n\nFeatures:\n- Customizable game icons and shapes for map markers (with optional icon tinting)\n- Per-marker icon/shape sizes\n- Custom map marker icons.\n   > To add a custom icon, open the WukLamark window and click on 'Upload a new custom icon'.\n- Organize map markers into groups (with map marker import/export)\n- Cross-character sharing configurations\n- Crossworld markers\n- Add personal notes for context\n- Import/export one or multiple map markers with friends\n- Partial support for Native markers*\n> * - Only applicable to the map, not the minimap.\n\nThink of it as dropping a flag on the map but persistent.\n    ",
   "ApplicableVersion": "any",
   "Tags": [
     "custom",
