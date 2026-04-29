@@ -2,7 +2,7 @@
   "Author": "Treezy",
   "Name": "Gearset Sort",
   "InternalName": "GearsetSort",
-  "AssemblyVersion": "0.0.7.0",
+  "AssemblyVersion": "0.0.7.1",
   "Description": "A cleaner interface to sort your gearsets that allows both swap/insert methods.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Ryan-RH/GearsetSort",
@@ -11,7 +11,7 @@
     "Gearset",
     "Sort"
   ],
-  "DalamudApiLevel": 14,
+  "DalamudApiLevel": 15,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,

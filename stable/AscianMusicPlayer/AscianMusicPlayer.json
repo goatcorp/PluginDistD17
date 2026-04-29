@@ -2,14 +2,14 @@
   "Author": "gaypotatoemma",
   "Name": "Ascian Music Player",
   "InternalName": "AscianMusicPlayer",
-  "AssemblyVersion": "1.2.1.3",
+  "AssemblyVersion": "1.2.1.4",
   "Description": "A music player to play your own music files from within the game.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/GayPotatoEmma/Ascian-Music-Player",
   "Tags": [
     "music, amp"
   ],
-  "DalamudApiLevel": 14,
+  "DalamudApiLevel": 15,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
