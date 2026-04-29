@@ -2,15 +2,15 @@
   "Author": "goat",
   "Name": "Wotsit",
   "InternalName": "Dalamud.FindAnything",
-  "AssemblyVersion": "1.1.2.1",
-  "Description": "Finder of anything",
+  "AssemblyVersion": "1.1.2.2",
+  "Description": "Adds a convenient quick search akin to Spotlight that lets you open game windows, teleport, find wiki articles, and more.\nPress Control + T to open the search window. This can be changed by searching for \"Wotsit Settings\".",
   "ApplicableVersion": "any",
   "Tags": [
     "find",
     "teleport",
     "wiki"
   ],
-  "DalamudApiLevel": 14,
+  "DalamudApiLevel": 15,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
