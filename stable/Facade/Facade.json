@@ -2,7 +2,7 @@
   "Author": "keifufu",
   "Name": "Facade",
   "InternalName": "Facade",
-  "AssemblyVersion": "1.0.0.0",
+  "AssemblyVersion": "1.0.0.1",
   "Description": "Visually change the exterior appearance of any house so it's no longer an eyesore. (Note: Changes reset upon entering the plot to restore intended collission)",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/keifufu/Facade",
@@ -11,7 +11,7 @@
     "Housing",
     "Exterior"
   ],
-  "DalamudApiLevel": 14,
+  "DalamudApiLevel": 15,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
