@@ -2,7 +2,7 @@
   "Author": "meoiswa",
   "Name": "Total Level",
   "InternalName": "TotalLevelPlugin",
-  "AssemblyVersion": "0.0.0.3",
+  "AssemblyVersion": "0.0.1.0",
   "Description": "Shows the total level of a Character in the Search Info panel",
   "ApplicableVersion": "any",
   "Tags": [
@@ -12,7 +12,7 @@
     "level",
     "ui"
   ],
-  "DalamudApiLevel": 14,
+  "DalamudApiLevel": 15,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,

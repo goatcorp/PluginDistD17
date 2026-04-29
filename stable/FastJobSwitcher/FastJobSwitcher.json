@@ -2,8 +2,8 @@
   "Author": "Meoiswa",
   "Name": "Fast Job Switcher",
   "InternalName": "FastJobSwitcher",
-  "AssemblyVersion": "4.0.0.0",
-  "Description": "Fast Job Switcher",
+  "AssemblyVersion": "4.0.1.0",
+  "Description": "Enables the player to switch jobs using their three letter acronyms as commands. (*: five or more)",
   "ApplicableVersion": "any",
   "Tags": [
     "UI",
@@ -15,7 +15,7 @@
     "occult",
     "crescent"
   ],
-  "DalamudApiLevel": 14,
+  "DalamudApiLevel": 15,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,

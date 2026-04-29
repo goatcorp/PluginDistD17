@@ -2,7 +2,7 @@
   "Author": "Infi, X'pahtalo",
   "Name": "Duty Tracker",
   "InternalName": "DutyTracker",
-  "AssemblyVersion": "1.0.5.0",
+  "AssemblyVersion": "1.0.6.0",
   "Description": "Track some duty info. /dt open the menu",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Infiziert90/DutyTracker",
@@ -12,7 +12,7 @@
     "Trials",
     "Savage"
   ],
-  "DalamudApiLevel": 14,
+  "DalamudApiLevel": 15,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,

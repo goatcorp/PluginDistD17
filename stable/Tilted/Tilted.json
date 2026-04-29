@@ -2,8 +2,8 @@
   "Author": "Meoiswa",
   "Name": "Tilted",
   "InternalName": "Tilted",
-  "AssemblyVersion": "4.4.0.0",
-  "Description": "Automatic Camera Adjustments",
+  "AssemblyVersion": "4.4.1.0",
+  "Description": "Automatically adjusts the Third Person Camera Angle/Distance given certain conditions.",
   "ApplicableVersion": "any",
   "Tags": [
     "UI",
@@ -11,7 +11,7 @@
     "camera",
     "combat"
   ],
-  "DalamudApiLevel": 14,
+  "DalamudApiLevel": 15,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
