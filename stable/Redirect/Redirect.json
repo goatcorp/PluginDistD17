@@ -2,15 +2,15 @@
   "Author": "Cair",
   "Name": "Redirect",
   "InternalName": "Redirect",
-  "AssemblyVersion": "1.2.6.0",
-  "Description": "Action target switching plugin for Dalamud.",
+  "AssemblyVersion": "1.2.7.0",
+  "Description": "Easily change the targeting priority for spells and abilities. Queue macros and ground-targeted actions! Type /redirect to configure.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/cairthenn/Redirect",
   "Tags": [
     "jobs",
     "utility"
   ],
-  "DalamudApiLevel": 14,
+  "DalamudApiLevel": 15,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
