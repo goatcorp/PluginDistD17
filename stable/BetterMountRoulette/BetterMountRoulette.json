@@ -2,14 +2,14 @@
   "Author": "Nuffin",
   "Name": "Better Mount Roulette",
   "InternalName": "BetterMountRoulette",
-  "AssemblyVersion": "1.8.1.31",
+  "AssemblyVersion": "1.8.1.32",
   "Description": "Allows any number of mounts to be enabled for the mount roulette, instead of having to choose between the \"up to 30\" and \"EVERYTHING\" modes supported by the game.\n",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/CMDRNuffin/BetterMountRoulette",
   "Tags": [
     "mount"
   ],
-  "DalamudApiLevel": 14,
+  "DalamudApiLevel": 15,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
