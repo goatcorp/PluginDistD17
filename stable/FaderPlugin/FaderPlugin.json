@@ -2,14 +2,14 @@
   "Author": "Infi, shdwp, Aelexe",
   "Name": "Fader Plugin",
   "InternalName": "FaderPlugin",
-  "AssemblyVersion": "2.7.6.0",
-  "Description": "Fader Plugin",
+  "AssemblyVersion": "2.7.7.0",
+  "Description": "Lets you automatically hide certain game UI elements based on number of conditions.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Infiziert90/xivFaderPlugin",
   "Tags": [
     "UI"
   ],
-  "DalamudApiLevel": 14,
+  "DalamudApiLevel": 15,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
