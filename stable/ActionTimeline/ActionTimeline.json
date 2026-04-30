@@ -2,20 +2,20 @@
   "Author": "Tischel",
   "Name": "ActionTimeline",
   "InternalName": "ActionTimeline",
-  "AssemblyVersion": "1.8.0.0",
+  "AssemblyVersion": "1.9.0.0",
   "Description": "Configurable timeline display of all the actions you use.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Tischel/ActionTimeline",
   "Tags": [
     "UI"
   ],
-  "DalamudApiLevel": 14,
+  "DalamudApiLevel": 15,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
   "LoadPriority": 0,
   "Punchline": "Show your actions in real-time.",
-  "Changelog": "# 1.8.0.0\n\n- Added support for Patch 7.4 and Dalamud API 14.",
+  "Changelog": "# 1.9.0.0\n\n- Added support for Patch 7.5 and Dalamud API 15.",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "stable"

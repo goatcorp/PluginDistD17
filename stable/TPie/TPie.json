@@ -2,20 +2,20 @@
   "Author": "Tischel",
   "Name": "TPie",
   "InternalName": "TPie",
-  "AssemblyVersion": "1.13.0.2",
+  "AssemblyVersion": "1.14.0.0",
   "Description": "Highly configurable hotbars that can be toggled with a keybind. They can be filled with Actions, Items, Gear Sets, Macros and more...",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Tischel/TPie",
   "Tags": [
     "UI"
   ],
-  "DalamudApiLevel": 14,
+  "DalamudApiLevel": 15,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
   "LoadPriority": 0,
   "Punchline": "Customizable ring-shaped hotbars",
-  "Changelog": "# 1.13.0.2\n\n- Fixed nested rings bug introduced in last version.",
+  "Changelog": "# 1.14.0.0\n\n- Added support for Patch 7.5 and Dalamud API 15.",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "stable"
