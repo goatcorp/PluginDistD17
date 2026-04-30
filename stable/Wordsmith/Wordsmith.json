@@ -2,14 +2,15 @@
   "Author": "Mythic Palette",
   "Name": "Wordsmith",
   "InternalName": "Wordsmith",
-  "AssemblyVersion": "1.16.0.0",
+  "AssemblyVersion": "1.16.1.0",
   "Description": "Wordsmith is a text editor with roleplayers in mind. It automatically breaks your text up for easy copy/paste, has advanced features, spellcheck, and even a thesaurus.",
   "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/MythicPalette/Wordsmith-DalamudPlugin",
   "Tags": [
     "Social",
     "Utility"
   ],
-  "DalamudApiLevel": 14,
+  "DalamudApiLevel": 15,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
