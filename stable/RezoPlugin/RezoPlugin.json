@@ -2,7 +2,7 @@
   "Author": "Azure Gem",
   "Name": "Rezo Scale Plugin",
   "InternalName": "RezoPlugin",
-  "AssemblyVersion": "14.745.1.0",
+  "AssemblyVersion": "15.750.0.0",
   "Description": "Ever wanted to render at lower resolution? Now you can!\nOnly works with AMD FSR graphics upscaler",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/GemPlugins/RezoPlugin",
@@ -17,7 +17,7 @@
   "CategoryTags": [
     "utility"
   ],
-  "DalamudApiLevel": 14,
+  "DalamudApiLevel": 15,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
