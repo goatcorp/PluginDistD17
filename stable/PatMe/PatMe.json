@@ -2,8 +2,8 @@
   "Author": "MgAl2O4",
   "Name": "Pat Me",
   "InternalName": "PatMe",
-  "AssemblyVersion": "1.14.0.0",
-  "Description": "Pat counter",
+  "AssemblyVersion": "1.15.0.0",
+  "Description": "Did you ever wonder how many times your Lala gets a pat? Well, now you can count it!",
   "ApplicableVersion": "any",
   "Tags": [
     "pat",
@@ -12,7 +12,7 @@
   "CategoryTags": [
     "social"
   ],
-  "DalamudApiLevel": 14,
+  "DalamudApiLevel": 15,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
