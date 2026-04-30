@@ -2,7 +2,7 @@
   "Author": "daemitus, Minmoose, MidoriKami",
   "Name": "ezMiniCactpot",
   "InternalName": "MiniCactpotSolver",
-  "AssemblyVersion": "4.0.0.0",
+  "AssemblyVersion": "4.0.1.0",
   "Description": "Highlights the tiles and lines in the MiniCactpot board that represent the next best potential move you can make. Maximizing your MGP reward!",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Etheirys/EzMiniCactpot",
@@ -13,7 +13,7 @@
     "utility",
     "ui"
   ],
-  "DalamudApiLevel": 14,
+  "DalamudApiLevel": 15,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,

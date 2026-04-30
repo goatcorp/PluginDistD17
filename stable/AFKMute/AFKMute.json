@@ -2,15 +2,15 @@
   "Author": "wompscode",
   "Name": "AFKMute",
   "InternalName": "AFKMute",
-  "AssemblyVersion": "1.0.0.7",
-  "Description": "AFKMute",
+  "AssemblyVersion": "1.0.0.8",
+  "Description": "Mutes your game when you're AFK. /afkmute to toggle.",
   "ApplicableVersion": "any",
   "Tags": [
     "afk",
     "mute",
     "qol"
   ],
-  "DalamudApiLevel": 14,
+  "DalamudApiLevel": 15,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
