@@ -2,8 +2,8 @@
   "Author": "Kurochi",
   "Name": "Tick Tracker",
   "InternalName": "TickTracker",
-  "AssemblyVersion": "1.6.5.0",
-  "Description": "A plugin that keeps track of HP/MP/GP ticks.",
+  "AssemblyVersion": "1.6.6.0",
+  "Description": "Customizable bars that indicate the tick progress of HP/MP/GP regen",
   "ApplicableVersion": "any",
   "Tags": [
     "tick",
@@ -14,7 +14,7 @@
     "gp",
     "regen"
   ],
-  "DalamudApiLevel": 14,
+  "DalamudApiLevel": 15,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
