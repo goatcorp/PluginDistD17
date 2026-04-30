@@ -2,13 +2,13 @@
   "Author": "Nuffin",
   "Name": "Better Minion Roulette",
   "InternalName": "BetterMinionRoulette",
-  "AssemblyVersion": "1.0.0.0",
+  "AssemblyVersion": "1.0.1.0",
   "Description": "Allows any number of minions to be enabled for the minion roulette, instead of having to choose between the \"up to 30\" and \"EVERYTHING\" modes supported by the game.",
   "ApplicableVersion": "any",
   "Tags": [
     "minion"
   ],
-  "DalamudApiLevel": 14,
+  "DalamudApiLevel": 15,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,

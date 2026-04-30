@@ -2,8 +2,8 @@
   "Author": "fmauNeko",
   "Name": "Market board",
   "InternalName": "MarketBoardPlugin",
-  "AssemblyVersion": "1.12.0.0",
-  "Description": "Market board plugin for Dalamud.",
+  "AssemblyVersion": "1.13.0.0",
+  "Description": "Browse the market board. /pmb to open.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/fmauNeko/MarketBoardPlugin",
   "Tags": [
@@ -12,7 +12,7 @@
     "marketboard",
     "market board"
   ],
-  "DalamudApiLevel": 14,
+  "DalamudApiLevel": 15,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
