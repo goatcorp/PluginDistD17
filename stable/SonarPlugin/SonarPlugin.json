@@ -2,7 +2,7 @@
   "Author": "Sonar Team",
   "Name": "Sonar",
   "InternalName": "SonarPlugin",
-  "AssemblyVersion": "14.745.2.7",
+  "AssemblyVersion": "15.750.0.0",
   "Description": "Automatically send and receive hunt and fate relays. /sonar to open, /sonarconfig to configure. Support is only provided in the Sonar Support discord.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://discord.gg/K7y24Rr",
@@ -20,7 +20,7 @@
   "CategoryTags": [
     "utility"
   ],
-  "DalamudApiLevel": 14,
+  "DalamudApiLevel": 15,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
