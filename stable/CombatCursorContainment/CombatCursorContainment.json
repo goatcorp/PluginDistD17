@@ -2,7 +2,7 @@
   "Author": "Cytraen",
   "Name": "Combat Cursor Containment",
   "InternalName": "CombatCursorContainment",
-  "AssemblyVersion": "1.0.8",
+  "AssemblyVersion": "1.0.9",
   "Description": "Automatically changes the 'limit mouse operation to game window' setting when entering/exiting combat.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Cytraen/CombatCursorContainment",
@@ -12,13 +12,13 @@
   "CategoryTags": [
     "Utility"
   ],
-  "DalamudApiLevel": 14,
+  "DalamudApiLevel": 15,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
   "LoadPriority": 0,
   "Punchline": "Keep your mouse cursor contained during combat!",
-  "Changelog": "- Update for 7.2\n- Add \"unlock during phase transition\" option",
+  "Changelog": "- Update for 7.5",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "stable"
