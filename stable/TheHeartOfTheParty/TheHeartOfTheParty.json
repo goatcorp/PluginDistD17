@@ -2,20 +2,20 @@
   "Author": "Anna, maintained by Khayle",
   "Name": "The Heart of the Party",
   "InternalName": "TheHeartOfTheParty",
-  "AssemblyVersion": "1.0.11.0",
+  "AssemblyVersion": "1.0.12.0",
   "Description": "The Heart of the Party is a remake of the in-game title picker, but it\nsupports searching. Note that it doesn't add a command to set your title; use\nthe built-in /title command instead.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://git.anna.lgbt/anna/TheHeartOfTheParty",
   "Tags": [
     "titles"
   ],
-  "DalamudApiLevel": 14,
+  "DalamudApiLevel": 15,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
   "LoadPriority": 0,
   "Punchline": "Set your character's title - now with Searchalin!",
-  "Changelog": "API13 update.",
+  "Changelog": "API15 update.",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "stable"

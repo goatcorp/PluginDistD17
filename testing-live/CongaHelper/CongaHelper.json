@@ -2,14 +2,14 @@
   "Author": "Aly",
   "Name": "Conga Helper",
   "InternalName": "CongaHelper",
-  "AssemblyVersion": "0.0.0.1",
-  "Description": "Automatically rearrange party list for TOP. /conga",
+  "AssemblyVersion": "0.1.0.0",
+  "Description": "Rearrange party list from left to right: /conga",
   "ApplicableVersion": "any",
   "Tags": [
     "TOP",
     "party"
   ],
-  "DalamudApiLevel": 14,
+  "DalamudApiLevel": 15,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,

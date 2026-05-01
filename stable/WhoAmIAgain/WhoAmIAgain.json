@@ -2,7 +2,7 @@
   "Author": "MidoriKami",
   "Name": "Who am I again?",
   "InternalName": "WhoAmIAgain",
-  "AssemblyVersion": "1.0.0.7",
+  "AssemblyVersion": "1.15.0.0",
   "Description": "Shows who you are in the server info bar.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/MidoriKami/WhoAmIAgain",
@@ -17,7 +17,7 @@
   "CategoryTags": [
     "UI"
   ],
-  "DalamudApiLevel": 14,
+  "DalamudApiLevel": 15,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
