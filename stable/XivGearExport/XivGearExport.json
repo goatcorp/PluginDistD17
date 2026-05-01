@@ -2,8 +2,8 @@
   "Author": "Violet Stardust",
   "Name": "XivGearExport",
   "InternalName": "XivGearExport",
-  "AssemblyVersion": "1.4.1.4",
-  "Description": "A plugin that allows easy export of gearsets to xivgear.app.",
+  "AssemblyVersion": "1.4.1.5",
+  "Description": "A plugin that allows easy export of your gearsets to xivgear.app in edit or view mode. Also includes the ability to export your gearsets from the gearset list.\n\nUse /xivgearexport or /xge to export your current gear set.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/VioletStardustXIV/XivGearExport",
   "Tags": [
@@ -15,7 +15,7 @@
     "materia",
     "bis"
   ],
-  "DalamudApiLevel": 14,
+  "DalamudApiLevel": 15,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
