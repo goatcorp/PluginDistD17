@@ -2,7 +2,7 @@
   "Author": "Miu-B",
   "Name": "PullToOBS",
   "InternalName": "PullToOBS",
-  "AssemblyVersion": "0.3.1.0",
+  "AssemblyVersion": "0.3.2.0",
   "Description": "A Dalamud plugin that automatically controls OBS recording during FFXIV encounters. Captures replay buffer before pulls and full encounter recordings via OBS WebSocket v5. Use /pulltoobs or /pto to configure.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Miu-B/PullToOBS",
@@ -12,7 +12,7 @@
     "encounter",
     "automation"
   ],
-  "DalamudApiLevel": 14,
+  "DalamudApiLevel": 15,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
