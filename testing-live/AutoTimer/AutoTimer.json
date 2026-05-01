@@ -2,15 +2,15 @@
   "Author": "Aly",
   "Name": "AutoTimer",
   "InternalName": "AutoTimer",
-  "AssemblyVersion": "1.1.0.6",
-  "Description": "A sample plugin.",
+  "AssemblyVersion": "1.1.0.7",
+  "Description": "Auto-Attack Timer Bar based on the Triggernometry trigger by aya liz.",
   "ApplicableVersion": "any",
   "Tags": [
     "auto",
     "attack",
     "timer"
   ],
-  "DalamudApiLevel": 14,
+  "DalamudApiLevel": 15,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
