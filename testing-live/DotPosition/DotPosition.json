@@ -2,8 +2,8 @@
   "Author": "dechamps-chen",
   "Name": "Dot Position",
   "InternalName": "DotPosition",
-  "AssemblyVersion": "1.0.0.3",
-  "Description": "Shows your exact hitbox position with a customizable marker",
+  "AssemblyVersion": "1.0.0.4",
+  "Description": "Dot Position adds a simple, customizable marker under your character to show your precise hitbox location.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/dechamps-chen/DotPosition",
   "Tags": [
@@ -13,7 +13,7 @@
     "character",
     "location"
   ],
-  "DalamudApiLevel": 14,
+  "DalamudApiLevel": 15,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
