@@ -2,15 +2,15 @@
   "Author": "kij",
   "Name": "ChatCoordinates",
   "InternalName": "ChatCoordinates",
-  "AssemblyVersion": "2.1.2.9",
-  "Description": "Place flag markers on map from chat command.",
+  "AssemblyVersion": "2.1.2.10",
+  "Description": "Places flag marker on map from coordinates in chat.\nOpens map with given coordinates for current or given zone.\nSee \"/coord\" for configuration and usage info.",
   "ApplicableVersion": "any",
   "Tags": [
     "utility",
     "map",
     "coordinates"
   ],
-  "DalamudApiLevel": 14,
+  "DalamudApiLevel": 15,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
