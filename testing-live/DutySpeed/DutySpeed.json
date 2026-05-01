@@ -2,7 +2,7 @@
   "Author": "EuphoricCrashOut",
   "Name": "DutySpeed",
   "InternalName": "DutySpeed",
-  "AssemblyVersion": "1.7.5.0",
+  "AssemblyVersion": "1.7.5.1",
   "Description": "A simple speedrun timer for FFXIV duties.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/EuphoricCrashOut/DutySpeed",
