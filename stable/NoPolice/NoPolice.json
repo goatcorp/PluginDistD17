@@ -2,8 +2,8 @@
   "Author": "Nocturn",
   "Name": "NoPolice",
   "InternalName": "NoPolice",
-  "AssemblyVersion": "1.0.0.2",
-  "Description": "NoPolice",
+  "AssemblyVersion": "1.0.0.5",
+  "Description": "Hides the Weeaboo Police",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Noctrepo/NoPolice",
   "Tags": [
@@ -11,7 +11,7 @@
     "Weeaboo",
     "Weeaboo Police"
   ],
-  "DalamudApiLevel": 14,
+  "DalamudApiLevel": 15,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
