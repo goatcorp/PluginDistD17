@@ -2,8 +2,8 @@
   "Author": "Anya Hichu",
   "Name": "ChatContext",
   "InternalName": "ChatContext",
-  "AssemblyVersion": "0.0.4.0",
-  "Description": "Dalamud plugin to add sender target to chat messages.",
+  "AssemblyVersion": "0.0.5.0",
+  "Description": "Add sender target name in chat messages and displays nearly player targets",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/anya-hichu/ChatContext",
   "Tags": [
@@ -11,7 +11,7 @@
     "context",
     "target"
   ],
-  "DalamudApiLevel": 14,
+  "DalamudApiLevel": 15,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,

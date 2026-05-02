@@ -2,7 +2,7 @@
   "Author": "Loody",
   "Name": "DiscordBotFFXIV",
   "InternalName": "DiscordBotFFXIV",
-  "AssemblyVersion": "1.1.2.2",
+  "AssemblyVersion": "1.1.2.3",
   "Description": "Discord / FFXIV bot to send msg from discord to the game",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/devckuw/DiscordBotFFXIV",
@@ -11,7 +11,7 @@
     "message",
     "friend"
   ],
-  "DalamudApiLevel": 14,
+  "DalamudApiLevel": 15,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
