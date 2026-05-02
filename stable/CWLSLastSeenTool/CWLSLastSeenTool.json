@@ -2,15 +2,15 @@
   "Author": "radax864",
   "Name": "Linkshell Tools",
   "InternalName": "CWLSLastSeenTool",
-  "AssemblyVersion": "2.0.0.0",
-  "Description": "Tools to make managing Linkshells and Cross-world Linkshells easier.",
+  "AssemblyVersion": "2.0.1.0",
+  "Description": "Formerly CWLSLastSeenTool. Tools to make managing Linkshells and Cross-world Linkshells easier. Primarily for keeping track of when you last see memebrs online but more functionality may be added as requested/when I am able. /shelltools to open.",
   "ApplicableVersion": "any",
   "Tags": [
     "cwls",
     "cross-world linkshell",
     "linkshell"
   ],
-  "DalamudApiLevel": 14,
+  "DalamudApiLevel": 15,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
