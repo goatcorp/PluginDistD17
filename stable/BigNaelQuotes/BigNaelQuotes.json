@@ -2,16 +2,17 @@
   "Author": "hunter2_, originally by Eisenhuth",
   "Name": "Big Nael Quotes",
   "InternalName": "BigNaelQuotes",
-  "AssemblyVersion": "0.0.8.0",
-  "Description": "Dalamud Plugin that Makes Nael quotes more visible.",
+  "AssemblyVersion": "0.0.9.0",
+  "Description": "Displays Nael quotes using the Dawntrail gimmick-text so they're easier to read.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/hunter2actual/BigNaelQuotes",
   "Tags": [
     "ui",
     "nael",
-    "quotes"
+    "quotes",
+    "ucob"
   ],
-  "DalamudApiLevel": 14,
+  "DalamudApiLevel": 15,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
@@ -20,7 +21,7 @@
     "https://i.imgur.com/LLZ1yN9.png"
   ],
   "Punchline": "Makes Nael quotes more visible.",
-  "Changelog": "Update for api14",
+  "Changelog": "api15",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "stable"
