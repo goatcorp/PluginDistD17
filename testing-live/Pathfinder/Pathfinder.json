@@ -2,7 +2,7 @@
   "Author": "Chirp + Bwuny",
   "Name": "Pathfinder",
   "InternalName": "Pathfinder",
-  "AssemblyVersion": "0.1.6.0",
+  "AssemblyVersion": "0.1.7.1",
   "Description": "A tool for visually locating any model path in the game world.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/ktisis-tools/ffxiv-pathfinder",
@@ -14,7 +14,7 @@
     "mdl",
     "vfx"
   ],
-  "DalamudApiLevel": 14,
+  "DalamudApiLevel": 15,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,

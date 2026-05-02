@@ -2,7 +2,7 @@
   "Author": "bwuny",
   "Name": "Swatch",
   "InternalName": "Swatch",
-  "AssemblyVersion": "0.0.1.0",
+  "AssemblyVersion": "0.0.2.1",
   "Description": "a server info bar addon to display swatch internet time",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/sleepybnuuy/swatch",
@@ -11,7 +11,7 @@
     "time",
     "swatch"
   ],
-  "DalamudApiLevel": 14,
+  "DalamudApiLevel": 15,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
