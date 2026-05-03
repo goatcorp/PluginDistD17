@@ -2,7 +2,7 @@
   "Author": "iri",
   "Name": "Photobooth",
   "InternalName": "Photobooth",
-  "AssemblyVersion": "1.0.1.0",
+  "AssemblyVersion": "1.0.2.0",
   "Description": "Take your portrait & adventurer plate game to the next level with this companion panel for the portrait editor.\n\n• Rewind, fast forward, and step through animations frame by frame.\n• Adjust character head and eye direction without moving the camera.\n• Position camera and pivot point with a top-down map.\n• More intuitive controls for lighting color and angle.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/iri-impulse/PhotoboothPlugin",
