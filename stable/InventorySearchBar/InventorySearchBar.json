@@ -2,14 +2,14 @@
   "Author": "Tischel, Caitlyn",
   "Name": "Inventory Search Bar",
   "InternalName": "InventorySearchBar",
-  "AssemblyVersion": "1.9.2.0",
+  "AssemblyVersion": "1.9.3.0",
   "Description": "Supports different types of filters to be able to find items by name, type, supported job or level requirements.\n\nSupported Inventories:\n\t- Character Inventory\n\t- Chocobo Saddlebags\n\t- Retainer Inventory\n\t- Armoury",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/caitlyn-gg/InventorySearchBar",
   "Tags": [
     "UI"
   ],
-  "DalamudApiLevel": 14,
+  "DalamudApiLevel": 15,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
