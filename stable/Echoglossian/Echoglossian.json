@@ -2,8 +2,8 @@
   "Author": "lokinmodar",
   "Name": "Echoglossian",
   "InternalName": "Echoglossian",
-  "AssemblyVersion": "3.25.2512.250",
-  "Description": "Final Fantasy XIV game text translator",
+  "AssemblyVersion": "4.2600.504.1505",
+  "Description": "Realtime game text translator",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/lokinmodar/Echoglossian",
   "Tags": [
@@ -14,7 +14,7 @@
     "UI",
     "Utility"
   ],
-  "DalamudApiLevel": 14,
+  "DalamudApiLevel": 15,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
