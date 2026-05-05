@@ -2,8 +2,8 @@
   "Author": "Abyeon",
   "Name": "Racingway",
   "InternalName": "Racingway",
-  "AssemblyVersion": "0.1.1.5",
-  "Description": "A speedrun timer intended for jump puzzle houses.",
+  "AssemblyVersion": "0.1.1.6",
+  "Description": "A simple plugin for timing, logging, and ranking player times for your jumping puzzles!",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Abyeon/Racingway",
   "Tags": [
@@ -12,7 +12,7 @@
     "jump",
     "timer"
   ],
-  "DalamudApiLevel": 14,
+  "DalamudApiLevel": 15,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
