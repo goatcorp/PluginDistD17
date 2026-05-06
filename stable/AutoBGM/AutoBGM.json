@@ -2,7 +2,7 @@
   "Author": "Meoiswa",
   "Name": "Auto BGM",
   "InternalName": "AutoBGM",
-  "AssemblyVersion": "1.5.1.0",
+  "AssemblyVersion": "1.5.1.1",
   "Description": "Enables automatic BGM switching based Client Conditions.",
   "ApplicableVersion": "any",
   "Tags": [

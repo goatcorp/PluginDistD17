@@ -1,8 +1,8 @@
 {
-  "Author": "meoiswa",
+  "Author": "Meoiswa",
   "Name": "Total Level",
   "InternalName": "TotalLevelPlugin",
-  "AssemblyVersion": "0.0.1.0",
+  "AssemblyVersion": "0.0.1.1",
   "Description": "Shows the total level of a Character in the Search Info panel",
   "ApplicableVersion": "any",
   "Tags": [
