@@ -2,7 +2,7 @@
   "Author": "NotNite, harbingerftw",
   "Name": "Better in Blue",
   "InternalName": "BetterInBlue",
-  "AssemblyVersion": "2.1.0.0",
+  "AssemblyVersion": "2.2.0.0",
   "Description": "Allows you to save, load, and share infinite Blue Mage spell loadouts and hotbars.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/harbingerftw/BetterInBlue",
@@ -16,7 +16,7 @@
   "CategoryTags": [
     "jobs"
   ],
-  "DalamudApiLevel": 14,
+  "DalamudApiLevel": 15,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,

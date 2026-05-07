@@ -2,19 +2,20 @@
   "Author": "Infi, Sl0nderman, harbingerftw",
   "Name": "Blue Mage Helper",
   "InternalName": "BlueMageHelper",
-  "AssemblyVersion": "3.1.0.0",
-  "Description": "Adds monster names and coordinates to the \"Where to Learn\" section of your blue mage spellbook.",
+  "AssemblyVersion": "3.4.0.0",
+  "Description": "Adds a window to show all Blue Magic, letting you search for spells and then teleport or mark the location on your map or open the dutyfinder. Can also mark mobs in world that drop spells you need.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/harbingerftw/BlueMageHelper",
   "Tags": [
     "spells",
     "spellbook",
-    "blu"
+    "blu",
+    "blue"
   ],
   "CategoryTags": [
     "jobs"
   ],
-  "DalamudApiLevel": 14,
+  "DalamudApiLevel": 15,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
