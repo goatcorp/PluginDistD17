@@ -1,0 +1,27 @@
+{
+  "Author": "Bryer",
+  "Name": "Clock",
+  "InternalName": "Clock",
+  "AssemblyVersion": "1.0.6.2",
+  "Description": "Use this to know the current time in different timezones in a customizable way.\nYou can change the text scale, colors, position and even setup Alarms!",
+  "ApplicableVersion": "any",
+  "Tags": [
+    "clock",
+    "plugin",
+    "utility",
+    "est",
+    "time",
+    "simple",
+    "customizable"
+  ],
+  "DalamudApiLevel": 15,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "IconUrl": "https://raw.githubusercontent.com/seventity7/clock/main/clockicon.png",
+  "Punchline": "Tired of missing stuff cause everything is in another timezone? Say less.",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "testing-live"
+}
