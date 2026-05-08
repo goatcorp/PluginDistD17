@@ -1,0 +1,27 @@
+{
+  "Author": "ssalazar217 (SteSE)",
+  "Name": "EchoXIV",
+  "InternalName": "EchoXIV",
+  "AssemblyVersion": "1.0.0.0",
+  "Description": "EchoXIV is a chat translation tool for FFXIV. It translates both incoming and outgoing chat messages so you can communicate more naturally with players who use other languages.\nKey Features:\n- Bidirectional chat translation for incoming and outgoing messages.\n- Configurable reading and writing languages.\n- Smart failover with automatic switching between Papago and Google.\n- Integrated Dalamud chat window for translated messages.\n\n[Español]\nEchoXIV es una herramienta de traducción de chat para FFXIV. Traduce mensajes entrantes y salientes para que puedas comunicarte de forma más natural con jugadores que usan otros idiomas.\nCaracterísticas:\n- Traducción bidireccional para mensajes entrantes y salientes.\n- Idiomas de lectura y escritura configurables.\n- Failover inteligente con cambio automático entre Papago y Google.\n- Ventana integrada de Dalamud para mensajes traducidos.",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/ssalazar217/EchoXIV",
+  "Tags": [
+    "chat",
+    "translation",
+    "translator",
+    "language",
+    "Dalamud",
+    "plugin"
+  ],
+  "DalamudApiLevel": 15,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "Punchline": "Bidirectional chat translation in Dalamud with auto-failover. / Traducción bidireccional de chat en Dalamud con failover automático.",
+  "Changelog": "v1.0.0.0: Initial release. Bidirectional chat translation with /tl command, automatic incoming translation, and multi-language UI support.",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "testing-live"
+}

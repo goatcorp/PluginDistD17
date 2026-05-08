@@ -2,7 +2,7 @@
   "Author": "Bryer",
   "Name": "Clock",
   "InternalName": "Clock",
-  "AssemblyVersion": "1.0.6.2",
+  "AssemblyVersion": "1.0.6.4",
   "Description": "Use this to know the current time in different timezones in a customizable way.\nYou can change the text scale, colors, position and even setup Alarms!",
   "ApplicableVersion": "any",
   "Tags": [
