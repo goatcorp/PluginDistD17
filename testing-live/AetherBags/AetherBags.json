@@ -2,7 +2,7 @@
   "Author": "Zeffuro, Pie Lover",
   "Name": "AetherBags",
   "InternalName": "AetherBags",
-  "AssemblyVersion": "1.0.0.2",
+  "AssemblyVersion": "1.0.0.3",
   "Description": "This plugin replaces your inventory with it's own categorified inventory addon.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Zeffuro/AetherBags",

@@ -1,0 +1,35 @@
+{
+  "Author": "NetStyx",
+  "Name": "A Realm Repopulated",
+  "InternalName": "ARealmRepopulated",
+  "AssemblyVersion": "0.1.4.4",
+  "MinimumDalamudVersion": "14.0.5.2",
+  "Description": "This plugin aims to give players the ability to add more flavor npcs to the common areas of the game.",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/NetStyx/ARealmRepopulated/",
+  "Tags": [
+    "npc",
+    "flavor",
+    "customizable"
+  ],
+  "CategoryTags": [
+    "utility",
+    "social"
+  ],
+  "DalamudApiLevel": 15,
+  "LoadRequiredState": 1,
+  "LoadSync": true,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "ImageUrls": [
+    "https://raw.githubusercontent.com/NetStyx/ARealmRepopulated/main/images/image1.png",
+    "https://raw.githubusercontent.com/NetStyx/ARealmRepopulated/main/images/image2.png",
+    "https://raw.githubusercontent.com/NetStyx/ARealmRepopulated/main/images/image3.png",
+    "https://raw.githubusercontent.com/NetStyx/ARealmRepopulated/main/images/image4.png"
+  ],
+  "IconUrl": "https://raw.githubusercontent.com/NetStyx/ARealmRepopulated/main/images/icon.png",
+  "Punchline": "The realm, now with more realm in it",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "testing-live"
+}
