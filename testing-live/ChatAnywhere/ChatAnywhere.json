@@ -2,9 +2,10 @@
   "Author": "twelvehouse",
   "Name": "ChatAnywhere",
   "InternalName": "ChatAnywhere",
-  "AssemblyVersion": "0.1.17.2",
+  "AssemblyVersion": "1.0.0.0",
   "Description": "Host your chat on a web server so you can talk from anywhere.",
   "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/twelvehouse/ChatAnywhere",
   "Tags": [
     "chat",
     "web",
