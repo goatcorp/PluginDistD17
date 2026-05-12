@@ -2,7 +2,7 @@
   "Author": "Piggy Guy",
   "Name": "Jumpscare",
   "InternalName": "Jumpscare",
-  "AssemblyVersion": "1.2.3.0",
+  "AssemblyVersion": "1.2.4.0",
   "Description": "/jumpscare or /js : Start/stop jumpscare timer.\n/jumpscareconfig or /jscfg: Open the jumpscare configuration window",
   "ApplicableVersion": "any",
   "Tags": [
