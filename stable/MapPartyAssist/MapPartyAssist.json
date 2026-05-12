@@ -2,8 +2,8 @@
   "Author": "SaMo",
   "Name": "Map Party Assist",
   "InternalName": "MapPartyAssist",
-  "AssemblyVersion": "2.5.1.2",
-  "Description": "Map Party Features.",
+  "AssemblyVersion": "2.5.2.0",
+  "Description": "Tool for keeping track of treasure maps opened by party members and recording map and dungeon statistics.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/wrath16/MapPartyAssist",
   "Tags": [
@@ -14,7 +14,7 @@
     "items",
     "plugin"
   ],
-  "DalamudApiLevel": 14,
+  "DalamudApiLevel": 15,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
