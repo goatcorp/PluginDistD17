@@ -2,7 +2,7 @@
   "Author": "AEBus",
   "Name": "FFXIV Venues Directory",
   "InternalName": "FFXIV.Venues.Directory",
-  "AssemblyVersion": "1.1.1.0",
+  "AssemblyVersion": "1.1.3.0",
   "Description": "Discover open FFXIV venues by region, data center, world, tags, and schedule. View detailed venue cards with addresses, banners, and external links directly in-game.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/AEBus/FFXIV.Venues.Directory",
@@ -23,7 +23,7 @@
   "CanUnloadAsync": false,
   "LoadPriority": 0,
   "Punchline": "Browse FFXIV roleplay venues in-game with rich filters and schedules.",
-  "Changelog": "Updated for the latest Dalamud release.\n\n- Keeps the venue directory working with the current game/plugin environment.\n- Banners now show a simple loading message while images load.\n- Improved reliability when opening, closing, and refreshing the directory.\n- General browsing polish for venue lists, details, filters, and schedules.",
+  "Changelog": "Window resizing update.\n\n- The directory window can now be resized larger while keeping 1280x720 as the minimum supported size.\n- Corrected window sizing values so Dalamud applies UI scaling consistently.",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "testing-live"
