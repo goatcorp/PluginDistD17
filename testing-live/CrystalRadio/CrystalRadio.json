@@ -2,20 +2,19 @@
   "Author": "Saevath",
   "Name": "CrystalRadio",
   "InternalName": "CrystalRadio",
-  "AssemblyVersion": "0.0.0.1",
-  "Description": "Listen to your favorite internet radio stations directly in-game. Browse stations and manage your favorites. Use /cradio to open the radio player",
+  "AssemblyVersion": "1.0.0.0",
+  "Description": "Listen to your favorite internet radio stations directly in-game. Browse stations and manage your favorites. Use /cradio to open the radio player\n",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Saevath/CrystalRadio",
   "Tags": [
-    "radio",
-    "music",
-    "audio"
+    "Internet Radio",
+    "Music",
+    "In-Game Audio"
   ],
   "CategoryTags": [
-    "other",
-    "test"
+    "Other"
   ],
-  "DalamudApiLevel": 14,
+  "DalamudApiLevel": 15,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
