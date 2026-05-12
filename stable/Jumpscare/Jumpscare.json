@@ -1,0 +1,23 @@
+{
+  "Author": "Piggy Guy",
+  "Name": "Jumpscare",
+  "InternalName": "Jumpscare",
+  "AssemblyVersion": "1.2.3.0",
+  "Description": "/jumpscare or /js : Start/stop jumpscare timer.\n/jumpscareconfig or /jscfg: Open the jumpscare configuration window",
+  "ApplicableVersion": "any",
+  "Tags": [
+    "scary",
+    "scare",
+    "plugin",
+    "custom"
+  ],
+  "DalamudApiLevel": 15,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "Punchline": "Give yourself a heart attack (inspired by joemkdd's Isaac mod).",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "stable"
+}
