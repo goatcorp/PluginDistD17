@@ -2,8 +2,8 @@
   "Author": "twelvehouse",
   "Name": "ChatAnywhere",
   "InternalName": "ChatAnywhere",
-  "AssemblyVersion": "1.0.0.0",
-  "Description": "Host your chat on a web server so you can talk from anywhere.",
+  "AssemblyVersion": "1.1.0.0",
+  "Description": "Feature:\n- Real-time chat streaming via Server-Sent Events\n- Supports all channel types: FC, LS/CWLS 1-8, Party, Tell, Say, Shout, Yell, Alliance, and more\n- Custom filters with drag-and-drop reordering, unread badges, and default send channels\n- Tell mode with pin support and recent DM history\n- Emote picker with search and recently used, and FFXIV symbol picker\n- Link previews for trusted sites (Lodestone, YouTube, Twitter/X, Twitch, and more)\n- Appearance customisation: Google Fonts, font size, coloured message backgrounds\n- Passcode authentication for browser access",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/twelvehouse/ChatAnywhere",
   "Tags": [
@@ -17,7 +17,7 @@
   "LoadSync": false,
   "CanUnloadAsync": false,
   "LoadPriority": 0,
-  "Punchline": "Chat in FFXIV from your browser anywhere.",
+  "Punchline": "Host your chat on a web server so you can talk from anywhere.",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "testing-live"
