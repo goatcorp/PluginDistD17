@@ -1,0 +1,32 @@
+{
+  "Author": "Nagi'to Atreides",
+  "Name": "Suit Highlighter",
+  "InternalName": "SuitHighlighter",
+  "AssemblyVersion": "1.0.0.0",
+  "Description": "When enabled, suit symbols appear in distinct colors in chat.",
+  "ApplicableVersion": "any",
+  "Tags": [
+    "gambling",
+    "gamba",
+    "poker",
+    "cards",
+    "flush",
+    "♥",
+    "♠",
+    "♣",
+    "♦",
+    "♡",
+    "♤",
+    "♧",
+    "◇"
+  ],
+  "DalamudApiLevel": 15,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "Punchline": "Colorizes suit symbols ♥, ♠, ♣, ♦",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "stable"
+}
