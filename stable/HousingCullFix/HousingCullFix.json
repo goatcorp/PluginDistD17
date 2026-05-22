@@ -1,0 +1,25 @@
+{
+  "Author": "Abyeon, Karou",
+  "Name": "Housing Cull Fix",
+  "InternalName": "HousingCullFix",
+  "AssemblyVersion": "0.0.1.8",
+  "Description": "Removes the annoying 400 housing item display limit.",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/Abyeon/HousingCullFix",
+  "Tags": [
+    "housing",
+    "cull",
+    "fix",
+    "utility"
+  ],
+  "DalamudApiLevel": 15,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "IconUrl": "https://raw.githubusercontent.com/Abyeon/HousingCullFix/refs/heads/master/Data/icon.png",
+  "Punchline": "Now with void lighting fixed!",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "stable"
+}
