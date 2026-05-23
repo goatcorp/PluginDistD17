@@ -1,0 +1,22 @@
+{
+  "Author": "Bryer",
+  "Name": "CreateXIV",
+  "InternalName": "CreateXIV",
+  "AssemblyVersion": "1.0.6.7",
+  "Description": "Lets players create custom slash command aliases from an in-game UI.",
+  "ApplicableVersion": "any",
+  "Tags": [
+    "command",
+    "alias",
+    "chat"
+  ],
+  "DalamudApiLevel": 15,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "Punchline": "Create your own custom slash commands.",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "stable"
+}

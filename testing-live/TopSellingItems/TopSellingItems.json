@@ -1,0 +1,22 @@
+{
+  "Author": "epinephren-lepwn",
+  "Name": "TopSellingItems",
+  "InternalName": "TopSellingItems",
+  "AssemblyVersion": "1.0.3.1",
+  "Description": "Scans Universalis data to find market opportunities.",
+  "ApplicableVersion": "any",
+  "Tags": [
+    "marketboard",
+    "universalis",
+    "economy"
+  ],
+  "DalamudApiLevel": 15,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "Punchline": "Find cross-DC market opportunities.",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "testing-live"
+}
