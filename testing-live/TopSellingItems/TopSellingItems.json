@@ -1,8 +1,8 @@
 {
-  "Author": "epinephren-lepwn",
+  "Author": "epinephren",
   "Name": "TopSellingItems",
   "InternalName": "TopSellingItems",
-  "AssemblyVersion": "1.0.3.1",
+  "AssemblyVersion": "1.0.3.2",
   "Description": "Scans Universalis data to find market opportunities.",
   "ApplicableVersion": "any",
   "Tags": [
