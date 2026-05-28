@@ -1,0 +1,27 @@
+{
+  "Author": "Aida Enna",
+  "Name": "Term Filter 2",
+  "InternalName": "TermFilter2",
+  "AssemblyVersion": "1.0.0.2",
+  "Description": "I felt like the vanilla term filter was missing a lot of options, so I added them.\n\"If the term filter is so good, why didn't they make a term filter 2?\"",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/Aida-Enna/TermFilter2",
+  "Tags": [
+    "term",
+    "filter",
+    "chat",
+    "block",
+    "name",
+    "aida"
+  ],
+  "DalamudApiLevel": 15,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "IconUrl": "https://i.imgur.com/R2JQJsJ.png",
+  "Punchline": "An expanded and extremely customizable rewrite of the in-game term filter, this allows players to mask/hide/modify messages containing specific words.",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "testing-live"
+}
