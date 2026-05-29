@@ -2,14 +2,14 @@
   "Author": "Enthusiastus",
   "Name": "AkuTrack",
   "InternalName": "AkuTrack",
-  "AssemblyVersion": "0.0.32.0",
+  "AssemblyVersion": "0.0.33.0",
   "Description": "AkuTrack is a project to offer an improved ingame map enriched with information found by visiting on site.\n\nThis is achieved by collecting the data on a remote server once a user encounters it.\n\n\t- Adds NPC spawns to the map\n\t- Adds objects like Entrances and Exits\n\t- Adds Gathering Points independent of current job",
   "ApplicableVersion": "any",
   "Tags": [
     "plugin",
     "object"
   ],
-  "DalamudApiLevel": 14,
+  "DalamudApiLevel": 15,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,

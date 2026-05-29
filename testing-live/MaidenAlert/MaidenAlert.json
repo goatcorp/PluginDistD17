@@ -2,7 +2,7 @@
   "Author": "Bryer",
   "Name": "Maiden Alert",
   "InternalName": "MaidenAlert",
-  "AssemblyVersion": "1.0.0.6",
+  "AssemblyVersion": "1.0.0.7",
   "Description": "Maidens will now emit audible notification, chat message and on-screen tracker!",
   "ApplicableVersion": "any",
   "Tags": [
