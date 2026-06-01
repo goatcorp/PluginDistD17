@@ -1,0 +1,25 @@
+{
+  "Author": "ElyFura",
+  "Name": "Easy Chatlog",
+  "InternalName": "EasyChatlog",
+  "AssemblyVersion": "0.1.9.5",
+  "Description": "Captures your in-game chat, exports it (txt/json/html/md) and optionally forwards it live to a Discord channel via webhook or bot. Type /easychatlog to open the main window or /easychatlog config for settings.",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/ElyFura/easy-chatlog",
+  "Tags": [
+    "chat",
+    "log",
+    "export",
+    "discord"
+  ],
+  "DalamudApiLevel": 15,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "IconUrl": "https://raw.githubusercontent.com/ElyFura/easy-chatlog/main/images/icon.png",
+  "Punchline": "Export your chat and forward it to Discord.",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "testing-live"
+}
