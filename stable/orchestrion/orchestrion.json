@@ -2,7 +2,7 @@
   "Author": "perchbird (originally Meli)",
   "Name": "Orchestrion Plugin",
   "InternalName": "orchestrion",
-  "AssemblyVersion": "2.3.0.0",
+  "AssemblyVersion": "2.3.0.1",
   "Description": "Orchestrion Plugin allows you to change the currently playing in-game BGM. It includes\na curated list of the most accurate in-game song titles, so you know exactly what's playing,\nif you want to know later! Add favorite songs to separate them from the rest.\nNote: This plugin does not currently allow you to play actual orchestrion songs.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/perchbirdd/OrchestrionPlugin",
@@ -16,7 +16,7 @@
   "CanUnloadAsync": false,
   "LoadPriority": 0,
   "Punchline": "Adds a simple front-end for browsing and changing the in-game BGM.",
-  "Changelog": "Long-awaited new feature, implemented by @NPittinger!\nThe Orchestrion plugin can now report the titles of songs played inside housing instances and inns by the Orchestrion furnishing.\nLimitations:\n- The plugin still cannot play Orchestrion rolls.\n- Titles of songs played inside housing instances can appear in the server bar and in chat messages.\n- Songs played inside housing instances will not appear in your listening history and cannot be added to playlists.\n- Only English and Japanese titles are available for Orchestrion rolls, as those are the only languages provided by the game.",
+  "Changelog": "2.3.0.1:\nFixed bug where Deep Dungeon mode would not switch tracks\n2.3.0.0:\nLong-awaited new feature, implemented by @NPittinger!\nThe Orchestrion plugin can now report the titles of songs played inside housing instances and inns by the Orchestrion furnishing.\nLimitations:\n- The plugin still cannot play Orchestrion rolls.\n- Titles of songs played inside housing instances can appear in the server bar and in chat messages.\n- Songs played inside housing instances will not appear in your listening history and cannot be added to playlists.\n- Only English and Japanese titles are available for Orchestrion rolls, as those are the only languages provided by the game.",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "stable"
