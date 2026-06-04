@@ -2,7 +2,7 @@
   "Author": "twelvehouse",
   "Name": "ChatAnywhere",
   "InternalName": "ChatAnywhere",
-  "AssemblyVersion": "1.4.0.1",
+  "AssemblyVersion": "1.5.0.0",
   "Description": "Features:\n- Real-time chat streaming via Server-Sent Events\n- Supports all channel types: FC, LS/CWLS 1-8, Party, Tell, Say, Shout, Yell, Alliance, and more\n- Custom filters with drag-and-drop reordering, unread badges, and default send channels\n- Tell mode with pin support and recent DM history\n- Send queue: brief countdown after pressing Send so you can cancel accidental sends (opt-in)\n- Emote picker with search and recently used, and FFXIV symbol picker\n- Link previews for trusted sites (Lodestone, YouTube, Twitter/X, Twitch, and more)\n- Appearance customisation: Light and Dark themes, Google Fonts, font size, coloured message backgrounds\n- Passcode authentication for browser access",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/twelvehouse/ChatAnywhere",
