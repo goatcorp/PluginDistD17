@@ -2,7 +2,7 @@
   "Author": "sleeds2",
   "Name": "Job Roulette",
   "InternalName": "JobRoulettePlugin",
-  "AssemblyVersion": "1.0.1.0",
+  "AssemblyVersion": "1.2.0.0",
   "Description": "Uses the command /jobroulette to randomly pick a job and switch to the saved gearset. Can be configured to include or exclude certain jobs.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/sleeds2/jobroulette",
