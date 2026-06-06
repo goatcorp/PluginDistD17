@@ -2,7 +2,7 @@
   "Author": "Ibcrootbeer",
   "Name": "Retainer Alerts",
   "InternalName": "RetainerAlerts",
-  "AssemblyVersion": "1.4.0.0",
+  "AssemblyVersion": "1.5.0.0",
   "Description": "A simple plugin to remind you when your retainers are done with their ventures.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Ibcrootbeer/RetainerAlerts",
