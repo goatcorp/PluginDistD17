@@ -2,7 +2,7 @@
   "Author": "Bryer",
   "Name": "CreateXIV",
   "InternalName": "CreateXIV",
-  "AssemblyVersion": "1.0.6.8",
+  "AssemblyVersion": "1.0.6.9",
   "Description": "Lets players create custom slash command aliases from an in-game UI.",
   "ApplicableVersion": "any",
   "Tags": [
