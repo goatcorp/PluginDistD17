@@ -2,7 +2,7 @@
   "Author": "Nadya, Kagekazu",
   "Name": "Tidy Chat",
   "InternalName": "TidyChat",
-  "AssemblyVersion": "3.1.0.10",
+  "AssemblyVersion": "3.1.0.11",
   "Description": "Trim the messages FFXIV dumps into your chat log.\n\n  - Master filters for System, Progress, Loot, Obtained, Crafting, and Gathering\n  - Toggles for currencies, FC and retainer messages, level-ups, mount unlocks, orchestrion lines, deep dungeon pomanders, combat log categories, and more\n  - Shorter rewrites for instance entry, commendations, Novice Network, and treasure dungeon text\n  - Copies /say quest dialogue to your clipboard; can block emote spam from others\n  - Player whitelist, chat history deduplication, per-tomestone hides, and debug logging",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/NadyaNayme/TidyChat",
