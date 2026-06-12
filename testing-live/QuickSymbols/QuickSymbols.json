@@ -1,8 +1,8 @@
 {
-  "Author": "Bryer",
+  "Author": "LatencyBryer",
   "Name": "QuickSymbols",
   "InternalName": "QuickSymbols",
-  "AssemblyVersion": "1.0.0.6",
+  "AssemblyVersion": "1.0.0.7",
   "Description": "Adds a Quick Symbols button beside the chat mode selector and other text inputs.",
   "ApplicableVersion": "any",
   "Tags": [
@@ -17,7 +17,7 @@
   "LoadSync": false,
   "CanUnloadAsync": false,
   "LoadPriority": 0,
-  "IconUrl": "https://raw.githubusercontent.com/seventity7/QuickSymbols/main/icon.png",
+  "IconUrl": "https://raw.githubusercontent.com/LatencyBryer/QuickSymbols/main/icon.png",
   "Punchline": "Adds a quick special-symbol picker beside the chat mode button.",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
