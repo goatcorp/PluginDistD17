@@ -1,8 +1,8 @@
 {
-  "Author": "Bryer",
+  "Author": "LatencyBryer",
   "Name": "Clock",
   "InternalName": "Clock",
-  "AssemblyVersion": "1.0.7.2",
+  "AssemblyVersion": "1.0.7.3",
   "Description": "Use this to know the current time in different timezones in a customizable way.\nYou can change the text scale, colors, position and even setup Alarms!",
   "ApplicableVersion": "any",
   "Tags": [
@@ -19,7 +19,7 @@
   "LoadSync": false,
   "CanUnloadAsync": false,
   "LoadPriority": 0,
-  "IconUrl": "https://raw.githubusercontent.com/seventity7/clock/main/clockicon.png",
+  "IconUrl": "https://raw.githubusercontent.com/LatencyBryer/clock/main/clockicon.png",
   "Punchline": "Tired of missing stuff cause everything is in another timezone? Say less.",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
