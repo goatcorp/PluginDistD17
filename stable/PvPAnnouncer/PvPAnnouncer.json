@@ -1,9 +1,9 @@
 {
   "Author": "spide-r",
-  "Name": "PvPAnnouncer",
+  "Name": "NPCAnnouncer",
   "InternalName": "PvPAnnouncer",
-  "AssemblyVersion": "1.6.1.1",
-  "Description": "This plugin will cause character voice lines to play mid-match upon specific conditions being met.",
+  "AssemblyVersion": "1.6.2.0",
+  "Description": "This plugin will cause character voice lines to play upon specific conditions being met.",
   "ApplicableVersion": "any",
   "Tags": [
     "frontlines",
@@ -16,7 +16,8 @@
     "alisaie",
     "alphinaud",
     "thancred",
-    "graha"
+    "graha",
+    "npc"
   ],
   "CategoryTags": [
     "utility",
@@ -28,7 +29,7 @@
   "CanUnloadAsync": false,
   "LoadPriority": 0,
   "IconUrl": "https://github.com/spide-r/PvPAnnouncer/blob/main/images/icon.png",
-  "Punchline": "Do you want an announcer in your PvP Matches? Metem and the Scions have offered their services!",
+  "Punchline": "Do you want an announcer in your PvP matches, PvE duties, and fates? Metem and the Scions have offered their services!",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "stable"
