@@ -2,8 +2,8 @@
   "Author": "Megurt",
   "Name": "Which Mount",
   "InternalName": "WhichMount",
-  "AssemblyVersion": "1.5.0.0",
-  "Description": "Adds a 'Mount Search' option to the target's context menu, displaying mount information and acquisition details in the chat. Also includes a searchable mount database with detailed navigation.",
+  "AssemblyVersion": "1.5.5.0",
+  "Description": "Shows information about mounts other players are using.\n\nFeatures:\n- 'Find Mount' in a player's context menu: shows their mount and how to get it.\n- Mount name and unlock status in the target tooltip.\n- Mount database with search, expansion filter and acquisition info.\n- Trial mount tracks with totem counts (inventory, saddlebag, retainers).\n- Chat links: click a mount or totem icon to link it in chat, jump back from any link via 'Open in WhichMount'.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/megurte/WhichMount",
   "Tags": [
@@ -21,9 +21,11 @@
   "ImageUrls": [
     "https://raw.githubusercontent.com/megurte/WhichMount/master/Icon/example1.png",
     "https://raw.githubusercontent.com/megurte/WhichMount/master/Icon/example2.png",
-    "https://raw.githubusercontent.com/megurte/WhichMount/master/Icon/example3.png"
+    "https://raw.githubusercontent.com/megurte/WhichMount/master/Icon/example3.png",
+    "https://raw.githubusercontent.com/megurte/WhichMount/master/Icon/example4.png",
+    "https://raw.githubusercontent.com/megurte/WhichMount/master/Icon/example5.png"
   ],
-  "Punchline": "Check what mount someone is using and browse the full mount collection.",
+  "Punchline": "Shows what mount another player is using. Includes a mount database, chat links, and trial totem tracking.",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "stable"
