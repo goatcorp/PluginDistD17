@@ -1,0 +1,25 @@
+{
+  "Author": "LatencyBryer",
+  "Name": "QuickSymbols",
+  "InternalName": "QuickSymbols",
+  "AssemblyVersion": "1.0.0.8",
+  "Description": "Adds a Quick Symbols button beside the chat mode selector and other text inputs.",
+  "ApplicableVersion": "any",
+  "Tags": [
+    "chat",
+    "symbols",
+    "utility",
+    "quick",
+    "ui"
+  ],
+  "DalamudApiLevel": 15,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "IconUrl": "https://raw.githubusercontent.com/LatencyBryer/QuickSymbols/main/icon.png",
+  "Punchline": "Adds a quick special-symbol picker beside the chat mode button.",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "stable"
+}
