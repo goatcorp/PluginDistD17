@@ -2,7 +2,7 @@
   "Author": "Stonewind",
   "Name": "Toastingway",
   "InternalName": "ToastingwayPlugin",
-  "AssemblyVersion": "1.4.0.0",
+  "AssemblyVersion": "1.4.0.1",
   "Description": "Displays new items, crystals, and gil as toasts.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/powellad/Toastingway",
