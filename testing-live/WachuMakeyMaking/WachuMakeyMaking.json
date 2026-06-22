@@ -2,14 +2,14 @@
   "Author": "Nesrie",
   "Name": "WachuMakeyMaking?",
   "InternalName": "WachuMakeyMaking",
-  "AssemblyVersion": "1.0.9.0",
+  "AssemblyVersion": "1.0.10.0",
   "Description": "WachuMakeyMaking takes what you have in your inventory and calculates the optimal combination of items to make. Item prices are fetched from Universalis, or can be manually overridden.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/ArcaneAj/WachuMakeyMaking",
   "Tags": [
     "crafting"
   ],
-  "DalamudApiLevel": 14,
+  "DalamudApiLevel": 15,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
