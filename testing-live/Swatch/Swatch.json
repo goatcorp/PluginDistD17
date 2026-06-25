@@ -2,7 +2,7 @@
   "Author": "bwuny",
   "Name": "Swatch",
   "InternalName": "Swatch",
-  "AssemblyVersion": "0.0.2.1",
+  "AssemblyVersion": "0.0.3.0",
   "Description": "a server info bar addon to display swatch internet time",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/sleepybnuuy/swatch",
