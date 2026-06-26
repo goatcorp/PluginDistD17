@@ -2,7 +2,7 @@
   "Author": "Speedas",
   "Name": "Steam Recording Enhanced",
   "InternalName": "SteamRecordingEnhanced",
-  "AssemblyVersion": "1.0.0.0",
+  "AssemblyVersion": "1.0.0.1",
   "Description": "Enhance Steam Game Recording by automatically adding configurable in-game events to the timeline, allowing for easy rewinding and clipping. Rewind to the moment of your death to reassure yourself that you did dodge the AOE before it went off and that the game does hate you personally with greater efficiency than ever!\n\nNon-steam users will have to follow a setup guide located in the configuration's window Status tab to get everything working.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/RokasKil/SteamRecordingEnhanced",
