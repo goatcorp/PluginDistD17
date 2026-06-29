@@ -2,7 +2,7 @@
   "Author": "LatencyBryer",
   "Name": "QuickSymbols",
   "InternalName": "QuickSymbols",
-  "AssemblyVersion": "1.0.1.2",
+  "AssemblyVersion": "1.0.1.3",
   "Description": "Adds a Quick Symbols button beside the chat mode selector and other text inputs.",
   "ApplicableVersion": "any",
   "Tags": [
