@@ -1,0 +1,23 @@
+{
+  "Author": "Fj233",
+  "Name": "Friend Note",
+  "InternalName": "FriendNote",
+  "AssemblyVersion": "1.0.2.0",
+  "Description": "Add personal notes to friends from the friend list context menu. Right-click a friend's name to set a note, which will then be shown in the friend list.",
+  "ApplicableVersion": "any",
+  "Tags": [
+    "friend",
+    "notes",
+    "utility",
+    "social"
+  ],
+  "DalamudApiLevel": 15,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "Punchline": "A simple plugin to add notes to your friends.",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "stable"
+}
