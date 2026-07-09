@@ -2,7 +2,7 @@
   "Author": "Loody",
   "Name": "DiscordBotFFXIV",
   "InternalName": "DiscordBotFFXIV",
-  "AssemblyVersion": "1.1.2.3",
+  "AssemblyVersion": "1.1.2.4",
   "Description": "Discord / FFXIV bot to send msg from discord to the game",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/devckuw/DiscordBotFFXIV",
