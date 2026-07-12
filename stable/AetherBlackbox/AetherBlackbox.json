@@ -2,7 +2,7 @@
   "Author": "rail",
   "Name": "Aether Blackbox",
   "InternalName": "AetherBlackbox",
-  "AssemblyVersion": "7.51.0.1",
+  "AssemblyVersion": "7.51.2.0",
   "Description": "Replay positions and events before death. /abb to open; Connects to an external websocket relay for opt-in live sync mode (no PII sent) at blackbox.aetherdraw.me",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/rail2025/AetherBlackbox",
@@ -20,7 +20,7 @@
   "CanUnloadAsync": false,
   "LoadPriority": 0,
   "Punchline": "A visual replay of positions before death. DeathRecap + AetherDraw",
-  "Changelog": "v7.51.0.1: ui scaling fix\nv7.51.0.0: wip aoe added post wipe\nv7.50.2.6:status icon toggle, more robust hp% display fix\nv7.50.2.5: o8s maps for UMAD, boss hp% display fix\nv7.50.2.4: mouse scroll on scrubbar, time entry and nudge buttons\nv7.50.2.3: code clean up\nv7.50.2.2:pull list group\nv7.50.2.1: Added Main button to installer, fixed status icon aspect ratio, fixed stale status effects bug\nv7.50.2: party list clickable, calibration and live sync/laser/select tool always available, status load crash fix\nv7.50.1: code clean up\nv7.5.0: api 15, patch 7.5",
+  "Changelog": "v7.51.2.0: New Feature: auto-replay, log highlights, auto-player selection, resizable left panel. Fixed shape handles and canvas syncing.\nv7.51.0.1: ui scaling fix\nv7.51.0.0: wip aoe added post wipe",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "stable"
