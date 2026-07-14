@@ -1,9 +1,9 @@
 {
   "Author": "sourpuh",
-  "Name": "Gaolbreak UI",
+  "Name": "Gaolbreak",
   "InternalName": "Gaolbreak",
-  "AssemblyVersion": "0.0.0.26",
-  "Description": "Layers game windows with plugin windows, enables 3D overlay plugins to draw under UI, and stops ReShade affecting your UI.",
+  "AssemblyVersion": "0.0.0.30",
+  "Description": "Layer game windows with plugin windows, enable 3D overlay plugins to draw under UI, and stop ReShade affecting your UI.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/sourpuh/ffxiv_gaolbreak",
   "Tags": [
