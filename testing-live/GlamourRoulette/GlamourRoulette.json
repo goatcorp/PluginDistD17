@@ -2,7 +2,7 @@
   "Author": "sleeds2",
   "Name": "Glamour Roulette",
   "InternalName": "GlamourRoulette",
-  "AssemblyVersion": "0.9.9.0",
+  "AssemblyVersion": "0.9.9.1",
   "Description": "Uses the command /glamourroulette to randomly apply a saved Glamour Plate.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/sleeds2/glamourroulette",
