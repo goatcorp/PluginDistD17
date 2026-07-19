@@ -2,7 +2,7 @@
   "Author": "Bronya Rand (formerly Franz, goat)",
   "Name": "Discord Rich Presence",
   "InternalName": "Dalamud.RichPresence",
-  "AssemblyVersion": "2.0.8.2",
+  "AssemblyVersion": "2.0.9.2",
   "Description": "Show your zone, job, level, name, and world in your Discord status.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Bronya-Rand/Dalamud.RichPresence",
