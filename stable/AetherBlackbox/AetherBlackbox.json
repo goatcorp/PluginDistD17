@@ -2,7 +2,7 @@
   "Author": "rail",
   "Name": "Aether Blackbox",
   "InternalName": "AetherBlackbox",
-  "AssemblyVersion": "7.51.2.0",
+  "AssemblyVersion": "7.51.3.0",
   "Description": "Replay positions and events before death. /abb to open; Connects to an external websocket relay for opt-in live sync mode (no PII sent) at blackbox.aetherdraw.me",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/rail2025/AetherBlackbox",
@@ -20,7 +20,7 @@
   "CanUnloadAsync": false,
   "LoadPriority": 0,
   "Punchline": "A visual replay of positions before death. DeathRecap + AetherDraw",
-  "Changelog": "v7.51.2.0: New Feature: auto-replay, log highlights, auto-player selection, resizable left panel. Fixed shape handles and canvas syncing.\nv7.51.0.1: ui scaling fix\nv7.51.0.0: wip aoe added post wipe",
+  "Changelog": "v7.51.3.0:New features: phantom job icon support, hp% on selection panel, replays load async (no ui hanging), aoes 90% correct for M10-12, UMAD, alliance party member ui added, various minor UI adjustments\nv7.51.2.1: buff/debuffs visible on target, icon wrap on selection\nv7.51.2.0: New Feature: auto-replay, log highlights, auto-player selection, resizable left panel. Fixed shape handles and canvas syncing.\nv7.51.0.1: ui scaling fix\nv7.51.0.0: wip aoe added post wipe",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "stable"
