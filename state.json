@@ -97970,9 +97970,9 @@
           }
         },
         "DailyDuty": {
-          "BuiltCommit": "c476b6a5b76004d70412f83152069487936ac4d2",
-          "TimeBuilt": "2026-07-22T05:15:13.1512752+00:00",
-          "EffectiveVersion": "6.0.4.12",
+          "BuiltCommit": "ec57a24410780d882402a0ee5ac963d8b68d2c98",
+          "TimeBuilt": "2026-07-24T21:02:32.9224623+00:00",
+          "EffectiveVersion": "6.0.4.13",
           "MinimumVersion": null,
           "Changelogs": {
             "5.2.0.0": {
@@ -99706,6 +99706,34 @@
             "6.0.4.12": {
               "TimeReleased": "2026-07-22T05:15:13.1513168+00:00",
               "Changelog": "Stability Improvements",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "b3ba9099023c3f599816507993b332be6174819b"
+                },
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit.Components",
+                  "Version": "76ebbac0b3d91dace40ac16b5e132bee0793b49a"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "MidoriKami"
+            },
+            "6.0.4.13": {
+              "TimeReleased": "2026-07-24T21:02:32.9224639+00:00",
+              "Changelog": "Fix Domain Restoration being unselectable in Todo Panel Config in French.",
               "UsedNeeds": [
                 {
                   "Key": "https://github.com/MidoriKami/KamiToolKit",
@@ -225208,9 +225236,9 @@
           }
         },
         "PvPAnnouncer": {
-          "BuiltCommit": "5c81445f6d9c7ada487a74e7e9fc62126fcad30e",
-          "TimeBuilt": "2026-06-19T21:24:57.723751+00:00",
-          "EffectiveVersion": "1.6.2.2",
+          "BuiltCommit": "e4a713a37897ffe316bf7a05cdf42392df444f46",
+          "TimeBuilt": "2026-07-24T21:02:42.9783604+00:00",
+          "EffectiveVersion": "1.6.3.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -225600,6 +225628,22 @@
             "1.6.2.2": {
               "TimeReleased": "2026-06-19T21:24:57.7237938+00:00",
               "Changelog": "Voice Lines now have a cooldown that will clear after a time. New Config Settings, some fixes. Event History is now visible.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "spide-r"
+            },
+            "1.6.3.0": {
+              "TimeReleased": "2026-07-24T21:02:42.9783624+00:00",
+              "Changelog": "Translation framework added! Many other fixes for voicelines as well.",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -249252,9 +249296,9 @@
           }
         },
         "AetherBlackbox": {
-          "BuiltCommit": "8976b2f13255afab9b1ca69533e3f26b5f1b155d",
-          "TimeBuilt": "2026-07-21T18:13:20.5442077+00:00",
-          "EffectiveVersion": "7.51.3.0",
+          "BuiltCommit": "e094c441ca051f626202be67775feb8728797bed",
+          "TimeBuilt": "2026-07-24T21:02:18.5500072+00:00",
+          "EffectiveVersion": "7.51.3.1",
           "MinimumVersion": null,
           "Changelogs": {
             "7.50.2.6": {
@@ -249464,6 +249508,74 @@
             "7.51.3.0": {
               "TimeReleased": "2026-07-21T18:13:20.5442095+00:00",
               "Changelog": "v7.51.3.0: New Features: hp percent to target info, buffs wrap, buffs/debuffs show on target panel, faster loading of replays, saved replay panel size adjustment, aoes auto detect and load for m10-12, umad, phantom job icons display in occult crescent and forked tower on party overlay, target selection panel, and new alliance overlay, alliance ui overlay added, colored laser button, aoe mechanic button icon change\nv7.51.2.0: New Feature: auto-replay of death events, log highlights when timeline scrubbing, auto-player selection, resizable left panel. Fixed shape handles and canvas syncing.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "SixLabors.Fonts",
+                  "Version": "2.1.3"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp.Drawing",
+                  "Version": "2.1.7"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp.Web",
+                  "Version": "3.2.0"
+                },
+                {
+                  "Key": "SkiaSharp",
+                  "Version": "3.119.1"
+                },
+                {
+                  "Key": "Svg.Skia",
+                  "Version": "3.2.1"
+                },
+                {
+                  "Key": "ExCSS",
+                  "Version": "4.3.1"
+                },
+                {
+                  "Key": "Microsoft.IO.RecyclableMemoryStream",
+                  "Version": "3.0.1"
+                },
+                {
+                  "Key": "ShimSkiaSharp",
+                  "Version": "3.2.1"
+                },
+                {
+                  "Key": "SkiaSharp.NativeAssets.macOS",
+                  "Version": "3.119.1"
+                },
+                {
+                  "Key": "SkiaSharp.NativeAssets.Win32",
+                  "Version": "3.119.1"
+                },
+                {
+                  "Key": "Svg.Custom",
+                  "Version": "3.2.1"
+                },
+                {
+                  "Key": "Svg.Model",
+                  "Version": "3.2.1"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "rail2025"
+            },
+            "7.51.3.1": {
+              "TimeReleased": "2026-07-24T21:02:18.5500571+00:00",
+              "Changelog": "v7.51.3.1: Alliance ui tweaks, code refactor\nv7.51.3.0: New Features: hp percent to target info, buffs wrap, buffs/debuffs show on target panel, faster loading of replays, saved replay panel size adjustment, aoes auto detect and load for m10-12, umad, phantom job icons display in occult crescent and forked tower on party overlay, target selection panel, and new alliance overlay, alliance ui overlay added, colored laser button, aoe mechanic button icon change.",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -287408,9 +287520,9 @@
           }
         },
         "AvantGarde": {
-          "BuiltCommit": "8f560a9701f249ed29675b85d374fd7f37421d8e",
-          "TimeBuilt": "2026-07-19T04:43:40.9954287+00:00",
-          "EffectiveVersion": "1.1.0.0",
+          "BuiltCommit": "d9af708f61324a3d6b631a18a6346c1844774451",
+          "TimeBuilt": "2026-07-24T21:03:02.5099423+00:00",
+          "EffectiveVersion": "1.1.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.1.0": {
@@ -287437,6 +287549,22 @@
             "1.1.0.0": {
               "TimeReleased": "2026-07-19T04:43:40.9954301+00:00",
               "Changelog": "**Available for testing:**\r\n- Automatic Crowdsourcing\r\n - Submissions are uploaded to Xivstats\u0027 database. Special thanks to Infi.\r\n - Collects items \u0026 dyes used, weekly theme information and score.\r\n - Private or sensitive data is never collected.\r\n - Requires Opt-in (Plugin functionality is unaffected by your choice).\r\n - See how many times a particular piece was used among the userbase.\r\n- Onboarding window that explains everything\r\n- We\u0027re so back\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "NeNeppie"
+            },
+            "1.1.1.0": {
+              "TimeReleased": "2026-07-24T21:03:02.5099439+00:00",
+              "Changelog": "**Available for testing:**\r\n- Automatic Crowdsourcing\r\n  - Now sends a chat message when an upload fails.\r\n  - Fetches data from an alternative source, with the previous one as a fallback.\r\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -298657,9 +298785,9 @@
           }
         },
         "ArchipelagoXIV": {
-          "BuiltCommit": "a5e236691c7545c587f6478ec489e8f147d6e317",
-          "TimeBuilt": "2026-07-21T05:50:13.5147243+00:00",
-          "EffectiveVersion": "0.30.1.0",
+          "BuiltCommit": "1fea9c491d132a3fc292bbc083396cbfb2609c40",
+          "TimeBuilt": "2026-07-24T21:03:12.4620321+00:00",
+          "EffectiveVersion": "0.30.2.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.19.5.0": {
@@ -298901,6 +299029,26 @@
             "0.30.1.0": {
               "TimeReleased": "2026-07-21T05:50:13.5147256+00:00",
               "Changelog": "Migrated to IAsyncDalamudPlugin",
+              "UsedNeeds": [
+                {
+                  "Key": "Archipelago.MultiClient.Net",
+                  "Version": "6.7.1"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "silasary"
+            },
+            "0.30.2.0": {
+              "TimeReleased": "2026-07-24T21:03:12.462033+00:00",
+              "Changelog": "Fixed bug where the longrunning background thread could get garbage collected",
               "UsedNeeds": [
                 {
                   "Key": "Archipelago.MultiClient.Net",
@@ -311233,9 +311381,9 @@
           }
         },
         "Dalamud.RichPresence": {
-          "BuiltCommit": "041a27ff90179dc6f0f8fd79cfb3ec36fdc86749",
-          "TimeBuilt": "2026-07-20T07:03:21.8097865+00:00",
-          "EffectiveVersion": "2.0.9.4",
+          "BuiltCommit": "705c88bacb35b0ca1a7481a03f2b23517d2e85b3",
+          "TimeBuilt": "2026-07-24T21:02:53.5422377+00:00",
+          "EffectiveVersion": "2.0.9.5",
           "MinimumVersion": null,
           "Changelogs": {
             "2.0.9.0": {
@@ -311356,6 +311504,30 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "Bronya-Rand"
+            },
+            "2.0.9.5": {
+              "TimeReleased": "2026-07-24T21:02:53.5422388+00:00",
+              "Changelog": "# What\u0027s New?\r\n- Blocks plugin from running on GE-Proton 10-34 due to WinSock limitiations.\r\n    \u003E User\u0027s should bump their Proton to at min GE Proton 11-1 or swap to official Wine.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DiscordRichPresence",
+                  "Version": "1.6.1.70"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "2.0.5"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.1"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "Bronya-Rand"
             }
           }
