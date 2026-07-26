@@ -239812,9 +239812,9 @@
           }
         },
         "BeastieBuddy": {
-          "BuiltCommit": "ed211fa5d62f33de7e70932947126bf5e7a36e43",
-          "TimeBuilt": "2026-07-08T18:47:11.0481389+00:00",
-          "EffectiveVersion": "7.51.2.0",
+          "BuiltCommit": "973b42a079d0081979fc0ab9d11aca71b9b4f952",
+          "TimeBuilt": "2026-07-26T20:35:26.6490506+00:00",
+          "EffectiveVersion": "7.51.2.1",
           "MinimumVersion": null,
           "Changelogs": {
             "1.2.0.0": {
@@ -240340,6 +240340,58 @@
             "7.51.2.0": {
               "TimeReleased": "2026-07-08T18:47:11.0481885+00:00",
               "Changelog": "v7.51.2.0: bestiary layout options, feedback on github for preference. \nv7.51.1.0: beastmaster placeholder bestiary added, will auto update post patch, restart plugin/client to fetch latest version",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "LuminaSupplemental.Excel",
+                  "Version": "4.2.2"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.4"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp.Web",
+                  "Version": "3.2.0"
+                },
+                {
+                  "Key": "YamlDotNet",
+                  "Version": "16.3.0"
+                },
+                {
+                  "Key": "CSVFile",
+                  "Version": "3.2.1"
+                },
+                {
+                  "Key": "CsvHelper",
+                  "Version": "30.0.1"
+                },
+                {
+                  "Key": "Microsoft.IO.RecyclableMemoryStream",
+                  "Version": "3.0.1"
+                },
+                {
+                  "Key": "Sylvan.Data.Csv",
+                  "Version": "1.4.3"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "rail2025"
+            },
+            "7.51.2.1": {
+              "TimeReleased": "2026-07-26T20:35:26.6490916+00:00",
+              "Changelog": "v7.51.2.1:bestiary v2 layout options, info from eu fanfest/pll \nv7.51.2.0: bestiary layout options, feedback on github for preference. \nv7.51.1.0: beastmaster placeholder bestiary added, will auto update post patch, restart plugin/client to fetch latest version",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -298785,9 +298837,9 @@
           }
         },
         "ArchipelagoXIV": {
-          "BuiltCommit": "1fea9c491d132a3fc292bbc083396cbfb2609c40",
-          "TimeBuilt": "2026-07-24T21:03:12.4620321+00:00",
-          "EffectiveVersion": "0.30.2.0",
+          "BuiltCommit": "5cff406fe215a034c09bdecc81362f5d35631c85",
+          "TimeBuilt": "2026-07-26T20:35:37.0355267+00:00",
+          "EffectiveVersion": "0.30.3.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.19.5.0": {
@@ -299049,6 +299101,26 @@
             "0.30.2.0": {
               "TimeReleased": "2026-07-24T21:03:12.462033+00:00",
               "Changelog": "Fixed bug where the longrunning background thread could get garbage collected",
+              "UsedNeeds": [
+                {
+                  "Key": "Archipelago.MultiClient.Net",
+                  "Version": "6.7.1"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "silasary"
+            },
+            "0.30.3.0": {
+              "TimeReleased": "2026-07-26T20:35:37.0355276+00:00",
+              "Changelog": "Fixed a handful of bugged checks, improved UX in a few places, and fixed an error when you had extra checks for dungeons you\u0027d disabled.",
               "UsedNeeds": [
                 {
                   "Key": "Archipelago.MultiClient.Net",
