@@ -313679,6 +313679,30 @@
               "Submitter": "RajahOmen"
             }
           }
+        },
+        "Pseudonamingway": {
+          "BuiltCommit": "bfbf04c4552aabcea842277da5a1bfd1e9d905d0",
+          "TimeBuilt": "2026-07-27T15:46:52.8557716+00:00",
+          "EffectiveVersion": "0.2.0.0",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "0.2.0.0": {
+              "TimeReleased": "2026-07-27T15:46:52.8558023+00:00",
+              "Changelog": "Give proper names to Loporrit NPCs without them - Mendingway, Vendingway, and Supplyingway",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "sourpuh"
+            }
+          }
         }
       }
     },
