@@ -65318,9 +65318,9 @@
           }
         },
         "TrackyTrack": {
-          "BuiltCommit": "ccae9a44f395415451c9ab082bcb73687d1ba1ff",
-          "TimeBuilt": "2026-07-05T04:17:26.9757394+00:00",
-          "EffectiveVersion": "1.6.9.2",
+          "BuiltCommit": "82d2426b214ea75512242010513dbc74046cada5",
+          "TimeBuilt": "2026-07-27T16:25:27.1532669+00:00",
+          "EffectiveVersion": "1.7.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.5.5.5": {
@@ -67477,6 +67477,42 @@
                 }
               ],
               "Reviewer": "nebel",
+              "Submitter": "Infiziert90"
+            },
+            "1.7.0.0": {
+              "TimeReleased": "2026-07-27T16:25:27.1533101+00:00",
+              "Changelog": "- Add reward tracking prototype\r\n  - This includes all \u0027fate\u0027 like reward popup, occult, bozja, eureka .....\r\n  - Only a prototype until things have been worked out\r\n  - As always this is upload only for now",
+              "UsedNeeds": [
+                {
+                  "Key": "CsvHelper",
+                  "Version": "33.1.0"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "MessagePack",
+                  "Version": "3.1.7"
+                },
+                {
+                  "Key": "MessagePack.Annotations",
+                  "Version": "3.1.7"
+                },
+                {
+                  "Key": "MessagePackAnalyzer",
+                  "Version": "3.1.7"
+                },
+                {
+                  "Key": "Microsoft.NET.StringTools",
+                  "Version": "17.11.4"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "Infiziert90"
             }
           }
