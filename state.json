@@ -65318,9 +65318,9 @@
           }
         },
         "TrackyTrack": {
-          "BuiltCommit": "82d2426b214ea75512242010513dbc74046cada5",
-          "TimeBuilt": "2026-07-27T16:25:27.1532669+00:00",
-          "EffectiveVersion": "1.7.0.0",
+          "BuiltCommit": "b746ae386b5784427d8066b7838bdeff7fa224c6",
+          "TimeBuilt": "2026-07-28T15:54:48.4538521+00:00",
+          "EffectiveVersion": "1.7.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.5.5.5": {
@@ -67482,6 +67482,42 @@
             "1.7.0.0": {
               "TimeReleased": "2026-07-27T16:25:27.1533101+00:00",
               "Changelog": "- Add reward tracking prototype\r\n  - This includes all \u0027fate\u0027 like reward popup, occult, bozja, eureka .....\r\n  - Only a prototype until things have been worked out\r\n  - As always this is upload only for now",
+              "UsedNeeds": [
+                {
+                  "Key": "CsvHelper",
+                  "Version": "33.1.0"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "MessagePack",
+                  "Version": "3.1.7"
+                },
+                {
+                  "Key": "MessagePack.Annotations",
+                  "Version": "3.1.7"
+                },
+                {
+                  "Key": "MessagePackAnalyzer",
+                  "Version": "3.1.7"
+                },
+                {
+                  "Key": "Microsoft.NET.StringTools",
+                  "Version": "17.11.4"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Infiziert90"
+            },
+            "1.7.1.0": {
+              "TimeReleased": "2026-07-28T15:54:48.4538872+00:00",
+              "Changelog": "- North horn support",
               "UsedNeeds": [
                 {
                   "Key": "CsvHelper",
@@ -122747,9 +122783,9 @@
           }
         },
         "EurekaTrackerAutoPopper": {
-          "BuiltCommit": "8d7e577ed719fcb05d22a5dcc24e035198aa62a4",
-          "TimeBuilt": "2026-06-25T05:48:22.2343282+00:00",
-          "EffectiveVersion": "1.7.1.8",
+          "BuiltCommit": "5c7c2d47a231fadec3d62526c362ed1c9a43e79b",
+          "TimeBuilt": "2026-07-28T15:54:58.3559539+00:00",
+          "EffectiveVersion": "1.7.3.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.0.4": {
@@ -123878,6 +123914,42 @@
             "1.7.1.8": {
               "TimeReleased": "2026-06-25T05:48:22.2343292+00:00",
               "Changelog": "- Workaround fix for KTK crash on logout",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "KamiToolKit",
+                  "Version": "2.0.23"
+                },
+                {
+                  "Key": "Penumbra.Api",
+                  "Version": "5.15.1"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp.Drawing",
+                  "Version": "2.1.7"
+                },
+                {
+                  "Key": "SixLabors.Fonts",
+                  "Version": "2.1.3"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Infiziert90"
+            },
+            "1.7.3.0": {
+              "TimeReleased": "2026-07-28T15:54:58.3559553+00:00",
+              "Changelog": "- Update everything for north horn\r\n  - Some manual input is missing, will be done by tomorrow",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
