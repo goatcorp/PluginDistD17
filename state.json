@@ -313739,6 +313739,30 @@
               "Submitter": "sourpuh"
             }
           }
+        },
+        "AcrylicXIV": {
+          "BuiltCommit": "bd20d6f7f1de1ff9bf3a9fd754abd80f5fef7f13",
+          "TimeBuilt": "2026-07-28T00:54:49.9823104+00:00",
+          "EffectiveVersion": "0.0.0.2",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "0.0.0.2": {
+              "TimeReleased": "2026-07-28T00:54:49.9823516+00:00",
+              "Changelog": "Initial testing release.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "MapleRecall"
+            }
+          }
         }
       }
     },
