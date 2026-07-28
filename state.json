@@ -3,9 +3,9 @@
     "stable": {
       "Plugins": {
         "Dalamud.RichPresence": {
-          "BuiltCommit": "708d6256a36b30c07e5b51e154bef807028f55bc",
-          "TimeBuilt": "2026-07-19T04:41:57.2331147+00:00",
-          "EffectiveVersion": "2.0.9.2",
+          "BuiltCommit": "038afe26797ec6b3f015fa9e7b76f0d04aca6698",
+          "TimeBuilt": "2026-07-28T17:47:20.4146054+00:00",
+          "EffectiveVersion": "2.0.9.5",
           "MinimumVersion": null,
           "Changelogs": {
             "2.0.1.0": {
@@ -734,6 +734,30 @@
             "2.0.9.2": {
               "TimeReleased": "2026-07-19T04:41:57.2331538+00:00",
               "Changelog": "## What\u0027s New?\r\n\u003E Some features are only available on the testing branch and will be labeled as such.\r\n\r\n- **Template System!** Instead of toggling certain things or whatnot, now you can create your own RPC details within XIV.\r\n\r\n  | Tag | Description |\r\n  | :--: | :------------: |\r\n  | {playername} | Your character\u0027s name (e.g. Y\u0027shtola Rhul) | \r\n  | {fc} | Your free company\u0027s tag (e.g. \u00ABFFXIV\u00BB) |\r\n  | {world} | The current world you are in (e.g. Balmung) |\r\n  | {homeworld} | Your home world (e.g. Goblin) |\r\n  | {dc} | The data center you are in (e.g. Aether) |\r\n  | {ward} | The ward of your current residential area (e.g. Ward 20) |\r\n  | {job} | Your job name or abbreviation [if enabled] (e.g. Summoner or SMN) |\r\n  | {level} | Your current level (e.g. 100) |\r\n  | {location} | The current location name/content you are in/doing (e.g. New Gridania/Windurst) |\r\n\r\n\u003E Depending on what you toggled, this update will \u0027attempt\u0027 to reconstruct what you had as valid tags. For all available tags, past this version, see the *Available Tags* drop down. Clicking on a tag in this dropdown will copy the tag to your clipboard to paste in the field textbox. A preview of what will be shown is available to you below every field.\r\n\r\n- (Testing Only) **New Discord Socket**. The plugin can now communicate with all Discord clients on Linux whether it be Flatpak, Snap or a Native Client \u002B 3rd-Party Clients (Vesktop).\r\n- (Testing Only) Removed WineRPCBridge as part of the plugin itself.\r\n- (Testing Only) Removed the Wine toggle in the configuration window.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DiscordRichPresence",
+                  "Version": "1.6.1.70"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "2.0.5"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.1"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Bronya-Rand"
+            },
+            "2.0.9.5": {
+              "TimeReleased": "2026-07-28T17:47:20.4146803+00:00",
+              "Changelog": "# What\u0027s New?\r\n- **New Discord Socket.** The plugin can now communicate with all Discord clients on Linux whether it be Flatpak, Snap or a Native Client \u002B 3rd-Party Clients (Vesktop).\r\n   \u003E This feature requires at least Wine 10.8 or GE-Proton 11-1 to work. GE-Proton 10-34 or any Wine version without \u0060AF_UNIX\u0060 support will cause the plugin to disable itself in code.\r\n\r\n- Removed WineRPCBridge as part of the plugin itself.\r\n- Removed the Wine toggle in the configuration window.",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -122783,9 +122807,9 @@
           }
         },
         "EurekaTrackerAutoPopper": {
-          "BuiltCommit": "5c7c2d47a231fadec3d62526c362ed1c9a43e79b",
-          "TimeBuilt": "2026-07-28T15:54:58.3559539+00:00",
-          "EffectiveVersion": "1.7.3.0",
+          "BuiltCommit": "f7c6b384bc544595c6130092fa8e927053841cc3",
+          "TimeBuilt": "2026-07-28T17:47:30.5410651+00:00",
+          "EffectiveVersion": "1.7.3.1",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.0.4": {
@@ -123950,6 +123974,42 @@
             "1.7.3.0": {
               "TimeReleased": "2026-07-28T15:54:58.3559553+00:00",
               "Changelog": "- Update everything for north horn\r\n  - Some manual input is missing, will be done by tomorrow",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "KamiToolKit",
+                  "Version": "2.0.23"
+                },
+                {
+                  "Key": "Penumbra.Api",
+                  "Version": "5.15.1"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp.Drawing",
+                  "Version": "2.1.7"
+                },
+                {
+                  "Key": "SixLabors.Fonts",
+                  "Version": "2.1.3"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Infiziert90"
+            },
+            "1.7.3.1": {
+              "TimeReleased": "2026-07-28T17:47:30.5410664+00:00",
+              "Changelog": "- Add all treasure locations for north\r\n  - No bunny carrots or pots yet",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
