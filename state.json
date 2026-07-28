@@ -313763,6 +313763,34 @@
               "Submitter": "MapleRecall"
             }
           }
+        },
+        "LooturesRewritten": {
+          "BuiltCommit": "faf025c1b04e3750ffda58915886012255750d6b",
+          "TimeBuilt": "2026-07-28T03:13:10.2682568+00:00",
+          "EffectiveVersion": "1.0.0.0",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "1.0.0.0": {
+              "TimeReleased": "2026-07-28T03:13:10.2683021+00:00",
+              "Changelog": "*LooturesRewritten is a new plugin to track any active loot rolls and see who has or hasn\u0027t rolled.\r\nThis plugin is meant to act as a spiritual successor to the currently defunct Kapture plugin.*\r\n\r\nThe plugin has no configs, it simply adds a \u0060Rolls\u0060 button the loot window which you can click which then provides a list of all the available loot and if you click these it will show whether players have rolled on it, indicated by a checkmark.\r\n\u003Cimg width=\u0022431\u0022 height=\u0022271\u0022 alt=\u0022image\u0022 src=\u0022https://github.com/user-attachments/assets/a2b48d36-4499-4f62-8d03-f8fdf26cbaf9\u0022 /\u003E\r\n\u003Cimg width=\u0022403\u0022 height=\u0022268\u0022 alt=\u0022image\u0022 src=\u0022https://github.com/user-attachments/assets/24358440-9a39-4eb9-840b-821cbf70595f\u0022 /\u003E\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit.git",
+                  "Version": "b3ba9099023c3f599816507993b332be6174819b"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "GayPotatoEmma"
+            }
+          }
         }
       }
     },
@@ -338886,6 +338914,13 @@
       "Version": "5.1.0",
       "ReviewedBy": "nathanctech",
       "ReviewedAt": "2026-07-27T03:25:06.1150408Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/MidoriKami/KamiToolKit.git",
+      "Version": "b3ba9099023c3f599816507993b332be6174819b",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-07-28T03:13:10.3291457Z"
     }
   ]
 }
