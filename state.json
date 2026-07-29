@@ -7483,9 +7483,9 @@
           }
         },
         "Dalamud.LoadingImage": {
-          "BuiltCommit": "1ff9daa0bdaa2ddf060c50595aa95f3016dc2b74",
-          "TimeBuilt": "2025-12-20T01:37:44.8266579+00:00",
-          "EffectiveVersion": "1.0.0.17",
+          "BuiltCommit": "0aae98a60c87bddc5a5e1f48f65831bca7f3e525",
+          "TimeBuilt": "2026-07-29T16:08:22.3794306+00:00",
+          "EffectiveVersion": "1.0.0.18",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.13": {
@@ -7610,6 +7610,22 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "MapleHinata"
+            },
+            "1.0.0.18": {
+              "TimeReleased": "2026-07-29T16:08:22.3794325+00:00",
+              "Changelog": "Long overdue API15 update.\r\nThanks to Emma for updating this months ago, and sorry for forgetting to send this PR until now, I kept forgetting about it, I\u0027m really stupid.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "MapleHinata"
             }
           }
@@ -122895,9 +122911,9 @@
           }
         },
         "EurekaTrackerAutoPopper": {
-          "BuiltCommit": "9f9470ea70abe288e40240b260dcf7615a908480",
-          "TimeBuilt": "2026-07-28T22:55:17.3487021+00:00",
-          "EffectiveVersion": "1.7.3.4",
+          "BuiltCommit": "8276040319c0a43eecc2cba21d358937a3b13523",
+          "TimeBuilt": "2026-07-29T16:08:58.4679531+00:00",
+          "EffectiveVersion": "1.7.3.5",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.0.4": {
@@ -124170,6 +124186,42 @@
             "1.7.3.4": {
               "TimeReleased": "2026-07-28T22:55:17.3487034+00:00",
               "Changelog": "- All pot locations\r\n  - They will be split into north, south, reroll once i have more data",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "KamiToolKit",
+                  "Version": "2.0.23"
+                },
+                {
+                  "Key": "Penumbra.Api",
+                  "Version": "5.15.1"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp.Drawing",
+                  "Version": "2.1.7"
+                },
+                {
+                  "Key": "SixLabors.Fonts",
+                  "Version": "2.1.3"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Infiziert90"
+            },
+            "1.7.3.5": {
+              "TimeReleased": "2026-07-29T16:08:58.467955+00:00",
+              "Changelog": "- Add north, south and reroll pot split",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -127675,9 +127727,9 @@
           }
         },
         "Dalamud.FullscreenCutscenes": {
-          "BuiltCommit": "d176f39f9a526933d627afcf680000fdff867006",
-          "TimeBuilt": "2025-12-20T01:37:13.5439886+00:00",
-          "EffectiveVersion": "1.0.0.7",
+          "BuiltCommit": "816e2b434241d510f81a93b58f94f8f7c20044fc",
+          "TimeBuilt": "2026-07-29T16:08:48.0513135+00:00",
+          "EffectiveVersion": "1.0.0.8",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.4": {
@@ -127734,6 +127786,22 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "MapleHinata"
+            },
+            "1.0.0.8": {
+              "TimeReleased": "2026-07-29T16:08:48.0513148+00:00",
+              "Changelog": "Long overdue API15 update.\r\nForgive me, I\u0027m really stupid, I thought i had done this months ago but I forgot.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "MapleHinata"
             }
           }
@@ -188648,9 +188716,9 @@
           }
         },
         "PvpStats": {
-          "BuiltCommit": "30ac63fa3785aedd975ef6fdab8da442e149eb4b",
-          "TimeBuilt": "2026-05-10T13:52:07.4859099+00:00",
-          "EffectiveVersion": "2.7.0.0",
+          "BuiltCommit": "3ad7cb2060069dc369f2b80327c30947e8799c7e",
+          "TimeBuilt": "2026-07-29T16:08:33.3913686+00:00",
+          "EffectiveVersion": "2.7.0.1",
           "MinimumVersion": null,
           "Changelogs": {
             "0.2.3.2": {
@@ -189351,6 +189419,26 @@
               ],
               "Reviewer": "nathanctech",
               "Submitter": "wrath16"
+            },
+            "2.7.0.1": {
+              "TimeReleased": "2026-07-29T16:08:33.3913708+00:00",
+              "Changelog": "* Added Crystalline Conflict Season 21 filter option.\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "LiteDB",
+                  "Version": "5.0.16"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "rennalol"
             }
           }
         },
@@ -219032,9 +219120,9 @@
           }
         },
         "RazerReader": {
-          "BuiltCommit": "240e32309a0a4833d5366155b6e91e66e9794972",
-          "TimeBuilt": "2026-07-29T00:08:48.4987588+00:00",
-          "EffectiveVersion": "2.0.0.0",
+          "BuiltCommit": "fcfc99fbf87d8d72d3c38f0dabc3fcc2f2f8344c",
+          "TimeBuilt": "2026-07-29T16:08:41.1088569+00:00",
+          "EffectiveVersion": "2.0.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.0.1": {
@@ -219192,6 +219280,42 @@
             "2.0.0.0": {
               "TimeReleased": "2026-07-29T00:08:48.4987987+00:00",
               "Changelog": "Massive v2.0 overhaul into Battery Buddy! Logitech device support!",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Websocket.Client",
+                  "Version": "5.3.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.IO.RecyclableMemoryStream",
+                  "Version": "3.0.0"
+                },
+                {
+                  "Key": "System.Reactive",
+                  "Version": "6.0.0"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "mashirochan"
+            },
+            "2.0.1.0": {
+              "TimeReleased": "2026-07-29T16:08:41.1088583+00:00",
+              "Changelog": "Hide main window when no devices are enabled/connected",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -241636,9 +241760,9 @@
           }
         },
         "Altoholic": {
-          "BuiltCommit": "c8e9b2ae6c77b874213b6487e7b7a6cf702e7457",
-          "TimeBuilt": "2026-07-21T18:13:03.7665777+00:00",
-          "EffectiveVersion": "1.11.3.0",
+          "BuiltCommit": "6a9ed1fde2a1ffc858a6d16d39dd507c2549dde9",
+          "TimeBuilt": "2026-07-29T16:08:15.1127741+00:00",
+          "EffectiveVersion": "1.12.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -243268,6 +243392,50 @@
                 {
                   "Key": "SQLitePCLRaw.provider.e_sqlite3",
                   "Version": "3.0.3"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Sohtoren"
+            },
+            "1.12.1.0": {
+              "TimeReleased": "2026-07-29T16:08:15.1127758+00:00",
+              "Changelog": "- **General**: Add some tracking that were only when opening the window to every minutes\n- **Currencies**: Occult crescent currencies\n- **Collection**: \n   - Add 7.55 facewears. \n   - Add three main tabs to unclutter\n- **Jobs**: Add phantom jobs tracking and displaying\n- **Progress**: Add Yo-Kai event and rewards (minions) \n  - \n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "Dapper",
+                  "Version": "2.1.79"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "2.0.5"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite.Core",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.bundle_e_sqlite3",
+                  "Version": "3.0.5"
+                },
+                {
+                  "Key": "SQLite",
+                  "Version": "3.53.4"
+                },
+                {
+                  "Key": "SQLitePCLRaw.config.e_sqlite3",
+                  "Version": "3.0.5"
+                },
+                {
+                  "Key": "SQLitePCLRaw.core",
+                  "Version": "3.0.5"
+                },
+                {
+                  "Key": "SQLitePCLRaw.provider.e_sqlite3",
+                  "Version": "3.0.5"
                 }
               ],
               "Reviewer": "nathanctech",
@@ -249784,9 +249952,9 @@
           }
         },
         "AetherBlackbox": {
-          "BuiltCommit": "e094c441ca051f626202be67775feb8728797bed",
-          "TimeBuilt": "2026-07-24T21:02:18.5500072+00:00",
-          "EffectiveVersion": "7.51.3.1",
+          "BuiltCommit": "546196bfa94bc4e30e672ca9894a878d29693822",
+          "TimeBuilt": "2026-07-29T16:07:58.3152602+00:00",
+          "EffectiveVersion": "7.55.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "7.50.2.6": {
@@ -250064,6 +250232,74 @@
             "7.51.3.1": {
               "TimeReleased": "2026-07-24T21:02:18.5500571+00:00",
               "Changelog": "v7.51.3.1: Alliance ui tweaks, code refactor\nv7.51.3.0: New Features: hp percent to target info, buffs wrap, buffs/debuffs show on target panel, faster loading of replays, saved replay panel size adjustment, aoes auto detect and load for m10-12, umad, phantom job icons display in occult crescent and forked tower on party overlay, target selection panel, and new alliance overlay, alliance ui overlay added, colored laser button, aoe mechanic button icon change.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "SixLabors.Fonts",
+                  "Version": "2.1.3"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp.Drawing",
+                  "Version": "2.1.7"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp.Web",
+                  "Version": "3.2.0"
+                },
+                {
+                  "Key": "SkiaSharp",
+                  "Version": "3.119.1"
+                },
+                {
+                  "Key": "Svg.Skia",
+                  "Version": "3.2.1"
+                },
+                {
+                  "Key": "ExCSS",
+                  "Version": "4.3.1"
+                },
+                {
+                  "Key": "Microsoft.IO.RecyclableMemoryStream",
+                  "Version": "3.0.1"
+                },
+                {
+                  "Key": "ShimSkiaSharp",
+                  "Version": "3.2.1"
+                },
+                {
+                  "Key": "SkiaSharp.NativeAssets.macOS",
+                  "Version": "3.119.1"
+                },
+                {
+                  "Key": "SkiaSharp.NativeAssets.Win32",
+                  "Version": "3.119.1"
+                },
+                {
+                  "Key": "Svg.Custom",
+                  "Version": "3.2.1"
+                },
+                {
+                  "Key": "Svg.Model",
+                  "Version": "3.2.1"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "rail2025"
+            },
+            "7.55.0.0": {
+              "TimeReleased": "2026-07-29T16:07:58.3153021+00:00",
+              "Changelog": "v7.55.0.0: North Horn phantom job support\nv7.51.3.1: Alliance ui tweaks, code refactor",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -339409,6 +339645,48 @@
       "Version": "b3ba9099023c3f599816507993b332be6174819b",
       "ReviewedBy": "nathanctech",
       "ReviewedAt": "2026-07-28T03:13:10.3291457Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Data.Sqlite.Core",
+      "Version": "10.0.10",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-07-29T16:08:15.1842931Z"
+    },
+    {
+      "Type": 1,
+      "Key": "SQLitePCLRaw.bundle_e_sqlite3",
+      "Version": "3.0.5",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-07-29T16:08:15.1843351Z"
+    },
+    {
+      "Type": 1,
+      "Key": "SQLite",
+      "Version": "3.53.4",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-07-29T16:08:15.1843353Z"
+    },
+    {
+      "Type": 1,
+      "Key": "SQLitePCLRaw.config.e_sqlite3",
+      "Version": "3.0.5",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-07-29T16:08:15.1843356Z"
+    },
+    {
+      "Type": 1,
+      "Key": "SQLitePCLRaw.core",
+      "Version": "3.0.5",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-07-29T16:08:15.1843358Z"
+    },
+    {
+      "Type": 1,
+      "Key": "SQLitePCLRaw.provider.e_sqlite3",
+      "Version": "3.0.5",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-07-29T16:08:15.1843361Z"
     }
   ]
 }
