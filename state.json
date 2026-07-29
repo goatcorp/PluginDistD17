@@ -219032,9 +219032,9 @@
           }
         },
         "RazerReader": {
-          "BuiltCommit": "e75425af3cdf9d1eaa5290f4b9ad03757af245d3",
-          "TimeBuilt": "2026-04-30T04:14:16.9530018+00:00",
-          "EffectiveVersion": "1.1.5.0",
+          "BuiltCommit": "240e32309a0a4833d5366155b6e91e66e9794972",
+          "TimeBuilt": "2026-07-29T00:08:48.4987588+00:00",
+          "EffectiveVersion": "2.0.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.0.1": {
@@ -219187,6 +219187,42 @@
                 }
               ],
               "Reviewer": "karashiiro",
+              "Submitter": "mashirochan"
+            },
+            "2.0.0.0": {
+              "TimeReleased": "2026-07-29T00:08:48.4987987+00:00",
+              "Changelog": "Massive v2.0 overhaul into Battery Buddy! Logitech device support!",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Websocket.Client",
+                  "Version": "5.3.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.IO.RecyclableMemoryStream",
+                  "Version": "3.0.0"
+                },
+                {
+                  "Key": "System.Reactive",
+                  "Version": "6.0.0"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "mashirochan"
             }
           }

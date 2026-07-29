@@ -1,24 +1,26 @@
 {
   "Author": "Fuwa Aika",
-  "Name": "Razer Reader",
+  "Name": "Battery Buddy",
   "InternalName": "RazerReader",
-  "AssemblyVersion": "1.1.5.0",
-  "Description": "Select your installed version of Razer Synapse to automatically pull device battery levels from local log files",
+  "AssemblyVersion": "2.0.0.0",
+  "Description": "Automatically pull device battery levels and display them in a configurable number of ways!\n\nCurrently supported brands:\n- Razer\n- Logitech",
   "ApplicableVersion": "any",
   "Tags": [
     "razer",
+    "logitech",
     "battery",
     "mouse",
     "headset",
     "keyboard",
-    "wireless"
+    "wireless",
+    "peripheral"
   ],
   "DalamudApiLevel": 15,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
   "LoadPriority": 0,
-  "Punchline": "Display the battery level of your wireless Razer devices",
+  "Punchline": "Display the battery level of your wireless Razer and Logitech devices",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "stable"
