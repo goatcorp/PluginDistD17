@@ -100006,9 +100006,9 @@
           }
         },
         "MagitekStratagem": {
-          "BuiltCommit": "06e4ae34deed526b419afd5da62336c20f3b5094",
-          "TimeBuilt": "2026-05-06T22:01:25.0678864+00:00",
-          "EffectiveVersion": "1.3.1.1",
+          "BuiltCommit": "56dc76ae416626df4b7ac3a73e88ea6ffefa6894",
+          "TimeBuilt": "2026-07-30T20:37:11.3515858+00:00",
+          "EffectiveVersion": "1.3.1.2",
           "MinimumVersion": null,
           "Changelogs": {
             "0.4.0.0": {
@@ -100817,6 +100817,34 @@
             "1.3.1.1": {
               "TimeReleased": "2026-05-06T22:01:25.0678885+00:00",
               "Changelog": "Version 1.3.1.1:\n - New Icon by SnoodleWolfieB\n - Updated to API15\n\n\nKnown Issues:\n - Windowed mode is currently unsupported.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.SignalR.Client",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.Http.Connections.Client",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.SignalR.Client.Core",
+                  "Version": "10.0.0"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "meoiswa"
+            },
+            "1.3.1.2": {
+              "TimeReleased": "2026-07-30T20:37:11.3516275+00:00",
+              "Changelog": "Version 1.3.1.2:\n - New Icon by SnoodleWolfieB\n - Updated to API15\n - Fix: Support for TobiiGameHub 4.4.0-ci14\n\n\nKnown Issues:\n - Windowed mode is currently unsupported.\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
