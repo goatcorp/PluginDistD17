@@ -12904,9 +12904,9 @@
           }
         },
         "NoTankYou": {
-          "BuiltCommit": "ac2325cfc2756c33e9c3e19d3d52e219da6e7409",
-          "TimeBuilt": "2026-07-22T05:15:37.5162068+00:00",
-          "EffectiveVersion": "7.4.4.4",
+          "BuiltCommit": "0e73262be12f2e38636179ef12931e57350bc4ce",
+          "TimeBuilt": "2026-07-30T03:33:29.7232419+00:00",
+          "EffectiveVersion": "7.4.4.5",
           "MinimumVersion": null,
           "Changelogs": {
             "7.1.0.2": {
@@ -14228,6 +14228,30 @@
                 {
                   "Key": "https://github.com/MidoriKami/KamiToolKit",
                   "Version": "b3ba9099023c3f599816507993b332be6174819b"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "MidoriKami"
+            },
+            "7.4.4.5": {
+              "TimeReleased": "2026-07-30T03:33:29.7232881+00:00",
+              "Changelog": "Fix Warning Banner List showing \u0022No Results Found.\u0022 when no warnings are active.",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "9ef670299a762f89249716b9b20b8d9e534f9144"
                 },
                 {
                   "Key": "DalamudPackager",
@@ -339839,6 +339863,13 @@
       "Version": "3.0.5",
       "ReviewedBy": "nathanctech",
       "ReviewedAt": "2026-07-29T16:08:15.1843361Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/MidoriKami/KamiToolKit",
+      "Version": "9ef670299a762f89249716b9b20b8d9e534f9144",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-07-30T03:33:29.7987234Z"
     }
   ]
 }
