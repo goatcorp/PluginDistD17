@@ -240488,9 +240488,9 @@
           }
         },
         "BeastieBuddy": {
-          "BuiltCommit": "973b42a079d0081979fc0ab9d11aca71b9b4f952",
-          "TimeBuilt": "2026-07-26T20:35:26.6490506+00:00",
-          "EffectiveVersion": "7.51.2.1",
+          "BuiltCommit": "65cc92db1d54ee9af5e1eb5a313295b3ffadc767",
+          "TimeBuilt": "2026-07-30T20:34:23.7293573+00:00",
+          "EffectiveVersion": "7.55.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.2.0.0": {
@@ -241068,6 +241068,58 @@
             "7.51.2.1": {
               "TimeReleased": "2026-07-26T20:35:26.6490916+00:00",
               "Changelog": "v7.51.2.1:bestiary v2 layout options, info from eu fanfest/pll \nv7.51.2.0: bestiary layout options, feedback on github for preference. \nv7.51.1.0: beastmaster placeholder bestiary added, will auto update post patch, restart plugin/client to fetch latest version",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "LuminaSupplemental.Excel",
+                  "Version": "4.2.2"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.4"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp.Web",
+                  "Version": "3.2.0"
+                },
+                {
+                  "Key": "YamlDotNet",
+                  "Version": "16.3.0"
+                },
+                {
+                  "Key": "CSVFile",
+                  "Version": "3.2.1"
+                },
+                {
+                  "Key": "CsvHelper",
+                  "Version": "30.0.1"
+                },
+                {
+                  "Key": "Microsoft.IO.RecyclableMemoryStream",
+                  "Version": "3.0.1"
+                },
+                {
+                  "Key": "Sylvan.Data.Csv",
+                  "Version": "1.4.3"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "rail2025"
+            },
+            "7.55.0.0": {
+              "TimeReleased": "2026-07-30T20:34:23.7293977+00:00",
+              "Changelog": "v7.55.0.0: Search fixes\nv7.51.2.1:bestiary v2 layout options, info from eu fanfest/pll",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
