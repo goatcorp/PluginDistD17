@@ -240244,9 +240244,9 @@
           }
         },
         "StatusTimers": {
-          "BuiltCommit": "53c91748d1976e56f72c25f24d07d5d8453608b4",
-          "TimeBuilt": "2026-07-21T05:48:54.9404153+00:00",
-          "EffectiveVersion": "1.0.3.8",
+          "BuiltCommit": "e26681cd25dd64fb293edf7f8a95052d009b6220",
+          "TimeBuilt": "2026-07-31T14:12:13.5748372+00:00",
+          "EffectiveVersion": "1.0.3.9",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.1.2": {
@@ -240500,6 +240500,30 @@
                 {
                   "Key": "https://github.com/MidoriKami/KamiToolKit.Components",
                   "Version": "1557f8c2aa88b3b0da2e0f249694fc211a79af02"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Zeffuro"
+            },
+            "1.0.3.9": {
+              "TimeReleased": "2026-07-31T14:12:13.5748742+00:00",
+              "Changelog": "# 1.0.3.9\n- Add option to filter Multi-DoT to Self, Party/Alliance, Anyone.\n- Updated KTK.",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "a55b581e36eee435547b98eca9179313ded0db94"
+                },
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit.Components",
+                  "Version": "76ebbac0b3d91dace40ac16b5e132bee0793b49a"
                 },
                 {
                   "Key": "DalamudPackager",
@@ -241972,9 +241996,9 @@
           }
         },
         "Altoholic": {
-          "BuiltCommit": "c5251340735182db446a2c266b48d76ff40b20bf",
-          "TimeBuilt": "2026-07-30T20:48:47.6848478+00:00",
-          "EffectiveVersion": "1.12.4.0",
+          "BuiltCommit": "108b109d9a11878261d231544fa7fe2271b8f776",
+          "TimeBuilt": "2026-07-31T14:12:30.616504+00:00",
+          "EffectiveVersion": "1.12.7.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -243700,6 +243724,50 @@
             "1.12.4.0": {
               "TimeReleased": "2026-07-30T20:48:47.6848502+00:00",
               "Changelog": "- **Classes/Jobs**:\n  - General: Add Beastmaster\n  - All view: Replace full text table with a job icon list table and corresponding characters levels for better reading\n  - Character details: Fix the following classes check : Gladiator, Rogue, Conjurer that wouldn\u0027t display their job counterpart when level was above 30\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "Dapper",
+                  "Version": "2.1.79"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "2.0.5"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite.Core",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.bundle_e_sqlite3",
+                  "Version": "3.0.5"
+                },
+                {
+                  "Key": "SQLite",
+                  "Version": "3.53.4"
+                },
+                {
+                  "Key": "SQLitePCLRaw.config.e_sqlite3",
+                  "Version": "3.0.5"
+                },
+                {
+                  "Key": "SQLitePCLRaw.core",
+                  "Version": "3.0.5"
+                },
+                {
+                  "Key": "SQLitePCLRaw.provider.e_sqlite3",
+                  "Version": "3.0.5"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Sohtoren"
+            },
+            "1.12.7.0": {
+              "TimeReleased": "2026-07-31T14:12:30.6165061+00:00",
+              "Changelog": "- **Inventory**: Add text indicating searched inventories\n- **Progress**:\n  - **All**: Regroup Hildibrant, MSQ and Role Quests under **Quests** tab\n  - New tab: Ishgardian restoration with scrip rewards and \u0027F\u00EAte presents\u0027 potential drops\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -315373,14 +315441,34 @@
           }
         },
         "LooturesRewritten": {
-          "BuiltCommit": "faf025c1b04e3750ffda58915886012255750d6b",
-          "TimeBuilt": "2026-07-28T03:13:10.2682568+00:00",
-          "EffectiveVersion": "1.0.0.0",
+          "BuiltCommit": "649743882475b91f095e5a9f847298868c1abd7b",
+          "TimeBuilt": "2026-07-31T14:12:43.3975821+00:00",
+          "EffectiveVersion": "1.0.0.1",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
               "TimeReleased": "2026-07-28T03:13:10.2683021+00:00",
               "Changelog": "*LooturesRewritten is a new plugin to track any active loot rolls and see who has or hasn\u0027t rolled.\r\nThis plugin is meant to act as a spiritual successor to the currently defunct Kapture plugin.*\r\n\r\nThe plugin has no configs, it simply adds a \u0060Rolls\u0060 button the loot window which you can click which then provides a list of all the available loot and if you click these it will show whether players have rolled on it, indicated by a checkmark.\r\n\u003Cimg width=\u0022431\u0022 height=\u0022271\u0022 alt=\u0022image\u0022 src=\u0022https://github.com/user-attachments/assets/a2b48d36-4499-4f62-8d03-f8fdf26cbaf9\u0022 /\u003E\r\n\u003Cimg width=\u0022403\u0022 height=\u0022268\u0022 alt=\u0022image\u0022 src=\u0022https://github.com/user-attachments/assets/24358440-9a39-4eb9-840b-821cbf70595f\u0022 /\u003E\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit.git",
+                  "Version": "b3ba9099023c3f599816507993b332be6174819b"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "GayPotatoEmma"
+            },
+            "1.0.0.1": {
+              "TimeReleased": "2026-07-31T14:12:43.3975835+00:00",
+              "Changelog": "## Fixes\r\n- Last names from players should no longer get omitted if they named themselves after a server. John Balmung will no longer show up as just John now.",
               "UsedNeeds": [
                 {
                   "Key": "https://github.com/MidoriKami/KamiToolKit.git",
@@ -340578,6 +340666,13 @@
       "Version": "9ef670299a762f89249716b9b20b8d9e534f9144",
       "ReviewedBy": "nathanctech",
       "ReviewedAt": "2026-07-30T03:33:29.7987234Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/MidoriKami/KamiToolKit",
+      "Version": "a55b581e36eee435547b98eca9179313ded0db94",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-07-31T14:12:13.6502568Z"
     }
   ]
 }
