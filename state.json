@@ -187718,9 +187718,9 @@
           }
         },
         "HuntHelper": {
-          "BuiltCommit": "c6688fcfd09501f2c72841206a6f80ad8144bd6c",
-          "TimeBuilt": "2026-05-01T10:33:13.703693+00:00",
-          "EffectiveVersion": "1.0.0.33",
+          "BuiltCommit": "c6b85581b5c2980214272a38527ee2aaf4b18e69",
+          "TimeBuilt": "2026-08-01T20:27:44.8939996+00:00",
+          "EffectiveVersion": "1.0.0.34",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.0.6": {
@@ -187897,6 +187897,26 @@
             "1.0.0.33": {
               "TimeReleased": "2026-05-01T10:33:13.7036945+00:00",
               "Changelog": "7.5 update",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "System.Speech",
+                  "Version": "9.0.3"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "img02"
+            },
+            "1.0.0.34": {
+              "TimeReleased": "2026-08-01T20:27:44.8940395+00:00",
+              "Changelog": "fix french bugs",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -203597,9 +203617,9 @@
           }
         },
         "TidyChat": {
-          "BuiltCommit": "b0e42a8fa97b25c00a5b0ce7c1f94a4bd5b1c0ae",
-          "TimeBuilt": "2026-07-19T16:32:29.2726202+00:00",
-          "EffectiveVersion": "3.1.0.29",
+          "BuiltCommit": "1034cc56858812e0dea25739da9d945fb3c1260c",
+          "TimeBuilt": "2026-08-01T20:28:11.7293228+00:00",
+          "EffectiveVersion": "3.1.0.30",
           "MinimumVersion": null,
           "Changelogs": {
             "1.2.2.0": {
@@ -204342,6 +204362,34 @@
                 }
               ],
               "Reviewer": "nathanctech",
+              "Submitter": "Kagekazu"
+            },
+            "3.1.0.30": {
+              "TimeReleased": "2026-08-01T20:28:11.7293242+00:00",
+              "Changelog": "#### Fishing hole #### \r\n \u201CYou cast your line at \u2026\u201D works again with the toggle on\r\n#### Custom filters #### \r\n Allow/Block dropdowns no longer double-draw; #ID rows show the LogMessage text preview\r\n#### FPS #### \r\nstop scanning every rule on combat spam\r\n#### OC Treasuresight / bunny pot #### \r\n new Exploration toggles (default on) so those System lines aren\u2019t eaten\r\n####  Mooch tip \u002B swimbait #### \r\n covered under Fishing (not only \u201Call other gathering\u201D)",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "2.0.2"
+                },
+                {
+                  "Key": "Meziantou.Analyzer",
+                  "Version": "3.0.96"
+                },
+                {
+                  "Key": "TextCopy",
+                  "Version": "6.2.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "7.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001",
               "Submitter": "Kagekazu"
             }
           }
@@ -241996,9 +242044,9 @@
           }
         },
         "Altoholic": {
-          "BuiltCommit": "108b109d9a11878261d231544fa7fe2271b8f776",
-          "TimeBuilt": "2026-07-31T14:12:30.616504+00:00",
-          "EffectiveVersion": "1.12.7.0",
+          "BuiltCommit": "6ba03f4fa287cb441e8708e9da1567e0a69a6378",
+          "TimeBuilt": "2026-08-01T20:27:59.7427956+00:00",
+          "EffectiveVersion": "1.12.9.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -243807,6 +243855,50 @@
                 }
               ],
               "Reviewer": "nathanctech",
+              "Submitter": "Sohtoren"
+            },
+            "1.12.9.0": {
+              "TimeReleased": "2026-08-01T20:27:59.7427968+00:00",
+              "Changelog": "- **Progress**:\n  - Add Bozja tracking and potential lockboxes drops\n  - Add Eureka elemental level tracking and potential lockboxes drops\n  - **All**: Regroup Cosmic exploration, Bozja, Eureka under **Fields Operation** tab\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "Dapper",
+                  "Version": "2.1.79"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "2.0.5"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite.Core",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.bundle_e_sqlite3",
+                  "Version": "3.0.5"
+                },
+                {
+                  "Key": "SQLite",
+                  "Version": "3.53.4"
+                },
+                {
+                  "Key": "SQLitePCLRaw.config.e_sqlite3",
+                  "Version": "3.0.5"
+                },
+                {
+                  "Key": "SQLitePCLRaw.core",
+                  "Version": "3.0.5"
+                },
+                {
+                  "Key": "SQLitePCLRaw.provider.e_sqlite3",
+                  "Version": "3.0.5"
+                }
+              ],
+              "Reviewer": "reiichi001",
               "Submitter": "Sohtoren"
             }
           }
