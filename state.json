@@ -111058,9 +111058,9 @@
           }
         },
         "SortaKinda": {
-          "BuiltCommit": "7ebc11d5b511730dc13319bf0cbd095a0a29535b",
-          "TimeBuilt": "2026-06-12T05:15:47.1356957+00:00",
-          "EffectiveVersion": "3.0.2.8",
+          "BuiltCommit": "c75012680575bfc4e079b346e251b489072ad8aa",
+          "TimeBuilt": "2026-08-01T20:32:50.0450335+00:00",
+          "EffectiveVersion": "3.0.2.9",
           "MinimumVersion": null,
           "Changelogs": {
             "2.1.0.0": {
@@ -112365,6 +112365,74 @@
                 }
               ],
               "Reviewer": "nathanctech",
+              "Submitter": "MidoriKami"
+            },
+            "3.0.2.9": {
+              "TimeReleased": "2026-08-01T20:32:50.0450695+00:00",
+              "Changelog": "Add ClassJob Filter",
+              "UsedNeeds": [
+                {
+                  "Key": "Microsoft.CodeAnalysis.CSharp",
+                  "Version": "4.8.0"
+                },
+                {
+                  "Key": "NETStandard.Library",
+                  "Version": "2.0.3"
+                },
+                {
+                  "Key": "Microsoft.CodeAnalysis.Analyzers",
+                  "Version": "3.3.4"
+                },
+                {
+                  "Key": "Microsoft.CodeAnalysis.Common",
+                  "Version": "4.8.0"
+                },
+                {
+                  "Key": "Microsoft.NETCore.Platforms",
+                  "Version": "1.1.0"
+                },
+                {
+                  "Key": "System.Buffers",
+                  "Version": "4.5.1"
+                },
+                {
+                  "Key": "System.Collections.Immutable",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "System.Memory",
+                  "Version": "4.5.5"
+                },
+                {
+                  "Key": "System.Numerics.Vectors",
+                  "Version": "4.4.0"
+                },
+                {
+                  "Key": "System.Reflection.Metadata",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "System.Runtime.CompilerServices.Unsafe",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "System.Text.Encoding.CodePages",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "System.Threading.Tasks.Extensions",
+                  "Version": "4.5.4"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "reiichi001",
               "Submitter": "MidoriKami"
             }
           }
@@ -122999,9 +123067,9 @@
           }
         },
         "EurekaTrackerAutoPopper": {
-          "BuiltCommit": "0da9ff6ce19e64ac91768f81c344f18f3572c15c",
-          "TimeBuilt": "2026-07-30T00:55:58.2980664+00:00",
-          "EffectiveVersion": "1.7.3.7",
+          "BuiltCommit": "cd0dcf5da03e5661aa0c78e6e887038964f6de44",
+          "TimeBuilt": "2026-08-01T20:33:20.0877902+00:00",
+          "EffectiveVersion": "1.7.3.9",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.0.4": {
@@ -124377,6 +124445,42 @@
                 }
               ],
               "Reviewer": "nathanctech",
+              "Submitter": "Infiziert90"
+            },
+            "1.7.3.9": {
+              "TimeReleased": "2026-08-01T20:33:20.0877928+00:00",
+              "Changelog": "- Do not show tower in active CE overview\r\n- Tracker fixes\r\n\r\n- Added survey locations for south and north horn\r\n- The fast switch overlay is now moveable via configuration option [default false]",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "KamiToolKit",
+                  "Version": "2.0.23"
+                },
+                {
+                  "Key": "Penumbra.Api",
+                  "Version": "5.15.1"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp.Drawing",
+                  "Version": "2.1.7"
+                },
+                {
+                  "Key": "SixLabors.Fonts",
+                  "Version": "2.1.3"
+                }
+              ],
+              "Reviewer": "reiichi001",
               "Submitter": "Infiziert90"
             }
           }
@@ -234332,9 +234436,9 @@
           }
         },
         "VanillaPlus": {
-          "BuiltCommit": "8208d97176ac7ad831e16abd2e9e9e55fac74eb7",
-          "TimeBuilt": "2026-07-27T03:25:06.0471642+00:00",
-          "EffectiveVersion": "1.4.2.1",
+          "BuiltCommit": "f4250a179cfb80c4f87c97feefdcb0ed6e654599",
+          "TimeBuilt": "2026-08-01T20:33:07.8640969+00:00",
+          "EffectiveVersion": "1.4.2.4",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.1.6": {
@@ -240215,6 +240319,46 @@
                 }
               ],
               "Reviewer": "nathanctech",
+              "Submitter": "MidoriKami"
+            },
+            "1.4.2.4": {
+              "TimeReleased": "2026-08-01T20:33:07.8640985+00:00",
+              "Changelog": "Zone Label Names - Fix text preventing click-drag\r\n\r\nBetter Teleport Window - Fixed unable to scroll when mousing between elements\r\nBetter Teleport Window - Now shows gil and ticket counts in header\r\n\r\nRight-Click Map Nav - New feature, when right clicking the map will navigate up a layer.\r\n\r\nGame Config Command - New feature, adds new macroable command to edit game config values easily. \u0022Usage: /gameconfig \u003Csystem|ui|control\u003E \u003Coption\u003E \u003Cvalue\u003E\u0022. Editing config while in combat is not allowed. \r\n\r\nReference Dalamud docs for the option names: \r\nhttps://dalamud.dev/api/Dalamud.Game.Config/Enums/SystemConfigOption \r\nhttps://dalamud.dev/api/Dalamud.Game.Config/Enums/UiConfigOption/\r\nhttps://dalamud.dev/api/Dalamud.Game.Config/Enums/UiControlOption/\r\n\r\nFor example:\r\n\u0060\u0060\u0060cs\r\n[GameConfigOption(\u0022KeyboardCameraInterpolationType\u0022, ConfigType.UInt, true)]\r\nKeyboardCameraInterpolationType = 1\r\n\u0060\u0060\u0060\r\n\r\nYou would use \u0060/gameconfig control KeyboardCameraInterpolationType 1\u0060\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "f5f29702a72e99f01950f3ec6413ce5fd6d1585b"
+                },
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit.Components",
+                  "Version": "76ebbac0b3d91dace40ac16b5e132bee0793b49a"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "LuminaSupplemental.Excel",
+                  "Version": "5.1.0"
+                },
+                {
+                  "Key": "CSVFile",
+                  "Version": "3.2.1"
+                },
+                {
+                  "Key": "CsvHelper",
+                  "Version": "30.0.1"
+                },
+                {
+                  "Key": "Sylvan.Data.Csv",
+                  "Version": "1.4.3"
+                }
+              ],
+              "Reviewer": "reiichi001",
               "Submitter": "MidoriKami"
             }
           }
@@ -340765,6 +340909,13 @@
       "Version": "a55b581e36eee435547b98eca9179313ded0db94",
       "ReviewedBy": "nathanctech",
       "ReviewedAt": "2026-07-31T14:12:13.6502568Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/MidoriKami/KamiToolKit",
+      "Version": "f5f29702a72e99f01950f3ec6413ce5fd6d1585b",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2026-08-01T20:33:07.9229878Z"
     }
   ]
 }
