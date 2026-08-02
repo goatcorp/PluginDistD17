@@ -206904,9 +206904,9 @@
           }
         },
         "HUDUnlimited": {
-          "BuiltCommit": "8244a1af4e897c7abffd2203c298160a60c9f6bc",
-          "TimeBuilt": "2026-06-30T18:08:16.6363348+00:00",
-          "EffectiveVersion": "1.2.3.2",
+          "BuiltCommit": "824cce0f10d683cb5f96a371eb0fc3ece0f5b78c",
+          "TimeBuilt": "2026-08-02T01:00:07.5970252+00:00",
+          "EffectiveVersion": "1.2.3.3",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.4": {
@@ -207687,6 +207687,30 @@
                 }
               ],
               "Reviewer": "nathanctech",
+              "Submitter": "MidoriKami"
+            },
+            "1.2.3.3": {
+              "TimeReleased": "2026-08-02T01:00:07.5970643+00:00",
+              "Changelog": "Fix crash on re-open.\r\n\r\nNow clears stored data when closing config window, to prevent crash from using stale data.",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "a0b3f6debd2617e1e66b7bb6d925a4d3fb9d6692"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                }
+              ],
+              "Reviewer": "nebel",
               "Submitter": "MidoriKami"
             }
           }
@@ -234508,9 +234532,9 @@
           }
         },
         "VanillaPlus": {
-          "BuiltCommit": "f4250a179cfb80c4f87c97feefdcb0ed6e654599",
-          "TimeBuilt": "2026-08-01T20:33:07.8640969+00:00",
-          "EffectiveVersion": "1.4.2.4",
+          "BuiltCommit": "ca83f78fa9c89f5231a1053ff0ce7f74f34862ff",
+          "TimeBuilt": "2026-08-02T01:00:24.3909875+00:00",
+          "EffectiveVersion": "1.4.2.6",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.1.6": {
@@ -240431,6 +240455,46 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "MidoriKami"
+            },
+            "1.4.2.6": {
+              "TimeReleased": "2026-08-02T01:00:24.3909889+00:00",
+              "Changelog": "nofranz\r\n\r\nFix for rare crash",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "8f05f8e5de36f68078a7c18d938d1a9e29992269"
+                },
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit.Components",
+                  "Version": "76ebbac0b3d91dace40ac16b5e132bee0793b49a"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "LuminaSupplemental.Excel",
+                  "Version": "5.1.0"
+                },
+                {
+                  "Key": "CSVFile",
+                  "Version": "3.2.1"
+                },
+                {
+                  "Key": "CsvHelper",
+                  "Version": "30.0.1"
+                },
+                {
+                  "Key": "Sylvan.Data.Csv",
+                  "Version": "1.4.3"
+                }
+              ],
+              "Reviewer": "nebel",
               "Submitter": "MidoriKami"
             }
           }
@@ -341507,6 +341571,13 @@
       "Version": "c2fde06b1f9eee624d39971cbdfca21599e04316",
       "ReviewedBy": "nebel",
       "ReviewedAt": "2026-08-01T21:02:57.6412152Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/MidoriKami/KamiToolKit",
+      "Version": "8f05f8e5de36f68078a7c18d938d1a9e29992269",
+      "ReviewedBy": "nebel",
+      "ReviewedAt": "2026-08-02T01:00:24.4628053Z"
     }
   ]
 }
