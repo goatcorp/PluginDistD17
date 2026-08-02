@@ -2,7 +2,7 @@
   "Author": "NetStyx",
   "Name": "A Realm Repopulated",
   "InternalName": "ARealmRepopulated",
-  "AssemblyVersion": "0.1.5.0",
+  "AssemblyVersion": "0.1.6.1",
   "MinimumDalamudVersion": "15.0.2.0",
   "Description": "This plugin aims to give players the ability to add more flavor npcs to the common areas of the game.",
   "ApplicableVersion": "any",

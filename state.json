@@ -123127,9 +123127,9 @@
           }
         },
         "EurekaTrackerAutoPopper": {
-          "BuiltCommit": "cd0dcf5da03e5661aa0c78e6e887038964f6de44",
-          "TimeBuilt": "2026-08-01T20:33:20.0877902+00:00",
-          "EffectiveVersion": "1.7.3.9",
+          "BuiltCommit": "0115c294d8dbd52840deb2f212a2cfc0a4a0f3ae",
+          "TimeBuilt": "2026-08-02T21:02:35.0597397+00:00",
+          "EffectiveVersion": "1.7.3.10",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.0.4": {
@@ -124541,6 +124541,42 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "Infiziert90"
+            },
+            "1.7.3.10": {
+              "TimeReleased": "2026-08-02T21:02:35.0597785+00:00",
+              "Changelog": "- Fix all text related to north horn tower\r\n- New tracker design\r\n\r\n\u003Cimg width=\u0022635\u0022 height=\u0022529\u0022 alt=\u0022image\u0022 src=\u0022https://github.com/user-attachments/assets/6a9b2931-f3dc-4f64-adf2-a811437a2005\u0022 /\u003E\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "KamiToolKit",
+                  "Version": "2.0.23"
+                },
+                {
+                  "Key": "Penumbra.Api",
+                  "Version": "5.15.1"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp.Drawing",
+                  "Version": "2.1.7"
+                },
+                {
+                  "Key": "SixLabors.Fonts",
+                  "Version": "2.1.3"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "Infiziert90"
             }
           }
@@ -314789,9 +314825,9 @@
           }
         },
         "ARealmRepopulated": {
-          "BuiltCommit": "579d3d71b0d94469164dbc62b5dad0ddb8110f33",
-          "TimeBuilt": "2026-06-15T00:01:10.4064362+00:00",
-          "EffectiveVersion": "0.1.5.0",
+          "BuiltCommit": "f1bc7890ea160daacdff1e6cb6793eda3232307c",
+          "TimeBuilt": "2026-08-02T21:02:45.5706561+00:00",
+          "EffectiveVersion": "0.1.6.1",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.4.4": {
@@ -315101,6 +315137,162 @@
                 {
                   "Key": "xunit.v3.runner.inproc.console",
                   "Version": "3.2.2"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "NetStyx"
+            },
+            "0.1.6.1": {
+              "TimeReleased": "2026-08-02T21:02:45.5706576+00:00",
+              "Changelog": "Functional Changes\r\n- Added an appearance picker for selecting appearances from known NPCs.\r\n\r\nTechnical Changes\r\n- Added model scale values to scenario files.\r\n- Improved head-tracking behavior for models that do not support it.\r\n- Prevented a game crash that could occur when spawning an actor on a water surface.\r\n- Fixed an issue where scenarios could be loaded in housing districts on the wrong server.",
+              "UsedNeeds": [
+                {
+                  "Key": "coverlet.collector",
+                  "Version": "8.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "2.0.2"
+                },
+                {
+                  "Key": "Microsoft.NET.Test.Sdk",
+                  "Version": "18.3.0"
+                },
+                {
+                  "Key": "Shouldly",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "xunit.runner.visualstudio",
+                  "Version": "3.1.5"
+                },
+                {
+                  "Key": "xunit.v3",
+                  "Version": "3.2.2"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DiffEngine",
+                  "Version": "11.3.0"
+                },
+                {
+                  "Key": "EmptyFiles",
+                  "Version": "4.4.0"
+                },
+                {
+                  "Key": "Microsoft.ApplicationInsights",
+                  "Version": "2.23.0"
+                },
+                {
+                  "Key": "Microsoft.Bcl.AsyncInterfaces",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "Microsoft.CodeCoverage",
+                  "Version": "18.3.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Primitives",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Testing.Extensions.Telemetry",
+                  "Version": "1.9.1"
+                },
+                {
+                  "Key": "Microsoft.Testing.Extensions.TrxReport.Abstractions",
+                  "Version": "1.9.1"
+                },
+                {
+                  "Key": "Microsoft.Testing.Platform",
+                  "Version": "1.9.1"
+                },
+                {
+                  "Key": "Microsoft.Testing.Platform.MSBuild",
+                  "Version": "1.9.1"
+                },
+                {
+                  "Key": "Microsoft.TestPlatform.ObjectModel",
+                  "Version": "18.3.0"
+                },
+                {
+                  "Key": "Microsoft.TestPlatform.TestHost",
+                  "Version": "18.3.0"
+                },
+                {
+                  "Key": "Microsoft.Win32.Registry",
+                  "Version": "5.0.0"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.3"
+                },
+                {
+                  "Key": "System.CodeDom",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "System.Management",
+                  "Version": "6.0.1"
+                },
+                {
+                  "Key": "xunit.analyzers",
+                  "Version": "1.27.0"
+                },
+                {
+                  "Key": "xunit.v3.assert",
+                  "Version": "3.2.2"
+                },
+                {
+                  "Key": "xunit.v3.common",
+                  "Version": "3.2.2"
+                },
+                {
+                  "Key": "xunit.v3.core.mtp-v1",
+                  "Version": "3.2.2"
+                },
+                {
+                  "Key": "xunit.v3.extensibility.core",
+                  "Version": "3.2.2"
+                },
+                {
+                  "Key": "xunit.v3.mtp-v1",
+                  "Version": "3.2.2"
+                },
+                {
+                  "Key": "xunit.v3.runner.common",
+                  "Version": "3.2.2"
+                },
+                {
+                  "Key": "xunit.v3.runner.inproc.console",
+                  "Version": "3.2.2"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
                 }
               ],
               "Reviewer": "nathanctech",
