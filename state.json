@@ -3,9 +3,9 @@
     "stable": {
       "Plugins": {
         "Dalamud.RichPresence": {
-          "BuiltCommit": "038afe26797ec6b3f015fa9e7b76f0d04aca6698",
-          "TimeBuilt": "2026-07-28T17:47:20.4146054+00:00",
-          "EffectiveVersion": "2.0.9.5",
+          "BuiltCommit": "eceb281dc9a337fcf9eaf6773e5dd6bdf0ab7010",
+          "TimeBuilt": "2026-08-02T20:19:17.5363954+00:00",
+          "EffectiveVersion": "2.0.9.6",
           "MinimumVersion": null,
           "Changelogs": {
             "2.0.1.0": {
@@ -777,6 +777,30 @@
                 }
               ],
               "Reviewer": "nathanctech",
+              "Submitter": "Bronya-Rand"
+            },
+            "2.0.9.6": {
+              "TimeReleased": "2026-08-02T20:19:17.5363969+00:00",
+              "Changelog": "# What\u0027s New?\r\n- Fixed a bug where migrating from RPC V1 to RPC V2 failed to apply a user\u0027s original values.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DiscordRichPresence",
+                  "Version": "1.6.1.70"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "2.0.5"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.1"
+                }
+              ],
+              "Reviewer": "reiichi001",
               "Submitter": "Bronya-Rand"
             }
           }
@@ -251466,6 +251490,30 @@
               "Submitter": "cohenaj194"
             }
           }
+        },
+        "DutySpeed": {
+          "BuiltCommit": "331d85ef5de8701adce9dd573dde6902c3ba24cf",
+          "TimeBuilt": "2026-08-02T20:19:09.3114332+00:00",
+          "EffectiveVersion": "1.7.5.1",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "1.7.5.1": {
+              "TimeReleased": "2026-08-02T20:19:09.311436+00:00",
+              "Changelog": "Have tested it across multiple patches and weeks/months of duty running without issues. \r\nNo changes have been made. ",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "EuphoricCrashOut"
+            }
+          }
         }
       }
     },
@@ -313117,62 +313165,6 @@
               ],
               "Reviewer": "nathanctech",
               "Submitter": "devckuw"
-            }
-          }
-        },
-        "DutySpeed": {
-          "BuiltCommit": "331d85ef5de8701adce9dd573dde6902c3ba24cf",
-          "TimeBuilt": "2026-05-01T06:39:01.8508431+00:00",
-          "EffectiveVersion": "1.7.5.1",
-          "MinimumVersion": null,
-          "Changelogs": {
-            "1.3.4.0": {
-              "TimeReleased": "2026-04-10T20:30:04.0073445+00:00",
-              "Changelog": "DutySpeed is a lightweight, automated \u0022speedrun\u0022 timer for Final Fantasy XIV. It tracks the time it took to complete dungeons, trials, and raids without needing to manually start or stop a stopwatch. This would be my first submission attempt! \\o/\r\n",
-              "UsedNeeds": [
-                {
-                  "Key": "DalamudPackager",
-                  "Version": "14.0.2"
-                },
-                {
-                  "Key": "DotNet.ReproducibleBuilds",
-                  "Version": "1.2.39"
-                }
-              ],
-              "Reviewer": "nathanctech",
-              "Submitter": "EuphoricCrashOut"
-            },
-            "1.7.5.0": {
-              "TimeReleased": "2026-05-01T02:07:00.0023102+00:00",
-              "Changelog": "Attempts are made. ",
-              "UsedNeeds": [
-                {
-                  "Key": "DalamudPackager",
-                  "Version": "15.0.0"
-                },
-                {
-                  "Key": "DotNet.ReproducibleBuilds",
-                  "Version": "1.2.39"
-                }
-              ],
-              "Reviewer": "nathanctech",
-              "Submitter": "EuphoricCrashOut"
-            },
-            "1.7.5.1": {
-              "TimeReleased": "2026-05-01T06:39:01.8508914+00:00",
-              "Changelog": "I gotta slow down. ",
-              "UsedNeeds": [
-                {
-                  "Key": "DalamudPackager",
-                  "Version": "15.0.0"
-                },
-                {
-                  "Key": "DotNet.ReproducibleBuilds",
-                  "Version": "1.2.39"
-                }
-              ],
-              "Reviewer": "reiichi001",
-              "Submitter": "EuphoricCrashOut"
             }
           }
         },
