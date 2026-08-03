@@ -65406,9 +65406,9 @@
           }
         },
         "TrackyTrack": {
-          "BuiltCommit": "1b0befed9c6f41fcfb324e8edcc1afb126de8c2a",
-          "TimeBuilt": "2026-08-02T00:06:22.8149841+00:00",
-          "EffectiveVersion": "1.7.1.4",
+          "BuiltCommit": "8e1554a7d129343d7c43dd33668617288197aa98",
+          "TimeBuilt": "2026-08-03T17:22:44.9092202+00:00",
+          "EffectiveVersion": "1.7.1.5",
           "MinimumVersion": null,
           "Changelogs": {
             "1.5.5.5": {
@@ -67781,6 +67781,42 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "Infiziert90"
+            },
+            "1.7.1.5": {
+              "TimeReleased": "2026-08-03T17:22:44.9092604+00:00",
+              "Changelog": "- More BNPC tracking",
+              "UsedNeeds": [
+                {
+                  "Key": "CsvHelper",
+                  "Version": "33.1.0"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "MessagePack",
+                  "Version": "3.1.7"
+                },
+                {
+                  "Key": "MessagePack.Annotations",
+                  "Version": "3.1.7"
+                },
+                {
+                  "Key": "MessagePackAnalyzer",
+                  "Version": "3.1.7"
+                },
+                {
+                  "Key": "Microsoft.NET.StringTools",
+                  "Version": "17.11.4"
+                }
+              ],
+              "Reviewer": "nebel",
               "Submitter": "Infiziert90"
             }
           }
@@ -315885,9 +315921,9 @@
           }
         },
         "JobRoulettePlugin": {
-          "BuiltCommit": "8c943ea24c5ee6b3c1e5413f0759edb368f1441d",
-          "TimeBuilt": "2026-07-30T20:49:15.0699361+00:00",
-          "EffectiveVersion": "1.6.0.0",
+          "BuiltCommit": "baf1ebe9584e61e32fe92399ef5f33e56a102fad",
+          "TimeBuilt": "2026-08-03T17:22:53.6569674+00:00",
+          "EffectiveVersion": "1.7.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.1.0": {
@@ -316016,6 +316052,22 @@
                 }
               ],
               "Reviewer": "nathanctech",
+              "Submitter": "sleeds2"
+            },
+            "1.7.0.0": {
+              "TimeReleased": "2026-08-03T17:22:53.6569699+00:00",
+              "Changelog": "**Update**: Added class support.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nebel",
               "Submitter": "sleeds2"
             }
           }
