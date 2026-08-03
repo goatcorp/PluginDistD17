@@ -290460,9 +290460,9 @@
           }
         },
         "AvantGarde": {
-          "BuiltCommit": "d9af708f61324a3d6b631a18a6346c1844774451",
-          "TimeBuilt": "2026-07-24T21:03:02.5099423+00:00",
-          "EffectiveVersion": "1.1.1.0",
+          "BuiltCommit": "1c853343196a741bcc5830205a384f5bd077c274",
+          "TimeBuilt": "2026-08-03T23:40:34.4934861+00:00",
+          "EffectiveVersion": "1.1.2.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.1.0": {
@@ -290505,6 +290505,22 @@
             "1.1.1.0": {
               "TimeReleased": "2026-07-24T21:03:02.5099439+00:00",
               "Changelog": "**Available for testing:**\r\n- Automatic Crowdsourcing\r\n  - Now sends a chat message when an upload fails.\r\n  - Fetches data from an alternative source, with the previous one as a fallback.\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "NeNeppie"
+            },
+            "1.1.2.0": {
+              "TimeReleased": "2026-08-03T23:40:34.4935615+00:00",
+              "Changelog": "**Available for testing:**\r\n- Minor fixes\r\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
