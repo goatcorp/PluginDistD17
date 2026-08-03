@@ -134018,9 +134018,9 @@
           }
         },
         "GatherBuddy": {
-          "BuiltCommit": "9a13ee7825f37606605d5c3a6362c4cb68d97127",
-          "TimeBuilt": "2026-07-30T00:55:27.3605662+00:00",
-          "EffectiveVersion": "3.8.9.1",
+          "BuiltCommit": "98df54f4dbf9c765ccc77b809bee20fb6f0f9ba6",
+          "TimeBuilt": "2026-08-03T23:44:44.7659533+00:00",
+          "EffectiveVersion": "3.8.9.2",
           "MinimumVersion": null,
           "Changelogs": {
             "3.1.4.15926": {
@@ -135136,6 +135136,42 @@
             },
             "3.8.9.1": {
               "TimeReleased": "2026-07-30T00:55:27.3606071+00:00",
+              "Changelog": "nofranz",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/Ottermandias/OtterGui.git",
+                  "Version": "79771ee5f3d463f02c63bebbedaa0aff49e59718"
+                },
+                {
+                  "Key": "https://github.com/Ottermandias/OtterGuiInternal.git",
+                  "Version": "fb9de85711973eba4b02156ece9865ba166020af"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "JetBrains.Annotations",
+                  "Version": "2024.3.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "9.0.2"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "9.0.2"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Ottermandias"
+            },
+            "3.8.9.2": {
+              "TimeReleased": "2026-08-03T23:44:44.7660055+00:00",
               "Changelog": "nofranz",
               "UsedNeeds": [
                 {
@@ -242544,9 +242580,9 @@
           }
         },
         "Altoholic": {
-          "BuiltCommit": "6ba03f4fa287cb441e8708e9da1567e0a69a6378",
-          "TimeBuilt": "2026-08-01T20:27:59.7427956+00:00",
-          "EffectiveVersion": "1.12.9.0",
+          "BuiltCommit": "bf6aed9096c48512a10e66f7af860b0153cc805d",
+          "TimeBuilt": "2026-08-03T23:45:00.1579462+00:00",
+          "EffectiveVersion": "1.12.10.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -244399,6 +244435,50 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "Sohtoren"
+            },
+            "1.12.10.0": {
+              "TimeReleased": "2026-08-03T23:45:00.1579483+00:00",
+              "Changelog": "- **Progress**: Add Yo-Kai weapons to rewards list (tracking from all inventories (character and retainers))\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "Dapper",
+                  "Version": "2.1.79"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "2.0.5"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite.Core",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.bundle_e_sqlite3",
+                  "Version": "3.0.5"
+                },
+                {
+                  "Key": "SQLite",
+                  "Version": "3.53.4"
+                },
+                {
+                  "Key": "SQLitePCLRaw.config.e_sqlite3",
+                  "Version": "3.0.5"
+                },
+                {
+                  "Key": "SQLitePCLRaw.core",
+                  "Version": "3.0.5"
+                },
+                {
+                  "Key": "SQLitePCLRaw.provider.e_sqlite3",
+                  "Version": "3.0.5"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "Sohtoren"
             }
           }

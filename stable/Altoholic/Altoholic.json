@@ -2,7 +2,7 @@
   "Author": "Sohtoren",
   "Name": "Altoholic",
   "InternalName": "Altoholic",
-  "AssemblyVersion": "1.12.9.0",
+  "AssemblyVersion": "1.12.10.0",
   "Description": "Get informations (gils, currencies,  items, inventory, retainers, etc) and progress from all your characters",
   "ApplicableVersion": "any",
   "Tags": [
@@ -18,5 +18,6 @@
   "Punchline": "Informations about your alts",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
-  "_Dip17Channel": "stable"
+  "_Dip17Channel": "stable",
+  "RepoUrl": "https://github.com/Sohtoren/Altoholic.git"
 }
