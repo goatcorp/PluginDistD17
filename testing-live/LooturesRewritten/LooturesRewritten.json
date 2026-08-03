@@ -2,10 +2,17 @@
   "Author": "gaypotatoemma",
   "Name": "Lootures Rewritten",
   "InternalName": "LooturesRewritten",
-  "AssemblyVersion": "1.0.0.1",
+  "AssemblyVersion": "1.0.0.2",
   "Description": "Ever wanted to see how who has already rolled on any loot you may want? Now you can!",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/GayPotatoEmma/LooturesRewritten",
+  "Tags": [
+    "loot",
+    "track",
+    "roll",
+    "ui",
+    "qol"
+  ],
   "DalamudApiLevel": 15,
   "LoadRequiredState": 0,
   "LoadSync": false,

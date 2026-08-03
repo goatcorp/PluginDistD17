@@ -316685,9 +316685,9 @@
           }
         },
         "LooturesRewritten": {
-          "BuiltCommit": "649743882475b91f095e5a9f847298868c1abd7b",
-          "TimeBuilt": "2026-07-31T14:12:43.3975821+00:00",
-          "EffectiveVersion": "1.0.0.1",
+          "BuiltCommit": "60f72b511bf20256e15da3298fe6ca5090f1c1f3",
+          "TimeBuilt": "2026-08-03T17:29:17.8800781+00:00",
+          "EffectiveVersion": "1.0.0.2",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -316728,6 +316728,26 @@
                 }
               ],
               "Reviewer": "nathanctech",
+              "Submitter": "GayPotatoEmma"
+            },
+            "1.0.0.2": {
+              "TimeReleased": "2026-08-03T17:29:17.8801164+00:00",
+              "Changelog": "## New Additions\r\n- Add support for showing Roll results (by @Zeffuro)",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit.git",
+                  "Version": "b3ba9099023c3f599816507993b332be6174819b"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nebel",
               "Submitter": "GayPotatoEmma"
             }
           }
