@@ -251710,6 +251710,158 @@
               "Submitter": "EuphoricCrashOut"
             }
           }
+        },
+        "YokaiCheck": {
+          "BuiltCommit": "f7cbac8ec374d4ed538ad41c4490853e6ccc72db",
+          "TimeBuilt": "2026-08-03T23:22:23.8278298+00:00",
+          "EffectiveVersion": "1.3.0.0",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "1.3.0.0": {
+              "TimeReleased": "2026-08-03T23:22:23.8278568+00:00",
+              "Changelog": "Yo-kai Check is a small plugin to assist you in tracking the rewards of the Yo-kai Watch event.\r\nThe plugin window can be opened with \u0060/yokai\u0060 or \u0060/yokaicheck\u0060 and shows a list of minions, weapons and how many medals you still need.\r\nWhen you have a minion summoned, the amount of medals you need for the weapon is displayed in the Server Info Bar.",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/Haselnussbomber/HaselCommon.git",
+                  "Version": "f3d592c01b290d8fade39a4e4f55bc916605c54a"
+                },
+                {
+                  "Key": "AutoCtor",
+                  "Version": "3.1.0"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Injectio",
+                  "Version": "6.1.0"
+                },
+                {
+                  "Key": "Roslynator.Analyzers",
+                  "Version": "4.15.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Abstractions",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Binder",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.CommandLine",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.EnvironmentVariables",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.FileExtensions",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Json",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.UserSecrets",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Diagnostics",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Diagnostics.Abstractions",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileProviders.Abstractions",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileProviders.Physical",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileSystemGlobbing",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Hosting",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Hosting.Abstractions",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Configuration",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Console",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Debug",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.EventLog",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.EventSource",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options.ConfigurationExtensions",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Primitives",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "System.Diagnostics.EventLog",
+                  "Version": "10.0.10"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Haselnussbomber"
+            }
+          }
         }
       }
     },
@@ -341958,6 +342110,27 @@
       "Version": "8f05f8e5de36f68078a7c18d938d1a9e29992269",
       "ReviewedBy": "nebel",
       "ReviewedAt": "2026-08-02T01:00:24.4628053Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/Haselnussbomber/HaselCommon.git",
+      "Version": "f3d592c01b290d8fade39a4e4f55bc916605c54a",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-08-03T23:22:23.8845727Z"
+    },
+    {
+      "Type": 1,
+      "Key": "AutoCtor",
+      "Version": "3.1.0",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-08-03T23:22:23.884603Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Injectio",
+      "Version": "6.1.0",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-08-03T23:22:23.8846034Z"
     }
   ]
 }
