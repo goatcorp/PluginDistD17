@@ -1,0 +1,28 @@
+{
+  "Author": "beerpsi",
+  "Name": "NoMouseMoveForward",
+  "InternalName": "NoMouseMoveForward",
+  "AssemblyVersion": "1.0.0.0",
+  "Description": "A plugin to disable moving forward using LMB+RMB, with separate toggles for walking and flying.",
+  "ApplicableVersion": "any",
+  "Tags": [
+    "tweak",
+    "mouse",
+    "move",
+    "forward",
+    "utility"
+  ],
+  "CategoryTags": [
+    "Utility"
+  ],
+  "DalamudApiLevel": 15,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "Punchline": "Plugin to disable moving forward with LMB+RMB",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "testing-live",
+  "RepoUrl": "https://github.com/beer-psi/NoMouseMoveForward.git"
+}

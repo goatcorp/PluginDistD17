@@ -316903,6 +316903,30 @@
               "Submitter": "GayPotatoEmma"
             }
           }
+        },
+        "NoMouseMoveForward": {
+          "BuiltCommit": "41f023cea488bb154e5d8473e6a619f5e004aca8",
+          "TimeBuilt": "2026-08-03T23:30:21.6888376+00:00",
+          "EffectiveVersion": "1.0.0.0",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "1.0.0.0": {
+              "TimeReleased": "2026-08-03T23:30:21.688893+00:00",
+              "Changelog": "# NoMouseMoveForward\r\n\r\nA simple plugin to prevent LMB\u002BRMB from moving the player forward, with separate toggles for walking and flying.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "beer-psi"
+            }
+          }
         }
       }
     },
