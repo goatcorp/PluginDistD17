@@ -2,7 +2,7 @@
   "Author": "Haselnussbomber",
   "Name": "Yo-kai Check",
   "InternalName": "YokaiCheck",
-  "AssemblyVersion": "1.3.0.0",
+  "AssemblyVersion": "1.3.1.0",
   "Description": "Yo-kai Check is a small plugin to assist you in tracking the rewards of the Yo-kai Watch event.\r\nIt can be opened with /yokai and shows a list of minions, weapons and how many medals you still need.\r\nWhen you have a minion summoned, the amount of medals you have and need for the weapon is displayed in the Server Info Bar.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Haselnussbomber/YokaiCheck",
