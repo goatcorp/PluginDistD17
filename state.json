@@ -98354,9 +98354,9 @@
           }
         },
         "DailyDuty": {
-          "BuiltCommit": "ec57a24410780d882402a0ee5ac963d8b68d2c98",
-          "TimeBuilt": "2026-07-24T21:02:32.9224623+00:00",
-          "EffectiveVersion": "6.0.4.13",
+          "BuiltCommit": "3887f23df9e9903874c2a4460ed97fdac4b96af6",
+          "TimeBuilt": "2026-08-04T23:40:13.1563104+00:00",
+          "EffectiveVersion": "6.0.5.1",
           "MinimumVersion": null,
           "Changelogs": {
             "5.2.0.0": {
@@ -100141,6 +100141,34 @@
                 }
               ],
               "Reviewer": "nathanctech",
+              "Submitter": "MidoriKami"
+            },
+            "6.0.5.1": {
+              "TimeReleased": "2026-08-04T23:40:13.1563507+00:00",
+              "Changelog": "New system for tracking Treasure Maps",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "b3ba9099023c3f599816507993b332be6174819b"
+                },
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit.Components",
+                  "Version": "76ebbac0b3d91dace40ac16b5e132bee0793b49a"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                }
+              ],
+              "Reviewer": "nebel",
               "Submitter": "MidoriKami"
             }
           }
