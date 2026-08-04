@@ -234736,9 +234736,9 @@
           }
         },
         "VanillaPlus": {
-          "BuiltCommit": "ca83f78fa9c89f5231a1053ff0ce7f74f34862ff",
-          "TimeBuilt": "2026-08-02T01:00:24.3909875+00:00",
-          "EffectiveVersion": "1.4.2.6",
+          "BuiltCommit": "7d5490ffc59f4ccc56ef9ab22c99430941b97302",
+          "TimeBuilt": "2026-08-04T15:09:20.9275475+00:00",
+          "EffectiveVersion": "1.4.2.7",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.1.6": {
@@ -240668,6 +240668,46 @@
                 {
                   "Key": "https://github.com/MidoriKami/KamiToolKit",
                   "Version": "8f05f8e5de36f68078a7c18d938d1a9e29992269"
+                },
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit.Components",
+                  "Version": "76ebbac0b3d91dace40ac16b5e132bee0793b49a"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "LuminaSupplemental.Excel",
+                  "Version": "5.1.0"
+                },
+                {
+                  "Key": "CSVFile",
+                  "Version": "3.2.1"
+                },
+                {
+                  "Key": "CsvHelper",
+                  "Version": "30.0.1"
+                },
+                {
+                  "Key": "Sylvan.Data.Csv",
+                  "Version": "1.4.3"
+                }
+              ],
+              "Reviewer": "nebel",
+              "Submitter": "MidoriKami"
+            },
+            "1.4.2.7": {
+              "TimeReleased": "2026-08-04T15:09:20.9275964+00:00",
+              "Changelog": "BetterSelectString - Fix not working when nested menus are involved",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "da2f2921bc6d313182aeb626d1cb999a5fddfb88"
                 },
                 {
                   "Key": "https://github.com/MidoriKami/KamiToolKit.Components",
@@ -342251,6 +342291,13 @@
       "Version": "6.1.0",
       "ReviewedBy": "nathanctech",
       "ReviewedAt": "2026-08-03T23:22:23.8846034Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/MidoriKami/KamiToolKit",
+      "Version": "da2f2921bc6d313182aeb626d1cb999a5fddfb88",
+      "ReviewedBy": "nebel",
+      "ReviewedAt": "2026-08-04T15:09:21.0037521Z"
     }
   ]
 }
