@@ -243208,9 +243208,9 @@
           }
         },
         "StickyFocusTarget": {
-          "BuiltCommit": "336a3be12612f9325609f96c6ff3f4a55c547151",
-          "TimeBuilt": "2026-05-11T15:52:56.9489742+00:00",
-          "EffectiveVersion": "1.1.2.0",
+          "BuiltCommit": "61a60a150e5a78f7c9000d9a493acc49ed46a6aa",
+          "TimeBuilt": "2026-08-05T20:28:20.5250821+00:00",
+          "EffectiveVersion": "1.2.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -243259,6 +243259,22 @@
                 }
               ],
               "Reviewer": "nathanctech",
+              "Submitter": "smileyhead"
+            },
+            "1.2.0.0": {
+              "TimeReleased": "2026-08-05T20:28:20.5251274+00:00",
+              "Changelog": "- Added filtering options to focus-targeting. By default, /sft will now only target players and combat NPCs, but this can be customised.\n- Added a credits page with GitHub attributions. Future contributors will be added here as needed.\n- Added tabs to house these new pages without cluttering the UI.\n- The command description now only shows up on the About page.\n- Fixed the window size so that it doesn\u0027t keep resizing all over the place when changing tabs or languages.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "reiichi001",
               "Submitter": "smileyhead"
             }
           }
@@ -317037,9 +317053,9 @@
           }
         },
         "JobRoulettePlugin": {
-          "BuiltCommit": "baf1ebe9584e61e32fe92399ef5f33e56a102fad",
-          "TimeBuilt": "2026-08-03T17:22:53.6569674+00:00",
-          "EffectiveVersion": "1.7.0.0",
+          "BuiltCommit": "1f590c9afaa4f6832511fbdf199a736089018853",
+          "TimeBuilt": "2026-08-05T20:28:31.4914274+00:00",
+          "EffectiveVersion": "1.7.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.1.0": {
@@ -317184,6 +317200,22 @@
                 }
               ],
               "Reviewer": "nebel",
+              "Submitter": "sleeds2"
+            },
+            "1.7.1.0": {
+              "TimeReleased": "2026-08-05T20:28:31.4914288+00:00",
+              "Changelog": "**Update**: Added class support.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "reiichi001",
               "Submitter": "sleeds2"
             }
           }
@@ -317777,9 +317809,9 @@
           }
         },
         "AcrylicXIV": {
-          "BuiltCommit": "bd20d6f7f1de1ff9bf3a9fd754abd80f5fef7f13",
-          "TimeBuilt": "2026-07-28T00:54:49.9823104+00:00",
-          "EffectiveVersion": "0.0.0.2",
+          "BuiltCommit": "df34c9704e3c13507dbfc45fa9b2afc421743c9b",
+          "TimeBuilt": "2026-08-05T20:28:40.8056039+00:00",
+          "EffectiveVersion": "0.0.0.3",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.0.2": {
@@ -317796,6 +317828,22 @@
                 }
               ],
               "Reviewer": "nathanctech",
+              "Submitter": "MapleRecall"
+            },
+            "0.0.0.3": {
+              "TimeReleased": "2026-08-05T20:28:40.8056052+00:00",
+              "Changelog": "Fix a crash when exiting the game.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "reiichi001",
               "Submitter": "MapleRecall"
             }
           }
