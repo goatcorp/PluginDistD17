@@ -124227,9 +124227,9 @@
           }
         },
         "EurekaTrackerAutoPopper": {
-          "BuiltCommit": "554fac210118be21808bea48b4f1710eec2aa4c4",
-          "TimeBuilt": "2026-08-06T01:22:26.1714128+00:00",
-          "EffectiveVersion": "1.7.3.15",
+          "BuiltCommit": "cc5fe38292e0fc44af0cdc9ae7662499de8e9234",
+          "TimeBuilt": "2026-08-06T13:42:30.3560766+00:00",
+          "EffectiveVersion": "1.7.3.16",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.0.4": {
@@ -125821,6 +125821,42 @@
                 }
               ],
               "Reviewer": "nathanctech",
+              "Submitter": "Infiziert90"
+            },
+            "1.7.3.16": {
+              "TimeReleased": "2026-08-06T13:42:30.3561149+00:00",
+              "Changelog": "- Fix kill counter\r\n- Fix CE aetheryte",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "KamiToolKit",
+                  "Version": "2.0.23"
+                },
+                {
+                  "Key": "Penumbra.Api",
+                  "Version": "5.15.1"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp.Drawing",
+                  "Version": "2.1.7"
+                },
+                {
+                  "Key": "SixLabors.Fonts",
+                  "Version": "2.1.3"
+                }
+              ],
+              "Reviewer": "nebel",
               "Submitter": "Infiziert90"
             }
           }

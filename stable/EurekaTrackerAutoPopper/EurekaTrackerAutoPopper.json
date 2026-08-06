@@ -2,7 +2,7 @@
   "Author": "Infi, electr0sheep",
   "Name": "Eureka Linker",
   "InternalName": "EurekaTrackerAutoPopper",
-  "AssemblyVersion": "1.7.3.15",
+  "AssemblyVersion": "1.7.3.16",
   "Description": "A simple tracker for Eureka, and Occult.\nOther Features:\n- Fairy Finder\n- Bunny Timer Window\n- Bunny Coffer Helper\n- Stats\n- Quest Guide (clickable coords)\n- Localized (DE, FR, JA)\n\nOccult:\n- Random Treasure Proximity Notification\n- Bunny Carrot Proximity Notification\n- Pot Coffer Helper\n- Pot Timer Window\n- Map Markers For Treasure, Bunny, Pot, Survey Points\n- Occult Tracker\n\nWebsite (https://tracker.xivstats.com):\n- A simple tracker for occult\n- Players don't need the plugin to enjoy the benefits",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Infiziert90/EurekaTrackerAutoPopper",
