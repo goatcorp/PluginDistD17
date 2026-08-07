@@ -65430,9 +65430,9 @@
           }
         },
         "TrackyTrack": {
-          "BuiltCommit": "8e1554a7d129343d7c43dd33668617288197aa98",
-          "TimeBuilt": "2026-08-03T17:22:44.9092202+00:00",
-          "EffectiveVersion": "1.7.1.5",
+          "BuiltCommit": "38b0386af1fcc42adc9b6c4341769718d01df6de",
+          "TimeBuilt": "2026-08-07T03:02:25.8913538+00:00",
+          "EffectiveVersion": "1.7.2.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.5.5.5": {
@@ -67841,6 +67841,42 @@
                 }
               ],
               "Reviewer": "nebel",
+              "Submitter": "Infiziert90"
+            },
+            "1.7.2.0": {
+              "TimeReleased": "2026-08-07T03:02:25.8913552+00:00",
+              "Changelog": "- Improve tracking of coffers in eureka and occult areas\r\n  - Includes currency drops now",
+              "UsedNeeds": [
+                {
+                  "Key": "CsvHelper",
+                  "Version": "33.1.0"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "MessagePack",
+                  "Version": "3.1.7"
+                },
+                {
+                  "Key": "MessagePack.Annotations",
+                  "Version": "3.1.7"
+                },
+                {
+                  "Key": "MessagePackAnalyzer",
+                  "Version": "3.1.7"
+                },
+                {
+                  "Key": "Microsoft.NET.StringTools",
+                  "Version": "17.11.4"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "Infiziert90"
             }
           }
@@ -135190,9 +135226,9 @@
           }
         },
         "GatherBuddy": {
-          "BuiltCommit": "98df54f4dbf9c765ccc77b809bee20fb6f0f9ba6",
-          "TimeBuilt": "2026-08-03T23:44:44.7659533+00:00",
-          "EffectiveVersion": "3.8.9.2",
+          "BuiltCommit": "f07a5d94ba2b44b075a1783b9cede9723c36b54e",
+          "TimeBuilt": "2026-08-07T03:02:49.8643912+00:00",
+          "EffectiveVersion": "3.8.10.0",
           "MinimumVersion": null,
           "Changelogs": {
             "3.1.4.15926": {
@@ -136373,6 +136409,42 @@
                 {
                   "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
                   "Version": "9.0.2"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Ottermandias"
+            },
+            "3.8.10.0": {
+              "TimeReleased": "2026-08-07T03:02:49.8643924+00:00",
+              "Changelog": "nofranz",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/Ottermandias/OtterGui.git",
+                  "Version": "79771ee5f3d463f02c63bebbedaa0aff49e59718"
+                },
+                {
+                  "Key": "https://github.com/Ottermandias/OtterGuiInternal.git",
+                  "Version": "fb9de85711973eba4b02156ece9865ba166020af"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "JetBrains.Annotations",
+                  "Version": "2024.3.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "9.0.2"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "9.0.2"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
                 }
               ],
               "Reviewer": "nathanctech",
@@ -228108,9 +228180,9 @@
           }
         },
         "XivGearExport": {
-          "BuiltCommit": "b06c3dff523ef886b6bb0b346332d72574ce7197",
-          "TimeBuilt": "2026-05-01T18:51:36.075091+00:00",
-          "EffectiveVersion": "1.4.1.5",
+          "BuiltCommit": "b11566440534e423f0bdaf9f63f8db0112cd5dfd",
+          "TimeBuilt": "2026-08-07T03:02:33.1171807+00:00",
+          "EffectiveVersion": "1.5.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.2.0.0": {
@@ -228212,6 +228284,22 @@
             "1.4.1.5": {
               "TimeReleased": "2026-05-01T18:51:36.0751274+00:00",
               "Changelog": "- Compatibility with 7.5 and Dalamud 15.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "VioletStardustXIV"
+            },
+            "1.5.0.0": {
+              "TimeReleased": "2026-08-07T03:02:33.1171824+00:00",
+              "Changelog": "- Added support for Phantom Occultum relic weapons (the ones with selectable stats).\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -242324,9 +242412,9 @@
           }
         },
         "BeastieBuddy": {
-          "BuiltCommit": "8ef4b1776b4b6c109164c510b3a43bb39a5c495b",
-          "TimeBuilt": "2026-08-03T00:45:20.2978311+00:00",
-          "EffectiveVersion": "7.55.0.1",
+          "BuiltCommit": "9c33c10948753499ea19f633d4f3d4eb8404e5d3",
+          "TimeBuilt": "2026-08-07T03:02:12.7358618+00:00",
+          "EffectiveVersion": "7.55.0.2",
           "MinimumVersion": null,
           "Changelogs": {
             "1.2.0.0": {
@@ -243008,6 +243096,58 @@
             "7.55.0.1": {
               "TimeReleased": "2026-08-03T00:45:20.2978705+00:00",
               "Changelog": "v7.55.0.1: images resized, optimizations\nv7.55.0.0: Search fixes\nv7.51.2.1:bestiary v2 layout options, info from eu fanfest/pll",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "LuminaSupplemental.Excel",
+                  "Version": "4.2.2"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.4"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp.Web",
+                  "Version": "3.2.0"
+                },
+                {
+                  "Key": "YamlDotNet",
+                  "Version": "16.3.0"
+                },
+                {
+                  "Key": "CSVFile",
+                  "Version": "3.2.1"
+                },
+                {
+                  "Key": "CsvHelper",
+                  "Version": "30.0.1"
+                },
+                {
+                  "Key": "Microsoft.IO.RecyclableMemoryStream",
+                  "Version": "3.0.1"
+                },
+                {
+                  "Key": "Sylvan.Data.Csv",
+                  "Version": "1.4.3"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "rail2025"
+            },
+            "7.55.0.2": {
+              "TimeReleased": "2026-08-07T03:02:12.735917+00:00",
+              "Changelog": "v7.55.0.2: beacon despawning breaking player animaions/sfx fix, beacon now auto refreshes at 50 seconds, clears when leaving zone\nv7.55.0.1: images resized, optimizations\nv7.55.0.0: Search fixes\nv7.51.2.1:bestiary v2 layout options, info from eu fanfest/pll",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
