@@ -124263,9 +124263,9 @@
           }
         },
         "EurekaTrackerAutoPopper": {
-          "BuiltCommit": "cc5fe38292e0fc44af0cdc9ae7662499de8e9234",
-          "TimeBuilt": "2026-08-06T13:42:30.3560766+00:00",
-          "EffectiveVersion": "1.7.3.16",
+          "BuiltCommit": "6f247cf5dbd8ab3e4eb96e0cbf5b0f2e65898889",
+          "TimeBuilt": "2026-08-07T15:04:38.1587867+00:00",
+          "EffectiveVersion": "1.7.3.17",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.0.4": {
@@ -125893,6 +125893,42 @@
                 }
               ],
               "Reviewer": "nebel",
+              "Submitter": "Infiziert90"
+            },
+            "1.7.3.17": {
+              "TimeReleased": "2026-08-07T15:04:38.1588236+00:00",
+              "Changelog": "- More debug stuff for tracker issues",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "KamiToolKit",
+                  "Version": "2.0.23"
+                },
+                {
+                  "Key": "Penumbra.Api",
+                  "Version": "5.15.1"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp.Drawing",
+                  "Version": "2.1.7"
+                },
+                {
+                  "Key": "SixLabors.Fonts",
+                  "Version": "2.1.3"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "Infiziert90"
             }
           }
@@ -311489,9 +311525,9 @@
           }
         },
         "ComfyLoot": {
-          "BuiltCommit": "68b6380ce38d74ef17833e17bd25a9eedb625cbb",
-          "TimeBuilt": "2026-05-17T19:43:49.5820816+00:00",
-          "EffectiveVersion": "1.0.3.0",
+          "BuiltCommit": "31f29fb26aa05e1a0b438e6cb7e1b9450db109f5",
+          "TimeBuilt": "2026-08-07T15:04:47.4813871+00:00",
+          "EffectiveVersion": "1.0.4.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.9.8.5": {
@@ -311561,6 +311597,22 @@
             "1.0.3.0": {
               "TimeReleased": "2026-05-17T19:43:49.5820837+00:00",
               "Changelog": "v1.0.3\n- Updated to work with game version 7.5\n- API 15\n- Fixed issue where certain zones are shown as \u0022???\u0022 on the filter tab\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "j0giwa"
+            },
+            "1.0.4.0": {
+              "TimeReleased": "2026-08-07T15:04:47.4813885+00:00",
+              "Changelog": "V1.0.4.0\n- Fixed some issues with the main UI\n- Added IPC to interact with other plugins\n\nv1.0.3.0\n- Updated to work with game version 7.5\n- API 15\n- Fixed issue where certain zones are shown as \u0022???\u0022 on the filter tab\n\nv1.0.1.0\n- API14\n- Traded loot is now propperly recognized\n\nv1.0.0.1\n- Fixed scrolling behaviour in the UI\n\nv1.0.0.0\n- Prettified UI\n- Added sorting capability\n- Added ability to temporarily hide items\n\nv0.9.8.5\n- Added ignore lists\n- Fixed unload issue\n\nv0.9.6.5\n- Internal Refactor\n- Introduced Threadsafety\n- Resolved issue where switching to an alt tracked your alts inventory as drops\n\nv0.9.5.5: Added Server Info Entry.\n- Added toggleable ServerInfo Bar (OFF by default)\n- addressed internal issues\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -318289,9 +318341,9 @@
           }
         },
         "Karaoke": {
-          "BuiltCommit": "35989ca65309e2acd8abe20a83d8957e8c686210",
-          "TimeBuilt": "2026-07-28T04:34:12.4463673+00:00",
-          "EffectiveVersion": "0.0.3.0",
+          "BuiltCommit": "10cae1806d2098e3cffb79bebec2076a2d3f2912",
+          "TimeBuilt": "2026-08-07T15:04:57.4566758+00:00",
+          "EffectiveVersion": "0.0.4.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.2.2": {
@@ -318425,6 +318477,134 @@
             "0.0.3.0": {
               "TimeReleased": "2026-07-28T04:34:12.4464161+00:00",
               "Changelog": "**Added**\n - More lyric fonts\n   - Some should be dyslexic friendly\n - Import your own font file\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Hosting",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Abstractions",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Binder",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.CommandLine",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.EnvironmentVariables",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.FileExtensions",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Json",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.UserSecrets",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Diagnostics",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Diagnostics.Abstractions",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileProviders.Abstractions",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileProviders.Physical",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileSystemGlobbing",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Hosting.Abstractions",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Configuration",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Console",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Debug",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.EventLog",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.EventSource",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options.ConfigurationExtensions",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Primitives",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "System.Diagnostics.EventLog",
+                  "Version": "10.0.10"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "RajahOmen"
+            },
+            "0.0.4.0": {
+              "TimeReleased": "2026-08-07T15:04:57.4566778+00:00",
+              "Changelog": "**Fixes**\n- Fixed DTR bar not immediately updating on setting change\n- Fixed some lyrics in the past being displayed when they shouldn\u0027t be\n- Fixed some song starts not having a music line inserted\n- Fixed songs with long instrumental sections cause errors with 0-1 ahead lyrics set\n**Added**\n- Add an option to have lyrics show up on the DTR bar before they play, with how long in advance being configurable (default 0.75s)\n- Make window not grab focus on appear\n- Slight change to tooltip on DTR entry\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -318709,9 +318889,9 @@
           }
         },
         "MouseLock": {
-          "BuiltCommit": "64c11925b920e2061132369c086daade24eb6ee4",
-          "TimeBuilt": "2026-08-06T01:22:44.2178732+00:00",
-          "EffectiveVersion": "1.0.0.1",
+          "BuiltCommit": "281806c7ac6d4440b0bb78665ae29d80060fff50",
+          "TimeBuilt": "2026-08-07T15:05:06.1126994+00:00",
+          "EffectiveVersion": "1.0.0.2",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -318733,6 +318913,22 @@
             "1.0.0.1": {
               "TimeReleased": "2026-08-06T01:22:44.2178747+00:00",
               "Changelog": "# 1.0.0.1\n- Made some performance optimizations",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Zeffuro"
+            },
+            "1.0.0.2": {
+              "TimeReleased": "2026-08-07T15:05:06.112701+00:00",
+              "Changelog": "# 1.0.0.2\n- Implement classic movement (using LMB\u002BRMB to move forward, this does disable other LMB/RMB bindings).\n- Fix a bunch of misc bugs.",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
