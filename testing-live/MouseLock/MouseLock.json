@@ -2,7 +2,7 @@
   "Author": "Zeffuro",
   "Name": "MouseLock",
   "InternalName": "MouseLock",
-  "AssemblyVersion": "1.0.0.2",
+  "AssemblyVersion": "1.0.0.3",
   "Description": "MouseLock keeps FFXIV in mouselook until you actually need the cursor. It pauses for chat, bags, menus, and other UI, and can also turn LMB/RMB into configurable game inputs, hotbar actions, or MouseLock controls.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Zeffuro/MouseLock",
