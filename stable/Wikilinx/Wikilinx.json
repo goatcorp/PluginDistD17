@@ -2,7 +2,7 @@
   "Author": "in1tiate",
   "Name": "Wikilinx Rightclicks",
   "InternalName": "Wikilinx",
-  "AssemblyVersion": "0.0.0.9",
+  "AssemblyVersion": "0.0.0.10",
   "Description": "Never forget how to get an item again! Just right-click, and *gobbie-BOOM!* Integrates with any community wiki as well as the official Eorzea DB.",
   "ApplicableVersion": "any",
   "Tags": [
@@ -18,5 +18,6 @@
   "Punchline": "FFXIV Wiki and Eorzea DB context menu integration",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
-  "_Dip17Channel": "stable"
+  "_Dip17Channel": "stable",
+  "RepoUrl": "https://github.com/in1tiate/Wikilinx-Dalamud.git"
 }

@@ -230860,9 +230860,9 @@
           }
         },
         "Wikilinx": {
-          "BuiltCommit": "7d3c12bf240503feb4bd413d53eabbe7935daca0",
-          "TimeBuilt": "2026-05-02T19:22:54.9797838+00:00",
-          "EffectiveVersion": "0.0.0.9",
+          "BuiltCommit": "d1a357f0c3bfbaad070b72de4f366a8b5b11e80f",
+          "TimeBuilt": "2026-08-09T01:55:24.3053302+00:00",
+          "EffectiveVersion": "0.0.0.10",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.0.2": {
@@ -231023,6 +231023,26 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "in1tiate"
+            },
+            "0.0.0.10": {
+              "TimeReleased": "2026-08-09T01:55:24.3053903+00:00",
+              "Changelog": "Added option to always open wiki with English item name (by pixelify32, thank you!) and bumped Eorzea DB IDs to 7.55",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/Asvel/ffxiv-lodestone-item-id.git",
+                  "Version": "3773b205fda972ee315331e2ca7d9ed9554f1448"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "in1tiate"
             }
           }
@@ -346341,6 +346361,13 @@
       "Version": "10.0.10",
       "ReviewedBy": "nebel",
       "ReviewedAt": "2026-08-08T23:25:06.8355573Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/Asvel/ffxiv-lodestone-item-id.git",
+      "Version": "3773b205fda972ee315331e2ca7d9ed9554f1448",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-08-09T01:55:24.379806Z"
     }
   ]
 }
