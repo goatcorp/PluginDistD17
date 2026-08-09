@@ -17239,9 +17239,9 @@
           }
         },
         "XIVCombo": {
-          "BuiltCommit": "ca08a970983d8bd85964decfbe164ba08d793285",
-          "TimeBuilt": "2026-07-05T09:07:05.2252125+00:00",
-          "EffectiveVersion": "2.0.15.1",
+          "BuiltCommit": "8798b9ce060ed4c7ab359d96e61cde2dbeec97ef",
+          "TimeBuilt": "2026-08-09T11:58:11.2783024+00:00",
+          "EffectiveVersion": "2.0.15.2",
           "MinimumVersion": null,
           "Changelogs": {
             "1.7.14.0": {
@@ -17503,6 +17503,22 @@
             "2.0.15.1": {
               "TimeReleased": "2026-07-05T09:07:05.2252725+00:00",
               "Changelog": "**Tintable Starter Actions**\nYou can now recolor starter actions of combos which share a starter action with another combo in order to visually distinguish them.\nThis feature is enabled by default, but you need to set it up for it to have any effect. \n\n-# Huge thanks to Square Enix for inspiring me this idea through their implementation of this concept with Monk\u0027s Forbidden Meditation and Steeled Meditation. Now who\u0027s the copycat, huh?!\n\t\t",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nebel",
+              "Submitter": "MKhayle"
+            },
+            "2.0.15.2": {
+              "TimeReleased": "2026-08-09T11:58:11.2783417+00:00",
+              "Changelog": "-# Cross Hotbars are now also affected by tintable actions\u0027 colors. Sorry, I had literally forgotten controller players existed.\n\t\t",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
