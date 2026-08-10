@@ -58585,9 +58585,9 @@
           }
         },
         "MacroRecorded": {
-          "BuiltCommit": "de74c2595b712bde2c1537ac6ad7ca56e538ea87",
-          "TimeBuilt": "2026-01-06T07:08:34.3598872+00:00",
-          "EffectiveVersion": "1.0.7.2",
+          "BuiltCommit": "3ec72502d157335f446f3e79047d2062d3d5c9cb",
+          "TimeBuilt": "2026-08-10T22:22:17.1681963+00:00",
+          "EffectiveVersion": "1.0.8.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.2": {
@@ -58704,6 +58704,22 @@
                 }
               ],
               "Reviewer": "Critical-Impact",
+              "Submitter": "danielbrenom"
+            },
+            "1.0.8.0": {
+              "TimeReleased": "2026-08-10T22:22:17.1682321+00:00",
+              "Changelog": "- Updated API 15\n ",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nebel",
               "Submitter": "danielbrenom"
             }
           }
