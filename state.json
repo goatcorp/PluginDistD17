@@ -144106,9 +144106,9 @@
           }
         },
         "AvantGarde": {
-          "BuiltCommit": "e849811662279877608c0b274aa14399217b9692",
-          "TimeBuilt": "2026-04-30T18:30:21.3380376+00:00",
-          "EffectiveVersion": "1.0.6.0",
+          "BuiltCommit": "cb81f621a3662958fc30c42744c03650067874d8",
+          "TimeBuilt": "2026-08-12T15:34:53.1336682+00:00",
+          "EffectiveVersion": "1.1.3.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.1.1": {
@@ -144207,6 +144207,22 @@
             "1.0.6.0": {
               "TimeReleased": "2026-04-30T18:30:21.3380398+00:00",
               "Changelog": "Update for Patch 7.5 / API 15\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "NeNeppie"
+            },
+            "1.1.3.0": {
+              "TimeReleased": "2026-08-12T15:34:53.133708+00:00",
+              "Changelog": "**Moved to stable:**\r\n- Automatic Crowdsourcing\r\n  - Submissions are uploaded to Xivstats\u0027 database. Thanks to Infi.\r\n  - Collects items \u0026 dyes used, weekly theme information and score.\r\n  - Private or sensitive data is never collected.\r\n  - Requires opt-in (plugin functionality is unaffected by your choice).\r\n  - See how many times a particular piece was used among the userbase.\r\n  - Sends a chat message when an upload fails.\r\n- Onboarding window that explains everything.\r\n- General refactor.\r\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
