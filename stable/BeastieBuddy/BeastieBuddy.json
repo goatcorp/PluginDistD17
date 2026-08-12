@@ -2,7 +2,7 @@
   "Author": "rail",
   "Name": "BeastieBuddy",
   "InternalName": "BeastieBuddy",
-  "AssemblyVersion": "7.55.0.2",
+  "AssemblyVersion": "7.55.0.3",
   "Description": "A searchable list of all mobs and their known locations, using community data. Use /bbuddy to open, or search with /bbuddy <mob_name>.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/rail2025/BeastieBuddy",
@@ -14,6 +14,7 @@
     "map",
     "coords",
     "blue mage",
+    "beastmaster",
     "spell"
   ],
   "DalamudApiLevel": 15,
@@ -22,7 +23,7 @@
   "CanUnloadAsync": false,
   "LoadPriority": 0,
   "Punchline": "A searchable mob database with spawn locations for Beastmaster, Blue Mage, or hunts",
-  "Changelog": "v7.55.0.2:vfx despawning breaking player animations and sfx fixed\nv7.55.0.1: cache fix, image update\nv7.55.0.0: improved search stability\nv7.51.2.1:Updated bestiary layout options, data from EU Fanfest\nv7.51.2.0: bestiary layout option, feedback on github for preference.\nv7.51.1.0: bestiary placeholder added pre-patch, will auto update post patch\nv7.51.0.0: search list expanded from 10 to 25, clustered results, click to teleport option\nv7.50.1.1: toggle window with \bbuddy\nv7.50.1: api bump+",
+  "Changelog": "vv7.55.0.3:FFXIV-ToS abiding alternative app version released - see chat message and link for more info\n7.55.0.2:vfx despawning breaking player animations and sfx fixed\nv7.55.0.1: cache fix, image update\nv7.55.0.0: improved search stability\nv7.51.2.1:Updated bestiary layout options, data from EU Fanfest\nv7.51.2.0: bestiary layout option, feedback on github for preference.\nv7.51.1.0: bestiary placeholder added pre-patch, will auto update post patch\nv7.51.0.0: search list expanded from 10 to 25, clustered results, click to teleport option\nv7.50.1.1: toggle window with \bbuddy\nv7.50.1: api bump+",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "stable"

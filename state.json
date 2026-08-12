@@ -246484,9 +246484,9 @@
           }
         },
         "BeastieBuddy": {
-          "BuiltCommit": "9c33c10948753499ea19f633d4f3d4eb8404e5d3",
-          "TimeBuilt": "2026-08-07T03:02:12.7358618+00:00",
-          "EffectiveVersion": "7.55.0.2",
+          "BuiltCommit": "87ea2950b4de567011106b4be7f8c806b076f21f",
+          "TimeBuilt": "2026-08-12T15:39:46.4016094+00:00",
+          "EffectiveVersion": "7.55.0.3",
           "MinimumVersion": null,
           "Changelogs": {
             "1.2.0.0": {
@@ -247220,6 +247220,58 @@
             "7.55.0.2": {
               "TimeReleased": "2026-08-07T03:02:12.735917+00:00",
               "Changelog": "v7.55.0.2: beacon despawning breaking player animaions/sfx fix, beacon now auto refreshes at 50 seconds, clears when leaving zone\nv7.55.0.1: images resized, optimizations\nv7.55.0.0: Search fixes\nv7.51.2.1:bestiary v2 layout options, info from eu fanfest/pll",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "LuminaSupplemental.Excel",
+                  "Version": "4.2.2"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.4"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp.Web",
+                  "Version": "3.2.0"
+                },
+                {
+                  "Key": "YamlDotNet",
+                  "Version": "16.3.0"
+                },
+                {
+                  "Key": "CSVFile",
+                  "Version": "3.2.1"
+                },
+                {
+                  "Key": "CsvHelper",
+                  "Version": "30.0.1"
+                },
+                {
+                  "Key": "Microsoft.IO.RecyclableMemoryStream",
+                  "Version": "3.0.1"
+                },
+                {
+                  "Key": "Sylvan.Data.Csv",
+                  "Version": "1.4.3"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "rail2025"
+            },
+            "7.55.0.3": {
+              "TimeReleased": "2026-08-12T15:39:46.4016582+00:00",
+              "Changelog": "v7.55.0.3:desktop alternative app release info\nv7.55.0.2: beacon despawning breaking player animaions/sfx fix, beacon now auto refreshes at 50 seconds, clears when leaving zone",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
