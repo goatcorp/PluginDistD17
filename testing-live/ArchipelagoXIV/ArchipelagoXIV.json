@@ -2,7 +2,7 @@
   "Author": "silasary",
   "Name": "ArchipelagoXIV",
   "InternalName": "ArchipelagoXIV",
-  "AssemblyVersion": "0.30.3.0",
+  "AssemblyVersion": "0.31.0.0",
   "Description": "Key Item Randomizer for FFIXV",
   "ApplicableVersion": "any",
   "Tags": [
@@ -18,5 +18,6 @@
   "Punchline": "Client for the Archipelago Multiworld Randomizer.",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
-  "_Dip17Channel": "testing-live"
+  "_Dip17Channel": "testing-live",
+  "RepoUrl": "https://github.com/silasary/apxiv.git"
 }

@@ -117897,9 +117897,9 @@
           }
         },
         "VFXEditor": {
-          "BuiltCommit": "f9447c0e21b492ee57bb754d0c9635a570fe7b78",
-          "TimeBuilt": "2026-05-07T19:11:23.9572847+00:00",
-          "EffectiveVersion": "1.9.4.0",
+          "BuiltCommit": "09ddd68fa6587a79d5d47e68fe4a1a2bcdc06f87",
+          "TimeBuilt": "2026-08-12T01:05:30.9357528+00:00",
+          "EffectiveVersion": "1.9.4.2",
           "MinimumVersion": null,
           "Changelogs": {
             "1.6.5.0": {
@@ -123464,6 +123464,186 @@
                 {
                   "Key": "SharpGLTF.Runtime",
                   "Version": "1.0.6"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "0ceal0t"
+            },
+            "1.9.4.2": {
+              "TimeReleased": "2026-08-12T01:05:30.9357898+00:00",
+              "Changelog": "- Update NAudio\r\n- Updated common files\r\n- Fix missing frames on animation import\r\n- UX fixes\r\n- Sound fixes\r\n- tmb updates",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/Ottermandias/Penumbra.String.git",
+                  "Version": "e7f27e1d850f9afe17006caeef4a7b887378d55a"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "BCnEncoder.Net",
+                  "Version": "2.3.0"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "FlatSharp.Compiler",
+                  "Version": "7.9.0"
+                },
+                {
+                  "Key": "FlatSharp.Runtime",
+                  "Version": "7.9.0"
+                },
+                {
+                  "Key": "Google.FlatBuffers",
+                  "Version": "25.2.10"
+                },
+                {
+                  "Key": "HelixToolkit",
+                  "Version": "3.1.2"
+                },
+                {
+                  "Key": "HelixToolkit.Maths",
+                  "Version": "3.1.2"
+                },
+                {
+                  "Key": "HelixToolkit.SharpDX",
+                  "Version": "3.1.2"
+                },
+                {
+                  "Key": "JsonPoke.MSBuild",
+                  "Version": "1.0.9"
+                },
+                {
+                  "Key": "mgholam.fastCSV",
+                  "Version": "2.0.9"
+                },
+                {
+                  "Key": "NAudio",
+                  "Version": "3.0.0-preview.20"
+                },
+                {
+                  "Key": "NAudio.SoundFile",
+                  "Version": "3.0.0-preview.20"
+                },
+                {
+                  "Key": "NAudio.Wasapi",
+                  "Version": "3.0.0-preview.20"
+                },
+                {
+                  "Key": "NAudio.WinMM",
+                  "Version": "3.0.0-preview.20"
+                },
+                {
+                  "Key": "NVorbis",
+                  "Version": "1.0.0-rc.2"
+                },
+                {
+                  "Key": "Penumbra.Api",
+                  "Version": "5.15.1"
+                },
+                {
+                  "Key": "SharpDX.D3DCompiler",
+                  "Version": "4.2.0"
+                },
+                {
+                  "Key": "SharpGLTF.Toolkit",
+                  "Version": "1.0.6"
+                },
+                {
+                  "Key": "TeximpNet",
+                  "Version": "1.4.3"
+                },
+                {
+                  "Key": "CommunityToolkit.Common",
+                  "Version": "8.3.2"
+                },
+                {
+                  "Key": "CommunityToolkit.Diagnostics",
+                  "Version": "8.3.2"
+                },
+                {
+                  "Key": "CommunityToolkit.HighPerformance",
+                  "Version": "8.4.0"
+                },
+                {
+                  "Key": "CommunityToolkit.Mvvm",
+                  "Version": "8.3.2"
+                },
+                {
+                  "Key": "Cyotek.Drawing.BitmapFont",
+                  "Version": "2.0.4"
+                },
+                {
+                  "Key": "HelixToolkit.Geometry",
+                  "Version": "3.1.2"
+                },
+                {
+                  "Key": "Microsoft.CodeAnalysis.Analyzers",
+                  "Version": "3.3.4"
+                },
+                {
+                  "Key": "Microsoft.CodeAnalysis.Common",
+                  "Version": "4.11.0"
+                },
+                {
+                  "Key": "Microsoft.CodeAnalysis.CSharp",
+                  "Version": "4.11.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "8.0.2"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "8.0.2"
+                },
+                {
+                  "Key": "Microsoft.NETCore.Platforms",
+                  "Version": "1.1.0"
+                },
+                {
+                  "Key": "NAudio.Core",
+                  "Version": "3.0.0-preview.20"
+                },
+                {
+                  "Key": "NAudio.Midi",
+                  "Version": "3.0.0-preview.20"
+                },
+                {
+                  "Key": "NETStandard.Library",
+                  "Version": "1.6.1"
+                },
+                {
+                  "Key": "SharpDX",
+                  "Version": "4.2.0"
+                },
+                {
+                  "Key": "SharpDX.Direct2D1",
+                  "Version": "4.2.0"
+                },
+                {
+                  "Key": "SharpDX.Direct3D11",
+                  "Version": "4.2.0"
+                },
+                {
+                  "Key": "SharpDX.DXGI",
+                  "Version": "4.2.0"
+                },
+                {
+                  "Key": "SharpGLTF.Core",
+                  "Version": "1.0.6"
+                },
+                {
+                  "Key": "SharpGLTF.Runtime",
+                  "Version": "1.0.6"
+                },
+                {
+                  "Key": "System.Numerics.Tensors",
+                  "Version": "9.0.0"
                 }
               ],
               "Reviewer": "nathanctech",
@@ -239264,9 +239444,9 @@
           }
         },
         "VanillaPlus": {
-          "BuiltCommit": "fda9fddb6037fe8c285823268b574a7e7c07dc00",
-          "TimeBuilt": "2026-08-09T07:57:09.4771794+00:00",
-          "EffectiveVersion": "1.4.2.10",
+          "BuiltCommit": "a98df0b868a4e9284bfef0689a9c2b9c1925ae3b",
+          "TimeBuilt": "2026-08-12T01:05:51.3174135+00:00",
+          "EffectiveVersion": "1.4.2.11",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.1.6": {
@@ -245347,6 +245527,46 @@
                 }
               ],
               "Reviewer": "nebel",
+              "Submitter": "MidoriKami"
+            },
+            "1.4.2.11": {
+              "TimeReleased": "2026-08-12T01:05:51.317415+00:00",
+              "Changelog": "Misc code touchups and changes.\r\n\r\nForced Cutscene Sounds - Using a new method to detect when you\u0027re in a cutscene, it should now only apply to sequences that are proper cutscenes, and will no longer apply during mini events like waking up in an inn room.",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "6e3085b07c00322862d552d1945fa3ca4952f80d"
+                },
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit.Components",
+                  "Version": "76ebbac0b3d91dace40ac16b5e132bee0793b49a"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "LuminaSupplemental.Excel",
+                  "Version": "5.1.4"
+                },
+                {
+                  "Key": "CSVFile",
+                  "Version": "3.2.1"
+                },
+                {
+                  "Key": "CsvHelper",
+                  "Version": "30.0.1"
+                },
+                {
+                  "Key": "Sylvan.Data.Csv",
+                  "Version": "1.4.3"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "MidoriKami"
             }
           }
@@ -261216,9 +261436,9 @@
           "Changelogs": {}
         },
         "HUDManager": {
-          "BuiltCommit": "4ddecb9e8313174848c8c80785378d2ed23afa70",
-          "TimeBuilt": "2026-08-10T03:24:28.1468906+00:00",
-          "EffectiveVersion": "2.7.0.0",
+          "BuiltCommit": "51aee2f6e3cf07927edb6b14eb170ddec2f1d5ae",
+          "TimeBuilt": "2026-08-12T01:06:06.3357335+00:00",
+          "EffectiveVersion": "2.7.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "2.5.20.1": {
@@ -261448,6 +261668,26 @@
             "2.7.0.0": {
               "TimeReleased": "2026-08-10T03:24:28.1468919+00:00",
               "Changelog": "- Re-work swap logic. This should fix an issue where transparency changes from swaps which happened during loading screens did not always apply completely. If you experience any issues or insatiability compared to the previous version, please let me know!",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "YamlDotNet",
+                  "Version": "12.3.1"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "nebel"
+            },
+            "2.7.1.0": {
+              "TimeReleased": "2026-08-12T01:06:06.335735+00:00",
+              "Changelog": "- Re-apply HUD state if swap happened during UI fade. This should fix any lingering opacity issues caused by the fadeout after it ends.",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -307037,9 +307277,9 @@
           }
         },
         "ArchipelagoXIV": {
-          "BuiltCommit": "5cff406fe215a034c09bdecc81362f5d35631c85",
-          "TimeBuilt": "2026-07-26T20:35:37.0355267+00:00",
-          "EffectiveVersion": "0.30.3.0",
+          "BuiltCommit": "ec4030f67ce96f2715d3e403685d0b2e63d0198c",
+          "TimeBuilt": "2026-08-12T01:06:17.4679847+00:00",
+          "EffectiveVersion": "0.31.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.19.5.0": {
@@ -307333,6 +307573,30 @@
                 {
                   "Key": "DotNet.ReproducibleBuilds",
                   "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "silasary"
+            },
+            "0.31.0.0": {
+              "TimeReleased": "2026-08-12T01:06:17.4679863+00:00",
+              "Changelog": "Assorted bugfixes.  Gold Saucer Aetheryte has been fixed.  Fete checks have been fixed, FATE checks are more reliable, plugin should work with non-english languages now, Duty Finder Overlay should work again.  Also, support for new fish.",
+              "UsedNeeds": [
+                {
+                  "Key": "Archipelago.MultiClient.Net",
+                  "Version": "6.7.1"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "KamiToolKit",
+                  "Version": "2.2.0"
                 }
               ],
               "Reviewer": "nathanctech",
@@ -348235,6 +348499,83 @@
       "Version": "6e3085b07c00322862d552d1945fa3ca4952f80d",
       "ReviewedBy": "nebel",
       "ReviewedAt": "2026-08-09T07:57:09.5733876Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/Ottermandias/Penumbra.String.git",
+      "Version": "e7f27e1d850f9afe17006caeef4a7b887378d55a",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-08-12T01:05:31.0079743Z"
+    },
+    {
+      "Type": 1,
+      "Key": "NAudio",
+      "Version": "3.0.0-preview.20",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-08-12T01:05:31.007997Z"
+    },
+    {
+      "Type": 1,
+      "Key": "NAudio.SoundFile",
+      "Version": "3.0.0-preview.20",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-08-12T01:05:31.0079971Z"
+    },
+    {
+      "Type": 1,
+      "Key": "NAudio.Wasapi",
+      "Version": "3.0.0-preview.20",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-08-12T01:05:31.0079974Z"
+    },
+    {
+      "Type": 1,
+      "Key": "NAudio.WinMM",
+      "Version": "3.0.0-preview.20",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-08-12T01:05:31.0079976Z"
+    },
+    {
+      "Type": 1,
+      "Key": "NVorbis",
+      "Version": "1.0.0-rc.2",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-08-12T01:05:31.0079978Z"
+    },
+    {
+      "Type": 1,
+      "Key": "NAudio.Core",
+      "Version": "3.0.0-preview.20",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-08-12T01:05:31.0079999Z"
+    },
+    {
+      "Type": 1,
+      "Key": "NAudio.Midi",
+      "Version": "3.0.0-preview.20",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-08-12T01:05:31.0080001Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Numerics.Tensors",
+      "Version": "9.0.0",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-08-12T01:05:31.0080008Z"
+    },
+    {
+      "Type": 1,
+      "Key": "LuminaSupplemental.Excel",
+      "Version": "5.1.4",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-08-12T01:05:51.383898Z"
+    },
+    {
+      "Type": 1,
+      "Key": "KamiToolKit",
+      "Version": "2.2.0",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-08-12T01:06:17.4994594Z"
     }
   ]
 }
