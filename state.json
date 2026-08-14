@@ -65986,9 +65986,9 @@
           }
         },
         "TrackyTrack": {
-          "BuiltCommit": "38b0386af1fcc42adc9b6c4341769718d01df6de",
-          "TimeBuilt": "2026-08-07T03:02:25.8913538+00:00",
-          "EffectiveVersion": "1.7.2.0",
+          "BuiltCommit": "5c720e2398b0c1f76bb502f5985a2005d28145ef",
+          "TimeBuilt": "2026-08-14T22:22:27.8799953+00:00",
+          "EffectiveVersion": "1.7.2.1",
           "MinimumVersion": null,
           "Changelogs": {
             "1.5.5.5": {
@@ -68402,6 +68402,42 @@
             "1.7.2.0": {
               "TimeReleased": "2026-08-07T03:02:25.8913552+00:00",
               "Changelog": "- Improve tracking of coffers in eureka and occult areas\r\n  - Includes currency drops now",
+              "UsedNeeds": [
+                {
+                  "Key": "CsvHelper",
+                  "Version": "33.1.0"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "MessagePack",
+                  "Version": "3.1.7"
+                },
+                {
+                  "Key": "MessagePack.Annotations",
+                  "Version": "3.1.7"
+                },
+                {
+                  "Key": "MessagePackAnalyzer",
+                  "Version": "3.1.7"
+                },
+                {
+                  "Key": "Microsoft.NET.StringTools",
+                  "Version": "17.11.4"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Infiziert90"
+            },
+            "1.7.2.1": {
+              "TimeReleased": "2026-08-14T22:22:27.8799962+00:00",
+              "Changelog": null,
               "UsedNeeds": [
                 {
                   "Key": "CsvHelper",
@@ -103766,9 +103802,9 @@
           }
         },
         "MagitekStratagem": {
-          "BuiltCommit": "56dc76ae416626df4b7ac3a73e88ea6ffefa6894",
-          "TimeBuilt": "2026-07-30T20:37:11.3515858+00:00",
-          "EffectiveVersion": "1.3.1.2",
+          "BuiltCommit": "d6f83d2596665b63bffe64b96c9587826d1f3a8a",
+          "TimeBuilt": "2026-08-14T22:22:02.8805609+00:00",
+          "EffectiveVersion": "1.4.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.4.0.0": {
@@ -104605,6 +104641,34 @@
             "1.3.1.2": {
               "TimeReleased": "2026-07-30T20:37:11.3516275+00:00",
               "Changelog": "Version 1.3.1.2:\n - New Icon by SnoodleWolfieB\n - Updated to API15\n - Fix: Support for TobiiGameHub 4.4.0-ci14\n\n\nKnown Issues:\n - Windowed mode is currently unsupported.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.SignalR.Client",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.Http.Connections.Client",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.SignalR.Client.Core",
+                  "Version": "10.0.0"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "meoiswa"
+            },
+            "1.4.0.0": {
+              "TimeReleased": "2026-08-14T22:22:02.8805624+00:00",
+              "Changelog": "Version 1.4.0.0:\n - Feat: Configurable Opentrack port\n\n\nKnown Issues:\n - Windowed mode is currently unsupported.\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -117897,9 +117961,9 @@
           }
         },
         "VFXEditor": {
-          "BuiltCommit": "09ddd68fa6587a79d5d47e68fe4a1a2bcdc06f87",
-          "TimeBuilt": "2026-08-12T01:05:30.9357528+00:00",
-          "EffectiveVersion": "1.9.4.2",
+          "BuiltCommit": "2b9d869a8ea19dc2220bc61ff18960b3188eeb3b",
+          "TimeBuilt": "2026-08-14T22:21:47.8021873+00:00",
+          "EffectiveVersion": "1.9.4.3",
           "MinimumVersion": null,
           "Changelogs": {
             "1.6.5.0": {
@@ -123472,6 +123536,186 @@
             "1.9.4.2": {
               "TimeReleased": "2026-08-12T01:05:30.9357898+00:00",
               "Changelog": "- Update NAudio\r\n- Updated common files\r\n- Fix missing frames on animation import\r\n- UX fixes\r\n- Sound fixes\r\n- tmb updates",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/Ottermandias/Penumbra.String.git",
+                  "Version": "e7f27e1d850f9afe17006caeef4a7b887378d55a"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "BCnEncoder.Net",
+                  "Version": "2.3.0"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "FlatSharp.Compiler",
+                  "Version": "7.9.0"
+                },
+                {
+                  "Key": "FlatSharp.Runtime",
+                  "Version": "7.9.0"
+                },
+                {
+                  "Key": "Google.FlatBuffers",
+                  "Version": "25.2.10"
+                },
+                {
+                  "Key": "HelixToolkit",
+                  "Version": "3.1.2"
+                },
+                {
+                  "Key": "HelixToolkit.Maths",
+                  "Version": "3.1.2"
+                },
+                {
+                  "Key": "HelixToolkit.SharpDX",
+                  "Version": "3.1.2"
+                },
+                {
+                  "Key": "JsonPoke.MSBuild",
+                  "Version": "1.0.9"
+                },
+                {
+                  "Key": "mgholam.fastCSV",
+                  "Version": "2.0.9"
+                },
+                {
+                  "Key": "NAudio",
+                  "Version": "3.0.0-preview.20"
+                },
+                {
+                  "Key": "NAudio.SoundFile",
+                  "Version": "3.0.0-preview.20"
+                },
+                {
+                  "Key": "NAudio.Wasapi",
+                  "Version": "3.0.0-preview.20"
+                },
+                {
+                  "Key": "NAudio.WinMM",
+                  "Version": "3.0.0-preview.20"
+                },
+                {
+                  "Key": "NVorbis",
+                  "Version": "1.0.0-rc.2"
+                },
+                {
+                  "Key": "Penumbra.Api",
+                  "Version": "5.15.1"
+                },
+                {
+                  "Key": "SharpDX.D3DCompiler",
+                  "Version": "4.2.0"
+                },
+                {
+                  "Key": "SharpGLTF.Toolkit",
+                  "Version": "1.0.6"
+                },
+                {
+                  "Key": "TeximpNet",
+                  "Version": "1.4.3"
+                },
+                {
+                  "Key": "CommunityToolkit.Common",
+                  "Version": "8.3.2"
+                },
+                {
+                  "Key": "CommunityToolkit.Diagnostics",
+                  "Version": "8.3.2"
+                },
+                {
+                  "Key": "CommunityToolkit.HighPerformance",
+                  "Version": "8.4.0"
+                },
+                {
+                  "Key": "CommunityToolkit.Mvvm",
+                  "Version": "8.3.2"
+                },
+                {
+                  "Key": "Cyotek.Drawing.BitmapFont",
+                  "Version": "2.0.4"
+                },
+                {
+                  "Key": "HelixToolkit.Geometry",
+                  "Version": "3.1.2"
+                },
+                {
+                  "Key": "Microsoft.CodeAnalysis.Analyzers",
+                  "Version": "3.3.4"
+                },
+                {
+                  "Key": "Microsoft.CodeAnalysis.Common",
+                  "Version": "4.11.0"
+                },
+                {
+                  "Key": "Microsoft.CodeAnalysis.CSharp",
+                  "Version": "4.11.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "8.0.2"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "8.0.2"
+                },
+                {
+                  "Key": "Microsoft.NETCore.Platforms",
+                  "Version": "1.1.0"
+                },
+                {
+                  "Key": "NAudio.Core",
+                  "Version": "3.0.0-preview.20"
+                },
+                {
+                  "Key": "NAudio.Midi",
+                  "Version": "3.0.0-preview.20"
+                },
+                {
+                  "Key": "NETStandard.Library",
+                  "Version": "1.6.1"
+                },
+                {
+                  "Key": "SharpDX",
+                  "Version": "4.2.0"
+                },
+                {
+                  "Key": "SharpDX.Direct2D1",
+                  "Version": "4.2.0"
+                },
+                {
+                  "Key": "SharpDX.Direct3D11",
+                  "Version": "4.2.0"
+                },
+                {
+                  "Key": "SharpDX.DXGI",
+                  "Version": "4.2.0"
+                },
+                {
+                  "Key": "SharpGLTF.Core",
+                  "Version": "1.0.6"
+                },
+                {
+                  "Key": "SharpGLTF.Runtime",
+                  "Version": "1.0.6"
+                },
+                {
+                  "Key": "System.Numerics.Tensors",
+                  "Version": "9.0.0"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "0ceal0t"
+            },
+            "1.9.4.3": {
+              "TimeReleased": "2026-08-14T22:21:47.8021887+00:00",
+              "Changelog": "- Better handling of \u0060.scd\u0060 loops\r\n- Better handling of invalid/replaced skeletons\r\n- Fixed some style push/pop errors\r\n- Misc bugfixes\r\n- Stop tables from polluting dalamud.ini\r\n- Add new Penumbra mod format",
               "UsedNeeds": [
                 {
                   "Key": "https://github.com/Ottermandias/Penumbra.String.git",
@@ -208645,9 +208889,9 @@
           }
         },
         "TidyChat": {
-          "BuiltCommit": "1034cc56858812e0dea25739da9d945fb3c1260c",
-          "TimeBuilt": "2026-08-01T20:28:11.7293228+00:00",
-          "EffectiveVersion": "3.1.0.30",
+          "BuiltCommit": "c02fcc0cf7ee3a1b8df0ed1296f678972eab719c",
+          "TimeBuilt": "2026-08-14T22:21:09.2289403+00:00",
+          "EffectiveVersion": "3.1.0.31",
           "MinimumVersion": null,
           "Changelogs": {
             "1.2.2.0": {
@@ -209418,6 +209662,34 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "Kagekazu"
+            },
+            "3.1.0.31": {
+              "TimeReleased": "2026-08-14T22:21:09.2289413+00:00",
+              "Changelog": "**Fixed**\r\n\u2022 Weekly/daily hunt bill mark sensing shows again when \u201CShow mark bill messages\u201D is on (e.g. \u201CYou sense your mark to the southwest\u201D / FR \u201CVous ressentez la pr\u00E9sence d\u2019un monstre d\u2019\u00E9lite au sud-ouest !\u201D). Those lines were being blocked by mistake.\r\n\r\n**Added**\r\n\u2022 Macro-friendly debug toggle:\r\n  \u2013 \u0060/tidy debug\u0060 \u2014 toggle debug mode\r\n  \u2013 \u0060/tidy debug on\u0060 / \u0060/tidy debug off\u0060 \u2014 set it explicitly\r\n  (\u0060/tidychat\u0060 accepts the same arguments. With no arguments, \u0060/tidy\u0060 still opens settings.)",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "2.0.2"
+                },
+                {
+                  "Key": "Meziantou.Analyzer",
+                  "Version": "3.0.96"
+                },
+                {
+                  "Key": "TextCopy",
+                  "Version": "6.2.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "7.0.0"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "Kagekazu"
             }
           }
@@ -231536,9 +231808,9 @@
           }
         },
         "PvPAnnouncer": {
-          "BuiltCommit": "790242f510f993043722670522023dedf993a49e",
-          "TimeBuilt": "2026-08-12T15:25:45.4109668+00:00",
-          "EffectiveVersion": "1.6.5.0",
+          "BuiltCommit": "a77c10c3e0e291569dfa9931b4c4ddb68b9cbae5",
+          "TimeBuilt": "2026-08-14T22:22:13.0642391+00:00",
+          "EffectiveVersion": "1.6.5.1",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -231976,6 +232248,22 @@
             "1.6.5.0": {
               "TimeReleased": "2026-08-12T15:25:45.4109682+00:00",
               "Changelog": "Added Hien!",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "spide-r"
+            },
+            "1.6.5.1": {
+              "TimeReleased": "2026-08-14T22:22:13.0642403+00:00",
+              "Changelog": "New Config Toggle for Field Operations.",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -239988,9 +240276,9 @@
           }
         },
         "VanillaPlus": {
-          "BuiltCommit": "a98df0b868a4e9284bfef0689a9c2b9c1925ae3b",
-          "TimeBuilt": "2026-08-12T01:05:51.3174135+00:00",
-          "EffectiveVersion": "1.4.2.11",
+          "BuiltCommit": "958c461556997660f1e1feb75d52b14785cc981b",
+          "TimeBuilt": "2026-08-14T22:20:54.4072282+00:00",
+          "EffectiveVersion": "1.4.2.13",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.1.6": {
@@ -246076,6 +246364,46 @@
             "1.4.2.11": {
               "TimeReleased": "2026-08-12T01:05:51.317415+00:00",
               "Changelog": "Misc code touchups and changes.\r\n\r\nForced Cutscene Sounds - Using a new method to detect when you\u0027re in a cutscene, it should now only apply to sequences that are proper cutscenes, and will no longer apply during mini events like waking up in an inn room.",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "6e3085b07c00322862d552d1945fa3ca4952f80d"
+                },
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit.Components",
+                  "Version": "76ebbac0b3d91dace40ac16b5e132bee0793b49a"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "LuminaSupplemental.Excel",
+                  "Version": "5.1.4"
+                },
+                {
+                  "Key": "CSVFile",
+                  "Version": "3.2.1"
+                },
+                {
+                  "Key": "CsvHelper",
+                  "Version": "30.0.1"
+                },
+                {
+                  "Key": "Sylvan.Data.Csv",
+                  "Version": "1.4.3"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "MidoriKami"
+            },
+            "1.4.2.13": {
+              "TimeReleased": "2026-08-14T22:20:54.4072769+00:00",
+              "Changelog": "nofranz",
               "UsedNeeds": [
                 {
                   "Key": "https://github.com/MidoriKami/KamiToolKit",
