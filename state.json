@@ -313369,9 +313369,9 @@
           }
         },
         "VanillaPlus": {
-          "BuiltCommit": "72536582879a1d6cec7ef713f5c16c4b3b3ea989",
-          "TimeBuilt": "2026-06-14T18:51:25.5118276+00:00",
-          "EffectiveVersion": "1.4.0.2",
+          "BuiltCommit": "375ebf3059ba9245fb3e87523c88e5389fa26d71",
+          "TimeBuilt": "2026-08-15T05:35:15.1698072+00:00",
+          "EffectiveVersion": "1.4.3.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.0.8": {
@@ -314125,6 +314125,46 @@
                 {
                   "Key": "LuminaSupplemental.Excel",
                   "Version": "4.3.6"
+                },
+                {
+                  "Key": "CSVFile",
+                  "Version": "3.2.1"
+                },
+                {
+                  "Key": "CsvHelper",
+                  "Version": "30.0.1"
+                },
+                {
+                  "Key": "Sylvan.Data.Csv",
+                  "Version": "1.4.3"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "MidoriKami"
+            },
+            "1.4.3.0": {
+              "TimeReleased": "2026-08-15T05:35:15.1698631+00:00",
+              "Changelog": "nofranz\r\n\r\nSome experimental code changes",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "7eb5dff50130c3898197f11978c01ad7702fb63b"
+                },
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit.Components",
+                  "Version": "76ebbac0b3d91dace40ac16b5e132bee0793b49a"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "LuminaSupplemental.Excel",
+                  "Version": "5.1.4"
                 },
                 {
                   "Key": "CSVFile",
@@ -349544,6 +349584,13 @@
       "Version": "2.2.0",
       "ReviewedBy": "nathanctech",
       "ReviewedAt": "2026-08-12T01:06:17.4994594Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/MidoriKami/KamiToolKit",
+      "Version": "7eb5dff50130c3898197f11978c01ad7702fb63b",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-08-15T05:35:15.2480036Z"
     }
   ]
 }
