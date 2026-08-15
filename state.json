@@ -321773,14 +321773,34 @@
           }
         },
         "EchoXIV": {
-          "BuiltCommit": "a9fb7ae00517c3e1414be14a2896e35dfb98ddeb",
-          "TimeBuilt": "2026-05-08T00:01:07.4400721+00:00",
-          "EffectiveVersion": "1.0.0.0",
+          "BuiltCommit": "4a6361e534312c1fd3b0204827a929d164623d15",
+          "TimeBuilt": "2026-08-15T18:14:56.5075242+00:00",
+          "EffectiveVersion": "1.0.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
               "TimeReleased": "2026-05-08T00:01:07.4400768+00:00",
               "Changelog": "v1.0.0.0:\n- Initial release of EchoXIV.\n- Bidirectional chat translation using Google Translate and Papago with automatic failover.\n- Translate outgoing messages with \u0060/tl \u003Cmessage\u003E\u0060 in any supported chat channel.\n- Automatic incoming message translation displayed in an integrated Dalamud window.\n- Localized UI supporting 10\u002B languages (en, es, fr, de, ja, it, ko, no, ru, zh-Hans, zh-Hant).\n- No API key required.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.3"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "ssalazar217"
+            },
+            "1.0.1.0": {
+              "TimeReleased": "2026-08-15T18:14:56.5075714+00:00",
+              "Changelog": null,
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
