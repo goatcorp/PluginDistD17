@@ -98824,9 +98824,9 @@
           }
         },
         "Compass": {
-          "BuiltCommit": "27b670426d534f6eec70178475653c48f763d570",
-          "TimeBuilt": "2026-05-01T23:58:57.2371756+00:00",
-          "EffectiveVersion": "1.33.1",
+          "BuiltCommit": "75a78aecdc39fab2c79c2855894d6e9a5225fadb",
+          "TimeBuilt": "2026-08-15T18:08:33.7696939+00:00",
+          "EffectiveVersion": "1.34.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.26.1": {
@@ -98920,6 +98920,22 @@
             "1.33.1": {
               "TimeReleased": "2026-05-01T23:58:57.2372225+00:00",
               "Changelog": "- chore: Update to API15 (thanks @ashen-dawn)\n\nNOTE: Since 7.0, Compass seems to work funky in some cases.\nI am sorry, but I cannot promise that I will manage to work on plugins for the foreseeable future.\nI can, however, promise to have a look at any potential PR in a timely manner.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "fitzchivalrik"
+            },
+            "1.34.0": {
+              "TimeReleased": "2026-08-15T18:08:33.7697357+00:00",
+              "Changelog": "- feat: extend quest filters with new icons\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -318641,9 +318657,9 @@
           }
         },
         "WukLamark": {
-          "BuiltCommit": "0a850c1de3add3b2f912b9a835d76db71f5045ef",
-          "TimeBuilt": "2026-08-08T01:01:15.2149571+00:00",
-          "EffectiveVersion": "1.2.0.2",
+          "BuiltCommit": "cef5636354aa52187fe6501bb11f672a7da5175c",
+          "TimeBuilt": "2026-08-15T18:08:47.3445549+00:00",
+          "EffectiveVersion": "1.2.0.3",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.2.2": {
@@ -318929,6 +318945,30 @@
             "1.2.0.2": {
               "TimeReleased": "2026-08-08T01:01:15.2149584+00:00",
               "Changelog": "# What\u0027s New?\r\n- Fixed a bug where resetting icon sizes on the minimap did not work.\r\n- Bump KTK just because.",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "8f05f8e5de36f68078a7c18d938d1a9e29992269"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Bronya-Rand"
+            },
+            "1.2.0.3": {
+              "TimeReleased": "2026-08-15T18:08:47.344557+00:00",
+              "Changelog": "# What\u0027s New?\r\n- Fixed a bug where markers are not rendered in Native UI/KTK.",
               "UsedNeeds": [
                 {
                   "Key": "https://github.com/MidoriKami/KamiToolKit",

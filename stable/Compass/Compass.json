@@ -2,7 +2,7 @@
   "Author": "Chivalrik",
   "Name": "Compass",
   "InternalName": "Compass",
-  "AssemblyVersion": "1.33.1",
+  "AssemblyVersion": "1.34.0",
   "Description": "Check-out the repository for steps on how to report missing/wrong filter\nand hiding options. Have a look at the FAQ tab in the config window\nafter install for common caveats.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/fitzchivalrik/compass",
@@ -18,7 +18,7 @@
   "CanUnloadAsync": false,
   "LoadPriority": 0,
   "Punchline": "Monodimensional compass for your adventures.",
-  "Changelog": "- chore: Update to API15 (thanks @ashen-dawn)\n\nNOTE: Since 7.0, Compass seems to work funky in some cases.\nI am sorry, but I cannot promise that I will manage to work on plugins for the foreseeable future.\nI can, however, promise to have a look at any potential PR in a timely manner.",
+  "Changelog": "- feat: extend quest filters with new icons",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "stable"
