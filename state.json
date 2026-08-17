@@ -72651,9 +72651,9 @@
           }
         },
         "Echoglossian": {
-          "BuiltCommit": "edc589fbe92a4aa52f4e6fa2a23536287d93b9f0",
-          "TimeBuilt": "2026-08-15T18:21:04.0827342+00:00",
-          "EffectiveVersion": "4.2601.815.1339",
+          "BuiltCommit": "2901ef0d8b1d68956c6ac86afe97ff3bc098e7f3",
+          "TimeBuilt": "2026-08-17T19:29:12.4099676+00:00",
+          "EffectiveVersion": "4.2601.816.1235",
           "MinimumVersion": null,
           "Changelogs": {
             "2.100.2208.281": {
@@ -81851,6 +81851,502 @@
             "4.2601.815.1339": {
               "TimeReleased": "2026-08-15T18:21:04.0827814+00:00",
               "Changelog": "v4.2601.0815.1339 \n Dialogue context and LLM follow-up:\n - recover first-line speaker context via quest metadata and live actor fallbacks\n - precompute quest dialogue interlocutor metadata asynchronously off Dalamud callbacks\n - enforce dialogue glossary terms and gate unsupported LLM parameters with shared diagnostics",
+              "UsedNeeds": [
+                {
+                  "Key": "AutoCtor",
+                  "Version": "3.1.0"
+                },
+                {
+                  "Key": "AWSSDK.Translate",
+                  "Version": "4.0.100.5"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DeepL.net",
+                  "Version": "1.21.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "2.0.5"
+                },
+                {
+                  "Key": "GTranslate",
+                  "Version": "2.3.1"
+                },
+                {
+                  "Key": "HtmlAgilityPack",
+                  "Version": "1.12.4"
+                },
+                {
+                  "Key": "Injectio",
+                  "Version": "6.1.0"
+                },
+                {
+                  "Key": "Microsoft.EntityFrameworkCore",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.EntityFrameworkCore.Sqlite",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.EntityFrameworkCore.Tools",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.4"
+                },
+                {
+                  "Key": "OpenAI",
+                  "Version": "2.12.0"
+                },
+                {
+                  "Key": "RestSharp",
+                  "Version": "114.0.0"
+                },
+                {
+                  "Key": "SQLitePCLRaw.bundle_e_sqlite3",
+                  "Version": "3.0.4"
+                },
+                {
+                  "Key": "StyleCop.Analyzers",
+                  "Version": "1.2.0-beta.435"
+                },
+                {
+                  "Key": "System.Drawing.Common",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "AWSSDK.Core",
+                  "Version": "4.0.100.6"
+                },
+                {
+                  "Key": "Humanizer.Core",
+                  "Version": "2.14.1"
+                },
+                {
+                  "Key": "Microsoft.Build.Framework",
+                  "Version": "18.0.2"
+                },
+                {
+                  "Key": "Microsoft.CodeAnalysis.Analyzers",
+                  "Version": "3.11.0"
+                },
+                {
+                  "Key": "Microsoft.CodeAnalysis.Common",
+                  "Version": "5.0.0"
+                },
+                {
+                  "Key": "Microsoft.CodeAnalysis.CSharp",
+                  "Version": "5.0.0"
+                },
+                {
+                  "Key": "Microsoft.CodeAnalysis.CSharp.Workspaces",
+                  "Version": "5.0.0"
+                },
+                {
+                  "Key": "Microsoft.CodeAnalysis.Workspaces.Common",
+                  "Version": "5.0.0"
+                },
+                {
+                  "Key": "Microsoft.CodeAnalysis.Workspaces.MSBuild",
+                  "Version": "5.0.0"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite.Core",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.EntityFrameworkCore.Abstractions",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.EntityFrameworkCore.Analyzers",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.EntityFrameworkCore.Design",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.EntityFrameworkCore.Relational",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.EntityFrameworkCore.Sqlite.Core",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Caching.Abstractions",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Caching.Memory",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Abstractions",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyModel",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Diagnostics.Abstractions",
+                  "Version": "10.0.3"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileProviders.Abstractions",
+                  "Version": "10.0.3"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Hosting.Abstractions",
+                  "Version": "10.0.3"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Http",
+                  "Version": "5.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Http.Polly",
+                  "Version": "5.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Primitives",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.VisualStudio.SolutionPersistence",
+                  "Version": "1.0.52"
+                },
+                {
+                  "Key": "Microsoft.Win32.SystemEvents",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Mono.TextTemplating",
+                  "Version": "3.0.0"
+                },
+                {
+                  "Key": "Polly",
+                  "Version": "7.1.0"
+                },
+                {
+                  "Key": "Polly.Extensions.Http",
+                  "Version": "3.0.0"
+                },
+                {
+                  "Key": "SourceGear.sqlite3",
+                  "Version": "3.53.3"
+                },
+                {
+                  "Key": "SQLitePCLRaw.config.e_sqlite3",
+                  "Version": "3.0.4"
+                },
+                {
+                  "Key": "SQLitePCLRaw.core",
+                  "Version": "3.0.4"
+                },
+                {
+                  "Key": "SQLitePCLRaw.provider.e_sqlite3",
+                  "Version": "3.0.4"
+                },
+                {
+                  "Key": "StyleCop.Analyzers.Unstable",
+                  "Version": "1.2.0.435"
+                },
+                {
+                  "Key": "System.ClientModel",
+                  "Version": "1.14.0"
+                },
+                {
+                  "Key": "System.CodeDom",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "System.Composition",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "System.Composition.AttributedModel",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "System.Composition.Convention",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "System.Composition.Hosting",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "System.Composition.Runtime",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "System.Composition.TypedParts",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "System.Memory.Data",
+                  "Version": "10.0.3"
+                },
+                {
+                  "Key": "Autofac",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "Microsoft.DotNet.PlatformAbstractions",
+                  "Version": "3.1.6"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Binder",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.CommandLine",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.EnvironmentVariables",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.FileExtensions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Json",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.UserSecrets",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Diagnostics",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileProviders.Physical",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileSystemGlobbing",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Hosting",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Localization",
+                  "Version": "10.0.7"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Localization.Abstractions",
+                  "Version": "10.0.7"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Configuration",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Console",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Debug",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.EventLog",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.EventSource",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.ObjectPool",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options.ConfigurationExtensions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "NativeFileDialogSharp",
+                  "Version": "0.5.0"
+                },
+                {
+                  "Key": "NativeLibraryLoader",
+                  "Version": "1.0.13"
+                },
+                {
+                  "Key": "PolySharp",
+                  "Version": "1.10.0"
+                },
+                {
+                  "Key": "Serilog",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "Serilog.Extensions.Logging",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "SharpGen.Runtime",
+                  "Version": "2.0.0-beta.13"
+                },
+                {
+                  "Key": "SharpGen.Runtime.COM",
+                  "Version": "2.0.0-beta.13"
+                },
+                {
+                  "Key": "SixLabors.Fonts",
+                  "Version": "2.1.3"
+                },
+                {
+                  "Key": "StbiSharp",
+                  "Version": "1.2.1"
+                },
+                {
+                  "Key": "System.Diagnostics.EventLog",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Veldrid",
+                  "Version": "4.9.0"
+                },
+                {
+                  "Key": "Veldrid.MetalBindings",
+                  "Version": "4.9.0"
+                },
+                {
+                  "Key": "Veldrid.OpenGLBindings",
+                  "Version": "4.9.0"
+                },
+                {
+                  "Key": "Veldrid.SDL2",
+                  "Version": "4.9.0"
+                },
+                {
+                  "Key": "Veldrid.StartupUtilities",
+                  "Version": "4.9.0"
+                },
+                {
+                  "Key": "Vk",
+                  "Version": "1.0.25"
+                },
+                {
+                  "Key": "Vortice.D3DCompiler",
+                  "Version": "2.3.0"
+                },
+                {
+                  "Key": "Vortice.Direct3D11",
+                  "Version": "2.3.0"
+                },
+                {
+                  "Key": "Vortice.DirectX",
+                  "Version": "2.3.0"
+                },
+                {
+                  "Key": "Vortice.DXGI",
+                  "Version": "2.3.0"
+                },
+                {
+                  "Key": "Vortice.Mathematics",
+                  "Version": "1.4.25"
+                },
+                {
+                  "Key": "FluentAssertions",
+                  "Version": "8.10.0"
+                },
+                {
+                  "Key": "Microsoft.NET.Test.Sdk",
+                  "Version": "18.8.1"
+                },
+                {
+                  "Key": "xunit",
+                  "Version": "2.9.3"
+                },
+                {
+                  "Key": "xunit.runner.visualstudio",
+                  "Version": "3.1.5"
+                },
+                {
+                  "Key": "Microsoft.CodeCoverage",
+                  "Version": "18.8.1"
+                },
+                {
+                  "Key": "Microsoft.TestPlatform.ObjectModel",
+                  "Version": "18.8.1"
+                },
+                {
+                  "Key": "Microsoft.TestPlatform.TestHost",
+                  "Version": "18.8.1"
+                },
+                {
+                  "Key": "xunit.abstractions",
+                  "Version": "2.0.3"
+                },
+                {
+                  "Key": "xunit.analyzers",
+                  "Version": "1.18.0"
+                },
+                {
+                  "Key": "xunit.assert",
+                  "Version": "2.9.3"
+                },
+                {
+                  "Key": "xunit.core",
+                  "Version": "2.9.3"
+                },
+                {
+                  "Key": "xunit.extensibility.core",
+                  "Version": "2.9.3"
+                },
+                {
+                  "Key": "xunit.extensibility.execution",
+                  "Version": "2.9.3"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "lokinmodar"
+            },
+            "4.2601.816.1235": {
+              "TimeReleased": "2026-08-17T19:29:12.4099691+00:00",
+              "Changelog": "v4.2601.0816.1235 \n Dialogue LLM follow-up release:\n - finish #252 prompt save and async structured glossary refresh\n - fix #270 so dialogue-only LLM override still respects per-surface toggles\n - cancel live model discovery requests during shutdown and reload",
               "UsedNeeds": [
                 {
                   "Key": "AutoCtor",
@@ -218180,9 +218676,9 @@
           }
         },
         "CurrencySpender": {
-          "BuiltCommit": "18e52baecc5b7aabd0ae991cdc1dbccc9c7ec378",
-          "TimeBuilt": "2026-06-10T23:37:58.7607+00:00",
-          "EffectiveVersion": "1.2.7.0",
+          "BuiltCommit": "88ce55f1ed2aeb1a5b32b05d9861d2c2aac717c9",
+          "TimeBuilt": "2026-08-17T19:28:15.1965415+00:00",
+          "EffectiveVersion": "1.3.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.5.0": {
@@ -218419,6 +218915,22 @@
                 }
               ],
               "Reviewer": "nathanctech",
+              "Submitter": "Blackcatz1911"
+            },
+            "1.3.0.0": {
+              "TimeReleased": "2026-08-17T19:28:15.1965844+00:00",
+              "Changelog": "## 1.3.0\n### Added\n- Societal currencies are now tracked.\n- New currency: Faux leaves added.\n- New currency: Achievement Cerificates added.\n- Added a tooltip to show when a prerequisite quest is needed.\n- New setting: The possibility to glue the spending windows to the main window.\n### Changed\n- Teleporting now skips the teleport when you are already in the correct zone.\n- The spending window now only opens once shop/item data has finished loading.\n- ConfigWizard reworked to work more resilent and needs less manual config.\n- Refactored some code.\n### Fixed\n- When no sellable items are found, now shows a proper warning.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "ECommons",
+                  "Version": "3.2.1.6"
+                }
+              ],
+              "Reviewer": "reiichi001",
               "Submitter": "Blackcatz1911"
             }
           }
@@ -251244,9 +251756,9 @@
           }
         },
         "LazyGatherer": {
-          "BuiltCommit": "69e50a2b8804464a6473e1d6236fb6655fd7a4b0",
-          "TimeBuilt": "2026-07-03T12:04:54.2376453+00:00",
-          "EffectiveVersion": "1.4.4.0",
+          "BuiltCommit": "0bb8ec9a47dc4521411c705221cdeda361015d75",
+          "TimeBuilt": "2026-08-17T19:29:25.5140292+00:00",
+          "EffectiveVersion": "1.4.5.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.2.1.0": {
@@ -251443,6 +251955,34 @@
                 }
               ],
               "Reviewer": "nebel",
+              "Submitter": "Hiroa"
+            },
+            "1.4.5.0": {
+              "TimeReleased": "2026-08-17T19:29:25.5140304+00:00",
+              "Changelog": "Version 1.4.5: \n - Rework estimated yield display\n - Take boon chance into consideration when calculating min/max\n",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "6e3085b07c00322862d552d1945fa3ca4952f80d"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "MathNet.Numerics",
+                  "Version": "5.0.0"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "Hiroa"
             }
           }
@@ -258836,6 +259376,30 @@
               ],
               "Reviewer": "nebel",
               "Submitter": "Haselnussbomber"
+            }
+          }
+        },
+        "AcrylicXIV": {
+          "BuiltCommit": "df34c9704e3c13507dbfc45fa9b2afc421743c9b",
+          "TimeBuilt": "2026-08-17T19:28:23.9920776+00:00",
+          "EffectiveVersion": "0.0.0.3",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "0.0.0.3": {
+              "TimeReleased": "2026-08-17T19:28:23.9920808+00:00",
+              "Changelog": "Fix a crash when exiting the game.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "MapleRecall"
             }
           }
         }
@@ -267901,9 +268465,9 @@
           }
         },
         "TextToTalk": {
-          "BuiltCommit": "e779a41892c4db39936e953619efe51e49fcea6c",
-          "TimeBuilt": "2026-08-02T00:06:51.3049965+00:00",
-          "EffectiveVersion": "1.40.1.0",
+          "BuiltCommit": "1d634c195dc31911d98bf36f2016bef8732bb0ef",
+          "TimeBuilt": "2026-08-17T19:30:26.0579096+00:00",
+          "EffectiveVersion": "1.40.3.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.17.0.0": {
@@ -277733,6 +278297,518 @@
                 {
                   "Key": "System.Threading.Tasks.Extensions",
                   "Version": "4.5.4"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "karashiiro"
+            },
+            "1.40.3.0": {
+              "TimeReleased": "2026-08-17T19:30:26.0579108+00:00",
+              "Changelog": "- **Megaphone**: Internal API changes to support reacting to specific NPC messages.\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/karashiiro/websocket-sharp",
+                  "Version": "ae08824e3edc34fb61418fb17ae6c725a33e97e1"
+                },
+                {
+                  "Key": "coverlet.collector",
+                  "Version": "6.0.2"
+                },
+                {
+                  "Key": "Microsoft.NET.Test.Sdk",
+                  "Version": "17.9.0"
+                },
+                {
+                  "Key": "System.Reflection.Metadata",
+                  "Version": "10.0.3"
+                },
+                {
+                  "Key": "xunit",
+                  "Version": "2.7.0"
+                },
+                {
+                  "Key": "xunit.runner.visualstudio",
+                  "Version": "2.5.7"
+                },
+                {
+                  "Key": "Microsoft.CodeCoverage",
+                  "Version": "17.9.0"
+                },
+                {
+                  "Key": "Microsoft.TestPlatform.ObjectModel",
+                  "Version": "17.9.0"
+                },
+                {
+                  "Key": "Microsoft.TestPlatform.TestHost",
+                  "Version": "17.9.0"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.1"
+                },
+                {
+                  "Key": "xunit.abstractions",
+                  "Version": "2.0.3"
+                },
+                {
+                  "Key": "xunit.analyzers",
+                  "Version": "1.11.0"
+                },
+                {
+                  "Key": "xunit.assert",
+                  "Version": "2.7.0"
+                },
+                {
+                  "Key": "xunit.core",
+                  "Version": "2.7.0"
+                },
+                {
+                  "Key": "xunit.extensibility.core",
+                  "Version": "2.7.0"
+                },
+                {
+                  "Key": "xunit.extensibility.execution",
+                  "Version": "2.7.0"
+                },
+                {
+                  "Key": "IndexRange",
+                  "Version": "1.0.3"
+                },
+                {
+                  "Key": "Microsoft.CodeAnalysis.CSharp",
+                  "Version": "4.9.2"
+                },
+                {
+                  "Key": "NETStandard.Library",
+                  "Version": "2.0.3"
+                },
+                {
+                  "Key": "System.Memory",
+                  "Version": "4.5.5"
+                },
+                {
+                  "Key": "System.Runtime.CompilerServices.Unsafe",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "Microsoft.CodeAnalysis.Analyzers",
+                  "Version": "3.3.4"
+                },
+                {
+                  "Key": "Microsoft.CodeAnalysis.Common",
+                  "Version": "4.9.2"
+                },
+                {
+                  "Key": "Microsoft.NETCore.Platforms",
+                  "Version": "1.1.0"
+                },
+                {
+                  "Key": "System.Buffers",
+                  "Version": "4.5.1"
+                },
+                {
+                  "Key": "System.Collections.Immutable",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "System.Numerics.Vectors",
+                  "Version": "4.4.0"
+                },
+                {
+                  "Key": "System.Reflection.Metadata",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "System.Text.Encoding.CodePages",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "System.Threading.Tasks.Extensions",
+                  "Version": "4.5.4"
+                },
+                {
+                  "Key": "LiteDB",
+                  "Version": "5.0.20"
+                },
+                {
+                  "Key": "AdysTech.CredentialManager",
+                  "Version": "2.6.0"
+                },
+                {
+                  "Key": "AWSSDK.Polly",
+                  "Version": "3.7.401.37"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Google.Cloud.TextToSpeech.V1",
+                  "Version": "3.9.0"
+                },
+                {
+                  "Key": "KokoroSharp.CPU",
+                  "Version": "0.6.1"
+                },
+                {
+                  "Key": "Microsoft.CognitiveServices.Speech",
+                  "Version": "1.41.1"
+                },
+                {
+                  "Key": "Microsoft.Win32.Registry",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "NAudio",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "R3",
+                  "Version": "1.2.9"
+                },
+                {
+                  "Key": "Riok.Mapperly",
+                  "Version": "4.1.0"
+                },
+                {
+                  "Key": "Standart.Hash.xxHash",
+                  "Version": "4.0.5"
+                },
+                {
+                  "Key": "System.Diagnostics.DiagnosticSource",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "System.Drawing.Common",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "System.Speech",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "AWSSDK.Core",
+                  "Version": "3.7.400.48"
+                },
+                {
+                  "Key": "Google.Api.CommonProtos",
+                  "Version": "2.16.0"
+                },
+                {
+                  "Key": "Google.Api.Gax",
+                  "Version": "4.9.0"
+                },
+                {
+                  "Key": "Google.Api.Gax.Grpc",
+                  "Version": "4.9.0"
+                },
+                {
+                  "Key": "Google.Apis",
+                  "Version": "1.68.0"
+                },
+                {
+                  "Key": "Google.Apis.Auth",
+                  "Version": "1.68.0"
+                },
+                {
+                  "Key": "Google.Apis.Core",
+                  "Version": "1.68.0"
+                },
+                {
+                  "Key": "Google.LongRunning",
+                  "Version": "3.3.0"
+                },
+                {
+                  "Key": "Google.Protobuf",
+                  "Version": "3.28.2"
+                },
+                {
+                  "Key": "Grpc.Auth",
+                  "Version": "2.66.0"
+                },
+                {
+                  "Key": "Grpc.Core.Api",
+                  "Version": "2.66.0"
+                },
+                {
+                  "Key": "Grpc.Net.Client",
+                  "Version": "2.66.0"
+                },
+                {
+                  "Key": "Grpc.Net.Common",
+                  "Version": "2.66.0"
+                },
+                {
+                  "Key": "KokoroSharp",
+                  "Version": "0.6.1"
+                },
+                {
+                  "Key": "Microsoft.Bcl.AsyncInterfaces",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "Microsoft.ML.OnnxRuntime",
+                  "Version": "1.22.0"
+                },
+                {
+                  "Key": "Microsoft.ML.OnnxRuntime.Managed",
+                  "Version": "1.22.0"
+                },
+                {
+                  "Key": "Microsoft.Win32.SystemEvents",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "NAudio.Asio",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Core",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Midi",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Wasapi",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.WinMM",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.3"
+                },
+                {
+                  "Key": "NumSharp",
+                  "Version": "0.30.0"
+                },
+                {
+                  "Key": "OpenTK.Audio.OpenAL",
+                  "Version": "5.0.0-pre.13"
+                },
+                {
+                  "Key": "OpenTK.Core",
+                  "Version": "5.0.0-pre.13"
+                },
+                {
+                  "Key": "OpenTK.Mathematics",
+                  "Version": "5.0.0-pre.13"
+                },
+                {
+                  "Key": "System.CodeDom",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "System.Management",
+                  "Version": "7.0.2"
+                },
+                {
+                  "Key": "System.Numerics.Tensors",
+                  "Version": "9.0.5"
+                },
+                {
+                  "Key": "YamlDotNet",
+                  "Version": "15.3.0"
+                },
+                {
+                  "Key": "Microsoft.CodeAnalysis.CSharp.SourceGenerators.Testing.XUnit",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.CodeAnalysis.CSharp.Workspaces",
+                  "Version": "4.9.2"
+                },
+                {
+                  "Key": "Microsoft.NET.Test.Sdk",
+                  "Version": "17.8.0"
+                },
+                {
+                  "Key": "NuGet.Common",
+                  "Version": "5.11.7"
+                },
+                {
+                  "Key": "NuGet.Packaging",
+                  "Version": "5.11.7"
+                },
+                {
+                  "Key": "NuGet.Protocol",
+                  "Version": "5.11.7"
+                },
+                {
+                  "Key": "xunit",
+                  "Version": "2.4.2"
+                },
+                {
+                  "Key": "xunit.runner.visualstudio",
+                  "Version": "2.4.5"
+                },
+                {
+                  "Key": "DiffPlex",
+                  "Version": "1.5.0"
+                },
+                {
+                  "Key": "Humanizer.Core",
+                  "Version": "2.14.1"
+                },
+                {
+                  "Key": "Microsoft.CodeAnalysis.Analyzer.Testing",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.CodeAnalysis.CSharp.SourceGenerators.Testing",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.CodeAnalysis.SourceGenerators.Testing",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.CodeAnalysis.Testing.Verifiers.XUnit",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.CodeAnalysis.Workspaces.Common",
+                  "Version": "4.9.2"
+                },
+                {
+                  "Key": "Microsoft.CodeCoverage",
+                  "Version": "17.8.0"
+                },
+                {
+                  "Key": "Microsoft.TestPlatform.ObjectModel",
+                  "Version": "17.8.0"
+                },
+                {
+                  "Key": "Microsoft.TestPlatform.TestHost",
+                  "Version": "17.8.0"
+                },
+                {
+                  "Key": "Microsoft.VisualStudio.Composition",
+                  "Version": "16.1.8"
+                },
+                {
+                  "Key": "Microsoft.VisualStudio.Composition.NetFxAttributes",
+                  "Version": "16.1.8"
+                },
+                {
+                  "Key": "Microsoft.VisualStudio.Validation",
+                  "Version": "15.0.82"
+                },
+                {
+                  "Key": "NETStandard.Library",
+                  "Version": "1.6.1"
+                },
+                {
+                  "Key": "NuGet.Configuration",
+                  "Version": "5.11.7"
+                },
+                {
+                  "Key": "NuGet.Frameworks",
+                  "Version": "6.5.0"
+                },
+                {
+                  "Key": "NuGet.Resolver",
+                  "Version": "5.6.0"
+                },
+                {
+                  "Key": "NuGet.Versioning",
+                  "Version": "5.11.7"
+                },
+                {
+                  "Key": "System.ComponentModel.Composition",
+                  "Version": "4.5.0"
+                },
+                {
+                  "Key": "System.Composition",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "System.Composition.AttributedModel",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "System.Composition.Convention",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "System.Composition.Hosting",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "System.Composition.Runtime",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "System.Composition.TypedParts",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "System.Security.Cryptography.Pkcs",
+                  "Version": "5.0.0"
+                },
+                {
+                  "Key": "System.Security.Cryptography.ProtectedData",
+                  "Version": "4.4.0"
+                },
+                {
+                  "Key": "System.Security.Permissions",
+                  "Version": "4.5.0"
+                },
+                {
+                  "Key": "xunit.analyzers",
+                  "Version": "1.0.0"
+                },
+                {
+                  "Key": "xunit.assert",
+                  "Version": "2.4.2"
+                },
+                {
+                  "Key": "xunit.core",
+                  "Version": "2.4.2"
+                },
+                {
+                  "Key": "xunit.extensibility.core",
+                  "Version": "2.4.2"
+                },
+                {
+                  "Key": "xunit.extensibility.execution",
+                  "Version": "2.4.2"
+                },
+                {
+                  "Key": "Microsoft.Win32.Registry",
+                  "Version": "4.7.0"
+                },
+                {
+                  "Key": "Moq",
+                  "Version": "4.20.70"
+                },
+                {
+                  "Key": "System.Diagnostics.DiagnosticSource",
+                  "Version": "6.0.1"
+                },
+                {
+                  "Key": "Castle.Core",
+                  "Version": "5.1.1"
+                },
+                {
+                  "Key": "System.Diagnostics.EventLog",
+                  "Version": "6.0.0"
                 }
               ],
               "Reviewer": "reiichi001",
@@ -313881,9 +314957,9 @@
           }
         },
         "VanillaPlus": {
-          "BuiltCommit": "30b944c88a723018f38f9df39609c6c31cd9a50e",
-          "TimeBuilt": "2026-08-16T04:10:43.3566165+00:00",
-          "EffectiveVersion": "1.4.3.1",
+          "BuiltCommit": "72665ba5fb5db56cb2c0893f420ce87686edd08d",
+          "TimeBuilt": "2026-08-17T19:29:45.1657407+00:00",
+          "EffectiveVersion": "1.4.3.2",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.0.8": {
@@ -314733,6 +315809,46 @@
               ],
               "Reviewer": "nathanctech",
               "Submitter": "MidoriKami"
+            },
+            "1.4.3.2": {
+              "TimeReleased": "2026-08-17T19:29:45.1657417+00:00",
+              "Changelog": "nofranz\r\n\r\nAdjust an original text node position for system config search bar",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "0e1695ca74013cef639f6b941fc436e673c21f47"
+                },
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit.Components",
+                  "Version": "76ebbac0b3d91dace40ac16b5e132bee0793b49a"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "LuminaSupplemental.Excel",
+                  "Version": "5.1.4"
+                },
+                {
+                  "Key": "CSVFile",
+                  "Version": "3.2.1"
+                },
+                {
+                  "Key": "CsvHelper",
+                  "Version": "30.0.1"
+                },
+                {
+                  "Key": "Sylvan.Data.Csv",
+                  "Version": "1.4.3"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "MidoriKami"
             }
           }
         },
@@ -315445,9 +316561,9 @@
           }
         },
         "LazyGatherer": {
-          "BuiltCommit": "69e50a2b8804464a6473e1d6236fb6655fd7a4b0",
-          "TimeBuilt": "2026-07-03T12:05:05.2771904+00:00",
-          "EffectiveVersion": "1.4.4.0",
+          "BuiltCommit": "0bb8ec9a47dc4521411c705221cdeda361015d75",
+          "TimeBuilt": "2026-08-17T19:30:38.8278445+00:00",
+          "EffectiveVersion": "1.4.5.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.1.0": {
@@ -315924,6 +317040,34 @@
                 }
               ],
               "Reviewer": "nebel",
+              "Submitter": "Hiroa"
+            },
+            "1.4.5.0": {
+              "TimeReleased": "2026-08-17T19:30:38.827846+00:00",
+              "Changelog": "Version 1.4.5: \n - Rework estimated yield display\n - Take boon chance into consideration when calculating min/max\n",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "6e3085b07c00322862d552d1945fa3ca4952f80d"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "MathNet.Numerics",
+                  "Version": "5.0.0"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "Hiroa"
             }
           }

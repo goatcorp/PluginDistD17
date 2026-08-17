@@ -1,0 +1,29 @@
+{
+  "Author": "MapleRecall",
+  "Name": "AcrylicXIV",
+  "InternalName": "AcrylicXIV",
+  "AssemblyVersion": "0.0.0.3",
+  "Description": "Blur the background behind native UI like acrylic or frosted glass, making it more elegant and readable. Customize your effects with acrylic styling, distortion, tints, and full control over brightness, saturation, and contrast.",
+  "ApplicableVersion": "any",
+  "Tags": [
+    "blur",
+    "acrylic",
+    "frosted",
+    "ui",
+    "hud",
+    "backdrop"
+  ],
+  "CategoryTags": [
+    "ui"
+  ],
+  "DalamudApiLevel": 15,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "Punchline": "Give your UI that premium, acrylic look upgrade. Because Eorzea looks better with some blur.",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "stable",
+  "RepoUrl": "https://github.com/MapleRecall/AcrylicXIV.git"
+}
