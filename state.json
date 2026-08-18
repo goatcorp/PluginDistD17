@@ -251988,9 +251988,9 @@
           }
         },
         "RetainerAlerts": {
-          "BuiltCommit": "fa0a8ec962a889dc193a3861c43e31a152ec0436",
-          "TimeBuilt": "2026-06-06T18:19:48.5788651+00:00",
-          "EffectiveVersion": "1.5.0.0",
+          "BuiltCommit": "4570fb6a38628d400d3958142cb1170bd5d31653",
+          "TimeBuilt": "2026-08-18T05:13:48.4740911+00:00",
+          "EffectiveVersion": "1.6.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.3.0.0": {
@@ -252028,6 +252028,22 @@
             "1.5.0.0": {
               "TimeReleased": "2026-06-06T18:19:48.5788668+00:00",
               "Changelog": "Alert window will not show unless on home world now or if you are in a duty.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Ibcrootbeer"
+            },
+            "1.6.0.0": {
+              "TimeReleased": "2026-08-18T05:13:48.4740927+00:00",
+              "Changelog": "Added ability to resize/recolor the alert window.",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -252116,9 +252132,9 @@
           }
         },
         "FATEhelper": {
-          "BuiltCommit": "fc42309343b4797d302432c6b83f2ec2415e31f4",
-          "TimeBuilt": "2026-07-28T23:11:00.3237322+00:00",
-          "EffectiveVersion": "1.2.0.0",
+          "BuiltCommit": "36a18e8707204e1fa01e77e99bb6c74678a748de",
+          "TimeBuilt": "2026-08-18T05:13:40.4143493+00:00",
+          "EffectiveVersion": "1.2.0.1",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -252204,6 +252220,22 @@
             "1.2.0.0": {
               "TimeReleased": "2026-07-28T23:11:00.3237769+00:00",
               "Changelog": "added sound alert for new fate spawns, updated occult aetheryte with north horn",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "teechep"
+            },
+            "1.2.0.1": {
+              "TimeReleased": "2026-08-18T05:13:40.4143886+00:00",
+              "Changelog": "removed control characters in fate names",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",

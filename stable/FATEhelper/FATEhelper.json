@@ -2,7 +2,7 @@
   "Author": "Teechep Bird",
   "Name": "FATE Helper",
   "InternalName": "FATEhelper",
-  "AssemblyVersion": "1.2.0.0",
+  "AssemblyVersion": "1.2.0.1",
   "Description": "Displays a list of all FATEs in the current area with: time remaining, percent completed, and bonus marker. Clicking on FATE name will flag it and teleport you, if flying isn't faster. Works with Eureka and Occult FATEs, and Bozja skirmishes.",
   "ApplicableVersion": "any",
   "Tags": [
@@ -23,5 +23,6 @@
   "Punchline": "Makes FATEs suck slightly less, guaranteed! Disclaimer: atma drop rates will continue to suck.",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
-  "_Dip17Channel": "stable"
+  "_Dip17Channel": "stable",
+  "RepoUrl": "https://github.com/teechep/FATEhelper.git"
 }
