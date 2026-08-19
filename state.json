@@ -1552,9 +1552,9 @@
           }
         },
         "PetScale": {
-          "BuiltCommit": "61938c0b981d90f7ea5396b03a7040f7e3ce395a",
-          "TimeBuilt": "2025-08-19T21:12:14.1613046+00:00",
-          "EffectiveVersion": "2.0.4.0",
+          "BuiltCommit": "cc6e9e4ca782059263f3d7e8266d4105de60cb5b",
+          "TimeBuilt": "2026-08-19T11:48:30.0594303+00:00",
+          "EffectiveVersion": "2.0.6.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.1.0.0": {
@@ -1654,6 +1654,26 @@
                 }
               ],
               "Reviewer": "philpax",
+              "Submitter": "Kurochi51"
+            },
+            "2.0.6.0": {
+              "TimeReleased": "2026-08-19T11:48:30.0594325+00:00",
+              "Changelog": "- Tried and tested version update\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Meziantou.Analyzer",
+                  "Version": "3.0.58"
+                }
+              ],
+              "Reviewer": "reiichi001",
               "Submitter": "Kurochi51"
             }
           }
@@ -64665,9 +64685,9 @@
           }
         },
         "TickTracker": {
-          "BuiltCommit": "4b5a70686bbef33397c69966d288118fa633116e",
-          "TimeBuilt": "2025-08-19T21:12:21.8757014+00:00",
-          "EffectiveVersion": "1.6.4.0",
+          "BuiltCommit": "625ba8e86612703a1694d38d4f96065d70e40db9",
+          "TimeBuilt": "2026-08-19T11:48:20.8710237+00:00",
+          "EffectiveVersion": "1.6.6.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -64812,6 +64832,30 @@
                 }
               ],
               "Reviewer": "philpax",
+              "Submitter": "Kurochi51"
+            },
+            "1.6.6.0": {
+              "TimeReleased": "2026-08-19T11:48:20.8710249+00:00",
+              "Changelog": "- Tried and tested version update\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Meziantou.Analyzer",
+                  "Version": "3.0.58"
+                },
+                {
+                  "Key": "Penumbra.Api",
+                  "Version": "5.13.1"
+                }
+              ],
+              "Reviewer": "reiichi001",
               "Submitter": "Kurochi51"
             }
           }
@@ -241300,9 +241344,9 @@
           }
         },
         "VanillaPlus": {
-          "BuiltCommit": "958c461556997660f1e1feb75d52b14785cc981b",
-          "TimeBuilt": "2026-08-14T22:20:54.4072282+00:00",
-          "EffectiveVersion": "1.4.2.13",
+          "BuiltCommit": "72665ba5fb5db56cb2c0893f420ce87686edd08d",
+          "TimeBuilt": "2026-08-19T11:48:10.1830839+00:00",
+          "EffectiveVersion": "1.4.3.2",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.1.6": {
@@ -247463,6 +247507,46 @@
                 }
               ],
               "Reviewer": "nathanctech",
+              "Submitter": "MidoriKami"
+            },
+            "1.4.3.2": {
+              "TimeReleased": "2026-08-19T11:48:10.1831257+00:00",
+              "Changelog": "nofranz\n\nrelease experimental system changes, there\u0027s been no complains.\n\nNo changes from testing version",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "0e1695ca74013cef639f6b941fc436e673c21f47"
+                },
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit.Components",
+                  "Version": "76ebbac0b3d91dace40ac16b5e132bee0793b49a"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "LuminaSupplemental.Excel",
+                  "Version": "5.1.4"
+                },
+                {
+                  "Key": "CSVFile",
+                  "Version": "3.2.1"
+                },
+                {
+                  "Key": "CsvHelper",
+                  "Version": "30.0.1"
+                },
+                {
+                  "Key": "Sylvan.Data.Csv",
+                  "Version": "1.4.3"
+                }
+              ],
+              "Reviewer": "reiichi001",
               "Submitter": "MidoriKami"
             }
           }
