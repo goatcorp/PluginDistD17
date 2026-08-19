@@ -258720,9 +258720,9 @@
           }
         },
         "LapCatCounter": {
-          "BuiltCommit": "1c584bfa3b677c75a2777c4be36572f59d1aa48c",
-          "TimeBuilt": "2026-05-23T18:34:29.4766064+00:00",
-          "EffectiveVersion": "1.1.0.0",
+          "BuiltCommit": "8ee4cb0d434730db165222f3e9a6f3904d9e9558",
+          "TimeBuilt": "2026-08-19T11:56:56.9604849+00:00",
+          "EffectiveVersion": "1.1.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.1.0.0": {
@@ -258739,6 +258739,22 @@
                 }
               ],
               "Reviewer": "nathanctech",
+              "Submitter": "ImOv3rburdened"
+            },
+            "1.1.1.0": {
+              "TimeReleased": "2026-08-19T11:56:56.9605404+00:00",
+              "Changelog": "v1.1.1.0. Added achievements, 50 of em!, for you lapcats and laps for lapcats",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "reiichi001",
               "Submitter": "ImOv3rburdened"
             }
           }
