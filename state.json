@@ -12996,9 +12996,9 @@
           }
         },
         "NoTankYou": {
-          "BuiltCommit": "0e73262be12f2e38636179ef12931e57350bc4ce",
-          "TimeBuilt": "2026-07-30T03:33:29.7232419+00:00",
-          "EffectiveVersion": "7.4.4.5",
+          "BuiltCommit": "24361c91aed324664d585bea8a0225bb0b21b208",
+          "TimeBuilt": "2026-08-21T19:16:06.681933+00:00",
+          "EffectiveVersion": "7.4.4.6",
           "MinimumVersion": null,
           "Changelogs": {
             "7.1.0.2": {
@@ -14359,6 +14359,30 @@
                 }
               ],
               "Reviewer": "nathanctech",
+              "Submitter": "MidoriKami"
+            },
+            "7.4.4.6": {
+              "TimeReleased": "2026-08-21T19:16:06.6819824+00:00",
+              "Changelog": "nofranz\r\n\r\nApparently forgot to push a fix? Have a KTK update regardless.",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "0e1695ca74013cef639f6b941fc436e673c21f47"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                }
+              ],
+              "Reviewer": "reiichi001",
               "Submitter": "MidoriKami"
             }
           }
