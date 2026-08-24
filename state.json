@@ -327815,6 +327815,54 @@
               "Submitter": "Bronya-Rand"
             }
           }
+        },
+        "DutyLootPreview": {
+          "BuiltCommit": "1ea0e9fd49b4b843d513a29eae0336de7a05228e",
+          "TimeBuilt": "2026-08-24T21:49:42.2980573+00:00",
+          "EffectiveVersion": "0.0.0.1",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "0.0.0.1": {
+              "TimeReleased": "2026-08-24T21:49:42.2981002+00:00",
+              "Changelog": "DutyLootPreview is now a standalone plugin instead of a VanillaPlus module (at MidoriKami\u0027s request).\n\n- All functionality is the same.\n- Use \u0060/dlp import\u0060 to import your existing DLP settings\n\nThe VanillaPlus version of DutyLootPreview will be removed in the near future.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "Aigamo.ResXGenerator",
+                  "Version": "4.4.0"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "KamiToolKit",
+                  "Version": "2.2.9"
+                },
+                {
+                  "Key": "LuminaSupplemental.Excel",
+                  "Version": "4.3.4"
+                },
+                {
+                  "Key": "CSVFile",
+                  "Version": "3.2.1"
+                },
+                {
+                  "Key": "CsvHelper",
+                  "Version": "30.0.1"
+                },
+                {
+                  "Key": "Sylvan.Data.Csv",
+                  "Version": "1.4.3"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "grittyfrog"
+            }
+          }
         }
       }
     },
@@ -353855,6 +353903,20 @@
       "Version": "71.0.14-preview",
       "ReviewedBy": "reiichi001",
       "ReviewedAt": "2026-08-19T11:54:16.3832085Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Aigamo.ResXGenerator",
+      "Version": "4.4.0",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-08-24T21:49:42.3795862Z"
+    },
+    {
+      "Type": 1,
+      "Key": "KamiToolKit",
+      "Version": "2.2.9",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-08-24T21:49:42.3796166Z"
     }
   ]
 }
