@@ -1,0 +1,26 @@
+{
+  "Author": "Bronya Rand",
+  "Name": "ProxyPlayer",
+  "InternalName": "ProxyPlayer",
+  "AssemblyVersion": "1.0.0.0",
+  "Description": "\nProxyPlayer is a simple plugin that allows you to control your computer's media playback from within XIV.\n\nControl your media player from within the game, without having to alt-tab or use a second monitor.\nFeatures (depending on your media player):\n- Play/Pause\n- Next/Previous Track\n- Stop\n- Progress Bar\n- Cover Art Display\n- Metadata\n\nProxyPlayer comes with either a compact or portrait UI for displaying your media information.\n    ",
+  "ApplicableVersion": "any",
+  "Tags": [
+    "music,proxy,player,media,windows,smtc"
+  ],
+  "CategoryTags": [
+    "utility",
+    "ui",
+    "other"
+  ],
+  "DalamudApiLevel": 15,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "Punchline": "Control what's playing on your computer within XIV!",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "testing-live",
+  "RepoUrl": "https://github.com/Bronya-Rand/ProxyPlayer.git"
+}

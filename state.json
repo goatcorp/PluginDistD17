@@ -327791,6 +327791,30 @@
               "Submitter": "Haselnussbomber"
             }
           }
+        },
+        "ProxyPlayer": {
+          "BuiltCommit": "9a63353fafbf59c9fcb1035204b09496fe0ceb86",
+          "TimeBuilt": "2026-08-24T21:43:49.4557953+00:00",
+          "EffectiveVersion": "1.0.0.0",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "1.0.0.0": {
+              "TimeReleased": "2026-08-24T21:43:49.4558377+00:00",
+              "Changelog": "ProxyPlayer is a plugin that allows users to control what\u0027s playing on their PC, whether it be Firefox, Spotify, or any media player from within XIV. No need to Alt-Tab to Play/Pause, just control it within the game.\r\n\r\n## Features:\r\n- Metadata support like Title/Cover Art of songs being played\r\n- Support for UWP apps or browsers playing YT Music, Spotify, pretty much any media player or browser communicating on Windows\u0027 SMTC (System Media Transport Controls) protocol.\r\n- Play/Pause, Next/Previous\r\n- (On some players) Stop, Shuffle, Repeat, Repeat Once\r\n\r\n## Dependency\r\n- ProxyPlayer is dependent on a included project called \u0060ProxyPlayerServer\u0060 which serves as a middleman between XIV/Dalamud and Windows. Due to the use of Windows API, this is needed to forward data between Windows and XIV for the plugin to work properly as it needs its own wrapper. \r\n\r\n## How To Test:\r\n1. Build ProxyPlayerServer first and then ProxyServer.\r\n2. Run plugin.\r\n\r\nTo access the plugin use \u0060/pplayer\u0060 or click the DTR on the server info bar.\r\n\r\n## AI Disclosure\r\n- AI was only used to provide examples of SMTC controls in C#, thus Assisted.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "2.0.5"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Bronya-Rand"
+            }
+          }
         }
       }
     },
