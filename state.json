@@ -327887,6 +327887,38 @@
               "Submitter": "Aireil"
             }
           }
+        },
+        "ShopItemIcons": {
+          "BuiltCommit": "1cacbd12a3c19c31f190427f18757367c8a3dc86",
+          "TimeBuilt": "2026-08-24T21:56:06.8620865+00:00",
+          "EffectiveVersion": "1.0.0.0",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "1.0.0.0": {
+              "TimeReleased": "2026-08-24T21:56:06.8621302+00:00",
+              "Changelog": "**Shop Item Icons** is a lightweight plugin to display item icons instead of item category icons in shops.\r\n\r\nSupported windows:\r\n\r\n- **Shops:** Simple merchants that sell items for Gil.\r\n- **Item Exchange:** Vendors that trade items for items, such as the Wolf Collar Exchange or Itinerant Moogles that exchange items for Irregular Tomestones during the Moogle Treasure Trove event.\r\n- **Item Exchange (categorized):** Splendors Vendors, the Scrip Exchange or the Wolf Mark Exchange.\r\n- **Currency Exchange:** Vendors that sell items for currency, such as all the societies vendors, or the Trophy Crystal Exchange.\r\n- **Grand Company Seal Exchange:** Quartermasters of Grand Companies.\r\n- **Rewards:** Vendors that provide job gear free of charge.\r\n- **Exchange:** Calamity Salvager when exchanging old pigments for all-purpose pigments.\r\n\r\nThe plugin has no configuration. It just works.",
+              "UsedNeeds": [
+                {
+                  "Key": "AutoCtor",
+                  "Version": "3.1.1"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Roslynator.Analyzers",
+                  "Version": "4.15.0"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Haselnussbomber"
+            }
+          }
         }
       }
     },
@@ -353941,6 +353973,13 @@
       "Version": "2.2.9",
       "ReviewedBy": "nathanctech",
       "ReviewedAt": "2026-08-24T21:49:42.3796166Z"
+    },
+    {
+      "Type": 1,
+      "Key": "AutoCtor",
+      "Version": "3.1.1",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-08-24T21:56:06.9380028Z"
     }
   ]
 }
