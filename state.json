@@ -327739,6 +327739,30 @@
               "Submitter": "Zeffuro"
             }
           }
+        },
+        "ThingsToDoInEorzea": {
+          "BuiltCommit": "5aa8cff1a89771e09fdad26322b4a1100b46e8cb",
+          "TimeBuilt": "2026-08-24T21:34:01.5862898+00:00",
+          "EffectiveVersion": "1.0.0.0",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "1.0.0.0": {
+              "TimeReleased": "2026-08-24T21:34:01.5863286+00:00",
+              "Changelog": "Things To Do In Eorzea is more than just a simple to-do-list. It\u0027s one that automatically monitors what you need to collect, what duties you need to clear, FATEs and more! You can either set it up to track items you need or have it track your clears. Think that\u0027s not enough? You can even set yourself up some ridiculous tasks for yourself like doing MINE Bahamut or a whole Savage round without dying/wiping to just simply forcing yourself to play a specific job, or speedrun. There are always things to do in Eorzea. Just get creative!\r\n\r\nUnlike other to-do plugins, Things To Do In Eorzea:\r\n1. Auto-tracks your completed dungeons, trials and raids.\r\n2. Auto-tracks your completed FATEs by region, a specific FATE or any FATE in general.\r\n3. Auto-tracks the items in your inventory, making sure you have what you needed to get.\r\n4. Make self-imposed challenges like doing Minstrel\u0027s Ballads on MINE difficulty, speedrun a Dungeon, one-shot/no kill, and more.\r\n5. Read objectives in your native language*\r\n\r\n   \u003E French is partially broken ATM pending a Dalamud merge.\r\n\r\nAnd you still have your sticky note for whenever you need it.\r\n\r\nAI Use: Assist\r\n\u003E AI was used to inquire about translations from English to Japanese to show there was at least an attempt to show that localization is supported. However said translations may not be accurate. Anyone interested may PR or DM me their translated findings for German, Japanese and French if they so please. Thus far:\r\n\u003E - Full English on UI and Objective Display\r\n\u003E - Full Japanese [Claude\u002BGemini\u002BGoogle Translate\u002BDeepL\u002BJapanese Dictionary] on UI and Objective Display\r\n\u003E - German only on the Objective Display with partial assistance from XIV community for macros and Claude\r\n\u003E - French only on the Objective DIsplay with assistance from Gemini and Clause\r\n\u003E \r\n\u003E There was also AI assist for the localization system.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Bronya-Rand"
+            }
+          }
         }
       }
     },

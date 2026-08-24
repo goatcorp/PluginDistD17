@@ -1,0 +1,26 @@
+{
+  "Author": "Bronya Rand",
+  "Name": "Things To Do In Eorzea",
+  "InternalName": "ThingsToDoInEorzea",
+  "AssemblyVersion": "1.0.0.0",
+  "Description": "\nKeep track of all your objectives and tasks in Eorzea. Whether it's collecting tomes/items/gear, completing dungeons/trials/raids, FATEs, or purely making a random list of things to do to keep yourself busy, keep yourself organized and on track with this plugin.\n\nFeatures:\n    - Create and manage a list of objectives and tasks.\n    - Automatically track your progress on objectives and tasks.\n    - View your objectives and tasks with a window inspired by the in-game Duty Log.\n    - Automatic translation of objectives and tasks to your game client's language. (No need to write what you want to do. Just setup how you want to do it and the plugin will fill in the rest!)\n    - Open creativity for just about anything that comes up to mine! (...What? You don't think making silly challenges like doing Endsinger's Aria - Extreme with MINE in under 12 minutes a good idea? Seriously, you can make that a task if you want)\n       \nInspired by the idea of \"DYOM\" (Design Your Own Mission) and \"TTDISA\" (Things To Do In San Andreas) from GTA: San Andreas as well as Simple To-Do List and other similar plugins.\n    ",
+  "ApplicableVersion": "any",
+  "Tags": [
+    "to-do,list,track,task,objective,custom,utility,ui,other"
+  ],
+  "CategoryTags": [
+    "utility",
+    "ui",
+    "other"
+  ],
+  "DalamudApiLevel": 15,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "Punchline": "Unsure what to do? Forgot what you wanted to do? Nonsense! There's always things to do in Eorzea!",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "testing-live",
+  "RepoUrl": "https://github.com/Bronya-Rand/ThingsToDoInEorzea.git"
+}
