@@ -327863,6 +327863,30 @@
               "Submitter": "grittyfrog"
             }
           }
+        },
+        "InputFlow": {
+          "BuiltCommit": "c8eb36316c93b2ff324c6200473eede63232b19e",
+          "TimeBuilt": "2026-08-24T21:53:23.7138748+00:00",
+          "EffectiveVersion": "0.0.0.1",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "0.0.0.1": {
+              "TimeReleased": "2026-08-24T21:53:23.713916+00:00",
+              "Changelog": "# InputFlow\r\nImprove the native text inputs by restoring common text-editing shortcuts.\r\n\r\nSupported shortcuts:\r\n- CTRL \u002B CTRL \u002B LEFT/RIGHT to jump words\r\n- CTRL \u002B SHIFT \u002B LEFT/RIGHT to select words\r\n- CTRL \u002B BACK/DELETE to delete words\r\n- CTRL/SHIFT \u002B INSERT to copy/paste\r\n- SHIFT \u002B DELETE to cut\r\n\r\nChanges:\r\n- LEFT/RIGHT unselects even if the cursor is at the start/end respectively\r\n- LEFT/RIGHT with an active selection unselects and puts the cursor at the beginning/end of the selection",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Aireil"
+            }
+          }
         }
       }
     },

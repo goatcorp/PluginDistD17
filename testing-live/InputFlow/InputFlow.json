@@ -1,0 +1,25 @@
+{
+  "Author": "Aireil",
+  "Name": "InputFlow",
+  "InternalName": "InputFlow",
+  "AssemblyVersion": "0.0.0.1",
+  "Description": "Supported shortcuts:\n        - CTRL + CTRL + LEFT/RIGHT to jump words\n        - CTRL + SHIFT + LEFT/RIGHT to select words\n        - CTRL + BACK/DELETE to delete words\n        - CTRL/SHIFT + INSERT to copy/paste\n        - SHIFT + DELETE to cut\n    Changes:\n        - LEFT/RIGHT selects even if the cursor is at the start/end respectively\n        - LEFT/RIGHT with an active selection unselects and puts the cursor at the beginning/end of the selection\n    ",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/Aireil/InputFlow",
+  "Tags": [
+    "text",
+    "input",
+    "shortcut",
+    "ctrl",
+    "shift"
+  ],
+  "DalamudApiLevel": 15,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "Punchline": "Improve the native text inputs by restoring common text-editing behaviors.",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "testing-live"
+}
