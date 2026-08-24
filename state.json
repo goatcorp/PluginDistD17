@@ -261352,9 +261352,9 @@
           }
         },
         "AcrylicXIV": {
-          "BuiltCommit": "df34c9704e3c13507dbfc45fa9b2afc421743c9b",
-          "TimeBuilt": "2026-08-17T19:28:23.9920776+00:00",
-          "EffectiveVersion": "0.0.0.3",
+          "BuiltCommit": "62d38ff8df810d52b8ee441c376a149172914238",
+          "TimeBuilt": "2026-08-24T19:42:10.1351573+00:00",
+          "EffectiveVersion": "0.1.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.0.3": {
@@ -261371,6 +261371,22 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "MapleRecall"
+            },
+            "0.1.0.0": {
+              "TimeReleased": "2026-08-24T19:42:10.1352181+00:00",
+              "Changelog": "- Add an option to exclude the current target\u0027s nameplate, HP bar, and cursor from the effect.\n- Add an option to disable the effect during native UI fades, with an adjustable smooth recovery.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "MapleRecall"
             }
           }
@@ -325473,9 +325489,9 @@
           }
         },
         "EchoXIV": {
-          "BuiltCommit": "4a6361e534312c1fd3b0204827a929d164623d15",
-          "TimeBuilt": "2026-08-15T18:14:56.5075242+00:00",
-          "EffectiveVersion": "1.0.1.0",
+          "BuiltCommit": "ec9fcbf1a2cfa7934ed24832959c73f7f86359e7",
+          "TimeBuilt": "2026-08-24T19:42:20.8429197+00:00",
+          "EffectiveVersion": "1.0.2.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -325501,6 +325517,26 @@
             "1.0.1.0": {
               "TimeReleased": "2026-08-15T18:14:56.5075714+00:00",
               "Changelog": null,
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.3"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "ssalazar217"
+            },
+            "1.0.2.0": {
+              "TimeReleased": "2026-08-24T19:42:20.8429212+00:00",
+              "Changelog": "v1.0.2.0:\n- Added EchoXIV Translate (LibreTranslate) as a dedicated unlimited translation engine and added Yandex support.\n- Expanded local AI support for OpenAI-compatible servers such as LM Studio and Ollama, including model configuration, connection checks, timeout control, disabled thinking mode, and response token limits.\n- Added configurable translation-engine fallback with automatic recovery checks for the primary engine.\n- Prevented repeated failover loops when local AI returns an empty response or is unavailable.\n- Added destination-language context to translation requests and logs so the requested output language is explicit.\n- Added single-request AI romanization, returning translated text and romanized text together as structured JSON.\n- Updated the translated-chat window to display romanized output while preserving translated and source text according to message direction.\n- Applied configuration changes immediately, including language, engine, fallback, and romanization settings.\n- Fixed Papago using its current web endpoint and improved translation error handling.\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
