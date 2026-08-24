@@ -2,7 +2,7 @@
   "Author": "Lily",
   "Name": "Karaoke",
   "InternalName": "Karaoke",
-  "AssemblyVersion": "0.0.5.0",
+  "AssemblyVersion": "0.0.5.1",
   "Description": "Shows the lyrics of what's currently playing, synced to the track time",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/RajahOmen/Karaoke",

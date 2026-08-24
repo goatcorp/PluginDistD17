@@ -326993,9 +326993,9 @@
           }
         },
         "Karaoke": {
-          "BuiltCommit": "ea911649d358c0c89b7081ac35a5c11a9592cd3c",
-          "TimeBuilt": "2026-08-08T23:25:19.3773478+00:00",
-          "EffectiveVersion": "0.0.5.0",
+          "BuiltCommit": "089d4d10d6ff12d2bf316981ed201b1ace68f8ad",
+          "TimeBuilt": "2026-08-24T22:34:59.1915651+00:00",
+          "EffectiveVersion": "0.0.5.1",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.2.2": {
@@ -327509,6 +327509,134 @@
               ],
               "Reviewer": "reiichi001",
               "Submitter": "RajahOmen"
+            },
+            "0.0.5.1": {
+              "TimeReleased": "2026-08-24T22:34:59.1916101+00:00",
+              "Changelog": "**Fixes**\n- Fixed issue with parsing songs in regions that use other number formats than the US\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Hosting",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Abstractions",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Binder",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.CommandLine",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.EnvironmentVariables",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.FileExtensions",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Json",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.UserSecrets",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Diagnostics",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Diagnostics.Abstractions",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileProviders.Abstractions",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileProviders.Physical",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileSystemGlobbing",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Hosting.Abstractions",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Configuration",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Console",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Debug",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.EventLog",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.EventSource",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options.ConfigurationExtensions",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Primitives",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "System.Diagnostics.EventLog",
+                  "Version": "10.0.10"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "RajahOmen"
             }
           }
         },
@@ -327917,6 +328045,30 @@
               ],
               "Reviewer": "nathanctech",
               "Submitter": "Haselnussbomber"
+            }
+          }
+        },
+        "AethericFlow": {
+          "BuiltCommit": "08b1c099c52ada78dff3daa5b0fa3e2f6046e1a1",
+          "TimeBuilt": "2026-08-24T22:35:08.2145379+00:00",
+          "EffectiveVersion": "0.0.1.0",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "0.0.1.0": {
+              "TimeReleased": "2026-08-24T22:35:08.2145436+00:00",
+              "Changelog": "Introducing Aetheric Flow!\n\nAdds a teleport link to the nearest aetheryte on every map link in chat.\n\nKey Features:\n- Adds a clickable teleport link after map coordinates in chat.\n- Picks the nearest aetheryte you have attuned in that zone.\n- /aftp teleports to the most recent map link for controller players.\n- Choose which chat channels are scanned.\n- English, Japanese, German and French are all supported.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "OOFGamesss"
             }
           }
         }
