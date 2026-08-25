@@ -328127,6 +328127,30 @@
               "Submitter": "OOFGamesss"
             }
           }
+        },
+        "ItsUp": {
+          "BuiltCommit": "fa22c4c151e3217de135ce1e330c3ac4438801fb",
+          "TimeBuilt": "2026-08-25T21:25:20.6833192+00:00",
+          "EffectiveVersion": "0.5.1.0",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "0.5.1.0": {
+              "TimeReleased": "2026-08-25T21:25:20.6833625+00:00",
+              "Changelog": "Initial submission.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "juan-medina"
+            }
+          }
         }
       }
     },

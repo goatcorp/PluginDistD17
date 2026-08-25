@@ -1,0 +1,25 @@
+{
+  "Author": "Juan Medina",
+  "Name": "It's Up",
+  "InternalName": "ItsUp",
+  "AssemblyVersion": "0.5.1.0",
+  "Description": "Reminds you when a cooldown you actually spent has come back. Nothing shows until you use something, so the panel starts empty and only nags you about what you owe yourself. /itsup to move the panel.",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/juan-medina/ItsUp",
+  "Tags": [
+    "combat",
+    "cooldown",
+    "reminder",
+    "hud"
+  ],
+  "DalamudApiLevel": 15,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "IconUrl": "https://raw.githubusercontent.com/juan-medina/ItsUp/main/ItsUp/icon.png",
+  "Punchline": "Yes. Still up. Press it.",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "testing-live"
+}
