@@ -261406,6 +261406,30 @@
               "Submitter": "MapleRecall"
             }
           }
+        },
+        "InputFlow": {
+          "BuiltCommit": "0e3597994f6b8eefe1c78b66e2d4951e642e96ed",
+          "TimeBuilt": "2026-08-25T21:13:15.434819+00:00",
+          "EffectiveVersion": "1.0.0.0",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "1.0.0.0": {
+              "TimeReleased": "2026-08-25T21:13:15.4348583+00:00",
+              "Changelog": "# InputFlow\r\nImproves the native text inputs by restoring common text-editing shortcuts. Works in all game text inputs: chat, macros, search, etc.\r\n\r\nSupported shortcuts:\r\n- Ctrl \u002B Left/Right: Jump between words\r\n- Ctrl \u002B Shift \u002B Left/Right: Select word by word\r\n- Ctrl \u002B Backspace/Delete: Delete words\r\n- Ctrl \u002B Insert: Copy\r\n- Shift \u002B Insert: Paste\r\n- Shift \u002B Delete: Cut\r\n\r\nChanges:\r\n- Pressing Left/Right with the cursor at the start/end of an input properly clears the selection instead of doing nothing.\r\n- Clearing an active selection with Left/Right moves the cursor to the beginning/end of the selection.\r\n\r\nSetting:\r\n- Configurable word boundary: Choose whether Ctrl \u002B Right jumps to word ends (Discord, IDEs) or word starts (Windows, Notepad\u002B\u002B, ImGui).\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Aireil"
+            }
+          }
         }
       }
     },

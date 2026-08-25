@@ -1,0 +1,26 @@
+{
+  "Author": "Aireil",
+  "Name": "InputFlow",
+  "InternalName": "InputFlow",
+  "AssemblyVersion": "1.0.0.0",
+  "Description": "\n    Improves the native text inputs by restoring common text-editing shortcuts. Works in all game text inputs: chat, macros, search, etc.\n\n    Supported shortcuts:\n        - Ctrl + Left/Right: Jump between words\n        - Ctrl + Shift + Left/Right: Select word by word\n        - Ctrl + Backspace/Delete: Delete words\n        - Ctrl + Insert: Copy\n        - Shift + Insert: Paste\n        - Shift + Delete: Cut\n\n    Changes:\n        - Pressing Left/Right with the cursor at the start/end of an input properly clears the selection instead of doing nothing.\n        - Clearing an active selection with Left/Right moves the cursor to the beginning/end of the selection.\n\n    Setting:\n        - Configurable word boundary: Choose whether Ctrl + Right jumps to word ends (Discord, IDEs) or word starts (Windows, Notepad++, ImGui).",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/Aireil/InputFlow",
+  "Tags": [
+    "text",
+    "input",
+    "shortcut",
+    "ctrl",
+    "shift",
+    "chat"
+  ],
+  "DalamudApiLevel": 15,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "Punchline": "Improves the native text inputs by restoring common text-editing behaviors.",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "stable"
+}
