@@ -1,0 +1,18 @@
+{
+  "Author": "Haselnussbomber",
+  "Name": "Scrollable Tabs",
+  "InternalName": "ScrollableTabs",
+  "AssemblyVersion": "1.0.0.0",
+  "Description": "Lets you use the mouse wheel to switch tabs (like LB/RB on controllers do).\r\n\r\nThe following windows are supported and can be toggled individually:\r\n\r\n- Aether Currents\r\n- Armoury Chest\r\n- Blue Magic Spellbook\r\n- Character\r\n- Character -> Classes/Jobs\r\n- Character -> Reputation\r\n- Chocobo Saddlebag\r\n- Companion\r\n- Currency\r\n- Facewear\r\n- Fashion Accessories\r\n- Field Records\r\n- Fish Guide\r\n- Glamour Dresser (scrolls pages, not tabs)\r\n- Gold Saucer -> Card List\r\n- Gold Saucer -> Decks -> Edit Deck\r\n- Gold Saucer -> Lord of Verminion -> Minion Hotbar\r\n- Inventory\r\n- Island Minion Guide\r\n- Minions\r\n- Mounts\r\n- Retainer Inventory\r\n- Shared FATE\r\n- Sightseeing Log\r\n\r\nThe Command Panel already includes this functionality and instead has an option to disable its tab-scrolling sound effect.",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/Haselnussbomber/ScrollableTabs",
+  "DalamudApiLevel": 15,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "Punchline": "Lets you use the mouse wheel to switch tabs (like LB/RB on controllers do).",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "stable"
+}

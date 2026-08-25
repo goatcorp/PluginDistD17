@@ -1,0 +1,18 @@
+{
+  "Author": "Haselnussbomber",
+  "Name": "Shop Item Icons",
+  "InternalName": "ShopItemIcons",
+  "AssemblyVersion": "1.0.0.0",
+  "Description": "Displays item icons instead of item category icons in shops.\r\n      \r\nSupported windows:\r\n\r\n- Shops: Simple merchants that sell items for Gil.\r\n- Item Exchange: Vendors that trade items for items, such as the Wolf Collar Exchange or Itinerant Moogles that exchange items for Irregular Tomestones during the Moogle Treasure Trove event.\r\n- Item Exchange (categorized): Splendors Vendors, the Scrip Exchange or the Wolf Mark Exchange.\r\n- Currency Exchange: Vendors that sell items for currency, such as all the societies vendors, or the Trophy Crystal Exchange.\r\n- Grand Company Seal Exchange: Quartermasters of Grand Companies.\r\n- Rewards: Vendors that provide job gear free of charge.\r\n- Exchange: Calamity Salvager when exchanging old pigments for all-purpose pigments.",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/Haselnussbomber/ShopItemIcons",
+  "DalamudApiLevel": 15,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "Punchline": "Displays item icons instead of item category icons in shops.",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "stable"
+}
