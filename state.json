@@ -261522,6 +261522,30 @@
               "Submitter": "Haselnussbomber"
             }
           }
+        },
+        "MouseLock": {
+          "BuiltCommit": "fbabddc5752852a44e8196bbecfdb8af8557ca10",
+          "TimeBuilt": "2026-08-26T19:55:19.8340192+00:00",
+          "EffectiveVersion": "1.0.0.3",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "1.0.0.3": {
+              "TimeReleased": "2026-08-26T19:55:19.8340677+00:00",
+              "Changelog": "# MouseLock\n\nMouseLock keeps FFXIV in mouselook until you actually need the cursor. It pauses for chat, bags, menus, and other UI, and can also turn LMB/RMB into configurable game inputs, hotbar actions, or MouseLock controls.\n\n- Release to stable",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "Zeffuro"
+            }
+          }
         }
       }
     },
