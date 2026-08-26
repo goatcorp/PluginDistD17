@@ -16711,9 +16711,9 @@
           }
         },
         "RemotePartyFinder": {
-          "BuiltCommit": "ccf81ec3dd8e7eafa229edc5bc616fddf7a79fb6",
-          "TimeBuilt": "2025-12-28T15:36:15.8391971+00:00",
-          "EffectiveVersion": "1.0.18.0",
+          "BuiltCommit": "aaef193db362356bbdfa585b7ef1d1efa8f2f5ee",
+          "TimeBuilt": "2026-08-26T19:35:17.5806206+00:00",
+          "EffectiveVersion": "1.0.19.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.8.0": {
@@ -16836,6 +16836,22 @@
                 }
               ],
               "Reviewer": "philpax",
+              "Submitter": "zeroeightysix"
+            },
+            "1.0.19.0": {
+              "TimeReleased": "2026-08-26T19:35:17.5806803+00:00",
+              "Changelog": "Update for 7.55",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "reiichi001",
               "Submitter": "zeroeightysix"
             }
           }
@@ -107216,9 +107232,9 @@
           }
         },
         "AbilityAnts": {
-          "BuiltCommit": "3351d897b2a965a75038927585837e6b46636b21",
-          "TimeBuilt": "2026-04-29T21:32:13.2402922+00:00",
-          "EffectiveVersion": "1.0.2.5",
+          "BuiltCommit": "45db8d8db7d7d79d9a5cbe99c4cc2fd39cfabe9a",
+          "TimeBuilt": "2026-08-26T19:35:25.0316417+00:00",
+          "EffectiveVersion": "1.0.2.6",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -107401,6 +107417,22 @@
                 }
               ],
               "Reviewer": "nathanctech",
+              "Submitter": "Zeffuro"
+            },
+            "1.0.2.6": {
+              "TimeReleased": "2026-08-26T19:35:25.0316437+00:00",
+              "Changelog": "# 1.0.2.6\n\t\t- Add option to allow to show ants while casting (thanks juan-medina)\n\t\t",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "reiichi001",
               "Submitter": "Zeffuro"
             }
           }

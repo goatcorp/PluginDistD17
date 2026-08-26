@@ -2,11 +2,10 @@
   "Author": "086, Anna",
   "Name": "Remote Party Finder Uploader",
   "InternalName": "RemotePartyFinder",
-  "AssemblyVersion": "1.0.18.0",
-  "Description": "Uploads the PF listings you retrieve to the crowdsourced Remote\nParty Finder website (https://xivpf.com/).",
+  "AssemblyVersion": "1.0.19.0",
+  "Description": "Uploads the PF listings you retrieve to the crowdsourced Remote Party Finder website (https://xivpf.com/).",
   "ApplicableVersion": "any",
-  "RepoUrl": "https://github.com/zeroeightysix/remote-party-finder/",
-  "DalamudApiLevel": 14,
+  "DalamudApiLevel": 15,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
@@ -14,5 +13,6 @@
   "Punchline": "Crowdsourced PF website (upload PF listings to xivpf.com)",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
-  "_Dip17Channel": "stable"
+  "_Dip17Channel": "stable",
+  "RepoUrl": "https://github.com/zeroeightysix/remote-party-finder.git"
 }
