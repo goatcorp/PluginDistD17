@@ -328221,14 +328221,30 @@
           }
         },
         "AethericFlow": {
-          "BuiltCommit": "08b1c099c52ada78dff3daa5b0fa3e2f6046e1a1",
-          "TimeBuilt": "2026-08-24T22:35:08.2145379+00:00",
-          "EffectiveVersion": "0.0.1.0",
+          "BuiltCommit": "0e95b3c0dd9d246a66139c88ff6599dc539e8f00",
+          "TimeBuilt": "2026-08-26T22:18:52.6155651+00:00",
+          "EffectiveVersion": "0.0.2.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.1.0": {
               "TimeReleased": "2026-08-24T22:35:08.2145436+00:00",
               "Changelog": "Introducing Aetheric Flow!\n\nAdds a teleport link to the nearest aetheryte on every map link in chat.\n\nKey Features:\n- Adds a clickable teleport link after map coordinates in chat.\n- Picks the nearest aetheryte you have attuned in that zone.\n- /aftp teleports to the most recent map link for controller players.\n- Choose which chat channels are scanned.\n- English, Japanese, German and French are all supported.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "OOFGamesss"
+            },
+            "0.0.2.0": {
+              "TimeReleased": "2026-08-26T22:18:52.6156023+00:00",
+              "Changelog": "- Added a quicker on foot check for the player to see if it\u0027s worth teleporting or not.\n- Added the ability for the map link to be marked on the map upon teleporting via the link.\n- Added different colour options for the link text.\n- Icon update.",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
