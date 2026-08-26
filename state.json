@@ -251420,9 +251420,9 @@
           }
         },
         "Altoholic": {
-          "BuiltCommit": "4908fc8e98525510003c3e3afb796bcf83c0c238",
-          "TimeBuilt": "2026-08-13T02:26:09.41571+00:00",
-          "EffectiveVersion": "1.12.12.0",
+          "BuiltCommit": "d20c88ec30fa3a244ec68240f1cd0646e17d2b9b",
+          "TimeBuilt": "2026-08-26T22:24:32.5372829+00:00",
+          "EffectiveVersion": "1.12.13.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -253368,6 +253368,50 @@
             "1.12.12.0": {
               "TimeReleased": "2026-08-13T02:26:09.4157519+00:00",
               "Changelog": "- **Progress**: Fix Moonfire Faire quest id\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "Dapper",
+                  "Version": "2.1.79"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "2.0.5"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite.Core",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.bundle_e_sqlite3",
+                  "Version": "3.0.5"
+                },
+                {
+                  "Key": "SQLite",
+                  "Version": "3.53.4"
+                },
+                {
+                  "Key": "SQLitePCLRaw.config.e_sqlite3",
+                  "Version": "3.0.5"
+                },
+                {
+                  "Key": "SQLitePCLRaw.core",
+                  "Version": "3.0.5"
+                },
+                {
+                  "Key": "SQLitePCLRaw.provider.e_sqlite3",
+                  "Version": "3.0.5"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Sohtoren"
+            },
+            "1.12.13.0": {
+              "TimeReleased": "2026-08-26T22:24:32.5373371+00:00",
+              "Changelog": "- **Inventories**: Add saddlebag inventory to global search\n- **Progress**: Add The Rising 2026\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
