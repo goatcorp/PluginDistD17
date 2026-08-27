@@ -243176,9 +243176,9 @@
           }
         },
         "VanillaPlus": {
-          "BuiltCommit": "8e4ed158d1e3fce205571a6fd133e8927317ad74",
-          "TimeBuilt": "2026-08-22T17:17:59.0167319+00:00",
-          "EffectiveVersion": "1.4.3.3",
+          "BuiltCommit": "5cb322123ace232ce0a656799ce14597ad23936e",
+          "TimeBuilt": "2026-08-27T17:46:12.6468272+00:00",
+          "EffectiveVersion": "1.4.3.7",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.1.6": {
@@ -249392,6 +249392,46 @@
                 {
                   "Key": "https://github.com/MidoriKami/KamiToolKit.Components",
                   "Version": "76ebbac0b3d91dace40ac16b5e132bee0793b49a"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "LuminaSupplemental.Excel",
+                  "Version": "5.1.4"
+                },
+                {
+                  "Key": "CSVFile",
+                  "Version": "3.2.1"
+                },
+                {
+                  "Key": "CsvHelper",
+                  "Version": "30.0.1"
+                },
+                {
+                  "Key": "Sylvan.Data.Csv",
+                  "Version": "1.4.3"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "MidoriKami"
+            },
+            "1.4.3.7": {
+              "TimeReleased": "2026-08-27T17:46:12.6468731+00:00",
+              "Changelog": "New Features!\r\n\r\nBetter Emote Window - Expands the emote list, and shows a preview of what various emotes will show in chat including name resolution.\r\n\r\nFaux Hollows Helper - Helps indicate where to select in the Faux Hollows minigame, and indicates likely locations for the Faux Commander!\r\n\r\nAdditional Hotbars - You can now add as many hotbars with as many hotbar slots as you want!\r\nNOTE: This feature is highly experimental, and will not support Hotkeys.\r\n\r\nShow Active Signs - Adds a checkmark indicator to signs that are currently active to the Signs window.",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "9c4ee9c5a691fa9502c6e851b99c765a07fb7de8"
+                },
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit.Components",
+                  "Version": "e9a83cbbaf5b5b58525910b2709ed4b86ba1122f"
                 },
                 {
                   "Key": "DalamudPackager",
@@ -354456,6 +354496,20 @@
       "Version": "3.1.1",
       "ReviewedBy": "nathanctech",
       "ReviewedAt": "2026-08-24T21:56:06.9380028Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/MidoriKami/KamiToolKit",
+      "Version": "9c4ee9c5a691fa9502c6e851b99c765a07fb7de8",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-08-27T17:46:12.72732Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/MidoriKami/KamiToolKit.Components",
+      "Version": "e9a83cbbaf5b5b58525910b2709ed4b86ba1122f",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-08-27T17:46:12.7273505Z"
     }
   ]
 }
