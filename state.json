@@ -254100,9 +254100,9 @@
           }
         },
         "LootView": {
-          "BuiltCommit": "83346fe4469e606518c032fe392b5b462894c679",
-          "TimeBuilt": "2026-08-24T23:41:57.5536665+00:00",
-          "EffectiveVersion": "1.3.3.0",
+          "BuiltCommit": "8f658020d4bf93551cd4e729ac6e577fb84f0d1a",
+          "TimeBuilt": "2026-08-27T17:37:20.0419672+00:00",
+          "EffectiveVersion": "1.3.4.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.3.1.0": {
@@ -254132,6 +254132,22 @@
             "1.3.3.0": {
               "TimeReleased": "2026-08-24T23:41:57.5537064+00:00",
               "Changelog": "# Version 1.3.3\n- Updated to Dalamud API Level 15\n- Added option to disable the Need/Greed roll tracking window\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "GitHixy"
+            },
+            "1.3.4.0": {
+              "TimeReleased": "2026-08-27T17:37:20.0420076+00:00",
+              "Changelog": "# Version 1.3.4\n- Recognized more measure words in loot messages (roll of, bunch of, basket of, sheet of, glass of, pouch of, sack of, crate of)\n- Preserved genuine item names that look like measure words, fixing \u0022Set of Liquor Bottles\u0022, \u0022Pot of Cream Stew\u0022 and \u0022Basket of Flowers\u0022\n- Fixed fishing catches of more than one fish being recorded as a single item\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -320181,9 +320197,9 @@
           }
         },
         "LootView": {
-          "BuiltCommit": "83346fe4469e606518c032fe392b5b462894c679",
-          "TimeBuilt": "2026-08-24T23:42:07.829462+00:00",
-          "EffectiveVersion": "1.3.3.0",
+          "BuiltCommit": "8f658020d4bf93551cd4e729ac6e577fb84f0d1a",
+          "TimeBuilt": "2026-08-27T17:37:43.6626335+00:00",
+          "EffectiveVersion": "1.3.4.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.2.5.0": {
@@ -320249,6 +320265,22 @@
             "1.3.3.0": {
               "TimeReleased": "2026-08-24T23:42:07.8294632+00:00",
               "Changelog": "# Version 1.3.3\n- Updated to Dalamud API Level 15\n- Added option to disable the Need/Greed roll tracking window\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "GitHixy"
+            },
+            "1.3.4.0": {
+              "TimeReleased": "2026-08-27T17:37:43.6626353+00:00",
+              "Changelog": "# Version 1.3.4\n- Recognized more measure words in loot messages (roll of, bunch of, basket of, sheet of, glass of, pouch of, sack of, crate of)\n- Preserved genuine item names that look like measure words, fixing \u0022Set of Liquor Bottles\u0022, \u0022Pot of Cream Stew\u0022 and \u0022Basket of Flowers\u0022\n- Fixed fishing catches of more than one fish being recorded as a single item\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -325705,9 +325737,9 @@
           }
         },
         "EchoXIV": {
-          "BuiltCommit": "ec9fcbf1a2cfa7934ed24832959c73f7f86359e7",
-          "TimeBuilt": "2026-08-24T19:42:20.8429197+00:00",
-          "EffectiveVersion": "1.0.2.0",
+          "BuiltCommit": "3916be122ef050dd60ff4b1d1a9d8ba854edaa14",
+          "TimeBuilt": "2026-08-27T17:37:33.9378645+00:00",
+          "EffectiveVersion": "1.0.2.1",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -325753,6 +325785,26 @@
             "1.0.2.0": {
               "TimeReleased": "2026-08-24T19:42:20.8429212+00:00",
               "Changelog": "v1.0.2.0:\n- Added EchoXIV Translate (LibreTranslate) as a dedicated unlimited translation engine and added Yandex support.\n- Expanded local AI support for OpenAI-compatible servers such as LM Studio and Ollama, including model configuration, connection checks, timeout control, disabled thinking mode, and response token limits.\n- Added configurable translation-engine fallback with automatic recovery checks for the primary engine.\n- Prevented repeated failover loops when local AI returns an empty response or is unavailable.\n- Added destination-language context to translation requests and logs so the requested output language is explicit.\n- Added single-request AI romanization, returning translated text and romanized text together as structured JSON.\n- Updated the translated-chat window to display romanized output while preserving translated and source text according to message direction.\n- Applied configuration changes immediately, including language, engine, fallback, and romanization settings.\n- Fixed Papago using its current web endpoint and improved translation error handling.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.3"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "ssalazar217"
+            },
+            "1.0.2.1": {
+              "TimeReleased": "2026-08-27T17:37:33.9378659+00:00",
+              "Changelog": "v1.0.2.1:\n- Added Gemini, Claude, ChatGPT, DeepSeek, OpenRouter, LibreTranslate, and Yandex translation engines.\n- Added configurable translation instances with primary engine selection, ordered fallback, and recovery probing.\n- Added per-instance model, API key, temperature, and response token limit settings.\n- Added single-request AI romanization with native and Latin-script output in structured JSON.\n- Improved romanization support for Japanese, Korean, Chinese, Russian, and Ukrainian.\n- Improved translated-chat display for native text, Latin-script text, original messages, and tooltips.\n- Unified translation logs with the selected engine, target language, elapsed time, and romanization.\n- Added local language detection to skip translation when messages already match the configured target language.\n- Added configurable language-detection confidence from 70% to 100%, with an 85% default.\n- Added independent translated-window message limits and size-based persistent chat history.\n- Added history search and filtering, and made Clear remove only messages currently displayed.\n- Added direct settings access from the translated-chat window and an option to control /tl chat status messages.\n- Centralized engine, instance, priority, and failover management in the Engines tab.\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -328305,14 +328357,30 @@
           }
         },
         "ItsUp": {
-          "BuiltCommit": "fa22c4c151e3217de135ce1e330c3ac4438801fb",
-          "TimeBuilt": "2026-08-25T21:25:20.6833192+00:00",
-          "EffectiveVersion": "0.5.1.0",
+          "BuiltCommit": "f6474bd04a4dd31b1f2454b329a0d8f3e0d61769",
+          "TimeBuilt": "2026-08-27T17:37:52.1622741+00:00",
+          "EffectiveVersion": "0.5.2.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.5.1.0": {
               "TimeReleased": "2026-08-25T21:25:20.6833625+00:00",
               "Changelog": "Initial submission.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "juan-medina"
+            },
+            "0.5.2.0": {
+              "TimeReleased": "2026-08-27T17:37:52.1622755+00:00",
+              "Changelog": "**Improvements**\n- Refined descriptions and command help text.\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
