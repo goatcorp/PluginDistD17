@@ -2,7 +2,7 @@
   "Author": "OOF Games",
   "Name": "Aetheric Flow",
   "InternalName": "AethericFlow",
-  "AssemblyVersion": "0.0.2.0",
+  "AssemblyVersion": "0.0.3.0",
   "Description": "Display a teleport link to the nearest aetheryte for the map link from the in-game chat.\n\nゲーム内チャットのマップリンクに、最寄りのエーテライトへのテレポリンクを表示します。\n\nZeigt zu jedem Kartenlink im Spielchat einen Teleport-Link zum nächstgelegenen Ätheryten an.\n\nAffiche un lien de téléportation vers l'éthérite la plus proche pour les liens de carte du chat en jeu.",
   "ApplicableVersion": "any",
   "Tags": [
@@ -21,7 +21,7 @@
   "LoadPriority": 0,
   "IconUrl": "https://raw.githubusercontent.com/OOFGamesss/OOFGamesPlugins/main/images/aethericflow.png",
   "Punchline": "Adds a teleport link to the nearest aetheryte on every map link in chat.",
-  "Changelog": "- Added a quicker on foot check for the player to see if it's worth teleporting or not.\n- Added the ability for the map link to be marked on the map upon teleporting via the link.\n- Added different colour options for the link text.\n- Icon update.",
+  "Changelog": "- Two new appearance toggles has been added.\n- Show teleport icon only will remove the teleport text and add just the aetheryte crystal as a clickable teleport link.\n- Show clock icon only will remove the walk hint text if enabledand add just the clock icon when walking would be quicker without showing the text.",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "testing-live",

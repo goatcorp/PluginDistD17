@@ -328561,9 +328561,9 @@
           }
         },
         "AethericFlow": {
-          "BuiltCommit": "0e95b3c0dd9d246a66139c88ff6599dc539e8f00",
-          "TimeBuilt": "2026-08-26T22:18:52.6155651+00:00",
-          "EffectiveVersion": "0.0.2.0",
+          "BuiltCommit": "6762439914696607e066a125d46044bb4d6d1611",
+          "TimeBuilt": "2026-08-29T21:47:30.6734186+00:00",
+          "EffectiveVersion": "0.0.3.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.1.0": {
@@ -328596,6 +328596,22 @@
                 }
               ],
               "Reviewer": "nathanctech",
+              "Submitter": "OOFGamesss"
+            },
+            "0.0.3.0": {
+              "TimeReleased": "2026-08-29T21:47:30.6734917+00:00",
+              "Changelog": "- Two new appearance toggles has been added.\n- Show teleport icon only will remove the teleport text and add just the aetheryte crystal as a clickable teleport link.\n- Show clock icon only will remove the walk hint text if enabledand add just the clock icon when walking would be quicker without showing the text.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "reiichi001",
               "Submitter": "OOFGamesss"
             }
           }
