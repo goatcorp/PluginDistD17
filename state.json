@@ -66142,9 +66142,9 @@
           }
         },
         "TrackyTrack": {
-          "BuiltCommit": "5c720e2398b0c1f76bb502f5985a2005d28145ef",
-          "TimeBuilt": "2026-08-14T22:22:27.8799953+00:00",
-          "EffectiveVersion": "1.7.2.1",
+          "BuiltCommit": "4c75fedfd08e3cb2a70ba21516b66ab307ac784f",
+          "TimeBuilt": "2026-08-29T16:37:38.6900721+00:00",
+          "EffectiveVersion": "1.7.3.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.5.5.5": {
@@ -68594,6 +68594,42 @@
             "1.7.2.1": {
               "TimeReleased": "2026-08-14T22:22:27.8799962+00:00",
               "Changelog": null,
+              "UsedNeeds": [
+                {
+                  "Key": "CsvHelper",
+                  "Version": "33.1.0"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "MessagePack",
+                  "Version": "3.1.7"
+                },
+                {
+                  "Key": "MessagePack.Annotations",
+                  "Version": "3.1.7"
+                },
+                {
+                  "Key": "MessagePackAnalyzer",
+                  "Version": "3.1.7"
+                },
+                {
+                  "Key": "Microsoft.NET.StringTools",
+                  "Version": "17.11.4"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Infiziert90"
+            },
+            "1.7.3.0": {
+              "TimeReleased": "2026-08-29T16:37:38.6900732+00:00",
+              "Changelog": "- Add roulette tracking\r\n  - This is uploaded\r\n  - Only valid on daily bonus runs\r\n- Add debugging option",
               "UsedNeeds": [
                 {
                   "Key": "CsvHelper",
@@ -211757,9 +211793,9 @@
           }
         },
         "TidyChat": {
-          "BuiltCommit": "c02fcc0cf7ee3a1b8df0ed1296f678972eab719c",
-          "TimeBuilt": "2026-08-14T22:21:09.2289403+00:00",
-          "EffectiveVersion": "3.1.0.31",
+          "BuiltCommit": "da7fabc34b460fab6ec54eccb63369581b3180fd",
+          "TimeBuilt": "2026-08-29T16:37:02.1368456+00:00",
+          "EffectiveVersion": "3.1.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.2.2.0": {
@@ -212535,6 +212571,34 @@
             "3.1.0.31": {
               "TimeReleased": "2026-08-14T22:21:09.2289413+00:00",
               "Changelog": "**Fixed**\r\n\u2022 Weekly/daily hunt bill mark sensing shows again when \u201CShow mark bill messages\u201D is on (e.g. \u201CYou sense your mark to the southwest\u201D / FR \u201CVous ressentez la pr\u00E9sence d\u2019un monstre d\u2019\u00E9lite au sud-ouest !\u201D). Those lines were being blocked by mistake.\r\n\r\n**Added**\r\n\u2022 Macro-friendly debug toggle:\r\n  \u2013 \u0060/tidy debug\u0060 \u2014 toggle debug mode\r\n  \u2013 \u0060/tidy debug on\u0060 / \u0060/tidy debug off\u0060 \u2014 set it explicitly\r\n  (\u0060/tidychat\u0060 accepts the same arguments. With no arguments, \u0060/tidy\u0060 still opens settings.)",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "2.0.2"
+                },
+                {
+                  "Key": "Meziantou.Analyzer",
+                  "Version": "3.0.96"
+                },
+                {
+                  "Key": "TextCopy",
+                  "Version": "6.2.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "7.0.0"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Kagekazu"
+            },
+            "3.1.1.0": {
+              "TimeReleased": "2026-08-29T16:37:02.1368472+00:00",
+              "Changelog": "- Load the plugin asynchronously so startup no longer hitches the game while catalogs load.\r\n- Quest \u0060/say\u0060 reminders show again when **Show reminders of what to /say in chat during quests** is on (e.g. \u201CWith the chat mode set to Say, use the keyboard or the software keyboard to enter \u2026\u201D / older \u201CWith the chat mode in Say, enter a phrase containing \u2026\u201D). Those lines were only appearing if **Show miscellaneous system messages** was checked.\r\n- **Improved /say messages for quests** (and copy-to-clipboard) works with that newer wording, including straight \u0060\u0022quotes\u0022\u0060 as well as the old curly ones.\r\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -243176,9 +243240,9 @@
           }
         },
         "VanillaPlus": {
-          "BuiltCommit": "5cb322123ace232ce0a656799ce14597ad23936e",
-          "TimeBuilt": "2026-08-27T17:46:12.6468272+00:00",
-          "EffectiveVersion": "1.4.3.7",
+          "BuiltCommit": "bbc6bdc57b5270fe82b926d5320b84c64bc40375",
+          "TimeBuilt": "2026-08-29T16:36:48.5960053+00:00",
+          "EffectiveVersion": "1.4.3.10",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.1.6": {
@@ -249460,6 +249524,46 @@
               ],
               "Reviewer": "nathanctech",
               "Submitter": "MidoriKami"
+            },
+            "1.4.3.10": {
+              "TimeReleased": "2026-08-29T16:36:48.5960523+00:00",
+              "Changelog": "Clock Overlay - Fix failing to enable\r\n\r\nBetter Emote Window - Fix weird line in certain themes\r\n\r\nShow Active Signs - Fix showing checkmark for no longer valid objects",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "b225d83597657b5aad89a21cabcdccb8d235f4e1"
+                },
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit.Components",
+                  "Version": "e9a83cbbaf5b5b58525910b2709ed4b86ba1122f"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "LuminaSupplemental.Excel",
+                  "Version": "5.1.4"
+                },
+                {
+                  "Key": "CSVFile",
+                  "Version": "3.2.1"
+                },
+                {
+                  "Key": "CsvHelper",
+                  "Version": "30.0.1"
+                },
+                {
+                  "Key": "Sylvan.Data.Csv",
+                  "Version": "1.4.3"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "MidoriKami"
             }
           }
         },
@@ -251460,9 +251564,9 @@
           }
         },
         "Altoholic": {
-          "BuiltCommit": "d20c88ec30fa3a244ec68240f1cd0646e17d2b9b",
-          "TimeBuilt": "2026-08-26T22:24:32.5372829+00:00",
-          "EffectiveVersion": "1.12.13.0",
+          "BuiltCommit": "f4395eeec07738157d4b6805e7a8735180359b9a",
+          "TimeBuilt": "2026-08-29T16:37:25.4182631+00:00",
+          "EffectiveVersion": "1.12.14.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -253452,6 +253556,50 @@
             "1.12.13.0": {
               "TimeReleased": "2026-08-26T22:24:32.5373371+00:00",
               "Changelog": "- **Inventories**: Add saddlebag inventory to global search\n- **Progress**: Add The Rising 2026\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "Dapper",
+                  "Version": "2.1.79"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "2.0.5"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite.Core",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.bundle_e_sqlite3",
+                  "Version": "3.0.5"
+                },
+                {
+                  "Key": "SQLite",
+                  "Version": "3.53.4"
+                },
+                {
+                  "Key": "SQLitePCLRaw.config.e_sqlite3",
+                  "Version": "3.0.5"
+                },
+                {
+                  "Key": "SQLitePCLRaw.core",
+                  "Version": "3.0.5"
+                },
+                {
+                  "Key": "SQLitePCLRaw.provider.e_sqlite3",
+                  "Version": "3.0.5"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Sohtoren"
+            },
+            "1.12.14.0": {
+              "TimeReleased": "2026-08-29T16:37:25.4182644+00:00",
+              "Changelog": "- **Progress**: Add The Rising 2026 vendor rewards\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -256400,9 +256548,9 @@
           }
         },
         "MusicalGuide": {
-          "BuiltCommit": "d2669ade57918ec604fc93acd44513df88b72d7d",
-          "TimeBuilt": "2026-07-14T01:04:21.7903134+00:00",
-          "EffectiveVersion": "1.7.0.0",
+          "BuiltCommit": "730124ed207530bb8ff0482c12c3a8a4589c77b0",
+          "TimeBuilt": "2026-08-29T16:37:09.7767492+00:00",
+          "EffectiveVersion": "1.8.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.3.6.0": {
@@ -256504,6 +256652,22 @@
             "1.7.0.0": {
               "TimeReleased": "2026-07-14T01:04:21.7903145+00:00",
               "Changelog": "- added customization to object visibility range\r\n- compatibility notice times out",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "yfthbr"
+            },
+            "1.8.0.0": {
+              "TimeReleased": "2026-08-29T16:37:09.7767507+00:00",
+              "Changelog": "New feature: A configurable cap on the downward/upward angle you can move the camera when the plugin is active in first person.",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -354510,6 +354674,13 @@
       "Version": "e9a83cbbaf5b5b58525910b2709ed4b86ba1122f",
       "ReviewedBy": "nathanctech",
       "ReviewedAt": "2026-08-27T17:46:12.7273505Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/MidoriKami/KamiToolKit",
+      "Version": "b225d83597657b5aad89a21cabcdccb8d235f4e1",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-08-29T16:36:48.6777194Z"
     }
   ]
 }
