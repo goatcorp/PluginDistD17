@@ -149570,9 +149570,9 @@
           }
         },
         "SubmarineTracker": {
-          "BuiltCommit": "382a4957af5b6bbf9e366d8ebc8fa11e9d79d722",
-          "TimeBuilt": "2026-08-29T17:14:18.7369775+00:00",
-          "EffectiveVersion": "2.0.6.0",
+          "BuiltCommit": "f344eb56490423eb0566b3ef2013c44891e588ad",
+          "TimeBuilt": "2026-08-30T19:52:40.6149732+00:00",
+          "EffectiveVersion": "2.0.6.1",
           "MinimumVersion": null,
           "Changelogs": {
             "1.1.0.0": {
@@ -153691,6 +153691,46 @@
             "2.0.6.0": {
               "TimeReleased": "2026-08-29T17:14:18.7370093+00:00",
               "Changelog": "- Add better multi account sorting support\r\n  - Create categories and sort each character into these\r\n- Add inventory count support even without Allagan Tools installed\r\n  - Only counts inventory, no saddlebag, retainer or fc chest!\r\n  - No Data means the character hasn\u0027t been logged in yet\r\n  - All Overview displays tanks \u002B kits now, can be disabled in the config\r\n- Add future predict to builder\r\n- Prevent ESC from closing tracker window [default true]",
+              "UsedNeeds": [
+                {
+                  "Key": "CsvHelper",
+                  "Version": "33.1.0"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "MessagePack",
+                  "Version": "3.1.8"
+                },
+                {
+                  "Key": "System.Data.SQLite",
+                  "Version": "2.0.3"
+                },
+                {
+                  "Key": "MessagePack.Annotations",
+                  "Version": "3.1.8"
+                },
+                {
+                  "Key": "MessagePackAnalyzer",
+                  "Version": "3.1.8"
+                },
+                {
+                  "Key": "Microsoft.NET.StringTools",
+                  "Version": "17.11.4"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Infiziert90"
+            },
+            "2.0.6.1": {
+              "TimeReleased": "2026-08-30T19:52:40.6150214+00:00",
+              "Changelog": "- Add option to swap from resources to leftover [default true]\r\n  - Exact quantities are on hover\r\n  - This can be swapped around\r\n- Some number formatting\r\n- Loc update",
               "UsedNeeds": [
                 {
                   "Key": "CsvHelper",
