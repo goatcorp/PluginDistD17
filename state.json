@@ -261712,9 +261712,9 @@
           }
         },
         "AetherBlackbox": {
-          "BuiltCommit": "546196bfa94bc4e30e672ca9894a878d29693822",
-          "TimeBuilt": "2026-07-29T16:07:58.3152602+00:00",
-          "EffectiveVersion": "7.55.0.0",
+          "BuiltCommit": "7208d13d90bd1670421cc5bbce5a85d838b39939",
+          "TimeBuilt": "2026-08-30T22:24:36.8044851+00:00",
+          "EffectiveVersion": "7.56.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "7.50.2.6": {
@@ -262123,6 +262123,74 @@
                 }
               ],
               "Reviewer": "nathanctech",
+              "Submitter": "rail2025"
+            },
+            "7.56.0.0": {
+              "TimeReleased": "2026-08-30T22:24:36.8045348+00:00",
+              "Changelog": "v7.56.0.0: Survival calculator added. See if you would have lived.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "SixLabors.Fonts",
+                  "Version": "2.1.3"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp.Drawing",
+                  "Version": "2.1.7"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp.Web",
+                  "Version": "3.2.0"
+                },
+                {
+                  "Key": "SkiaSharp",
+                  "Version": "3.119.1"
+                },
+                {
+                  "Key": "Svg.Skia",
+                  "Version": "3.2.1"
+                },
+                {
+                  "Key": "ExCSS",
+                  "Version": "4.3.1"
+                },
+                {
+                  "Key": "Microsoft.IO.RecyclableMemoryStream",
+                  "Version": "3.0.1"
+                },
+                {
+                  "Key": "ShimSkiaSharp",
+                  "Version": "3.2.1"
+                },
+                {
+                  "Key": "SkiaSharp.NativeAssets.macOS",
+                  "Version": "3.119.1"
+                },
+                {
+                  "Key": "SkiaSharp.NativeAssets.Win32",
+                  "Version": "3.119.1"
+                },
+                {
+                  "Key": "Svg.Custom",
+                  "Version": "3.2.1"
+                },
+                {
+                  "Key": "Svg.Model",
+                  "Version": "3.2.1"
+                }
+              ],
+              "Reviewer": "reiichi001",
               "Submitter": "rail2025"
             }
           }
