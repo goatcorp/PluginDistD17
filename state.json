@@ -244352,9 +244352,9 @@
           }
         },
         "VanillaPlus": {
-          "BuiltCommit": "bbc6bdc57b5270fe82b926d5320b84c64bc40375",
-          "TimeBuilt": "2026-08-29T16:36:48.5960053+00:00",
-          "EffectiveVersion": "1.4.3.10",
+          "BuiltCommit": "4fd24f1b38d6d4d9b2a18852a3fd59fbe73ef698",
+          "TimeBuilt": "2026-08-30T22:21:23.8557441+00:00",
+          "EffectiveVersion": "1.4.3.11",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.1.6": {
@@ -250675,6 +250675,46 @@
                 }
               ],
               "Reviewer": "nathanctech",
+              "Submitter": "MidoriKami"
+            },
+            "1.4.3.11": {
+              "TimeReleased": "2026-08-30T22:21:23.8557923+00:00",
+              "Changelog": "Additional Hotbars - Add Hotkey and Command Support\r\n(Still highly experimental, please report issues, but I am not currently accepting feature requests)",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "89ee1d976b9345ddea5ba5c746b128ff0f92781d"
+                },
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit.Components",
+                  "Version": "e9a83cbbaf5b5b58525910b2709ed4b86ba1122f"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "LuminaSupplemental.Excel",
+                  "Version": "5.1.4"
+                },
+                {
+                  "Key": "CSVFile",
+                  "Version": "3.2.1"
+                },
+                {
+                  "Key": "CsvHelper",
+                  "Version": "30.0.1"
+                },
+                {
+                  "Key": "Sylvan.Data.Csv",
+                  "Version": "1.4.3"
+                }
+              ],
+              "Reviewer": "reiichi001",
               "Submitter": "MidoriKami"
             }
           }
@@ -355809,6 +355849,13 @@
       "Version": "b225d83597657b5aad89a21cabcdccb8d235f4e1",
       "ReviewedBy": "nathanctech",
       "ReviewedAt": "2026-08-29T16:36:48.6777194Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/MidoriKami/KamiToolKit",
+      "Version": "89ee1d976b9345ddea5ba5c746b128ff0f92781d",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2026-08-30T22:21:23.9328043Z"
     }
   ]
 }
