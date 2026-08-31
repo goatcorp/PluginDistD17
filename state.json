@@ -103967,9 +103967,9 @@
           }
         },
         "QuestMap": {
-          "BuiltCommit": "5f1010511b79ec076c0f572537b245d3e67c87fa",
-          "TimeBuilt": "2026-04-30T21:04:58.5681176+00:00",
-          "EffectiveVersion": "15.750.0.0",
+          "BuiltCommit": "5926c83ee9aec9036a8bbffc686b8e3ba133720f",
+          "TimeBuilt": "2026-08-31T18:20:21.9828657+00:00",
+          "EffectiveVersion": "15.755.2.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.4.4.0": {
@@ -104209,6 +104209,26 @@
                 }
               ],
               "Reviewer": "nathanctech",
+              "Submitter": "rreminy"
+            },
+            "15.755.2.0": {
+              "TimeReleased": "2026-08-31T18:20:21.9828677+00:00",
+              "Changelog": "- Add zoom out feature.\r\n- \u0060/questgraph\u0060 command to open map centered on quest.\r\n\r\nThanks to @alydevs for both features https://github.com/GemPlugins/QuestMap/pull/16",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Msagl",
+                  "Version": "1.2.1"
+                }
+              ],
+              "Reviewer": "reiichi001",
               "Submitter": "rreminy"
             }
           }
@@ -262980,9 +263000,9 @@
           }
         },
         "ScrollableTabs": {
-          "BuiltCommit": "d423fb09657c3fd11287dd8fa5bf8749e33626a9",
-          "TimeBuilt": "2026-08-25T21:39:54.8170397+00:00",
-          "EffectiveVersion": "1.0.0.0",
+          "BuiltCommit": "49ec2e4caa4041ebf36ff971970529d35633f960",
+          "TimeBuilt": "2026-08-31T18:20:13.7690486+00:00",
+          "EffectiveVersion": "1.1.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -263003,6 +263023,26 @@
                 }
               ],
               "Reviewer": "nathanctech",
+              "Submitter": "Haselnussbomber"
+            },
+            "1.1.0.0": {
+              "TimeReleased": "2026-08-31T18:20:13.7690973+00:00",
+              "Changelog": "- **Added:** Support for the Icons window. The one that can be opened when setting a macro icon.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Roslynator.Analyzers",
+                  "Version": "4.15.0"
+                }
+              ],
+              "Reviewer": "reiichi001",
               "Submitter": "Haselnussbomber"
             }
           }
