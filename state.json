@@ -67142,9 +67142,9 @@
           }
         },
         "TrackyTrack": {
-          "BuiltCommit": "a78f05f3291d0832f312b08a95cc7c1cffbc4fee",
-          "TimeBuilt": "2026-08-30T20:05:12.6517967+00:00",
-          "EffectiveVersion": "1.7.4.0",
+          "BuiltCommit": "242867acba0af0a4d2bb6812d6cc4809781bce0f",
+          "TimeBuilt": "2026-09-02T04:18:18.7882326+00:00",
+          "EffectiveVersion": "1.7.4.1",
           "MinimumVersion": null,
           "Changelogs": {
             "1.5.5.5": {
@@ -69697,6 +69697,42 @@
                 }
               ],
               "Reviewer": "nathanctech",
+              "Submitter": "Infiziert90"
+            },
+            "1.7.4.1": {
+              "TimeReleased": "2026-09-02T04:18:18.7882341+00:00",
+              "Changelog": "- Fix exp not tracking correctly",
+              "UsedNeeds": [
+                {
+                  "Key": "CsvHelper",
+                  "Version": "33.1.0"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "MessagePack",
+                  "Version": "3.1.7"
+                },
+                {
+                  "Key": "MessagePack.Annotations",
+                  "Version": "3.1.7"
+                },
+                {
+                  "Key": "MessagePackAnalyzer",
+                  "Version": "3.1.7"
+                },
+                {
+                  "Key": "Microsoft.NET.StringTools",
+                  "Version": "17.11.4"
+                }
+              ],
+              "Reviewer": "reiichi001",
               "Submitter": "Infiziert90"
             }
           }
@@ -244872,9 +244908,9 @@
           }
         },
         "VanillaPlus": {
-          "BuiltCommit": "4fd24f1b38d6d4d9b2a18852a3fd59fbe73ef698",
-          "TimeBuilt": "2026-08-30T22:21:23.8557441+00:00",
-          "EffectiveVersion": "1.4.3.11",
+          "BuiltCommit": "da1147ad1a1a07561b068db86032d9388c6f2c39",
+          "TimeBuilt": "2026-09-02T04:17:46.5203011+00:00",
+          "EffectiveVersion": "1.4.3.12",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.1.6": {
@@ -251204,6 +251240,46 @@
                 {
                   "Key": "https://github.com/MidoriKami/KamiToolKit",
                   "Version": "89ee1d976b9345ddea5ba5c746b128ff0f92781d"
+                },
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit.Components",
+                  "Version": "e9a83cbbaf5b5b58525910b2709ed4b86ba1122f"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "LuminaSupplemental.Excel",
+                  "Version": "5.1.4"
+                },
+                {
+                  "Key": "CSVFile",
+                  "Version": "3.2.1"
+                },
+                {
+                  "Key": "CsvHelper",
+                  "Version": "30.0.1"
+                },
+                {
+                  "Key": "Sylvan.Data.Csv",
+                  "Version": "1.4.3"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "MidoriKami"
+            },
+            "1.4.3.12": {
+              "TimeReleased": "2026-09-02T04:17:46.5203318+00:00",
+              "Changelog": "Additional Hotbars - Various improvements",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "3bfa2cd2e81d47d63de5224ca2308ab13030f1b2"
                 },
                 {
                   "Key": "https://github.com/MidoriKami/KamiToolKit.Components",
@@ -263444,9 +263520,9 @@
           }
         },
         "InputFlow": {
-          "BuiltCommit": "0e3597994f6b8eefe1c78b66e2d4951e642e96ed",
-          "TimeBuilt": "2026-08-25T21:13:15.434819+00:00",
-          "EffectiveVersion": "1.0.0.0",
+          "BuiltCommit": "7aa383b85232b30ba1db82ed959504b4c5d4f12d",
+          "TimeBuilt": "2026-09-02T04:18:05.7100332+00:00",
+          "EffectiveVersion": "1.0.0.1",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -263463,6 +263539,22 @@
                 }
               ],
               "Reviewer": "nathanctech",
+              "Submitter": "Aireil"
+            },
+            "1.0.0.1": {
+              "TimeReleased": "2026-09-02T04:18:05.7100367+00:00",
+              "Changelog": "Fix description layout, no change to the plugin (it\u0027s already perfect \uD83D\uDE0C).",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "reiichi001",
               "Submitter": "Aireil"
             }
           }
@@ -263568,6 +263660,30 @@
               ],
               "Reviewer": "reiichi001",
               "Submitter": "Zeffuro"
+            }
+          }
+        },
+        "AethericFlow": {
+          "BuiltCommit": "6e63f595276bc4fda89320ef2c0e550568dfd823",
+          "TimeBuilt": "2026-09-02T04:17:55.7957049+00:00",
+          "EffectiveVersion": "1.0.0.0",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "1.0.0.0": {
+              "TimeReleased": "2026-09-02T04:17:55.79571+00:00",
+              "Changelog": "Introducing Aetheric Flow! 1.0 Release!\n\nAdds a teleport link to the nearest aetheryte on every map link in chat.\n\nKey Features:\n- Adds a clickable teleport link after map coordinates in chat.\n- Picks the nearest aetheryte you have attuned in that zone.\n- /aftp teleports to the most recent map link for controller players.\n- Choose which chat channels are scanned.\n- Plenty of customisation options for the links appearance.\n- English, Japanese, German and French are all supported.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "OOFGamesss"
             }
           }
         }
@@ -330281,9 +330397,9 @@
           }
         },
         "AethericFlow": {
-          "BuiltCommit": "6762439914696607e066a125d46044bb4d6d1611",
-          "TimeBuilt": "2026-08-29T21:47:30.6734186+00:00",
-          "EffectiveVersion": "0.0.3.0",
+          "BuiltCommit": "6e63f595276bc4fda89320ef2c0e550568dfd823",
+          "TimeBuilt": "2026-09-02T04:18:29.0607224+00:00",
+          "EffectiveVersion": "1.0.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.1.0": {
@@ -330321,6 +330437,22 @@
             "0.0.3.0": {
               "TimeReleased": "2026-08-29T21:47:30.6734917+00:00",
               "Changelog": "- Two new appearance toggles has been added.\n- Show teleport icon only will remove the teleport text and add just the aetheryte crystal as a clickable teleport link.\n- Show clock icon only will remove the walk hint text if enabledand add just the clock icon when walking would be quicker without showing the text.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "OOFGamesss"
+            },
+            "1.0.0.0": {
+              "TimeReleased": "2026-09-02T04:18:29.060724+00:00",
+              "Changelog": "Introducing Aetheric Flow! 1.0 Release!\n\nAdds a teleport link to the nearest aetheryte on every map link in chat.\n\nKey Features:\n- Adds a clickable teleport link after map coordinates in chat.\n- Picks the nearest aetheryte you have attuned in that zone.\n- /aftp teleports to the most recent map link for controller players.\n- Choose which chat channels are scanned.\n- Plenty of customisation options for the links appearance.\n- English, Japanese, German and French are all supported.",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -356471,6 +356603,13 @@
       "Version": "fd09c83c76e9c2640c7b2e42e273ae739187067c",
       "ReviewedBy": "reiichi001",
       "ReviewedAt": "2026-08-31T18:25:31.4186303Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/MidoriKami/KamiToolKit",
+      "Version": "3bfa2cd2e81d47d63de5224ca2308ab13030f1b2",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2026-09-02T04:17:46.582162Z"
     }
   ]
 }

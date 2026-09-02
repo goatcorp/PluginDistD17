@@ -2,8 +2,8 @@
   "Author": "Aireil",
   "Name": "InputFlow",
   "InternalName": "InputFlow",
-  "AssemblyVersion": "1.0.0.0",
-  "Description": "\n    Improves the native text inputs by restoring common text-editing shortcuts. Works in all game text inputs: chat, macros, search, etc.\n\n    Supported shortcuts:\n        - Ctrl + Left/Right: Jump between words\n        - Ctrl + Shift + Left/Right: Select word by word\n        - Ctrl + Backspace/Delete: Delete words\n        - Ctrl + Insert: Copy\n        - Shift + Insert: Paste\n        - Shift + Delete: Cut\n\n    Changes:\n        - Pressing Left/Right with the cursor at the start/end of an input properly clears the selection instead of doing nothing.\n        - Clearing an active selection with Left/Right moves the cursor to the beginning/end of the selection.\n\n    Setting:\n        - Configurable word boundary: Choose whether Ctrl + Right jumps to word ends (Discord, IDEs) or word starts (Windows, Notepad++, ImGui).",
+  "AssemblyVersion": "1.0.0.1",
+  "Description": "Improves the native text inputs by restoring common text-editing shortcuts. Works in all game text inputs: chat, macros, search, etc.\n\nSupported shortcuts:\n    - Ctrl + Left/Right: Jump between words\n    - Ctrl + Shift + Left/Right: Select word by word\n    - Ctrl + Backspace/Delete: Delete words\n    - Ctrl + Insert: Copy\n    - Shift + Insert: Paste\n    - Shift + Delete: Cut\n\nChanges:\n    - Pressing Left/Right with the cursor at the start/end of an input properly clears the selection instead of doing nothing.\n    - Clearing an active selection with Left/Right moves the cursor to the beginning/end of the selection.\n\nSetting:\n    - Configurable word boundary: Choose whether Ctrl + Right jumps to word ends (Discord, IDEs) or word starts (Windows, Notepad++, ImGui).",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Aireil/InputFlow",
   "Tags": [
