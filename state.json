@@ -220092,9 +220092,9 @@
           }
         },
         "ZDs": {
-          "BuiltCommit": "447c1097750a6eb7e91ed6813902da44c5c6d4f3",
-          "TimeBuilt": "2026-04-29T21:32:28.7523914+00:00",
-          "EffectiveVersion": "1.1.0.6",
+          "BuiltCommit": "b43131e2380e1ff78e85309504510729d65f5bd8",
+          "TimeBuilt": "2026-09-02T19:35:23.0243708+00:00",
+          "EffectiveVersion": "1.2.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.3": {
@@ -220236,6 +220236,22 @@
             "1.1.0.6": {
               "TimeReleased": "2026-04-29T21:32:28.7523931+00:00",
               "Changelog": "# 1.1.0.6\n- Update to API15",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Zeffuro"
+            },
+            "1.2.0.0": {
+              "TimeReleased": "2026-09-02T19:35:23.02442+00:00",
+              "Changelog": "# 1.2.0.0\n- Reworked the timeline layout and configuration\n- Added built-in presets and a first-time setup window\n- Added profiles and commands to switch between them\n- Added profile import/export and a full reset option\n- Existing settings are saved as a profile before choosing a new setup\n- Added items, duty actions, Lost Actions, Phantom Actions, DoTs, debuffs and buffs to the timeline\n- Added filters for abilities, items and effects\n- Added separate lanes, new overlap options, long cooldown handling and a short ready animation\n- Added Classic, split-time and full cooldown movement modes\n- Added charge pips, next charge previews, priority abilities and optional game sounds\n- Added GCD, cast and buff markers and improved grid labels\n- Added Fade, Pop, Pulse, Breathe and Ants finish animations\n- Added game fonts, separate font sizes and text shadows for timeline labels\n- Added BRD DoT combining and target letters for multi-DoT tracking\n- Improved cooldown and charge tracking, including abilities which reduce another ability\u0027s cooldown\n- Fixed cooldown swipes and borders occasionally leaving one-pixel gaps\n- Fixed fonts sometimes not being added and several timeline errors\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -224024,9 +224040,9 @@
           }
         },
         "NowPlaying": {
-          "BuiltCommit": "038eef626bccaa54fb1915f3c6ff978f957380bf",
-          "TimeBuilt": "2026-04-30T06:22:23.49593+00:00",
-          "EffectiveVersion": "1.3.0.7",
+          "BuiltCommit": "c2ebe6014b95015cedf9b0956ac663f077ee9abf",
+          "TimeBuilt": "2026-09-02T19:35:32.0198476+00:00",
+          "EffectiveVersion": "1.3.0.8",
           "MinimumVersion": null,
           "Changelogs": {
             "1.3.0.0": {
@@ -224184,6 +224200,34 @@
                 {
                   "Key": "NPSMLib",
                   "Version": "0.9.14"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "wompscode"
+            },
+            "1.3.0.8": {
+              "TimeReleased": "2026-09-02T19:35:32.0198485+00:00",
+              "Changelog": "now with Linux support: thanks beerpsi.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "NPSMLib",
+                  "Version": "0.9.14"
+                },
+                {
+                  "Key": "Tmds.DBus.Generator",
+                  "Version": "0.95.0"
+                },
+                {
+                  "Key": "Tmds.DBus.Protocol",
+                  "Version": "0.95.0"
                 }
               ],
               "Reviewer": "nathanctech",
@@ -356610,6 +356654,20 @@
       "Version": "3bfa2cd2e81d47d63de5224ca2308ab13030f1b2",
       "ReviewedBy": "reiichi001",
       "ReviewedAt": "2026-09-02T04:17:46.582162Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Tmds.DBus.Generator",
+      "Version": "0.95.0",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-09-02T19:35:32.0942771Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Tmds.DBus.Protocol",
+      "Version": "0.95.0",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-09-02T19:35:32.0943217Z"
     }
   ]
 }
