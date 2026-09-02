@@ -224588,9 +224588,9 @@
           }
         },
         "MogMogCheck": {
-          "BuiltCommit": "c98a1d0d44442b490667ab944078f3cd3edb0f4b",
-          "TimeBuilt": "2026-04-21T13:21:03.7947365+00:00",
-          "EffectiveVersion": "3.4.0.0",
+          "BuiltCommit": "637b6afd81dd5c2f55ced852a649a4097b6094e8",
+          "TimeBuilt": "2026-09-02T19:38:11.2583886+00:00",
+          "EffectiveVersion": "3.4.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "3.2.0.0": {
@@ -225564,6 +225564,150 @@
                 {
                   "Key": "System.Diagnostics.EventLog",
                   "Version": "10.0.5"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Haselnussbomber"
+            },
+            "3.4.1.0": {
+              "TimeReleased": "2026-09-02T19:38:11.2584329+00:00",
+              "Changelog": "Updated for Dalamud API 15 in preparation for the upcoming Moogle Treasure Trove: The Hunt for Astronomy, starting Wednesday, 9 September 2026.",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/Haselnussbomber/HaselCommon.git",
+                  "Version": "a0cd04985e46d36ac5304c70df8476d50a41150a"
+                },
+                {
+                  "Key": "AutoCtor",
+                  "Version": "3.1.1"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Injectio",
+                  "Version": "6.2.0"
+                },
+                {
+                  "Key": "Roslynator.Analyzers",
+                  "Version": "5.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Abstractions",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Binder",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.CommandLine",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.EnvironmentVariables",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.FileExtensions",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Json",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.UserSecrets",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Diagnostics",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Diagnostics.Abstractions",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileProviders.Abstractions",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileProviders.Physical",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileSystemGlobbing",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Hosting",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Hosting.Abstractions",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Configuration",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Console",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Debug",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.EventLog",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.EventSource",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options.ConfigurationExtensions",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Primitives",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "System.Diagnostics.EventLog",
+                  "Version": "10.0.10"
                 }
               ],
               "Reviewer": "nathanctech",
@@ -356668,6 +356812,27 @@
       "Version": "0.95.0",
       "ReviewedBy": "nathanctech",
       "ReviewedAt": "2026-09-02T19:35:32.0943217Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/Haselnussbomber/HaselCommon.git",
+      "Version": "a0cd04985e46d36ac5304c70df8476d50a41150a",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-09-02T19:38:11.3380016Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Injectio",
+      "Version": "6.2.0",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-09-02T19:38:11.3380235Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Roslynator.Analyzers",
+      "Version": "5.0.0",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-09-02T19:38:11.3380236Z"
     }
   ]
 }
