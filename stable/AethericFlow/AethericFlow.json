@@ -2,7 +2,7 @@
   "Author": "OOF Games",
   "Name": "Aetheric Flow",
   "InternalName": "AethericFlow",
-  "AssemblyVersion": "1.0.0.0",
+  "AssemblyVersion": "1.0.1.0",
   "Description": "Display a teleport link to the nearest aetheryte for the map link from the in-game chat.\n\nゲーム内チャットのマップリンクに、最寄りのエーテライトへのテレポリンクを表示します。\n\nZeigt zu jedem Kartenlink im Spielchat einen Teleport-Link zum nächstgelegenen Ätheryten an.\n\nAffiche un lien de téléportation vers l'éthérite la plus proche pour les liens de carte du chat en jeu.",
   "ApplicableVersion": "any",
   "Tags": [
@@ -21,7 +21,7 @@
   "LoadPriority": 0,
   "IconUrl": "https://raw.githubusercontent.com/OOFGamesss/OOFGamesPlugins/main/images/aethericflow.png",
   "Punchline": "Adds a teleport link to the nearest aetheryte on every map link in chat.",
-  "Changelog": "Introducing Aetheric Flow! 1.0 Release!\n\nAdds a teleport link to the nearest aetheryte on every map link in chat.\n\nKey Features:\n- Adds a clickable teleport link after map coordinates in chat.\n- Picks the nearest aetheryte you have attuned in that zone.\n- /aftp teleports to the most recent map link for controller players.\n- Choose which chat channels are scanned.\n- Plenty of customisation options for the links appearance.\n- English, Japanese, German and French are all supported.",
+  "Changelog": "- Map links from the Dravanian Hinterlands are now served by the neighbouring zones aetherytes.",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "stable",

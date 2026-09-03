@@ -141054,9 +141054,9 @@
           }
         },
         "GatherBuddy": {
-          "BuiltCommit": "99986c0f678094ecec31cfd2faf57e11fe0da3ac",
-          "TimeBuilt": "2026-08-20T04:24:47.3882562+00:00",
-          "EffectiveVersion": "3.8.10.1",
+          "BuiltCommit": "c9b4a99dd32686fe5a9ba64297fe3143b162b5e9",
+          "TimeBuilt": "2026-09-03T22:19:06.2740584+00:00",
+          "EffectiveVersion": "3.8.11.0",
           "MinimumVersion": null,
           "Changelogs": {
             "3.1.4.15926": {
@@ -142309,6 +142309,42 @@
                 {
                   "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
                   "Version": "9.0.2"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Ottermandias"
+            },
+            "3.8.11.0": {
+              "TimeReleased": "2026-09-03T22:19:06.2740597+00:00",
+              "Changelog": "- Added several (untested) IPC methods for other plugins to (ab)use.\r\n- Fixed an exception when previewing the No Sound alarm sound.",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/Ottermandias/OtterGui.git",
+                  "Version": "79771ee5f3d463f02c63bebbedaa0aff49e59718"
+                },
+                {
+                  "Key": "https://github.com/Ottermandias/OtterGuiInternal.git",
+                  "Version": "fb9de85711973eba4b02156ece9865ba166020af"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "JetBrains.Annotations",
+                  "Version": "2024.3.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "9.0.2"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "9.0.2"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
                 }
               ],
               "Reviewer": "nathanctech",
@@ -263852,9 +263888,9 @@
           }
         },
         "AethericFlow": {
-          "BuiltCommit": "6e63f595276bc4fda89320ef2c0e550568dfd823",
-          "TimeBuilt": "2026-09-02T04:17:55.7957049+00:00",
-          "EffectiveVersion": "1.0.0.0",
+          "BuiltCommit": "3cf4ccacf0c728979599ee97b48fa941ee7f1af1",
+          "TimeBuilt": "2026-09-03T22:18:45.4743145+00:00",
+          "EffectiveVersion": "1.0.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -263871,6 +263907,22 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "OOFGamesss"
+            },
+            "1.0.1.0": {
+              "TimeReleased": "2026-09-03T22:18:45.4743619+00:00",
+              "Changelog": "- Map links from the Dravanian Hinterlands are now served by the neighbouring zones aetherytes.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "OOFGamesss"
             }
           }
