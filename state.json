@@ -147226,9 +147226,9 @@
           }
         },
         "AvantGarde": {
-          "BuiltCommit": "cb81f621a3662958fc30c42744c03650067874d8",
-          "TimeBuilt": "2026-08-12T15:34:53.1336682+00:00",
-          "EffectiveVersion": "1.1.3.0",
+          "BuiltCommit": "04910addd14272cdb6e161ea719dd9dd16a3f75e",
+          "TimeBuilt": "2026-09-04T23:43:33.505596+00:00",
+          "EffectiveVersion": "1.2.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.1.1": {
@@ -147343,6 +147343,22 @@
             "1.1.3.0": {
               "TimeReleased": "2026-08-12T15:34:53.133708+00:00",
               "Changelog": "**Moved to stable:**\r\n- Automatic Crowdsourcing\r\n  - Submissions are uploaded to Xivstats\u0027 database. Thanks to Infi.\r\n  - Collects items \u0026 dyes used, weekly theme information and score.\r\n  - Private or sensitive data is never collected.\r\n  - Requires opt-in (plugin functionality is unaffected by your choice).\r\n  - See how many times a particular piece was used among the userbase.\r\n  - Sends a chat message when an upload fails.\r\n- Onboarding window that explains everything.\r\n- General refactor.\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "NeNeppie"
+            },
+            "1.2.0.0": {
+              "TimeReleased": "2026-09-04T23:43:33.5055971+00:00",
+              "Changelog": "- Now featuring dye statistics!\r\n  - Find (or, well, try to) the correct dye for each slot.\r\n  - Uses a weighting system to determine which dyes are correct.\r\n  - View the confidence rating for each dye. Automically sorted by accuracy in descending order.\r\n  - Actually not all that accurate currently, so take it with a big grain of salt and refer to more reliable sources.\r\n- Changed the UI layout to accommodate the new dye windows.\r\n- More refactoring.\r\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -237296,9 +237312,9 @@
           }
         },
         "XivGearExport": {
-          "BuiltCommit": "b11566440534e423f0bdaf9f63f8db0112cd5dfd",
-          "TimeBuilt": "2026-08-07T03:02:33.1171807+00:00",
-          "EffectiveVersion": "1.5.0.0",
+          "BuiltCommit": "1a4a4ebf7f9d10911bf1b7975024fd4672ba5622",
+          "TimeBuilt": "2026-09-04T23:43:04.7501528+00:00",
+          "EffectiveVersion": "1.6.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.2.0.0": {
@@ -237416,6 +237432,22 @@
             "1.5.0.0": {
               "TimeReleased": "2026-08-07T03:02:33.1171824+00:00",
               "Changelog": "- Added support for Phantom Occultum relic weapons (the ones with selectable stats).\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "VioletStardustXIV"
+            },
+            "1.6.0.0": {
+              "TimeReleased": "2026-09-04T23:43:04.7501931+00:00",
+              "Changelog": "- Updated exported URLs to use the new, slash-based XivGear paths.\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -245132,9 +245164,9 @@
           }
         },
         "VanillaPlus": {
-          "BuiltCommit": "da1147ad1a1a07561b068db86032d9388c6f2c39",
-          "TimeBuilt": "2026-09-02T04:17:46.5203011+00:00",
-          "EffectiveVersion": "1.4.3.12",
+          "BuiltCommit": "5663549f4f1dd76039baaa70892d430262149f02",
+          "TimeBuilt": "2026-09-04T23:43:23.1797405+00:00",
+          "EffectiveVersion": "1.4.3.13",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.1.6": {
@@ -251535,6 +251567,46 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "MidoriKami"
+            },
+            "1.4.3.13": {
+              "TimeReleased": "2026-09-04T23:43:23.1797421+00:00",
+              "Changelog": "Window Backgrounds - Now allows setting padding in all 4 directions.",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "527c593dc85e853722b9eb8c620ab8df5b260cc3"
+                },
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit.Components",
+                  "Version": "4bc623758450a18dfa2710f5a2fd94eddf9bccc2"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "LuminaSupplemental.Excel",
+                  "Version": "5.1.4"
+                },
+                {
+                  "Key": "CSVFile",
+                  "Version": "3.2.1"
+                },
+                {
+                  "Key": "CsvHelper",
+                  "Version": "30.0.1"
+                },
+                {
+                  "Key": "Sylvan.Data.Csv",
+                  "Version": "1.4.3"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "MidoriKami"
             }
           }
@@ -262532,9 +262604,9 @@
           }
         },
         "AetherBlackbox": {
-          "BuiltCommit": "7208d13d90bd1670421cc5bbce5a85d838b39939",
-          "TimeBuilt": "2026-08-30T22:24:36.8044851+00:00",
-          "EffectiveVersion": "7.56.0.0",
+          "BuiltCommit": "64c4f8a7ec01d0d682209a5838329415f9ce7645",
+          "TimeBuilt": "2026-09-04T23:43:49.8429439+00:00",
+          "EffectiveVersion": "7.56.0.1",
           "MinimumVersion": null,
           "Changelogs": {
             "7.50.2.6": {
@@ -263011,6 +263083,74 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "rail2025"
+            },
+            "7.56.0.1": {
+              "TimeReleased": "2026-09-04T23:43:49.8429453+00:00",
+              "Changelog": "v7.56.0.1:live sync cache fix\nv7.56.0.0: Survival calculator added. See if you would have lived.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "SixLabors.Fonts",
+                  "Version": "2.1.3"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp.Drawing",
+                  "Version": "2.1.7"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp.Web",
+                  "Version": "3.2.0"
+                },
+                {
+                  "Key": "SkiaSharp",
+                  "Version": "3.119.1"
+                },
+                {
+                  "Key": "Svg.Skia",
+                  "Version": "3.2.1"
+                },
+                {
+                  "Key": "ExCSS",
+                  "Version": "4.3.1"
+                },
+                {
+                  "Key": "Microsoft.IO.RecyclableMemoryStream",
+                  "Version": "3.0.1"
+                },
+                {
+                  "Key": "ShimSkiaSharp",
+                  "Version": "3.2.1"
+                },
+                {
+                  "Key": "SkiaSharp.NativeAssets.macOS",
+                  "Version": "3.119.1"
+                },
+                {
+                  "Key": "SkiaSharp.NativeAssets.Win32",
+                  "Version": "3.119.1"
+                },
+                {
+                  "Key": "Svg.Custom",
+                  "Version": "3.2.1"
+                },
+                {
+                  "Key": "Svg.Model",
+                  "Version": "3.2.1"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "rail2025"
             }
           }
@@ -356885,6 +357025,20 @@
       "Version": "5.0.0",
       "ReviewedBy": "nathanctech",
       "ReviewedAt": "2026-09-02T19:38:11.3380236Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/MidoriKami/KamiToolKit",
+      "Version": "527c593dc85e853722b9eb8c620ab8df5b260cc3",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-09-04T23:43:23.2539674Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/MidoriKami/KamiToolKit.Components",
+      "Version": "4bc623758450a18dfa2710f5a2fd94eddf9bccc2",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-09-04T23:43:23.25401Z"
     }
   ]
 }

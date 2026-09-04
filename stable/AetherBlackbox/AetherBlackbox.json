@@ -2,7 +2,7 @@
   "Author": "rail",
   "Name": "Aether Blackbox",
   "InternalName": "AetherBlackbox",
-  "AssemblyVersion": "7.56.0.0",
+  "AssemblyVersion": "7.56.0.1",
   "Description": "Replay positions and events before death. /abb to open; Connects to an external websocket relay for opt-in live sync mode (no PII sent) at blackbox.aetherdraw.me",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/rail2025/AetherBlackbox",
@@ -20,7 +20,7 @@
   "CanUnloadAsync": false,
   "LoadPriority": 0,
   "Punchline": "A visual replay of positions before death. DeathRecap + AetherDraw",
-  "Changelog": "v7.56.0.0: Survival calulator added - check if you would have lived if people pressed their buttons.",
+  "Changelog": "v7.56.0.1: live sync cache fix\nv7.56.0.0: Survival calulator added - check if you would have lived if people pressed their buttons.",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "stable"
