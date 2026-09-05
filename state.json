@@ -147226,9 +147226,9 @@
           }
         },
         "AvantGarde": {
-          "BuiltCommit": "04910addd14272cdb6e161ea719dd9dd16a3f75e",
-          "TimeBuilt": "2026-09-04T23:43:33.505596+00:00",
-          "EffectiveVersion": "1.2.0.0",
+          "BuiltCommit": "96b47c03570fe04e72e0f453a0e771959c228eb4",
+          "TimeBuilt": "2026-09-05T15:32:27.107989+00:00",
+          "EffectiveVersion": "1.2.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.1.1": {
@@ -147370,6 +147370,22 @@
                 }
               ],
               "Reviewer": "nathanctech",
+              "Submitter": "NeNeppie"
+            },
+            "1.2.1.0": {
+              "TimeReleased": "2026-09-05T15:32:27.10799+00:00",
+              "Changelog": "- Prevent duplicate submissions if Tracky is also installed.\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "reiichi001",
               "Submitter": "NeNeppie"
             }
           }
@@ -245164,9 +245180,9 @@
           }
         },
         "VanillaPlus": {
-          "BuiltCommit": "5663549f4f1dd76039baaa70892d430262149f02",
-          "TimeBuilt": "2026-09-04T23:43:23.1797405+00:00",
-          "EffectiveVersion": "1.4.3.13",
+          "BuiltCommit": "6f844b968bdaacf384297ea1982e5ade40103950",
+          "TimeBuilt": "2026-09-05T15:32:18.0275472+00:00",
+          "EffectiveVersion": "1.4.3.14",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.1.6": {
@@ -251607,6 +251623,46 @@
                 }
               ],
               "Reviewer": "nathanctech",
+              "Submitter": "MidoriKami"
+            },
+            "1.4.3.14": {
+              "TimeReleased": "2026-09-05T15:32:18.0275912+00:00",
+              "Changelog": "Additional Hotbars - Fix some keybind weirdness\r\nAdditional Hotbars - Can now have hotbars automatically show or hide depending on current job\r\nAdditional Hotbars - Keybind menu now shows row and column numbers for each slot",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "0ae5b2f194b115341d4742505a5bb436d50758f1"
+                },
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit.Components",
+                  "Version": "4bc623758450a18dfa2710f5a2fd94eddf9bccc2"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "LuminaSupplemental.Excel",
+                  "Version": "5.1.4"
+                },
+                {
+                  "Key": "CSVFile",
+                  "Version": "3.2.1"
+                },
+                {
+                  "Key": "CsvHelper",
+                  "Version": "30.0.1"
+                },
+                {
+                  "Key": "Sylvan.Data.Csv",
+                  "Version": "1.4.3"
+                }
+              ],
+              "Reviewer": "reiichi001",
               "Submitter": "MidoriKami"
             }
           }
@@ -357055,6 +357111,13 @@
       "Version": "4bc623758450a18dfa2710f5a2fd94eddf9bccc2",
       "ReviewedBy": "nathanctech",
       "ReviewedAt": "2026-09-04T23:43:23.25401Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/MidoriKami/KamiToolKit",
+      "Version": "0ae5b2f194b115341d4742505a5bb436d50758f1",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2026-09-05T15:32:18.1111434Z"
     }
   ]
 }
