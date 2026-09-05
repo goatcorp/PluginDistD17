@@ -253664,9 +253664,9 @@
           }
         },
         "Altoholic": {
-          "BuiltCommit": "f4395eeec07738157d4b6805e7a8735180359b9a",
-          "TimeBuilt": "2026-08-29T16:37:25.4182631+00:00",
-          "EffectiveVersion": "1.12.14.0",
+          "BuiltCommit": "6bb5b5f3246da409e6cd11a7a7601b1433ac2c2c",
+          "TimeBuilt": "2026-09-05T15:39:17.6401765+00:00",
+          "EffectiveVersion": "1.12.15.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -255739,6 +255739,50 @@
                 }
               ],
               "Reviewer": "nathanctech",
+              "Submitter": "Sohtoren"
+            },
+            "1.12.15.0": {
+              "TimeReleased": "2026-09-05T15:39:17.6401785+00:00",
+              "Changelog": "- **Progress**: Add Moogle hunt of astronomy part 1 event rewards minus missing new map id\n- **PVP**: Add \u0027all\u0027 in pvp with current serie reward for quick overlook.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "Dapper",
+                  "Version": "2.1.79"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "2.0.5"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite.Core",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.bundle_e_sqlite3",
+                  "Version": "3.0.5"
+                },
+                {
+                  "Key": "SQLite",
+                  "Version": "3.53.4"
+                },
+                {
+                  "Key": "SQLitePCLRaw.config.e_sqlite3",
+                  "Version": "3.0.5"
+                },
+                {
+                  "Key": "SQLitePCLRaw.core",
+                  "Version": "3.0.5"
+                },
+                {
+                  "Key": "SQLitePCLRaw.provider.e_sqlite3",
+                  "Version": "3.0.5"
+                }
+              ],
+              "Reviewer": "reiichi001",
               "Submitter": "Sohtoren"
             }
           }
@@ -264120,6 +264164,30 @@
               ],
               "Reviewer": "nathanctech",
               "Submitter": "OOFGamesss"
+            }
+          }
+        },
+        "ItsUp": {
+          "BuiltCommit": "6541bf222d6e42721344b182cdeaefa94bac8e15",
+          "TimeBuilt": "2026-09-05T15:39:00.3700641+00:00",
+          "EffectiveVersion": "0.6.0.0",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "0.6.0.0": {
+              "TimeReleased": "2026-09-05T15:39:00.3701056+00:00",
+              "Changelog": "- Added support for combo and proc actions.\n- Added a Preview mode.\n- Smoothed the cooldown swipe.\n- Cleaned up settings window.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "juan-medina"
             }
           }
         }
@@ -330921,9 +330989,9 @@
           }
         },
         "ItsUp": {
-          "BuiltCommit": "f6474bd04a4dd31b1f2454b329a0d8f3e0d61769",
-          "TimeBuilt": "2026-08-27T17:37:52.1622741+00:00",
-          "EffectiveVersion": "0.5.2.0",
+          "BuiltCommit": "6541bf222d6e42721344b182cdeaefa94bac8e15",
+          "TimeBuilt": "2026-09-05T15:39:26.6961577+00:00",
+          "EffectiveVersion": "0.6.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.5.1.0": {
@@ -330956,6 +331024,22 @@
                 }
               ],
               "Reviewer": "nathanctech",
+              "Submitter": "juan-medina"
+            },
+            "0.6.0.0": {
+              "TimeReleased": "2026-09-05T15:39:26.6961593+00:00",
+              "Changelog": "- Added support for combo and proc actions.\n- Added a Preview mode.\n- Smoothed the cooldown swipe.\n- Cleaned up settings window.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "reiichi001",
               "Submitter": "juan-medina"
             }
           }
