@@ -301318,9 +301318,9 @@
           }
         },
         "XIVJitterFix": {
-          "BuiltCommit": "51559f6f1b84698ad104286526429f56b3945774",
-          "TimeBuilt": "2024-07-10T20:42:40.479",
-          "EffectiveVersion": "0.0.0.4",
+          "BuiltCommit": "b269427b9deb8281fafbc6ca06268c2c11c56c80",
+          "TimeBuilt": "2026-09-05T00:34:39.7360783+00:00",
+          "EffectiveVersion": "0.0.0.5",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.0.3": {
@@ -301336,6 +301336,22 @@
               "UsedNeeds": null,
               "Reviewer": null,
               "Submitter": null
+            },
+            "0.0.0.5": {
+              "TimeReleased": "2026-09-05T00:34:39.7361264+00:00",
+              "Changelog": "- Plugin revived to fix the jitter issue that keep coming back\n- Update to current client version 7.55\n- \u0027Override Downscaling Settings\u0027 removed\n- Special thanks for rootdarkarchon\u0027s original work on this plugin\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "MikeZTM"
             }
           }
         },
