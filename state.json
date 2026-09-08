@@ -110360,9 +110360,9 @@
           }
         },
         "Dalamud.DiscordBridge": {
-          "BuiltCommit": "d21ac96b128ba281ee749f849504731bdf1cc028",
-          "TimeBuilt": "2026-09-08T19:52:23.0398103+00:00",
-          "EffectiveVersion": "1.6.1.0",
+          "BuiltCommit": "c7469afa360645f45c082a8932c3ebc4c1d9dd86",
+          "TimeBuilt": "2026-09-08T22:19:51.1828787+00:00",
+          "EffectiveVersion": "1.6.1.5",
           "MinimumVersion": null,
           "Changelogs": {
             "1.2.7.0": {
@@ -110980,6 +110980,74 @@
             "1.6.1.0": {
               "TimeReleased": "2026-09-08T19:52:23.0398121+00:00",
               "Changelog": "Stop and clear the message queue from on logout events. Start it back up on login events.\n\nThis plugin is looking for a new owner/maintainer. Please reach out to Franz if you want to adopt it.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "Discord.Net",
+                  "Version": "3.20.1"
+                },
+                {
+                  "Key": "Discord.Net.Core",
+                  "Version": "3.20.1"
+                },
+                {
+                  "Key": "Discord.Net.Rest",
+                  "Version": "3.20.1"
+                },
+                {
+                  "Key": "Discord.Net.Webhook",
+                  "Version": "3.20.1"
+                },
+                {
+                  "Key": "Discord.Net.WebSocket",
+                  "Version": "3.20.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "NetStone",
+                  "Version": "1.4.1"
+                },
+                {
+                  "Key": "Discord.Net.Commands",
+                  "Version": "3.20.1"
+                },
+                {
+                  "Key": "Discord.Net.Dave",
+                  "Version": "3.20.1"
+                },
+                {
+                  "Key": "Discord.Net.Interactions",
+                  "Version": "3.20.1"
+                },
+                {
+                  "Key": "HtmlAgilityPack",
+                  "Version": "1.11.46"
+                },
+                {
+                  "Key": "Karashiiro.HtmlAgilityPack.CssSelectors.NetCoreFork",
+                  "Version": "0.0.2"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.4"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "reiichi001"
+            },
+            "1.6.1.5": {
+              "TimeReleased": "2026-09-08T22:19:51.1829094+00:00",
+              "Changelog": "Try to fix the last new feauture that stops and clears the message queue on logout events. Threading is finicky. If this isn\u0027t reliable, I will revert the plugin back to before any of this was attempted.\n\nThis plugin is looking for a new owner/maintainer. Please reach out to Franz if you want to adopt it.\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
