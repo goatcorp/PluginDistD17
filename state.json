@@ -110106,9 +110106,9 @@
           }
         },
         "TPie": {
-          "BuiltCommit": "a861c2132284430e6b2d4666d6fc708051d9b115",
-          "TimeBuilt": "2026-07-21T18:13:29.6266448+00:00",
-          "EffectiveVersion": "1.14.1.0",
+          "BuiltCommit": "572e3dbf7d4fb21430e78c24683e3b4d89b77e6f",
+          "TimeBuilt": "2026-09-08T21:45:51.491391+00:00",
+          "EffectiveVersion": "1.15.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.5.0.0": {
@@ -110328,6 +110328,22 @@
             "1.14.1.0": {
               "TimeReleased": "2026-07-21T18:13:29.6266463+00:00",
               "Changelog": "- Added an IPC to see if a ring is active.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Tischel"
+            },
+            "1.15.0.0": {
+              "TimeReleased": "2026-09-08T21:45:51.4913921+00:00",
+              "Changelog": "- Fixing plugin errors with Beastmaster.",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -146918,9 +146934,9 @@
           }
         },
         "DelvUI": {
-          "BuiltCommit": "edc6ec52620ddf3feaa28115e69329a09b865f4a",
-          "TimeBuilt": "2026-05-01T21:56:23.39563+00:00",
-          "EffectiveVersion": "2.7.0.1",
+          "BuiltCommit": "7aab2e31ef767fa6ae3b7a5667baf979552a3670",
+          "TimeBuilt": "2026-09-08T21:45:43.1208856+00:00",
+          "EffectiveVersion": "2.8.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "2.3.0.0": {
@@ -147298,6 +147314,26 @@
             "2.7.0.1": {
               "TimeReleased": "2026-05-01T21:56:23.3956311+00:00",
               "Changelog": "- Fixed Summoner\u0027s Bars.\r\n- Fixed Party List context menu not working.",
+              "UsedNeeds": [
+                {
+                  "Key": "Colourful",
+                  "Version": "3.2.0"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Tischel"
+            },
+            "2.8.0.0": {
+              "TimeReleased": "2026-09-08T21:45:43.12093+00:00",
+              "Changelog": "- Fixing plugin errors with Beastmaster.",
               "UsedNeeds": [
                 {
                   "Key": "Colourful",
