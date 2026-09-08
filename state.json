@@ -245528,9 +245528,9 @@
           }
         },
         "VanillaPlus": {
-          "BuiltCommit": "201aaf867e9717e5a82138c9cf1f170c8e305bfd",
-          "TimeBuilt": "2026-09-08T19:50:48.992446+00:00",
-          "EffectiveVersion": "1.4.4.1",
+          "BuiltCommit": "70e2dca7c51e6ddcb4a4b3ad3e8bafe495fc4f51",
+          "TimeBuilt": "2026-09-08T20:46:55.8397834+00:00",
+          "EffectiveVersion": "1.4.4.2",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.1.6": {
@@ -252020,6 +252020,46 @@
                 {
                   "Key": "https://github.com/MidoriKami/KamiToolKit",
                   "Version": "6b7b191d0437c0ee26b38931ee72bc1a1a6a01c8"
+                },
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit.Components",
+                  "Version": "4bc623758450a18dfa2710f5a2fd94eddf9bccc2"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "LuminaSupplemental.Excel",
+                  "Version": "5.1.4"
+                },
+                {
+                  "Key": "CSVFile",
+                  "Version": "3.2.1"
+                },
+                {
+                  "Key": "CsvHelper",
+                  "Version": "30.0.1"
+                },
+                {
+                  "Key": "Sylvan.Data.Csv",
+                  "Version": "1.4.3"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "MidoriKami"
+            },
+            "1.4.4.2": {
+              "TimeReleased": "2026-09-08T20:46:55.8397851+00:00",
+              "Changelog": "Additional Hotbars - Fix being unable to set hotbar slots.",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "28fbe17f5ccbcf126b45f1989bb655ee139e9582"
                 },
                 {
                   "Key": "https://github.com/MidoriKami/KamiToolKit.Components",
@@ -264556,9 +264596,9 @@
           }
         },
         "ScrollableTabs": {
-          "BuiltCommit": "49ec2e4caa4041ebf36ff971970529d35633f960",
-          "TimeBuilt": "2026-08-31T18:20:13.7690486+00:00",
-          "EffectiveVersion": "1.1.0.0",
+          "BuiltCommit": "b4d511842bd87a62d6c1f02e10ef1c89f767816e",
+          "TimeBuilt": "2026-09-08T20:47:06.6988853+00:00",
+          "EffectiveVersion": "1.2.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -264599,6 +264639,26 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "Haselnussbomber"
+            },
+            "1.2.0.0": {
+              "TimeReleased": "2026-09-08T20:47:06.6988869+00:00",
+              "Changelog": "- **Added:** Support for the Master\u0027s Bestiary window.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Roslynator.Analyzers",
+                  "Version": "4.15.0"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "Haselnussbomber"
             }
           }
@@ -331860,54 +331920,6 @@
             }
           }
         },
-        "ScrollableTabs": {
-          "BuiltCommit": "b4d511842bd87a62d6c1f02e10ef1c89f767816e",
-          "TimeBuilt": "2026-09-08T19:52:41.8568824+00:00",
-          "EffectiveVersion": "1.2.0.0",
-          "MinimumVersion": null,
-          "Changelogs": {
-            "1.0.0.0": {
-              "TimeReleased": "2026-08-24T21:39:35.1295105+00:00",
-              "Changelog": "**Scrollable Tabs** is a lightweight plugin that lets you use the mouse wheel to switch tabs.\u003Cbr/\u003E\r\n\r\nThe following windows are supported and can be toggled individually:\r\n\r\n- Aether Currents\r\n- Armoury Chest\r\n- Blue Magic Spellbook\r\n- Character\r\n- Character -\u003E Classes/Jobs\r\n- Character -\u003E Reputation\r\n- Chocobo Saddlebag\r\n- Companion\r\n- Currency\r\n- Facewear\r\n- Fashion Accessories\r\n- Field Records\r\n- Fish Guide\r\n- Glamour Dresser (scrolls pages, not tabs)\r\n- Gold Saucer -\u003E Card List\r\n- Gold Saucer -\u003E Decks -\u003E Edit Deck\r\n- Gold Saucer -\u003E Lord of Verminion -\u003E Minion Hotbar\r\n- Inventory\r\n- Island Minion Guide\r\n- Minions\r\n- Mounts\r\n- Retainer Inventory\r\n- Shared FATE\r\n- Sightseeing Log\r\n\r\nThe Command Panel already includes this functionality and instead has an option to disable its tab-scrolling sound effect.\r\n\r\nPlugin configuration is available via Plugin Installer.\r\n",
-              "UsedNeeds": [
-                {
-                  "Key": "DalamudPackager",
-                  "Version": "15.0.0"
-                },
-                {
-                  "Key": "DotNet.ReproducibleBuilds",
-                  "Version": "1.2.39"
-                },
-                {
-                  "Key": "Roslynator.Analyzers",
-                  "Version": "4.15.0"
-                }
-              ],
-              "Reviewer": "nathanctech",
-              "Submitter": "Haselnussbomber"
-            },
-            "1.2.0.0": {
-              "TimeReleased": "2026-09-08T19:52:41.8568843+00:00",
-              "Changelog": "- **Added:** Support for the Master\u0027s Bestiary window.",
-              "UsedNeeds": [
-                {
-                  "Key": "DalamudPackager",
-                  "Version": "15.0.0"
-                },
-                {
-                  "Key": "DotNet.ReproducibleBuilds",
-                  "Version": "1.2.39"
-                },
-                {
-                  "Key": "Roslynator.Analyzers",
-                  "Version": "4.15.0"
-                }
-              ],
-              "Reviewer": "nathanctech",
-              "Submitter": "Haselnussbomber"
-            }
-          }
-        },
         "ProxyPlayer": {
           "BuiltCommit": "9a63353fafbf59c9fcb1035204b09496fe0ceb86",
           "TimeBuilt": "2026-08-24T21:43:49.4557953+00:00",
@@ -358337,6 +358349,13 @@
       "Version": "3.20.1",
       "ReviewedBy": "nathanctech",
       "ReviewedAt": "2026-09-08T19:52:23.0802742Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/MidoriKami/KamiToolKit",
+      "Version": "28fbe17f5ccbcf126b45f1989bb655ee139e9582",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-09-08T20:46:55.9169464Z"
     }
   ]
 }
