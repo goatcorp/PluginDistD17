@@ -110320,9 +110320,9 @@
           }
         },
         "Dalamud.DiscordBridge": {
-          "BuiltCommit": "19667c04334dd7abfa34f918fac512117129d2f0",
-          "TimeBuilt": "2026-05-01T05:53:25.5749317+00:00",
-          "EffectiveVersion": "1.6.0.0",
+          "BuiltCommit": "d21ac96b128ba281ee749f849504731bdf1cc028",
+          "TimeBuilt": "2026-09-08T19:52:23.0398103+00:00",
+          "EffectiveVersion": "1.6.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.2.7.0": {
@@ -110916,6 +110916,74 @@
                 {
                   "Key": "Discord.Net.Interactions",
                   "Version": "3.19.1"
+                },
+                {
+                  "Key": "HtmlAgilityPack",
+                  "Version": "1.11.46"
+                },
+                {
+                  "Key": "Karashiiro.HtmlAgilityPack.CssSelectors.NetCoreFork",
+                  "Version": "0.0.2"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.4"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "reiichi001"
+            },
+            "1.6.1.0": {
+              "TimeReleased": "2026-09-08T19:52:23.0398121+00:00",
+              "Changelog": "Stop and clear the message queue from on logout events. Start it back up on login events.\n\nThis plugin is looking for a new owner/maintainer. Please reach out to Franz if you want to adopt it.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "Discord.Net",
+                  "Version": "3.20.1"
+                },
+                {
+                  "Key": "Discord.Net.Core",
+                  "Version": "3.20.1"
+                },
+                {
+                  "Key": "Discord.Net.Rest",
+                  "Version": "3.20.1"
+                },
+                {
+                  "Key": "Discord.Net.Webhook",
+                  "Version": "3.20.1"
+                },
+                {
+                  "Key": "Discord.Net.WebSocket",
+                  "Version": "3.20.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "NetStone",
+                  "Version": "1.4.1"
+                },
+                {
+                  "Key": "Discord.Net.Commands",
+                  "Version": "3.20.1"
+                },
+                {
+                  "Key": "Discord.Net.Dave",
+                  "Version": "3.20.1"
+                },
+                {
+                  "Key": "Discord.Net.Interactions",
+                  "Version": "3.20.1"
                 },
                 {
                   "Key": "HtmlAgilityPack",
@@ -147226,9 +147294,9 @@
           }
         },
         "AvantGarde": {
-          "BuiltCommit": "96b47c03570fe04e72e0f453a0e771959c228eb4",
-          "TimeBuilt": "2026-09-05T15:32:27.107989+00:00",
-          "EffectiveVersion": "1.2.1.0",
+          "BuiltCommit": "2d22af5c9d17e76a67b7e8409f75757c51b893f3",
+          "TimeBuilt": "2026-09-08T19:51:23.5564807+00:00",
+          "EffectiveVersion": "1.2.2.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.1.1": {
@@ -147386,6 +147454,22 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "NeNeppie"
+            },
+            "1.2.2.0": {
+              "TimeReleased": "2026-09-08T19:51:23.5564821+00:00",
+              "Changelog": "- Added basic IPC for Allagan Tools and Item Vendor Location\r\n  - Users of these plugins can view more information on selected items by clicking on \u0022Open in [plugin name]\u0022.\r\n  - These extra options are only visible if the plugins are enabled.\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "NeNeppie"
             }
           }
@@ -205365,9 +205449,9 @@
           }
         },
         "ChillFrames": {
-          "BuiltCommit": "d678c6d07a71027620c7ae53aea41b1227f801f2",
-          "TimeBuilt": "2026-09-06T21:07:14.4219483+00:00",
-          "EffectiveVersion": "3.2.3.5",
+          "BuiltCommit": "e4b7fc1c18efe8878c6d18abc4cfb20e8d7b3dee",
+          "TimeBuilt": "2026-09-08T19:52:32.0721057+00:00",
+          "EffectiveVersion": "3.2.4.2",
           "MinimumVersion": null,
           "Changelogs": {
             "1.5.0.2": {
@@ -205977,6 +206061,22 @@
             "3.2.3.5": {
               "TimeReleased": "2026-09-06T21:07:14.4219498+00:00",
               "Changelog": "Adds Idle FPS Limiter Delay (seconds) option, to delay the activation of the idle fps limiter.\r\n\r\nThis is useful when using high idle fps wait times, as alt-tabbing to and from the game was very jarring. Now with this delay, it won\u0027t apply the idle fps limiter until the window has been idle by the specific number of seconds.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "MidoriKami"
+            },
+            "3.2.4.2": {
+              "TimeReleased": "2026-09-08T19:52:32.0721074+00:00",
+              "Changelog": "Fix idle limiter not being disabled correctly during loading zones.",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -222684,9 +222784,9 @@
           }
         },
         "JobTitles": {
-          "BuiltCommit": "4f4dc3b1c723218957bb52b35e6cf809ae27b14c",
-          "TimeBuilt": "2026-04-29T23:40:21.4124965+00:00",
-          "EffectiveVersion": "0.2.0.7",
+          "BuiltCommit": "be1a0843bd27c279279f6d8d0d3997df544ddb5f",
+          "TimeBuilt": "2026-09-08T19:51:00.4972839+00:00",
+          "EffectiveVersion": "0.2.0.8",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.0.0": {
@@ -223871,6 +223971,134 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "keifufu"
+            },
+            "0.2.0.8": {
+              "TimeReleased": "2026-09-08T19:51:00.4972856+00:00",
+              "Changelog": "- Support for Beastmaster\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Hosting",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Binder",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.CommandLine",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.EnvironmentVariables",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.FileExtensions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Json",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.UserSecrets",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Diagnostics",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Diagnostics.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileProviders.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileProviders.Physical",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileSystemGlobbing",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Hosting.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Configuration",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Console",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Debug",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.EventLog",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.EventSource",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options.ConfigurationExtensions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Primitives",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "System.Diagnostics.EventLog",
+                  "Version": "10.0.1"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "keifufu"
             }
           }
@@ -244952,9 +245180,9 @@
           }
         },
         "BetterFriendList": {
-          "BuiltCommit": "7c51bfb633ff10762a77758e33ddf75fb4d420cd",
-          "TimeBuilt": "2026-06-24T05:12:25.79283+00:00",
-          "EffectiveVersion": "2.1.4.1",
+          "BuiltCommit": "4d8c9eae150a89192632090b16e3cf042d7eeecc",
+          "TimeBuilt": "2026-09-08T19:51:13.7853912+00:00",
+          "EffectiveVersion": "2.1.4.2",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.1.0": {
@@ -245232,13 +245460,53 @@
               ],
               "Reviewer": "nathanctech",
               "Submitter": "devckuw"
+            },
+            "2.1.4.2": {
+              "TimeReleased": "2026-09-08T19:51:13.7853938+00:00",
+              "Changelog": "v2.1.4.2:\r\n- add beastmaster icon\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit.git",
+                  "Version": "7b98ee4ea14cc348fba0ed729359c95b31c84a43"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "NetStone",
+                  "Version": "1.4.1"
+                },
+                {
+                  "Key": "HtmlAgilityPack",
+                  "Version": "1.11.46"
+                },
+                {
+                  "Key": "Karashiiro.HtmlAgilityPack.CssSelectors.NetCoreFork",
+                  "Version": "0.0.2"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.3"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "devckuw"
             }
           }
         },
         "VanillaPlus": {
-          "BuiltCommit": "6f844b968bdaacf384297ea1982e5ade40103950",
-          "TimeBuilt": "2026-09-05T15:32:18.0275472+00:00",
-          "EffectiveVersion": "1.4.3.14",
+          "BuiltCommit": "201aaf867e9717e5a82138c9cf1f170c8e305bfd",
+          "TimeBuilt": "2026-09-08T19:50:48.992446+00:00",
+          "EffectiveVersion": "1.4.4.1",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.1.6": {
@@ -251720,6 +251988,46 @@
               ],
               "Reviewer": "reiichi001",
               "Submitter": "MidoriKami"
+            },
+            "1.4.4.1": {
+              "TimeReleased": "2026-09-08T19:50:48.9924476+00:00",
+              "Changelog": "Fix Fade Unavailable Actions for 7.56",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "6b7b191d0437c0ee26b38931ee72bc1a1a6a01c8"
+                },
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit.Components",
+                  "Version": "4bc623758450a18dfa2710f5a2fd94eddf9bccc2"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "LuminaSupplemental.Excel",
+                  "Version": "5.1.4"
+                },
+                {
+                  "Key": "CSVFile",
+                  "Version": "3.2.1"
+                },
+                {
+                  "Key": "CsvHelper",
+                  "Version": "30.0.1"
+                },
+                {
+                  "Key": "Sylvan.Data.Csv",
+                  "Version": "1.4.3"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "MidoriKami"
             }
           }
         },
@@ -253720,9 +254028,9 @@
           }
         },
         "Altoholic": {
-          "BuiltCommit": "6bb5b5f3246da409e6cd11a7a7601b1433ac2c2c",
-          "TimeBuilt": "2026-09-05T15:39:17.6401765+00:00",
-          "EffectiveVersion": "1.12.15.0",
+          "BuiltCommit": "eca47d137789458c268407b4dac53ca4f114b773",
+          "TimeBuilt": "2026-09-08T19:51:56.6295376+00:00",
+          "EffectiveVersion": "1.12.16.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -255839,6 +256147,50 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "Sohtoren"
+            },
+            "1.12.16.0": {
+              "TimeReleased": "2026-09-08T19:51:56.6295393+00:00",
+              "Changelog": "- **General**: 7.56 stuff\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "Dapper",
+                  "Version": "2.1.79"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "2.0.5"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite.Core",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.bundle_e_sqlite3",
+                  "Version": "3.0.5"
+                },
+                {
+                  "Key": "SQLite",
+                  "Version": "3.53.4"
+                },
+                {
+                  "Key": "SQLitePCLRaw.config.e_sqlite3",
+                  "Version": "3.0.5"
+                },
+                {
+                  "Key": "SQLitePCLRaw.core",
+                  "Version": "3.0.5"
+                },
+                {
+                  "Key": "SQLitePCLRaw.provider.e_sqlite3",
+                  "Version": "3.0.5"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "Sohtoren"
             }
           }
@@ -262760,9 +263112,9 @@
           }
         },
         "AetherBlackbox": {
-          "BuiltCommit": "64c4f8a7ec01d0d682209a5838329415f9ce7645",
-          "TimeBuilt": "2026-09-04T23:43:49.8429439+00:00",
-          "EffectiveVersion": "7.56.0.1",
+          "BuiltCommit": "a14c17e9b7fc182308a0c076e0083493c0c51e89",
+          "TimeBuilt": "2026-09-08T19:52:12.7158834+00:00",
+          "EffectiveVersion": "7.56.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "7.50.2.6": {
@@ -263244,6 +263596,74 @@
             "7.56.0.1": {
               "TimeReleased": "2026-09-04T23:43:49.8429453+00:00",
               "Changelog": "v7.56.0.1:live sync cache fix\nv7.56.0.0: Survival calculator added. See if you would have lived.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "SixLabors.Fonts",
+                  "Version": "2.1.3"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp.Drawing",
+                  "Version": "2.1.7"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp.Web",
+                  "Version": "3.2.0"
+                },
+                {
+                  "Key": "SkiaSharp",
+                  "Version": "3.119.1"
+                },
+                {
+                  "Key": "Svg.Skia",
+                  "Version": "3.2.1"
+                },
+                {
+                  "Key": "ExCSS",
+                  "Version": "4.3.1"
+                },
+                {
+                  "Key": "Microsoft.IO.RecyclableMemoryStream",
+                  "Version": "3.0.1"
+                },
+                {
+                  "Key": "ShimSkiaSharp",
+                  "Version": "3.2.1"
+                },
+                {
+                  "Key": "SkiaSharp.NativeAssets.macOS",
+                  "Version": "3.119.1"
+                },
+                {
+                  "Key": "SkiaSharp.NativeAssets.Win32",
+                  "Version": "3.119.1"
+                },
+                {
+                  "Key": "Svg.Custom",
+                  "Version": "3.2.1"
+                },
+                {
+                  "Key": "Svg.Model",
+                  "Version": "3.2.1"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "rail2025"
+            },
+            "7.56.1.0": {
+              "TimeReleased": "2026-09-08T19:52:12.715885+00:00",
+              "Changelog": "v7.56.1.0: overlays bounce back on window resize, map calibration scaling propagates live sync too\nv7.56.0.1:live sync cache fix\nv7.56.0.0: Survival calculator added. See if you would have lived.",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -264244,6 +264664,54 @@
               ],
               "Reviewer": "reiichi001",
               "Submitter": "juan-medina"
+            }
+          }
+        },
+        "DutyLootPreview": {
+          "BuiltCommit": "1ea0e9fd49b4b843d513a29eae0336de7a05228e",
+          "TimeBuilt": "2026-09-08T19:51:39.1542969+00:00",
+          "EffectiveVersion": "0.0.0.1",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "0.0.0.1": {
+              "TimeReleased": "2026-09-08T19:51:39.1543035+00:00",
+              "Changelog": "DutyLootPreview is now a standalone plugin instead of a VanillaPlus module (at MidoriKami\u0027s request).\n\n- All functionality is the same.\n- Use \u0060/dlp import\u0060 to import your existing DLP settings\n\nThe VanillaPlus version of DutyLootPreview will be removed in the near future.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "Aigamo.ResXGenerator",
+                  "Version": "4.4.0"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "KamiToolKit",
+                  "Version": "2.2.9"
+                },
+                {
+                  "Key": "LuminaSupplemental.Excel",
+                  "Version": "4.3.4"
+                },
+                {
+                  "Key": "CSVFile",
+                  "Version": "3.2.1"
+                },
+                {
+                  "Key": "CsvHelper",
+                  "Version": "30.0.1"
+                },
+                {
+                  "Key": "Sylvan.Data.Csv",
+                  "Version": "1.4.3"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "grittyfrog"
             }
           }
         }
@@ -331369,14 +331837,34 @@
           }
         },
         "ScrollableTabs": {
-          "BuiltCommit": "d423fb09657c3fd11287dd8fa5bf8749e33626a9",
-          "TimeBuilt": "2026-08-24T21:39:35.1294624+00:00",
-          "EffectiveVersion": "1.0.0.0",
+          "BuiltCommit": "b4d511842bd87a62d6c1f02e10ef1c89f767816e",
+          "TimeBuilt": "2026-09-08T19:52:41.8568824+00:00",
+          "EffectiveVersion": "1.2.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
               "TimeReleased": "2026-08-24T21:39:35.1295105+00:00",
               "Changelog": "**Scrollable Tabs** is a lightweight plugin that lets you use the mouse wheel to switch tabs.\u003Cbr/\u003E\r\n\r\nThe following windows are supported and can be toggled individually:\r\n\r\n- Aether Currents\r\n- Armoury Chest\r\n- Blue Magic Spellbook\r\n- Character\r\n- Character -\u003E Classes/Jobs\r\n- Character -\u003E Reputation\r\n- Chocobo Saddlebag\r\n- Companion\r\n- Currency\r\n- Facewear\r\n- Fashion Accessories\r\n- Field Records\r\n- Fish Guide\r\n- Glamour Dresser (scrolls pages, not tabs)\r\n- Gold Saucer -\u003E Card List\r\n- Gold Saucer -\u003E Decks -\u003E Edit Deck\r\n- Gold Saucer -\u003E Lord of Verminion -\u003E Minion Hotbar\r\n- Inventory\r\n- Island Minion Guide\r\n- Minions\r\n- Mounts\r\n- Retainer Inventory\r\n- Shared FATE\r\n- Sightseeing Log\r\n\r\nThe Command Panel already includes this functionality and instead has an option to disable its tab-scrolling sound effect.\r\n\r\nPlugin configuration is available via Plugin Installer.\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Roslynator.Analyzers",
+                  "Version": "4.15.0"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Haselnussbomber"
+            },
+            "1.2.0.0": {
+              "TimeReleased": "2026-09-08T19:52:41.8568843+00:00",
+              "Changelog": "- **Added:** Support for the Master\u0027s Bestiary window.",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -331417,54 +331905,6 @@
               ],
               "Reviewer": "nathanctech",
               "Submitter": "Bronya-Rand"
-            }
-          }
-        },
-        "DutyLootPreview": {
-          "BuiltCommit": "1ea0e9fd49b4b843d513a29eae0336de7a05228e",
-          "TimeBuilt": "2026-08-24T21:49:42.2980573+00:00",
-          "EffectiveVersion": "0.0.0.1",
-          "MinimumVersion": null,
-          "Changelogs": {
-            "0.0.0.1": {
-              "TimeReleased": "2026-08-24T21:49:42.2981002+00:00",
-              "Changelog": "DutyLootPreview is now a standalone plugin instead of a VanillaPlus module (at MidoriKami\u0027s request).\n\n- All functionality is the same.\n- Use \u0060/dlp import\u0060 to import your existing DLP settings\n\nThe VanillaPlus version of DutyLootPreview will be removed in the near future.\n",
-              "UsedNeeds": [
-                {
-                  "Key": "Aigamo.ResXGenerator",
-                  "Version": "4.4.0"
-                },
-                {
-                  "Key": "DalamudPackager",
-                  "Version": "15.0.0"
-                },
-                {
-                  "Key": "DotNet.ReproducibleBuilds",
-                  "Version": "1.2.39"
-                },
-                {
-                  "Key": "KamiToolKit",
-                  "Version": "2.2.9"
-                },
-                {
-                  "Key": "LuminaSupplemental.Excel",
-                  "Version": "4.3.4"
-                },
-                {
-                  "Key": "CSVFile",
-                  "Version": "3.2.1"
-                },
-                {
-                  "Key": "CsvHelper",
-                  "Version": "30.0.1"
-                },
-                {
-                  "Key": "Sylvan.Data.Csv",
-                  "Version": "1.4.3"
-                }
-              ],
-              "Reviewer": "nathanctech",
-              "Submitter": "grittyfrog"
             }
           }
         },
@@ -357817,6 +358257,62 @@
       "Version": "6b7b191d0437c0ee26b38931ee72bc1a1a6a01c8",
       "ReviewedBy": "reiichi001",
       "ReviewedAt": "2026-09-06T21:12:31.6324449Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Discord.Net",
+      "Version": "3.20.1",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-09-08T19:52:23.0802296Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Discord.Net.Core",
+      "Version": "3.20.1",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-09-08T19:52:23.0802726Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Discord.Net.Rest",
+      "Version": "3.20.1",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-09-08T19:52:23.080273Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Discord.Net.Webhook",
+      "Version": "3.20.1",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-09-08T19:52:23.0802732Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Discord.Net.WebSocket",
+      "Version": "3.20.1",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-09-08T19:52:23.0802735Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Discord.Net.Commands",
+      "Version": "3.20.1",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-09-08T19:52:23.080274Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Discord.Net.Dave",
+      "Version": "3.20.1",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-09-08T19:52:23.0802741Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Discord.Net.Interactions",
+      "Version": "3.20.1",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-09-08T19:52:23.0802742Z"
     }
   ]
 }
