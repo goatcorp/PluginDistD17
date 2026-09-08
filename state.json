@@ -3,9 +3,9 @@
     "stable": {
       "Plugins": {
         "Dalamud.RichPresence": {
-          "BuiltCommit": "08db5a31a96390abe3b59b6fe66e9be7b9cfb5aa",
-          "TimeBuilt": "2026-08-04T20:37:52.5867223+00:00",
-          "EffectiveVersion": "2.0.9.7",
+          "BuiltCommit": "bf70912fab64c5b1f4fb225d18b5cdb8b0df8188",
+          "TimeBuilt": "2026-09-08T20:08:24.5896329+00:00",
+          "EffectiveVersion": "2.1.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "2.0.1.0": {
@@ -825,6 +825,30 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "Bronya-Rand"
+            },
+            "2.1.0.0": {
+              "TimeReleased": "2026-09-08T20:08:24.589668+00:00",
+              "Changelog": "# What\u0027s New?\r\n- Rebuilt from the ground up the Wine bridge for non-\u0060AF_UNIX\u0060 Wine/Proton builds on Linux and macOS using A TCP RPC bridge.\r\n\r\n## Note\r\nThis is **not** the same bridge that once existed and currently can be pushed despite the pending PR in XIVLauncher.Core as a hostable binary is avail on the NuGet repo I made that XOM and XIVLauncher-RB uses.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DiscordRichPresence",
+                  "Version": "1.6.1.70"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "2.0.5"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.1"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "Bronya-Rand"
             }
           }
