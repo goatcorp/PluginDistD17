@@ -317961,9 +317961,9 @@
           }
         },
         "PartySortPlus": {
-          "BuiltCommit": "cfd260c7974597627a5602d1b147b6b1630de98f",
-          "TimeBuilt": "2025-04-20T13:53:36.8796459+00:00",
-          "EffectiveVersion": "1.0.0.0",
+          "BuiltCommit": "83e8b002bc37f15361341601dba66efc6046aa9b",
+          "TimeBuilt": "2026-09-09T18:32:49.2432829+00:00",
+          "EffectiveVersion": "1.0.0.2",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -318009,6 +318009,50 @@
               ],
               "Reviewer": "philpax",
               "Submitter": "Rietty"
+            },
+            "1.0.0.2": {
+              "TimeReleased": "2026-09-09T18:32:49.2433206+00:00",
+              "Changelog": "Updated for Dalamud API 15. Fixed rule evaluation, negative-only conditions, preset persistence, duplicate-job sorting, rule reordering, and Linux CI restore compatibility.",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/NightmareXIV/ECommons.git",
+                  "Version": "7bee6fab377ceaab18e6552706df7cae6172a8d4"
+                },
+                {
+                  "Key": "https://github.com/Ottermandias/OtterGui.git",
+                  "Version": "79771ee5f3d463f02c63bebbedaa0aff49e59718"
+                },
+                {
+                  "Key": "https://github.com/Ottermandias/OtterGuiInternal.git",
+                  "Version": "fb9de85711973eba4b02156ece9865ba166020af"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "JetBrains.Annotations",
+                  "Version": "2024.3.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "9.0.2"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "9.0.2"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "Microsoft.CodeAnalysis.BannedApiAnalyzers",
+                  "Version": "3.12.0-beta1.25218.8"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "tenyu27"
             }
           }
         },
@@ -358954,6 +358998,20 @@
       "Version": "4.14.0",
       "ReviewedBy": "nathanctech",
       "ReviewedAt": "2026-09-09T14:34:10.5758177Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/NightmareXIV/ECommons.git",
+      "Version": "7bee6fab377ceaab18e6552706df7cae6172a8d4",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-09-09T18:32:49.3234939Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.CodeAnalysis.BannedApiAnalyzers",
+      "Version": "3.12.0-beta1.25218.8",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-09-09T18:32:49.3235188Z"
     }
   ]
 }
