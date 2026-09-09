@@ -205577,9 +205577,9 @@
           }
         },
         "ChillFrames": {
-          "BuiltCommit": "e4b7fc1c18efe8878c6d18abc4cfb20e8d7b3dee",
-          "TimeBuilt": "2026-09-08T19:52:32.0721057+00:00",
-          "EffectiveVersion": "3.2.4.2",
+          "BuiltCommit": "e7b6e59bd04b501885043b7b9f7fd0a41fdc8169",
+          "TimeBuilt": "2026-09-09T07:17:37.1393031+00:00",
+          "EffectiveVersion": "3.2.4.3",
           "MinimumVersion": null,
           "Changelogs": {
             "1.5.0.2": {
@@ -206216,6 +206216,22 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "MidoriKami"
+            },
+            "3.2.4.3": {
+              "TimeReleased": "2026-09-09T07:17:37.1393512+00:00",
+              "Changelog": "Simplify idle limiter logic\r\n\r\nNow respects plugins main toggle.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nebel",
               "Submitter": "MidoriKami"
             }
           }
