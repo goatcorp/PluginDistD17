@@ -1,16 +1,20 @@
 {
   "Author": "Infi, Sl0nderman, harbingerftw",
-  "Name": "Blue Mage Helper",
+  "Name": "Blue Mage & Beastmaster Helper",
   "InternalName": "BlueMageHelper",
-  "AssemblyVersion": "3.4.0.0",
-  "Description": "Adds a window to show all Blue Magic, letting you search for spells and then teleport or mark the location on your map or open the dutyfinder. Can also mark mobs in world that drop spells you need.",
+  "AssemblyVersion": "3.6.0.0",
+  "Description": "Adds a window to show all Blue Magic and Beastmaster Pets, letting you search for them with links to teleport or mark the location or open the Duty Finder. Also adds headmarkers to the mobs you still need..",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/harbingerftw/BlueMageHelper",
   "Tags": [
     "spells",
     "spellbook",
     "blu",
-    "blue"
+    "blue",
+    "beastmaster",
+    "bst",
+    "beastiary",
+    "pet"
   ],
   "CategoryTags": [
     "jobs"
@@ -20,7 +24,7 @@
   "LoadSync": false,
   "CanUnloadAsync": false,
   "LoadPriority": 0,
-  "Punchline": "Helps you fill out your Blue Mage Spellbook",
+  "Punchline": "Helps fill out your Blue Mage Spellbook & Beastmaster Beastiary!",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "testing-live"
