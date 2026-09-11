@@ -264676,9 +264676,9 @@
           }
         },
         "HUDManager": {
-          "BuiltCommit": "da265119864933059ccb1b4cc48c8c579fdeeb44",
-          "TimeBuilt": "2026-09-09T18:35:10.5232806+00:00",
-          "EffectiveVersion": "2.7.1.5",
+          "BuiltCommit": "90306c336e2622403933741b1b021cdb7beb44a0",
+          "TimeBuilt": "2026-09-11T18:09:20.5989174+00:00",
+          "EffectiveVersion": "2.7.2.2",
           "MinimumVersion": null,
           "Changelogs": {
             "2.5.27.0": {
@@ -264764,6 +264764,26 @@
             "2.7.1.5": {
               "TimeReleased": "2026-09-09T18:35:10.5233255+00:00",
               "Changelog": "- Show swap block reason in UI\r\n- Show active HUD slot information in Debug tab\r\n- Temporarily use manual HUD slot offset",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "YamlDotNet",
+                  "Version": "12.3.1"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "nebel"
+            },
+            "2.7.2.2": {
+              "TimeReleased": "2026-09-11T18:09:20.5989643+00:00",
+              "Changelog": "- Fix element preview size for certain hotbar configurations\r\n- Add alert to Swapper tab when no swap condition is currently matched",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -333429,6 +333449,82 @@
               ],
               "Reviewer": "reiichi001",
               "Submitter": "juan-medina"
+            }
+          }
+        },
+        "Dalamud.DiscordBridge": {
+          "BuiltCommit": "0ea45d0cc6c495737e827b34d92c43ab33410c1f",
+          "TimeBuilt": "2026-09-11T18:09:31.4523476+00:00",
+          "EffectiveVersion": "1.6.1.6",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "1.6.1.6": {
+              "TimeReleased": "2026-09-11T18:09:31.4523534+00:00",
+              "Changelog": "Disables the most recent changes to clear message queue on login/logout.\n\nThis plugin is looking for a new owner/maintainer. Please reach out to Franz if you want to adopt it.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "Discord.Net",
+                  "Version": "3.20.1"
+                },
+                {
+                  "Key": "Discord.Net.Core",
+                  "Version": "3.20.1"
+                },
+                {
+                  "Key": "Discord.Net.Rest",
+                  "Version": "3.20.1"
+                },
+                {
+                  "Key": "Discord.Net.Webhook",
+                  "Version": "3.20.1"
+                },
+                {
+                  "Key": "Discord.Net.WebSocket",
+                  "Version": "3.20.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "NetStone",
+                  "Version": "1.4.1"
+                },
+                {
+                  "Key": "Discord.Net.Commands",
+                  "Version": "3.20.1"
+                },
+                {
+                  "Key": "Discord.Net.Dave",
+                  "Version": "3.20.1"
+                },
+                {
+                  "Key": "Discord.Net.Interactions",
+                  "Version": "3.20.1"
+                },
+                {
+                  "Key": "HtmlAgilityPack",
+                  "Version": "1.11.46"
+                },
+                {
+                  "Key": "Karashiiro.HtmlAgilityPack.CssSelectors.NetCoreFork",
+                  "Version": "0.0.2"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.4"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "reiichi001"
             }
           }
         }
