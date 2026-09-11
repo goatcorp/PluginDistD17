@@ -2,8 +2,8 @@
   "Author": "Infi, Sl0nderman, harbingerftw",
   "Name": "Blue Mage & Beastmaster Helper",
   "InternalName": "BlueMageHelper",
-  "AssemblyVersion": "3.6.0.0",
-  "Description": "Adds a window to show all Blue Magic and Beastmaster Pets, letting you search for them with links to teleport or mark the location or open the Duty Finder. Also adds headmarkers to the mobs you still need..",
+  "AssemblyVersion": "3.6.1.0",
+  "Description": "Adds a window to show all Blue Mage Magic and Beastmaster Pets you still need to collect.\nLets you search by zone or name providing quick buttons to teleport to the mob or open the Duty Finder to the correct one. Also adds headmarkers to the mobs you still need, making it easy to see in the world which is the right one.\n        ",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/harbingerftw/BlueMageHelper",
   "Tags": [

@@ -2,7 +2,7 @@
   "Author": "spide-r",
   "Name": "SoundEffectMuter",
   "InternalName": "SoundEffectMuter",
-  "AssemblyVersion": "1.4.1.0",
+  "AssemblyVersion": "1.4.2.0",
   "Description": "This plugin silences all text sound effects and quick chat.\n\nFor feedback, please contact .spider in the Dalamud discord.",
   "ApplicableVersion": "any",
   "Tags": [
@@ -26,5 +26,6 @@
   "Punchline": "Quiets the Gameplay Experience.",
   "AcceptsFeedback": false,
   "_isDip17Plugin": true,
-  "_Dip17Channel": "stable"
+  "_Dip17Channel": "stable",
+  "RepoUrl": "https://github.com/spide-r/SoundEffectMuter.git"
 }
