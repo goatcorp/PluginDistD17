@@ -246020,9 +246020,9 @@
           }
         },
         "VanillaPlus": {
-          "BuiltCommit": "70e2dca7c51e6ddcb4a4b3ad3e8bafe495fc4f51",
-          "TimeBuilt": "2026-09-08T20:46:55.8397834+00:00",
-          "EffectiveVersion": "1.4.4.2",
+          "BuiltCommit": "02ff3315bceba2bf545d18c17ee7774acdf40534",
+          "TimeBuilt": "2026-09-11T21:17:13.7921917+00:00",
+          "EffectiveVersion": "1.4.4.3",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.1.6": {
@@ -252583,6 +252583,46 @@
                 }
               ],
               "Reviewer": "nathanctech",
+              "Submitter": "MidoriKami"
+            },
+            "1.4.4.3": {
+              "TimeReleased": "2026-09-11T21:17:13.7922565+00:00",
+              "Changelog": "Additional Hotbars - Improved behavior, slots now fade properly, and tint red when out of range.",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "93704ed00c0fe948c513d6bcce6672f83856d55b"
+                },
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit.Components",
+                  "Version": "4bc623758450a18dfa2710f5a2fd94eddf9bccc2"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "LuminaSupplemental.Excel",
+                  "Version": "5.1.5"
+                },
+                {
+                  "Key": "CSVFile",
+                  "Version": "3.2.1"
+                },
+                {
+                  "Key": "CsvHelper",
+                  "Version": "30.0.1"
+                },
+                {
+                  "Key": "Sylvan.Data.Csv",
+                  "Version": "1.4.3"
+                }
+              ],
+              "Reviewer": "reiichi001",
               "Submitter": "MidoriKami"
             }
           }
@@ -359987,6 +360027,20 @@
       "Version": "3.0.235",
       "ReviewedBy": "nebel",
       "ReviewedAt": "2026-09-11T12:22:39.8164184Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/MidoriKami/KamiToolKit",
+      "Version": "93704ed00c0fe948c513d6bcce6672f83856d55b",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2026-09-11T21:17:13.8728759Z"
+    },
+    {
+      "Type": 1,
+      "Key": "LuminaSupplemental.Excel",
+      "Version": "5.1.5",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2026-09-11T21:17:13.872906Z"
     }
   ]
 }
