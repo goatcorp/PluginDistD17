@@ -205705,9 +205705,9 @@
           }
         },
         "ChillFrames": {
-          "BuiltCommit": "6cc60af35e91750fc1d39394f169c37167525bbb",
-          "TimeBuilt": "2026-09-10T21:50:07.828695+00:00",
-          "EffectiveVersion": "3.2.4.4",
+          "BuiltCommit": "b0d57265e6faa567ff408e8644ab59ee2d5f7875",
+          "TimeBuilt": "2026-09-11T17:59:03.8773248+00:00",
+          "EffectiveVersion": "3.2.4.5",
           "MinimumVersion": null,
           "Changelogs": {
             "1.5.0.2": {
@@ -206376,6 +206376,22 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "MidoriKami"
+            },
+            "3.2.4.5": {
+              "TimeReleased": "2026-09-11T17:59:03.8773652+00:00",
+              "Changelog": "Fix table scaling",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "MidoriKami"
             }
           }
