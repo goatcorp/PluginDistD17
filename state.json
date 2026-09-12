@@ -254676,9 +254676,9 @@
           }
         },
         "Altoholic": {
-          "BuiltCommit": "611582cfde06d26fbbe95de4a1373c5d4247eb22",
-          "TimeBuilt": "2026-09-10T21:49:21.1232879+00:00",
-          "EffectiveVersion": "1.12.17.0",
+          "BuiltCommit": "b9156b2c2c3ae635384810fad565cfdc9a8d69cb",
+          "TimeBuilt": "2026-09-12T22:45:12.0656092+00:00",
+          "EffectiveVersion": "1.12.19.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -256883,6 +256883,50 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "Sohtoren"
+            },
+            "1.12.19.0": {
+              "TimeReleased": "2026-09-12T22:45:12.0656544+00:00",
+              "Changelog": "- **Progress**: Fix mount reward id for Hallowed Kamuy\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "Dapper",
+                  "Version": "2.1.79"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "2.0.5"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite.Core",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.bundle_e_sqlite3",
+                  "Version": "3.0.5"
+                },
+                {
+                  "Key": "SQLite",
+                  "Version": "3.53.4"
+                },
+                {
+                  "Key": "SQLitePCLRaw.config.e_sqlite3",
+                  "Version": "3.0.5"
+                },
+                {
+                  "Key": "SQLitePCLRaw.core",
+                  "Version": "3.0.5"
+                },
+                {
+                  "Key": "SQLitePCLRaw.provider.e_sqlite3",
+                  "Version": "3.0.5"
+                }
+              ],
+              "Reviewer": "nebel",
               "Submitter": "Sohtoren"
             }
           }
