@@ -265568,9 +265568,9 @@
           }
         },
         "ItsUp": {
-          "BuiltCommit": "6541bf222d6e42721344b182cdeaefa94bac8e15",
-          "TimeBuilt": "2026-09-05T15:39:00.3700641+00:00",
-          "EffectiveVersion": "0.6.0.0",
+          "BuiltCommit": "d6222f09ea78ccdd2b3314668c5bfe89138cfa44",
+          "TimeBuilt": "2026-09-12T22:59:50.0185513+00:00",
+          "EffectiveVersion": "0.7.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.6.0.0": {
@@ -265587,6 +265587,22 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "juan-medina"
+            },
+            "0.7.0.0": {
+              "TimeReleased": "2026-09-12T22:59:50.0185998+00:00",
+              "Changelog": "- Show hotbar keybinds on ability icons.\n- Role abilities are now tracked per job.\n- Added an option to only show while inside duties.\n- Added an option to toggle the marching ants border animation.\n- Improve config window.\n- Added /itsup preview and /itsup reset slash commands.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nebel",
               "Submitter": "juan-medina"
             }
           }
@@ -333521,9 +333537,9 @@
           }
         },
         "ItsUp": {
-          "BuiltCommit": "6541bf222d6e42721344b182cdeaefa94bac8e15",
-          "TimeBuilt": "2026-09-05T15:39:26.6961577+00:00",
-          "EffectiveVersion": "0.6.0.0",
+          "BuiltCommit": "d6222f09ea78ccdd2b3314668c5bfe89138cfa44",
+          "TimeBuilt": "2026-09-12T23:00:00.3509509+00:00",
+          "EffectiveVersion": "0.7.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.5.1.0": {
@@ -333572,6 +333588,22 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "juan-medina"
+            },
+            "0.7.0.0": {
+              "TimeReleased": "2026-09-12T23:00:00.350952+00:00",
+              "Changelog": "- Show hotbar keybinds on ability icons.\n- Role abilities are now tracked per job.\n- Added an option to only show while inside duties.\n- Added an option to toggle the marching ants border animation.\n- Improve config window.\n- Added /itsup preview and /itsup reset slash commands.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nebel",
               "Submitter": "juan-medina"
             }
           }
