@@ -246020,9 +246020,9 @@
           }
         },
         "VanillaPlus": {
-          "BuiltCommit": "02ff3315bceba2bf545d18c17ee7774acdf40534",
-          "TimeBuilt": "2026-09-11T21:17:13.7921917+00:00",
-          "EffectiveVersion": "1.4.4.3",
+          "BuiltCommit": "0fea140621b9867f810784af1312a712214005fd",
+          "TimeBuilt": "2026-09-12T22:50:03.2601958+00:00",
+          "EffectiveVersion": "1.4.4.7",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.1.6": {
@@ -252623,6 +252623,46 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "MidoriKami"
+            },
+            "1.4.4.7": {
+              "TimeReleased": "2026-09-12T22:50:03.2602653+00:00",
+              "Changelog": "Additional Hotbars - Fix setting a slot causing it to delete the keybind\r\nAdditional Hotbars - Add padlock button for locking/unlocking/moving and opening config.",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "258b9d16292b79f5ed2f9324413cb3014b980835"
+                },
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit.Components",
+                  "Version": "4bc623758450a18dfa2710f5a2fd94eddf9bccc2"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "LuminaSupplemental.Excel",
+                  "Version": "5.1.5"
+                },
+                {
+                  "Key": "CSVFile",
+                  "Version": "3.2.1"
+                },
+                {
+                  "Key": "CsvHelper",
+                  "Version": "30.0.1"
+                },
+                {
+                  "Key": "Sylvan.Data.Csv",
+                  "Version": "1.4.3"
+                }
+              ],
+              "Reviewer": "nebel",
               "Submitter": "MidoriKami"
             }
           }
@@ -360153,6 +360193,13 @@
       "Version": "5.1.5",
       "ReviewedBy": "reiichi001",
       "ReviewedAt": "2026-09-11T21:17:13.872906Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/MidoriKami/KamiToolKit",
+      "Version": "258b9d16292b79f5ed2f9324413cb3014b980835",
+      "ReviewedBy": "nebel",
+      "ReviewedAt": "2026-09-12T22:50:03.3426892Z"
     }
   ]
 }
