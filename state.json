@@ -246196,9 +246196,9 @@
           }
         },
         "BetterFriendList": {
-          "BuiltCommit": "4d8c9eae150a89192632090b16e3cf042d7eeecc",
-          "TimeBuilt": "2026-09-08T19:51:13.7853912+00:00",
-          "EffectiveVersion": "2.1.4.2",
+          "BuiltCommit": "d6ba207b6864a4e7f9ba7b9ba9ad03b57ef59098",
+          "TimeBuilt": "2026-09-13T21:21:51.5601361+00:00",
+          "EffectiveVersion": "2.1.4.3",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.1.0": {
@@ -246515,6 +246515,46 @@
                 }
               ],
               "Reviewer": "nathanctech",
+              "Submitter": "devckuw"
+            },
+            "2.1.4.3": {
+              "TimeReleased": "2026-09-13T21:21:51.5601789+00:00",
+              "Changelog": "v2.1.4.3:\r\nchange imgui ids to to prevent wrong behavior when refreshing friendlist and editing color/comment..\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit.git",
+                  "Version": "7b98ee4ea14cc348fba0ed729359c95b31c84a43"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "NetStone",
+                  "Version": "1.4.1"
+                },
+                {
+                  "Key": "HtmlAgilityPack",
+                  "Version": "1.11.46"
+                },
+                {
+                  "Key": "Karashiiro.HtmlAgilityPack.CssSelectors.NetCoreFork",
+                  "Version": "0.0.2"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.3"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                }
+              ],
+              "Reviewer": "reiichi001",
               "Submitter": "devckuw"
             }
           }
@@ -326129,9 +326169,9 @@
           }
         },
         "ComfyLoot": {
-          "BuiltCommit": "31f29fb26aa05e1a0b438e6cb7e1b9450db109f5",
-          "TimeBuilt": "2026-08-07T15:04:47.4813871+00:00",
-          "EffectiveVersion": "1.0.4.0",
+          "BuiltCommit": "9ab2ecbcca20726e4ee4858cf51febb2740895bd",
+          "TimeBuilt": "2026-09-13T21:22:01.1337628+00:00",
+          "EffectiveVersion": "1.0.5.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.9.8.5": {
@@ -326228,6 +326268,22 @@
                 }
               ],
               "Reviewer": "nathanctech",
+              "Submitter": "j0giwa"
+            },
+            "1.0.5.0": {
+              "TimeReleased": "2026-09-13T21:22:01.1337645+00:00",
+              "Changelog": "v1.0.5.0\n- Added Unignore-gate to IPC\n\nv1.0.4.0\n- Fixed some issues with the main UI\n- Added IPC to interact with other plugins\n\nv1.0.3.0\n- Updated to work with game version 7.5\n- API 15\n- Fixed issue where certain zones are shown as \u0022???\u0022 on the filter tab\n\nv1.0.1.0\n- API14\n- Traded loot is now propperly recognized\n\nv1.0.0.1\n- Fixed scrolling behaviour in the UI\n\nv1.0.0.0\n- Prettified UI\n- Added sorting capability\n- Added ability to temporarily hide items\n\nv0.9.8.5\n- Added ignore lists\n- Fixed unload issue\n\nv0.9.6.5\n- Internal Refactor\n- Introduced Threadsafety\n- Resolved issue where switching to an alt tracked your alts inventory as drops\n\nv0.9.5.5: Added Server Info Entry.\n- Added toggleable ServerInfo Bar (OFF by default)\n- addressed internal issues\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "reiichi001",
               "Submitter": "j0giwa"
             }
           }
