@@ -293315,9 +293315,9 @@
           }
         },
         "PetScale": {
-          "BuiltCommit": "1b61f09eb2847f138c1b4cdffd842e5011c50f62",
-          "TimeBuilt": "2026-09-13T05:41:56.5324467+00:00",
-          "EffectiveVersion": "2.1.0.1",
+          "BuiltCommit": "cec77b6fab6affd8c5db7e49b5d710c5219e3b5a",
+          "TimeBuilt": "2026-09-13T09:25:43.5158898+00:00",
+          "EffectiveVersion": "2.1.0.2",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.1.0": {
@@ -293435,6 +293435,26 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "Kurochi51"
+            },
+            "2.1.0.2": {
+              "TimeReleased": "2026-09-13T09:25:43.5159154+00:00",
+              "Changelog": "- Clear beast name filter upon selection\n- Prevent AllPets applying to beasts and vice-versa\n- Actually scale the beastmaster pets\n- Figured out the normal / variant skins thanks to Glyceri\nWarning: \n- There\u0027s a very real chance that I ommited something, or broke some of the existing scaling, so this is a true testing release.\n  \n  Data should be unaffected by this change, but I can\u0027t make any guarantees.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "2.0.5"
+                },
+                {
+                  "Key": "Meziantou.Analyzer",
+                  "Version": "3.0.235"
+                }
+              ],
+              "Reviewer": "nebel",
               "Submitter": "Kurochi51"
             }
           }
