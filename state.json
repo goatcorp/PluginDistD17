@@ -266172,9 +266172,9 @@
           }
         },
         "ItsUp": {
-          "BuiltCommit": "d6222f09ea78ccdd2b3314668c5bfe89138cfa44",
-          "TimeBuilt": "2026-09-12T22:59:50.0185513+00:00",
-          "EffectiveVersion": "0.7.0.0",
+          "BuiltCommit": "263e6e6e71f65bea0682ac002e0203052b3467de",
+          "TimeBuilt": "2026-09-14T19:36:18.0787595+00:00",
+          "EffectiveVersion": "0.7.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.6.0.0": {
@@ -266207,6 +266207,22 @@
                 }
               ],
               "Reviewer": "nebel",
+              "Submitter": "juan-medina"
+            },
+            "0.7.1.0": {
+              "TimeReleased": "2026-09-14T19:36:18.0788083+00:00",
+              "Changelog": "- Fix error loading plugin on game restart\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "juan-medina"
             }
           }
@@ -334217,9 +334233,9 @@
           }
         },
         "ItsUp": {
-          "BuiltCommit": "d6222f09ea78ccdd2b3314668c5bfe89138cfa44",
-          "TimeBuilt": "2026-09-12T23:00:00.3509509+00:00",
-          "EffectiveVersion": "0.7.0.0",
+          "BuiltCommit": "263e6e6e71f65bea0682ac002e0203052b3467de",
+          "TimeBuilt": "2026-09-14T19:36:29.2275524+00:00",
+          "EffectiveVersion": "0.7.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.5.1.0": {
@@ -334284,6 +334300,22 @@
                 }
               ],
               "Reviewer": "nebel",
+              "Submitter": "juan-medina"
+            },
+            "0.7.1.0": {
+              "TimeReleased": "2026-09-14T19:36:29.2275533+00:00",
+              "Changelog": "- Fix error loading plugin on game restart\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "juan-medina"
             }
           }
