@@ -334081,9 +334081,9 @@
           }
         },
         "ProxyPlayer": {
-          "BuiltCommit": "9a63353fafbf59c9fcb1035204b09496fe0ceb86",
-          "TimeBuilt": "2026-08-24T21:43:49.4557953+00:00",
-          "EffectiveVersion": "1.0.0.0",
+          "BuiltCommit": "35963047f5b4d30c81e536a0216ebbf517c9e3bb",
+          "TimeBuilt": "2026-09-14T19:38:54.5277811+00:00",
+          "EffectiveVersion": "1.1.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -334097,6 +334097,30 @@
                 {
                   "Key": "DotNet.ReproducibleBuilds",
                   "Version": "2.0.5"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Bronya-Rand"
+            },
+            "1.1.0.0": {
+              "TimeReleased": "2026-09-14T19:38:54.5278336+00:00",
+              "Changelog": "# What\u0027s New?\r\n- Linux Support via MPRIS/D-Bus on Supported XIVLauncher/XIVLauncher-RB builds.\r\n- Session Commands in Chat to control playback via chat commands (like NowPlaying does).\r\n- Fixed a bug where SMTC crashes XIV when logging out/disabling plugin.\r\n- Migrated to SLNX",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "2.0.5"
+                },
+                {
+                  "Key": "Tmds.DBus.Generator",
+                  "Version": "0.95.1"
+                },
+                {
+                  "Key": "Tmds.DBus.Protocol",
+                  "Version": "0.95.1"
                 }
               ],
               "Reviewer": "nathanctech",
@@ -361054,6 +361078,20 @@
       "Version": "6.1.9",
       "ReviewedBy": "nebel",
       "ReviewedAt": "2026-09-13T11:19:40.3968703Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Tmds.DBus.Generator",
+      "Version": "0.95.1",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-09-14T19:38:54.6081282Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Tmds.DBus.Protocol",
+      "Version": "0.95.1",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-09-14T19:38:54.6081601Z"
     }
   ]
 }
