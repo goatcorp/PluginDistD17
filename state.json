@@ -1600,9 +1600,9 @@
           }
         },
         "PetScale": {
-          "BuiltCommit": "cc6e9e4ca782059263f3d7e8266d4105de60cb5b",
-          "TimeBuilt": "2026-08-19T11:48:30.0594303+00:00",
-          "EffectiveVersion": "2.0.6.0",
+          "BuiltCommit": "646dbb284be77e2f2763573e83a9f43414adc285",
+          "TimeBuilt": "2026-09-14T10:12:21.4806511+00:00",
+          "EffectiveVersion": "2.1.0.3",
           "MinimumVersion": null,
           "Changelogs": {
             "1.1.0.0": {
@@ -1722,6 +1722,26 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "Kurochi51"
+            },
+            "2.1.0.3": {
+              "TimeReleased": "2026-09-14T10:12:21.4806832+00:00",
+              "Changelog": "- Beastmaster support\nThis is being released early for... reasons.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "2.0.5"
+                },
+                {
+                  "Key": "Meziantou.Analyzer",
+                  "Version": "3.0.235"
+                }
+              ],
+              "Reviewer": "Critical-Impact",
               "Submitter": "Kurochi51"
             }
           }
@@ -293899,9 +293919,9 @@
           }
         },
         "PetScale": {
-          "BuiltCommit": "cec77b6fab6affd8c5db7e49b5d710c5219e3b5a",
-          "TimeBuilt": "2026-09-13T09:25:43.5158898+00:00",
-          "EffectiveVersion": "2.1.0.2",
+          "BuiltCommit": "646dbb284be77e2f2763573e83a9f43414adc285",
+          "TimeBuilt": "2026-09-14T10:12:32.4479294+00:00",
+          "EffectiveVersion": "2.1.0.3",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.1.0": {
@@ -294039,6 +294059,26 @@
                 }
               ],
               "Reviewer": "nebel",
+              "Submitter": "Kurochi51"
+            },
+            "2.1.0.3": {
+              "TimeReleased": "2026-09-14T10:12:32.447931+00:00",
+              "Changelog": "- Beasts are scaled irrelevant of their alt skin\nWarning: \n- There\u0027s a very real chance that I ommited something, or broke some of the existing scaling, so this is a true testing release.\n  \n  Data should be unaffected by this change, but I can\u0027t make any guarantees.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "2.0.5"
+                },
+                {
+                  "Key": "Meziantou.Analyzer",
+                  "Version": "3.0.235"
+                }
+              ],
+              "Reviewer": "Critical-Impact",
               "Submitter": "Kurochi51"
             }
           }
