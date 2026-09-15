@@ -266040,9 +266040,9 @@
           }
         },
         "ScrollableTabs": {
-          "BuiltCommit": "b4d511842bd87a62d6c1f02e10ef1c89f767816e",
-          "TimeBuilt": "2026-09-08T20:47:06.6988853+00:00",
-          "EffectiveVersion": "1.2.0.0",
+          "BuiltCommit": "2121ef063a37cd45ecb0c6addd1b8426413daf68",
+          "TimeBuilt": "2026-09-15T14:38:43.3306696+00:00",
+          "EffectiveVersion": "1.3.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -266100,6 +266100,26 @@
                 {
                   "Key": "Roslynator.Analyzers",
                   "Version": "4.15.0"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Haselnussbomber"
+            },
+            "1.3.0.0": {
+              "TimeReleased": "2026-09-15T14:38:43.3307149+00:00",
+              "Changelog": "- **Added:** Support for the Client List window (via /timers).\r\n- **Added:** A /scrollabletabs chat command to open the configuration window.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Roslynator.Analyzers",
+                  "Version": "4.16.1"
                 }
               ],
               "Reviewer": "nathanctech",
@@ -296702,9 +296722,9 @@
           "Changelogs": {}
         },
         "PetRenamer": {
-          "BuiltCommit": "bd0caa972fa100e3fcdaf5bc805f3d9fd2164f2e",
-          "TimeBuilt": "2026-05-09T20:59:49.282461+00:00",
-          "EffectiveVersion": "2.10.0.1",
+          "BuiltCommit": "71922642427b8d374d5f16adc82bfcb7385b0022",
+          "TimeBuilt": "2026-09-15T14:39:09.214735+00:00",
+          "EffectiveVersion": "3.0.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.4.6.0": {
@@ -296962,6 +296982,30 @@
                 {
                   "Key": "HtmlAgilityPack",
                   "Version": "1.11.71"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Glyceri"
+            },
+            "3.0.0.0": {
+              "TimeReleased": "2026-09-15T14:39:09.2147373+00:00",
+              "Changelog": "[Pet Nicknames 3.0.0.0]\n\nHelloooo helloooooo!\nThis is a majour rewrite of Pet Nicknames that has been ongoing for the last year.\nSorry this took so long.\n\n- Added support for Beast Master naming.\n- Added an ephemeral chat replace (on by default) where chat messages will update retroactively and disappear when the plugin turns off.\n- Massive stability improvements, naming is now much more consistant, and lots of UI elements will update themselves.\n- Slight UI rework.\n- Added multiple languages (If your language is missing, feel free to message me). [French (Matias49), Japanese (Epinephren), German (Epinephren), Chinese (MapleRecall), Dutch (Glyceri), English (Glyceri)] \n- It *should* now work on the non-global clients too.\n- Added support for LOVM (I think)\n- Added (proper) support for Island Pets.\n\nPlease notify me of any remaining issues. \nIt\u0027s hard to find them all on my own.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "HtmlAgilityPack",
+                  "Version": "1.11.71"
+                },
+                {
+                  "Key": "JetBrains.Annotations",
+                  "Version": "2025.2.4"
                 }
               ],
               "Reviewer": "nathanctech",
@@ -331745,9 +331789,9 @@
           }
         },
         "ARealmRepopulated": {
-          "BuiltCommit": "f1bc7890ea160daacdff1e6cb6793eda3232307c",
-          "TimeBuilt": "2026-08-02T21:02:45.5706561+00:00",
-          "EffectiveVersion": "0.1.6.1",
+          "BuiltCommit": "59142fda1183e1893db7dd2423262e4b8db0b98c",
+          "TimeBuilt": "2026-09-15T14:38:56.7845378+00:00",
+          "EffectiveVersion": "0.1.7.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.4.4": {
@@ -332213,6 +332257,162 @@
                 {
                   "Key": "DotNet.ReproducibleBuilds",
                   "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "NetStyx"
+            },
+            "0.1.7.0": {
+              "TimeReleased": "2026-09-15T14:38:56.7845398+00:00",
+              "Changelog": "# 0.1.7.0 Changelog\r\n\r\nLets actors hold the game\u0027s idle poses, adds scaling and draw offsets, brings more of a character file across on import, and frees the actor name from its prefix.\r\n\r\n## Functional Changes\r\n- Actors can now be put into any of the idle poses the change pose command cycles through\r\n- Emotes that seat or lay down an actor can now pick which variant of that pose is used\r\n- The idle action can now be given a duration, holding its pose for that time or indefinitely when no time is set\r\n- Added hints to the idle and wait actions explaining what happens when no duration is set\r\n- Fixed the sit on ground emote not being recognised as a sitting pose\r\n- The actor scale can now be edited in the scenario editor instead of only being displayed\r\n- Actors can now be given a draw offset, which lifts or shifts their model against the spot they stand on without moving the actor itself\r\n- Advanced skin, hair, eye and lip colours should now work correctly\r\n- The height multiplier is now imported as well, so a character saved larger or smaller than its size keeps it\r\n- Eyewear from a character file is now actually put on the actor instead of only being read from the file\r\n- Fixed character files with a partial transparency failing to import entirely\r\n- Actor names outside the latin alphabet are no longer mangled\r\n- Added a changelog tab to view recent changes",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Primitives",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "coverlet.collector",
+                  "Version": "8.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "2.0.2"
+                },
+                {
+                  "Key": "Microsoft.NET.Test.Sdk",
+                  "Version": "18.3.0"
+                },
+                {
+                  "Key": "Shouldly",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "xunit.runner.visualstudio",
+                  "Version": "3.1.5"
+                },
+                {
+                  "Key": "xunit.v3",
+                  "Version": "3.2.2"
+                },
+                {
+                  "Key": "DiffEngine",
+                  "Version": "11.3.0"
+                },
+                {
+                  "Key": "EmptyFiles",
+                  "Version": "4.4.0"
+                },
+                {
+                  "Key": "Microsoft.ApplicationInsights",
+                  "Version": "2.23.0"
+                },
+                {
+                  "Key": "Microsoft.Bcl.AsyncInterfaces",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "Microsoft.CodeCoverage",
+                  "Version": "18.3.0"
+                },
+                {
+                  "Key": "Microsoft.Testing.Extensions.Telemetry",
+                  "Version": "1.9.1"
+                },
+                {
+                  "Key": "Microsoft.Testing.Extensions.TrxReport.Abstractions",
+                  "Version": "1.9.1"
+                },
+                {
+                  "Key": "Microsoft.Testing.Platform",
+                  "Version": "1.9.1"
+                },
+                {
+                  "Key": "Microsoft.Testing.Platform.MSBuild",
+                  "Version": "1.9.1"
+                },
+                {
+                  "Key": "Microsoft.TestPlatform.ObjectModel",
+                  "Version": "18.3.0"
+                },
+                {
+                  "Key": "Microsoft.TestPlatform.TestHost",
+                  "Version": "18.3.0"
+                },
+                {
+                  "Key": "Microsoft.Win32.Registry",
+                  "Version": "5.0.0"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.3"
+                },
+                {
+                  "Key": "System.CodeDom",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "System.Management",
+                  "Version": "6.0.1"
+                },
+                {
+                  "Key": "xunit.analyzers",
+                  "Version": "1.27.0"
+                },
+                {
+                  "Key": "xunit.v3.assert",
+                  "Version": "3.2.2"
+                },
+                {
+                  "Key": "xunit.v3.common",
+                  "Version": "3.2.2"
+                },
+                {
+                  "Key": "xunit.v3.core.mtp-v1",
+                  "Version": "3.2.2"
+                },
+                {
+                  "Key": "xunit.v3.extensibility.core",
+                  "Version": "3.2.2"
+                },
+                {
+                  "Key": "xunit.v3.mtp-v1",
+                  "Version": "3.2.2"
+                },
+                {
+                  "Key": "xunit.v3.runner.common",
+                  "Version": "3.2.2"
+                },
+                {
+                  "Key": "xunit.v3.runner.inproc.console",
+                  "Version": "3.2.2"
                 }
               ],
               "Reviewer": "nathanctech",
