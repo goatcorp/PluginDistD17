@@ -215716,9 +215716,9 @@
           }
         },
         "DragoonMayCry": {
-          "BuiltCommit": "5c58b6457f64f8f2c093f9fbf06a258d1ee98128",
-          "TimeBuilt": "2026-06-13T20:39:39.0594448+00:00",
-          "EffectiveVersion": "1.4.0.2",
+          "BuiltCommit": "8f8bcceb3307f5eb5d30c6f6392842d058b49246",
+          "TimeBuilt": "2026-09-16T22:08:53.2922437+00:00",
+          "EffectiveVersion": "1.4.0.3",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -217636,6 +217636,58 @@
                 {
                   "Key": "DotNet.ReproducibleBuilds",
                   "Version": "1.2.39"
+                },
+                {
+                  "Key": "NAudio",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Vorbis",
+                  "Version": "1.5.0"
+                },
+                {
+                  "Key": "NAudio.Asio",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Core",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Midi",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.Wasapi",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NAudio.WinMM",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "NVorbis",
+                  "Version": "0.10.4"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Felscream"
+            },
+            "1.4.0.3": {
+              "TimeReleased": "2026-09-16T22:08:53.2922922+00:00",
+              "Changelog": "- Maybe fixed a bug preventing the plugin from loading sometimes\n",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/Felscream/KamiLib",
+                  "Version": "5c91a7dd3cf1bc10565f2716e92392c64d7ef480"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
                 },
                 {
                   "Key": "NAudio",
@@ -361292,6 +361344,13 @@
       "Version": "0.95.1",
       "ReviewedBy": "nathanctech",
       "ReviewedAt": "2026-09-14T19:38:54.6081601Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/Felscream/KamiLib",
+      "Version": "5c91a7dd3cf1bc10565f2716e92392c64d7ef480",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-09-16T22:08:53.379786Z"
     }
   ]
 }
