@@ -334851,6 +334851,30 @@
               "Submitter": "Haselnussbomber"
             }
           }
+        },
+        "MountTilt": {
+          "BuiltCommit": "e243447185fca4f3d52d2cecb2f6ea98d7cf0f87",
+          "TimeBuilt": "2026-09-17T00:19:29.0748429+00:00",
+          "EffectiveVersion": "0.0.0.1",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "0.0.0.1": {
+              "TimeReleased": "2026-09-17T00:19:29.0748835+00:00",
+              "Changelog": "Initial plugin release!\nMount tilt is a plugin that allows you to apply a multiplier to your mount tilt angle and speed when in motion so you can restore the pre nerf tilt and go even further beyond!\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "RokasKil"
+            }
+          }
         }
       }
     },
