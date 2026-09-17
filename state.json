@@ -334875,6 +334875,54 @@
               "Submitter": "RokasKil"
             }
           }
+        },
+        "ARealmReorganized": {
+          "BuiltCommit": "43b56398872c985b6c51e35f4db9b3527af4004f",
+          "TimeBuilt": "2026-09-17T00:27:53.7489729+00:00",
+          "EffectiveVersion": "0.1.0.0",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "0.1.0.0": {
+              "TimeReleased": "2026-09-17T00:27:53.7490186+00:00",
+              "Changelog": "First submission. glamour dresser cleanup helper: scans the dresser and shows what can move into the 7.5 armoire, finds partial and complete sets, spots duplicates across the dresser, armoire, bags, armoury, saddlebag and retainers, and highlights the matching items in-game across the inventory windows so users don\u0027t have to hunt for them.\r\n\r\nRepo is AGPL-3.0 with unit tests on the detection logic.\r\n\r\nAI usage disclosure:\r\nGenAI (Claude Code) was used to help me navigate through ClientStructs more quickly, write some tests, and with C# shenanigans (i\u0027m just a lil\u0027 python dev...)",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Nepharyas"
+            }
+          }
+        },
+        "NoQuestIcons": {
+          "BuiltCommit": "a069b401bcd291c2d50e7c0f7aafab1b528ed633",
+          "TimeBuilt": "2026-09-17T00:28:01.2923644+00:00",
+          "EffectiveVersion": "1.5.0.0",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "1.5.0.0": {
+              "TimeReleased": "2026-09-17T00:28:01.2923657+00:00",
+              "Changelog": "v1.5.1 - Converted every ImGui Begin/End and Push/Pop pair (tabs, tables, combos, child windows, IDs, disabled state, style colors) to ImRaii, per review feedback. Ties cleanup to C#\u0027s using scope instead of a manually-written matching call, so a future early return or exception can\u0027t leave ImGui\u0027s internal state corrupted. Also synced plugin description text across the installer punchline, detailed description, and in-game About tab.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "GrimmortalDread"
+            }
+          }
         }
       }
     },

@@ -1,0 +1,29 @@
+{
+  "Author": "Nepharyas",
+  "Name": "A Realm Reorganized",
+  "InternalName": "ARealmReorganized",
+  "AssemblyVersion": "0.1.0.0",
+  "Description": "Scans the Glamour Dresser for items that can now be stored in the Armoire (per patch 7.5), finds partial and complete sets, and spots duplicates across the dresser, armoire, bags, armoury, saddlebag and retainers. Everything it finds gets highlighted right in the game's inventory windows, one color per intent, so you can see what to grab without hunting.",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/Nepharyas/a_realm_reorganized",
+  "Tags": [
+    "glamour",
+    "armoire",
+    "dresser",
+    "retainer",
+    "inventory",
+    "qol"
+  ],
+  "CategoryTags": [
+    "utility"
+  ],
+  "DalamudApiLevel": 15,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "Punchline": "Find what to clean up across your dresser, bags and retainers using the 7.5 Armoire.",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "testing-live"
+}
