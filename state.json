@@ -334807,6 +334807,50 @@
               "Submitter": "reiichi001"
             }
           }
+        },
+        "XivReflex": {
+          "BuiltCommit": "bc9a3cf508a5a6d9225a3e10e5fb2ad60cbd8550",
+          "TimeBuilt": "2026-09-17T00:09:50.1498683+00:00",
+          "EffectiveVersion": "1.0.0.0",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "1.0.0.0": {
+              "TimeReleased": "2026-09-17T00:09:50.1498894+00:00",
+              "Changelog": "**XivReflex** integrates [NVIDIA Reflex Low Latency](\u003Chttps://www.nvidia.com/en-us/geforce/news/reflex-low-latency-platform/\u003E) to reduce system input lag in GPU-bound scenarios by dynamically aligning the game\u0027s engine updates closer to the moment your GPU actually draws the frame on screen.\r\n\r\n**Requirements:**\r\n\r\n- NVIDIA GeForce 900 Series or newer\r\n- NVIDIA Driver version 456.38 or newer",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Microsoft.Windows.CsWin32",
+                  "Version": "0.3.321"
+                },
+                {
+                  "Key": "Roslynator.Analyzers",
+                  "Version": "5.0.0"
+                },
+                {
+                  "Key": "Microsoft.Windows.SDK.Win32Docs",
+                  "Version": "0.1.42-alpha"
+                },
+                {
+                  "Key": "Microsoft.Windows.SDK.Win32Metadata",
+                  "Version": "71.0.14-preview"
+                },
+                {
+                  "Key": "Microsoft.Windows.WDK.Win32Metadata",
+                  "Version": "0.13.25-experimental"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Haselnussbomber"
+            }
+          }
         }
       }
     },

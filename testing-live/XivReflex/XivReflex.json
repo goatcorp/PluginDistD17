@@ -1,0 +1,18 @@
+{
+  "Author": "Haselnussbomber",
+  "Name": "XivReflex",
+  "InternalName": "XivReflex",
+  "AssemblyVersion": "1.0.0.0",
+  "Description": "NVIDIA Reflex Low Latency reduces system input lag by dynamically aligning the game's engine updates closer to the moment your GPU actually draws the frame on screen.\r\n\r\nRequirements:\r\n\r\n- NVIDIA GeForce 900 Series or newer\r\n- NVIDIA Driver version 456.38 or newer",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/Haselnussbomber/XivReflex",
+  "DalamudApiLevel": 15,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "Punchline": "Integrates NVIDIA Reflex Low Latency to reduce System Latency.",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "testing-live"
+}
