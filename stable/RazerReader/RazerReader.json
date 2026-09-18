@@ -2,7 +2,7 @@
   "Author": "Fuwa Aika",
   "Name": "Battery Buddy",
   "InternalName": "RazerReader",
-  "AssemblyVersion": "2.0.1.0",
+  "AssemblyVersion": "2.0.2.0",
   "Description": "Automatically pull device battery levels and display them in a configurable number of ways!\n\nCurrently supported brands:\n- Razer\n- Logitech",
   "ApplicableVersion": "any",
   "Tags": [
@@ -23,5 +23,6 @@
   "Punchline": "Display the battery level of your wireless Razer and Logitech devices",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
-  "_Dip17Channel": "stable"
+  "_Dip17Channel": "stable",
+  "RepoUrl": "https://github.com/mashirochan/FFXIV-BatteryBuddy.git"
 }

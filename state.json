@@ -230896,9 +230896,9 @@
           }
         },
         "RazerReader": {
-          "BuiltCommit": "fcfc99fbf87d8d72d3c38f0dabc3fcc2f2f8344c",
-          "TimeBuilt": "2026-07-29T16:08:41.1088569+00:00",
-          "EffectiveVersion": "2.0.1.0",
+          "BuiltCommit": "6d5f2cbbdfe3a82703a208ce119834d17e0ae722",
+          "TimeBuilt": "2026-09-18T01:25:42.3117273+00:00",
+          "EffectiveVersion": "2.0.2.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.0.1": {
@@ -231092,6 +231092,42 @@
             "2.0.1.0": {
               "TimeReleased": "2026-07-29T16:08:41.1088583+00:00",
               "Changelog": "Hide main window when no devices are enabled/connected",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Websocket.Client",
+                  "Version": "5.3.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "Microsoft.IO.RecyclableMemoryStream",
+                  "Version": "3.0.0"
+                },
+                {
+                  "Key": "System.Reactive",
+                  "Version": "6.0.0"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "mashirochan"
+            },
+            "2.0.2.0": {
+              "TimeReleased": "2026-09-18T01:25:42.3117672+00:00",
+              "Changelog": "Fix low battery notification timer",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -253648,9 +253684,9 @@
           }
         },
         "BeastieBuddy": {
-          "BuiltCommit": "35c54031acc9289747c3301e90dad5c041a46921",
-          "TimeBuilt": "2026-09-10T21:49:05.9184701+00:00",
-          "EffectiveVersion": "7.56.0.0",
+          "BuiltCommit": "6a39010c534e05525909ab77d5a575709f7aafbf",
+          "TimeBuilt": "2026-09-18T01:25:54.0733774+00:00",
+          "EffectiveVersion": "7.56.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.2.0.0": {
@@ -254536,6 +254572,58 @@
               ],
               "Reviewer": "reiichi001",
               "Submitter": "rail2025"
+            },
+            "7.56.1.0": {
+              "TimeReleased": "2026-09-18T01:25:54.0733781+00:00",
+              "Changelog": "v7.56.1.0: Bestiary updated with stats per beast, new dps ranking tab added\nv7.56.0.0: updated beast icons, location search filtering\nv7.55.0.3:desktop alternative app release info",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "LuminaSupplemental.Excel",
+                  "Version": "4.2.2"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.4"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp.Web",
+                  "Version": "3.2.0"
+                },
+                {
+                  "Key": "YamlDotNet",
+                  "Version": "16.3.0"
+                },
+                {
+                  "Key": "CSVFile",
+                  "Version": "3.2.1"
+                },
+                {
+                  "Key": "CsvHelper",
+                  "Version": "30.0.1"
+                },
+                {
+                  "Key": "Microsoft.IO.RecyclableMemoryStream",
+                  "Version": "3.0.1"
+                },
+                {
+                  "Key": "Sylvan.Data.Csv",
+                  "Version": "1.4.3"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "rail2025"
             }
           }
         },
@@ -255328,9 +255416,9 @@
           }
         },
         "Altoholic": {
-          "BuiltCommit": "a47d82335b848bfc65454a35d28a61f1d170aa42",
-          "TimeBuilt": "2026-09-13T11:18:47.2680914+00:00",
-          "EffectiveVersion": "1.12.20.0",
+          "BuiltCommit": "d4bafb2c2134c0faf3d67cb801efddfd7b663ae9",
+          "TimeBuilt": "2026-09-18T01:26:11.0296917+00:00",
+          "EffectiveVersion": "1.12.21.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -257623,6 +257711,50 @@
                 }
               ],
               "Reviewer": "nebel",
+              "Submitter": "Sohtoren"
+            },
+            "1.12.21.0": {
+              "TimeReleased": "2026-09-18T01:26:11.0296931+00:00",
+              "Changelog": "- **Progress**: Add FF15 collab event and rewards\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "Dapper",
+                  "Version": "2.1.86"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "2.0.5"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite.Core",
+                  "Version": "10.0.12"
+                },
+                {
+                  "Key": "SQLitePCLRaw.bundle_e_sqlite3",
+                  "Version": "3.0.5"
+                },
+                {
+                  "Key": "SQLite",
+                  "Version": "3.53.4"
+                },
+                {
+                  "Key": "SQLitePCLRaw.config.e_sqlite3",
+                  "Version": "3.0.5"
+                },
+                {
+                  "Key": "SQLitePCLRaw.core",
+                  "Version": "3.0.5"
+                },
+                {
+                  "Key": "SQLitePCLRaw.provider.e_sqlite3",
+                  "Version": "3.0.5"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "Sohtoren"
             }
           }
@@ -261976,9 +262108,9 @@
           }
         },
         "WukLamark": {
-          "BuiltCommit": "79e89c31ed78384ea4a9ae6924b45b0f2f4689f1",
-          "TimeBuilt": "2026-08-08T01:00:11.0313555+00:00",
-          "EffectiveVersion": "1.2.0.1",
+          "BuiltCommit": "5d67b8e54811d2d896f9aa2d5fc49aa89a572fd6",
+          "TimeBuilt": "2026-09-18T01:26:20.7204506+00:00",
+          "EffectiveVersion": "1.2.0.2",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.2.5": {
@@ -262112,6 +262244,22 @@
             "1.2.0.1": {
               "TimeReleased": "2026-08-08T01:00:11.0314034+00:00",
               "Changelog": "# What\u0027s New?\r\n- Fixed a bug where resetting icon sizes on the minimap did not work.\r\n- Bump KTK just because.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Bronya-Rand"
+            },
+            "1.2.0.2": {
+              "TimeReleased": "2026-09-18T01:26:20.7204522+00:00",
+              "Changelog": "# What\u0027s New?\n- Fixed a bug where newly made templates were not appearing after creation.\n- Fixed a bug with the edit popup when more than 1 dropdown is open.",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -328637,9 +328785,9 @@
           }
         },
         "WukLamark": {
-          "BuiltCommit": "cef5636354aa52187fe6501bb11f672a7da5175c",
-          "TimeBuilt": "2026-08-15T18:08:47.3445549+00:00",
-          "EffectiveVersion": "1.2.0.3",
+          "BuiltCommit": "d5a0a3f04788302e8ec83fa863a93cd4e5e87e5c",
+          "TimeBuilt": "2026-09-18T01:26:33.9825981+00:00",
+          "EffectiveVersion": "1.2.0.4",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.2.2": {
@@ -328949,6 +329097,30 @@
             "1.2.0.3": {
               "TimeReleased": "2026-08-15T18:08:47.344557+00:00",
               "Changelog": "# What\u0027s New?\r\n- Fixed a bug where markers are not rendered in Native UI/KTK.",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "8f05f8e5de36f68078a7c18d938d1a9e29992269"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Bronya-Rand"
+            },
+            "1.2.0.4": {
+              "TimeReleased": "2026-09-18T01:26:33.9825991+00:00",
+              "Changelog": "# What\u0027s New?\n- Fixed a bug where newly made templates were not appearing after creation.\n- Fixed a bug with the edit popup when more than 1 dropdown is open.",
               "UsedNeeds": [
                 {
                   "Key": "https://github.com/MidoriKami/KamiToolKit",
@@ -361467,6 +361639,20 @@
       "Version": "5c91a7dd3cf1bc10565f2716e92392c64d7ef480",
       "ReviewedBy": "nathanctech",
       "ReviewedAt": "2026-09-16T22:08:53.379786Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Dapper",
+      "Version": "2.1.86",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-09-18T01:26:11.1321358Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Data.Sqlite.Core",
+      "Version": "10.0.12",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-09-18T01:26:11.1321898Z"
     }
   ]
 }

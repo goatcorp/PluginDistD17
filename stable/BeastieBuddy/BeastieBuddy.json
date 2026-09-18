@@ -2,7 +2,7 @@
   "Author": "rail",
   "Name": "BeastieBuddy",
   "InternalName": "BeastieBuddy",
-  "AssemblyVersion": "7.56.0.0",
+  "AssemblyVersion": "7.56.1.0",
   "Description": "A searchable list of all mobs and their known locations, using community data. Use /bbuddy to open, or search with /bbuddy <mob_name>.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/rail2025/BeastieBuddy",
@@ -23,7 +23,7 @@
   "CanUnloadAsync": false,
   "LoadPriority": 0,
   "Punchline": "A searchable mob database with spawn locations for Beastmaster, Blue Mage, or hunts",
-  "Changelog": "v7.56.0.0:beastmaster release patch with updated icons\nv7.55.0.3:FFXIV-ToS abiding alternative app version released - see chat message and link for more info",
+  "Changelog": "v7.56.1.0: Bestiary dps ranking tab for Crucible\nv7.56.0.0:beastmaster release patch with updated icons\nv7.55.0.3:FFXIV-ToS abiding alternative app version released - see chat message and link for more info",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "stable"
