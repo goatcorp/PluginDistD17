@@ -255516,9 +255516,9 @@
           }
         },
         "Altoholic": {
-          "BuiltCommit": "d4bafb2c2134c0faf3d67cb801efddfd7b663ae9",
-          "TimeBuilt": "2026-09-18T01:26:11.0296917+00:00",
-          "EffectiveVersion": "1.12.21.0",
+          "BuiltCommit": "03f0ad8ed831966ebdc9e1d3b8827d71bbd0474d",
+          "TimeBuilt": "2026-09-20T02:52:19.1178296+00:00",
+          "EffectiveVersion": "1.12.22.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -257816,6 +257816,50 @@
             "1.12.21.0": {
               "TimeReleased": "2026-09-18T01:26:11.0296931+00:00",
               "Changelog": "- **Progress**: Add FF15 collab event and rewards\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "Dapper",
+                  "Version": "2.1.86"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "2.0.5"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite.Core",
+                  "Version": "10.0.12"
+                },
+                {
+                  "Key": "SQLitePCLRaw.bundle_e_sqlite3",
+                  "Version": "3.0.5"
+                },
+                {
+                  "Key": "SQLite",
+                  "Version": "3.53.4"
+                },
+                {
+                  "Key": "SQLitePCLRaw.config.e_sqlite3",
+                  "Version": "3.0.5"
+                },
+                {
+                  "Key": "SQLitePCLRaw.core",
+                  "Version": "3.0.5"
+                },
+                {
+                  "Key": "SQLitePCLRaw.provider.e_sqlite3",
+                  "Version": "3.0.5"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Sohtoren"
+            },
+            "1.12.22.0": {
+              "TimeReleased": "2026-09-20T02:52:19.117878+00:00",
+              "Changelog": "- **Progress**: Fix Moogle event Dhalmel to correct one (not interstellar)\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
