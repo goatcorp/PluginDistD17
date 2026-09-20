@@ -73753,9 +73753,9 @@
           }
         },
         "FaderPlugin": {
-          "BuiltCommit": "c8c279c72beaf7d3e451a0ed05b394d760efadc6",
-          "TimeBuilt": "2026-06-01T09:50:56.325616+00:00",
-          "EffectiveVersion": "2.7.7.1",
+          "BuiltCommit": "06e2bf673d1e16c1840254cdada5e74d6d5c11fd",
+          "TimeBuilt": "2026-09-20T02:48:03.5246394+00:00",
+          "EffectiveVersion": "2.7.8.0",
           "MinimumVersion": null,
           "Changelogs": {
             "2.3.0.0": {
@@ -74036,6 +74036,22 @@
                 }
               ],
               "Reviewer": "Critical-Impact",
+              "Submitter": "Infiziert90"
+            },
+            "2.7.8.0": {
+              "TimeReleased": "2026-09-20T02:48:03.5246409+00:00",
+              "Changelog": "- Add hover priority checkbox [default true]\r\n  - Thanks splintrax\r\n- Add BST gauges, Crucible elements and Bozja elements\r\n  - Thanks PhibrXIV",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "Infiziert90"
             }
           }
@@ -110920,9 +110936,9 @@
           }
         },
         "Dalamud.DiscordBridge": {
-          "BuiltCommit": "c7469afa360645f45c082a8932c3ebc4c1d9dd86",
-          "TimeBuilt": "2026-09-08T22:19:51.1828787+00:00",
-          "EffectiveVersion": "1.6.1.5",
+          "BuiltCommit": "ab36b22c2e56484f612a99c818a2d15f2ab29341",
+          "TimeBuilt": "2026-09-20T02:48:20.0767931+00:00",
+          "EffectiveVersion": "1.6.2.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.2.7.0": {
@@ -111608,6 +111624,74 @@
             "1.6.1.5": {
               "TimeReleased": "2026-09-08T22:19:51.1829094+00:00",
               "Changelog": "Try to fix the last new feauture that stops and clears the message queue on logout events. Threading is finicky. If this isn\u0027t reliable, I will revert the plugin back to before any of this was attempted.\n\nThis plugin is looking for a new owner/maintainer. Please reach out to Franz if you want to adopt it.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "Discord.Net",
+                  "Version": "3.20.1"
+                },
+                {
+                  "Key": "Discord.Net.Core",
+                  "Version": "3.20.1"
+                },
+                {
+                  "Key": "Discord.Net.Rest",
+                  "Version": "3.20.1"
+                },
+                {
+                  "Key": "Discord.Net.Webhook",
+                  "Version": "3.20.1"
+                },
+                {
+                  "Key": "Discord.Net.WebSocket",
+                  "Version": "3.20.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "NetStone",
+                  "Version": "1.4.1"
+                },
+                {
+                  "Key": "Discord.Net.Commands",
+                  "Version": "3.20.1"
+                },
+                {
+                  "Key": "Discord.Net.Dave",
+                  "Version": "3.20.1"
+                },
+                {
+                  "Key": "Discord.Net.Interactions",
+                  "Version": "3.20.1"
+                },
+                {
+                  "Key": "HtmlAgilityPack",
+                  "Version": "1.11.46"
+                },
+                {
+                  "Key": "Karashiiro.HtmlAgilityPack.CssSelectors.NetCoreFork",
+                  "Version": "0.0.2"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.4"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "reiichi001"
+            },
+            "1.6.2.0": {
+              "TimeReleased": "2026-09-20T02:48:20.0767943+00:00",
+              "Changelog": "Promoting testing release to stable. Attempts to fix crashes in solo duties by moving from object table to player state based caches. (And only caching the specific strings we need over a whole game object, which is bad.)\n\nThis plugin is looking for a new owner/maintainer. Please reach out to Franz if you want to adopt it.\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -148018,9 +148102,9 @@
           }
         },
         "AvantGarde": {
-          "BuiltCommit": "2d22af5c9d17e76a67b7e8409f75757c51b893f3",
-          "TimeBuilt": "2026-09-08T19:51:23.5564807+00:00",
-          "EffectiveVersion": "1.2.2.0",
+          "BuiltCommit": "27d022b89592f61769b636ae739e877c7945a00c",
+          "TimeBuilt": "2026-09-20T02:48:11.3822526+00:00",
+          "EffectiveVersion": "1.2.3.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.1.1": {
@@ -148183,6 +148267,22 @@
             "1.2.2.0": {
               "TimeReleased": "2026-09-08T19:51:23.5564821+00:00",
               "Changelog": "- Added basic IPC for Allagan Tools and Item Vendor Location\r\n  - Users of these plugins can view more information on selected items by clicking on \u0022Open in [plugin name]\u0022.\r\n  - These extra options are only visible if the plugins are enabled.\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "NeNeppie"
+            },
+            "1.2.3.0": {
+              "TimeReleased": "2026-09-20T02:48:11.3822536+00:00",
+              "Changelog": "- Added a config window with a few things to toy with.\r\n  - You\u0027ll find the button to open the menu to the top right of the window, where the checkbox used to be. (I hope.)\r\n  - Added a setting to sort items by their internal ID and by popularity (i.e. how many times they were used) in ascending and descending order.\r\n  - For Allagan Tools users: the ability to highlight items you own (or rather, dim those you don\u0027t) and to display them above other items.\r\n- The checkbox to opt in and out of crowdsourcing has been moved into the config window.\r\n- Slightly rephrased the onboarding window to accompany these changes.\r\n- You guessed it - more refactoring.\r\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -333305,9 +333405,9 @@
           }
         },
         "EasyChatlog": {
-          "BuiltCommit": "4aeb22a8816b6e62d9f4b6c1aa997a6d84b3efb8",
-          "TimeBuilt": "2026-06-01T19:48:24.296486+00:00",
-          "EffectiveVersion": "0.1.9.5",
+          "BuiltCommit": "ea53ba82b55016408f2e24f505679404d4b9265d",
+          "TimeBuilt": "2026-09-20T02:48:28.8246773+00:00",
+          "EffectiveVersion": "0.1.9.7",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.9.5": {
@@ -333349,6 +333449,42 @@
                 {
                   "Key": "System.Linq.Async",
                   "Version": "6.0.1"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "ElyFura"
+            },
+            "0.1.9.7": {
+              "TimeReleased": "2026-09-20T02:48:28.8246782+00:00",
+              "Changelog": "- Update Dependencies\n- Added suppport for German and English UI.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "Discord.Net.WebSocket",
+                  "Version": "3.20.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Discord.Net.Core",
+                  "Version": "3.20.1"
+                },
+                {
+                  "Key": "Discord.Net.Dave",
+                  "Version": "3.20.1"
+                },
+                {
+                  "Key": "Discord.Net.Rest",
+                  "Version": "3.20.1"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.4"
                 }
               ],
               "Reviewer": "nathanctech",
@@ -334765,218 +334901,6 @@
               ],
               "Reviewer": "nathanctech",
               "Submitter": "juan-medina"
-            }
-          }
-        },
-        "Dalamud.DiscordBridge": {
-          "BuiltCommit": "6a64306a31336393ba2b037aabf9ec7bd1ab4ff8",
-          "TimeBuilt": "2026-09-14T09:58:11.4428769+00:00",
-          "EffectiveVersion": "1.6.1.10",
-          "MinimumVersion": null,
-          "Changelogs": {
-            "1.6.1.6": {
-              "TimeReleased": "2026-09-11T18:09:31.4523534+00:00",
-              "Changelog": "Disables the most recent changes to clear message queue on login/logout.\n\nThis plugin is looking for a new owner/maintainer. Please reach out to Franz if you want to adopt it.\n",
-              "UsedNeeds": [
-                {
-                  "Key": "DalamudPackager",
-                  "Version": "15.0.0"
-                },
-                {
-                  "Key": "Discord.Net",
-                  "Version": "3.20.1"
-                },
-                {
-                  "Key": "Discord.Net.Core",
-                  "Version": "3.20.1"
-                },
-                {
-                  "Key": "Discord.Net.Rest",
-                  "Version": "3.20.1"
-                },
-                {
-                  "Key": "Discord.Net.Webhook",
-                  "Version": "3.20.1"
-                },
-                {
-                  "Key": "Discord.Net.WebSocket",
-                  "Version": "3.20.1"
-                },
-                {
-                  "Key": "DotNet.ReproducibleBuilds",
-                  "Version": "1.2.39"
-                },
-                {
-                  "Key": "NetStone",
-                  "Version": "1.4.1"
-                },
-                {
-                  "Key": "Discord.Net.Commands",
-                  "Version": "3.20.1"
-                },
-                {
-                  "Key": "Discord.Net.Dave",
-                  "Version": "3.20.1"
-                },
-                {
-                  "Key": "Discord.Net.Interactions",
-                  "Version": "3.20.1"
-                },
-                {
-                  "Key": "HtmlAgilityPack",
-                  "Version": "1.11.46"
-                },
-                {
-                  "Key": "Karashiiro.HtmlAgilityPack.CssSelectors.NetCoreFork",
-                  "Version": "0.0.2"
-                },
-                {
-                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
-                  "Version": "10.0.0"
-                },
-                {
-                  "Key": "Newtonsoft.Json",
-                  "Version": "13.0.4"
-                }
-              ],
-              "Reviewer": "nathanctech",
-              "Submitter": "reiichi001"
-            },
-            "1.6.1.9": {
-              "TimeReleased": "2026-09-12T05:33:32.7555492+00:00",
-              "Changelog": "Switches to caching player name and world from PlayerState. This has been moved from Framework updates to only login and territory change.\n\nThis plugin is looking for a new owner/maintainer. Please reach out to Franz if you want to adopt it.\n",
-              "UsedNeeds": [
-                {
-                  "Key": "DalamudPackager",
-                  "Version": "15.0.0"
-                },
-                {
-                  "Key": "Discord.Net",
-                  "Version": "3.20.1"
-                },
-                {
-                  "Key": "Discord.Net.Core",
-                  "Version": "3.20.1"
-                },
-                {
-                  "Key": "Discord.Net.Rest",
-                  "Version": "3.20.1"
-                },
-                {
-                  "Key": "Discord.Net.Webhook",
-                  "Version": "3.20.1"
-                },
-                {
-                  "Key": "Discord.Net.WebSocket",
-                  "Version": "3.20.1"
-                },
-                {
-                  "Key": "DotNet.ReproducibleBuilds",
-                  "Version": "1.2.39"
-                },
-                {
-                  "Key": "NetStone",
-                  "Version": "1.4.1"
-                },
-                {
-                  "Key": "Discord.Net.Commands",
-                  "Version": "3.20.1"
-                },
-                {
-                  "Key": "Discord.Net.Dave",
-                  "Version": "3.20.1"
-                },
-                {
-                  "Key": "Discord.Net.Interactions",
-                  "Version": "3.20.1"
-                },
-                {
-                  "Key": "HtmlAgilityPack",
-                  "Version": "1.11.46"
-                },
-                {
-                  "Key": "Karashiiro.HtmlAgilityPack.CssSelectors.NetCoreFork",
-                  "Version": "0.0.2"
-                },
-                {
-                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
-                  "Version": "10.0.0"
-                },
-                {
-                  "Key": "Newtonsoft.Json",
-                  "Version": "13.0.4"
-                }
-              ],
-              "Reviewer": "Critical-Impact",
-              "Submitter": "reiichi001"
-            },
-            "1.6.1.10": {
-              "TimeReleased": "2026-09-14T09:58:11.4429257+00:00",
-              "Changelog": "Fix local player world detection.\n\nThis plugin is looking for a new owner/maintainer. Please reach out to Franz if you want to adopt it.\n",
-              "UsedNeeds": [
-                {
-                  "Key": "DalamudPackager",
-                  "Version": "15.0.0"
-                },
-                {
-                  "Key": "Discord.Net",
-                  "Version": "3.20.1"
-                },
-                {
-                  "Key": "Discord.Net.Core",
-                  "Version": "3.20.1"
-                },
-                {
-                  "Key": "Discord.Net.Rest",
-                  "Version": "3.20.1"
-                },
-                {
-                  "Key": "Discord.Net.Webhook",
-                  "Version": "3.20.1"
-                },
-                {
-                  "Key": "Discord.Net.WebSocket",
-                  "Version": "3.20.1"
-                },
-                {
-                  "Key": "DotNet.ReproducibleBuilds",
-                  "Version": "1.2.39"
-                },
-                {
-                  "Key": "NetStone",
-                  "Version": "1.4.1"
-                },
-                {
-                  "Key": "Discord.Net.Commands",
-                  "Version": "3.20.1"
-                },
-                {
-                  "Key": "Discord.Net.Dave",
-                  "Version": "3.20.1"
-                },
-                {
-                  "Key": "Discord.Net.Interactions",
-                  "Version": "3.20.1"
-                },
-                {
-                  "Key": "HtmlAgilityPack",
-                  "Version": "1.11.46"
-                },
-                {
-                  "Key": "Karashiiro.HtmlAgilityPack.CssSelectors.NetCoreFork",
-                  "Version": "0.0.2"
-                },
-                {
-                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
-                  "Version": "10.0.0"
-                },
-                {
-                  "Key": "Newtonsoft.Json",
-                  "Version": "13.0.4"
-                }
-              ],
-              "Reviewer": "Critical-Impact",
-              "Submitter": "reiichi001"
             }
           }
         },

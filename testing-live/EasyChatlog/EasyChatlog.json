@@ -2,7 +2,7 @@
   "Author": "ElyFura",
   "Name": "Easy Chatlog",
   "InternalName": "EasyChatlog",
-  "AssemblyVersion": "0.1.9.5",
+  "AssemblyVersion": "0.1.9.7",
   "Description": "Captures your in-game chat, exports it (txt/json/html/md) and optionally forwards it live to a Discord channel via webhook or bot. Type /easychatlog to open the main window or /easychatlog config for settings.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/ElyFura/easy-chatlog",
