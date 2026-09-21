@@ -206325,9 +206325,9 @@
           }
         },
         "ChillFrames": {
-          "BuiltCommit": "b0d57265e6faa567ff408e8644ab59ee2d5f7875",
-          "TimeBuilt": "2026-09-11T17:59:03.8773248+00:00",
-          "EffectiveVersion": "3.2.4.5",
+          "BuiltCommit": "03844fb581cc56aec296f8ce08b32662c47bc5ef",
+          "TimeBuilt": "2026-09-21T22:34:44.0168076+00:00",
+          "EffectiveVersion": "3.2.4.6",
           "MinimumVersion": null,
           "Changelogs": {
             "1.5.0.2": {
@@ -207001,6 +207001,22 @@
             "3.2.4.5": {
               "TimeReleased": "2026-09-11T17:59:03.8773652+00:00",
               "Changelog": "Fix table scaling",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "MidoriKami"
+            },
+            "3.2.4.6": {
+              "TimeReleased": "2026-09-21T22:34:44.0168093+00:00",
+              "Changelog": "Fix not actually respecting /afk command (who even uses that?)",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -207951,9 +207967,9 @@
           }
         },
         "ChatTwo": {
-          "BuiltCommit": "1a5c92880b8b10d41ff130b48398151993c6c205",
-          "TimeBuilt": "2026-08-07T17:46:56.3388333+00:00",
-          "EffectiveVersion": "1.40.6.0",
+          "BuiltCommit": "595d1a43c28ce616743efd3e1ee6cb7956a8f6fd",
+          "TimeBuilt": "2026-09-21T22:34:54.9337169+00:00",
+          "EffectiveVersion": "1.40.8.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.17.5.0": {
@@ -212390,6 +212406,102 @@
               ],
               "Reviewer": "nathanctech",
               "Submitter": "Infiziert90"
+            },
+            "1.40.8.0": {
+              "TimeReleased": "2026-09-21T22:34:54.9337183+00:00",
+              "Changelog": "- Fix some web interface bugs\r\n- Add more quest checks",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "MessagePack",
+                  "Version": "3.1.7"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "morelinq",
+                  "Version": "4.4.0"
+                },
+                {
+                  "Key": "Pidgin",
+                  "Version": "3.3.0"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                },
+                {
+                  "Key": "Watson.Lite",
+                  "Version": "6.3.9"
+                },
+                {
+                  "Key": "CavemanTcp",
+                  "Version": "2.0.9"
+                },
+                {
+                  "Key": "IpMatcher",
+                  "Version": "1.0.5"
+                },
+                {
+                  "Key": "MessagePack.Annotations",
+                  "Version": "3.1.7"
+                },
+                {
+                  "Key": "MessagePackAnalyzer",
+                  "Version": "3.1.7"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite.Core",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "Microsoft.NET.StringTools",
+                  "Version": "17.11.4"
+                },
+                {
+                  "Key": "RegexMatcher",
+                  "Version": "1.0.9"
+                },
+                {
+                  "Key": "SQLitePCLRaw.bundle_e_sqlite3",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.core",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.lib.e_sqlite3",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.provider.e_sqlite3",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "Timestamps",
+                  "Version": "1.0.11"
+                },
+                {
+                  "Key": "UrlMatcher",
+                  "Version": "3.0.1"
+                },
+                {
+                  "Key": "Watson.Core",
+                  "Version": "6.3.9"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Infiziert90"
             }
           }
         },
@@ -214609,9 +214721,9 @@
           }
         },
         "TidyChat": {
-          "BuiltCommit": "da7fabc34b460fab6ec54eccb63369581b3180fd",
-          "TimeBuilt": "2026-08-29T16:37:02.1368456+00:00",
-          "EffectiveVersion": "3.1.1.0",
+          "BuiltCommit": "969aba2a368c3d91920d0b3eab75327416a852e4",
+          "TimeBuilt": "2026-09-21T22:34:37.77974+00:00",
+          "EffectiveVersion": "3.1.1.1",
           "MinimumVersion": null,
           "Changelogs": {
             "1.2.2.0": {
@@ -215415,6 +215527,34 @@
             "3.1.1.0": {
               "TimeReleased": "2026-08-29T16:37:02.1368472+00:00",
               "Changelog": "- Load the plugin asynchronously so startup no longer hitches the game while catalogs load.\r\n- Quest \u0060/say\u0060 reminders show again when **Show reminders of what to /say in chat during quests** is on (e.g. \u201CWith the chat mode set to Say, use the keyboard or the software keyboard to enter \u2026\u201D / older \u201CWith the chat mode in Say, enter a phrase containing \u2026\u201D). Those lines were only appearing if **Show miscellaneous system messages** was checked.\r\n- **Improved /say messages for quests** (and copy-to-clipboard) works with that newer wording, including straight \u0060\u0022quotes\u0022\u0060 as well as the old curly ones.\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "2.0.2"
+                },
+                {
+                  "Key": "Meziantou.Analyzer",
+                  "Version": "3.0.96"
+                },
+                {
+                  "Key": "TextCopy",
+                  "Version": "6.2.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "7.0.0"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Kagekazu"
+            },
+            "3.1.1.1": {
+              "TimeReleased": "2026-09-21T22:34:37.7797418+00:00",
+              "Changelog": "- Volume control now also covers set-to-N lines, plus performance, mount BGM, and own/party/others sound effects\r\n- New System option: show configuration change messages (\u0060Changes saved.\u0060, lost, discarded). Off by default\r\n- Changing gearsets no longer hides ARR relic quest warnings that say you must be equipped with a specific weapon\r\n- \u0060The fish gets away\u2026\u0060 follows the existing lose-bait option\r\n- Settings search matches LogMessage IDs exactly, so short numbers don\u0027t hit unrelated options\r\n- Custom filter and highlight channel lists stay open when the label updates\r\n- Custom Allow filters can override condensed login/world-travel announcements",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -258548,9 +258688,9 @@
           }
         },
         "LootView": {
-          "BuiltCommit": "8f658020d4bf93551cd4e729ac6e577fb84f0d1a",
-          "TimeBuilt": "2026-08-27T17:37:20.0419672+00:00",
-          "EffectiveVersion": "1.3.4.0",
+          "BuiltCommit": "4938224f98d8b8b941de6c8ba1d56887bb6f7076",
+          "TimeBuilt": "2026-09-21T22:34:28.431055+00:00",
+          "EffectiveVersion": "1.4.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.3.1.0": {
@@ -258596,6 +258736,22 @@
             "1.3.4.0": {
               "TimeReleased": "2026-08-27T17:37:20.0420076+00:00",
               "Changelog": "# Version 1.3.4\n- Recognized more measure words in loot messages (roll of, bunch of, basket of, sheet of, glass of, pouch of, sack of, crate of)\n- Preserved genuine item names that look like measure words, fixing \u0022Set of Liquor Bottles\u0022, \u0022Pot of Cream Stew\u0022 and \u0022Basket of Flowers\u0022\n- Fixed fishing catches of more than one fish being recorded as a single item\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "GitHixy"
+            },
+            "1.4.0.0": {
+              "TimeReleased": "2026-09-21T22:34:28.4310568+00:00",
+              "Changelog": "# Version 1.4.0\n\nA complete visual overhaul, plus market value estimates.\n\n- Every window redesigned around one theme: dark glass panels, brass rules and crystal-blue highlights.\n- Removed the Compact and Neon layouts. Classic is now the only view and received all of the design work.\n- Settings moved from stacked collapsing headers to a sectioned window with a navigation rail.\n- New: estimated market value of everything you loot, priced for your home world via Universalis. The running total is independent of how many items the list keeps and has its own reset button. Can be turned off in the settings.\n- Statistics charts are now properly drawn, with hover tooltips, in place of the old text bars.\n- Statistics are computed off the draw thread; large histories no longer freeze the game when the window opens.\n- Fixed an O(n^2) pass over the whole history that stalled the game for seconds on large collections.\n- The loot list highlights new drops, marks rarity on every row and sizes its columns to the content.\n- The roll window is now a set of rarity-tinted cards with a countdown ring and a crown on the winner.\n- New: release notes appear once after each update, and from Settings - About.\n- The overlay now waits until your character has finished logging in before it appears.\n- Loot parsing recognises \u0022sprig of\u0022.\n- Fixed a drawing error being able to leave ImGui\u0027s window stack unbalanced.\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -266472,9 +266628,9 @@
           }
         },
         "MouseLock": {
-          "BuiltCommit": "fbabddc5752852a44e8196bbecfdb8af8557ca10",
-          "TimeBuilt": "2026-08-26T19:55:19.8340192+00:00",
-          "EffectiveVersion": "1.0.0.3",
+          "BuiltCommit": "f39430ec147b1ff774030303397b85dac1e0f9ae",
+          "TimeBuilt": "2026-09-21T22:34:21.5764845+00:00",
+          "EffectiveVersion": "1.0.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.3": {
@@ -266491,6 +266647,26 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "Zeffuro"
+            },
+            "1.0.1.0": {
+              "TimeReleased": "2026-09-21T22:34:21.5765035+00:00",
+              "Changelog": "# 1.0.1.0\n- Added targeting reticle and automatic soft target targeting.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "KamiToolKit",
+                  "Version": "2.2.49"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "Zeffuro"
             }
           }
@@ -326489,9 +326665,9 @@
           }
         },
         "LootView": {
-          "BuiltCommit": "8f658020d4bf93551cd4e729ac6e577fb84f0d1a",
-          "TimeBuilt": "2026-08-27T17:37:43.6626335+00:00",
-          "EffectiveVersion": "1.3.4.0",
+          "BuiltCommit": "4938224f98d8b8b941de6c8ba1d56887bb6f7076",
+          "TimeBuilt": "2026-09-21T22:35:03.3810196+00:00",
+          "EffectiveVersion": "1.4.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.2.5.0": {
@@ -326573,6 +326749,22 @@
             "1.3.4.0": {
               "TimeReleased": "2026-08-27T17:37:43.6626353+00:00",
               "Changelog": "# Version 1.3.4\n- Recognized more measure words in loot messages (roll of, bunch of, basket of, sheet of, glass of, pouch of, sack of, crate of)\n- Preserved genuine item names that look like measure words, fixing \u0022Set of Liquor Bottles\u0022, \u0022Pot of Cream Stew\u0022 and \u0022Basket of Flowers\u0022\n- Fixed fishing catches of more than one fish being recorded as a single item\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "GitHixy"
+            },
+            "1.4.0.0": {
+              "TimeReleased": "2026-09-21T22:35:03.3810211+00:00",
+              "Changelog": "# Version 1.4.0\n\nA complete visual overhaul, plus market value estimates.\n\n- Every window redesigned around one theme: dark glass panels, brass rules and crystal-blue highlights.\n- Removed the Compact and Neon layouts. Classic is now the only view and received all of the design work.\n- Settings moved from stacked collapsing headers to a sectioned window with a navigation rail.\n- New: estimated market value of everything you loot, priced for your home world via Universalis. The running total is independent of how many items the list keeps and has its own reset button. Can be turned off in the settings.\n- Statistics charts are now properly drawn, with hover tooltips, in place of the old text bars.\n- Statistics are computed off the draw thread; large histories no longer freeze the game when the window opens.\n- Fixed an O(n^2) pass over the whole history that stalled the game for seconds on large collections.\n- The loot list highlights new drops, marks rarity on every row and sizes its columns to the content.\n- The roll window is now a set of rarity-tinted cards with a countdown ring and a crown on the winner.\n- New: release notes appear once after each update, and from Settings - About.\n- The overlay now waits until your character has finished logging in before it appears.\n- Loot parsing recognises \u0022sprig of\u0022.\n- Fixed a drawing error being able to leave ImGui\u0027s window stack unbalanced.\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -361621,6 +361813,13 @@
       "Version": "10.0.12",
       "ReviewedBy": "nathanctech",
       "ReviewedAt": "2026-09-18T01:26:11.1321898Z"
+    },
+    {
+      "Type": 1,
+      "Key": "KamiToolKit",
+      "Version": "2.2.49",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-09-21T22:34:21.6232103Z"
     }
   ]
 }
