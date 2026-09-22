@@ -255656,9 +255656,9 @@
           }
         },
         "Altoholic": {
-          "BuiltCommit": "03f0ad8ed831966ebdc9e1d3b8827d71bbd0474d",
-          "TimeBuilt": "2026-09-20T02:52:19.1178296+00:00",
-          "EffectiveVersion": "1.12.22.0",
+          "BuiltCommit": "914dd99bc0c92e6fcfd1d2fb84ba72a6095a726b",
+          "TimeBuilt": "2026-09-22T22:07:33.3057947+00:00",
+          "EffectiveVersion": "1.12.23.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -258039,6 +258039,50 @@
                 }
               ],
               "Reviewer": "nathanctech",
+              "Submitter": "Sohtoren"
+            },
+            "1.12.23.0": {
+              "TimeReleased": "2026-09-22T22:07:33.3057964+00:00",
+              "Changelog": "- **Timers**: Set potential negative values for minicactpot and fashion report allowances to 0\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "Dapper",
+                  "Version": "2.1.86"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "2.0.5"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite.Core",
+                  "Version": "10.0.12"
+                },
+                {
+                  "Key": "SQLitePCLRaw.bundle_e_sqlite3",
+                  "Version": "3.0.5"
+                },
+                {
+                  "Key": "SQLite",
+                  "Version": "3.53.4"
+                },
+                {
+                  "Key": "SQLitePCLRaw.config.e_sqlite3",
+                  "Version": "3.0.5"
+                },
+                {
+                  "Key": "SQLitePCLRaw.core",
+                  "Version": "3.0.5"
+                },
+                {
+                  "Key": "SQLitePCLRaw.provider.e_sqlite3",
+                  "Version": "3.0.5"
+                }
+              ],
+              "Reviewer": "reiichi001",
               "Submitter": "Sohtoren"
             }
           }
@@ -266628,9 +266672,9 @@
           }
         },
         "MouseLock": {
-          "BuiltCommit": "f39430ec147b1ff774030303397b85dac1e0f9ae",
-          "TimeBuilt": "2026-09-21T22:34:21.5764845+00:00",
-          "EffectiveVersion": "1.0.1.0",
+          "BuiltCommit": "a546119435204b88ebb76be619d034e8f1d9d40c",
+          "TimeBuilt": "2026-09-22T22:07:16.503424+00:00",
+          "EffectiveVersion": "1.0.1.1",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.3": {
@@ -266667,6 +266711,26 @@
                 }
               ],
               "Reviewer": "nathanctech",
+              "Submitter": "Zeffuro"
+            },
+            "1.0.1.1": {
+              "TimeReleased": "2026-09-22T22:07:16.5034581+00:00",
+              "Changelog": "# 1.0.1.1\n- Fixed not being able to use gamepad camera while in MouseLook.\n- Added a setting to freely switch between MouseLook and gamepad camera in gamepad mode.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "KamiToolKit",
+                  "Version": "2.2.49"
+                }
+              ],
+              "Reviewer": "reiichi001",
               "Submitter": "Zeffuro"
             }
           }
