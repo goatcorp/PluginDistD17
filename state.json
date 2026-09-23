@@ -332449,9 +332449,9 @@
           }
         },
         "ARealmRepopulated": {
-          "BuiltCommit": "59142fda1183e1893db7dd2423262e4b8db0b98c",
-          "TimeBuilt": "2026-09-15T14:38:56.7845378+00:00",
-          "EffectiveVersion": "0.1.7.0",
+          "BuiltCommit": "a017ee6d053aea059bf8fc3185c9d74da1fd72a0",
+          "TimeBuilt": "2026-09-23T22:10:34.86836+00:00",
+          "EffectiveVersion": "0.1.8.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.4.4": {
@@ -333076,6 +333076,166 @@
                 }
               ],
               "Reviewer": "nathanctech",
+              "Submitter": "NetStyx"
+            },
+            "0.1.8.0": {
+              "TimeReleased": "2026-09-23T22:10:34.8683985+00:00",
+              "Changelog": "# 0.1.8.0 Changelog\r\n\r\nReworks the scenario editor, lets actors sprint or move at a custom speed, open automatic doors, and makes following the player character with their head more reliable.\r\n\r\n## Functional Changes\r\n- UI Rework of the scenario editor\r\n- Actors can now sprint, or move at a custom speed, with their steps matched to it\r\n- Automatic doors now open and close for actors\r\n- Reworked the changelog tab into a release list with the selected release\u0027s notes beside it\r\n\r\n## Technical Changes\r\n- Following the player character with the head no longer hooks into the game, so it is less likely to break on game updates\r\n\r\n## Bugfixes\r\n- Fixed actors sometimes not following the player character with their head, or not looking away when the player character left quickly\r\n- Fixed the path preview in the editor disappearing when the camera faced away from part of the path\r\n- Fixed scenarios getting stuck or no longer looping when actors had a different number of Sync actions, an actor\u0027s last Sync action was disabled, a path started where the actor already stood, or a Timeline action had no timeline selected\r\n- Fixed actors stopping just short of the last point of a path\r\n- Fixed actors being left behind frozen when a scenario could not be fully loaded, or when a scenario was changed on the title screen or during a loading screen\r\n- Fixed a possible crash when a scenario was reloaded right after its actors appeared\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "coverlet.collector",
+                  "Version": "8.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "2.0.2"
+                },
+                {
+                  "Key": "Microsoft.NET.Test.Sdk",
+                  "Version": "18.3.0"
+                },
+                {
+                  "Key": "Serilog",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "Shouldly",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "xunit.runner.visualstudio",
+                  "Version": "3.1.5"
+                },
+                {
+                  "Key": "xunit.v3",
+                  "Version": "3.2.2"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DiffEngine",
+                  "Version": "11.3.0"
+                },
+                {
+                  "Key": "EmptyFiles",
+                  "Version": "4.4.0"
+                },
+                {
+                  "Key": "Microsoft.ApplicationInsights",
+                  "Version": "2.23.0"
+                },
+                {
+                  "Key": "Microsoft.Bcl.AsyncInterfaces",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "Microsoft.CodeCoverage",
+                  "Version": "18.3.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Primitives",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Testing.Extensions.Telemetry",
+                  "Version": "1.9.1"
+                },
+                {
+                  "Key": "Microsoft.Testing.Extensions.TrxReport.Abstractions",
+                  "Version": "1.9.1"
+                },
+                {
+                  "Key": "Microsoft.Testing.Platform",
+                  "Version": "1.9.1"
+                },
+                {
+                  "Key": "Microsoft.Testing.Platform.MSBuild",
+                  "Version": "1.9.1"
+                },
+                {
+                  "Key": "Microsoft.TestPlatform.ObjectModel",
+                  "Version": "18.3.0"
+                },
+                {
+                  "Key": "Microsoft.TestPlatform.TestHost",
+                  "Version": "18.3.0"
+                },
+                {
+                  "Key": "Microsoft.Win32.Registry",
+                  "Version": "5.0.0"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.3"
+                },
+                {
+                  "Key": "System.CodeDom",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "System.Management",
+                  "Version": "6.0.1"
+                },
+                {
+                  "Key": "xunit.analyzers",
+                  "Version": "1.27.0"
+                },
+                {
+                  "Key": "xunit.v3.assert",
+                  "Version": "3.2.2"
+                },
+                {
+                  "Key": "xunit.v3.common",
+                  "Version": "3.2.2"
+                },
+                {
+                  "Key": "xunit.v3.core.mtp-v1",
+                  "Version": "3.2.2"
+                },
+                {
+                  "Key": "xunit.v3.extensibility.core",
+                  "Version": "3.2.2"
+                },
+                {
+                  "Key": "xunit.v3.mtp-v1",
+                  "Version": "3.2.2"
+                },
+                {
+                  "Key": "xunit.v3.runner.common",
+                  "Version": "3.2.2"
+                },
+                {
+                  "Key": "xunit.v3.runner.inproc.console",
+                  "Version": "3.2.2"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nebel",
               "Submitter": "NetStyx"
             }
           }
