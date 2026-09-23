@@ -265876,9 +265876,9 @@
           }
         },
         "WachuMakeyMaking": {
-          "BuiltCommit": "e56373c4e7290d51189af83af52a013dc518c29d",
-          "TimeBuilt": "2026-06-27T04:09:59.0647132+00:00",
-          "EffectiveVersion": "1.0.10.0",
+          "BuiltCommit": "450f683bd56051958edfbeb2b71b59c8db752af1",
+          "TimeBuilt": "2026-09-23T22:03:43.1219647+00:00",
+          "EffectiveVersion": "1.1.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.10.0": {
@@ -265895,6 +265895,22 @@
                 }
               ],
               "Reviewer": "nathanctech",
+              "Submitter": "ArcaneAj"
+            },
+            "1.1.1.0": {
+              "TimeReleased": "2026-09-23T22:03:43.1220116+00:00",
+              "Changelog": " - Added the option to add all the resources needed to craft an item in one go (only direct ingredients, not recursive)\r\n - Added resource addition filters that let you filter the dropdowns by the type of recipes they appear in. Each box ticked will add more options.\r\n   - e.g. selecting \u002211-15\u0022, \u002251-55\u0022, and \u0022Tabletop\u0022 will combine all things that can be crafted from those 3 groups and find the ingredients referenced by all of them.\r\n   - The 4 \u0022Other\u0022 divisions that start with \u0022Only\u0022 are mutually exclusive pairs that restrict, rather than add, from the combined list you selected above.\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nebel",
               "Submitter": "ArcaneAj"
             }
           }
@@ -266672,9 +266688,9 @@
           }
         },
         "MouseLock": {
-          "BuiltCommit": "a546119435204b88ebb76be619d034e8f1d9d40c",
-          "TimeBuilt": "2026-09-22T22:07:16.503424+00:00",
-          "EffectiveVersion": "1.0.1.1",
+          "BuiltCommit": "53de5537f6d3c6fb7dd04bc55d78b6567c7c0d51",
+          "TimeBuilt": "2026-09-23T22:03:53.1250988+00:00",
+          "EffectiveVersion": "1.0.1.2",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.3": {
@@ -266731,6 +266747,26 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "Zeffuro"
+            },
+            "1.0.1.2": {
+              "TimeReleased": "2026-09-23T22:03:53.1251006+00:00",
+              "Changelog": "# 1.0.1.2\n- Add an option to disable auto-target when not in combat.\n- Add toggle and slider to allow toggling hiding the crosshair based on depth and how far.\n- Improved Dalamud and Game Window exception config.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "KamiToolKit",
+                  "Version": "2.2.49"
+                }
+              ],
+              "Reviewer": "nebel",
               "Submitter": "Zeffuro"
             }
           }
