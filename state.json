@@ -258732,9 +258732,9 @@
           }
         },
         "LootView": {
-          "BuiltCommit": "4938224f98d8b8b941de6c8ba1d56887bb6f7076",
-          "TimeBuilt": "2026-09-21T22:34:28.431055+00:00",
-          "EffectiveVersion": "1.4.0.0",
+          "BuiltCommit": "e7f754d692b86ea2d36d870752d21482f1580fb7",
+          "TimeBuilt": "2026-09-24T12:07:44.3409926+00:00",
+          "EffectiveVersion": "1.5.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.3.1.0": {
@@ -258796,6 +258796,22 @@
             "1.4.0.0": {
               "TimeReleased": "2026-09-21T22:34:28.4310568+00:00",
               "Changelog": "# Version 1.4.0\n\nA complete visual overhaul, plus market value estimates.\n\n- Every window redesigned around one theme: dark glass panels, brass rules and crystal-blue highlights.\n- Removed the Compact and Neon layouts. Classic is now the only view and received all of the design work.\n- Settings moved from stacked collapsing headers to a sectioned window with a navigation rail.\n- New: estimated market value of everything you loot, priced for your home world via Universalis. The running total is independent of how many items the list keeps and has its own reset button. Can be turned off in the settings.\n- Statistics charts are now properly drawn, with hover tooltips, in place of the old text bars.\n- Statistics are computed off the draw thread; large histories no longer freeze the game when the window opens.\n- Fixed an O(n^2) pass over the whole history that stalled the game for seconds on large collections.\n- The loot list highlights new drops, marks rarity on every row and sizes its columns to the content.\n- The roll window is now a set of rarity-tinted cards with a countdown ring and a crown on the winner.\n- New: release notes appear once after each update, and from Settings - About.\n- The overlay now waits until your character has finished logging in before it appears.\n- Loot parsing recognises \u0022sprig of\u0022.\n- Fixed a drawing error being able to leave ImGui\u0027s window stack unbalanced.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "GitHixy"
+            },
+            "1.5.0.0": {
+              "TimeReleased": "2026-09-24T12:07:44.3410312+00:00",
+              "Changelog": "# Version 1.5.0\n\nRoll timers, passes and a way to report problems.\n\n- New: every item in the roll window shows how long is left to roll on it, with a bar that turns amber and then red.\n- New: passes now appear in the results, along with items you aren\u0027t allowed to roll on and party members who never chose.\n- New: while an item is open, the roll window lists who in your party still has to decide.\n- New: when an item is awarded, its card plays a short light sweep and spark burst. Follows your particle effect settings.\n- Every loot session now reaches an end: items everyone passed on, items that timed out and rolls you left the duty on all close properly.\n- Each resolved item leaves the roll window on its own after 20 seconds, with a countdown on the card. Adjustable in Settings - Tracking.\n- New: Settings - Diagnostics shows LootView\u0027s live log, filterable by level and text, and copies a ready-to-paste report.\n- New: Report a bug and Suggest a feature buttons open a pre-filled GitHub issue.\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -326765,9 +326781,9 @@
           }
         },
         "LootView": {
-          "BuiltCommit": "4938224f98d8b8b941de6c8ba1d56887bb6f7076",
-          "TimeBuilt": "2026-09-21T22:35:03.3810196+00:00",
-          "EffectiveVersion": "1.4.0.0",
+          "BuiltCommit": "e7f754d692b86ea2d36d870752d21482f1580fb7",
+          "TimeBuilt": "2026-09-24T12:07:54.9179805+00:00",
+          "EffectiveVersion": "1.5.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.2.5.0": {
@@ -326865,6 +326881,22 @@
             "1.4.0.0": {
               "TimeReleased": "2026-09-21T22:35:03.3810211+00:00",
               "Changelog": "# Version 1.4.0\n\nA complete visual overhaul, plus market value estimates.\n\n- Every window redesigned around one theme: dark glass panels, brass rules and crystal-blue highlights.\n- Removed the Compact and Neon layouts. Classic is now the only view and received all of the design work.\n- Settings moved from stacked collapsing headers to a sectioned window with a navigation rail.\n- New: estimated market value of everything you loot, priced for your home world via Universalis. The running total is independent of how many items the list keeps and has its own reset button. Can be turned off in the settings.\n- Statistics charts are now properly drawn, with hover tooltips, in place of the old text bars.\n- Statistics are computed off the draw thread; large histories no longer freeze the game when the window opens.\n- Fixed an O(n^2) pass over the whole history that stalled the game for seconds on large collections.\n- The loot list highlights new drops, marks rarity on every row and sizes its columns to the content.\n- The roll window is now a set of rarity-tinted cards with a countdown ring and a crown on the winner.\n- New: release notes appear once after each update, and from Settings - About.\n- The overlay now waits until your character has finished logging in before it appears.\n- Loot parsing recognises \u0022sprig of\u0022.\n- Fixed a drawing error being able to leave ImGui\u0027s window stack unbalanced.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "GitHixy"
+            },
+            "1.5.0.0": {
+              "TimeReleased": "2026-09-24T12:07:54.9179822+00:00",
+              "Changelog": "# Version 1.5.0\n\nRoll timers, passes and a way to report problems.\n\n- New: every item in the roll window shows how long is left to roll on it, with a bar that turns amber and then red.\n- New: passes now appear in the results, along with items you aren\u0027t allowed to roll on and party members who never chose.\n- New: while an item is open, the roll window lists who in your party still has to decide.\n- New: when an item is awarded, its card plays a short light sweep and spark burst. Follows your particle effect settings.\n- Every loot session now reaches an end: items everyone passed on, items that timed out and rolls you left the duty on all close properly.\n- Each resolved item leaves the roll window on its own after 20 seconds, with a countdown on the card. Adjustable in Settings - Tracking.\n- New: Settings - Diagnostics shows LootView\u0027s live log, filterable by level and text, and copies a ready-to-paste report.\n- New: Report a bug and Suggest a feature buttons open a pre-filled GitHub issue.\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
