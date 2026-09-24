@@ -265892,9 +265892,9 @@
           }
         },
         "WachuMakeyMaking": {
-          "BuiltCommit": "450f683bd56051958edfbeb2b71b59c8db752af1",
-          "TimeBuilt": "2026-09-23T22:03:43.1219647+00:00",
-          "EffectiveVersion": "1.1.1.0",
+          "BuiltCommit": "833f81e67019ac28fa669805fbaa3c31b40dc3ba",
+          "TimeBuilt": "2026-09-24T20:51:23.2690094+00:00",
+          "EffectiveVersion": "1.2.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.10.0": {
@@ -265927,6 +265927,22 @@
                 }
               ],
               "Reviewer": "nebel",
+              "Submitter": "ArcaneAj"
+            },
+            "1.2.0.0": {
+              "TimeReleased": "2026-09-24T20:51:23.2690406+00:00",
+              "Changelog": " - Added the ability to toggle seen inventories on and off\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "ArcaneAj"
             }
           }
