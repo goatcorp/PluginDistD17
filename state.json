@@ -255656,9 +255656,9 @@
           }
         },
         "Altoholic": {
-          "BuiltCommit": "914dd99bc0c92e6fcfd1d2fb84ba72a6095a726b",
-          "TimeBuilt": "2026-09-22T22:07:33.3057947+00:00",
-          "EffectiveVersion": "1.12.23.0",
+          "BuiltCommit": "97e455bf39ebf4b07e2508a65cf394fc42bdac0c",
+          "TimeBuilt": "2026-09-24T22:16:17.4359824+00:00",
+          "EffectiveVersion": "1.12.24.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -258083,6 +258083,50 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "Sohtoren"
+            },
+            "1.12.24.0": {
+              "TimeReleased": "2026-09-24T22:16:17.4359844+00:00",
+              "Changelog": "- **Timers**: Another fix concerning minicactpot\u0027s allowances\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "Dapper",
+                  "Version": "2.1.89"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "2.0.5"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite.Core",
+                  "Version": "10.0.12"
+                },
+                {
+                  "Key": "SQLitePCLRaw.bundle_e_sqlite3",
+                  "Version": "3.0.5"
+                },
+                {
+                  "Key": "SQLite",
+                  "Version": "3.53.4"
+                },
+                {
+                  "Key": "SQLitePCLRaw.config.e_sqlite3",
+                  "Version": "3.0.5"
+                },
+                {
+                  "Key": "SQLitePCLRaw.core",
+                  "Version": "3.0.5"
+                },
+                {
+                  "Key": "SQLitePCLRaw.provider.e_sqlite3",
+                  "Version": "3.0.5"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "Sohtoren"
             }
           }
@@ -266944,6 +266988,30 @@
               ],
               "Reviewer": "reiichi001",
               "Submitter": "grittyfrog"
+            }
+          }
+        },
+        "MountTilt": {
+          "BuiltCommit": "8630e5a186264778ca7b0c1314c311fcc4079d6b",
+          "TimeBuilt": "2026-09-24T22:15:58.8094742+00:00",
+          "EffectiveVersion": "1.0.0.0",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "1.0.0.0": {
+              "TimeReleased": "2026-09-24T22:15:58.8094775+00:00",
+              "Changelog": "Initial plugin stable release!\nMount tilt is a plugin that allows you to apply a multiplier to your mount tilt angle and speed when in motion so you can restore the pre nerf tilt and go even further beyond!\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "RokasKil"
             }
           }
         }
@@ -335492,30 +335560,6 @@
             }
           }
         },
-        "MountTilt": {
-          "BuiltCommit": "e243447185fca4f3d52d2cecb2f6ea98d7cf0f87",
-          "TimeBuilt": "2026-09-17T00:19:29.0748429+00:00",
-          "EffectiveVersion": "0.0.0.1",
-          "MinimumVersion": null,
-          "Changelogs": {
-            "0.0.0.1": {
-              "TimeReleased": "2026-09-17T00:19:29.0748835+00:00",
-              "Changelog": "Initial plugin release!\nMount tilt is a plugin that allows you to apply a multiplier to your mount tilt angle and speed when in motion so you can restore the pre nerf tilt and go even further beyond!\n",
-              "UsedNeeds": [
-                {
-                  "Key": "DalamudPackager",
-                  "Version": "15.0.0"
-                },
-                {
-                  "Key": "DotNet.ReproducibleBuilds",
-                  "Version": "1.2.39"
-                }
-              ],
-              "Reviewer": "nathanctech",
-              "Submitter": "RokasKil"
-            }
-          }
-        },
         "ARealmReorganized": {
           "BuiltCommit": "43b56398872c985b6c51e35f4db9b3527af4004f",
           "TimeBuilt": "2026-09-17T00:27:53.7489729+00:00",
@@ -362128,6 +362172,13 @@
       "Version": "2.2.49",
       "ReviewedBy": "nathanctech",
       "ReviewedAt": "2026-09-21T22:34:21.6232103Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Dapper",
+      "Version": "2.1.89",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-09-24T22:16:17.5278072Z"
     }
   ]
 }
