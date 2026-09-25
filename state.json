@@ -227404,9 +227404,9 @@
           }
         },
         "BisBuddy": {
-          "BuiltCommit": "eb586bae3d60d574cb41097723e7c594071e745d",
-          "TimeBuilt": "2026-07-21T22:00:51.838507+00:00",
-          "EffectiveVersion": "0.2.8.0",
+          "BuiltCommit": "d2f43d447a3996c364f13ee3b6552ef9e522dd3b",
+          "TimeBuilt": "2026-09-25T22:23:13.6869838+00:00",
+          "EffectiveVersion": "0.2.9.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.1.0": {
@@ -231155,6 +231155,214 @@
                 }
               ],
               "Reviewer": "nathanctech",
+              "Submitter": "RajahOmen"
+            },
+            "0.2.9.0": {
+              "TimeReleased": "2026-09-25T22:23:13.6870215+00:00",
+              "Changelog": "**Added**\n- Support for new XIVGear link format, legacy-style links no longer required\n**Fixes**\n- Fix BST sets causing extreme lag. This is a large change to prerequisites on the backend, so:\n    - Any locked prerequisites / disabled sources may have reset on update, sorry!\n    - There may be bugs with prerequisite generation or assignment. Please report them!\n",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit.git",
+                  "Version": "a36fc4fe964de447f162137738fb77e2770662ec"
+                },
+                {
+                  "Key": "Autofac",
+                  "Version": "9.3.4"
+                },
+                {
+                  "Key": "Autofac.Extensions.DependencyInjection",
+                  "Version": "11.0.2"
+                },
+                {
+                  "Key": "CommunityToolkit.Mvvm",
+                  "Version": "8.4.2"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "2.0.5"
+                },
+                {
+                  "Key": "Fastenshtein",
+                  "Version": "1.0.12"
+                },
+                {
+                  "Key": "LinearAssignment",
+                  "Version": "1.2.0"
+                },
+                {
+                  "Key": "Lumina",
+                  "Version": "7.1.0"
+                },
+                {
+                  "Key": "Lumina.Excel",
+                  "Version": "7.4.1"
+                },
+                {
+                  "Key": "LuminaSupplemental.Excel",
+                  "Version": "5.1.5"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Caching.Memory",
+                  "Version": "10.0.12"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "10.0.12"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Hosting",
+                  "Version": "10.0.12"
+                },
+                {
+                  "Key": "Microsoft.Extensions.ObjectPool",
+                  "Version": "10.0.12"
+                },
+                {
+                  "Key": "TestableIO.System.IO.Abstractions.Wrappers",
+                  "Version": "22.2.0"
+                },
+                {
+                  "Key": "Wacton.Unicolour",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "BCnEncoder.Net",
+                  "Version": "2.2.1"
+                },
+                {
+                  "Key": "CommunityToolkit.HighPerformance",
+                  "Version": "8.4.0"
+                },
+                {
+                  "Key": "CSVFile",
+                  "Version": "3.2.1"
+                },
+                {
+                  "Key": "CsvHelper",
+                  "Version": "30.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Caching.Abstractions",
+                  "Version": "10.0.12"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration",
+                  "Version": "10.0.12"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Abstractions",
+                  "Version": "10.0.12"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Binder",
+                  "Version": "10.0.12"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.CommandLine",
+                  "Version": "10.0.12"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.EnvironmentVariables",
+                  "Version": "10.0.12"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.FileExtensions",
+                  "Version": "10.0.12"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Json",
+                  "Version": "10.0.12"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.UserSecrets",
+                  "Version": "10.0.12"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "10.0.12"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Diagnostics",
+                  "Version": "10.0.12"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Diagnostics.Abstractions",
+                  "Version": "10.0.12"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileProviders.Abstractions",
+                  "Version": "10.0.12"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileProviders.Physical",
+                  "Version": "10.0.12"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileSystemGlobbing",
+                  "Version": "10.0.12"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Hosting.Abstractions",
+                  "Version": "10.0.12"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging",
+                  "Version": "10.0.12"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "10.0.12"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Configuration",
+                  "Version": "10.0.12"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Console",
+                  "Version": "10.0.12"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Debug",
+                  "Version": "10.0.12"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.EventLog",
+                  "Version": "10.0.12"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.EventSource",
+                  "Version": "10.0.12"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options",
+                  "Version": "10.0.12"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options.ConfigurationExtensions",
+                  "Version": "10.0.12"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Primitives",
+                  "Version": "10.0.12"
+                },
+                {
+                  "Key": "Sylvan.Data.Csv",
+                  "Version": "1.4.3"
+                },
+                {
+                  "Key": "System.Diagnostics.EventLog",
+                  "Version": "10.0.12"
+                },
+                {
+                  "Key": "Testably.Abstractions.FileSystem.Interface",
+                  "Version": "10.3.0"
+                }
+              ],
+              "Reviewer": "reiichi001",
               "Submitter": "RajahOmen"
             }
           }
@@ -362203,6 +362411,76 @@
       "Version": "2.1.89",
       "ReviewedBy": "nathanctech",
       "ReviewedAt": "2026-09-24T22:16:17.5278072Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/MidoriKami/KamiToolKit.git",
+      "Version": "a36fc4fe964de447f162137738fb77e2770662ec",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2026-09-25T22:23:13.7533779Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Autofac",
+      "Version": "9.3.4",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2026-09-25T22:23:13.753393Z"
+    },
+    {
+      "Type": 1,
+      "Key": "CommunityToolkit.Mvvm",
+      "Version": "8.4.2",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2026-09-25T22:23:13.7533935Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Fastenshtein",
+      "Version": "1.0.12",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2026-09-25T22:23:13.7533937Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Extensions.Caching.Memory",
+      "Version": "10.0.12",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2026-09-25T22:23:13.7533942Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Extensions.ObjectPool",
+      "Version": "10.0.12",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2026-09-25T22:23:13.7533944Z"
+    },
+    {
+      "Type": 1,
+      "Key": "TestableIO.System.IO.Abstractions.Wrappers",
+      "Version": "22.2.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2026-09-25T22:23:13.7533946Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Wacton.Unicolour",
+      "Version": "8.0.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2026-09-25T22:23:13.7533946Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Extensions.Caching.Abstractions",
+      "Version": "10.0.12",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2026-09-25T22:23:13.7533951Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Testably.Abstractions.FileSystem.Interface",
+      "Version": "10.3.0",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2026-09-25T22:23:13.7534476Z"
     }
   ]
 }
