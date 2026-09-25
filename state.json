@@ -14712,9 +14712,9 @@
           }
         },
         "PetRenamer": {
-          "BuiltCommit": "0828565765b14c1a8559e5b3570b7ff8418dfa09",
-          "TimeBuilt": "2026-05-29T03:03:43.9445643+00:00",
-          "EffectiveVersion": "2.10.1.0",
+          "BuiltCommit": "d1da6a0c437bcc3d5653e2e0442ad6ae7d891f10",
+          "TimeBuilt": "2026-09-25T11:57:03.05572+00:00",
+          "EffectiveVersion": "3.0.0.1",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -15677,6 +15677,30 @@
                 }
               ],
               "Reviewer": "nathanctech",
+              "Submitter": "Glyceri"
+            },
+            "3.0.0.1": {
+              "TimeReleased": "2026-09-25T11:57:03.0557706+00:00",
+              "Changelog": "[3.0.0.1] \r\n- Push from testing to stable.\r\n- (Added an emote tracker that I will later use for that replacing).\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "HtmlAgilityPack",
+                  "Version": "1.11.71"
+                },
+                {
+                  "Key": "JetBrains.Annotations",
+                  "Version": "2025.2.4"
+                }
+              ],
+              "Reviewer": "nebel",
               "Submitter": "Glyceri"
             }
           }
