@@ -247140,9 +247140,9 @@
           }
         },
         "VanillaPlus": {
-          "BuiltCommit": "0fea140621b9867f810784af1312a712214005fd",
-          "TimeBuilt": "2026-09-12T22:50:03.2601958+00:00",
-          "EffectiveVersion": "1.4.4.7",
+          "BuiltCommit": "742d0f3ab6d446f44207e45ef036ad93d9c2ff71",
+          "TimeBuilt": "2026-09-26T01:27:23.3337827+00:00",
+          "EffectiveVersion": "1.4.4.8",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.1.6": {
@@ -253784,6 +253784,46 @@
               ],
               "Reviewer": "nebel",
               "Submitter": "MidoriKami"
+            },
+            "1.4.4.8": {
+              "TimeReleased": "2026-09-26T01:27:23.3338223+00:00",
+              "Changelog": "Add deprecation notice to Additional Hotbars feature.\r\n\r\nA better more feature complete version is now available as a standalone plugin named \u0022Expanded Hotbars\u0022 is now available in plugin testing. (Must have testing mode enabled to see it)",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "78f5a74bc1266bac6e33a32c6f2694b95a2e31ea"
+                },
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit.Components",
+                  "Version": "4bc623758450a18dfa2710f5a2fd94eddf9bccc2"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "LuminaSupplemental.Excel",
+                  "Version": "5.1.5"
+                },
+                {
+                  "Key": "CSVFile",
+                  "Version": "3.2.1"
+                },
+                {
+                  "Key": "CsvHelper",
+                  "Version": "30.0.1"
+                },
+                {
+                  "Key": "Sylvan.Data.Csv",
+                  "Version": "1.4.3"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "MidoriKami"
             }
           }
         },
@@ -259008,9 +259048,9 @@
           }
         },
         "LootView": {
-          "BuiltCommit": "e7f754d692b86ea2d36d870752d21482f1580fb7",
-          "TimeBuilt": "2026-09-24T12:07:44.3409926+00:00",
-          "EffectiveVersion": "1.5.0.0",
+          "BuiltCommit": "debc1cd9b04c3c61b6d3b502fc8abfecb086075d",
+          "TimeBuilt": "2026-09-26T01:27:31.4681104+00:00",
+          "EffectiveVersion": "1.5.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.3.1.0": {
@@ -259099,6 +259139,22 @@
                 }
               ],
               "Reviewer": "nathanctech",
+              "Submitter": "GitHixy"
+            },
+            "1.5.1.0": {
+              "TimeReleased": "2026-09-26T01:27:31.4681118+00:00",
+              "Changelog": "# Version 1.5.1\n\n- The support buttons in the loot window, Settings and What\u0027s New now open LootView\u0027s Patreon page instead of Ko-fi. Everything stays free, as always.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "reiichi001",
               "Submitter": "GitHixy"
             }
           }
@@ -327113,9 +327169,9 @@
           }
         },
         "LootView": {
-          "BuiltCommit": "e7f754d692b86ea2d36d870752d21482f1580fb7",
-          "TimeBuilt": "2026-09-24T12:07:54.9179805+00:00",
-          "EffectiveVersion": "1.5.0.0",
+          "BuiltCommit": "debc1cd9b04c3c61b6d3b502fc8abfecb086075d",
+          "TimeBuilt": "2026-09-26T01:27:40.8551455+00:00",
+          "EffectiveVersion": "1.5.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.2.5.0": {
@@ -327240,6 +327296,22 @@
                 }
               ],
               "Reviewer": "nathanctech",
+              "Submitter": "GitHixy"
+            },
+            "1.5.1.0": {
+              "TimeReleased": "2026-09-26T01:27:40.8551479+00:00",
+              "Changelog": "# Version 1.5.1\n\n- The support buttons in the loot window, Settings and What\u0027s New now open LootView\u0027s Patreon page instead of Ko-fi. Everything stays free, as always.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "reiichi001",
               "Submitter": "GitHixy"
             }
           }
@@ -362584,6 +362656,13 @@
       "Version": "41a23dec62243cf89fdc6913abd5fc8da5c99ae3",
       "ReviewedBy": "nathanctech",
       "ReviewedAt": "2026-09-26T01:05:15.4297665Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/MidoriKami/KamiToolKit",
+      "Version": "78f5a74bc1266bac6e33a32c6f2694b95a2e31ea",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2026-09-26T01:27:23.3962056Z"
     }
   ]
 }

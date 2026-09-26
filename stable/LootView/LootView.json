@@ -2,7 +2,7 @@
   "Author": "GitHixy",
   "Name": "LootView",
   "InternalName": "LootView",
-  "AssemblyVersion": "1.5.0.0",
+  "AssemblyVersion": "1.5.1.0",
   "Description": "LootView is a live loot tracker for you and your party, with a permanent history and statistics behind it.\n\nWHAT YOU GET\n\n- Live overlay listing every drop with its icon, rarity, quantity, who received it and how long ago.\n- Estimated market value of your haul, priced for your home world through Universalis.\n- Need/Greed panel that appears while rolls are open: time left on every item, each Need, Greed and Pass, who is still deciding, and the winner.\n- Loot tables for dungeons, trials and raids - the duty you are in, or any duty you search for.\n- Searchable history you can filter by item name, rarity, zone, high quality and owner.\n- Statistics: rarity breakdown, top zones, daily and hourly activity, play streaks and period-over-period comparisons.\n- Duty tracker recording your runs, clear times, items per run and personal bests.\n- Export to JSON or CSV whenever you want.\n\nGETTING STARTED\n\nType /lv to open the tracker and /lv config for settings. You can also open it from the server info bar.\nRight-click any row in the list to blacklist an item or copy its name.\nFound a bug or have an idea? Settings > Diagnostics copies a report and opens a GitHub issue for you.\n\nPRIVACY\n\nYour history is stored locally in your Dalamud configuration folder and is never uploaded. Market prices are looked up from universalis.app and loot tables from garlandtools.org; both requests send only an item or duty ID. Price lookups can be turned off in the settings.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/GitHixy/LootView",
