@@ -1,0 +1,21 @@
+{
+  "Author": "MidoriKami",
+  "Name": "ExpandedHotbars",
+  "InternalName": "ExpandedHotbars",
+  "AssemblyVersion": "1.0.0.2",
+  "Description": "Create hotbars of any size, spacing, and keybinds, with functions to show and hide these bars dynamically.",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/MidoriKami/ExpandedHotbars",
+  "Tags": [
+    "hotbars"
+  ],
+  "DalamudApiLevel": 15,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "Punchline": "Add and control an unlimited number of custom additional hotbars.",
+  "AcceptsFeedback": false,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "testing-live"
+}

@@ -266168,9 +266168,9 @@
           }
         },
         "WachuMakeyMaking": {
-          "BuiltCommit": "833f81e67019ac28fa669805fbaa3c31b40dc3ba",
-          "TimeBuilt": "2026-09-24T20:51:23.2690094+00:00",
-          "EffectiveVersion": "1.2.0.0",
+          "BuiltCommit": "9af09d3c6f49c27c2bd1ef2340eb4c6074b93bb7",
+          "TimeBuilt": "2026-09-26T01:04:59.497521+00:00",
+          "EffectiveVersion": "1.2.2.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.10.0": {
@@ -266208,6 +266208,22 @@
             "1.2.0.0": {
               "TimeReleased": "2026-09-24T20:51:23.2690406+00:00",
               "Changelog": " - Added the ability to toggle seen inventories on and off\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "ArcaneAj"
+            },
+            "1.2.2.0": {
+              "TimeReleased": "2026-09-26T01:04:59.497557+00:00",
+              "Changelog": " - Fixed bug in filter resource candidates using the incorrect ids\r\n - Fixed issue where the \u0022Other\u0022 tag was overly inclusive of any items that had at least one division that didn\u0027t match, rather than all divisions not matching which is intended.\r\n - Renamed and regrouped headers for clarity\r\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -335839,6 +335855,86 @@
               "Submitter": "GrimmortalDread"
             }
           }
+        },
+        "ExpandedHotbars": {
+          "BuiltCommit": "1b9e89ca50ce556367440921edd4b4565dc02882",
+          "TimeBuilt": "2026-09-26T01:05:15.3586625+00:00",
+          "EffectiveVersion": "1.0.0.2",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "1.0.0.2": {
+              "TimeReleased": "2026-09-26T01:05:15.3586704+00:00",
+              "Changelog": "Standalone version of VanillaPlus\u0027s \u0022Additional Hotbars\u0022 feature, that allows you to add an unlimited number of custom native hotbars to your UI, with the ability to configure various conditions to show and hide these hotbars automatically.\r\n\r\n\u00220% of this plugin\u2019s code was developed with the help of an AI assistant\u2014not even at the \u0027Copilot\u0027 level, as defined in the Dalamud AI Usage Policy. I directed the entire design of the plugin, handcrafted every pixel of the UI myself, architected every single line, wrote all the code by hand, rectified my own human errors, and personally developed and tested every feature in-game across endless caffeine-fueled sessions. Bleatbot can run all the checks it wants: you will find absolutely zero machine-generated slop here.\r\n\r\nP.S. Any chaotic code logic or confusing comments you encounter are entirely the fault of my own organic, unassisted brain.\u0022\r\n\r\nAI disclosure, written by AI.",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "41a23dec62243cf89fdc6913abd5fc8da5c99ae3"
+                },
+                {
+                  "Key": "Microsoft.CodeAnalysis.CSharp",
+                  "Version": "4.8.0"
+                },
+                {
+                  "Key": "NETStandard.Library",
+                  "Version": "2.0.3"
+                },
+                {
+                  "Key": "Microsoft.CodeAnalysis.Analyzers",
+                  "Version": "3.3.4"
+                },
+                {
+                  "Key": "Microsoft.CodeAnalysis.Common",
+                  "Version": "4.8.0"
+                },
+                {
+                  "Key": "Microsoft.NETCore.Platforms",
+                  "Version": "1.1.0"
+                },
+                {
+                  "Key": "System.Buffers",
+                  "Version": "4.5.1"
+                },
+                {
+                  "Key": "System.Collections.Immutable",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "System.Memory",
+                  "Version": "4.5.5"
+                },
+                {
+                  "Key": "System.Numerics.Vectors",
+                  "Version": "4.4.0"
+                },
+                {
+                  "Key": "System.Reflection.Metadata",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "System.Runtime.CompilerServices.Unsafe",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "System.Text.Encoding.CodePages",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "System.Threading.Tasks.Extensions",
+                  "Version": "4.5.4"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "MidoriKami"
+            }
+          }
         }
       }
     },
@@ -362481,6 +362577,13 @@
       "Version": "10.3.0",
       "ReviewedBy": "reiichi001",
       "ReviewedAt": "2026-09-25T22:23:13.7534476Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/MidoriKami/KamiToolKit",
+      "Version": "41a23dec62243cf89fdc6913abd5fc8da5c99ae3",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-09-26T01:05:15.4297665Z"
     }
   ]
 }
