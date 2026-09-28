@@ -103394,9 +103394,9 @@
           }
         },
         "Eventy": {
-          "BuiltCommit": "ffdf4469c5cf039af8955362235b9d10a5753e38",
-          "TimeBuilt": "2026-04-29T22:14:40.3659262+00:00",
-          "EffectiveVersion": "1.0.7.0",
+          "BuiltCommit": "fca38bf6fd8c3fccc57f85981fafe74c35b4a418",
+          "TimeBuilt": "2026-09-28T23:32:44.1499354+00:00",
+          "EffectiveVersion": "1.0.8.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.2.0": {
@@ -103542,6 +103542,22 @@
             "1.0.7.0": {
               "TimeReleased": "2026-04-29T22:14:40.3660081+00:00",
               "Changelog": "API 15",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Infiziert90"
+            },
+            "1.0.8.0": {
+              "TimeReleased": "2026-09-28T23:32:44.1499841+00:00",
+              "Changelog": "- Fix event overlapping issue in the main window\r\n  - This bug prevented \u0022A Nocturne For Heroes\u0022 to be clickable",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -327141,9 +327157,9 @@
           }
         },
         "Weatherman": {
-          "BuiltCommit": "dd20d2ac6eef51dbcfbe24986647cc8a84f241a8",
-          "TimeBuilt": "2025-10-15T19:15:08.5561561+00:00",
-          "EffectiveVersion": "2.5.0.0",
+          "BuiltCommit": "6a8d3472c14eae29cdd71f05e5c6d56798520fb5",
+          "TimeBuilt": "2026-09-28T23:32:54.4983545+00:00",
+          "EffectiveVersion": "2.5.0.8",
           "MinimumVersion": null,
           "Changelogs": {
             "2.5.0.0": {
@@ -327160,6 +327176,22 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "Limiana"
+            },
+            "2.5.0.8": {
+              "TimeReleased": "2026-09-28T23:32:54.4983565+00:00",
+              "Changelog": "- Added possibility to change moon phase (by WorkingRobot)\r\n- Moon phase will change automatically together with time when custom time mode is enabled\r\n- Added debug information logging to make diagnosing a specific rare crash (most likely due to interference from other plugins/programs changing same memory addresses) possible",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "ECommons",
+                  "Version": "3.2.1.20"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "Limiana"
             }
           }
@@ -362906,6 +362938,13 @@
       "Version": "0e74a4cd8e3845bc3e109eab1bdfed779ed6aa13",
       "ReviewedBy": "reiichi001",
       "ReviewedAt": "2026-09-26T21:26:37.7358345Z"
+    },
+    {
+      "Type": 1,
+      "Key": "ECommons",
+      "Version": "3.2.1.20",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-09-28T23:32:54.5676033Z"
     }
   ]
 }
