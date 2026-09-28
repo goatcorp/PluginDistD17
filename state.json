@@ -130899,9 +130899,9 @@
           }
         },
         "EurekaTrackerAutoPopper": {
-          "BuiltCommit": "6f247cf5dbd8ab3e4eb96e0cbf5b0f2e65898889",
-          "TimeBuilt": "2026-08-07T15:04:38.1587867+00:00",
-          "EffectiveVersion": "1.7.3.17",
+          "BuiltCommit": "9e3e60b6a755e1ffbb17f5c74dc40fcda9696c72",
+          "TimeBuilt": "2026-09-28T04:52:20.1696962+00:00",
+          "EffectiveVersion": "1.7.3.18",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.0.4": {
@@ -132534,6 +132534,42 @@
             "1.7.3.17": {
               "TimeReleased": "2026-08-07T15:04:38.1588236+00:00",
               "Changelog": "- More debug stuff for tracker issues",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "KamiToolKit",
+                  "Version": "2.0.23"
+                },
+                {
+                  "Key": "Penumbra.Api",
+                  "Version": "5.15.1"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp.Drawing",
+                  "Version": "2.1.7"
+                },
+                {
+                  "Key": "SixLabors.Fonts",
+                  "Version": "2.1.3"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Infiziert90"
+            },
+            "1.7.3.18": {
+              "TimeReleased": "2026-09-28T04:52:20.1696982+00:00",
+              "Changelog": "- Adjust pot positions\r\n- IPC for other plugins",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -247256,9 +247292,9 @@
           }
         },
         "VanillaPlus": {
-          "BuiltCommit": "742d0f3ab6d446f44207e45ef036ad93d9c2ff71",
-          "TimeBuilt": "2026-09-26T01:27:23.3337827+00:00",
-          "EffectiveVersion": "1.4.4.8",
+          "BuiltCommit": "640e77ac6a0ea49734037fa76bde233d85220dac",
+          "TimeBuilt": "2026-09-28T04:52:05.9806421+00:00",
+          "EffectiveVersion": "1.4.5.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.1.6": {
@@ -253940,6 +253976,46 @@
               ],
               "Reviewer": "reiichi001",
               "Submitter": "MidoriKami"
+            },
+            "1.4.5.0": {
+              "TimeReleased": "2026-09-28T04:52:05.9806899+00:00",
+              "Changelog": "Add Log Subtitles - New feature that will print to chatlog what was said during cinematic cutscenes. (by beerpsi)",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "78f5a74bc1266bac6e33a32c6f2694b95a2e31ea"
+                },
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit.Components",
+                  "Version": "4bc623758450a18dfa2710f5a2fd94eddf9bccc2"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "LuminaSupplemental.Excel",
+                  "Version": "5.1.5"
+                },
+                {
+                  "Key": "CSVFile",
+                  "Version": "3.2.1"
+                },
+                {
+                  "Key": "CsvHelper",
+                  "Version": "30.0.1"
+                },
+                {
+                  "Key": "Sylvan.Data.Csv",
+                  "Version": "1.4.3"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "MidoriKami"
             }
           }
         },
@@ -256044,9 +256120,9 @@
           }
         },
         "Altoholic": {
-          "BuiltCommit": "97e455bf39ebf4b07e2508a65cf394fc42bdac0c",
-          "TimeBuilt": "2026-09-24T22:16:17.4359824+00:00",
-          "EffectiveVersion": "1.12.24.0",
+          "BuiltCommit": "6df6d708388d7a87ce83bcacc11a39f8318e5cbf",
+          "TimeBuilt": "2026-09-28T04:52:38.1182096+00:00",
+          "EffectiveVersion": "1.12.25.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -258476,6 +258552,50 @@
             "1.12.24.0": {
               "TimeReleased": "2026-09-24T22:16:17.4359844+00:00",
               "Changelog": "- **Timers**: Another fix concerning minicactpot\u0027s allowances\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "Dapper",
+                  "Version": "2.1.89"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "2.0.5"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite.Core",
+                  "Version": "10.0.12"
+                },
+                {
+                  "Key": "SQLitePCLRaw.bundle_e_sqlite3",
+                  "Version": "3.0.5"
+                },
+                {
+                  "Key": "SQLite",
+                  "Version": "3.53.4"
+                },
+                {
+                  "Key": "SQLitePCLRaw.config.e_sqlite3",
+                  "Version": "3.0.5"
+                },
+                {
+                  "Key": "SQLitePCLRaw.core",
+                  "Version": "3.0.5"
+                },
+                {
+                  "Key": "SQLitePCLRaw.provider.e_sqlite3",
+                  "Version": "3.0.5"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Sohtoren"
+            },
+            "1.12.25.0": {
+              "TimeReleased": "2026-09-28T04:52:38.1182112+00:00",
+              "Changelog": "- **Timers**: Yet another minicactpot allowances potential fix\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
