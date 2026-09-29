@@ -14712,9 +14712,9 @@
           }
         },
         "PetRenamer": {
-          "BuiltCommit": "d1da6a0c437bcc3d5653e2e0442ad6ae7d891f10",
-          "TimeBuilt": "2026-09-25T11:57:03.05572+00:00",
-          "EffectiveVersion": "3.0.0.1",
+          "BuiltCommit": "8f0b9c2c2656c6b74c959f5984a4a54f26b9baeb",
+          "TimeBuilt": "2026-09-29T13:15:00.7278493+00:00",
+          "EffectiveVersion": "3.0.0.2",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -15701,6 +15701,30 @@
                 }
               ],
               "Reviewer": "nebel",
+              "Submitter": "Glyceri"
+            },
+            "3.0.0.2": {
+              "TimeReleased": "2026-09-29T13:15:00.7278507+00:00",
+              "Changelog": "[3.0.0.2] \r\n- Fixes an issue where switching alt\u0027s wouldn\u0027t push an update over IPC.\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "HtmlAgilityPack",
+                  "Version": "1.11.71"
+                },
+                {
+                  "Key": "JetBrains.Annotations",
+                  "Version": "2025.2.4"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "Glyceri"
             }
           }
@@ -226228,9 +226252,9 @@
           }
         },
         "MogMogCheck": {
-          "BuiltCommit": "b5b852b684c9a134318d6dc794139fae6dbb3072",
-          "TimeBuilt": "2026-09-09T14:34:10.4761824+00:00",
-          "EffectiveVersion": "3.5.0.0",
+          "BuiltCommit": "1f1b40871e9351c44c8feded671deef5c7f22d33",
+          "TimeBuilt": "2026-09-29T13:14:19.1492997+00:00",
+          "EffectiveVersion": "3.6.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "3.2.0.0": {
@@ -227360,6 +227384,202 @@
                 {
                   "Key": "https://github.com/Haselnussbomber/HaselCommon.git",
                   "Version": "3839cd2446cbe38817df30b2b82416c8855721a8"
+                },
+                {
+                  "Key": "AutoCtor",
+                  "Version": "3.1.1"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Injectio",
+                  "Version": "6.2.0"
+                },
+                {
+                  "Key": "Roslynator.Analyzers",
+                  "Version": "5.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration",
+                  "Version": "10.0.12"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Abstractions",
+                  "Version": "10.0.12"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Binder",
+                  "Version": "10.0.12"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.CommandLine",
+                  "Version": "10.0.12"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.EnvironmentVariables",
+                  "Version": "10.0.12"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.FileExtensions",
+                  "Version": "10.0.12"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Json",
+                  "Version": "10.0.12"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.UserSecrets",
+                  "Version": "10.0.12"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "10.0.12"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "10.0.12"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Diagnostics",
+                  "Version": "10.0.12"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Diagnostics.Abstractions",
+                  "Version": "10.0.12"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileProviders.Abstractions",
+                  "Version": "10.0.12"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileProviders.Physical",
+                  "Version": "10.0.12"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileSystemGlobbing",
+                  "Version": "10.0.12"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Hosting",
+                  "Version": "10.0.12"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Hosting.Abstractions",
+                  "Version": "10.0.12"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging",
+                  "Version": "10.0.12"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "10.0.12"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Configuration",
+                  "Version": "10.0.12"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Console",
+                  "Version": "10.0.12"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Debug",
+                  "Version": "10.0.12"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.EventLog",
+                  "Version": "10.0.12"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.EventSource",
+                  "Version": "10.0.12"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options",
+                  "Version": "10.0.12"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options.ConfigurationExtensions",
+                  "Version": "10.0.12"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Primitives",
+                  "Version": "10.0.12"
+                },
+                {
+                  "Key": "System.Diagnostics.EventLog",
+                  "Version": "10.0.12"
+                },
+                {
+                  "Key": "Microsoft.CodeAnalysis.Analyzers",
+                  "Version": "4.14.0"
+                },
+                {
+                  "Key": "Microsoft.CodeAnalysis.CSharp",
+                  "Version": "4.14.0"
+                },
+                {
+                  "Key": "NETStandard.Library",
+                  "Version": "2.0.3"
+                },
+                {
+                  "Key": "Microsoft.CodeAnalysis.Common",
+                  "Version": "4.14.0"
+                },
+                {
+                  "Key": "Microsoft.NETCore.Platforms",
+                  "Version": "1.1.0"
+                },
+                {
+                  "Key": "System.Buffers",
+                  "Version": "4.5.1"
+                },
+                {
+                  "Key": "System.Collections.Immutable",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "System.Memory",
+                  "Version": "4.5.5"
+                },
+                {
+                  "Key": "System.Numerics.Vectors",
+                  "Version": "4.5.0"
+                },
+                {
+                  "Key": "System.Reflection.Metadata",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "System.Runtime.CompilerServices.Unsafe",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "System.Text.Encoding.CodePages",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "System.Threading.Tasks.Extensions",
+                  "Version": "4.5.4"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Haselnussbomber"
+            },
+            "3.6.0.0": {
+              "TimeReleased": "2026-09-29T13:14:19.1493908+00:00",
+              "Changelog": "- **Added:** The secondary currency (Uolon Horn Token) is now also displayed at the very top of the window. The progress text has been shortened to accommodate for this.",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/Haselnussbomber/HaselCommon.git",
+                  "Version": "7b31a90be5b46c1a247aea9052ccb7e921188513"
                 },
                 {
                   "Key": "AutoCtor",
@@ -238708,9 +238928,9 @@
           }
         },
         "PvPAnnouncer": {
-          "BuiltCommit": "a77c10c3e0e291569dfa9931b4c4ddb68b9cbae5",
-          "TimeBuilt": "2026-08-14T22:22:13.0642391+00:00",
-          "EffectiveVersion": "1.6.5.1",
+          "BuiltCommit": "313533cdae9f104634dfe59c1416bd27a0728fb4",
+          "TimeBuilt": "2026-09-29T13:14:50.3919561+00:00",
+          "EffectiveVersion": "1.6.7.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -239172,6 +239392,42 @@
                 {
                   "Key": "DotNet.ReproducibleBuilds",
                   "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "spide-r"
+            },
+            "1.6.7.0": {
+              "TimeReleased": "2026-09-29T13:14:50.3919581+00:00",
+              "Changelog": "Big UI Changes, bugfixes, etc.",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/Ottermandias/OtterGui.git",
+                  "Version": "79771ee5f3d463f02c63bebbedaa0aff49e59718"
+                },
+                {
+                  "Key": "https://github.com/Ottermandias/OtterGuiInternal.git",
+                  "Version": "fb9de85711973eba4b02156ece9865ba166020af"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "JetBrains.Annotations",
+                  "Version": "2024.3.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "9.0.2"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "9.0.2"
                 }
               ],
               "Reviewer": "nathanctech",
@@ -247308,9 +247564,9 @@
           }
         },
         "VanillaPlus": {
-          "BuiltCommit": "640e77ac6a0ea49734037fa76bde233d85220dac",
-          "TimeBuilt": "2026-09-28T04:52:05.9806421+00:00",
-          "EffectiveVersion": "1.4.5.0",
+          "BuiltCommit": "14b0453dfa78eea8518f21bac9c5cc3bcd85b48c",
+          "TimeBuilt": "2026-09-29T13:14:36.8562312+00:00",
+          "EffectiveVersion": "1.4.5.1",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.1.6": {
@@ -253996,6 +254252,46 @@
             "1.4.5.0": {
               "TimeReleased": "2026-09-28T04:52:05.9806899+00:00",
               "Changelog": "Add Log Subtitles - New feature that will print to chatlog what was said during cinematic cutscenes. (by beerpsi)",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "78f5a74bc1266bac6e33a32c6f2694b95a2e31ea"
+                },
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit.Components",
+                  "Version": "4bc623758450a18dfa2710f5a2fd94eddf9bccc2"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "LuminaSupplemental.Excel",
+                  "Version": "5.1.5"
+                },
+                {
+                  "Key": "CSVFile",
+                  "Version": "3.2.1"
+                },
+                {
+                  "Key": "CsvHelper",
+                  "Version": "30.0.1"
+                },
+                {
+                  "Key": "Sylvan.Data.Csv",
+                  "Version": "1.4.3"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "MidoriKami"
+            },
+            "1.4.5.1": {
+              "TimeReleased": "2026-09-29T13:14:36.8562328+00:00",
+              "Changelog": "Log Subtitles - Fix string handling bug for some people.",
               "UsedNeeds": [
                 {
                   "Key": "https://github.com/MidoriKami/KamiToolKit",
@@ -362945,6 +363241,13 @@
       "Version": "3.2.1.20",
       "ReviewedBy": "nathanctech",
       "ReviewedAt": "2026-09-28T23:32:54.5676033Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/Haselnussbomber/HaselCommon.git",
+      "Version": "7b31a90be5b46c1a247aea9052ccb7e921188513",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-09-29T13:14:19.2389814Z"
     }
   ]
 }
