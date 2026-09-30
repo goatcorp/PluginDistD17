@@ -259612,9 +259612,9 @@
           }
         },
         "LootView": {
-          "BuiltCommit": "debc1cd9b04c3c61b6d3b502fc8abfecb086075d",
-          "TimeBuilt": "2026-09-26T01:27:31.4681104+00:00",
-          "EffectiveVersion": "1.5.1.0",
+          "BuiltCommit": "dfaede23490e4ff4d24cf79f565b8276dc3c1964",
+          "TimeBuilt": "2026-09-30T15:47:05.8823602+00:00",
+          "EffectiveVersion": "1.6.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.3.1.0": {
@@ -259719,6 +259719,22 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "GitHixy"
+            },
+            "1.6.0.0": {
+              "TimeReleased": "2026-09-30T15:47:05.882387+00:00",
+              "Changelog": "# Version 1.6.0\n\n- LootView now works with every game language: Japanese, German and French clients see their drops and rolls just like English ones.\n- Need, Greed and Pass buttons on every open item in the roll window. Only the choices the game allows you are offered.\n- The game\u0027s own Need/Greed window now stays hidden, so every roll happens in LootView. A button in the roll panel brings it back, and you can turn this off in Settings \u2192 Tracking.\n- Items still waiting for your choice are listed first, newest on top.\n- Hovering an item shows its full details: item level, jobs, stats, bonuses, materia slots, description and market price.\n- Right-click an item to try it on, open it on Garland Tools or Universalis, or copy its name.\n- Minions, mounts, orchestrion rolls, Triple Triad cards, emotes, hairstyles and portrait frames show whether you already have them.\n- LootView now has a Discord server: https://discord.gg/9kjUjWDBkJ\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "GitHixy"
             }
           }
@@ -327749,9 +327765,9 @@
           }
         },
         "LootView": {
-          "BuiltCommit": "debc1cd9b04c3c61b6d3b502fc8abfecb086075d",
-          "TimeBuilt": "2026-09-26T01:27:40.8551455+00:00",
-          "EffectiveVersion": "1.5.1.0",
+          "BuiltCommit": "dfaede23490e4ff4d24cf79f565b8276dc3c1964",
+          "TimeBuilt": "2026-09-30T15:48:00.6080163+00:00",
+          "EffectiveVersion": "1.6.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.2.5.0": {
@@ -327892,6 +327908,22 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "GitHixy"
+            },
+            "1.6.0.0": {
+              "TimeReleased": "2026-09-30T15:48:00.6080177+00:00",
+              "Changelog": "# Version 1.6.0\n\n- LootView now works with every game language: Japanese, German and French clients see their drops and rolls just like English ones.\n- Need, Greed and Pass buttons on every open item in the roll window. Only the choices the game allows you are offered.\n- The game\u0027s own Need/Greed window now stays hidden, so every roll happens in LootView. A button in the roll panel brings it back, and you can turn this off in Settings \u2192 Tracking.\n- Items still waiting for your choice are listed first, newest on top.\n- Hovering an item shows its full details: item level, jobs, stats, bonuses, materia slots, description and market price.\n- Right-click an item to try it on, open it on Garland Tools or Universalis, or copy its name.\n- Minions, mounts, orchestrion rolls, Triple Triad cards, emotes, hairstyles and portrait frames show whether you already have them.\n- LootView now has a Discord server: https://discord.gg/9kjUjWDBkJ\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "GitHixy"
             }
           }
