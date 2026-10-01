@@ -16039,9 +16039,9 @@
           }
         },
         "Honorific": {
-          "BuiltCommit": "9d66b6330eb724fc3959f5c37e7696a41d37a946",
-          "TimeBuilt": "2026-04-30T15:32:47.0391053+00:00",
-          "EffectiveVersion": "1.7.5.0",
+          "BuiltCommit": "3d4676e9c38205125df8b2e24845d0b08f39c943",
+          "TimeBuilt": "2026-10-01T16:42:14.3890465+00:00",
+          "EffectiveVersion": "1.7.5.1",
           "MinimumVersion": null,
           "Changelogs": {
             "1.5.0.3": {
@@ -16327,6 +16327,22 @@
             "1.7.5.0": {
               "TimeReleased": "2026-04-30T15:32:47.0391067+00:00",
               "Changelog": "API15 / 7.5",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Caraxi"
+            },
+            "1.7.5.1": {
+              "TimeReleased": "2026-10-01T16:42:14.3890792+00:00",
+              "Changelog": null,
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -256960,9 +256976,9 @@
           }
         },
         "Altoholic": {
-          "BuiltCommit": "6701e877832cbe51890f8798bca8bf87cd5b1c59",
-          "TimeBuilt": "2026-09-30T22:56:53.5191451+00:00",
-          "EffectiveVersion": "1.13.0.0",
+          "BuiltCommit": "49785d66cf511ae9ed809a9bb630fa6aeda6c613",
+          "TimeBuilt": "2026-10-01T16:42:30.2261153+00:00",
+          "EffectiveVersion": "1.13.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -259480,6 +259496,50 @@
             "1.13.0.0": {
               "TimeReleased": "2026-09-30T22:56:53.519147+00:00",
               "Changelog": "- **Progress**:\n    - Event: Add Blunderville 2026\n\t- Blunderville: Add outfit and furnitures to rewards in Blunderville tab\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "Dapper",
+                  "Version": "2.1.89"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "2.0.5"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite.Core",
+                  "Version": "10.0.12"
+                },
+                {
+                  "Key": "SQLitePCLRaw.bundle_e_sqlite3",
+                  "Version": "3.0.5"
+                },
+                {
+                  "Key": "SQLite",
+                  "Version": "3.53.4"
+                },
+                {
+                  "Key": "SQLitePCLRaw.config.e_sqlite3",
+                  "Version": "3.0.5"
+                },
+                {
+                  "Key": "SQLitePCLRaw.core",
+                  "Version": "3.0.5"
+                },
+                {
+                  "Key": "SQLitePCLRaw.provider.e_sqlite3",
+                  "Version": "3.0.5"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Sohtoren"
+            },
+            "1.13.1.0": {
+              "TimeReleased": "2026-10-01T16:42:30.2261169+00:00",
+              "Changelog": "- **General**: Indicate \u0027N/A\u0027 for non available hairstyles on races (example: ffxv\u0027s for hrothgar) in all rewards lists\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
