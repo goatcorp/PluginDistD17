@@ -260296,9 +260296,9 @@
           }
         },
         "LootView": {
-          "BuiltCommit": "dfaede23490e4ff4d24cf79f565b8276dc3c1964",
-          "TimeBuilt": "2026-09-30T15:47:05.8823602+00:00",
-          "EffectiveVersion": "1.6.0.0",
+          "BuiltCommit": "b967dfb4a2bf34d6b7b634925403dc235579abaf",
+          "TimeBuilt": "2026-10-02T22:23:48.7155735+00:00",
+          "EffectiveVersion": "1.6.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.3.1.0": {
@@ -260408,6 +260408,22 @@
             "1.6.0.0": {
               "TimeReleased": "2026-09-30T15:47:05.882387+00:00",
               "Changelog": "# Version 1.6.0\n\n- LootView now works with every game language: Japanese, German and French clients see their drops and rolls just like English ones.\n- Need, Greed and Pass buttons on every open item in the roll window. Only the choices the game allows you are offered.\n- The game\u0027s own Need/Greed window now stays hidden, so every roll happens in LootView. A button in the roll panel brings it back, and you can turn this off in Settings \u2192 Tracking.\n- Items still waiting for your choice are listed first, newest on top.\n- Hovering an item shows its full details: item level, jobs, stats, bonuses, materia slots, description and market price.\n- Right-click an item to try it on, open it on Garland Tools or Universalis, or copy its name.\n- Minions, mounts, orchestrion rolls, Triple Triad cards, emotes, hairstyles and portrait frames show whether you already have them.\n- LootView now has a Discord server: https://discord.gg/9kjUjWDBkJ\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "GitHixy"
+            },
+            "1.6.1.0": {
+              "TimeReleased": "2026-10-02T22:23:48.7156216+00:00",
+              "Changelog": "# Version 1.6.1\n\n- New currency drawer beside the loot window with every currency you hold (gil, tomestones, scrips, seals, MGP, PvP marks, tribal currencies and more), each cap and the weekly tomestone limit. Gains flash as they come in. Open it with the coin button; choose left or right in Settings \u2192 General.\n- A large banner at the top of the screen when someone commends you. Several commendations are counted on one banner, and it waits for the loading screen to finish. Resize, preview or turn it off in Settings \u2192 Effects.\n- Loot window scale from 60% to 140% in Settings \u2192 Appearance; the window can now be made much smaller.\n- Need, Greed and Pass buttons now sit right under the item name, so incoming rolls no longer push them away.\n- Locking the window from Settings \u2192 Appearance now takes effect straight away.\n- With \u0022Hide the game\u0027s Need/Greed window\u0022 on, closing LootView\u0027s roll window now brings the game\u0027s window back, so you can always still roll.\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -328557,9 +328573,9 @@
           }
         },
         "LootView": {
-          "BuiltCommit": "dfaede23490e4ff4d24cf79f565b8276dc3c1964",
-          "TimeBuilt": "2026-09-30T15:48:00.6080163+00:00",
-          "EffectiveVersion": "1.6.0.0",
+          "BuiltCommit": "b967dfb4a2bf34d6b7b634925403dc235579abaf",
+          "TimeBuilt": "2026-10-02T22:23:59.1875014+00:00",
+          "EffectiveVersion": "1.6.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.2.5.0": {
@@ -328705,6 +328721,22 @@
             "1.6.0.0": {
               "TimeReleased": "2026-09-30T15:48:00.6080177+00:00",
               "Changelog": "# Version 1.6.0\n\n- LootView now works with every game language: Japanese, German and French clients see their drops and rolls just like English ones.\n- Need, Greed and Pass buttons on every open item in the roll window. Only the choices the game allows you are offered.\n- The game\u0027s own Need/Greed window now stays hidden, so every roll happens in LootView. A button in the roll panel brings it back, and you can turn this off in Settings \u2192 Tracking.\n- Items still waiting for your choice are listed first, newest on top.\n- Hovering an item shows its full details: item level, jobs, stats, bonuses, materia slots, description and market price.\n- Right-click an item to try it on, open it on Garland Tools or Universalis, or copy its name.\n- Minions, mounts, orchestrion rolls, Triple Triad cards, emotes, hairstyles and portrait frames show whether you already have them.\n- LootView now has a Discord server: https://discord.gg/9kjUjWDBkJ\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "GitHixy"
+            },
+            "1.6.1.0": {
+              "TimeReleased": "2026-10-02T22:23:59.1875027+00:00",
+              "Changelog": "# Version 1.6.1\n\n- New currency drawer beside the loot window with every currency you hold (gil, tomestones, scrips, seals, MGP, PvP marks, tribal currencies and more), each cap and the weekly tomestone limit. Gains flash as they come in. Open it with the coin button; choose left or right in Settings \u2192 General.\n- A large banner at the top of the screen when someone commends you. Several commendations are counted on one banner, and it waits for the loading screen to finish. Resize, preview or turn it off in Settings \u2192 Effects.\n- Loot window scale from 60% to 140% in Settings \u2192 Appearance; the window can now be made much smaller.\n- Need, Greed and Pass buttons now sit right under the item name, so incoming rolls no longer push them away.\n- Locking the window from Settings \u2192 Appearance now takes effect straight away.\n- With \u0022Hide the game\u0027s Need/Greed window\u0022 on, closing LootView\u0027s roll window now brings the game\u0027s window back, so you can always still roll.\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
