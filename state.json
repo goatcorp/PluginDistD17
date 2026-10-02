@@ -14712,9 +14712,9 @@
           }
         },
         "PetRenamer": {
-          "BuiltCommit": "8f0b9c2c2656c6b74c959f5984a4a54f26b9baeb",
-          "TimeBuilt": "2026-09-29T13:15:00.7278493+00:00",
-          "EffectiveVersion": "3.0.0.2",
+          "BuiltCommit": "707c9808b6a024ae565b07c39ab352d9362091df",
+          "TimeBuilt": "2026-10-02T20:26:48.342848+00:00",
+          "EffectiveVersion": "3.0.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -15706,6 +15706,30 @@
             "3.0.0.2": {
               "TimeReleased": "2026-09-29T13:15:00.7278507+00:00",
               "Changelog": "[3.0.0.2] \r\n- Fixes an issue where switching alt\u0027s wouldn\u0027t push an update over IPC.\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "HtmlAgilityPack",
+                  "Version": "1.11.71"
+                },
+                {
+                  "Key": "JetBrains.Annotations",
+                  "Version": "2025.2.4"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Glyceri"
+            },
+            "3.0.1.0": {
+              "TimeReleased": "2026-10-02T20:26:48.3428494+00:00",
+              "Changelog": "[3.0.1.0] \r\n- Tentative fix for lag issue in content.\r\n- Other potential performance improvements.\r\n- Removed Ephemiral Chat\r\n- Fixes an issue where the plugin would hang on startup if the game data should be repaired (within reason).\r\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -215461,9 +215485,9 @@
           }
         },
         "TidyChat": {
-          "BuiltCommit": "969aba2a368c3d91920d0b3eab75327416a852e4",
-          "TimeBuilt": "2026-09-21T22:34:37.77974+00:00",
-          "EffectiveVersion": "3.1.1.1",
+          "BuiltCommit": "e101d90c0ab152f017152473e9b70f7328c3eeb8",
+          "TimeBuilt": "2026-10-02T20:26:36.3887475+00:00",
+          "EffectiveVersion": "3.1.1.2",
           "MinimumVersion": null,
           "Changelogs": {
             "1.2.2.0": {
@@ -216295,6 +216319,34 @@
             "3.1.1.1": {
               "TimeReleased": "2026-09-21T22:34:37.7797418+00:00",
               "Changelog": "- Volume control now also covers set-to-N lines, plus performance, mount BGM, and own/party/others sound effects\r\n- New System option: show configuration change messages (\u0060Changes saved.\u0060, lost, discarded). Off by default\r\n- Changing gearsets no longer hides ARR relic quest warnings that say you must be equipped with a specific weapon\r\n- \u0060The fish gets away\u2026\u0060 follows the existing lose-bait option\r\n- Settings search matches LogMessage IDs exactly, so short numbers don\u0027t hit unrelated options\r\n- Custom filter and highlight channel lists stay open when the label updates\r\n- Custom Allow filters can override condensed login/world-travel announcements",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "2.0.2"
+                },
+                {
+                  "Key": "Meziantou.Analyzer",
+                  "Version": "3.0.96"
+                },
+                {
+                  "Key": "TextCopy",
+                  "Version": "6.2.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "7.0.0"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Kagekazu"
+            },
+            "3.1.1.2": {
+              "TimeReleased": "2026-10-02T20:26:36.3887502+00:00",
+              "Changelog": "- New Duty option: show Party Finder search results (\u0060Of the X parties currently recruiting\u2026\u0060), split from Duty Finder notifications and starting with that setting\u0027s current value\r\n- New Party option: show party member offline messages (\u0060X has gone offline.\u0060); FC member logout now only covers the FC login/logout channel\r\n- Plugin messages no longer get hidden by an unrelated filter that shares a word with them (e.g. Doorbell lines with \u0022ward\u0022 in a name)\r\n- Custom Allow filters now win over built-in rules on lines where the game\u0027s internal wording differs from chat, and over Block filters that match the same line\r\n- Custom filters on the System channel now also cover Party Finder recruitment messages\r\n- Improved commendations now hide the individual \u0060You received a player commendation!\u0060 lines\r\n- Improved instance and mark bill messages now apply even when their show option is on\r\n- \u0060The only party currently recruiting\u2026\u0060 is now recognised as a Party Finder message\r\n- Removed unused code, merged small rule files, and trimmed per-message filtering work",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -268280,9 +268332,9 @@
           }
         },
         "MouseLock": {
-          "BuiltCommit": "b44ec82e5c4d26e0ac0068d9315caabf710613f7",
-          "TimeBuilt": "2026-10-01T16:32:36.493668+00:00",
-          "EffectiveVersion": "1.0.1.3",
+          "BuiltCommit": "7872c9625cb1c5780e24216dbada0a92b577b576",
+          "TimeBuilt": "2026-10-02T20:26:13.201229+00:00",
+          "EffectiveVersion": "1.0.1.4",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.3": {
@@ -268364,6 +268416,26 @@
             "1.0.1.3": {
               "TimeReleased": "2026-10-01T16:32:36.4937072+00:00",
               "Changelog": "# 1.0.1.3\n- Added an option to keep MouseLock active while config is open.\n- Added recent window history with quick exception buttons.\n- Added pause history and preserved the last pause reason when opening config.\n- Moved window exceptions to their own tab and made the config more compact.\n- Added the ability to manually define windows to add to exceptions.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "KamiToolKit",
+                  "Version": "2.2.49"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Zeffuro"
+            },
+            "1.0.1.4": {
+              "TimeReleased": "2026-10-02T20:26:13.2012304+00:00",
+              "Changelog": "# 1.0.1.4\n- Fixed a bug where the MouseLook sensitivity was higher than holding right-click.\n  If it feels slower than you\u0027re used to, adjust Mouse Camera Sensitivity under System Configuration -\u003E Mouse Settings.\n- Added input recording to help troubleshoot mouse issues.\n- Cleaned up the Diagnostics tab and made it available in release builds.\n- Made some performance optimizations.",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -268548,6 +268620,74 @@
               ],
               "Reviewer": "nathanctech",
               "Submitter": "RokasKil"
+            }
+          }
+        },
+        "XivReflex": {
+          "BuiltCommit": "bc9a3cf508a5a6d9225a3e10e5fb2ad60cbd8550",
+          "TimeBuilt": "2026-10-02T20:26:02.0667903+00:00",
+          "EffectiveVersion": "1.0.0.0",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "1.0.0.0": {
+              "TimeReleased": "2026-10-02T20:26:02.0667939+00:00",
+              "Changelog": "**XivReflex** integrates [NVIDIA Reflex Low Latency](\u003Chttps://www.nvidia.com/en-us/geforce/news/reflex-low-latency-platform/\u003E) to reduce system input lag in GPU-bound scenarios by dynamically aligning the game\u0027s engine updates closer to the moment your GPU actually draws the frame on screen.\r\n\r\n**Requirements:**\r\n\r\n- NVIDIA GeForce 900 Series or newer\r\n- NVIDIA Driver version 456.38 or newer",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Microsoft.Windows.CsWin32",
+                  "Version": "0.3.321"
+                },
+                {
+                  "Key": "Roslynator.Analyzers",
+                  "Version": "5.0.0"
+                },
+                {
+                  "Key": "Microsoft.Windows.SDK.Win32Docs",
+                  "Version": "0.1.42-alpha"
+                },
+                {
+                  "Key": "Microsoft.Windows.SDK.Win32Metadata",
+                  "Version": "71.0.14-preview"
+                },
+                {
+                  "Key": "Microsoft.Windows.WDK.Win32Metadata",
+                  "Version": "0.13.25-experimental"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Haselnussbomber"
+            }
+          }
+        },
+        "NoQuestIcons": {
+          "BuiltCommit": "a069b401bcd291c2d50e7c0f7aafab1b528ed633",
+          "TimeBuilt": "2026-10-02T20:26:57.5896395+00:00",
+          "EffectiveVersion": "1.5.0.0",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "1.5.0.0": {
+              "TimeReleased": "2026-10-02T20:26:57.589641+00:00",
+              "Changelog": "Now available on stable! Hides quest, FATE, leve and other NPC marker icons, with per-category settings, a master toggle keybind and a peek keybind.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "GrimmortalDread"
             }
           }
         }
@@ -337276,50 +337416,6 @@
             }
           }
         },
-        "XivReflex": {
-          "BuiltCommit": "bc9a3cf508a5a6d9225a3e10e5fb2ad60cbd8550",
-          "TimeBuilt": "2026-09-17T00:09:50.1498683+00:00",
-          "EffectiveVersion": "1.0.0.0",
-          "MinimumVersion": null,
-          "Changelogs": {
-            "1.0.0.0": {
-              "TimeReleased": "2026-09-17T00:09:50.1498894+00:00",
-              "Changelog": "**XivReflex** integrates [NVIDIA Reflex Low Latency](\u003Chttps://www.nvidia.com/en-us/geforce/news/reflex-low-latency-platform/\u003E) to reduce system input lag in GPU-bound scenarios by dynamically aligning the game\u0027s engine updates closer to the moment your GPU actually draws the frame on screen.\r\n\r\n**Requirements:**\r\n\r\n- NVIDIA GeForce 900 Series or newer\r\n- NVIDIA Driver version 456.38 or newer",
-              "UsedNeeds": [
-                {
-                  "Key": "DalamudPackager",
-                  "Version": "15.0.0"
-                },
-                {
-                  "Key": "DotNet.ReproducibleBuilds",
-                  "Version": "1.2.39"
-                },
-                {
-                  "Key": "Microsoft.Windows.CsWin32",
-                  "Version": "0.3.321"
-                },
-                {
-                  "Key": "Roslynator.Analyzers",
-                  "Version": "5.0.0"
-                },
-                {
-                  "Key": "Microsoft.Windows.SDK.Win32Docs",
-                  "Version": "0.1.42-alpha"
-                },
-                {
-                  "Key": "Microsoft.Windows.SDK.Win32Metadata",
-                  "Version": "71.0.14-preview"
-                },
-                {
-                  "Key": "Microsoft.Windows.WDK.Win32Metadata",
-                  "Version": "0.13.25-experimental"
-                }
-              ],
-              "Reviewer": "nathanctech",
-              "Submitter": "Haselnussbomber"
-            }
-          }
-        },
         "ARealmReorganized": {
           "BuiltCommit": "43b56398872c985b6c51e35f4db9b3527af4004f",
           "TimeBuilt": "2026-09-17T00:27:53.7489729+00:00",
@@ -337341,30 +337437,6 @@
               ],
               "Reviewer": "nathanctech",
               "Submitter": "Nepharyas"
-            }
-          }
-        },
-        "NoQuestIcons": {
-          "BuiltCommit": "a069b401bcd291c2d50e7c0f7aafab1b528ed633",
-          "TimeBuilt": "2026-09-17T00:28:01.2923644+00:00",
-          "EffectiveVersion": "1.5.0.0",
-          "MinimumVersion": null,
-          "Changelogs": {
-            "1.5.0.0": {
-              "TimeReleased": "2026-09-17T00:28:01.2923657+00:00",
-              "Changelog": "v1.5.1 - Converted every ImGui Begin/End and Push/Pop pair (tabs, tables, combos, child windows, IDs, disabled state, style colors) to ImRaii, per review feedback. Ties cleanup to C#\u0027s using scope instead of a manually-written matching call, so a future early return or exception can\u0027t leave ImGui\u0027s internal state corrupted. Also synced plugin description text across the installer punchline, detailed description, and in-game About tab.",
-              "UsedNeeds": [
-                {
-                  "Key": "DalamudPackager",
-                  "Version": "15.0.0"
-                },
-                {
-                  "Key": "DotNet.ReproducibleBuilds",
-                  "Version": "1.2.39"
-                }
-              ],
-              "Reviewer": "nathanctech",
-              "Submitter": "GrimmortalDread"
             }
           }
         },
