@@ -243232,9 +243232,9 @@
           }
         },
         "AbsoluteRoleplay": {
-          "BuiltCommit": "610c1a9476c9989ebe30939e8efc28f9442019e2",
-          "TimeBuilt": "2026-07-14T01:04:40.1657744+00:00",
-          "EffectiveVersion": "0.0.4.4",
+          "BuiltCommit": "47341d71b94f6c2ea0e8233a7e4e4474506810e4",
+          "TimeBuilt": "2026-10-03T02:35:40.1657226+00:00",
+          "EffectiveVersion": "0.2.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.1.0": {
@@ -245800,6 +245800,262 @@
                 {
                   "Key": "System.Security.Principal.Windows",
                   "Version": "4.7.0"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "serifas"
+            },
+            "0.2.0.0": {
+              "TimeReleased": "2026-10-03T02:35:40.1657437+00:00",
+              "Changelog": "Complete overhaul to the entire plugin, it\u0027s theming and functionality.\r\nADDED:\r\nA theme section for theming your profile to your liking, with a theme gallery to shop for themes aswell. (Themes are managed and approved by moderation)\r\nA new RP feed for posting recruitments, venue adverts or just lfrp posts.\r\nAn overarching profile for accounts with rp preferences\r\nImage cropping for all image uploads\r\nVideo, audio and image uploading now available in galleries.\r\nVLC Video renderer for rendering videos directly in the plugin \r\nVideo backgrounds for profiles.\r\nRelationships can now be formed between profiles and can be viewed by others to see how people know each other IC\r\nSystems now allow you to roll for stats and skill points if the dm chooses.\r\n\r\nFIXES:\r\nFixed an issue where profiles where not loading properly after verification.\r\nMany fixes and quality of life changes to settings including hiding the dtr bar button and right click options when right clicking players.\r\n\r\nNOTES:\r\nTons more but I am having a hard time remembering all I did.\r\n\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "2.0.5"
+                },
+                {
+                  "Key": "HtmlAgilityPack",
+                  "Version": "1.13.0"
+                },
+                {
+                  "Key": "K4os.Compression.LZ4",
+                  "Version": "1.3.8"
+                },
+                {
+                  "Key": "K4os.Compression.LZ4.Legacy",
+                  "Version": "1.3.8"
+                },
+                {
+                  "Key": "MessagePack",
+                  "Version": "3.1.8"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.SignalR.Client",
+                  "Version": "11.0.0-preview.7.26381.103"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Hosting.Abstractions",
+                  "Version": "11.0.0-preview.7.26381.103"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging",
+                  "Version": "11.0.0-preview.7.26381.103"
+                },
+                {
+                  "Key": "Microsoft.Web.WebView2",
+                  "Version": "1.0.4181-prerelease"
+                },
+                {
+                  "Key": "NAudio",
+                  "Version": "3.0.2-preview.2"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.3"
+                },
+                {
+                  "Key": "NReco.Logging.File",
+                  "Version": "1.4.0"
+                },
+                {
+                  "Key": "System.Drawing.Common",
+                  "Version": "11.0.0-preview.7.26381.103"
+                },
+                {
+                  "Key": "System.IdentityModel.Tokens.Jwt",
+                  "Version": "8.22.0"
+                },
+                {
+                  "Key": "TerraFX.Interop.Windows",
+                  "Version": "10.0.26100.6"
+                },
+                {
+                  "Key": "MessagePack.Annotations",
+                  "Version": "3.1.8"
+                },
+                {
+                  "Key": "MessagePackAnalyzer",
+                  "Version": "3.1.8"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.Connections.Abstractions",
+                  "Version": "11.0.0-preview.7.26381.103"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.Http.Connections.Client",
+                  "Version": "11.0.0-preview.7.26381.103"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.Http.Connections.Common",
+                  "Version": "11.0.0-preview.7.26381.103"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.SignalR.Client.Core",
+                  "Version": "11.0.0-preview.7.26381.103"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.SignalR.Common",
+                  "Version": "11.0.0-preview.7.26381.103"
+                },
+                {
+                  "Key": "Microsoft.AspNetCore.SignalR.Protocols.Json",
+                  "Version": "11.0.0-preview.7.26381.103"
+                },
+                {
+                  "Key": "Microsoft.Bcl.AsyncInterfaces",
+                  "Version": "11.0.0-preview.7.26381.103"
+                },
+                {
+                  "Key": "Microsoft.Bcl.Cryptography",
+                  "Version": "10.0.2"
+                },
+                {
+                  "Key": "Microsoft.Bcl.TimeProvider",
+                  "Version": "11.0.0-preview.7.26381.103"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Abstractions",
+                  "Version": "11.0.0-preview.7.26381.103"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Binder",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "11.0.0-preview.7.26381.103"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "11.0.0-preview.7.26381.103"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Diagnostics.Abstractions",
+                  "Version": "11.0.0-preview.7.26381.103"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Features",
+                  "Version": "11.0.0-preview.7.26381.103"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileProviders.Abstractions",
+                  "Version": "11.0.0-preview.7.26381.103"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "11.0.0-preview.7.26381.103"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Configuration",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options",
+                  "Version": "11.0.0-preview.7.26381.103"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options.ConfigurationExtensions",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Primitives",
+                  "Version": "11.0.0-preview.7.26381.103"
+                },
+                {
+                  "Key": "Microsoft.IdentityModel.Abstractions",
+                  "Version": "8.22.0"
+                },
+                {
+                  "Key": "Microsoft.IdentityModel.JsonWebTokens",
+                  "Version": "8.22.0"
+                },
+                {
+                  "Key": "Microsoft.IdentityModel.Logging",
+                  "Version": "8.22.0"
+                },
+                {
+                  "Key": "Microsoft.IdentityModel.Tokens",
+                  "Version": "8.22.0"
+                },
+                {
+                  "Key": "Microsoft.NET.StringTools",
+                  "Version": "17.11.4"
+                },
+                {
+                  "Key": "Microsoft.Win32.SystemEvents",
+                  "Version": "11.0.0-preview.7.26381.103"
+                },
+                {
+                  "Key": "NAudio.Asio",
+                  "Version": "3.0.2-preview.2"
+                },
+                {
+                  "Key": "NAudio.Core",
+                  "Version": "3.0.2-preview.2"
+                },
+                {
+                  "Key": "NAudio.Dmo",
+                  "Version": "3.0.2-preview.2"
+                },
+                {
+                  "Key": "NAudio.Midi",
+                  "Version": "3.0.2-preview.2"
+                },
+                {
+                  "Key": "NAudio.Wasapi",
+                  "Version": "3.0.2-preview.2"
+                },
+                {
+                  "Key": "NAudio.WinForms",
+                  "Version": "3.0.2-preview.2"
+                },
+                {
+                  "Key": "NAudio.WinMM",
+                  "Version": "3.0.2-preview.2"
+                },
+                {
+                  "Key": "System.Diagnostics.DiagnosticSource",
+                  "Version": "11.0.0-preview.7.26381.103"
+                },
+                {
+                  "Key": "System.IO.Pipelines",
+                  "Version": "11.0.0-preview.7.26381.103"
+                },
+                {
+                  "Key": "System.Net.ServerSentEvents",
+                  "Version": "11.0.0-preview.7.26381.103"
+                },
+                {
+                  "Key": "System.Numerics.Tensors",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "System.Text.Encodings.Web",
+                  "Version": "11.0.0-preview.7.26381.103"
+                },
+                {
+                  "Key": "System.Text.Json",
+                  "Version": "11.0.0-preview.7.26381.103"
+                },
+                {
+                  "Key": "System.Threading.Channels",
+                  "Version": "11.0.0-preview.7.26381.103"
+                },
+                {
+                  "Key": "LibVLCSharp",
+                  "Version": "3.9.5"
+                },
+                {
+                  "Key": "VideoLAN.LibVLC.Windows",
+                  "Version": "3.0.21"
                 }
               ],
               "Reviewer": "nathanctech",
@@ -364403,6 +364659,342 @@
       "Version": "d44b6029325c03986b8da430ad2c7792eafd148d",
       "ReviewedBy": "nathanctech",
       "ReviewedAt": "2026-10-03T01:28:39.9732272Z"
+    },
+    {
+      "Type": 1,
+      "Key": "HtmlAgilityPack",
+      "Version": "1.13.0",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-10-03T02:35:40.2187951Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.AspNetCore.SignalR.Client",
+      "Version": "11.0.0-preview.7.26381.103",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-10-03T02:35:40.2188046Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Extensions.Hosting.Abstractions",
+      "Version": "11.0.0-preview.7.26381.103",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-10-03T02:35:40.2188048Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Extensions.Logging",
+      "Version": "11.0.0-preview.7.26381.103",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-10-03T02:35:40.2188048Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Web.WebView2",
+      "Version": "1.0.4181-prerelease",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-10-03T02:35:40.218805Z"
+    },
+    {
+      "Type": 1,
+      "Key": "NAudio",
+      "Version": "3.0.2-preview.2",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-10-03T02:35:40.2188052Z"
+    },
+    {
+      "Type": 1,
+      "Key": "NReco.Logging.File",
+      "Version": "1.4.0",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-10-03T02:35:40.2188052Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Drawing.Common",
+      "Version": "11.0.0-preview.7.26381.103",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-10-03T02:35:40.2188055Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.IdentityModel.Tokens.Jwt",
+      "Version": "8.22.0",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-10-03T02:35:40.2188058Z"
+    },
+    {
+      "Type": 1,
+      "Key": "TerraFX.Interop.Windows",
+      "Version": "10.0.26100.6",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-10-03T02:35:40.2188568Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.AspNetCore.Connections.Abstractions",
+      "Version": "11.0.0-preview.7.26381.103",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-10-03T02:35:40.2188572Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.AspNetCore.Http.Connections.Client",
+      "Version": "11.0.0-preview.7.26381.103",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-10-03T02:35:40.2188573Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.AspNetCore.Http.Connections.Common",
+      "Version": "11.0.0-preview.7.26381.103",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-10-03T02:35:40.2188575Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.AspNetCore.SignalR.Client.Core",
+      "Version": "11.0.0-preview.7.26381.103",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-10-03T02:35:40.2188576Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.AspNetCore.SignalR.Common",
+      "Version": "11.0.0-preview.7.26381.103",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-10-03T02:35:40.2188577Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.AspNetCore.SignalR.Protocols.Json",
+      "Version": "11.0.0-preview.7.26381.103",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-10-03T02:35:40.2188578Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Bcl.AsyncInterfaces",
+      "Version": "11.0.0-preview.7.26381.103",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-10-03T02:35:40.218858Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Bcl.Cryptography",
+      "Version": "10.0.2",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-10-03T02:35:40.2188582Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Bcl.TimeProvider",
+      "Version": "11.0.0-preview.7.26381.103",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-10-03T02:35:40.2188582Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Extensions.Configuration.Abstractions",
+      "Version": "11.0.0-preview.7.26381.103",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-10-03T02:35:40.2188584Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Extensions.DependencyInjection",
+      "Version": "11.0.0-preview.7.26381.103",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-10-03T02:35:40.2188586Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+      "Version": "11.0.0-preview.7.26381.103",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-10-03T02:35:40.2188586Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Extensions.Diagnostics.Abstractions",
+      "Version": "11.0.0-preview.7.26381.103",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-10-03T02:35:40.2188587Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Extensions.Features",
+      "Version": "11.0.0-preview.7.26381.103",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-10-03T02:35:40.2188588Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Extensions.FileProviders.Abstractions",
+      "Version": "11.0.0-preview.7.26381.103",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-10-03T02:35:40.2188588Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Extensions.Logging.Abstractions",
+      "Version": "11.0.0-preview.7.26381.103",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-10-03T02:35:40.2188592Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Extensions.Options",
+      "Version": "11.0.0-preview.7.26381.103",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-10-03T02:35:40.2188593Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Extensions.Primitives",
+      "Version": "11.0.0-preview.7.26381.103",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-10-03T02:35:40.2188594Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.IdentityModel.Abstractions",
+      "Version": "8.22.0",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-10-03T02:35:40.2188594Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.IdentityModel.JsonWebTokens",
+      "Version": "8.22.0",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-10-03T02:35:40.2188595Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.IdentityModel.Logging",
+      "Version": "8.22.0",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-10-03T02:35:40.2188595Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.IdentityModel.Tokens",
+      "Version": "8.22.0",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-10-03T02:35:40.2188596Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Win32.SystemEvents",
+      "Version": "11.0.0-preview.7.26381.103",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-10-03T02:35:40.2188596Z"
+    },
+    {
+      "Type": 1,
+      "Key": "NAudio.Asio",
+      "Version": "3.0.2-preview.2",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-10-03T02:35:40.2188597Z"
+    },
+    {
+      "Type": 1,
+      "Key": "NAudio.Core",
+      "Version": "3.0.2-preview.2",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-10-03T02:35:40.2188597Z"
+    },
+    {
+      "Type": 1,
+      "Key": "NAudio.Dmo",
+      "Version": "3.0.2-preview.2",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-10-03T02:35:40.2188598Z"
+    },
+    {
+      "Type": 1,
+      "Key": "NAudio.Midi",
+      "Version": "3.0.2-preview.2",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-10-03T02:35:40.2188598Z"
+    },
+    {
+      "Type": 1,
+      "Key": "NAudio.Wasapi",
+      "Version": "3.0.2-preview.2",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-10-03T02:35:40.2188599Z"
+    },
+    {
+      "Type": 1,
+      "Key": "NAudio.WinForms",
+      "Version": "3.0.2-preview.2",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-10-03T02:35:40.2188599Z"
+    },
+    {
+      "Type": 1,
+      "Key": "NAudio.WinMM",
+      "Version": "3.0.2-preview.2",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-10-03T02:35:40.21886Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Diagnostics.DiagnosticSource",
+      "Version": "11.0.0-preview.7.26381.103",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-10-03T02:35:40.21886Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.IO.Pipelines",
+      "Version": "11.0.0-preview.7.26381.103",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-10-03T02:35:40.21886Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Net.ServerSentEvents",
+      "Version": "11.0.0-preview.7.26381.103",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-10-03T02:35:40.2188601Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Text.Encodings.Web",
+      "Version": "11.0.0-preview.7.26381.103",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-10-03T02:35:40.2188601Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Text.Json",
+      "Version": "11.0.0-preview.7.26381.103",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-10-03T02:35:40.2188602Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Threading.Channels",
+      "Version": "11.0.0-preview.7.26381.103",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-10-03T02:35:40.2188602Z"
+    },
+    {
+      "Type": 1,
+      "Key": "LibVLCSharp",
+      "Version": "3.9.5",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-10-03T02:35:40.2188603Z"
+    },
+    {
+      "Type": 1,
+      "Key": "VideoLAN.LibVLC.Windows",
+      "Version": "3.0.21",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-10-03T02:35:40.2188603Z"
     }
   ]
 }

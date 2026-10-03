@@ -1,10 +1,11 @@
 {
-  "Author": "Lynie",
-  "Name": "Absolute Roleplay",
+  "Author": "Serifaz",
+  "Name": "AbsoluteRP",
   "InternalName": "AbsoluteRoleplay",
-  "AssemblyVersion": "0.0.4.4",
+  "AssemblyVersion": "0.2.0.0",
   "Description": "Allows users to create, manage, view and bookmark roleplay profiles with FF.",
   "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/serifas/AbsoluteRP",
   "Tags": [
     "Absolute",
     "Roleplay",
