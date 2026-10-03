@@ -337551,6 +337551,30 @@
               "Submitter": "MidoriKami"
             }
           }
+        },
+        "BardicMemory": {
+          "BuiltCommit": "68c30ca36bc7c9e7fd527d5bf5c00146b7c781fa",
+          "TimeBuilt": "2026-10-03T00:00:47.1665825+00:00",
+          "EffectiveVersion": "0.0.1.0",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "0.0.1.0": {
+              "TimeReleased": "2026-10-03T00:00:47.1666136+00:00",
+              "Changelog": "- Plays half a second of a random orchestrion track for you to name, worth six points.\n- Stretch the clip through 1, 2, 4, 8 and 15 seconds, dropping a point each time.\n- Filter the pool by orchestrion category or leave out tracks you have already solved.\n- Keeps a history of every round with totals, streaks and solve rate.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "OOFGamesss"
+            }
+          }
         }
       }
     },

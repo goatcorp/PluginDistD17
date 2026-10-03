@@ -1,0 +1,26 @@
+{
+  "Author": "OOF Games",
+  "Name": "Bardic Memory",
+  "InternalName": "BardicMemory",
+  "AssemblyVersion": "0.0.1.0",
+  "Description": "A music guessing game built on the game's own orchestrion library. Each round plays a split second of a random track: name it for six points, or stretch the clip until you know the tune.\n\nゲーム内のオーケストリオン譜のライブラリーを使った曲当てゲームです。各ラウンドではランダムな曲がほんの一瞬だけ流れます。曲名を当てれば6ポイント、分からなければ曲が分かるまで再生時間を延ばせます。\n\nEin Musikratespiel auf Basis der spieleigenen Orchestrion-Bibliothek. In jeder Runde erklingt nur ein Sekundenbruchteil eines zufälligen Stücks: Nenne es für sechs Punkte oder verlängere den Ausschnitt, bis du die Melodie erkennst.\n\nUn jeu de devinettes musicales fondé sur la bibliothèque d'orchestrion du jeu. Chaque manche ne joue qu'une fraction de seconde d'un morceau au hasard : nommez-le pour six points, ou allongez l'extrait jusqu'à reconnaître la mélodie.",
+  "ApplicableVersion": "any",
+  "Tags": [
+    "music",
+    "game",
+    "minigame",
+    "orchestrion"
+  ],
+  "DalamudApiLevel": 15,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": -2,
+  "IconUrl": "https://github.com/OOFGamesss/OOFGamesPlugins/blob/main/images/bardicmemory.png?raw=true",
+  "Punchline": "Guess the tune from FFXIV's orchestrion library",
+  "Changelog": "- Plays half a second of a random orchestrion track for you to name, worth six points.\n- Stretch the clip through 1, 2, 4, 8 and 15 seconds, dropping a point each time.\n- Filter the pool by orchestrion category or leave out tracks you have already solved.\n- Keeps a history of every round with totals, streaks and solve rate.",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "testing-live",
+  "RepoUrl": "https://github.com/OOFGamesss/BardicMemory.git"
+}
