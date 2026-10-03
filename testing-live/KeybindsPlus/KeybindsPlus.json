@@ -1,0 +1,32 @@
+{
+  "Author": "Bronya Rand",
+  "Name": "KeybindsPlus",
+  "InternalName": "KeybindsPlus",
+  "AssemblyVersion": "0.2.0.0",
+  "Description": "KeybindsPlus is a plugin that allows you to bind *almost* any key on your keyboard and mouse to XIV actions, custom macros/commands, and supported Dalamud plugins. Bind any key, including those not normally supported by the game (F13-F24) to *almost* anything as if it were an actual registered keybind!\n\nSupported Keybinds:\n- Custom Macros and Commands\n- Supported Plugins\n- Targeting*\n- Shortcuts\n- Chat*\n- Hotbars\n\n> * - Some features may be grayed out due to complexities or unavailability. Not all base game keybinds are in KeybindsPlus but may appear as updates progress.\n\n(Thanks Miyabi)",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/Bronya-Rand/KeybindsPlus",
+  "Tags": [
+    "keybinds",
+    "keybind",
+    "extended",
+    "plus",
+    "utility",
+    "other",
+    "keyboard",
+    "f13"
+  ],
+  "CategoryTags": [
+    "utility",
+    "other"
+  ],
+  "DalamudApiLevel": 15,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "Punchline": "A almost complete replacement of XIV's keybind system.",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "testing-live"
+}

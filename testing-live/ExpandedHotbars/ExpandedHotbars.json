@@ -2,7 +2,7 @@
   "Author": "MidoriKami",
   "Name": "ExpandedHotbars",
   "InternalName": "ExpandedHotbars",
-  "AssemblyVersion": "1.0.0.2",
+  "AssemblyVersion": "1.0.0.3",
   "Description": "Create hotbars of any size, spacing, and keybinds, with functions to show and hide these bars dynamically.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/MidoriKami/ExpandedHotbars",

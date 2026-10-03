@@ -337473,9 +337473,9 @@
           }
         },
         "ExpandedHotbars": {
-          "BuiltCommit": "1b9e89ca50ce556367440921edd4b4565dc02882",
-          "TimeBuilt": "2026-09-26T01:05:15.3586625+00:00",
-          "EffectiveVersion": "1.0.0.2",
+          "BuiltCommit": "459e51d1083b8d779b09e7800bd2cb5d9f6f0d59",
+          "TimeBuilt": "2026-10-03T01:28:39.9322994+00:00",
+          "EffectiveVersion": "1.0.0.3",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.2": {
@@ -337485,6 +337485,78 @@
                 {
                   "Key": "https://github.com/MidoriKami/KamiToolKit",
                   "Version": "41a23dec62243cf89fdc6913abd5fc8da5c99ae3"
+                },
+                {
+                  "Key": "Microsoft.CodeAnalysis.CSharp",
+                  "Version": "4.8.0"
+                },
+                {
+                  "Key": "NETStandard.Library",
+                  "Version": "2.0.3"
+                },
+                {
+                  "Key": "Microsoft.CodeAnalysis.Analyzers",
+                  "Version": "3.3.4"
+                },
+                {
+                  "Key": "Microsoft.CodeAnalysis.Common",
+                  "Version": "4.8.0"
+                },
+                {
+                  "Key": "Microsoft.NETCore.Platforms",
+                  "Version": "1.1.0"
+                },
+                {
+                  "Key": "System.Buffers",
+                  "Version": "4.5.1"
+                },
+                {
+                  "Key": "System.Collections.Immutable",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "System.Memory",
+                  "Version": "4.5.5"
+                },
+                {
+                  "Key": "System.Numerics.Vectors",
+                  "Version": "4.4.0"
+                },
+                {
+                  "Key": "System.Reflection.Metadata",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "System.Runtime.CompilerServices.Unsafe",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "System.Text.Encoding.CodePages",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "System.Threading.Tasks.Extensions",
+                  "Version": "4.5.4"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "MidoriKami"
+            },
+            "1.0.0.3": {
+              "TimeReleased": "2026-10-03T01:28:39.9323026+00:00",
+              "Changelog": "Add item support.",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "d44b6029325c03986b8da430ad2c7792eafd148d"
                 },
                 {
                   "Key": "Microsoft.CodeAnalysis.CSharp",
@@ -337621,6 +337693,30 @@
               ],
               "Reviewer": "nathanctech",
               "Submitter": "Zeffuro"
+            }
+          }
+        },
+        "KeybindsPlus": {
+          "BuiltCommit": "3dffe969b0d5c7bdb00089c52b698bb4daa7b85e",
+          "TimeBuilt": "2026-10-03T01:28:27.4253284+00:00",
+          "EffectiveVersion": "0.2.0.0",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "0.2.0.0": {
+              "TimeReleased": "2026-10-03T01:28:27.4253498+00:00",
+              "Changelog": "Keybinds Plus is a plugin that allows you to bind _almost_ any key on your keyboard to either a XIV keybind or a supported Dalamud plugin.\r\n\r\nKeybinds Plus allows you to bind any key, including those that are not supported by the game (F13-F24) to almost any game function (Shortcuts, Chat, Targeting, Hotbars) as well as any plugin that implements KeybindsPlus\u0027 IPC. You can also bind a key to a custom command (like \u0060/wlmark\u0060) or macro just like how the game does.\r\n\r\nSupported Keybinds:\r\n- Custom Macros and Commands\r\n- Supported Plugins\r\n- Targeting*\r\n- Shortcuts\r\n- Chat*\r\n- Hotbars\r\n\r\n  \u003E \\* - Some features may be grayed out due to complexities or unavailability. Not all base game keybinds are in KeybindsPlus but may appear as updates progress.\r\n\r\nThis plugin is a early state and quite ambitious of me to do from prior plugins I\u0027ve made. Why did I decide to write this? Simply put I wanted to use my Razer Miyabi keyboard macros and originally wanted to use F13 but game said no so I said \u0060Fine. I\u0027ll do it myself.\u0060  Also, past conversations. Thanks Miyabi :)\r\n\r\n## AI Declaration\r\nCode Usage: Assist\r\n\u003E Claude/Gemini was used only to inquire about what ClientStructs to use given my prior research to reading said ClientStructs aside from the people who suggested/pointed me to the right CS in #plugin-dev and reading code from other plugins that were a basis on Better Keybinds like Vanilla Plus, MouseLock, Chat 2, a bit of DelvUI and Better Targeting System in a way I could best understand it. All other code was written by me, borrowed from some Github searching for things and Google-fu.\r\n\r\nImage Usage: None\r\n\u003E The icon (the M5 key button with the \u0022No. 564\u0022 Miyabi identifier) was made by me in Photoshop with some SVG modifications to the \u0022No. 564\u0022 image itself.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Bronya-Rand"
             }
           }
         }
@@ -364300,6 +364396,13 @@
       "Version": "7b31a90be5b46c1a247aea9052ccb7e921188513",
       "ReviewedBy": "nathanctech",
       "ReviewedAt": "2026-09-29T13:14:19.2389814Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/MidoriKami/KamiToolKit",
+      "Version": "d44b6029325c03986b8da430ad2c7792eafd148d",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-10-03T01:28:39.9732272Z"
     }
   ]
 }
