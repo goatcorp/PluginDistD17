@@ -1,0 +1,28 @@
+{
+  "Author": "Juan Medina",
+  "Name": "Gubal",
+  "InternalName": "Gubal",
+  "AssemblyVersion": "0.5.1.0",
+  "Description": "            \n            Inspired by the /wiki command from Guild Wars 2, Gubal lets you open web pages in your browser straight from the in-game chat bar. Named after the Great Gubal Library, just type a slash command followed by what you're looking for to jump directly to specific guides, item pages, and articles in your default browser.\n            \n            Commands and Examples:\n            \n            /wiki [query] - Search the FFXIV Console Games Wiki (opens in browser):\n            - /wiki great gubal library (opens The Great Gubal Library dungeon guide)\n            - /wiki sightseeing log (opens the Sightseeing Log guide)\n            - /wiki relic weapons (opens the Relic Weapon progression guide)\n            - /wiki blue mage spells (opens the Blue Mage spell list)\n            \n            /lodestone [query] - Search the official Lodestone (opens in browser):\n            - /lodestone patch 7.56 (opens the Patch 7.56 notes directly)\n            - /lodestone maintenance (opens latest server maintenance notices)\n            - /lodestone eorzea database excalibur (opens official item details)\n            - /lodestone community finder (opens the Community Finder)\n            \n            /gubal - Open the configuration window to add, edit, or customize search commands with the {text} placeholder.\n        ",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/juan-medina/Gubal",
+  "Tags": [
+    "search",
+    "wiki",
+    "lodestone",
+    "utility",
+    "chat",
+    "web",
+    "browser"
+  ],
+  "DalamudApiLevel": 15,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "IconUrl": "https://raw.githubusercontent.com/juan-medina/Gubal/main/Gubal/icon.png",
+  "Punchline": "Open web pages, wikis, and Lodestone articles in your browser directly from your chat bar.",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "testing-live"
+}
