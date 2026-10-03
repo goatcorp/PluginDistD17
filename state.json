@@ -337599,6 +337599,30 @@
               "Submitter": "juan-medina"
             }
           }
+        },
+        "LiteShade": {
+          "BuiltCommit": "38ee1ae5d9290d58f22b7b7f21503000bcf4ae63",
+          "TimeBuilt": "2026-10-03T01:14:53.8440616+00:00",
+          "EffectiveVersion": "1.0.0.0",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "1.0.0.0": {
+              "TimeReleased": "2026-10-03T01:14:53.8441066+00:00",
+              "Changelog": "# LiteShade\n\nA little less green.\n\nColour adjustments, GPose filters, optional depth of field and vignette.\nUses the game\u0027s own effects and leaves the UI alone.\n\nPick a preset or make your own. Share profiles and switch them automatically by zone, weather, Eorzea time and more.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Zeffuro"
+            }
+          }
         }
       }
     },
