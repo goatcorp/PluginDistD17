@@ -338067,6 +338067,34 @@
               "Submitter": "Bronya-Rand"
             }
           }
+        },
+        "QuestTextRecolor": {
+          "BuiltCommit": "97e8fc6facb1afe45516c65b2b127dc224361de2",
+          "TimeBuilt": "2026-10-04T19:08:58.8118103+00:00",
+          "EffectiveVersion": "1.2.0.0",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "1.2.0.0": {
+              "TimeReleased": "2026-10-04T19:08:58.8118532+00:00",
+              "Changelog": "Initial official Dalamud testing release.\n\nFeatures:\n- Customize center-screen quest objective text color\n- Customize quest objective edge color\n- Adjust quest objective font size\n- Built-in appearance presets\n- In-game preview popup\n- Reset appearance to plugin defaults\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Penumbra.Api",
+                  "Version": "5.13.1"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "ScareCrowLegion"
+            }
+          }
         }
       }
     },
