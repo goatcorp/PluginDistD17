@@ -248524,9 +248524,9 @@
           }
         },
         "VanillaPlus": {
-          "BuiltCommit": "9456ee4564320614ead0e678eca89a9aa199488b",
-          "TimeBuilt": "2026-10-04T20:30:12.5431438+00:00",
-          "EffectiveVersion": "1.4.5.2",
+          "BuiltCommit": "12d876744456ca4239d4058d6a67a743cfec54f5",
+          "TimeBuilt": "2026-10-04T20:41:58.6329743+00:00",
+          "EffectiveVersion": "1.4.5.3",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.1.6": {
@@ -255292,6 +255292,46 @@
             "1.4.5.2": {
               "TimeReleased": "2026-10-04T20:30:12.5431962+00:00",
               "Changelog": "Better Emote Window - (Potentially) fixes crash when using newly acquired emotes.",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "78f5a74bc1266bac6e33a32c6f2694b95a2e31ea"
+                },
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit.Components",
+                  "Version": "4bc623758450a18dfa2710f5a2fd94eddf9bccc2"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "LuminaSupplemental.Excel",
+                  "Version": "5.1.5"
+                },
+                {
+                  "Key": "CSVFile",
+                  "Version": "3.2.1"
+                },
+                {
+                  "Key": "CsvHelper",
+                  "Version": "30.0.1"
+                },
+                {
+                  "Key": "Sylvan.Data.Csv",
+                  "Version": "1.4.3"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "MidoriKami"
+            },
+            "1.4.5.3": {
+              "TimeReleased": "2026-10-04T20:41:58.6330161+00:00",
+              "Changelog": "Better Emote Window - (More likely) fixes crash when using newly acquired emotes (thanks Hasel for digging deeper)",
               "UsedNeeds": [
                 {
                   "Key": "https://github.com/MidoriKami/KamiToolKit",
