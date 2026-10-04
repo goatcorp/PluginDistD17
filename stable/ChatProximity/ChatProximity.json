@@ -2,7 +2,7 @@
   "Author": "iv230",
   "Name": "Chat Proximity",
   "InternalName": "ChatProximity",
-  "AssemblyVersion": "1.4.3.0",
+  "AssemblyVersion": "1.5.0.0",
   "Description": "This plugin will change message in the chat within the \"say\" channel (or other ranged channels), darkening people when they're far from you.",
   "ApplicableVersion": "any",
   "Tags": [
@@ -18,5 +18,6 @@
   "Punchline": "Know how far they talk from.",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
-  "_Dip17Channel": "stable"
+  "_Dip17Channel": "stable",
+  "RepoUrl": "https://github.com/iv230/chat-proximity.git"
 }

@@ -56920,9 +56920,9 @@
           }
         },
         "ChatProximity": {
-          "BuiltCommit": "c6ea3676c562c0bbaba3c8d99235454e73509573",
-          "TimeBuilt": "2026-04-30T18:29:31.2273664+00:00",
-          "EffectiveVersion": "1.4.3.0",
+          "BuiltCommit": "971296b114edd53aaa7fdb7d7d4d5b5b025eef79",
+          "TimeBuilt": "2026-10-04T19:40:46.9178336+00:00",
+          "EffectiveVersion": "1.5.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -57065,6 +57065,22 @@
             "1.4.3.0": {
               "TimeReleased": "2026-04-30T18:29:31.2273682+00:00",
               "Changelog": "### 1.4.3\n- Updated to game v7.5 and SDK v15.0.0\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "iv230"
+            },
+            "1.5.0.0": {
+              "TimeReleased": "2026-10-04T19:40:46.9178772+00:00",
+              "Changelog": "### 1.5.0\n- Add configurable color curves for chat recoloring\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -255348,9 +255364,9 @@
           }
         },
         "StatusTimers": {
-          "BuiltCommit": "e26681cd25dd64fb293edf7f8a95052d009b6220",
-          "TimeBuilt": "2026-07-31T14:12:13.5748372+00:00",
-          "EffectiveVersion": "1.0.3.9",
+          "BuiltCommit": "61e7a2e6a8e6ae77a1f73dc1191247ee2b4fd1cb",
+          "TimeBuilt": "2026-10-04T19:41:04.2124192+00:00",
+          "EffectiveVersion": "1.0.4.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.1.2": {
@@ -255628,6 +255644,30 @@
                 {
                   "Key": "https://github.com/MidoriKami/KamiToolKit.Components",
                   "Version": "76ebbac0b3d91dace40ac16b5e132bee0793b49a"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Zeffuro"
+            },
+            "1.0.4.0": {
+              "TimeReleased": "2026-10-04T19:41:04.2124202+00:00",
+              "Changelog": "# 1.0.4.0\n- Added presets and profiles, with import/export.\n- Added an option to switch profiles when changing jobs or HUD layouts.\n- Added more progressbar styles and color options.\n- Added text alignment settings.\n- Reduced freezes when opening the config window or loading a profile.\n- Fixed the config window not always updating its size properly.\n- Fixed expired statuses sometimes staying visible.\n- Updated KTK.",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "07325f7b66dfa61e05bd5c82f60d4afb78ead1a7"
+                },
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit.Components",
+                  "Version": "4bc623758450a18dfa2710f5a2fd94eddf9bccc2"
                 },
                 {
                   "Key": "DalamudPackager",
@@ -365115,6 +365155,13 @@
       "Version": "3.0.21",
       "ReviewedBy": "nathanctech",
       "ReviewedAt": "2026-10-03T02:35:40.2188603Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/MidoriKami/KamiToolKit",
+      "Version": "07325f7b66dfa61e05bd5c82f60d4afb78ead1a7",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-10-04T19:41:04.290781Z"
     }
   ]
 }
