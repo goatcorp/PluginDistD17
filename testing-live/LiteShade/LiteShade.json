@@ -2,7 +2,7 @@
   "Author": "Zeffuro",
   "Name": "LiteShade",
   "InternalName": "LiteShade",
-  "AssemblyVersion": "1.0.0.0",
+  "AssemblyVersion": "1.0.1.0",
   "Description": "Tweak the game's colours, use GPose filters anywhere, and add optional depth of field or vignette.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Zeffuro/LiteShade",
