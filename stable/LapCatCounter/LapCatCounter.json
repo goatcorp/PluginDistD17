@@ -1,9 +1,9 @@
 {
-  "Author": "Tangy",
+  "Author": "PinkKitty",
   "Name": "Lap Cat Counter",
   "InternalName": "LapCatCounter",
-  "AssemblyVersion": "1.1.1.0",
-  "Description": "Tracks the laps you sit in, the LapCats who sit in yours, time spent together, streaks, personal stats, and 50 local achievements.",
+  "AssemblyVersion": "1.1.1.1",
+  "Description": "Tracks the laps you sit in, the LapCats who sit in yours, time spent together, streaks, personal stats, and 60 local achievements.",
   "ApplicableVersion": "any",
   "DalamudApiLevel": 15,
   "LoadRequiredState": 0,
@@ -14,5 +14,5 @@
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "stable",
-  "RepoUrl": "https://github.com/ImOv3rburdened/LapCatCounter.git"
+  "RepoUrl": "https://github.com/PinkKittyCatte/LapCatCounter.git"
 }

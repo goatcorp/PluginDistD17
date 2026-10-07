@@ -267608,9 +267608,9 @@
           }
         },
         "LapCatCounter": {
-          "BuiltCommit": "8ee4cb0d434730db165222f3e9a6f3904d9e9558",
-          "TimeBuilt": "2026-08-19T11:56:56.9604849+00:00",
-          "EffectiveVersion": "1.1.1.0",
+          "BuiltCommit": "0efa38a3278fb7b2a1f0154df33ac3a68dde64d6",
+          "TimeBuilt": "2026-10-07T00:55:17.5934169+00:00",
+          "EffectiveVersion": "1.1.1.1",
           "MinimumVersion": null,
           "Changelogs": {
             "1.1.0.0": {
@@ -267644,6 +267644,22 @@
               ],
               "Reviewer": "reiichi001",
               "Submitter": "ImOv3rburdened"
+            },
+            "1.1.1.1": {
+              "TimeReleased": "2026-10-07T00:55:17.5934187+00:00",
+              "Changelog": "v1.1.1.1. Added 10 more achievements",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "PinkKittyCatte"
             }
           }
         },
@@ -268760,9 +268776,9 @@
           }
         },
         "WachuMakeyMaking": {
-          "BuiltCommit": "0c12fe8138ed255fe8d1b48d5d1686a1bce824ed",
-          "TimeBuilt": "2026-10-06T02:33:37.5452842+00:00",
-          "EffectiveVersion": "2.0.1.0",
+          "BuiltCommit": "78ec253afaeddd914698eb4e719af1c0a5f3e4e1",
+          "TimeBuilt": "2026-10-07T00:55:08.3450884+00:00",
+          "EffectiveVersion": "2.0.2.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.10.0": {
@@ -268832,6 +268848,46 @@
             "2.0.1.0": {
               "TimeReleased": "2026-10-06T02:33:37.5453277+00:00",
               "Changelog": "The not-at-all awaited V2.0 is here! :D\r\n - Huge \u0022engine\u0022 refactor to get rid of all the spaghetti and improve performance\r\n - Fixed a lot of bugs around properly reflecting inventory changes when they\u0027re added/removed/change inventory\r\n - Recipes now reflect what you can make via intermediate steps, e.g. if you don\u0027t have iron ingots but you do have ore you can still make it\r\n - Results now show how many of what you\u0027re needing to use to make them on click\r\n - Results recipe open is now shift \u002B click and won\u0027t close the recipe if it\u0027s already open\r\n - A lot more I\u0027ve probably forgotten by now\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Caching.Abstractions",
+                  "Version": "10.0.12"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Caching.Memory",
+                  "Version": "10.0.12"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "10.0.12"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "10.0.12"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options",
+                  "Version": "10.0.12"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Primitives",
+                  "Version": "10.0.12"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "ArcaneAj"
+            },
+            "2.0.2.0": {
+              "TimeReleased": "2026-10-07T00:55:08.3451285+00:00",
+              "Changelog": "Fixed issues where universalis gets overwhelmed if you have other plugins that check prices and change your inventory rapidly.\r\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
