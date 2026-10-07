@@ -256124,9 +256124,9 @@
           }
         },
         "StatusTimers": {
-          "BuiltCommit": "61e7a2e6a8e6ae77a1f73dc1191247ee2b4fd1cb",
-          "TimeBuilt": "2026-10-04T19:41:04.2124192+00:00",
-          "EffectiveVersion": "1.0.4.0",
+          "BuiltCommit": "8b02eab69e2e96d78c653e09e8634a28f5a00bb3",
+          "TimeBuilt": "2026-10-07T07:26:33.5932728+00:00",
+          "EffectiveVersion": "1.0.4.1",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.1.2": {
@@ -256439,6 +256439,30 @@
                 }
               ],
               "Reviewer": "nathanctech",
+              "Submitter": "Zeffuro"
+            },
+            "1.0.4.1": {
+              "TimeReleased": "2026-10-07T07:26:33.5933144+00:00",
+              "Changelog": "# 1.0.4.1\n- Fixed an issue where DoTs would unintentionally stay on the screen.\n- Improve Enemy Letter handling.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "07325f7b66dfa61e05bd5c82f60d4afb78ead1a7"
+                },
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit.Components",
+                  "Version": "4bc623758450a18dfa2710f5a2fd94eddf9bccc2"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "reiichi001",
               "Submitter": "Zeffuro"
             }
           }
