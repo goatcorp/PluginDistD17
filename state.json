@@ -268776,9 +268776,9 @@
           }
         },
         "WachuMakeyMaking": {
-          "BuiltCommit": "78ec253afaeddd914698eb4e719af1c0a5f3e4e1",
-          "TimeBuilt": "2026-10-07T00:55:08.3450884+00:00",
-          "EffectiveVersion": "2.0.2.0",
+          "BuiltCommit": "f7d86a9c73f45467436fbd93fbb5c2fe857ed011",
+          "TimeBuilt": "2026-10-07T07:20:39.6649697+00:00",
+          "EffectiveVersion": "2.0.5.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.10.0": {
@@ -268923,6 +268923,46 @@
                 }
               ],
               "Reviewer": "nathanctech",
+              "Submitter": "ArcaneAj"
+            },
+            "2.0.5.0": {
+              "TimeReleased": "2026-10-07T07:20:39.6650111+00:00",
+              "Changelog": " - Added user agent so universalis knows who\u0027s making the requests\r\n - Fixed bug where universalis retries resulted in missing items and therefore uncaught exceptions.\r\n - Other small bookkeeping and perf improvements.\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Caching.Abstractions",
+                  "Version": "10.0.12"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Caching.Memory",
+                  "Version": "10.0.12"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "10.0.12"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "10.0.12"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options",
+                  "Version": "10.0.12"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Primitives",
+                  "Version": "10.0.12"
+                }
+              ],
+              "Reviewer": "reiichi001",
               "Submitter": "ArcaneAj"
             }
           }
