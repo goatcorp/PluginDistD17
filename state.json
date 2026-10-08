@@ -131023,9 +131023,9 @@
           }
         },
         "EurekaTrackerAutoPopper": {
-          "BuiltCommit": "3243b1346cd4cd6900b1028c04caf420c602c648",
-          "TimeBuilt": "2026-10-07T00:49:47.0118056+00:00",
-          "EffectiveVersion": "1.7.3.19",
+          "BuiltCommit": "b6c0c3b3698130abdd6b35bf64d77dd1c7821f14",
+          "TimeBuilt": "2026-10-08T02:14:33.9558245+00:00",
+          "EffectiveVersion": "1.7.3.20",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.0.4": {
@@ -132730,6 +132730,42 @@
             "1.7.3.19": {
               "TimeReleased": "2026-10-07T00:49:47.0118464+00:00",
               "Changelog": "- Prevent invisible carrot image\r\n  - This happens if Interface is set to No Mods in penumbra",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "KamiToolKit",
+                  "Version": "2.0.23"
+                },
+                {
+                  "Key": "Penumbra.Api",
+                  "Version": "5.15.1"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp.Drawing",
+                  "Version": "2.1.7"
+                },
+                {
+                  "Key": "SixLabors.Fonts",
+                  "Version": "2.1.3"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Infiziert90"
+            },
+            "1.7.3.20": {
+              "TimeReleased": "2026-10-08T02:14:33.9558559+00:00",
+              "Changelog": "- Remove inactive discord from occult list",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -258200,9 +258236,9 @@
           }
         },
         "Altoholic": {
-          "BuiltCommit": "b5da2e5af58a411f9c87eb6e8a4eae9d47cc95f2",
-          "TimeBuilt": "2026-10-06T02:35:07.9356022+00:00",
-          "EffectiveVersion": "1.14.0.0",
+          "BuiltCommit": "a682abcd4f227b07aa5cbba9c3acfd463019b7c8",
+          "TimeBuilt": "2026-10-08T02:14:50.9543453+00:00",
+          "EffectiveVersion": "1.14.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -260852,6 +260888,50 @@
             "1.14.0.0": {
               "TimeReleased": "2026-10-06T02:35:07.9356036+00:00",
               "Changelog": "- **General**: Various changes on \u0027All\u0027 lists for high numbers of characters. Allow resizing of modal/popup.\n- **Currencies**: Rework of the way currencies are handled for better usage and maintenance. Nothing changed visually.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "Dapper",
+                  "Version": "2.1.89"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "2.0.5"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite.Core",
+                  "Version": "10.0.12"
+                },
+                {
+                  "Key": "SQLitePCLRaw.bundle_e_sqlite3",
+                  "Version": "3.0.5"
+                },
+                {
+                  "Key": "SQLite",
+                  "Version": "3.53.4"
+                },
+                {
+                  "Key": "SQLitePCLRaw.config.e_sqlite3",
+                  "Version": "3.0.5"
+                },
+                {
+                  "Key": "SQLitePCLRaw.core",
+                  "Version": "3.0.5"
+                },
+                {
+                  "Key": "SQLitePCLRaw.provider.e_sqlite3",
+                  "Version": "3.0.5"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Sohtoren"
+            },
+            "1.14.1.0": {
+              "TimeReleased": "2026-10-08T02:14:50.9543471+00:00",
+              "Changelog": "- **Currencies**: Fix search following currencies rework\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -332405,9 +332485,9 @@
           }
         },
         "FFXIV.Venues.Directory": {
-          "BuiltCommit": "727caf5a6bde939740a9a343fd66e326b87b92ae",
-          "TimeBuilt": "2026-05-12T22:08:11.5378549+00:00",
-          "EffectiveVersion": "1.1.3.0",
+          "BuiltCommit": "aa769b2c9801eeb6d03f7051264da73d2a6055e8",
+          "TimeBuilt": "2026-10-08T02:15:03.2610804+00:00",
+          "EffectiveVersion": "1.2.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -332513,6 +332593,34 @@
                 {
                   "Key": "TimeZoneConverter",
                   "Version": "6.1.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "8.0.0"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "AEBus"
+            },
+            "1.2.0.0": {
+              "TimeReleased": "2026-10-08T02:15:03.2610826+00:00",
+              "Changelog": "This is a pretty big update. The directory now includes community events, Party Finder venue ads, notifications, and quite a few changes to how venues are displayed and filtered.\n\n- Added a new Events tab. It shows FFXIV community events posted on Partake for the next two weeks, with filters for time, age rating, tags and location. You can also mark events with \u0022I\u0027m going\u0022 if you plan to attend.\n- Party Finder venue ads collected by xivpf.com can now appear alongside events, as well as directly on the matching venue\u0027s page.\n- Venues don\u0027t necessarily have to be listed on FFXIV Venues anymore. If a venue has an event on Partake or is currently advertising in Party Finder, it can still appear in the directory.\n- Venue pages now show their upcoming events and any Party Finder ads that are currently active.\n- Added optional notifications for favorite venues and events. The plugin can notify you when a favorite venue opens, when an event at a favorite venue starts, or 15 minutes before an event you\u0027ve marked as going to. These notifications still work while the directory window is closed.\n- Added \u0022My data center\u0022 filtering. It follows the data center your current character is actually on, including after Data Center Travel. Location filters are remembered separately for each character.\n- If you\u0027re standing on the plot of a listed venue, or you\u0027re already inside it, the top bar now tells you which venue you\u0027re at and gives you a quick way to mark it as visited.\n- You can now hide venues you\u0027re not interested in. There\u0027s an undo option in the top bar, and hidden venues can always be found again with the Hidden filter.\n- Venue descriptions now keep much more of their original formatting, including headings, bold and italic text, lists, links and images. Animated GIF, WebP and APNG images are supported too. Images in descriptions are only loaded over HTTPS and can be turned off in settings.\n- Banners and images can optionally be enlarged by hovering over them. This is disabled by default.\n- Locations outside the housing districts can now be opened on the in-game map.\n- Settings have been moved into their own window and split into separate pages for appearance, images, events and notifications. There\u0027s also an About page with the changelog. You can use the directory\u0027s own theme or your Dalamud theme, change the UI size, and choose between a 12- or 24-hour clock.\n- Schedule handling has been reworked. The directory now tries to show each venue\u0027s next actual opening in your local timezone instead of just displaying the raw weekly schedule. Monthly schedules, breaks, one-off openings and active venue notices are supported, and openings more than a week away show the date as well.\n- Venue names and descriptions now show many more symbols and stylized letters; characters the game can\u0027t draw are replaced with plain letters instead of showing as boxes.\n- Added a clearer error message for cases where FFXIV Venues refuses requests from your network or region.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "8.0.0"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
                 },
                 {
                   "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
