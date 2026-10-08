@@ -338997,9 +338997,9 @@
           }
         },
         "ExpandedHotbars": {
-          "BuiltCommit": "459e51d1083b8d779b09e7800bd2cb5d9f6f0d59",
-          "TimeBuilt": "2026-10-03T01:28:39.9322994+00:00",
-          "EffectiveVersion": "1.0.0.3",
+          "BuiltCommit": "a88d5eea76925528d05437d16525b63dcaadc19f",
+          "TimeBuilt": "2026-10-08T15:43:13.208156+00:00",
+          "EffectiveVersion": "1.0.0.5",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.2": {
@@ -339081,6 +339081,78 @@
                 {
                   "Key": "https://github.com/MidoriKami/KamiToolKit",
                   "Version": "d44b6029325c03986b8da430ad2c7792eafd148d"
+                },
+                {
+                  "Key": "Microsoft.CodeAnalysis.CSharp",
+                  "Version": "4.8.0"
+                },
+                {
+                  "Key": "NETStandard.Library",
+                  "Version": "2.0.3"
+                },
+                {
+                  "Key": "Microsoft.CodeAnalysis.Analyzers",
+                  "Version": "3.3.4"
+                },
+                {
+                  "Key": "Microsoft.CodeAnalysis.Common",
+                  "Version": "4.8.0"
+                },
+                {
+                  "Key": "Microsoft.NETCore.Platforms",
+                  "Version": "1.1.0"
+                },
+                {
+                  "Key": "System.Buffers",
+                  "Version": "4.5.1"
+                },
+                {
+                  "Key": "System.Collections.Immutable",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "System.Memory",
+                  "Version": "4.5.5"
+                },
+                {
+                  "Key": "System.Numerics.Vectors",
+                  "Version": "4.4.0"
+                },
+                {
+                  "Key": "System.Reflection.Metadata",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "System.Runtime.CompilerServices.Unsafe",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "System.Text.Encoding.CodePages",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "System.Threading.Tasks.Extensions",
+                  "Version": "4.5.4"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "MidoriKami"
+            },
+            "1.0.0.5": {
+              "TimeReleased": "2026-10-08T15:43:13.2081772+00:00",
+              "Changelog": "Fix macros not loading correctly on reload/relog\r\n\r\nFix random crashes from corrupted tooltips\r\n\r\nStubbed out new features tab",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "74113e5c2df212d4d9aa9891e8096f2524b92059"
                 },
                 {
                   "Key": "Microsoft.CodeAnalysis.CSharp",
@@ -366415,6 +366487,13 @@
       "Version": "3.2.1.22",
       "ReviewedBy": "nathanctech",
       "ReviewedAt": "2026-10-06T02:34:52.0884606Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/MidoriKami/KamiToolKit",
+      "Version": "74113e5c2df212d4d9aa9891e8096f2524b92059",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-10-08T15:43:13.2578342Z"
     }
   ]
 }
