@@ -336045,9 +336045,9 @@
           }
         },
         "ARealmRepopulated": {
-          "BuiltCommit": "1a88571b902fe27095373ff8e5f62a012bbda6d7",
-          "TimeBuilt": "2026-10-01T16:32:50.3105311+00:00",
-          "EffectiveVersion": "0.1.9.0",
+          "BuiltCommit": "cc2391f00c9b6f8697e15c422744f03cc0b9c7ff",
+          "TimeBuilt": "2026-10-10T17:44:06.8046043+00:00",
+          "EffectiveVersion": "0.1.10.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.4.4": {
@@ -336837,6 +336837,166 @@
             "0.1.9.0": {
               "TimeReleased": "2026-10-01T16:32:50.3105322+00:00",
               "Changelog": "# 0.1.9.0 Changelog\r\n\r\nScenarios can now be given conditions, so they only bring their actors out at the right hour, in the right weather, or now and then by chance.\r\n\r\n## Functional Changes\r\n- Scenarios can now carry conditions - an Eorzean time window, one or more weathers, or a plain chance - and all of them have to hold before the scenario runs\r\n- A running scenario is never cut short; its conditions are only acted on between runs\r\n- The scenario editor and the scenario list both show whether a scenario\u0027s conditions currently hold\r\n- Actors can be given a voice, so emotes with a voice line are now heard. It is taken over from character files and picked characters that have one\r\n\r\n## Bugfixes\r\n- Changing the scale, height or hidden gear of a newly added actor no longer changes it for the other newly added actors, or for the next ones added in that session\r\n- \u0060/arrp reload\u0060 now reloads the scenarios in the current area instead of opening the configuration window\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "coverlet.collector",
+                  "Version": "8.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "2.0.2"
+                },
+                {
+                  "Key": "Microsoft.NET.Test.Sdk",
+                  "Version": "18.3.0"
+                },
+                {
+                  "Key": "Serilog",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "Shouldly",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "xunit.runner.visualstudio",
+                  "Version": "3.1.5"
+                },
+                {
+                  "Key": "xunit.v3",
+                  "Version": "3.2.2"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DiffEngine",
+                  "Version": "11.3.0"
+                },
+                {
+                  "Key": "EmptyFiles",
+                  "Version": "4.4.0"
+                },
+                {
+                  "Key": "Microsoft.ApplicationInsights",
+                  "Version": "2.23.0"
+                },
+                {
+                  "Key": "Microsoft.Bcl.AsyncInterfaces",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "Microsoft.CodeCoverage",
+                  "Version": "18.3.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Primitives",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Testing.Extensions.Telemetry",
+                  "Version": "1.9.1"
+                },
+                {
+                  "Key": "Microsoft.Testing.Extensions.TrxReport.Abstractions",
+                  "Version": "1.9.1"
+                },
+                {
+                  "Key": "Microsoft.Testing.Platform",
+                  "Version": "1.9.1"
+                },
+                {
+                  "Key": "Microsoft.Testing.Platform.MSBuild",
+                  "Version": "1.9.1"
+                },
+                {
+                  "Key": "Microsoft.TestPlatform.ObjectModel",
+                  "Version": "18.3.0"
+                },
+                {
+                  "Key": "Microsoft.TestPlatform.TestHost",
+                  "Version": "18.3.0"
+                },
+                {
+                  "Key": "Microsoft.Win32.Registry",
+                  "Version": "5.0.0"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.3"
+                },
+                {
+                  "Key": "System.CodeDom",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "System.Management",
+                  "Version": "6.0.1"
+                },
+                {
+                  "Key": "xunit.analyzers",
+                  "Version": "1.27.0"
+                },
+                {
+                  "Key": "xunit.v3.assert",
+                  "Version": "3.2.2"
+                },
+                {
+                  "Key": "xunit.v3.common",
+                  "Version": "3.2.2"
+                },
+                {
+                  "Key": "xunit.v3.core.mtp-v1",
+                  "Version": "3.2.2"
+                },
+                {
+                  "Key": "xunit.v3.extensibility.core",
+                  "Version": "3.2.2"
+                },
+                {
+                  "Key": "xunit.v3.mtp-v1",
+                  "Version": "3.2.2"
+                },
+                {
+                  "Key": "xunit.v3.runner.common",
+                  "Version": "3.2.2"
+                },
+                {
+                  "Key": "xunit.v3.runner.inproc.console",
+                  "Version": "3.2.2"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "NetStyx"
+            },
+            "0.1.10.0": {
+              "TimeReleased": "2026-10-10T17:44:06.8046261+00:00",
+              "Changelog": "## Functional Changes\n- Merged the \u0022Changelog\u0022 tab into a more generic \u0022Info\u0022, containing a short help page with a quick start and a reference to the wiki.\n- Added the ability for users to choose if an actor is supposed to be placed on a surface or take the player provided y location\n- Removed one of the two actor scaling sliders and migrated existing handling and values into one.\n\n## Technical Changes\n- Notes on how the game behaves moved out of the code comments into their own place on the repository.\n- Restructured the actor initialization to keep the parts involved better separated.\n- Removed tests that cost more effort to maintain than they were worth.\n\n## Bugfixes\n- Actors with location definitions which were not matching the games geometry were behaving differently on subsequent runs\n- The \u0022Height\u0022 property in an actors appearance now accurately changes its size.\n",
               "UsedNeeds": [
                 {
                   "Key": "coverlet.collector",
