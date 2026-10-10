@@ -111084,9 +111084,9 @@
           }
         },
         "Dalamud.DiscordBridge": {
-          "BuiltCommit": "ab36b22c2e56484f612a99c818a2d15f2ab29341",
-          "TimeBuilt": "2026-09-20T02:48:20.0767931+00:00",
-          "EffectiveVersion": "1.6.2.0",
+          "BuiltCommit": "0c7fe0cea244d0c695121c5efbf23e740f30fdf0",
+          "TimeBuilt": "2026-10-10T15:23:02.0184471+00:00",
+          "EffectiveVersion": "1.6.2.1",
           "MinimumVersion": null,
           "Changelogs": {
             "1.2.7.0": {
@@ -111903,6 +111903,74 @@
                 }
               ],
               "Reviewer": "nathanctech",
+              "Submitter": "reiichi001"
+            },
+            "1.6.2.1": {
+              "TimeReleased": "2026-10-10T15:23:02.0184486+00:00",
+              "Changelog": "Fixes a bug where the local player wasn\u0027t cached if the plugin was enabled after login (and without a relog or zone change). It\u0027s now cached on install/load if the player is logged in. Otherwise, it\u0027s cached on login.\n\nThis plugin is looking for a new owner/maintainer. Please reach out to Franz if you want to adopt it.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "Discord.Net",
+                  "Version": "3.20.1"
+                },
+                {
+                  "Key": "Discord.Net.Core",
+                  "Version": "3.20.1"
+                },
+                {
+                  "Key": "Discord.Net.Rest",
+                  "Version": "3.20.1"
+                },
+                {
+                  "Key": "Discord.Net.Webhook",
+                  "Version": "3.20.1"
+                },
+                {
+                  "Key": "Discord.Net.WebSocket",
+                  "Version": "3.20.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "NetStone",
+                  "Version": "1.4.1"
+                },
+                {
+                  "Key": "Discord.Net.Commands",
+                  "Version": "3.20.1"
+                },
+                {
+                  "Key": "Discord.Net.Dave",
+                  "Version": "3.20.1"
+                },
+                {
+                  "Key": "Discord.Net.Interactions",
+                  "Version": "3.20.1"
+                },
+                {
+                  "Key": "HtmlAgilityPack",
+                  "Version": "1.11.46"
+                },
+                {
+                  "Key": "Karashiiro.HtmlAgilityPack.CssSelectors.NetCoreFork",
+                  "Version": "0.0.2"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "10.0.0"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.4"
+                }
+              ],
+              "Reviewer": "nebel",
               "Submitter": "reiichi001"
             }
           }
@@ -268916,9 +268984,9 @@
           }
         },
         "WachuMakeyMaking": {
-          "BuiltCommit": "f7d86a9c73f45467436fbd93fbb5c2fe857ed011",
-          "TimeBuilt": "2026-10-07T07:20:39.6649697+00:00",
-          "EffectiveVersion": "2.0.5.0",
+          "BuiltCommit": "0eb3c4d557eee4fb5efeecf89ea4d92e7c47f636",
+          "TimeBuilt": "2026-10-10T15:22:52.6935029+00:00",
+          "EffectiveVersion": "2.0.6.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.10.0": {
@@ -269103,6 +269171,46 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "ArcaneAj"
+            },
+            "2.0.6.0": {
+              "TimeReleased": "2026-10-10T15:22:52.6935682+00:00",
+              "Changelog": " - Fixed checkbox bug that was overriding division selection with the value for the parent category\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Caching.Abstractions",
+                  "Version": "10.0.12"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Caching.Memory",
+                  "Version": "10.0.12"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "10.0.12"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "10.0.12"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options",
+                  "Version": "10.0.12"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Primitives",
+                  "Version": "10.0.12"
+                }
+              ],
+              "Reviewer": "nebel",
               "Submitter": "ArcaneAj"
             }
           }
