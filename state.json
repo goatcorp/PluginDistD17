@@ -249312,9 +249312,9 @@
           }
         },
         "VanillaPlus": {
-          "BuiltCommit": "d9017575b5ddcea5782cf10617eb356bef88800b",
-          "TimeBuilt": "2026-10-06T02:34:09.4431989+00:00",
-          "EffectiveVersion": "1.4.5.8",
+          "BuiltCommit": "afcfafe2f9d6e44f243d1099bceb7dfd62d548dc",
+          "TimeBuilt": "2026-10-12T09:35:03.8443837+00:00",
+          "EffectiveVersion": "1.4.5.9",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.1.6": {
@@ -256235,6 +256235,46 @@
                 }
               ],
               "Reviewer": "nathanctech",
+              "Submitter": "MidoriKami"
+            },
+            "1.4.5.9": {
+              "TimeReleased": "2026-10-12T09:35:03.8444254+00:00",
+              "Changelog": "New Feature - Aethernet Teleport - When clicking on aethernets on the main map, will now teleport you to the main aetheryte for that aethernet. (Stolen feature from Mappy, but made to work with the games original map).",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "6bbcd8a52c8da70e3bba5f95e83ba725de0ac625"
+                },
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit.Components",
+                  "Version": "4bc623758450a18dfa2710f5a2fd94eddf9bccc2"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "LuminaSupplemental.Excel",
+                  "Version": "5.1.5"
+                },
+                {
+                  "Key": "CSVFile",
+                  "Version": "3.2.1"
+                },
+                {
+                  "Key": "CsvHelper",
+                  "Version": "30.0.1"
+                },
+                {
+                  "Key": "Sylvan.Data.Csv",
+                  "Version": "1.4.3"
+                }
+              ],
+              "Reviewer": "nebel",
               "Submitter": "MidoriKami"
             }
           }
@@ -367096,6 +367136,13 @@
       "Version": "9325f9274a1a7707327d7943bbf55f4dc29dd303",
       "ReviewedBy": "nathanctech",
       "ReviewedAt": "2026-10-11T23:00:39.0059068Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/MidoriKami/KamiToolKit",
+      "Version": "6bbcd8a52c8da70e3bba5f95e83ba725de0ac625",
+      "ReviewedBy": "nebel",
+      "ReviewedAt": "2026-10-12T09:35:03.9270147Z"
     }
   ]
 }
