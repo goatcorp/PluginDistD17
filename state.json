@@ -271704,11 +271704,88 @@
     "testing-live": {
       "Plugins": {
         "XIVDeck.FFXIVPlugin": {
-          "BuiltCommit": "d1e264b14374401703546898cfdb01223b4b8011",
-          "TimeBuilt": "2023-07-14T22:50:22.977",
-          "EffectiveVersion": "0.3.14",
+          "BuiltCommit": "4a5fb26eba81ae97f0dbfd29ec34a47f48c9c7d1",
+          "TimeBuilt": "2026-10-14T04:35:05.4994603+00:00",
+          "EffectiveVersion": "0.5.0",
           "MinimumVersion": null,
-          "Changelogs": {}
+          "Changelogs": {
+            "0.5.0": {
+              "TimeReleased": "2026-10-14T04:35:05.4995081+00:00",
+              "Changelog": "It\u0027s been a while! There\u0027s way too much to put into a single changelog, since this was basically a *total* rewrite of XIVDeck. In no particular order:\r\n\r\n- A revamped communication system means communication between the Stream Deck and the game is *much* faster.\r\n    - Windows users get to use Named Pipes for communication, while Linux and macOS users get Unix Domain Sockets.\r\n    - The websocket server is still available (and will remain so), but is no longer preferred for use.\r\n- The Stream Deck Plugin now can render hotbar slots far more faithfully to the game.\r\n    - Sub-icons, costs, ***and cooldowns*** are now rendered on buttons that support them!\r\n    - The in-game hotbar watcher will now only track visible hotbar slots, improving overall performance.\r\n- The Stream Deck plugin has been ported to NodeJS, which should provide some performance boosts as well.\r\n- New plugin internals means certain features should be much easier to add in the future.\r\n- Linux is now finally officially supported via [OpenDeck](https://github.com/nekename/OpenDeck)!\r\n- A new process detection engine should detect FFXIV much more reliably now across all operating systems.\r\n- Multiboxing is now properly supported, with your Stream Deck buttons following your last-focused game client. \r\n  - The ability to \u0022pin\u0022 a button to use a specific game client will be coming in a future update.\r\n- **[DEPRECATION]** While never officially supported, control of XIVDeck over the network is no longer available. This may be readded in a later update, but for now it\u0027s just not possible.\r\n\r\nIt\u0027s very important to note that this is a pre-release change, and this new version of XIVDeck is considered beta. If you need things to work, I strongly suggest you wait for 0.5.1 or later. **Since the XIVDeck protocol has been remade, old clients will not be able to connect.** \r\n\r\n## Testing Notes\r\n\r\nIt\u0027s been a _really_ long time since I last had testing notes. So:\r\n\r\n* Test everything! Major rewrites mean that things have changed, and there\u0027s plenty of room for bugs.\r\n* Let me know if your buttons lose configuration or don\u0027t work quite right after the update. Please bring logs for your reports.\r\n* I\u0027m also particularly interested in performance, and if everything still feels better to navigate.\r\n\r\nFull release notes and downloads are available [on the plugin GitHub](https://github.com/KazWolfe/XIVDeck/releases/tag/v0.5.0).",
+              "UsedNeeds": [
+                {
+                  "Key": "Autofac",
+                  "Version": "9.3.1"
+                },
+                {
+                  "Key": "BCnEncoder.Net",
+                  "Version": "2.3.0"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "2.0.5"
+                },
+                {
+                  "Key": "JetBrains.Annotations",
+                  "Version": "2026.2.0"
+                },
+                {
+                  "Key": "Nerdbank.MessagePack",
+                  "Version": "1.2.4"
+                },
+                {
+                  "Key": "StbImageWriteSharp",
+                  "Version": "1.16.7"
+                },
+                {
+                  "Key": "StreamJsonRpc",
+                  "Version": "2.25.29"
+                },
+                {
+                  "Key": "CommunityToolkit.HighPerformance",
+                  "Version": "8.4.0"
+                },
+                {
+                  "Key": "MessagePack",
+                  "Version": "2.5.302"
+                },
+                {
+                  "Key": "MessagePack.Annotations",
+                  "Version": "2.5.302"
+                },
+                {
+                  "Key": "Microsoft.NET.StringTools",
+                  "Version": "18.4.0"
+                },
+                {
+                  "Key": "Microsoft.VisualStudio.Threading.Only",
+                  "Version": "17.14.15"
+                },
+                {
+                  "Key": "Microsoft.VisualStudio.Validation",
+                  "Version": "17.13.22"
+                },
+                {
+                  "Key": "Nerdbank.Streams",
+                  "Version": "2.13.16"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.3"
+                },
+                {
+                  "Key": "PolyType",
+                  "Version": "1.3.1"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "KazWolfe"
+            }
+          }
         },
         "PartyListLayout": {
           "BuiltCommit": "3c0343940f4d07bbc379f446e8e4cee794da5aa4",
@@ -368282,6 +368359,90 @@
       "Version": "7.0.1",
       "ReviewedBy": "reiichi001",
       "ReviewedAt": "2026-10-14T04:20:12.6764187Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Autofac",
+      "Version": "9.3.1",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-10-14T04:35:05.5855244Z"
+    },
+    {
+      "Type": 1,
+      "Key": "JetBrains.Annotations",
+      "Version": "2026.2.0",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-10-14T04:35:05.5855559Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Nerdbank.MessagePack",
+      "Version": "1.2.4",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-10-14T04:35:05.585556Z"
+    },
+    {
+      "Type": 1,
+      "Key": "StbImageWriteSharp",
+      "Version": "1.16.7",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-10-14T04:35:05.5855563Z"
+    },
+    {
+      "Type": 1,
+      "Key": "StreamJsonRpc",
+      "Version": "2.25.29",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-10-14T04:35:05.5855565Z"
+    },
+    {
+      "Type": 1,
+      "Key": "MessagePack",
+      "Version": "2.5.302",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-10-14T04:35:05.5855569Z"
+    },
+    {
+      "Type": 1,
+      "Key": "MessagePack.Annotations",
+      "Version": "2.5.302",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-10-14T04:35:05.5855572Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.NET.StringTools",
+      "Version": "18.4.0",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-10-14T04:35:05.5855573Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.VisualStudio.Threading.Only",
+      "Version": "17.14.15",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-10-14T04:35:05.5855573Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.VisualStudio.Validation",
+      "Version": "17.13.22",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-10-14T04:35:05.5856108Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Nerdbank.Streams",
+      "Version": "2.13.16",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-10-14T04:35:05.5856111Z"
+    },
+    {
+      "Type": 1,
+      "Key": "PolyType",
+      "Version": "1.3.1",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-10-14T04:35:05.5856114Z"
     }
   ]
 }
