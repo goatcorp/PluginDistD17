@@ -221080,9 +221080,9 @@
           }
         },
         "QuestTracker": {
-          "BuiltCommit": "ab72d928589aaba1dc9635cead3d741fa42da4ab",
-          "TimeBuilt": "2026-10-14T04:28:39.3639124+00:00",
-          "EffectiveVersion": "1.2.3.0",
+          "BuiltCommit": "c314edfba41b333fe19531aed2482f7b860b490c",
+          "TimeBuilt": "2026-10-14T22:13:34.4763565+00:00",
+          "EffectiveVersion": "1.2.3.1",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.1.1": {
@@ -221892,6 +221892,134 @@
             "1.2.3.0": {
               "TimeReleased": "2026-10-14T04:28:39.3639451+00:00",
               "Changelog": "- Improved window performance\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Hosting",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Binder",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.CommandLine",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.EnvironmentVariables",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.FileExtensions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Json",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.UserSecrets",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Diagnostics",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Diagnostics.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileProviders.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileProviders.Physical",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileSystemGlobbing",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Hosting.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Configuration",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Console",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Debug",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.EventLog",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.EventSource",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options.ConfigurationExtensions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Primitives",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "System.Diagnostics.EventLog",
+                  "Version": "10.0.1"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "keifufu"
+            },
+            "1.2.3.1": {
+              "TimeReleased": "2026-10-14T22:13:34.476377+00:00",
+              "Changelog": "nofranz\nsorry, copy-pasted this around my plugins yesterday without noticing",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -226328,9 +226456,9 @@
           }
         },
         "JobTitles": {
-          "BuiltCommit": "7a091458eb2d4bd27ce938cbd2dad0eba838dcde",
-          "TimeBuilt": "2026-10-14T04:29:13.5208037+00:00",
-          "EffectiveVersion": "0.2.0.9",
+          "BuiltCommit": "1e5213494b273b409e3682ee3428663aba2f5ef8",
+          "TimeBuilt": "2026-10-14T22:13:53.0158938+00:00",
+          "EffectiveVersion": "0.2.0.10",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.0.0": {
@@ -227648,6 +227776,134 @@
             "0.2.0.9": {
               "TimeReleased": "2026-10-14T04:29:13.5208055+00:00",
               "Changelog": "Decided to clean these plugins up before Evercold, most of this is just refactoring, with a few exceptions:\nQuestTracker doesn\u0027t nuke the framerate with the window open anymore.\nFacade won\u0027t die on staging due to accessing stuff off the main thread.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Hosting",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Binder",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.CommandLine",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.EnvironmentVariables",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.FileExtensions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Json",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.UserSecrets",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Diagnostics",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Diagnostics.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileProviders.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileProviders.Physical",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileSystemGlobbing",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Hosting.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Configuration",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Console",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Debug",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.EventLog",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.EventSource",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options.ConfigurationExtensions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Primitives",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "System.Diagnostics.EventLog",
+                  "Version": "10.0.1"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "keifufu"
+            },
+            "0.2.0.10": {
+              "TimeReleased": "2026-10-14T22:13:53.0158957+00:00",
+              "Changelog": "nofranz\nsorry, copy-pasted this around my plugins yesterday without noticing",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -262784,9 +263040,9 @@
           }
         },
         "LootView": {
-          "BuiltCommit": "b967dfb4a2bf34d6b7b634925403dc235579abaf",
-          "TimeBuilt": "2026-10-02T22:23:48.7155735+00:00",
-          "EffectiveVersion": "1.6.1.0",
+          "BuiltCommit": "483f485dbb52aa783adee00597f7c42d76bbcd24",
+          "TimeBuilt": "2026-10-14T22:14:00.6209151+00:00",
+          "EffectiveVersion": "1.6.2.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.3.1.0": {
@@ -262912,6 +263168,22 @@
             "1.6.1.0": {
               "TimeReleased": "2026-10-02T22:23:48.7156216+00:00",
               "Changelog": "# Version 1.6.1\n\n- New currency drawer beside the loot window with every currency you hold (gil, tomestones, scrips, seals, MGP, PvP marks, tribal currencies and more), each cap and the weekly tomestone limit. Gains flash as they come in. Open it with the coin button; choose left or right in Settings \u2192 General.\n- A large banner at the top of the screen when someone commends you. Several commendations are counted on one banner, and it waits for the loading screen to finish. Resize, preview or turn it off in Settings \u2192 Effects.\n- Loot window scale from 60% to 140% in Settings \u2192 Appearance; the window can now be made much smaller.\n- Need, Greed and Pass buttons now sit right under the item name, so incoming rolls no longer push them away.\n- Locking the window from Settings \u2192 Appearance now takes effect straight away.\n- With \u0022Hide the game\u0027s Need/Greed window\u0022 on, closing LootView\u0027s roll window now brings the game\u0027s window back, so you can always still roll.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "GitHixy"
+            },
+            "1.6.2.0": {
+              "TimeReleased": "2026-10-14T22:14:00.6209165+00:00",
+              "Changelog": "# Version 1.6.2\n\n- In duties with a weekly loot limit, the items that count toward it are tagged in the roll panel. The first one you win, on Need or Greed alike, is your only one until the reset.\n- If you\u0027ve already rolled on another weekly item, a warning above the buttons tells you which. Whichever you win first is the one you keep.\n- In alliance raids the roll panel shows a counter (e.g. 7/24 decided) instead of a row for every player. Resolved items list only the Need and Greed rolls, with everyone else summed up in one line.\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -265260,9 +265532,9 @@
           }
         },
         "Facade": {
-          "BuiltCommit": "38e9cac6814039e9df148169131e1004716a488c",
-          "TimeBuilt": "2026-10-14T04:29:03.6785407+00:00",
-          "EffectiveVersion": "1.0.0.3",
+          "BuiltCommit": "07291dd607d29cdebfcfba3ee84bccc48fe9fed2",
+          "TimeBuilt": "2026-10-14T22:13:43.254948+00:00",
+          "EffectiveVersion": "1.0.0.4",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -265652,6 +265924,134 @@
             "1.0.0.3": {
               "TimeReleased": "2026-10-14T04:29:03.6785427+00:00",
               "Changelog": "Decided to clean these plugins up before Evercold, most of this is just refactoring, with a few exceptions:\nQuestTracker doesn\u0027t nuke the framerate with the window open anymore.\nFacade won\u0027t die on staging due to accessing stuff off the main thread.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Hosting",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Binder",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.CommandLine",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.EnvironmentVariables",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.FileExtensions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Json",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.UserSecrets",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Diagnostics",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Diagnostics.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileProviders.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileProviders.Physical",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileSystemGlobbing",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Hosting.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Configuration",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Console",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Debug",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.EventLog",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.EventSource",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options.ConfigurationExtensions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Primitives",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "System.Diagnostics.EventLog",
+                  "Version": "10.0.1"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "keifufu"
+            },
+            "1.0.0.4": {
+              "TimeReleased": "2026-10-14T22:13:43.2549497+00:00",
+              "Changelog": "nofranz\nsorry, copy-pasted this around my plugins yesterday without noticing",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -331658,9 +332058,9 @@
           }
         },
         "LootView": {
-          "BuiltCommit": "b967dfb4a2bf34d6b7b634925403dc235579abaf",
-          "TimeBuilt": "2026-10-02T22:23:59.1875014+00:00",
-          "EffectiveVersion": "1.6.1.0",
+          "BuiltCommit": "483f485dbb52aa783adee00597f7c42d76bbcd24",
+          "TimeBuilt": "2026-10-14T22:14:09.7164464+00:00",
+          "EffectiveVersion": "1.6.2.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.2.5.0": {
@@ -331822,6 +332222,22 @@
             "1.6.1.0": {
               "TimeReleased": "2026-10-02T22:23:59.1875027+00:00",
               "Changelog": "# Version 1.6.1\n\n- New currency drawer beside the loot window with every currency you hold (gil, tomestones, scrips, seals, MGP, PvP marks, tribal currencies and more), each cap and the weekly tomestone limit. Gains flash as they come in. Open it with the coin button; choose left or right in Settings \u2192 General.\n- A large banner at the top of the screen when someone commends you. Several commendations are counted on one banner, and it waits for the loading screen to finish. Resize, preview or turn it off in Settings \u2192 Effects.\n- Loot window scale from 60% to 140% in Settings \u2192 Appearance; the window can now be made much smaller.\n- Need, Greed and Pass buttons now sit right under the item name, so incoming rolls no longer push them away.\n- Locking the window from Settings \u2192 Appearance now takes effect straight away.\n- With \u0022Hide the game\u0027s Need/Greed window\u0022 on, closing LootView\u0027s roll window now brings the game\u0027s window back, so you can always still roll.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "GitHixy"
+            },
+            "1.6.2.0": {
+              "TimeReleased": "2026-10-14T22:14:09.7164482+00:00",
+              "Changelog": "# Version 1.6.2\n\n- In duties with a weekly loot limit, the items that count toward it are tagged in the roll panel. The first one you win, on Need or Greed alike, is your only one until the reset.\n- If you\u0027ve already rolled on another weekly item, a warning above the buttons tells you which. Whichever you win first is the one you keep.\n- In alliance raids the roll panel shows a counter (e.g. 7/24 decided) instead of a row for every player. Resolved items list only the Need and Greed rolls, with everyone else summed up in one line.\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
