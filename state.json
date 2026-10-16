@@ -3777,9 +3777,9 @@
           }
         },
         "EmoteLog": {
-          "BuiltCommit": "4352901e6b647f265814c4a03e67af105de11f46",
-          "TimeBuilt": "2026-04-30T20:55:13.3415465+00:00",
-          "EffectiveVersion": "1.1.7.0",
+          "BuiltCommit": "c2478659892b20fe33e647233c242d61cb05c8f2",
+          "TimeBuilt": "2026-10-16T23:23:52.548823+00:00",
+          "EffectiveVersion": "1.1.7.1",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -3919,6 +3919,22 @@
             "1.1.7.0": {
               "TimeReleased": "2026-04-30T20:55:13.3415891+00:00",
               "Changelog": "- 7.5 and API15 update\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "RokasKil"
+            },
+            "1.1.7.1": {
+              "TimeReleased": "2026-10-16T23:23:52.5488651+00:00",
+              "Changelog": " - Added my cat\u0027s ko-fi link\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -74393,9 +74409,9 @@
           }
         },
         "Visibility": {
-          "BuiltCommit": "d883fae45a2bda005b0001b34acda2b203c3d98f",
-          "TimeBuilt": "2026-04-29T22:32:40.7441208+00:00",
-          "EffectiveVersion": "1.1.9.5",
+          "BuiltCommit": "0ca77cb99a08bc448f55b1cc5d7896f7416a4b8b",
+          "TimeBuilt": "2026-10-16T23:24:37.0891219+00:00",
+          "EffectiveVersion": "1.1.9.6",
           "MinimumVersion": null,
           "Changelogs": {
             "1.1.3.6": {
@@ -74614,6 +74630,22 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "SheepGoMeh"
+            },
+            "1.1.9.6": {
+              "TimeReleased": "2026-10-16T23:24:37.0891229+00:00",
+              "Changelog": "- Improve performance",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "SheepGoMeh"
             }
           }
@@ -120130,9 +120162,9 @@
           }
         },
         "TitleEdit": {
-          "BuiltCommit": "7bf92cfefbcd608ee1eba3b76d472e7c0fbb1d49",
-          "TimeBuilt": "2026-05-01T10:35:26.2543651+00:00",
-          "EffectiveVersion": "3.0.6.9",
+          "BuiltCommit": "5b22360071ef078dc1c9a051fd32a326123d08cb",
+          "TimeBuilt": "2026-10-16T23:24:46.6187821+00:00",
+          "EffectiveVersion": "3.0.6.10",
           "MinimumVersion": null,
           "Changelogs": {
             "2.3.0.0": {
@@ -121008,6 +121040,22 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "RokasKil"
+            },
+            "3.0.6.10": {
+              "TimeReleased": "2026-10-16T23:24:46.6187837+00:00",
+              "Changelog": " - Maintenance update\n - Added my cat\u0027s ko-fi link\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "RokasKil"
             }
           }
@@ -250436,9 +250484,9 @@
           }
         },
         "VanillaPlus": {
-          "BuiltCommit": "afcfafe2f9d6e44f243d1099bceb7dfd62d548dc",
-          "TimeBuilt": "2026-10-12T09:35:03.8443837+00:00",
-          "EffectiveVersion": "1.4.5.9",
+          "BuiltCommit": "b965443eec786395391b1b4a7018b84d82e720a0",
+          "TimeBuilt": "2026-10-16T23:24:11.6064241+00:00",
+          "EffectiveVersion": "1.4.5.10",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.1.6": {
@@ -257400,6 +257448,46 @@
               ],
               "Reviewer": "nebel",
               "Submitter": "MidoriKami"
+            },
+            "1.4.5.10": {
+              "TimeReleased": "2026-10-16T23:24:11.6064257+00:00",
+              "Changelog": "New Feature - Disable Aethernet Centering - Prevents the map from opening centered on the player when using aethernets.",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "1eaccb5c6d6fcc697f7e1b98b5528580f5edd201"
+                },
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit.Components",
+                  "Version": "4bc623758450a18dfa2710f5a2fd94eddf9bccc2"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "LuminaSupplemental.Excel",
+                  "Version": "5.1.5"
+                },
+                {
+                  "Key": "CSVFile",
+                  "Version": "3.2.1"
+                },
+                {
+                  "Key": "CsvHelper",
+                  "Version": "30.0.1"
+                },
+                {
+                  "Key": "Sylvan.Data.Csv",
+                  "Version": "1.4.3"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "MidoriKami"
             }
           }
         },
@@ -259552,9 +259640,9 @@
           }
         },
         "Altoholic": {
-          "BuiltCommit": "c7a1aa55440436116a45c40efd3f3993bc23fd69",
-          "TimeBuilt": "2026-10-14T04:29:38.5942976+00:00",
-          "EffectiveVersion": "1.14.4.0",
+          "BuiltCommit": "9793abe0e580e2c9d8d5615e4533f66f9ec2411a",
+          "TimeBuilt": "2026-10-16T23:25:03.085933+00:00",
+          "EffectiveVersion": "1.14.5.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -262336,6 +262424,50 @@
             "1.14.4.0": {
               "TimeReleased": "2026-10-14T04:29:38.5942997+00:00",
               "Changelog": "- **Retainers**: Fix retainer inventory columns number to avoid assertion error\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "Dapper",
+                  "Version": "2.1.89"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "2.0.5"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite.Core",
+                  "Version": "10.0.12"
+                },
+                {
+                  "Key": "SQLitePCLRaw.bundle_e_sqlite3",
+                  "Version": "3.0.5"
+                },
+                {
+                  "Key": "SQLite",
+                  "Version": "3.53.4"
+                },
+                {
+                  "Key": "SQLitePCLRaw.config.e_sqlite3",
+                  "Version": "3.0.5"
+                },
+                {
+                  "Key": "SQLitePCLRaw.core",
+                  "Version": "3.0.5"
+                },
+                {
+                  "Key": "SQLitePCLRaw.provider.e_sqlite3",
+                  "Version": "3.0.5"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Sohtoren"
+            },
+            "1.14.5.0": {
+              "TimeReleased": "2026-10-16T23:25:03.0859349+00:00",
+              "Changelog": "- **Progress**: Correct tabletop all saints price\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -267008,9 +267140,9 @@
           }
         },
         "SteamRecordingEnhanced": {
-          "BuiltCommit": "25a6ef2b2116a0578c9e38a6c30db998c09f057a",
-          "TimeBuilt": "2026-07-30T20:48:56.3004757+00:00",
-          "EffectiveVersion": "1.0.0.3",
+          "BuiltCommit": "051d26aec7959380ac64f5f228a124eb081f921e",
+          "TimeBuilt": "2026-10-16T23:24:28.4627748+00:00",
+          "EffectiveVersion": "1.0.0.4",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.2.8": {
@@ -267080,6 +267212,22 @@
             "1.0.0.3": {
               "TimeReleased": "2026-07-30T20:48:56.3004767+00:00",
               "Changelog": "- Update for 7.55\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "RokasKil"
+            },
+            "1.0.0.4": {
+              "TimeReleased": "2026-10-16T23:24:28.4627763+00:00",
+              "Changelog": " - Added my cat\u0027s ko-fi link\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -271956,14 +272104,30 @@
           }
         },
         "MountTilt": {
-          "BuiltCommit": "8630e5a186264778ca7b0c1314c311fcc4079d6b",
-          "TimeBuilt": "2026-09-24T22:15:58.8094742+00:00",
-          "EffectiveVersion": "1.0.0.0",
+          "BuiltCommit": "d24d79264011cd67d112ccc00c231c808fb0d499",
+          "TimeBuilt": "2026-10-16T23:24:20.0060662+00:00",
+          "EffectiveVersion": "1.0.0.1",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
               "TimeReleased": "2026-09-24T22:15:58.8094775+00:00",
               "Changelog": "Initial plugin stable release!\nMount tilt is a plugin that allows you to apply a multiplier to your mount tilt angle and speed when in motion so you can restore the pre nerf tilt and go even further beyond!\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "RokasKil"
+            },
+            "1.0.0.1": {
+              "TimeReleased": "2026-10-16T23:24:20.0060671+00:00",
+              "Changelog": " - Added my cat\u0027s ko-fi link\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -337866,9 +338030,9 @@
           }
         },
         "ARealmRepopulated": {
-          "BuiltCommit": "cc2391f00c9b6f8697e15c422744f03cc0b9c7ff",
-          "TimeBuilt": "2026-10-10T17:44:06.8046043+00:00",
-          "EffectiveVersion": "0.1.10.0",
+          "BuiltCommit": "2e9f703908fcf2fa3496e5ba28a61403a6e2461e",
+          "TimeBuilt": "2026-10-16T23:25:24.088609+00:00",
+          "EffectiveVersion": "0.1.11.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.4.4": {
@@ -338818,6 +338982,166 @@
             "0.1.10.0": {
               "TimeReleased": "2026-10-10T17:44:06.8046261+00:00",
               "Changelog": "## Functional Changes\n- Merged the \u0022Changelog\u0022 tab into a more generic \u0022Info\u0022, containing a short help page with a quick start and a reference to the wiki.\n- Added the ability for users to choose if an actor is supposed to be placed on a surface or take the player provided y location\n- Removed one of the two actor scaling sliders and migrated existing handling and values into one.\n\n## Technical Changes\n- Notes on how the game behaves moved out of the code comments into their own place on the repository.\n- Restructured the actor initialization to keep the parts involved better separated.\n- Removed tests that cost more effort to maintain than they were worth.\n\n## Bugfixes\n- Actors with location definitions which were not matching the games geometry were behaving differently on subsequent runs\n- The \u0022Height\u0022 property in an actors appearance now accurately changes its size.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "coverlet.collector",
+                  "Version": "8.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "2.0.2"
+                },
+                {
+                  "Key": "Microsoft.NET.Test.Sdk",
+                  "Version": "18.3.0"
+                },
+                {
+                  "Key": "Serilog",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "Shouldly",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "xunit.runner.visualstudio",
+                  "Version": "3.1.5"
+                },
+                {
+                  "Key": "xunit.v3",
+                  "Version": "3.2.2"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DiffEngine",
+                  "Version": "11.3.0"
+                },
+                {
+                  "Key": "EmptyFiles",
+                  "Version": "4.4.0"
+                },
+                {
+                  "Key": "Microsoft.ApplicationInsights",
+                  "Version": "2.23.0"
+                },
+                {
+                  "Key": "Microsoft.Bcl.AsyncInterfaces",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "Microsoft.CodeCoverage",
+                  "Version": "18.3.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Primitives",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Testing.Extensions.Telemetry",
+                  "Version": "1.9.1"
+                },
+                {
+                  "Key": "Microsoft.Testing.Extensions.TrxReport.Abstractions",
+                  "Version": "1.9.1"
+                },
+                {
+                  "Key": "Microsoft.Testing.Platform",
+                  "Version": "1.9.1"
+                },
+                {
+                  "Key": "Microsoft.Testing.Platform.MSBuild",
+                  "Version": "1.9.1"
+                },
+                {
+                  "Key": "Microsoft.TestPlatform.ObjectModel",
+                  "Version": "18.3.0"
+                },
+                {
+                  "Key": "Microsoft.TestPlatform.TestHost",
+                  "Version": "18.3.0"
+                },
+                {
+                  "Key": "Microsoft.Win32.Registry",
+                  "Version": "5.0.0"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.3"
+                },
+                {
+                  "Key": "System.CodeDom",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "System.Management",
+                  "Version": "6.0.1"
+                },
+                {
+                  "Key": "xunit.analyzers",
+                  "Version": "1.27.0"
+                },
+                {
+                  "Key": "xunit.v3.assert",
+                  "Version": "3.2.2"
+                },
+                {
+                  "Key": "xunit.v3.common",
+                  "Version": "3.2.2"
+                },
+                {
+                  "Key": "xunit.v3.core.mtp-v1",
+                  "Version": "3.2.2"
+                },
+                {
+                  "Key": "xunit.v3.extensibility.core",
+                  "Version": "3.2.2"
+                },
+                {
+                  "Key": "xunit.v3.mtp-v1",
+                  "Version": "3.2.2"
+                },
+                {
+                  "Key": "xunit.v3.runner.common",
+                  "Version": "3.2.2"
+                },
+                {
+                  "Key": "xunit.v3.runner.inproc.console",
+                  "Version": "3.2.2"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "NetStyx"
+            },
+            "0.1.11.0": {
+              "TimeReleased": "2026-10-16T23:25:24.0886108+00:00",
+              "Changelog": "## Functional Changes\n- Scenarios can now be sorted into groups. The scenario list shows each group as a folder. A \u0027/\u0027 in the name nests one group in another.\n\n## Technical Changes\n- Chairs and beds are now recognized through the shared game definitions instead of a copy of its own, so seating holds up better across game updates.\n- Restructured how actors step through their actions to make each step easier to follow.\n\n## Bugfixes\n- Actors that had actions which prompted them to wait indefinitly now fade out once the conditions of their scenario are no longer met. Unstable conditions like \u0022Chance\u0022 are not considered for this.\n- An actor whose actions are all turned off now stays put, the same as an actor without any actions. The other actors in its scenario wait for it at their first \u0022Sync\u0022 action, instead of the scenario starting over right away.\n- An actor reaching a path without any points now skips it and carries on with its next action.\n- An actor of the \u0022Sea Wolf\u0022 tribe now gets its randomly generated name from the correct pool and no longer a male \u0022Highlander\u0022 name.\n",
               "UsedNeeds": [
                 {
                   "Key": "coverlet.collector",
@@ -341618,9 +341942,9 @@
           }
         },
         "QuestTextRecolor": {
-          "BuiltCommit": "97a79f0a7e2d4b11880b88b3e31896ee1ed3cb4b",
-          "TimeBuilt": "2026-10-05T02:29:24.4150188+00:00",
-          "EffectiveVersion": "1.3.1.0",
+          "BuiltCommit": "b3aa4f34360938eae19c49ca0ca57152cc4ce64e",
+          "TimeBuilt": "2026-10-16T23:25:12.8882451+00:00",
+          "EffectiveVersion": "1.4.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.2.0.0": {
@@ -341646,6 +341970,26 @@
             "1.3.1.0": {
               "TimeReleased": "2026-10-05T02:29:24.4150199+00:00",
               "Changelog": "Quest Text Recolor v1.3.1\n\nChanges:\n- Added popup position and scale customization\n- Added optional Penumbra-based quest popup textures\n- Added texture previews in the configuration window\n- Added configuration value validation and clamping\n- Centralized plugin default values and reset behavior\n- About page version now updates dynamically\n- Improved configuration UI consistency\n- Fixed popup texture seam regression\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Penumbra.Api",
+                  "Version": "5.13.1"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "ScareCrowLegion"
+            },
+            "1.4.0.0": {
+              "TimeReleased": "2026-10-16T23:25:12.8882463+00:00",
+              "Changelog": "Quest Text Recolor v1.4.0\n\nChanges:\n- Redesigned the settings window with a new sidebar and cleaner page layout\n- Reorganized the settings pages to make customization options easier to find\n- Improved the test popup and added Short, Standard, and Long preview options\n- Improved popup restoration when the plugin is disabled or unloaded\n- Improved handling when the quest popup is recreated during zoning, loading, or logging back in\n- Improved Penumbra texture handling, cleanup, and reload behavior\n- Added configuration migration support so existing v1.3.1 settings carry over into v1.4\n- Added additional validation for popup settings and color values\n- Reduced unnecessary popup updates for better performance\n- Added additional safety checks and general code cleanup\n- Updated the plugin icon\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -368859,6 +369203,13 @@
       "Version": "1.3.1",
       "ReviewedBy": "nathanctech",
       "ReviewedAt": "2026-10-14T04:35:05.5856114Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/MidoriKami/KamiToolKit",
+      "Version": "1eaccb5c6d6fcc697f7e1b98b5528580f5edd201",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-10-16T23:24:11.6878527Z"
     }
   ]
 }
