@@ -1,0 +1,24 @@
+{
+  "Author": "YuuNoce",
+  "Name": "ChestDiff",
+  "InternalName": "ChestDiff",
+  "AssemblyVersion": "0.1.0.0",
+  "Description": "ChestDiff reads the visible Free Company chest history, filters rows after a configured date/time, and summarizes deposits and withdrawals by item and player. It only processes rows available from the in-game Free Company Chest Log.\n\nCommands:\n/chestdiff - Open ChestDiff.\n/chestdiff export - Export a summary CSV.\n/chestdiff dump - Export diagnostic raw chest log text to CSV.\n/chestdiff help - Show command help.",
+  "ApplicableVersion": "any",
+  "Tags": [
+    "inventory",
+    "freecompany",
+    "csv"
+  ],
+  "DalamudApiLevel": 15,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "IconUrl": "https://raw.githubusercontent.com/YuuNoce/ChestDiff/main/ChestDiff/Images/ChestDiff_icon.png",
+  "Punchline": "Summarize Free Company chest history by item and player.",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "testing-live",
+  "RepoUrl": "https://github.com/YuuNoce/ChestDiff.git"
+}
