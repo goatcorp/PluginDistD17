@@ -135663,9 +135663,9 @@
           }
         },
         "SimpleTweaksPlugin": {
-          "BuiltCommit": "146e247d1785110ed4d9caee275ea43ecf414669",
-          "TimeBuilt": "2026-06-16T13:39:03.3269053+00:00",
-          "EffectiveVersion": "1.15.0.7",
+          "BuiltCommit": "c94a9ebc1869cd221964aedaf01f6faaebe736bc",
+          "TimeBuilt": "2026-10-17T16:50:28.6855177+00:00",
+          "EffectiveVersion": "1.15.0.8",
           "MinimumVersion": null,
           "Changelogs": {
             "1.10.3.1": {
@@ -136431,6 +136431,26 @@
             "1.15.0.7": {
               "TimeReleased": "2026-06-16T13:39:03.3269497+00:00",
               "Changelog": "***Tweak Changes***\r\n- **\u0060Display EXP Gain Percentage of Level\u0060** - Fixed log message being hidden after Dalamud update.\r\n\r\n- **\u0060Track Outfits\u0060** - Fixed some key items incorrectly indicating they belong to an outfit.\r\n\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "KamiToolKit",
+                  "Version": "1.1.23"
+                }
+              ],
+              "Reviewer": "nebel",
+              "Submitter": "Caraxi"
+            },
+            "1.15.0.8": {
+              "TimeReleased": "2026-10-17T16:50:28.6855511+00:00",
+              "Changelog": "***Tweak Changes***\n- **\u0060Always Yes\u0060**\n  - Fixed Always Yes sometimes not instantly working.\n  - Added support for Zodiac Weapon Enhancement dialog.\n\n- **\u0060Cleaner World Visit Menu\u0060** - Fixed display on worlds that allow cross-DC travel",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -341942,9 +341962,9 @@
           }
         },
         "QuestTextRecolor": {
-          "BuiltCommit": "b3aa4f34360938eae19c49ca0ca57152cc4ce64e",
-          "TimeBuilt": "2026-10-16T23:25:12.8882451+00:00",
-          "EffectiveVersion": "1.4.0.0",
+          "BuiltCommit": "d3d7279ef003c7c4cdfe370f6cc7a5a82da63d31",
+          "TimeBuilt": "2026-10-17T16:50:38.1619925+00:00",
+          "EffectiveVersion": "1.4.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.2.0.0": {
@@ -342005,6 +342025,26 @@
                 }
               ],
               "Reviewer": "nathanctech",
+              "Submitter": "ScareCrowLegion"
+            },
+            "1.4.1.0": {
+              "TimeReleased": "2026-10-17T16:50:38.1619947+00:00",
+              "Changelog": "Quest Text Recolor v1.4.1\n\nChanges:\n- Updated the plugin icon\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Penumbra.Api",
+                  "Version": "5.13.1"
+                }
+              ],
+              "Reviewer": "nebel",
               "Submitter": "ScareCrowLegion"
             }
           }
