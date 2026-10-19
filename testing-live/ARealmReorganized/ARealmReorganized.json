@@ -2,7 +2,7 @@
   "Author": "Nepharyas",
   "Name": "A Realm Reorganized",
   "InternalName": "ARealmReorganized",
-  "AssemblyVersion": "0.1.0.0",
+  "AssemblyVersion": "0.1.1.0",
   "Description": "Scans the Glamour Dresser for items that can now be stored in the Armoire (per patch 7.5), finds partial and complete sets, and spots duplicates across the dresser, armoire, bags, armoury, saddlebag and retainers. Everything it finds gets highlighted right in the game's inventory windows, one color per intent, so you can see what to grab without hunting.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Nepharyas/a_realm_reorganized",
