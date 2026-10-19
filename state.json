@@ -263256,9 +263256,9 @@
           }
         },
         "LootView": {
-          "BuiltCommit": "483f485dbb52aa783adee00597f7c42d76bbcd24",
-          "TimeBuilt": "2026-10-14T22:14:00.6209151+00:00",
-          "EffectiveVersion": "1.6.2.0",
+          "BuiltCommit": "11032cb108f433406ac0f8ed704f77b530024e19",
+          "TimeBuilt": "2026-10-19T22:57:13.6964595+00:00",
+          "EffectiveVersion": "1.6.3.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.3.1.0": {
@@ -263411,6 +263411,22 @@
                 }
               ],
               "Reviewer": "nathanctech",
+              "Submitter": "GitHixy"
+            },
+            "1.6.3.0": {
+              "TimeReleased": "2026-10-19T22:57:13.6964932+00:00",
+              "Changelog": "# Version 1.6.3\n\n- With Dalamud\u0027s UI scale above 100%, the roll panel no longer stacks its text on top of itself. The decided and winner tags, the Need/Greed/Pass buttons and the player rows each keep their own space, and long names are shortened instead of running under the tags.\n- Settings, statistics, the loot table, the loot window and the currency drawer now grow with Dalamud\u0027s UI scale too.\n- A Preview roll window button in Settings \u003E Tracking shows the roll panel with sample items, to check how it looks without a duty. Nothing in the preview is sent to the game.\n- Routine messages such as item lookups and every single roll are now logged at Debug level. The Diagnostics report still includes them.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nebel",
               "Submitter": "GitHixy"
             }
           }
@@ -332386,9 +332402,9 @@
           }
         },
         "LootView": {
-          "BuiltCommit": "483f485dbb52aa783adee00597f7c42d76bbcd24",
-          "TimeBuilt": "2026-10-14T22:14:09.7164464+00:00",
-          "EffectiveVersion": "1.6.2.0",
+          "BuiltCommit": "11032cb108f433406ac0f8ed704f77b530024e19",
+          "TimeBuilt": "2026-10-19T22:57:25.11117+00:00",
+          "EffectiveVersion": "1.6.3.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.2.5.0": {
@@ -332577,6 +332593,22 @@
                 }
               ],
               "Reviewer": "nathanctech",
+              "Submitter": "GitHixy"
+            },
+            "1.6.3.0": {
+              "TimeReleased": "2026-10-19T22:57:25.1111712+00:00",
+              "Changelog": "# Version 1.6.3\n\n- With Dalamud\u0027s UI scale above 100%, the roll panel no longer stacks its text on top of itself. The decided and winner tags, the Need/Greed/Pass buttons and the player rows each keep their own space, and long names are shortened instead of running under the tags.\n- Settings, statistics, the loot table, the loot window and the currency drawer now grow with Dalamud\u0027s UI scale too.\n- A Preview roll window button in Settings \u003E Tracking shows the roll panel with sample items, to check how it looks without a duty. Nothing in the preview is sent to the game.\n- Routine messages such as item lookups and every single roll are now logged at Debug level. The Diagnostics report still includes them.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nebel",
               "Submitter": "GitHixy"
             }
           }
