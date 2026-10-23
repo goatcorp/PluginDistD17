@@ -217029,9 +217029,9 @@
           }
         },
         "TidyChat": {
-          "BuiltCommit": "e101d90c0ab152f017152473e9b70f7328c3eeb8",
-          "TimeBuilt": "2026-10-02T20:26:36.3887475+00:00",
-          "EffectiveVersion": "3.1.1.2",
+          "BuiltCommit": "5d264ace6548a5aaada6bb8fb1ba05450dac1b04",
+          "TimeBuilt": "2026-10-23T01:42:58.2246254+00:00",
+          "EffectiveVersion": "3.1.1.3",
           "MinimumVersion": null,
           "Changelogs": {
             "1.2.2.0": {
@@ -217891,6 +217891,34 @@
             "3.1.1.2": {
               "TimeReleased": "2026-10-02T20:26:36.3887502+00:00",
               "Changelog": "- New Duty option: show Party Finder search results (\u0060Of the X parties currently recruiting\u2026\u0060), split from Duty Finder notifications and starting with that setting\u0027s current value\r\n- New Party option: show party member offline messages (\u0060X has gone offline.\u0060); FC member logout now only covers the FC login/logout channel\r\n- Plugin messages no longer get hidden by an unrelated filter that shares a word with them (e.g. Doorbell lines with \u0022ward\u0022 in a name)\r\n- Custom Allow filters now win over built-in rules on lines where the game\u0027s internal wording differs from chat, and over Block filters that match the same line\r\n- Custom filters on the System channel now also cover Party Finder recruitment messages\r\n- Improved commendations now hide the individual \u0060You received a player commendation!\u0060 lines\r\n- Improved instance and mark bill messages now apply even when their show option is on\r\n- \u0060The only party currently recruiting\u2026\u0060 is now recognised as a Party Finder message\r\n- Removed unused code, merged small rule files, and trimmed per-message filtering work",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "2.0.2"
+                },
+                {
+                  "Key": "Meziantou.Analyzer",
+                  "Version": "3.0.96"
+                },
+                {
+                  "Key": "TextCopy",
+                  "Version": "6.2.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "7.0.0"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Kagekazu"
+            },
+            "3.1.1.3": {
+              "TimeReleased": "2026-10-23T01:42:58.224627+00:00",
+              "Changelog": "- The ready check and countdown sounds no longer play twice (which made them very loud)\n- Fewer messages hidden by mistake: filters now look at whole words, so a line isn\u0027t hidden just because part of a word looks similar\n- Playing in Japanese, German or French? Most built-in filters now work in your language too\n- Currency messages are now filtered correctly when you only get one (e.g. \u0022You obtain 1 Wolf Mark\u0022)\n- Fixed some German and French names (Ventures, Sacks of Nuts, Grand Company seals) so those messages filter properly",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -228956,9 +228984,9 @@
           }
         },
         "MogMogCheck": {
-          "BuiltCommit": "1f1b40871e9351c44c8feded671deef5c7f22d33",
-          "TimeBuilt": "2026-09-29T13:14:19.1492997+00:00",
-          "EffectiveVersion": "3.6.0.0",
+          "BuiltCommit": "2261b6b08ec7509a78e5741eb9f9123f7e9d1c4c",
+          "TimeBuilt": "2026-10-23T01:42:13.547216+00:00",
+          "EffectiveVersion": "3.6.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "3.2.0.0": {
@@ -230416,6 +230444,114 @@
                 {
                   "Key": "System.Diagnostics.EventLog",
                   "Version": "10.0.12"
+                },
+                {
+                  "Key": "Microsoft.CodeAnalysis.Analyzers",
+                  "Version": "4.14.0"
+                },
+                {
+                  "Key": "Microsoft.CodeAnalysis.CSharp",
+                  "Version": "4.14.0"
+                },
+                {
+                  "Key": "NETStandard.Library",
+                  "Version": "2.0.3"
+                },
+                {
+                  "Key": "Microsoft.CodeAnalysis.Common",
+                  "Version": "4.14.0"
+                },
+                {
+                  "Key": "Microsoft.NETCore.Platforms",
+                  "Version": "1.1.0"
+                },
+                {
+                  "Key": "System.Buffers",
+                  "Version": "4.5.1"
+                },
+                {
+                  "Key": "System.Collections.Immutable",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "System.Memory",
+                  "Version": "4.5.5"
+                },
+                {
+                  "Key": "System.Numerics.Vectors",
+                  "Version": "4.5.0"
+                },
+                {
+                  "Key": "System.Reflection.Metadata",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "System.Runtime.CompilerServices.Unsafe",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "System.Text.Encoding.CodePages",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "System.Threading.Tasks.Extensions",
+                  "Version": "4.5.4"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Haselnussbomber"
+            },
+            "3.6.1.0": {
+              "TimeReleased": "2026-10-23T01:42:13.5472502+00:00",
+              "Changelog": "- **Fixed:** The currency display might have shown an item with id 0 when the event is not active.",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/Haselnussbomber/HaselCommon.git",
+                  "Version": "9772b3dacf7fbfc8a313bbb0ae6718da293dc731"
+                },
+                {
+                  "Key": "AutoCtor",
+                  "Version": "4.0.2"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Injectio",
+                  "Version": "6.2.0"
+                },
+                {
+                  "Key": "Roslynator.Analyzers",
+                  "Version": "5.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "10.0.13"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "10.0.13"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging",
+                  "Version": "10.0.13"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "10.0.13"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options",
+                  "Version": "10.0.13"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Primitives",
+                  "Version": "10.0.13"
                 },
                 {
                   "Key": "Microsoft.CodeAnalysis.Analyzers",
@@ -241508,9 +241644,9 @@
           }
         },
         "DutyPusher": {
-          "BuiltCommit": "5f7712372fe1e9bb456a27d84f18fc767b901214",
-          "TimeBuilt": "2026-04-30T06:22:14.3382741+00:00",
-          "EffectiveVersion": "0.1.4.6",
+          "BuiltCommit": "0d20c9fbabdee4b9b8331ce732c8523334f53099",
+          "TimeBuilt": "2026-10-23T01:43:30.9866318+00:00",
+          "EffectiveVersion": "0.1.4.7",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.3.1": {
@@ -241612,6 +241748,26 @@
             "0.1.4.6": {
               "TimeReleased": "2026-04-30T06:22:14.3382763+00:00",
               "Changelog": "Update to API15\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "Dalamud.Loc",
+                  "Version": "1.2.1"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "2.0.2"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "MorCherlf"
+            },
+            "0.1.4.7": {
+              "TimeReleased": "2026-10-23T01:43:30.9866331+00:00",
+              "Changelog": "Update Ntfy Authentication Support\r\n",
               "UsedNeeds": [
                 {
                   "Key": "Dalamud.Loc",
@@ -250524,9 +250680,9 @@
           }
         },
         "VanillaPlus": {
-          "BuiltCommit": "b965443eec786395391b1b4a7018b84d82e720a0",
-          "TimeBuilt": "2026-10-16T23:24:11.6064241+00:00",
-          "EffectiveVersion": "1.4.5.10",
+          "BuiltCommit": "ae42148ee955d52a6f1a3319267da0daac3cbc2c",
+          "TimeBuilt": "2026-10-23T01:42:30.2939798+00:00",
+          "EffectiveVersion": "1.4.5.11",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.1.6": {
@@ -257528,6 +257684,46 @@
               ],
               "Reviewer": "nathanctech",
               "Submitter": "MidoriKami"
+            },
+            "1.4.5.11": {
+              "TimeReleased": "2026-10-23T01:42:30.2939813+00:00",
+              "Changelog": "Removes Additional Hotbars feature, use standalone plugin \u0022ExpandedHotbars\u0022 instead.",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "1eaccb5c6d6fcc697f7e1b98b5528580f5edd201"
+                },
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit.Components",
+                  "Version": "4bc623758450a18dfa2710f5a2fd94eddf9bccc2"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "LuminaSupplemental.Excel",
+                  "Version": "5.1.5"
+                },
+                {
+                  "Key": "CSVFile",
+                  "Version": "3.2.1"
+                },
+                {
+                  "Key": "CsvHelper",
+                  "Version": "30.0.1"
+                },
+                {
+                  "Key": "Sylvan.Data.Csv",
+                  "Version": "1.4.3"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "MidoriKami"
             }
           }
         },
@@ -259680,9 +259876,9 @@
           }
         },
         "Altoholic": {
-          "BuiltCommit": "074f69afad632a1e2973dfef946074a612976b0e",
-          "TimeBuilt": "2026-10-19T22:50:45.9542937+00:00",
-          "EffectiveVersion": "1.14.6.0",
+          "BuiltCommit": "b8bdd591f88bd501acba5679bb70d2629484aa79",
+          "TimeBuilt": "2026-10-23T01:43:46.7450411+00:00",
+          "EffectiveVersion": "1.16.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -262591,6 +262787,50 @@
                 }
               ],
               "Reviewer": "nebel",
+              "Submitter": "Sohtoren"
+            },
+            "1.16.1.0": {
+              "TimeReleased": "2026-10-23T01:43:46.7450429+00:00",
+              "Changelog": "- **Progress**: \n  - Add Moogle Treasure Trove: The Second Hunt for Astronomy rewards\n  - Add Keybound brawler event and rewards\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "Dapper",
+                  "Version": "2.1.89"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "2.0.5"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite.Core",
+                  "Version": "10.0.12"
+                },
+                {
+                  "Key": "SQLitePCLRaw.bundle_e_sqlite3",
+                  "Version": "3.0.5"
+                },
+                {
+                  "Key": "SQLite",
+                  "Version": "3.53.4"
+                },
+                {
+                  "Key": "SQLitePCLRaw.config.e_sqlite3",
+                  "Version": "3.0.5"
+                },
+                {
+                  "Key": "SQLitePCLRaw.core",
+                  "Version": "3.0.5"
+                },
+                {
+                  "Key": "SQLitePCLRaw.provider.e_sqlite3",
+                  "Version": "3.0.5"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "Sohtoren"
             }
           }
@@ -272100,9 +272340,9 @@
           }
         },
         "ItsUp": {
-          "BuiltCommit": "263e6e6e71f65bea0682ac002e0203052b3467de",
-          "TimeBuilt": "2026-09-14T19:36:18.0787595+00:00",
-          "EffectiveVersion": "0.7.1.0",
+          "BuiltCommit": "259c743b9fe8cd3fc3aa33d913b080e2a1d6baf0",
+          "TimeBuilt": "2026-10-23T01:43:22.4136542+00:00",
+          "EffectiveVersion": "0.8.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.6.0.0": {
@@ -272140,6 +272380,22 @@
             "0.7.1.0": {
               "TimeReleased": "2026-09-14T19:36:18.0788083+00:00",
               "Changelog": "- Fix error loading plugin on game restart\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "juan-medina"
+            },
+            "0.8.0.0": {
+              "TimeReleased": "2026-10-23T01:43:22.413656+00:00",
+              "Changelog": "- Display upgraded action names and icons based on character level.\n- Fix handling of follow-up abilities versus upgraded actions.\n- Improve hotbar keybind detection for upgraded abilities.\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -272440,6 +272696,102 @@
               ],
               "Reviewer": "nebel",
               "Submitter": "MidoriKami"
+            }
+          }
+        },
+        "Gubal": {
+          "BuiltCommit": "03bfb79253b16f437ceb267fb791c52411197d71",
+          "TimeBuilt": "2026-10-23T01:42:38.1567913+00:00",
+          "EffectiveVersion": "0.5.1.0",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "0.5.1.0": {
+              "TimeReleased": "2026-10-23T01:42:38.156798+00:00",
+              "Changelog": "First release",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "juan-medina"
+            }
+          }
+        },
+        "KeybindsPlus": {
+          "BuiltCommit": "3dffe969b0d5c7bdb00089c52b698bb4daa7b85e",
+          "TimeBuilt": "2026-10-23T01:42:46.3840342+00:00",
+          "EffectiveVersion": "0.2.0.0",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "0.2.0.0": {
+              "TimeReleased": "2026-10-23T01:42:46.3840361+00:00",
+              "Changelog": "Stable release of Keybinds Plus.\n\nKeybinds Plus is a plugin that allows you to bind _almost_ any key on your keyboard to either a XIV keybind or a supported Dalamud plugin.\n\nKeybinds Plus allows you to bind any key, including those that are not supported by the game (F13-F24) to almost any game function (Shortcuts, Chat, Targeting, Hotbars) as well as any plugin that implements KeybindsPlus\u0027 IPC. You can also bind a key to a custom command (like \u0060/wlmark\u0060) or macro just like how the game does.\n\nSupported Keybinds:\n- Custom Macros and Commands\n- Supported Plugins\n- Targeting*\n- Shortcuts\n- Chat*\n- Hotbars\n\n  \u003E \\* - Some features may be grayed out due to complexities or unavailability. Not all base game keybinds are in KeybindsPlus but may appear as updates progress.\n\nThis plugin is a early state and quite ambitious of me to do from prior plugins I\u0027ve made. Why did I decide to write this? Simply put I wanted to use my Razer Miyabi keyboard macros and originally wanted to use F13 but game said no so I said \u0060Fine. I\u0027ll do it myself.\u0060  Also, past conversations. Thanks Miyabi :)",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Bronya-Rand"
+            }
+          }
+        },
+        "LiteShade": {
+          "BuiltCommit": "34ec6ca1cf2eeb6c06aa4cb2c4eebf3825907522",
+          "TimeBuilt": "2026-10-23T01:43:06.6593295+00:00",
+          "EffectiveVersion": "1.0.2.2",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "1.0.2.2": {
+              "TimeReleased": "2026-10-23T01:43:06.6593311+00:00",
+              "Changelog": "Move to Stable\n\n# 1.0.2.2\n- Allow to select multiple zones and weather per condition rule.\n- Added /liteshade next and previous to cycle favourite profiles.\n- Added undo for the last deleted condition rule.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Zeffuro"
+            }
+          }
+        },
+        "ThingsToDoInEorzea": {
+          "BuiltCommit": "5aa8cff1a89771e09fdad26322b4a1100b46e8cb",
+          "TimeBuilt": "2026-10-23T01:43:14.4032757+00:00",
+          "EffectiveVersion": "1.0.0.0",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "1.0.0.0": {
+              "TimeReleased": "2026-10-23T01:43:14.4032777+00:00",
+              "Changelog": "First stable release.\n\nThings To Do In Eorzea is more than just a simple to-do-list. It\u0027s one that automatically monitors what you need to collect, what duties you need to clear, FATEs and more! You can either set it up to track items you need or have it track your clears. Think that\u0027s not enough? You can even set yourself up some ridiculous tasks for yourself like doing MINE Bahamut or a whole Savage round without dying/wiping to just simply forcing yourself to play a specific job, or speedrun. There are always things to do in Eorzea. Just get creative!\n\nUnlike other to-do plugins, Things To Do In Eorzea:\n1. Auto-tracks your completed dungeons, trials and raids.\n2. Auto-tracks your completed FATEs by region, a specific FATE or any FATE in general.\n3. Auto-tracks the items in your inventory, making sure you have what you needed to get.\n4. Make self-imposed challenges like doing Minstrel\u0027s Ballads on MINE difficulty, speedrun a Dungeon, one-shot/no kill, and more.\n5. Read objectives in your native language*\n\n   \u003E Some languages may be partially broken in translation.\n\nAnd you still have your sticky note for whenever you need it.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Bronya-Rand"
             }
           }
         }
@@ -338226,9 +338578,9 @@
           }
         },
         "ARealmRepopulated": {
-          "BuiltCommit": "2e9f703908fcf2fa3496e5ba28a61403a6e2461e",
-          "TimeBuilt": "2026-10-16T23:25:24.088609+00:00",
-          "EffectiveVersion": "0.1.11.0",
+          "BuiltCommit": "292625776055528c51f11b40b9e40dbfb8d5ca9e",
+          "TimeBuilt": "2026-10-23T01:44:06.4511832+00:00",
+          "EffectiveVersion": "0.1.12.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.4.4": {
@@ -339338,6 +339690,166 @@
             "0.1.11.0": {
               "TimeReleased": "2026-10-16T23:25:24.0886108+00:00",
               "Changelog": "## Functional Changes\n- Scenarios can now be sorted into groups. The scenario list shows each group as a folder. A \u0027/\u0027 in the name nests one group in another.\n\n## Technical Changes\n- Chairs and beds are now recognized through the shared game definitions instead of a copy of its own, so seating holds up better across game updates.\n- Restructured how actors step through their actions to make each step easier to follow.\n\n## Bugfixes\n- Actors that had actions which prompted them to wait indefinitly now fade out once the conditions of their scenario are no longer met. Unstable conditions like \u0022Chance\u0022 are not considered for this.\n- An actor whose actions are all turned off now stays put, the same as an actor without any actions. The other actors in its scenario wait for it at their first \u0022Sync\u0022 action, instead of the scenario starting over right away.\n- An actor reaching a path without any points now skips it and carries on with its next action.\n- An actor of the \u0022Sea Wolf\u0022 tribe now gets its randomly generated name from the correct pool and no longer a male \u0022Highlander\u0022 name.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "coverlet.collector",
+                  "Version": "8.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "2.0.2"
+                },
+                {
+                  "Key": "Microsoft.NET.Test.Sdk",
+                  "Version": "18.3.0"
+                },
+                {
+                  "Key": "Serilog",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "Shouldly",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "xunit.runner.visualstudio",
+                  "Version": "3.1.5"
+                },
+                {
+                  "Key": "xunit.v3",
+                  "Version": "3.2.2"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DiffEngine",
+                  "Version": "11.3.0"
+                },
+                {
+                  "Key": "EmptyFiles",
+                  "Version": "4.4.0"
+                },
+                {
+                  "Key": "Microsoft.ApplicationInsights",
+                  "Version": "2.23.0"
+                },
+                {
+                  "Key": "Microsoft.Bcl.AsyncInterfaces",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "Microsoft.CodeCoverage",
+                  "Version": "18.3.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Primitives",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Testing.Extensions.Telemetry",
+                  "Version": "1.9.1"
+                },
+                {
+                  "Key": "Microsoft.Testing.Extensions.TrxReport.Abstractions",
+                  "Version": "1.9.1"
+                },
+                {
+                  "Key": "Microsoft.Testing.Platform",
+                  "Version": "1.9.1"
+                },
+                {
+                  "Key": "Microsoft.Testing.Platform.MSBuild",
+                  "Version": "1.9.1"
+                },
+                {
+                  "Key": "Microsoft.TestPlatform.ObjectModel",
+                  "Version": "18.3.0"
+                },
+                {
+                  "Key": "Microsoft.TestPlatform.TestHost",
+                  "Version": "18.3.0"
+                },
+                {
+                  "Key": "Microsoft.Win32.Registry",
+                  "Version": "5.0.0"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.3"
+                },
+                {
+                  "Key": "System.CodeDom",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "System.Management",
+                  "Version": "6.0.1"
+                },
+                {
+                  "Key": "xunit.analyzers",
+                  "Version": "1.27.0"
+                },
+                {
+                  "Key": "xunit.v3.assert",
+                  "Version": "3.2.2"
+                },
+                {
+                  "Key": "xunit.v3.common",
+                  "Version": "3.2.2"
+                },
+                {
+                  "Key": "xunit.v3.core.mtp-v1",
+                  "Version": "3.2.2"
+                },
+                {
+                  "Key": "xunit.v3.extensibility.core",
+                  "Version": "3.2.2"
+                },
+                {
+                  "Key": "xunit.v3.mtp-v1",
+                  "Version": "3.2.2"
+                },
+                {
+                  "Key": "xunit.v3.runner.common",
+                  "Version": "3.2.2"
+                },
+                {
+                  "Key": "xunit.v3.runner.inproc.console",
+                  "Version": "3.2.2"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "NetStyx"
+            },
+            "0.1.12.0": {
+              "TimeReleased": "2026-10-23T01:44:06.4511848+00:00",
+              "Changelog": "## Functional Changes\n- A looping scenario which instantaneously finishes will now be automatically detected and forced to wait an extra second between its runs. A notification is displayed when this happens.\n- The first-start introduction can be opened again from the help page in the Info tab.\n- A scenario file that cannot be read now shows up in a \u0022Broken files\u0022 folder at the top of the scenario list, with the reason in its tooltip.\n- Actors can now show their name above their head. Pick it per actor with in the editor: \u0022Never\u0022, \u0022Always\u0022 or \u0022Game default\u0022, which follows your nameplate setting for NPC names.\n\n## Bugfixes\n- Actors now say the voice line of an emote they play right after appearing.\n- A scenario imported from the clipboard is now upgraded when it was exported with an older version, the same way scenario files are.\n- Saving in the scenario editor no longer conflicts with switching the scenario on or off in the list while the editor was open.\n- The checkbox for switching a scenario on or off in the list no longer flickers.\n- The \u0022Auto load scenarios\u0022 switch in the options now works as intended. With it off, you need to manual reload whenever things change inside your scenario files.\n- Editing a scenario that is already open in an editor now brings that editor to the front instead of opening a second one.\n- A copy of a scenario file now shows up as its own scenario instead of replacing the original in the list.\n- Fixed several typos in the plugin texts.",
               "UsedNeeds": [
                 {
                   "Key": "coverlet.collector",
@@ -341570,9 +342082,9 @@
           }
         },
         "ItsUp": {
-          "BuiltCommit": "263e6e6e71f65bea0682ac002e0203052b3467de",
-          "TimeBuilt": "2026-09-14T19:36:29.2275524+00:00",
-          "EffectiveVersion": "0.7.1.0",
+          "BuiltCommit": "259c743b9fe8cd3fc3aa33d913b080e2a1d6baf0",
+          "TimeBuilt": "2026-10-23T01:43:56.6548023+00:00",
+          "EffectiveVersion": "0.8.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.5.1.0": {
@@ -341642,6 +342154,22 @@
             "0.7.1.0": {
               "TimeReleased": "2026-09-14T19:36:29.2275533+00:00",
               "Changelog": "- Fix error loading plugin on game restart\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "juan-medina"
+            },
+            "0.8.0.0": {
+              "TimeReleased": "2026-10-23T01:43:56.6548041+00:00",
+              "Changelog": "- Display upgraded action names and icons based on character level.\n- Fix handling of follow-up abilities versus upgraded actions.\n- Improve hotbar keybind detection for upgraded abilities.\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -369477,6 +370005,69 @@
       "Version": "2.2.65",
       "ReviewedBy": "nebel",
       "ReviewedAt": "2026-10-19T22:50:56.0074516Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/Haselnussbomber/HaselCommon.git",
+      "Version": "9772b3dacf7fbfc8a313bbb0ae6718da293dc731",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-10-23T01:42:13.6247108Z"
+    },
+    {
+      "Type": 1,
+      "Key": "AutoCtor",
+      "Version": "4.0.2",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-10-23T01:42:13.6247304Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Roslynator.Analyzers",
+      "Version": "5.0.1",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-10-23T01:42:13.6247311Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Extensions.DependencyInjection",
+      "Version": "10.0.13",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-10-23T01:42:13.6247312Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+      "Version": "10.0.13",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-10-23T01:42:13.6247313Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Extensions.Logging",
+      "Version": "10.0.13",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-10-23T01:42:13.6247315Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Extensions.Logging.Abstractions",
+      "Version": "10.0.13",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-10-23T01:42:13.6247316Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Extensions.Options",
+      "Version": "10.0.13",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-10-23T01:42:13.624732Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Extensions.Primitives",
+      "Version": "10.0.13",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-10-23T01:42:13.6247322Z"
     }
   ]
 }
