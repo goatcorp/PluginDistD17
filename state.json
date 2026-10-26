@@ -272820,9 +272820,9 @@
           }
         },
         "KeybindsPlus": {
-          "BuiltCommit": "3dffe969b0d5c7bdb00089c52b698bb4daa7b85e",
-          "TimeBuilt": "2026-10-23T01:42:46.3840342+00:00",
-          "EffectiveVersion": "0.2.0.0",
+          "BuiltCommit": "61876462eb4ebee37afd168dfea9168999424b66",
+          "TimeBuilt": "2026-10-26T23:14:14.1591891+00:00",
+          "EffectiveVersion": "0.2.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.2.0.0": {
@@ -272839,6 +272839,22 @@
                 }
               ],
               "Reviewer": "nathanctech",
+              "Submitter": "Bronya-Rand"
+            },
+            "0.2.1.0": {
+              "TimeReleased": "2026-10-26T23:14:14.1592385+00:00",
+              "Changelog": "## What\u0027s New\n- Adjusted internal code a bit with Rider suggestions\n- Moved to IAsyncDalamudPlugin",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "reiichi001",
               "Submitter": "Bronya-Rand"
             }
           }
