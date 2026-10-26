@@ -272890,6 +272890,38 @@
               "Submitter": "Bronya-Rand"
             }
           }
+        },
+        "ProxyPlayer": {
+          "BuiltCommit": "7f96266c1342bb25438aa0de66be74202715557c",
+          "TimeBuilt": "2026-10-26T23:10:03.769212+00:00",
+          "EffectiveVersion": "1.1.2.0",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "1.1.2.0": {
+              "TimeReleased": "2026-10-26T23:10:03.7692782+00:00",
+              "Changelog": "## What\u0027s New\n- Adjusted internal code a bit with Rider suggestions\n- Moved to IAsyncDalamudPlugin\n- Moved to Stable as no reports of issues",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "2.0.5"
+                },
+                {
+                  "Key": "Tmds.DBus.Generator",
+                  "Version": "0.95.1"
+                },
+                {
+                  "Key": "Tmds.DBus.Protocol",
+                  "Version": "0.95.1"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "Bronya-Rand"
+            }
+          }
         }
       }
     },
