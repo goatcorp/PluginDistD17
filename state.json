@@ -272884,9 +272884,9 @@
           }
         },
         "ThingsToDoInEorzea": {
-          "BuiltCommit": "5aa8cff1a89771e09fdad26322b4a1100b46e8cb",
-          "TimeBuilt": "2026-10-23T01:43:14.4032757+00:00",
-          "EffectiveVersion": "1.0.0.0",
+          "BuiltCommit": "5056fd0b3297d4020c9f36106146a9c412595c5e",
+          "TimeBuilt": "2026-10-26T23:19:05.0829749+00:00",
+          "EffectiveVersion": "1.0.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -272903,6 +272903,22 @@
                 }
               ],
               "Reviewer": "nathanctech",
+              "Submitter": "Bronya-Rand"
+            },
+            "1.0.1.0": {
+              "TimeReleased": "2026-10-26T23:19:05.0830006+00:00",
+              "Changelog": "## What\u0027s New\n- Added Daily/Weekly Tasks\n- Adjusted internal code a bit with Rider suggestions\n- Moved to IAsyncDalamudPlugin",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "reiichi001",
               "Submitter": "Bronya-Rand"
             }
           }
