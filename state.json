@@ -324638,9 +324638,9 @@
           }
         },
         "ArchipelagoXIV": {
-          "BuiltCommit": "fb6838075baa7a339ca6829b36fb4c0bbff81679",
-          "TimeBuilt": "2026-08-24T19:37:35.2791464+00:00",
-          "EffectiveVersion": "0.31.2.0",
+          "BuiltCommit": "f3832265992ebe466e9d7119795de22ae1ae9fa5",
+          "TimeBuilt": "2026-10-26T23:21:48.4920732+00:00",
+          "EffectiveVersion": "0.32.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.19.5.0": {
@@ -325009,6 +325009,30 @@
                 }
               ],
               "Reviewer": "nathanctech",
+              "Submitter": "silasary"
+            },
+            "0.32.0.0": {
+              "TimeReleased": "2026-10-26T23:21:48.4921004+00:00",
+              "Changelog": "Added support for North Horn. Dungeon extra checks now send as you progress through a dungeon, rather than all at the end. Fish now tell you their preferred bait in the tracker. Fixed CLL/Dalriada checks not sending.  Optimised fishsanity and aetheryte code.",
+              "UsedNeeds": [
+                {
+                  "Key": "Archipelago.MultiClient.Net",
+                  "Version": "6.7.1"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "KamiToolKit",
+                  "Version": "2.2.0"
+                }
+              ],
+              "Reviewer": "reiichi001",
               "Submitter": "silasary"
             }
           }
