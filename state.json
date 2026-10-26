@@ -3,9 +3,9 @@
     "stable": {
       "Plugins": {
         "Dalamud.RichPresence": {
-          "BuiltCommit": "9963d2f9aa9a0f1a5a67f0c39b6694116f006302",
-          "TimeBuilt": "2026-09-10T21:50:00.3900105+00:00",
-          "EffectiveVersion": "2.1.0.1",
+          "BuiltCommit": "218058f3ac94386a1c1f504729e115b60dbdb092",
+          "TimeBuilt": "2026-10-26T23:05:51.3697085+00:00",
+          "EffectiveVersion": "2.1.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "2.0.1.0": {
@@ -854,6 +854,30 @@
             "2.1.0.1": {
               "TimeReleased": "2026-09-10T21:50:00.3900117+00:00",
               "Changelog": "# What\u0027s New?\r\n- Fixed(?) a weird bug where Discord RPC dropped sending RPC data to Discord.\r\n- Improved logging by adding DiscordRPC Library logs to Dalamud Console\r\n- Added the new \u0060{instance}\u0060 tag to display the instance you are in \u0060Central Shroud 8\u0060.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DiscordRichPresence",
+                  "Version": "1.6.1.70"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "2.0.5"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.1"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "Bronya-Rand"
+            },
+            "2.1.1.0": {
+              "TimeReleased": "2026-10-26T23:05:51.3697101+00:00",
+              "Changelog": "## What\u0027s New\n- Adjusted internal code a bit with Rider suggestions\n- Moved to IAsyncDalamudPlugin",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -120182,9 +120206,9 @@
           }
         },
         "TitleEdit": {
-          "BuiltCommit": "5b22360071ef078dc1c9a051fd32a326123d08cb",
-          "TimeBuilt": "2026-10-16T23:24:46.6187821+00:00",
-          "EffectiveVersion": "3.0.6.10",
+          "BuiltCommit": "2cf9063c80626223918b89c45e3201c1b1b35f54",
+          "TimeBuilt": "2026-10-26T23:06:12.1265025+00:00",
+          "EffectiveVersion": "3.0.7.0",
           "MinimumVersion": null,
           "Changelogs": {
             "2.3.0.0": {
@@ -121076,6 +121100,22 @@
                 }
               ],
               "Reviewer": "nathanctech",
+              "Submitter": "RokasKil"
+            },
+            "3.0.7.0": {
+              "TimeReleased": "2026-10-26T23:06:12.1265039+00:00",
+              "Changelog": " - Fixed most dynamic furniture objects like aquariums and partitions not showing up correctly\n - There are still some known edge cases with interactable objects like mannequins and chocobo stables\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "reiichi001",
               "Submitter": "RokasKil"
             }
           }
@@ -250680,9 +250720,9 @@
           }
         },
         "VanillaPlus": {
-          "BuiltCommit": "ae42148ee955d52a6f1a3319267da0daac3cbc2c",
-          "TimeBuilt": "2026-10-23T01:42:30.2939798+00:00",
-          "EffectiveVersion": "1.4.5.11",
+          "BuiltCommit": "17bddd82ca73e099f1a7af9b00c4ee13fa8a701c",
+          "TimeBuilt": "2026-10-26T23:05:40.0529445+00:00",
+          "EffectiveVersion": "1.4.5.13",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.1.6": {
@@ -257723,6 +257763,46 @@
                 }
               ],
               "Reviewer": "nathanctech",
+              "Submitter": "MidoriKami"
+            },
+            "1.4.5.13": {
+              "TimeReleased": "2026-10-26T23:05:40.0530008+00:00",
+              "Changelog": "Cast Bar Countdown - Fixes issue where focus target was reading the wrong data",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "1eaccb5c6d6fcc697f7e1b98b5528580f5edd201"
+                },
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit.Components",
+                  "Version": "4bc623758450a18dfa2710f5a2fd94eddf9bccc2"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "LuminaSupplemental.Excel",
+                  "Version": "5.1.5"
+                },
+                {
+                  "Key": "CSVFile",
+                  "Version": "3.2.1"
+                },
+                {
+                  "Key": "CsvHelper",
+                  "Version": "30.0.1"
+                },
+                {
+                  "Key": "Sylvan.Data.Csv",
+                  "Version": "1.4.3"
+                }
+              ],
+              "Reviewer": "reiichi001",
               "Submitter": "MidoriKami"
             }
           }
@@ -267584,9 +267664,9 @@
           }
         },
         "WukLamark": {
-          "BuiltCommit": "5d67b8e54811d2d896f9aa2d5fc49aa89a572fd6",
-          "TimeBuilt": "2026-09-18T01:26:20.7204506+00:00",
-          "EffectiveVersion": "1.2.0.2",
+          "BuiltCommit": "e0162bef322ee09b1cc9f0ba1feff9acb8151223",
+          "TimeBuilt": "2026-10-26T23:06:01.0544495+00:00",
+          "EffectiveVersion": "1.2.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.2.5": {
@@ -267747,6 +267827,22 @@
                 }
               ],
               "Reviewer": "nathanctech",
+              "Submitter": "Bronya-Rand"
+            },
+            "1.2.1.0": {
+              "TimeReleased": "2026-10-26T23:06:01.0544531+00:00",
+              "Changelog": "## What\u0027s New\n- Adjusted internal code a bit with Rider suggestions\n- Moved to IAsyncDalamudPlugin\n- [Testing] Updated KTK",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "reiichi001",
               "Submitter": "Bronya-Rand"
             }
           }
@@ -335350,9 +335446,9 @@
           }
         },
         "WukLamark": {
-          "BuiltCommit": "d5a0a3f04788302e8ec83fa863a93cd4e5e87e5c",
-          "TimeBuilt": "2026-09-18T01:26:33.9825981+00:00",
-          "EffectiveVersion": "1.2.0.4",
+          "BuiltCommit": "1054e5cd70230e162153edba6b37e29ae37e47ee",
+          "TimeBuilt": "2026-10-26T23:06:28.2494575+00:00",
+          "EffectiveVersion": "1.2.1.1",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.2.2": {
@@ -335705,6 +335801,30 @@
                 }
               ],
               "Reviewer": "nathanctech",
+              "Submitter": "Bronya-Rand"
+            },
+            "1.2.1.1": {
+              "TimeReleased": "2026-10-26T23:06:28.2494592+00:00",
+              "Changelog": "## What\u0027s New\n- Adjusted internal code a bit with Rider suggestions\n- Moved to IAsyncDalamudPlugin\n- [Testing] Updated KTK",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "1eaccb5c6d6fcc697f7e1b98b5528580f5edd201"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                }
+              ],
+              "Reviewer": "reiichi001",
               "Submitter": "Bronya-Rand"
             }
           }
