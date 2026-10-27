@@ -3,9 +3,9 @@
     "stable": {
       "Plugins": {
         "Dalamud.RichPresence": {
-          "BuiltCommit": "218058f3ac94386a1c1f504729e115b60dbdb092",
-          "TimeBuilt": "2026-10-26T23:05:51.3697085+00:00",
-          "EffectiveVersion": "2.1.1.0",
+          "BuiltCommit": "c6b414d4d860c548a563f3eb152a04b858e1ad04",
+          "TimeBuilt": "2026-10-27T06:30:19.4309003+00:00",
+          "EffectiveVersion": "2.1.1.1",
           "MinimumVersion": null,
           "Changelogs": {
             "2.0.1.0": {
@@ -878,6 +878,30 @@
             "2.1.1.0": {
               "TimeReleased": "2026-10-26T23:05:51.3697101+00:00",
               "Changelog": "## What\u0027s New\n- Adjusted internal code a bit with Rider suggestions\n- Moved to IAsyncDalamudPlugin",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DiscordRichPresence",
+                  "Version": "1.6.1.70"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "2.0.5"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.1"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "Bronya-Rand"
+            },
+            "2.1.1.1": {
+              "TimeReleased": "2026-10-27T06:30:19.4309388+00:00",
+              "Changelog": "nofranz\n\nFixes a IAsync brought bug",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
