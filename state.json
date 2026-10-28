@@ -67894,9 +67894,9 @@
           }
         },
         "TrackyTrack": {
-          "BuiltCommit": "242867acba0af0a4d2bb6812d6cc4809781bce0f",
-          "TimeBuilt": "2026-09-02T04:18:18.7882326+00:00",
-          "EffectiveVersion": "1.7.4.1",
+          "BuiltCommit": "699d27f29e0bfc0a4237d232f22d956e64c1933a",
+          "TimeBuilt": "2026-10-28T15:16:25.9226276+00:00",
+          "EffectiveVersion": "1.7.5.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.5.5.5": {
@@ -70485,6 +70485,42 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "Infiziert90"
+            },
+            "1.7.5.0": {
+              "TimeReleased": "2026-10-28T15:16:25.9226498+00:00",
+              "Changelog": "- Add keybound gacha tracking",
+              "UsedNeeds": [
+                {
+                  "Key": "CsvHelper",
+                  "Version": "33.1.0"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "MessagePack",
+                  "Version": "3.1.7"
+                },
+                {
+                  "Key": "MessagePack.Annotations",
+                  "Version": "3.1.7"
+                },
+                {
+                  "Key": "MessagePackAnalyzer",
+                  "Version": "3.1.7"
+                },
+                {
+                  "Key": "Microsoft.NET.StringTools",
+                  "Version": "17.11.4"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "Infiziert90"
             }
           }
@@ -263732,9 +263768,9 @@
           }
         },
         "LootView": {
-          "BuiltCommit": "11032cb108f433406ac0f8ed704f77b530024e19",
-          "TimeBuilt": "2026-10-19T22:57:13.6964595+00:00",
-          "EffectiveVersion": "1.6.3.0",
+          "BuiltCommit": "ca691cf373efa6c88955bacf45148dded0dca631",
+          "TimeBuilt": "2026-10-28T15:16:35.1638145+00:00",
+          "EffectiveVersion": "1.6.4.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.3.1.0": {
@@ -263903,6 +263939,22 @@
                 }
               ],
               "Reviewer": "nebel",
+              "Submitter": "GitHixy"
+            },
+            "1.6.4.0": {
+              "TimeReleased": "2026-10-28T15:16:35.1638164+00:00",
+              "Changelog": "# Version 1.6.4\n\n- Dice reveal: when an item is resolved, everyone\u0027s roll counts up from zero together and stops at its number. The lowest settle first, the last one still climbing takes the crown, then the rows slide into rank order.\n- A soft chime when an item goes to someone else. The game only sounds your own wins, so lost rolls were easy to miss. It follows the game\u0027s master and system volume and has its own volume in Settings \u003E Tracking.\n- The roll window now lists what still needs your choice first, then results, then items you\u0027ve already chosen on. Results fold into a single line once revealed, and nothing moves while your mouse is over the window.\n- Ticker: minimise the loot window and new drops slide in on a slim strip you can drag anywhere, then fade out. Repeat drops add up on one row, and it can also run beside the open window.\n- Loot jar: an optional loot window view where your drops fall into a glass jar. Repeat drops merge, and currencies and crystals settle as labelled sand.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "GitHixy"
             }
           }
