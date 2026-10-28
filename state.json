@@ -14776,9 +14776,9 @@
           }
         },
         "PetRenamer": {
-          "BuiltCommit": "707c9808b6a024ae565b07c39ab352d9362091df",
-          "TimeBuilt": "2026-10-02T20:26:48.342848+00:00",
-          "EffectiveVersion": "3.0.1.0",
+          "BuiltCommit": "28193e4ba6eca145310dece246c093d64202d47d",
+          "TimeBuilt": "2026-10-28T23:01:34.3146777+00:00",
+          "EffectiveVersion": "3.0.1.1",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -15813,6 +15813,30 @@
                 }
               ],
               "Reviewer": "nathanctech",
+              "Submitter": "Glyceri"
+            },
+            "3.0.1.1": {
+              "TimeReleased": "2026-10-28T23:01:34.314679+00:00",
+              "Changelog": "[3.0.1.1] \r\n- Couple small fixes.\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "HtmlAgilityPack",
+                  "Version": "1.11.71"
+                },
+                {
+                  "Key": "JetBrains.Annotations",
+                  "Version": "2025.2.4"
+                }
+              ],
+              "Reviewer": "reiichi001",
               "Submitter": "Glyceri"
             }
           }
@@ -260148,9 +260172,9 @@
           }
         },
         "Altoholic": {
-          "BuiltCommit": "b8bdd591f88bd501acba5679bb70d2629484aa79",
-          "TimeBuilt": "2026-10-23T01:43:46.7450411+00:00",
-          "EffectiveVersion": "1.16.1.0",
+          "BuiltCommit": "95ce766941ba00000ad6bd4ce62e6e060652b464",
+          "TimeBuilt": "2026-10-28T23:01:23.4778008+00:00",
+          "EffectiveVersion": "1.16.3.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -263103,6 +263127,50 @@
                 }
               ],
               "Reviewer": "nathanctech",
+              "Submitter": "Sohtoren"
+            },
+            "1.16.3.0": {
+              "TimeReleased": "2026-10-28T23:01:23.4778378+00:00",
+              "Changelog": "- **Progress**: \n  - Add total MGC required per reward tabs\n  - Fix framerkit\u0027s keybound brawler reward check\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "Dapper",
+                  "Version": "2.1.89"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "2.0.5"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite.Core",
+                  "Version": "10.0.14"
+                },
+                {
+                  "Key": "SQLitePCLRaw.bundle_e_sqlite3",
+                  "Version": "3.0.5"
+                },
+                {
+                  "Key": "SQLite",
+                  "Version": "3.53.4"
+                },
+                {
+                  "Key": "SQLitePCLRaw.config.e_sqlite3",
+                  "Version": "3.0.5"
+                },
+                {
+                  "Key": "SQLitePCLRaw.core",
+                  "Version": "3.0.5"
+                },
+                {
+                  "Key": "SQLitePCLRaw.provider.e_sqlite3",
+                  "Version": "3.0.5"
+                }
+              ],
+              "Reviewer": "reiichi001",
               "Submitter": "Sohtoren"
             }
           }
@@ -370484,6 +370552,13 @@
       "Version": "10.0.13",
       "ReviewedBy": "nathanctech",
       "ReviewedAt": "2026-10-23T01:42:13.6247322Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Data.Sqlite.Core",
+      "Version": "10.0.14",
+      "ReviewedBy": "reiichi001",
+      "ReviewedAt": "2026-10-28T23:01:23.5818234Z"
     }
   ]
 }
