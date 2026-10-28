@@ -210339,9 +210339,9 @@
           }
         },
         "ChatTwo": {
-          "BuiltCommit": "3eb8334c949b89aa32c13e533581f134e1525f97",
-          "TimeBuilt": "2026-10-28T14:30:43.1211081+00:00",
-          "EffectiveVersion": "1.41.1.0",
+          "BuiltCommit": "ca9aa992da06846c081e44841fa3145d5d401566",
+          "TimeBuilt": "2026-10-28T23:05:36.6176058+00:00",
+          "EffectiveVersion": "1.41.2.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.17.5.0": {
@@ -215065,6 +215065,102 @@
                 }
               ],
               "Reviewer": "nathanctech",
+              "Submitter": "Infiziert90"
+            },
+            "1.41.2.0": {
+              "TimeReleased": "2026-10-28T23:05:36.6176254+00:00",
+              "Changelog": "- Prevent all keybind inputs during keybound brawler",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "MessagePack",
+                  "Version": "3.1.7"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "morelinq",
+                  "Version": "4.4.0"
+                },
+                {
+                  "Key": "Pidgin",
+                  "Version": "3.3.0"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                },
+                {
+                  "Key": "Watson.Lite",
+                  "Version": "6.3.9"
+                },
+                {
+                  "Key": "CavemanTcp",
+                  "Version": "2.0.9"
+                },
+                {
+                  "Key": "IpMatcher",
+                  "Version": "1.0.5"
+                },
+                {
+                  "Key": "MessagePack.Annotations",
+                  "Version": "3.1.7"
+                },
+                {
+                  "Key": "MessagePackAnalyzer",
+                  "Version": "3.1.7"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite.Core",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "Microsoft.NET.StringTools",
+                  "Version": "17.11.4"
+                },
+                {
+                  "Key": "RegexMatcher",
+                  "Version": "1.0.9"
+                },
+                {
+                  "Key": "SQLitePCLRaw.bundle_e_sqlite3",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.core",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.lib.e_sqlite3",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.provider.e_sqlite3",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "Timestamps",
+                  "Version": "1.0.11"
+                },
+                {
+                  "Key": "UrlMatcher",
+                  "Version": "3.0.1"
+                },
+                {
+                  "Key": "Watson.Core",
+                  "Version": "6.3.9"
+                }
+              ],
+              "Reviewer": "reiichi001",
               "Submitter": "Infiziert90"
             }
           }
