@@ -196220,9 +196220,9 @@
           }
         },
         "Dalamud.FindAnything": {
-          "BuiltCommit": "ca8e5647181bfca97691dc1c91706988aefb2273",
-          "TimeBuilt": "2026-10-28T15:09:18.8631308+00:00",
-          "EffectiveVersion": "1.1.4.0",
+          "BuiltCommit": "8bb9fa63a703ccc80be6f479d550606a73a617ee",
+          "TimeBuilt": "2026-10-30T19:40:06.4317977+00:00",
+          "EffectiveVersion": "1.1.4.1",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.5.3": {
@@ -197660,6 +197660,42 @@
             "1.1.4.0": {
               "TimeReleased": "2026-10-28T15:09:18.8631746+00:00",
               "Changelog": "- Add a setting to disable input capture during Keybound Brawler (this setting is disabled by default)\n- Improve search speed, and search through more potential matches\n- Improve finder window draw speed\n- Show full text for daily roulette matches\n- Make gearset search more robust when a new job is added\n- Fix an issue where Gamepad Settings was displayed simply as Settings\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Microsoft.Win32.Registry",
+                  "Version": "5.0.0"
+                },
+                {
+                  "Key": "NCalcSync",
+                  "Version": "2.0.0"
+                },
+                {
+                  "Key": "Antlr3.Runtime",
+                  "Version": "3.5.1"
+                },
+                {
+                  "Key": "Microsoft.NETCore.Platforms",
+                  "Version": "1.0.1"
+                },
+                {
+                  "Key": "NETStandard.Library",
+                  "Version": "1.6.0"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "nebel"
+            },
+            "1.1.4.1": {
+              "TimeReleased": "2026-10-30T19:40:06.4318248+00:00",
+              "Changelog": "- Fix bug where search results from disabled modules would appear.",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
