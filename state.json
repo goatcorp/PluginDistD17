@@ -242736,9 +242736,9 @@
           }
         },
         "StatusContrast": {
-          "BuiltCommit": "f84f93a6c7e25699693fa7650c89f5287e6c64e4",
-          "TimeBuilt": "2026-04-30T01:25:48.3738481+00:00",
-          "EffectiveVersion": "4.0.0.0",
+          "BuiltCommit": "e20f1014ee8eb1c0692e305749deab3e12533539",
+          "TimeBuilt": "2026-10-30T13:00:17.5811455+00:00",
+          "EffectiveVersion": "4.0.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -242803,6 +242803,22 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "Olaren15"
+            },
+            "4.0.1.0": {
+              "TimeReleased": "2026-10-30T13:00:17.581184+00:00",
+              "Changelog": "- Fix backgrounds displaying over the statuses after playing Keybound Brawler\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nebel",
               "Submitter": "Olaren15"
             }
           }
