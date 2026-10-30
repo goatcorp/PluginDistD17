@@ -273248,9 +273248,9 @@
           }
         },
         "LiteShade": {
-          "BuiltCommit": "34ec6ca1cf2eeb6c06aa4cb2c4eebf3825907522",
-          "TimeBuilt": "2026-10-23T01:43:06.6593295+00:00",
-          "EffectiveVersion": "1.0.2.2",
+          "BuiltCommit": "eed904e0a6d84cc67c5eb2e8054d413554b6c5b5",
+          "TimeBuilt": "2026-10-30T13:03:24.3114468+00:00",
+          "EffectiveVersion": "1.0.2.3",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.2.2": {
@@ -273267,6 +273267,22 @@
                 }
               ],
               "Reviewer": "nathanctech",
+              "Submitter": "Zeffuro"
+            },
+            "1.0.2.3": {
+              "TimeReleased": "2026-10-30T13:03:24.3114857+00:00",
+              "Changelog": "# 1.0.2.3\n- Fixed depth of field in Air Force One.\n- Fixed a brief depth of field blur after NPC conversations.\n- Fixed depth of field focusing on targets outside the camera view.\n- Added an option to disable depth of field in first person.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nebel",
               "Submitter": "Zeffuro"
             }
           }
