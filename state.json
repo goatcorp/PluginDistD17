@@ -122517,9 +122517,9 @@
           }
         },
         "VFXEditor": {
-          "BuiltCommit": "f023d104ee328ee80a26a9929042bd3ed9da5e87",
-          "TimeBuilt": "2026-10-31T23:54:45.6256129+00:00",
-          "EffectiveVersion": "1.9.4.5",
+          "BuiltCommit": "ed6b39dcca04225c15c404a35a46945119462015",
+          "TimeBuilt": "2026-11-02T14:57:02.1369362+00:00",
+          "EffectiveVersion": "1.9.4.6",
           "MinimumVersion": null,
           "Changelogs": {
             "1.6.5.0": {
@@ -128627,6 +128627,186 @@
                 }
               ],
               "Reviewer": "nebel",
+              "Submitter": "0ceal0t"
+            },
+            "1.9.4.6": {
+              "TimeReleased": "2026-11-02T14:57:02.136961+00:00",
+              "Changelog": "- phyb parsing fixes (others are still WIP)\n- fixed bug with skeleton importing\n- fixed bug with document popout window\n- adjusted colors for certain curve editors\n- added 7.2 MDL neck morph and other new structs",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/Ottermandias/Penumbra.String.git",
+                  "Version": "e7f27e1d850f9afe17006caeef4a7b887378d55a"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "BCnEncoder.Net",
+                  "Version": "2.3.0"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "FlatSharp.Compiler",
+                  "Version": "7.9.0"
+                },
+                {
+                  "Key": "FlatSharp.Runtime",
+                  "Version": "7.9.0"
+                },
+                {
+                  "Key": "Google.FlatBuffers",
+                  "Version": "25.2.10"
+                },
+                {
+                  "Key": "HelixToolkit",
+                  "Version": "3.1.2"
+                },
+                {
+                  "Key": "HelixToolkit.Maths",
+                  "Version": "3.1.2"
+                },
+                {
+                  "Key": "HelixToolkit.SharpDX",
+                  "Version": "3.1.2"
+                },
+                {
+                  "Key": "JsonPoke.MSBuild",
+                  "Version": "1.0.9"
+                },
+                {
+                  "Key": "mgholam.fastCSV",
+                  "Version": "2.0.9"
+                },
+                {
+                  "Key": "NAudio",
+                  "Version": "3.0.0-preview.20"
+                },
+                {
+                  "Key": "NAudio.SoundFile",
+                  "Version": "3.0.0-preview.20"
+                },
+                {
+                  "Key": "NAudio.Wasapi",
+                  "Version": "3.0.0-preview.20"
+                },
+                {
+                  "Key": "NAudio.WinMM",
+                  "Version": "3.0.0-preview.20"
+                },
+                {
+                  "Key": "NVorbis",
+                  "Version": "1.0.0-rc.2"
+                },
+                {
+                  "Key": "Penumbra.Api",
+                  "Version": "5.15.1"
+                },
+                {
+                  "Key": "SharpDX.D3DCompiler",
+                  "Version": "4.2.0"
+                },
+                {
+                  "Key": "SharpGLTF.Toolkit",
+                  "Version": "1.0.6"
+                },
+                {
+                  "Key": "TeximpNet",
+                  "Version": "1.4.3"
+                },
+                {
+                  "Key": "CommunityToolkit.Common",
+                  "Version": "8.3.2"
+                },
+                {
+                  "Key": "CommunityToolkit.Diagnostics",
+                  "Version": "8.3.2"
+                },
+                {
+                  "Key": "CommunityToolkit.HighPerformance",
+                  "Version": "8.4.0"
+                },
+                {
+                  "Key": "CommunityToolkit.Mvvm",
+                  "Version": "8.3.2"
+                },
+                {
+                  "Key": "Cyotek.Drawing.BitmapFont",
+                  "Version": "2.0.4"
+                },
+                {
+                  "Key": "HelixToolkit.Geometry",
+                  "Version": "3.1.2"
+                },
+                {
+                  "Key": "Microsoft.CodeAnalysis.Analyzers",
+                  "Version": "3.3.4"
+                },
+                {
+                  "Key": "Microsoft.CodeAnalysis.Common",
+                  "Version": "4.11.0"
+                },
+                {
+                  "Key": "Microsoft.CodeAnalysis.CSharp",
+                  "Version": "4.11.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "8.0.2"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "8.0.2"
+                },
+                {
+                  "Key": "Microsoft.NETCore.Platforms",
+                  "Version": "1.1.0"
+                },
+                {
+                  "Key": "NAudio.Core",
+                  "Version": "3.0.0-preview.20"
+                },
+                {
+                  "Key": "NAudio.Midi",
+                  "Version": "3.0.0-preview.20"
+                },
+                {
+                  "Key": "NETStandard.Library",
+                  "Version": "1.6.1"
+                },
+                {
+                  "Key": "SharpDX",
+                  "Version": "4.2.0"
+                },
+                {
+                  "Key": "SharpDX.Direct2D1",
+                  "Version": "4.2.0"
+                },
+                {
+                  "Key": "SharpDX.Direct3D11",
+                  "Version": "4.2.0"
+                },
+                {
+                  "Key": "SharpDX.DXGI",
+                  "Version": "4.2.0"
+                },
+                {
+                  "Key": "SharpGLTF.Core",
+                  "Version": "1.0.6"
+                },
+                {
+                  "Key": "SharpGLTF.Runtime",
+                  "Version": "1.0.6"
+                },
+                {
+                  "Key": "System.Numerics.Tensors",
+                  "Version": "9.0.0"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "0ceal0t"
             }
           }
