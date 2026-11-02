@@ -274032,9 +274032,9 @@
           }
         },
         "QuestTextRecolor": {
-          "BuiltCommit": "97a79f0a7e2d4b11880b88b3e31896ee1ed3cb4b",
-          "TimeBuilt": "2026-10-14T04:29:21.9818495+00:00",
-          "EffectiveVersion": "1.3.1.0",
+          "BuiltCommit": "d3d7279ef003c7c4cdfe370f6cc7a5a82da63d31",
+          "TimeBuilt": "2026-11-02T20:57:32.1105302+00:00",
+          "EffectiveVersion": "1.4.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.3.1.0": {
@@ -274055,6 +274055,26 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "ScareCrowLegion"
+            },
+            "1.4.1.0": {
+              "TimeReleased": "2026-11-02T20:57:32.110577+00:00",
+              "Changelog": "Quest Text Recolor v1.4.1\n\nChanges:\n- Updated the plugin icon\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Penumbra.Api",
+                  "Version": "5.13.1"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "ScareCrowLegion"
             }
           }
