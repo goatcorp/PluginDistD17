@@ -273576,9 +273576,9 @@
           }
         },
         "MouseLock": {
-          "BuiltCommit": "b234321ba121bba3423a629952ad783238e655c1",
-          "TimeBuilt": "2026-11-01T19:05:04.3862495+00:00",
-          "EffectiveVersion": "1.0.1.6",
+          "BuiltCommit": "3135c4af56ae28405dab1af3c7a4c9bd370dc6c7",
+          "TimeBuilt": "2026-11-04T16:40:35.6424009+00:00",
+          "EffectiveVersion": "1.0.1.7",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.3": {
@@ -273735,6 +273735,26 @@
                 }
               ],
               "Reviewer": "nathanctech",
+              "Submitter": "Zeffuro"
+            },
+            "1.0.1.7": {
+              "TimeReleased": "2026-11-04T16:40:35.6424434+00:00",
+              "Changelog": "# 1.0.1.7\n- Added Enable MouseLock and Disable MouseLock mouse actions.\n- Made a few performance adjustments.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "KamiToolKit",
+                  "Version": "2.2.49"
+                }
+              ],
+              "Reviewer": "nebel",
               "Submitter": "Zeffuro"
             }
           }
