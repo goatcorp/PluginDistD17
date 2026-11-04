@@ -243056,9 +243056,9 @@
           }
         },
         "PvPAnnouncer": {
-          "BuiltCommit": "313533cdae9f104634dfe59c1416bd27a0728fb4",
-          "TimeBuilt": "2026-09-29T13:14:50.3919561+00:00",
-          "EffectiveVersion": "1.6.7.0",
+          "BuiltCommit": "5f19a911fee24e3a627675f3481b6531934f042a",
+          "TimeBuilt": "2026-11-04T18:11:47.9042587+00:00",
+          "EffectiveVersion": "1.7.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -243556,6 +243556,42 @@
                 {
                   "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
                   "Version": "9.0.2"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "spide-r"
+            },
+            "1.7.0.0": {
+              "TimeReleased": "2026-11-04T18:11:47.9043058+00:00",
+              "Changelog": "Lyse is here! 190\u002B new voicelines across all announcers. New duty support Settings. Lots of fixes.",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/Ottermandias/OtterGui.git",
+                  "Version": "79771ee5f3d463f02c63bebbedaa0aff49e59718"
+                },
+                {
+                  "Key": "https://github.com/Ottermandias/OtterGuiInternal.git",
+                  "Version": "fb9de85711973eba4b02156ece9865ba166020af"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "JetBrains.Annotations",
+                  "Version": "2024.3.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "9.0.2"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "9.0.2"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
                 }
               ],
               "Reviewer": "nathanctech",
