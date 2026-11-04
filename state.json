@@ -344720,6 +344720,78 @@
               "Submitter": "YuuNoce"
             }
           }
+        },
+        "Housingway": {
+          "BuiltCommit": "8261b9f5a567c5d532af58469cefbb43dee63b3b",
+          "TimeBuilt": "2026-11-04T22:34:42.5611435+00:00",
+          "EffectiveVersion": "1.0.2.1",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "1.0.2.1": {
+              "TimeReleased": "2026-11-04T22:34:42.5611832+00:00",
+              "Changelog": "Initial Release",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "JetBrains.Annotations",
+                  "Version": "2026.2.0"
+                },
+                {
+                  "Key": "Pictomancy",
+                  "Version": "1.0.10"
+                },
+                {
+                  "Key": "KamiToolKit",
+                  "Version": "1.1.2"
+                },
+                {
+                  "Key": "Microsoft.NETCore.Platforms",
+                  "Version": "1.1.0"
+                },
+                {
+                  "Key": "NETStandard.Library",
+                  "Version": "1.6.1"
+                },
+                {
+                  "Key": "SharpDX",
+                  "Version": "4.2.0"
+                },
+                {
+                  "Key": "SharpDX.D3DCompiler",
+                  "Version": "4.2.0"
+                },
+                {
+                  "Key": "SharpDX.Direct2D1",
+                  "Version": "4.2.0"
+                },
+                {
+                  "Key": "SharpDX.Direct3D11",
+                  "Version": "4.2.0"
+                },
+                {
+                  "Key": "SharpDX.DXGI",
+                  "Version": "4.2.0"
+                },
+                {
+                  "Key": "SharpDX.Mathematics",
+                  "Version": "4.2.0"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Abyeon"
+            }
+          }
         }
       }
     },
@@ -371971,6 +372043,13 @@
       "Version": "10.0.14",
       "ReviewedBy": "reiichi001",
       "ReviewedAt": "2026-10-28T23:01:23.5818234Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Pictomancy",
+      "Version": "1.0.10",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-11-04T22:34:42.6475804Z"
     }
   ]
 }
