@@ -344792,6 +344792,54 @@
               "Submitter": "Abyeon"
             }
           }
+        },
+        "HitSpark": {
+          "BuiltCommit": "145caadaf07170c359ce139023542e3744f0825f",
+          "TimeBuilt": "2026-11-04T22:49:28.711315+00:00",
+          "EffectiveVersion": "0.1.0.0",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "0.1.0.0": {
+              "TimeReleased": "2026-11-04T22:49:28.7113604+00:00",
+              "Changelog": "# Version 0.1.0\n\n- Redraws every combat text\n- 8 Presets\n- Editor Feature and Preset Import/Export\n- Hide Party numbers and manage size\n- Live Test Mode\n- Follows the game flying text and pop-up options, hidden in Cutscenes, GPose\n- Error handling to reproduce Native Mode if something fails\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "GitHixy"
+            }
+          }
+        },
+        "FateLimit": {
+          "BuiltCommit": "7a62c45efaa634786e71b07a6d7e3a24e583d3a9",
+          "TimeBuilt": "2026-11-04T22:49:37.0370546+00:00",
+          "EffectiveVersion": "0.1.0.0",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "0.1.0.0": {
+              "TimeReleased": "2026-11-04T22:49:37.037056+00:00",
+              "Changelog": "# Version 0.1.0\n\n- Five Border styles\n- show borders all the time or only when getting closer to the limit\n- Option to only show the border in the fate that you\u0027re currently in\n- borders follow terrain\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "GitHixy"
+            }
+          }
         }
       }
     },

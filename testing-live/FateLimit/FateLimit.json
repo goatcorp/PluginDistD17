@@ -1,0 +1,28 @@
+{
+  "Author": "GitHixy",
+  "Name": "FateLimit",
+  "InternalName": "FateLimit",
+  "AssemblyVersion": "0.1.0.0",
+  "Description": "FateLimit draws the border of FATE areas right in the world, so you always know where the fight ends and never lose your level sync by wandering out.\n\nWHAT YOU GET\n\n- Five border styles made to sit in Eorzea: Aether ring, Barrier wall, Marching dashes, Crystal runes and FATE ember.\n- Two ways to show them: always, or only when you get close to the edge of the FATE you're in.\n- A warning colour that creeps in as you near the edge, an on-screen banner with the distance left and a marker on the closest point of the border.\n- Borders that follow the ground over hills and slopes instead of floating through them.\n- Colour, thickness, height, spacing, glow and animation for every style, with a live preview in the settings.\n\nGETTING STARTED\n\nType /fatelimit (or /fl) to open the settings. /fatelimit test places a practice FATE around you so you can try every style without waiting for a real one.\nFound a bug or have an idea? Settings > Diagnostics copies a report and opens a GitHub issue for you, or come and talk about it on Discord: https://discord.gg/9kjUjWDBkJ\n\nPLAYS BY THE RULES\n\nFateLimit is purely visual: it only reads where FATEs are, which the game already shows on your map, and draws over the screen. It never moves your character or sends anything to the game. Settings are stored locally and nothing is ever uploaded.",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/GitHixy/FateLimit",
+  "Tags": [
+    "fate",
+    "fates",
+    "border",
+    "area",
+    "overlay",
+    "level sync",
+    "ui",
+    "visual"
+  ],
+  "DalamudApiLevel": 15,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "Punchline": "See the edge of every FATE, and know before you step out of it.",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "testing-live"
+}
