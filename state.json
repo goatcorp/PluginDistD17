@@ -243056,9 +243056,9 @@
           }
         },
         "PvPAnnouncer": {
-          "BuiltCommit": "5f19a911fee24e3a627675f3481b6531934f042a",
-          "TimeBuilt": "2026-11-04T18:11:47.9042587+00:00",
-          "EffectiveVersion": "1.7.0.0",
+          "BuiltCommit": "26b3f292814253daec472df4d84eae33eff415ee",
+          "TimeBuilt": "2026-11-07T05:17:14.1578031+00:00",
+          "EffectiveVersion": "1.7.0.1",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -243563,6 +243563,42 @@
             },
             "1.7.0.0": {
               "TimeReleased": "2026-11-04T18:11:47.9043058+00:00",
+              "Changelog": "Lyse is here! 190\u002B new voicelines across all announcers. New duty support Settings. Lots of fixes.",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/Ottermandias/OtterGui.git",
+                  "Version": "79771ee5f3d463f02c63bebbedaa0aff49e59718"
+                },
+                {
+                  "Key": "https://github.com/Ottermandias/OtterGuiInternal.git",
+                  "Version": "fb9de85711973eba4b02156ece9865ba166020af"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "JetBrains.Annotations",
+                  "Version": "2024.3.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "9.0.2"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "9.0.2"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "spide-r"
+            },
+            "1.7.0.1": {
+              "TimeReleased": "2026-11-07T05:17:14.1578046+00:00",
               "Changelog": "Lyse is here! 190\u002B new voicelines across all announcers. New duty support Settings. Lots of fixes.",
               "UsedNeeds": [
                 {
@@ -274392,9 +274428,9 @@
           }
         },
         "ThingsToDoInEorzea": {
-          "BuiltCommit": "5056fd0b3297d4020c9f36106146a9c412595c5e",
-          "TimeBuilt": "2026-10-26T23:19:05.0829749+00:00",
-          "EffectiveVersion": "1.0.1.0",
+          "BuiltCommit": "58f0ca21b1f5c1ae4ae9f287af4bbd1b33e462d9",
+          "TimeBuilt": "2026-11-07T05:17:03.7935529+00:00",
+          "EffectiveVersion": "1.0.1.1",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -274428,13 +274464,29 @@
               ],
               "Reviewer": "reiichi001",
               "Submitter": "Bronya-Rand"
+            },
+            "1.0.1.1": {
+              "TimeReleased": "2026-11-07T05:17:03.7935845+00:00",
+              "Changelog": "# What\u0027s New?\n- Fixed a bug for items where the wrong item ID got displayed.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Bronya-Rand"
             }
           }
         },
         "ProxyPlayer": {
-          "BuiltCommit": "7f96266c1342bb25438aa0de66be74202715557c",
-          "TimeBuilt": "2026-10-26T23:10:03.769212+00:00",
-          "EffectiveVersion": "1.1.2.0",
+          "BuiltCommit": "fae2a649bc0b561b27624bb374e91c9c7f613e5d",
+          "TimeBuilt": "2026-11-07T05:17:23.8843668+00:00",
+          "EffectiveVersion": "1.1.3.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.1.2.0": {
@@ -274459,6 +274511,30 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "Bronya-Rand"
+            },
+            "1.1.3.0": {
+              "TimeReleased": "2026-11-07T05:17:23.8843685+00:00",
+              "Changelog": "# What\u0027s New?\n- Added the ability to resize the ProxyPlayer window in either layout modes.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "2.0.5"
+                },
+                {
+                  "Key": "Tmds.DBus.Generator",
+                  "Version": "0.95.1"
+                },
+                {
+                  "Key": "Tmds.DBus.Protocol",
+                  "Version": "0.95.1"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "Bronya-Rand"
             }
           }
@@ -343042,9 +343118,9 @@
           }
         },
         "Karaoke": {
-          "BuiltCommit": "089d4d10d6ff12d2bf316981ed201b1ace68f8ad",
-          "TimeBuilt": "2026-08-24T22:34:59.1915651+00:00",
-          "EffectiveVersion": "0.0.5.1",
+          "BuiltCommit": "a66b9a32985690bd2b0fe41758b5a58f0e17bd86",
+          "TimeBuilt": "2026-11-07T05:17:34.034696+00:00",
+          "EffectiveVersion": "0.0.6.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.2.2": {
@@ -343562,6 +343638,134 @@
             "0.0.5.1": {
               "TimeReleased": "2026-08-24T22:34:59.1916101+00:00",
               "Changelog": "**Fixes**\n- Fixed issue with parsing songs in regions that use other number formats than the US\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Hosting",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Abstractions",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Binder",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.CommandLine",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.EnvironmentVariables",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.FileExtensions",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Json",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.UserSecrets",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Diagnostics",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Diagnostics.Abstractions",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileProviders.Abstractions",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileProviders.Physical",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileSystemGlobbing",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Hosting.Abstractions",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Configuration",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Console",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Debug",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.EventLog",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.EventSource",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options.ConfigurationExtensions",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Primitives",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "System.Diagnostics.EventLog",
+                  "Version": "10.0.10"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "RajahOmen"
+            },
+            "0.0.6.0": {
+              "TimeReleased": "2026-11-07T05:17:34.0346978+00:00",
+              "Changelog": "**Added**\n- Color customization for the lyric window\n**Fixes**\n- Fixed color of server info bar being wrong/always using dark theme colors\n- Fixed lyric window jumping around when different songs played\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
