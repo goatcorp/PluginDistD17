@@ -274538,6 +274538,30 @@
               "Submitter": "Bronya-Rand"
             }
           }
+        },
+        "BardicMemory": {
+          "BuiltCommit": "68c30ca36bc7c9e7fd527d5bf5c00146b7c781fa",
+          "TimeBuilt": "2026-11-08T22:51:03.8666471+00:00",
+          "EffectiveVersion": "0.0.1.0",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "0.0.1.0": {
+              "TimeReleased": "2026-11-08T22:51:03.8666936+00:00",
+              "Changelog": "- Plays half a second of a random orchestrion track for you to name, worth six points.\n- Stretch the clip through 1, 2, 4, 8 and 15 seconds, dropping a point each time.\n- Filter the pool by orchestrion category or leave out tracks you have already solved.\n- Keeps a history of every round with totals, streaks and solve rate.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "OOFGamesss"
+            }
+          }
         }
       }
     },
@@ -345086,9 +345110,9 @@
           }
         },
         "Housingway": {
-          "BuiltCommit": "8261b9f5a567c5d532af58469cefbb43dee63b3b",
-          "TimeBuilt": "2026-11-04T22:34:42.5611435+00:00",
-          "EffectiveVersion": "1.0.2.1",
+          "BuiltCommit": "94bcd6720f20590667d4af7a2c49f3f6700dede5",
+          "TimeBuilt": "2026-11-08T22:51:18.8800653+00:00",
+          "EffectiveVersion": "1.0.2.2",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.2.1": {
@@ -345153,6 +345177,70 @@
                 }
               ],
               "Reviewer": "nathanctech",
+              "Submitter": "Abyeon"
+            },
+            "1.0.2.2": {
+              "TimeReleased": "2026-11-08T22:51:18.8800684+00:00",
+              "Changelog": "\u002B Fix crashes caused by not sanity checking pointers.\r\n\u002B Slight refactor of furniture tracking.\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "JetBrains.Annotations",
+                  "Version": "2026.2.0"
+                },
+                {
+                  "Key": "Pictomancy",
+                  "Version": "1.0.10"
+                },
+                {
+                  "Key": "KamiToolKit",
+                  "Version": "1.1.2"
+                },
+                {
+                  "Key": "Microsoft.NETCore.Platforms",
+                  "Version": "1.1.0"
+                },
+                {
+                  "Key": "NETStandard.Library",
+                  "Version": "1.6.1"
+                },
+                {
+                  "Key": "SharpDX",
+                  "Version": "4.2.0"
+                },
+                {
+                  "Key": "SharpDX.D3DCompiler",
+                  "Version": "4.2.0"
+                },
+                {
+                  "Key": "SharpDX.Direct2D1",
+                  "Version": "4.2.0"
+                },
+                {
+                  "Key": "SharpDX.Direct3D11",
+                  "Version": "4.2.0"
+                },
+                {
+                  "Key": "SharpDX.DXGI",
+                  "Version": "4.2.0"
+                },
+                {
+                  "Key": "SharpDX.Mathematics",
+                  "Version": "4.2.0"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                }
+              ],
+              "Reviewer": "reiichi001",
               "Submitter": "Abyeon"
             }
           }
