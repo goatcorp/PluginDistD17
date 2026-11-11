@@ -2,7 +2,7 @@
   "Author": "GitHixy",
   "Name": "HitSpark",
   "InternalName": "HitSpark",
-  "AssemblyVersion": "0.1.0.0",
+  "AssemblyVersion": "0.2.0.0",
   "Description": "HitSpark replaces Final Fantasy XIV's combat text with its own renderer: better fonts, tuned motion and real impact on critical hits.\n\nWHAT YOU GET\n\n- Every kind of combat text redrawn: damage dealt and taken, healing, misses and evades, status effects, experience, crafting and loot.\n- Eight built-in presets, each a complete look: Classic+, Heroic, Tally, Onslaught, Elemental, Grim, Minimal and Retro.\n- Real motion: arcs, fountains, rising and falling paths, scrolling columns, and punch, shake, flash, sparks and trails on crits.\n- Multi-hits and damage over time that roll up into one number, with DoT ticks in their own colour.\n- Other players' numbers shown smaller, or hidden, for your party and for everyone else.\n- A style editor for every category with a live preview, and presets you can share as a short code.\n\nGETTING STARTED\n\nType /hitspark (or /hs) to open the settings and pick a preset. /hitspark test plays sample numbers on you and your target, even out of combat.\nFound a bug or have an idea? Settings > Diagnostics copies a report and opens a GitHub issue for you.\n\nPLAYS BY THE RULES\n\nHitSpark is purely cosmetic: it only redraws text the game already shows you and follows the game's own flying text and pop-up text options. If a game update breaks it, the game's own numbers come back on their own. Settings and presets are stored locally and nothing is ever sent anywhere.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/GitHixy/HitSpark",

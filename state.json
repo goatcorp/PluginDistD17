@@ -345934,9 +345934,9 @@
           }
         },
         "HitSpark": {
-          "BuiltCommit": "145caadaf07170c359ce139023542e3744f0825f",
-          "TimeBuilt": "2026-11-04T22:49:28.711315+00:00",
-          "EffectiveVersion": "0.1.0.0",
+          "BuiltCommit": "bd17c9b7447dea7e1e05df37256b82f4448799c2",
+          "TimeBuilt": "2026-11-11T15:17:37.2268833+00:00",
+          "EffectiveVersion": "0.2.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.0.0": {
@@ -345953,6 +345953,22 @@
                 }
               ],
               "Reviewer": "nathanctech",
+              "Submitter": "GitHixy"
+            },
+            "0.2.0.0": {
+              "TimeReleased": "2026-11-11T15:17:37.2269054+00:00",
+              "Changelog": "We added support for MultiHit since it was requested as a feature.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "perchbirdd",
               "Submitter": "GitHixy"
             }
           }
