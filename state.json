@@ -74852,9 +74852,9 @@
           }
         },
         "OofPlugin": {
-          "BuiltCommit": "d412dace211d77205bfc88697a2cb05e7aa9de16",
-          "TimeBuilt": "2026-08-04T20:40:47.7352854+00:00",
-          "EffectiveVersion": "1.4.0.0",
+          "BuiltCommit": "2d90f4b6a983cd0b92e348bb71f022bcfe6c35b9",
+          "TimeBuilt": "2026-11-11T15:22:37.1011055+00:00",
+          "EffectiveVersion": "1.4.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.3.0.0": {
@@ -75012,6 +75012,26 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "codelastnight"
+            },
+            "1.4.1.0": {
+              "TimeReleased": "2026-11-11T15:22:37.1011557+00:00",
+              "Changelog": "- auto-switch audio output when a change in device is detected.\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "SoundFlow",
+                  "Version": "1.4.0"
+                }
+              ],
+              "Reviewer": "perchbirdd",
               "Submitter": "codelastnight"
             }
           }
