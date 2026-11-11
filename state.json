@@ -261772,9 +261772,9 @@
           }
         },
         "Altoholic": {
-          "BuiltCommit": "95ce766941ba00000ad6bd4ce62e6e060652b464",
-          "TimeBuilt": "2026-10-28T23:01:23.4778008+00:00",
-          "EffectiveVersion": "1.16.3.0",
+          "BuiltCommit": "80fb263ff010c597654be21789ef368961d2fa5f",
+          "TimeBuilt": "2026-11-11T15:05:42.6923737+00:00",
+          "EffectiveVersion": "1.16.4.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -264771,6 +264771,50 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "Sohtoren"
+            },
+            "1.16.4.0": {
+              "TimeReleased": "2026-11-11T15:05:42.6924017+00:00",
+              "Changelog": "- **Progress**: Adding The Path Infernal (FFXVI event) 2026 and rewards \n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "Dapper",
+                  "Version": "2.1.89"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "2.0.5"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite.Core",
+                  "Version": "10.0.14"
+                },
+                {
+                  "Key": "SQLitePCLRaw.bundle_e_sqlite3",
+                  "Version": "3.0.5"
+                },
+                {
+                  "Key": "SQLite",
+                  "Version": "3.53.4"
+                },
+                {
+                  "Key": "SQLitePCLRaw.config.e_sqlite3",
+                  "Version": "3.0.5"
+                },
+                {
+                  "Key": "SQLitePCLRaw.core",
+                  "Version": "3.0.5"
+                },
+                {
+                  "Key": "SQLitePCLRaw.provider.e_sqlite3",
+                  "Version": "3.0.5"
+                }
+              ],
+              "Reviewer": "perchbirdd",
               "Submitter": "Sohtoren"
             }
           }
