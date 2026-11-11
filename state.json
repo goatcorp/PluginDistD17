@@ -265480,9 +265480,9 @@
           }
         },
         "LootView": {
-          "BuiltCommit": "ca691cf373efa6c88955bacf45148dded0dca631",
-          "TimeBuilt": "2026-10-28T15:16:35.1638145+00:00",
-          "EffectiveVersion": "1.6.4.0",
+          "BuiltCommit": "d2fbbb99134932a98961b53a9473d5a55c0cbaf2",
+          "TimeBuilt": "2026-11-11T15:08:37.3495226+00:00",
+          "EffectiveVersion": "1.6.5.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.3.1.0": {
@@ -265667,6 +265667,22 @@
                 }
               ],
               "Reviewer": "nathanctech",
+              "Submitter": "GitHixy"
+            },
+            "1.6.5.0": {
+              "TimeReleased": "2026-11-11T15:08:37.3495748+00:00",
+              "Changelog": "# Version 1.6.5\n\n- Jar on its own: the loot jar can now stay on screen by itself, just the glass with no frame. Move it, resize it from its edges and lock it in place from Settings \u003E General. It fades back while nothing is happening and comes forward when something drops in.\n- The loot jar now holds exactly what the loot list shows: clearing the list pours it out, and drops that leave the list leave the jar too.\n- Ticker: Ctrl\u002Bclick a drop, or pick Dismiss from its right-click menu, to clear it early. A broom button next to the ticker\u0027s controls clears every drop at once.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "perchbirdd",
               "Submitter": "GitHixy"
             }
           }
