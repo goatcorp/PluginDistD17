@@ -201373,9 +201373,9 @@
           }
         },
         "EasyTranslate.DalamudPlugin": {
-          "BuiltCommit": "a4bb775e199faf612ee6f0138070667d9c67b77d",
-          "TimeBuilt": "2026-04-30T03:43:27.4069855+00:00",
-          "EffectiveVersion": "7.0.0.0",
+          "BuiltCommit": "4b6f606365d3997f1ae41dc795f62c0bb60c7169",
+          "TimeBuilt": "2026-11-12T16:34:10.0374455+00:00",
+          "EffectiveVersion": "7.0.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "2.0.0.0": {
@@ -201777,6 +201777,106 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "Olaren15"
+            },
+            "7.0.1.0": {
+              "TimeReleased": "2026-11-12T16:34:10.0374981+00:00",
+              "Changelog": "- Code cleanup\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "10.0.7"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "10.0.7"
+                },
+                {
+                  "Key": "Microsoft.Extensions.ObjectPool",
+                  "Version": "10.0.7"
+                },
+                {
+                  "Key": "Microsoft.NET.Test.Sdk",
+                  "Version": "18.5.1"
+                },
+                {
+                  "Key": "Moq",
+                  "Version": "4.20.72"
+                },
+                {
+                  "Key": "xunit",
+                  "Version": "2.9.3"
+                },
+                {
+                  "Key": "xunit.runner.visualstudio",
+                  "Version": "3.1.5"
+                },
+                {
+                  "Key": "Castle.Core",
+                  "Version": "5.1.1"
+                },
+                {
+                  "Key": "Microsoft.CodeCoverage",
+                  "Version": "18.5.1"
+                },
+                {
+                  "Key": "Microsoft.TestPlatform.ObjectModel",
+                  "Version": "18.5.1"
+                },
+                {
+                  "Key": "Microsoft.TestPlatform.TestHost",
+                  "Version": "18.5.1"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.3"
+                },
+                {
+                  "Key": "System.Diagnostics.EventLog",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "xunit.abstractions",
+                  "Version": "2.0.3"
+                },
+                {
+                  "Key": "xunit.analyzers",
+                  "Version": "1.18.0"
+                },
+                {
+                  "Key": "xunit.assert",
+                  "Version": "2.9.3"
+                },
+                {
+                  "Key": "xunit.core",
+                  "Version": "2.9.3"
+                },
+                {
+                  "Key": "xunit.extensibility.core",
+                  "Version": "2.9.3"
+                },
+                {
+                  "Key": "xunit.extensibility.execution",
+                  "Version": "2.9.3"
+                },
+                {
+                  "Key": "Snapshooter.Xunit",
+                  "Version": "1.3.1"
+                },
+                {
+                  "Key": "Snapshooter",
+                  "Version": "1.3.1"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                }
+              ],
+              "Reviewer": "perchbirdd",
               "Submitter": "Olaren15"
             }
           }
@@ -275300,9 +275400,9 @@
           }
         },
         "MouseLock": {
-          "BuiltCommit": "3135c4af56ae28405dab1af3c7a4c9bd370dc6c7",
-          "TimeBuilt": "2026-11-04T16:40:35.6424009+00:00",
-          "EffectiveVersion": "1.0.1.7",
+          "BuiltCommit": "2954b7ca2b447f876ca1dc6fb105ffd9c0b5f7c7",
+          "TimeBuilt": "2026-11-12T16:34:20.9545115+00:00",
+          "EffectiveVersion": "1.0.1.8",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.3": {
@@ -275479,6 +275579,26 @@
                 }
               ],
               "Reviewer": "nebel",
+              "Submitter": "Zeffuro"
+            },
+            "1.0.1.8": {
+              "TimeReleased": "2026-11-12T16:34:20.9545127+00:00",
+              "Changelog": "# 1.0.1.8\n- Added an option to use LMB for camera look.\n- Added movement setup tips, a Legacy movement toggle and a shortcut to Character Configuration.\n- Fixed MouseLook not resuming after closing a window opened through the main menu.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "KamiToolKit",
+                  "Version": "2.2.49"
+                }
+              ],
+              "Reviewer": "perchbirdd",
               "Submitter": "Zeffuro"
             }
           }
