@@ -1,0 +1,27 @@
+{
+  "Author": "t3sco (based on Mappy by MidoriKami, harbingerftw)",
+  "Name": "Gratis",
+  "InternalName": "Gratis",
+  "AssemblyVersion": "0.1.1.0",
+  "Description": "Replaces the in-game map with a flat, minimal ImGui map: search, lenses, filters, travel offers, window presets and dozens of small QoL tweaks. Based on Mappy by MidoriKami and harbingerftw. Open with /gratis.",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/t3sco/Gratis",
+  "Tags": [
+    "map",
+    "mapping",
+    "overlay",
+    "utility"
+  ],
+  "CategoryTags": [
+    "ui"
+  ],
+  "DalamudApiLevel": 15,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "Punchline": "A flat, minimal, quality-of-life-packed map.",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "testing-live"
+}

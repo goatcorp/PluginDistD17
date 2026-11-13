@@ -347484,6 +347484,118 @@
               "Submitter": "GitHixy"
             }
           }
+        },
+        "Gratis": {
+          "BuiltCommit": "d5880cde39167ad52ded1020eb085a3c61a04c01",
+          "TimeBuilt": "2026-11-13T18:04:56.4070346+00:00",
+          "EffectiveVersion": "0.1.1.0",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "0.1.1.0": {
+              "TimeReleased": "2026-11-13T18:04:56.4070783+00:00",
+              "Changelog": "Gratis 0.1.0.7\n\nFirst submission to the testing channel.\n\n- A flat, minimal replacement for the in-game map: search, lenses, filters, quest log and window presets.\n- Click a quest marker to open that quest in the Quest Log.\n- Instance quests point at the entry NPC or door.\n- A separate map size and position inside duties.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "perchbirdd",
+              "Submitter": "t3sco"
+            }
+          }
+        },
+        "FontChanger.DalamudPlugin": {
+          "BuiltCommit": "ce7f9e49d14ada7eba34d5253c6550a2767e7a59",
+          "TimeBuilt": "2026-11-13T18:05:17.0902365+00:00",
+          "EffectiveVersion": "0.0.0.1",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "0.0.0.1": {
+              "TimeReleased": "2026-11-13T18:05:17.0902385+00:00",
+              "Changelog": "Testing release",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/Soreepeong/xivres.git",
+                  "Version": "a89f0d92d260ce40ba1d4327ed237ef37edcfcd0"
+                },
+                {
+                  "Key": "Microsoft.CodeAnalysis.Analyzers",
+                  "Version": "3.3.4"
+                },
+                {
+                  "Key": "Microsoft.CodeAnalysis.CSharp",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "NETStandard.Library",
+                  "Version": "2.0.3"
+                },
+                {
+                  "Key": "Microsoft.CodeAnalysis.Common",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "Microsoft.NETCore.Platforms",
+                  "Version": "1.1.0"
+                },
+                {
+                  "Key": "System.Buffers",
+                  "Version": "4.5.1"
+                },
+                {
+                  "Key": "System.Collections.Immutable",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "System.Memory",
+                  "Version": "4.5.4"
+                },
+                {
+                  "Key": "System.Numerics.Vectors",
+                  "Version": "4.4.0"
+                },
+                {
+                  "Key": "System.Reflection.Metadata",
+                  "Version": "5.0.0"
+                },
+                {
+                  "Key": "System.Runtime.CompilerServices.Unsafe",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "System.Text.Encoding.CodePages",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "System.Threading.Tasks.Extensions",
+                  "Version": "4.5.4"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "FreeTypeSharp",
+                  "Version": "3.1.0"
+                },
+                {
+                  "Key": "JetBrains.Annotations",
+                  "Version": "2026.2.0"
+                }
+              ],
+              "Reviewer": "perchbirdd",
+              "Submitter": "Soreepeong"
+            }
+          }
         }
       }
     },
@@ -375029,6 +375141,34 @@
       "Version": "10.0.14",
       "ReviewedBy": "perchbirdd",
       "ReviewedAt": "2026-11-13T16:43:53.4733275Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/Soreepeong/xivres.git",
+      "Version": "a89f0d92d260ce40ba1d4327ed237ef37edcfcd0",
+      "ReviewedBy": "perchbirdd",
+      "ReviewedAt": "2026-11-13T18:05:17.1545964Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.CodeAnalysis.CSharp",
+      "Version": "4.3.0",
+      "ReviewedBy": "perchbirdd",
+      "ReviewedAt": "2026-11-13T18:05:17.1546336Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.CodeAnalysis.Common",
+      "Version": "4.3.0",
+      "ReviewedBy": "perchbirdd",
+      "ReviewedAt": "2026-11-13T18:05:17.1546338Z"
+    },
+    {
+      "Type": 1,
+      "Key": "FreeTypeSharp",
+      "Version": "3.1.0",
+      "ReviewedBy": "perchbirdd",
+      "ReviewedAt": "2026-11-13T18:05:17.154635Z"
     }
   ]
 }
