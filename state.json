@@ -137683,9 +137683,9 @@
           }
         },
         "SimpleTweaksPlugin": {
-          "BuiltCommit": "c94a9ebc1869cd221964aedaf01f6faaebe736bc",
-          "TimeBuilt": "2026-10-17T16:50:28.6855177+00:00",
-          "EffectiveVersion": "1.15.0.8",
+          "BuiltCommit": "d6a27f1acf7eb0da4a89459fe23960a9ded769fb",
+          "TimeBuilt": "2026-11-13T16:44:17.0023026+00:00",
+          "EffectiveVersion": "1.15.0.9",
           "MinimumVersion": null,
           "Changelogs": {
             "1.10.3.1": {
@@ -138486,6 +138486,26 @@
                 }
               ],
               "Reviewer": "nebel",
+              "Submitter": "Caraxi"
+            },
+            "1.15.0.9": {
+              "TimeReleased": "2026-11-13T16:44:17.0023038+00:00",
+              "Changelog": "- Fix datacentre on title screen (*Emma*)",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "KamiToolKit",
+                  "Version": "1.1.23"
+                }
+              ],
+              "Reviewer": "perchbirdd",
               "Submitter": "Caraxi"
             }
           }
@@ -253372,9 +253392,9 @@
           }
         },
         "BetterFriendList": {
-          "BuiltCommit": "d6ba207b6864a4e7f9ba7b9ba9ad03b57ef59098",
-          "TimeBuilt": "2026-09-13T21:21:51.5601361+00:00",
-          "EffectiveVersion": "2.1.4.3",
+          "BuiltCommit": "c9528d29b6036850f0459cabce230e4746c37c28",
+          "TimeBuilt": "2026-11-13T16:44:08.2129373+00:00",
+          "EffectiveVersion": "2.1.4.4",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.1.0": {
@@ -253731,6 +253751,46 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "devckuw"
+            },
+            "2.1.4.4": {
+              "TimeReleased": "2026-11-13T16:44:08.2129397+00:00",
+              "Changelog": "v2.1.4.4:\r\nset name to (Unable to Retrieve) if no name found\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit.git",
+                  "Version": "7b98ee4ea14cc348fba0ed729359c95b31c84a43"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "NetStone",
+                  "Version": "1.4.1"
+                },
+                {
+                  "Key": "HtmlAgilityPack",
+                  "Version": "1.11.46"
+                },
+                {
+                  "Key": "Karashiiro.HtmlAgilityPack.CssSelectors.NetCoreFork",
+                  "Version": "0.0.2"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.3"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                }
+              ],
+              "Reviewer": "perchbirdd",
               "Submitter": "devckuw"
             }
           }
@@ -266640,9 +266700,9 @@
           }
         },
         "PFSearch": {
-          "BuiltCommit": "a087516aeee92788ad971be2142ce4ed0347bdf2",
-          "TimeBuilt": "2026-01-17T07:50:31.8329229+00:00",
-          "EffectiveVersion": "1.0.0.1",
+          "BuiltCommit": "37357a5d59f61729d53fba0096fc4bec83b32ca5",
+          "TimeBuilt": "2026-11-13T16:43:59.9980989+00:00",
+          "EffectiveVersion": "1.0.0.2",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -266675,6 +266735,22 @@
                 }
               ],
               "Reviewer": "philpax",
+              "Submitter": "nvrnight"
+            },
+            "1.0.0.2": {
+              "TimeReleased": "2026-11-13T16:43:59.9981007+00:00",
+              "Changelog": "Updated high end duties.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "2.0.5"
+                }
+              ],
+              "Reviewer": "perchbirdd",
               "Submitter": "nvrnight"
             }
           }
@@ -271040,9 +271116,9 @@
           }
         },
         "DiscordBotFFXIV": {
-          "BuiltCommit": "caaa4d7f873189a695101957d9dfc86a655560e7",
-          "TimeBuilt": "2026-07-09T04:28:17.2068842+00:00",
-          "EffectiveVersion": "1.1.2.4",
+          "BuiltCommit": "d207439686cccf95977dbebbffb474558fcbe2f5",
+          "TimeBuilt": "2026-11-13T16:43:53.3882477+00:00",
+          "EffectiveVersion": "1.1.2.5",
           "MinimumVersion": null,
           "Changelogs": {
             "1.1.2.2": {
@@ -271295,6 +271371,90 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "devckuw"
+            },
+            "1.1.2.5": {
+              "TimeReleased": "2026-11-13T16:43:53.3882675+00:00",
+              "Changelog": "v1.1.2.5:\nupdate to add support of obfuscated channels on discord\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "NetCord",
+                  "Version": "1.0.0-beta.30"
+                },
+                {
+                  "Key": "NetCord.Hosting",
+                  "Version": "1.0.0-beta.30"
+                },
+                {
+                  "Key": "NetCord.Hosting.AspNetCore",
+                  "Version": "1.0.0-beta.30"
+                },
+                {
+                  "Key": "NetCord.Hosting.Services",
+                  "Version": "1.0.0-beta.30"
+                },
+                {
+                  "Key": "NetCord.Services",
+                  "Version": "1.0.0-beta.30"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration",
+                  "Version": "10.0.14"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Abstractions",
+                  "Version": "10.0.14"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Binder",
+                  "Version": "10.0.14"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "10.0.14"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Diagnostics.Abstractions",
+                  "Version": "10.0.14"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileProviders.Abstractions",
+                  "Version": "10.0.14"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Hosting.Abstractions",
+                  "Version": "10.0.14"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "10.0.14"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options",
+                  "Version": "10.0.14"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options.ConfigurationExtensions",
+                  "Version": "10.0.14"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options.DataAnnotations",
+                  "Version": "10.0.14"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Primitives",
+                  "Version": "10.0.14"
+                }
+              ],
+              "Reviewer": "perchbirdd",
               "Submitter": "devckuw"
             }
           }
@@ -331658,9 +331818,9 @@
           }
         },
         "PFSearch": {
-          "BuiltCommit": "a087516aeee92788ad971be2142ce4ed0347bdf2",
-          "TimeBuilt": "2026-01-17T07:51:20.7162108+00:00",
-          "EffectiveVersion": "1.0.0.1",
+          "BuiltCommit": "37357a5d59f61729d53fba0096fc4bec83b32ca5",
+          "TimeBuilt": "2026-11-13T16:44:31.1931132+00:00",
+          "EffectiveVersion": "1.0.0.2",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -331693,6 +331853,22 @@
                 }
               ],
               "Reviewer": "philpax",
+              "Submitter": "nvrnight"
+            },
+            "1.0.0.2": {
+              "TimeReleased": "2026-11-13T16:44:31.1931147+00:00",
+              "Changelog": "New",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "2.0.5"
+                }
+              ],
+              "Reviewer": "perchbirdd",
               "Submitter": "nvrnight"
             }
           }
@@ -347230,9 +347406,9 @@
           }
         },
         "HitSpark": {
-          "BuiltCommit": "bd17c9b7447dea7e1e05df37256b82f4448799c2",
-          "TimeBuilt": "2026-11-11T15:17:37.2268833+00:00",
-          "EffectiveVersion": "0.2.0.0",
+          "BuiltCommit": "57931dd50665f0fafffa655960ef607510b616d3",
+          "TimeBuilt": "2026-11-13T16:44:25.2697142+00:00",
+          "EffectiveVersion": "0.3.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.0.0": {
@@ -347254,6 +347430,22 @@
             "0.2.0.0": {
               "TimeReleased": "2026-11-11T15:17:37.2269054+00:00",
               "Changelog": "We added support for MultiHit since it was requested as a feature.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "perchbirdd",
+              "Submitter": "GitHixy"
+            },
+            "0.3.0.0": {
+              "TimeReleased": "2026-11-13T16:44:25.2697159+00:00",
+              "Changelog": "- Positionals: on Monk, Dragoon, Ninja, Samurai, Reaper and Viper, a small \u0022Rear\u0022 or \u0022Flank\u0022 now shows above your damage when you land a positional, and \u0022Rear missed\u0022 or \u0022Flank missed\u0022 when you don\u0027t. They have their own styles in every preset, so you can restyle or hide them.\n- New \u0022Below game UI\u0022 option: numbers slide under your hotbars, party list, chat and the other game windows instead of covering them, while your target\u0027s bars and your own HP/MP stay on top. Off by default.\n- New \u0022Max distance\u0022 option: numbers from other people more than 50 yalms away, like a FATE across the map, are no longer shown. You can change the distance or turn the limit off.\n- Fixed numbers (DoT ticks above all) showing during cutscenes in the middle of a duty.\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -374718,6 +374910,125 @@
       "Version": "2.3.3",
       "ReviewedBy": "perchbirdd",
       "ReviewedAt": "2026-11-12T16:30:04.3469584Z"
+    },
+    {
+      "Type": 1,
+      "Key": "NetCord",
+      "Version": "1.0.0-beta.30",
+      "ReviewedBy": "perchbirdd",
+      "ReviewedAt": "2026-11-13T16:43:53.4732695Z"
+    },
+    {
+      "Type": 1,
+      "Key": "NetCord.Hosting",
+      "Version": "1.0.0-beta.30",
+      "ReviewedBy": "perchbirdd",
+      "ReviewedAt": "2026-11-13T16:43:53.4732798Z"
+    },
+    {
+      "Type": 1,
+      "Key": "NetCord.Hosting.AspNetCore",
+      "Version": "1.0.0-beta.30",
+      "ReviewedBy": "perchbirdd",
+      "ReviewedAt": "2026-11-13T16:43:53.4732799Z"
+    },
+    {
+      "Type": 1,
+      "Key": "NetCord.Hosting.Services",
+      "Version": "1.0.0-beta.30",
+      "ReviewedBy": "perchbirdd",
+      "ReviewedAt": "2026-11-13T16:43:53.47328Z"
+    },
+    {
+      "Type": 1,
+      "Key": "NetCord.Services",
+      "Version": "1.0.0-beta.30",
+      "ReviewedBy": "perchbirdd",
+      "ReviewedAt": "2026-11-13T16:43:53.4732803Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Extensions.Configuration",
+      "Version": "10.0.14",
+      "ReviewedBy": "perchbirdd",
+      "ReviewedAt": "2026-11-13T16:43:53.4732807Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Extensions.Configuration.Abstractions",
+      "Version": "10.0.14",
+      "ReviewedBy": "perchbirdd",
+      "ReviewedAt": "2026-11-13T16:43:53.4732808Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Extensions.Configuration.Binder",
+      "Version": "10.0.14",
+      "ReviewedBy": "perchbirdd",
+      "ReviewedAt": "2026-11-13T16:43:53.473281Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+      "Version": "10.0.14",
+      "ReviewedBy": "perchbirdd",
+      "ReviewedAt": "2026-11-13T16:43:53.4732814Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Extensions.Diagnostics.Abstractions",
+      "Version": "10.0.14",
+      "ReviewedBy": "perchbirdd",
+      "ReviewedAt": "2026-11-13T16:43:53.473326Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Extensions.FileProviders.Abstractions",
+      "Version": "10.0.14",
+      "ReviewedBy": "perchbirdd",
+      "ReviewedAt": "2026-11-13T16:43:53.4733263Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Extensions.Hosting.Abstractions",
+      "Version": "10.0.14",
+      "ReviewedBy": "perchbirdd",
+      "ReviewedAt": "2026-11-13T16:43:53.4733264Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Extensions.Logging.Abstractions",
+      "Version": "10.0.14",
+      "ReviewedBy": "perchbirdd",
+      "ReviewedAt": "2026-11-13T16:43:53.4733267Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Extensions.Options",
+      "Version": "10.0.14",
+      "ReviewedBy": "perchbirdd",
+      "ReviewedAt": "2026-11-13T16:43:53.4733269Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Extensions.Options.ConfigurationExtensions",
+      "Version": "10.0.14",
+      "ReviewedBy": "perchbirdd",
+      "ReviewedAt": "2026-11-13T16:43:53.473327Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Extensions.Options.DataAnnotations",
+      "Version": "10.0.14",
+      "ReviewedBy": "perchbirdd",
+      "ReviewedAt": "2026-11-13T16:43:53.4733272Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Extensions.Primitives",
+      "Version": "10.0.14",
+      "ReviewedBy": "perchbirdd",
+      "ReviewedAt": "2026-11-13T16:43:53.4733275Z"
     }
   ]
 }
