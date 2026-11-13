@@ -347596,6 +347596,30 @@
               "Submitter": "Soreepeong"
             }
           }
+        },
+        "ToucanTally": {
+          "BuiltCommit": "c95ae45b3db15f5f9cc27c8112cfdc1a0fff5930",
+          "TimeBuilt": "2026-11-13T18:32:23.7419792+00:00",
+          "EffectiveVersion": "1.0.0.0",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "1.0.0.0": {
+              "TimeReleased": "2026-11-13T18:32:23.7420257+00:00",
+              "Changelog": "Initial release.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "perchbirdd",
+              "Submitter": "astraeaffxiv"
+            }
+          }
         }
       }
     },
