@@ -1,0 +1,18 @@
+{
+  "Author": "nesphy",
+  "Name": "Tether",
+  "InternalName": "Tether",
+  "AssemblyVersion": "1.3.0.0",
+  "Description": "Create a temporary chats for you and your friends, that are working inside a duty or locked instances. Add how many people u want, and manage it from there!",
+  "ApplicableVersion": "any",
+  "DalamudApiLevel": 15,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "Punchline": "Temporary groups for locked instances!",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "testing-live",
+  "RepoUrl": "https://github.com/nesforia/tether.git"
+}
