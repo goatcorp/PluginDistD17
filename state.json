@@ -276362,6 +276362,34 @@
               "Submitter": "OOFGamesss"
             }
           }
+        },
+        "ARealmReorganized": {
+          "BuiltCommit": "ea1eab8864a1a221d213481d2fa0329388378520",
+          "TimeBuilt": "2026-11-13T00:14:45.9907471+00:00",
+          "EffectiveVersion": "0.2.0.0",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "0.2.0.0": {
+              "TimeReleased": "2026-11-13T00:14:45.9907928+00:00",
+              "Changelog": "First stable release. Scans the Glamour Dresser for pieces that can move to the 7.5 Armoire, outfits included, highlights them in-game and flags duplicates and partial sets.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "KamiToolKit",
+                  "Version": "2.2.65"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "Nepharyas"
+            }
+          }
         }
       }
     },
