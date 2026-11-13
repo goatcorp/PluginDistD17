@@ -2,8 +2,8 @@
   "Author": "kalilistic, maintained by khayle",
   "Name": "SillyChat",
   "InternalName": "SillyChat",
-  "AssemblyVersion": "1.7.15.0",
-  "Description": "Allows you to translate player and NPC chat messages/bubbles.\nSupported languages include: Pirate, Urianger, Leet, Pig Latin, Turkey, Moogle & Chocobo.",
+  "AssemblyVersion": "1.7.16.0",
+  "Description": "Allows you to translate player and NPC chat messages/bubbles.\nSupported languages include: Pirate, Urianger, Leet, Pig Latin, Turkey, Moogle, Chocobo & Al Bhed.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/kalilistic/SillyChat",
   "Tags": [

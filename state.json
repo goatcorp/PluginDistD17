@@ -202743,9 +202743,9 @@
           }
         },
         "SillyChat": {
-          "BuiltCommit": "a984b941fa132259a4efdb4abb3b849fc378728f",
-          "TimeBuilt": "2026-05-02T17:30:02.7979169+00:00",
-          "EffectiveVersion": "1.7.15.0",
+          "BuiltCommit": "6c85dd1f26c56bc9076cda623b7a82051200901c",
+          "TimeBuilt": "2026-11-13T00:18:47.685267+00:00",
+          "EffectiveVersion": "1.7.16.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.7.1.0": {
@@ -202902,6 +202902,34 @@
                 }
               ],
               "Reviewer": "nebel",
+              "Submitter": "MKhayle"
+            },
+            "1.7.16.0": {
+              "TimeReleased": "2026-11-13T00:18:47.6853092+00:00",
+              "Changelog": "Add Al Bhed translation (as per sirbastian\u0027s request)\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "13.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.25"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "XivCommon",
+                  "Version": "9.0.0"
+                }
+              ],
+              "Reviewer": "reiichi001",
               "Submitter": "MKhayle"
             }
           }
