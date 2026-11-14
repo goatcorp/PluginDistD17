@@ -3,9 +3,9 @@
     "stable": {
       "Plugins": {
         "Dalamud.RichPresence": {
-          "BuiltCommit": "c6b414d4d860c548a563f3eb152a04b858e1ad04",
-          "TimeBuilt": "2026-10-27T06:30:19.4309003+00:00",
-          "EffectiveVersion": "2.1.1.1",
+          "BuiltCommit": "af354e86e80a0f305fd14300f8c8a19feb21a0f0",
+          "TimeBuilt": "2026-11-14T23:02:16.1868247+00:00",
+          "EffectiveVersion": "2.2.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "2.0.1.0": {
@@ -921,6 +921,34 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "Bronya-Rand"
+            },
+            "2.2.0.0": {
+              "TimeReleased": "2026-11-14T23:02:16.1868458+00:00",
+              "Changelog": "# What\u0027s New?\n- Added Native UI support (default on new installs)",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "b4b7cab18e3b60abb49391272acb421e35b52bad"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DiscordRichPresence",
+                  "Version": "1.6.1.70"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.1"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "Bronya-Rand"
             }
           }
