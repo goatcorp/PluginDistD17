@@ -2,7 +2,7 @@
   "Author": "t3sco (based on Mappy by MidoriKami, harbingerftw)",
   "Name": "Gratis",
   "InternalName": "Gratis",
-  "AssemblyVersion": "0.1.1.0",
+  "AssemblyVersion": "0.1.2.1",
   "Description": "Replaces the in-game map with a flat, minimal ImGui map: search, lenses, filters, travel offers, window presets and dozens of small QoL tweaks. Based on Mappy by MidoriKami and harbingerftw. Open with /gratis.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/t3sco/Gratis",

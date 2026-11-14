@@ -197732,9 +197732,9 @@
           }
         },
         "Snooper": {
-          "BuiltCommit": "dbd107ebcdb0ba9b67342fbe1788b07751073062",
-          "TimeBuilt": "2026-06-22T01:43:29.0487662+00:00",
-          "EffectiveVersion": "1.5.1.0",
+          "BuiltCommit": "406aa703ed69fe8627a97495229da6cc825ead44",
+          "TimeBuilt": "2026-11-14T23:09:22.6719814+00:00",
+          "EffectiveVersion": "1.6.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.3.0.0": {
@@ -197895,6 +197895,22 @@
                 }
               ],
               "Reviewer": "reiichi001",
+              "Submitter": "Maia-Everett"
+            },
+            "1.6.0.0": {
+              "TimeReleased": "2026-11-14T23:09:22.672011+00:00",
+              "Changelog": "It is now possible to remove the target player from a custom window. (Thanks Nerifyra!)",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "Maia-Everett"
             }
           }
@@ -347558,9 +347574,9 @@
           }
         },
         "Gratis": {
-          "BuiltCommit": "d5880cde39167ad52ded1020eb085a3c61a04c01",
-          "TimeBuilt": "2026-11-13T18:04:56.4070346+00:00",
-          "EffectiveVersion": "0.1.1.0",
+          "BuiltCommit": "843eb961ef1826620298fe140261b6eaf4b9cfe9",
+          "TimeBuilt": "2026-11-14T23:09:35.4676381+00:00",
+          "EffectiveVersion": "0.1.2.1",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.1.0": {
@@ -347577,6 +347593,22 @@
                 }
               ],
               "Reviewer": "perchbirdd",
+              "Submitter": "t3sco"
+            },
+            "0.1.2.1": {
+              "TimeReleased": "2026-11-14T23:09:35.4676395+00:00",
+              "Changelog": "Gratis 0.1.2.1\n\n- New FATE button beside the Quest Log: lists the FATEs on your map with level, progress, time left and distance. FATEs with the EXP bonus show a gold \u002B on the map.\n- New Shared FATE button: your Shared FATE progress in the Gratis style.\n- Your pet, party pets and striking dummies now appear on the map.\n- Grab any edge of the map to move it and any corner to resize it. Shift-drag also moves the window (on by default, can be switched off).\n- Map labels no longer flip between positions while your character runs.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "t3sco"
             }
           }
