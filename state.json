@@ -68946,9 +68946,9 @@
           }
         },
         "TrackyTrack": {
-          "BuiltCommit": "699d27f29e0bfc0a4237d232f22d956e64c1933a",
-          "TimeBuilt": "2026-10-28T15:16:25.9226276+00:00",
-          "EffectiveVersion": "1.7.5.0",
+          "BuiltCommit": "2ad506cc0ba969dd01b5b643856ad379f19f73ef",
+          "TimeBuilt": "2026-11-16T16:23:08.4069444+00:00",
+          "EffectiveVersion": "1.7.5.1",
           "MinimumVersion": null,
           "Changelogs": {
             "1.5.5.5": {
@@ -71573,6 +71573,42 @@
                 }
               ],
               "Reviewer": "nathanctech",
+              "Submitter": "Infiziert90"
+            },
+            "1.7.5.1": {
+              "TimeReleased": "2026-11-16T16:23:08.4069779+00:00",
+              "Changelog": "- Add Wrapped Gifts \u0026 Fete Presents\n- Fix missing table return\n- Move retainer history to simple table",
+              "UsedNeeds": [
+                {
+                  "Key": "CsvHelper",
+                  "Version": "33.1.0"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "MessagePack",
+                  "Version": "3.1.12"
+                },
+                {
+                  "Key": "MessagePack.Annotations",
+                  "Version": "3.1.12"
+                },
+                {
+                  "Key": "MessagePackAnalyzer",
+                  "Version": "3.1.12"
+                },
+                {
+                  "Key": "Microsoft.NET.StringTools",
+                  "Version": "17.11.4"
+                }
+              ],
+              "Reviewer": "perchbirdd",
               "Submitter": "Infiziert90"
             }
           }
@@ -375378,6 +375414,27 @@
       "Version": "4.0.0.1",
       "ReviewedBy": "perchbirdd",
       "ReviewedAt": "2026-11-13T19:25:52.5657861Z"
+    },
+    {
+      "Type": 1,
+      "Key": "MessagePack",
+      "Version": "3.1.12",
+      "ReviewedBy": "perchbirdd",
+      "ReviewedAt": "2026-11-16T16:23:08.4983429Z"
+    },
+    {
+      "Type": 1,
+      "Key": "MessagePack.Annotations",
+      "Version": "3.1.12",
+      "ReviewedBy": "perchbirdd",
+      "ReviewedAt": "2026-11-16T16:23:08.4983613Z"
+    },
+    {
+      "Type": 1,
+      "Key": "MessagePackAnalyzer",
+      "Version": "3.1.12",
+      "ReviewedBy": "perchbirdd",
+      "ReviewedAt": "2026-11-16T16:23:08.4983614Z"
     }
   ]
 }
