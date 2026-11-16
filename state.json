@@ -276224,9 +276224,9 @@
           }
         },
         "QuestTextRecolor": {
-          "BuiltCommit": "d3d7279ef003c7c4cdfe370f6cc7a5a82da63d31",
-          "TimeBuilt": "2026-11-02T20:57:32.1105302+00:00",
-          "EffectiveVersion": "1.4.1.0",
+          "BuiltCommit": "c724816bee3c84c81fd031eb0cad2fe7504a91f4",
+          "TimeBuilt": "2026-11-16T16:51:56.1241472+00:00",
+          "EffectiveVersion": "1.4.2.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.3.1.0": {
@@ -276267,6 +276267,26 @@
                 }
               ],
               "Reviewer": "nathanctech",
+              "Submitter": "ScareCrowLegion"
+            },
+            "1.4.2.0": {
+              "TimeReleased": "2026-11-16T16:51:56.1241696+00:00",
+              "Changelog": "Quest Text Recolor v1.4.2\n\nImprovements:\n- Improved configuration validation and migration safety.\n- Improved Penumbra compatibility checks and error diagnostics.\n- Improved recovery when Penumbra becomes temporarily unavailable.\n- Expanded popup positioning limits to \u00B1500 px.\n- Improved diagnostic logging for quest popup components.\n\nStability:\n- Added configuration safety and migration tests.\n- Improved protection of existing user settings.\n- Verified configuration persistence across plugin reloads, updates, and game restarts.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Penumbra.Api",
+                  "Version": "5.13.1"
+                }
+              ],
+              "Reviewer": "perchbirdd",
               "Submitter": "ScareCrowLegion"
             }
           }
@@ -347852,6 +347872,34 @@
               "Submitter": "nesforia"
             }
           }
+        },
+        "ChatterShade": {
+          "BuiltCommit": "6f982f032b598422a1be2d2dd5f69964a4919c0e",
+          "TimeBuilt": "2026-11-16T16:52:05.7047662+00:00",
+          "EffectiveVersion": "0.1.0.0",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "0.1.0.0": {
+              "TimeReleased": "2026-11-16T16:52:05.7047702+00:00",
+              "Changelog": "Updated dialogue styling UI and configuration experience. Improved compatibility with Simple Tweaks Talk Adjustments and native Talk styles. Removed forced Dalamud styling so the configuration windows respect the user\u0027s Dalamud theme.",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit.git",
+                  "Version": "1eaccb5c6d6fcc697f7e1b98b5528580f5edd201"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "perchbirdd",
+              "Submitter": "ScareCrowLegion"
+            }
+          }
         }
       }
     },
@@ -375467,6 +375515,13 @@
       "Version": "3.1.12",
       "ReviewedBy": "perchbirdd",
       "ReviewedAt": "2026-11-16T16:23:08.4983614Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/MidoriKami/KamiToolKit.git",
+      "Version": "1eaccb5c6d6fcc697f7e1b98b5528580f5edd201",
+      "ReviewedBy": "perchbirdd",
+      "ReviewedAt": "2026-11-16T16:52:05.7712682Z"
     }
   ]
 }
