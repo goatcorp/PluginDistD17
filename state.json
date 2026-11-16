@@ -3,9 +3,9 @@
     "stable": {
       "Plugins": {
         "Dalamud.RichPresence": {
-          "BuiltCommit": "af354e86e80a0f305fd14300f8c8a19feb21a0f0",
-          "TimeBuilt": "2026-11-14T23:02:16.1868247+00:00",
-          "EffectiveVersion": "2.2.0.0",
+          "BuiltCommit": "8a034ec61da95273014710621c37d0d36b8cc888",
+          "TimeBuilt": "2026-11-16T16:59:25.337212+00:00",
+          "EffectiveVersion": "2.2.0.1",
           "MinimumVersion": null,
           "Changelogs": {
             "2.0.1.0": {
@@ -949,6 +949,38 @@
                 }
               ],
               "Reviewer": "nathanctech",
+              "Submitter": "Bronya-Rand"
+            },
+            "2.2.0.1": {
+              "TimeReleased": "2026-11-16T16:59:25.3372358+00:00",
+              "Changelog": "# What\u0027s New?\n- (Native UI) Adjusted window size using KTK components.\n- (Native UI) Added multi-tag selection.\n- Added UI selection to select between ImGui or Native when executing \u0060/prp\u0060 or clicking Settings in the Plugin Installer on new/existing installs.\n- Fixed a bug after Patch 7.58 where RPC displayed the new \u0022main\u0022 data center over the actual data center region you are in.\n\nImGui UI stays the same.",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "b4b7cab18e3b60abb49391272acb421e35b52bad"
+                },
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit.Components",
+                  "Version": "4bc623758450a18dfa2710f5a2fd94eddf9bccc2"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DiscordRichPresence",
+                  "Version": "1.6.1.70"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.1"
+                }
+              ],
+              "Reviewer": "perchbirdd",
               "Submitter": "Bronya-Rand"
             }
           }
