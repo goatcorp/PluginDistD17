@@ -3,9 +3,9 @@
     "stable": {
       "Plugins": {
         "Dalamud.RichPresence": {
-          "BuiltCommit": "8a034ec61da95273014710621c37d0d36b8cc888",
-          "TimeBuilt": "2026-11-16T16:59:25.337212+00:00",
-          "EffectiveVersion": "2.2.0.1",
+          "BuiltCommit": "71cb919c1749769abde1d5cba5ae8f267698cf18",
+          "TimeBuilt": "2026-11-16T23:42:02.4807491+00:00",
+          "EffectiveVersion": "2.2.0.2",
           "MinimumVersion": null,
           "Changelogs": {
             "2.0.1.0": {
@@ -981,6 +981,38 @@
                 }
               ],
               "Reviewer": "perchbirdd",
+              "Submitter": "Bronya-Rand"
+            },
+            "2.2.0.2": {
+              "TimeReleased": "2026-11-16T23:42:02.4808019+00:00",
+              "Changelog": "nofranz\n\nUsed the wrong sheet to get logical DC",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "b4b7cab18e3b60abb49391272acb421e35b52bad"
+                },
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit.Components",
+                  "Version": "4bc623758450a18dfa2710f5a2fd94eddf9bccc2"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DiscordRichPresence",
+                  "Version": "1.6.1.70"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.1"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "Bronya-Rand"
             }
           }
@@ -347598,9 +347630,9 @@
           }
         },
         "HitSpark": {
-          "BuiltCommit": "57931dd50665f0fafffa655960ef607510b616d3",
-          "TimeBuilt": "2026-11-13T16:44:25.2697142+00:00",
-          "EffectiveVersion": "0.3.0.0",
+          "BuiltCommit": "68fb759f36ebbce43c3fb75d6955c8fdeaead9cf",
+          "TimeBuilt": "2026-11-16T23:42:11.7642349+00:00",
+          "EffectiveVersion": "0.4.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.0.0": {
@@ -347649,6 +347681,22 @@
                 }
               ],
               "Reviewer": "perchbirdd",
+              "Submitter": "GitHixy"
+            },
+            "0.4.0.0": {
+              "TimeReleased": "2026-11-16T23:42:11.7642366+00:00",
+              "Changelog": "- New \u0022Colour vision\u0022 option (Settings \u2192 General): adjusts the colours of every preset, your own included, for protan, deutan or tritan colour blindness, so heals, crits and damage taken stay easy to tell apart. A before/after preview shows the difference.\n- New \u0022Game Default\u0022 preset: the game\u0027s fonts and plain colours with no extra effects, as close to the native fly text as HitSpark gets. A good base for a style of your own.\n- Each category now has its own opacity, fading the text together with its outline, shadow, caption and icon.\n- Letter case option: text as the game writes it, UPPER CASE, lower case or Capitalised Words.\n- The action name or label can now sit below, above, left or right of the number.\n- Fixed buff and debuff icons being stretched sideways.\n- Multi-hit: fixed the group and action switches glitching when one was turned off, and Shift \u002B click on the trash icon not removing a group.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "GitHixy"
             }
           }
