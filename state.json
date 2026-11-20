@@ -244920,9 +244920,9 @@
           }
         },
         "PvPAnnouncer": {
-          "BuiltCommit": "49a6b788f2803f8c2f60f7380d1217c3424213d6",
-          "TimeBuilt": "2026-11-11T15:39:49.5813777+00:00",
-          "EffectiveVersion": "1.7.0.2",
+          "BuiltCommit": "1f081d0293fff1eeb5ceb2eb45ec136724192a0d",
+          "TimeBuilt": "2026-11-20T01:50:57.9208291+00:00",
+          "EffectiveVersion": "1.7.0.3",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -245531,6 +245531,42 @@
                 }
               ],
               "Reviewer": "perchbirdd",
+              "Submitter": "spide-r"
+            },
+            "1.7.0.3": {
+              "TimeReleased": "2026-11-20T01:50:57.9208863+00:00",
+              "Changelog": "Minor fixes. New Urianger line.",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/Ottermandias/OtterGui.git",
+                  "Version": "79771ee5f3d463f02c63bebbedaa0aff49e59718"
+                },
+                {
+                  "Key": "https://github.com/Ottermandias/OtterGuiInternal.git",
+                  "Version": "fb9de85711973eba4b02156ece9865ba166020af"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "JetBrains.Annotations",
+                  "Version": "2024.3.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "9.0.2"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "9.0.2"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                }
+              ],
+              "Reviewer": "nathanctech",
               "Submitter": "spide-r"
             }
           }
@@ -347666,9 +347702,9 @@
           }
         },
         "HitSpark": {
-          "BuiltCommit": "68fb759f36ebbce43c3fb75d6955c8fdeaead9cf",
-          "TimeBuilt": "2026-11-16T23:42:11.7642349+00:00",
-          "EffectiveVersion": "0.4.0.0",
+          "BuiltCommit": "5a4c592e97c66461487d014dc40d255ce234fd70",
+          "TimeBuilt": "2026-11-20T01:51:07.5438382+00:00",
+          "EffectiveVersion": "0.5.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.0.0": {
@@ -347722,6 +347758,22 @@
             "0.4.0.0": {
               "TimeReleased": "2026-11-16T23:42:11.7642366+00:00",
               "Changelog": "- New \u0022Colour vision\u0022 option (Settings \u2192 General): adjusts the colours of every preset, your own included, for protan, deutan or tritan colour blindness, so heals, crits and damage taken stay easy to tell apart. A before/after preview shows the difference.\n- New \u0022Game Default\u0022 preset: the game\u0027s fonts and plain colours with no extra effects, as close to the native fly text as HitSpark gets. A good base for a style of your own.\n- Each category now has its own opacity, fading the text together with its outline, shadow, caption and icon.\n- Letter case option: text as the game writes it, UPPER CASE, lower case or Capitalised Words.\n- The action name or label can now sit below, above, left or right of the number.\n- Fixed buff and debuff icons being stretched sideways.\n- Multi-hit: fixed the group and action switches glitching when one was turned off, and Shift \u002B click on the trash icon not removing a group.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "GitHixy"
+            },
+            "0.5.0.0": {
+              "TimeReleased": "2026-11-20T01:51:07.5438396+00:00",
+              "Changelog": "- Critical, direct and critical direct auto-attacks now have their own styles, separate from your abilities. They start out looking exactly like before, your presets included, until you change them. Pet attacks count as auto-attacks.\n- New \u0022Caption font\u0022 option: the action name or label can use a different font from the number. It stays the same as the number unless you pick one.\n- Game Default now shows action names in the interface font under its serif numbers, like the game does.\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
