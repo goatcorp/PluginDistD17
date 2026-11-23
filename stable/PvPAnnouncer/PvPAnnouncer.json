@@ -2,7 +2,7 @@
   "Author": "spide-r",
   "Name": "NPCAnnouncer",
   "InternalName": "PvPAnnouncer",
-  "AssemblyVersion": "1.7.0.3",
+  "AssemblyVersion": "1.7.0.4",
   "Description": "This plugin lets NPCs react to your gameplay. It uses existing character voicelines and recontextualizes them with a bit of comedic timing.",
   "ApplicableVersion": "any",
   "Tags": [

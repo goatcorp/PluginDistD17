@@ -132754,9 +132754,9 @@
           }
         },
         "NotificationMaster": {
-          "BuiltCommit": "0a0b0054716843d6fc53348c285ea532dddf02db",
-          "TimeBuilt": "2026-05-14T18:42:59.5017325+00:00",
-          "EffectiveVersion": "2.1.1.16",
+          "BuiltCommit": "d9ae61e8d1c5767230c50c28d6a8930de77020f8",
+          "TimeBuilt": "2026-11-23T01:20:07.138795+00:00",
+          "EffectiveVersion": "2.1.1.17",
           "MinimumVersion": null,
           "Changelogs": {
             "2.1.1.7": {
@@ -132894,6 +132894,26 @@
                 {
                   "Key": "https://github.com/NightmareXIV/NotificationMasterAPI",
                   "Version": "c8da62b5a406705e0d5a3b30c87659056c9bd0c3"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "ECommons",
+                  "Version": "3.2.0.18"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Limiana"
+            },
+            "2.1.1.17": {
+              "TimeReleased": "2026-11-23T01:20:07.1388459+00:00",
+              "Changelog": "- Updated API and IPC",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/NightmareXIV/NotificationMasterAPI",
+                  "Version": "2e563ee694b63e993c2f291e002c91d6e28be3d9"
                 },
                 {
                   "Key": "DalamudPackager",
@@ -244920,9 +244940,9 @@
           }
         },
         "PvPAnnouncer": {
-          "BuiltCommit": "1f081d0293fff1eeb5ceb2eb45ec136724192a0d",
-          "TimeBuilt": "2026-11-20T01:50:57.9208291+00:00",
-          "EffectiveVersion": "1.7.0.3",
+          "BuiltCommit": "26e88b731311bf52161d4f842aded980544dd360",
+          "TimeBuilt": "2026-11-23T01:20:19.8078614+00:00",
+          "EffectiveVersion": "1.7.0.4",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -245564,6 +245584,42 @@
                 {
                   "Key": "DalamudPackager",
                   "Version": "15.0.0"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "spide-r"
+            },
+            "1.7.0.4": {
+              "TimeReleased": "2026-11-23T01:20:19.8078629+00:00",
+              "Changelog": "Fixes and tweaks.",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/Ottermandias/OtterGui.git",
+                  "Version": "79771ee5f3d463f02c63bebbedaa0aff49e59718"
+                },
+                {
+                  "Key": "https://github.com/Ottermandias/OtterGuiInternal.git",
+                  "Version": "fb9de85711973eba4b02156ece9865ba166020af"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "JetBrains.Annotations",
+                  "Version": "2024.3.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "9.0.2"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "9.0.2"
                 }
               ],
               "Reviewer": "nathanctech",
@@ -345470,9 +345526,9 @@
           }
         },
         "Karaoke": {
-          "BuiltCommit": "8ea1efacf8bdfce4d3d9f44cca0b43d9ccc753ac",
-          "TimeBuilt": "2026-11-10T00:21:24.0836658+00:00",
-          "EffectiveVersion": "0.0.7.0",
+          "BuiltCommit": "519c7b8661892c1481bd2d55477dc7ffc7868223",
+          "TimeBuilt": "2026-11-23T01:20:30.9446839+00:00",
+          "EffectiveVersion": "0.0.8.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.2.2": {
@@ -346246,6 +346302,134 @@
             "0.0.7.0": {
               "TimeReleased": "2026-11-10T00:21:24.0837069+00:00",
               "Changelog": "**Added**\n- Button to easily create new song lyric requests for songs without lyrics for evercold\n  - Create by clicking the button on the main karaoke window when a song is playing with no lyrics, or in the \u0022other\u0022 section of the config window\n  - Does some rudimentary checks for duplicate issues, but please double check existing issues regardless!\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Hosting",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Abstractions",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Binder",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.CommandLine",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.EnvironmentVariables",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.FileExtensions",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.Json",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Configuration.UserSecrets",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Diagnostics",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Diagnostics.Abstractions",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileProviders.Abstractions",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileProviders.Physical",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.FileSystemGlobbing",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Hosting.Abstractions",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Configuration",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Console",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Debug",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.EventLog",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.EventSource",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options.ConfigurationExtensions",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Primitives",
+                  "Version": "10.0.10"
+                },
+                {
+                  "Key": "System.Diagnostics.EventLog",
+                  "Version": "10.0.10"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "RajahOmen"
+            },
+            "0.0.8.0": {
+              "TimeReleased": "2026-11-23T01:20:30.9446861+00:00",
+              "Changelog": "**Fixed**\n- Issue where plugin window would adjust itself offscreen on start\n\n**Added**\n- Config option to explicitly set the lyric window grow direction\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -375690,6 +375874,13 @@
       "Version": "1eaccb5c6d6fcc697f7e1b98b5528580f5edd201",
       "ReviewedBy": "perchbirdd",
       "ReviewedAt": "2026-11-16T16:52:05.7712682Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/NightmareXIV/NotificationMasterAPI",
+      "Version": "2e563ee694b63e993c2f291e002c91d6e28be3d9",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-11-23T01:20:07.253148Z"
     }
   ]
 }
