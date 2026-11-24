@@ -204808,9 +204808,9 @@
           }
         },
         "PvpStats": {
-          "BuiltCommit": "ba41904e9cdd2d3c4cb77800945a1a30c8f88715",
-          "TimeBuilt": "2026-10-11T22:59:51.8422547+00:00",
-          "EffectiveVersion": "2.7.1.0",
+          "BuiltCommit": "fae03f5a95837edfd7e0b63d559e827f7497b973",
+          "TimeBuilt": "2026-11-24T07:48:48.1769509+00:00",
+          "EffectiveVersion": "2.7.1.1",
           "MinimumVersion": null,
           "Changelogs": {
             "0.2.3.2": {
@@ -205535,6 +205535,26 @@
             "2.7.1.0": {
               "TimeReleased": "2026-10-11T22:59:51.8422559+00:00",
               "Changelog": "* Added IPC service.\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "LiteDB",
+                  "Version": "5.0.16"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "wrath16"
+            },
+            "2.7.1.1": {
+              "TimeReleased": "2026-11-24T07:48:48.177027+00:00",
+              "Changelog": "* Updated time filter options.\r\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -342778,9 +342798,9 @@
           }
         },
         "ARealmRepopulated": {
-          "BuiltCommit": "4db37f405a2986ed17fba6872ac0a261fab51887",
-          "TimeBuilt": "2026-11-05T03:42:37.0452089+00:00",
-          "EffectiveVersion": "0.1.14.0",
+          "BuiltCommit": "78ba4902d118c1429f44c8b13175e100a38a1cd9",
+          "TimeBuilt": "2026-11-24T07:49:00.3378386+00:00",
+          "EffectiveVersion": "0.1.15.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.4.4": {
@@ -344370,6 +344390,166 @@
             "0.1.14.0": {
               "TimeReleased": "2026-11-05T03:42:37.0452273+00:00",
               "Changelog": "## Functional Changes\n- An actor appearance editor.\n\n## Bugfixes\n- Actors picked from a battle NPC preset now get the right mouth, lip color and eye colors. Already existing actors keep their old look until you pick them again.",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Logging.Abstractions",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Options",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "Microsoft.Extensions.Primitives",
+                  "Version": "10.0.1"
+                },
+                {
+                  "Key": "coverlet.collector",
+                  "Version": "8.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "2.0.2"
+                },
+                {
+                  "Key": "Microsoft.NET.Test.Sdk",
+                  "Version": "18.3.0"
+                },
+                {
+                  "Key": "Serilog",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "Shouldly",
+                  "Version": "4.3.0"
+                },
+                {
+                  "Key": "xunit.runner.visualstudio",
+                  "Version": "3.1.5"
+                },
+                {
+                  "Key": "xunit.v3",
+                  "Version": "3.2.2"
+                },
+                {
+                  "Key": "DiffEngine",
+                  "Version": "11.3.0"
+                },
+                {
+                  "Key": "EmptyFiles",
+                  "Version": "4.4.0"
+                },
+                {
+                  "Key": "Microsoft.ApplicationInsights",
+                  "Version": "2.23.0"
+                },
+                {
+                  "Key": "Microsoft.Bcl.AsyncInterfaces",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "Microsoft.CodeCoverage",
+                  "Version": "18.3.0"
+                },
+                {
+                  "Key": "Microsoft.Testing.Extensions.Telemetry",
+                  "Version": "1.9.1"
+                },
+                {
+                  "Key": "Microsoft.Testing.Extensions.TrxReport.Abstractions",
+                  "Version": "1.9.1"
+                },
+                {
+                  "Key": "Microsoft.Testing.Platform",
+                  "Version": "1.9.1"
+                },
+                {
+                  "Key": "Microsoft.Testing.Platform.MSBuild",
+                  "Version": "1.9.1"
+                },
+                {
+                  "Key": "Microsoft.TestPlatform.ObjectModel",
+                  "Version": "18.3.0"
+                },
+                {
+                  "Key": "Microsoft.TestPlatform.TestHost",
+                  "Version": "18.3.0"
+                },
+                {
+                  "Key": "Microsoft.Win32.Registry",
+                  "Version": "5.0.0"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "13.0.3"
+                },
+                {
+                  "Key": "System.CodeDom",
+                  "Version": "6.0.0"
+                },
+                {
+                  "Key": "System.Management",
+                  "Version": "6.0.1"
+                },
+                {
+                  "Key": "xunit.analyzers",
+                  "Version": "1.27.0"
+                },
+                {
+                  "Key": "xunit.v3.assert",
+                  "Version": "3.2.2"
+                },
+                {
+                  "Key": "xunit.v3.common",
+                  "Version": "3.2.2"
+                },
+                {
+                  "Key": "xunit.v3.core.mtp-v1",
+                  "Version": "3.2.2"
+                },
+                {
+                  "Key": "xunit.v3.extensibility.core",
+                  "Version": "3.2.2"
+                },
+                {
+                  "Key": "xunit.v3.mtp-v1",
+                  "Version": "3.2.2"
+                },
+                {
+                  "Key": "xunit.v3.runner.common",
+                  "Version": "3.2.2"
+                },
+                {
+                  "Key": "xunit.v3.runner.inproc.console",
+                  "Version": "3.2.2"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "NetStyx"
+            },
+            "0.1.15.0": {
+              "TimeReleased": "2026-11-24T07:49:00.3378402+00:00",
+              "Changelog": "## Functional Changes\n- added the ability to reuse actors across scenarios",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
