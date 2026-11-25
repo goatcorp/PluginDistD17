@@ -315559,9 +315559,9 @@
           "Changelogs": {}
         },
         "DailyDuty": {
-          "BuiltCommit": "aadd400e9a691ae3797983dac5058b742de2cc41",
-          "TimeBuilt": "2026-07-02T21:09:44.9284563+00:00",
-          "EffectiveVersion": "6.0.4.6",
+          "BuiltCommit": "d72df6df47e2960d982a9a330605c4faf7830f44",
+          "TimeBuilt": "2026-11-25T02:30:20.9835449+00:00",
+          "EffectiveVersion": "6.1.0.1",
           "MinimumVersion": null,
           "Changelogs": {
             "5.3.0.0": {
@@ -316547,6 +316547,26 @@
                 {
                   "Key": "SixLabors.ImageSharp",
                   "Version": "3.1.12"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "MidoriKami"
+            },
+            "6.1.0.1": {
+              "TimeReleased": "2026-11-25T02:30:20.9835955+00:00",
+              "Changelog": "UI overhaul and internal systems rework.\n\nThis update is **highly experimental**, I expect there to be some issues.\n\nThe actual core logic and functionality of each module is roughly the same, these changes focus on performance, ui, and localization.",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "ed99707aa42b07945d4c68c6040c5504d9a618c7"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
                 }
               ],
               "Reviewer": "nathanctech",
@@ -376077,6 +376097,13 @@
       "Version": "2e563ee694b63e993c2f291e002c91d6e28be3d9",
       "ReviewedBy": "nathanctech",
       "ReviewedAt": "2026-11-23T01:20:07.253148Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/MidoriKami/KamiToolKit",
+      "Version": "ed99707aa42b07945d4c68c6040c5504d9a618c7",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-11-25T02:30:21.1020637Z"
     }
   ]
 }
