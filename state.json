@@ -348066,9 +348066,9 @@
           }
         },
         "HitSpark": {
-          "BuiltCommit": "5a4c592e97c66461487d014dc40d255ce234fd70",
-          "TimeBuilt": "2026-11-20T01:51:07.5438382+00:00",
-          "EffectiveVersion": "0.5.0.0",
+          "BuiltCommit": "d1f1c975be30433ae75ade6a1c4ed693ac5cf088",
+          "TimeBuilt": "2026-11-25T02:27:16.5001821+00:00",
+          "EffectiveVersion": "0.6.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.0.0": {
@@ -348138,6 +348138,22 @@
             "0.5.0.0": {
               "TimeReleased": "2026-11-20T01:51:07.5438396+00:00",
               "Changelog": "- Critical, direct and critical direct auto-attacks now have their own styles, separate from your abilities. They start out looking exactly like before, your presets included, until you change them. Pet attacks count as auto-attacks.\n- New \u0022Caption font\u0022 option: the action name or label can use a different font from the number. It stays the same as the number unless you pick one.\n- Game Default now shows action names in the interface font under its serif numbers, like the game does.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "GitHixy"
+            },
+            "0.6.0.0": {
+              "TimeReleased": "2026-11-25T02:27:16.5002193+00:00",
+              "Changelog": "- New \u0022Custom\u0022 font: pick \u0022Custom (your choice)\u0022 as the font of a number or caption, then \u0022Choose\u2026\u0022 to open Dalamud\u0027s font chooser with the game\u0027s, Dalamud\u0027s and your installed Windows fonts. To use a font of your own, install it in Windows first. The choice is kept in your settings, so it applies to every preset that uses Custom.\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
