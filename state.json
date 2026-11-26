@@ -276344,9 +276344,9 @@
           }
         },
         "XivReflex": {
-          "BuiltCommit": "bc9a3cf508a5a6d9225a3e10e5fb2ad60cbd8550",
-          "TimeBuilt": "2026-10-02T20:26:02.0667903+00:00",
-          "EffectiveVersion": "1.0.0.0",
+          "BuiltCommit": "227fbb286117b86cb34bc28cf63707761f7c3a0b",
+          "TimeBuilt": "2026-11-26T04:24:32.9680111+00:00",
+          "EffectiveVersion": "1.0.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.0": {
@@ -276376,6 +276376,42 @@
                 {
                   "Key": "Microsoft.Windows.SDK.Win32Metadata",
                   "Version": "71.0.14-preview"
+                },
+                {
+                  "Key": "Microsoft.Windows.WDK.Win32Metadata",
+                  "Version": "0.13.25-experimental"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "Haselnussbomber"
+            },
+            "1.0.1.0": {
+              "TimeReleased": "2026-11-26T04:24:32.9680583+00:00",
+              "Changelog": "nofranz\n\nThis is just a small release for some code maintenance. No actual user-facing changes here.\n\n- Updated dependencies.\n- Reworked hooks to use addresses from ClientStructs.\n- The initialization function now uses GetProcAddress to resolve nvapi_QueryInterface instead of scanning for a reference to the function within the game.\n- PCLStats are now initialized before enabling hooks.\n- Added a LICENSES.md file for the MIT license of NVAPI.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Microsoft.Windows.CsWin32",
+                  "Version": "0.3.371"
+                },
+                {
+                  "Key": "Roslynator.Analyzers",
+                  "Version": "5.0.1"
+                },
+                {
+                  "Key": "Microsoft.Windows.SDK.Win32Docs",
+                  "Version": "0.1.42-alpha"
+                },
+                {
+                  "Key": "Microsoft.Windows.SDK.Win32Metadata",
+                  "Version": "71.0.45-preview"
                 },
                 {
                   "Key": "Microsoft.Windows.WDK.Win32Metadata",
@@ -315559,9 +315595,9 @@
           "Changelogs": {}
         },
         "DailyDuty": {
-          "BuiltCommit": "d72df6df47e2960d982a9a330605c4faf7830f44",
-          "TimeBuilt": "2026-11-25T02:30:20.9835449+00:00",
-          "EffectiveVersion": "6.1.0.1",
+          "BuiltCommit": "ceeed191a37faa4a124a12cff9786e7779e4fd2e",
+          "TimeBuilt": "2026-11-26T04:24:57.0917972+00:00",
+          "EffectiveVersion": "6.1.0.3",
           "MinimumVersion": null,
           "Changelogs": {
             "5.3.0.0": {
@@ -316555,6 +316591,26 @@
             "6.1.0.1": {
               "TimeReleased": "2026-11-25T02:30:20.9835955+00:00",
               "Changelog": "UI overhaul and internal systems rework.\n\nThis update is **highly experimental**, I expect there to be some issues.\n\nThe actual core logic and functionality of each module is roughly the same, these changes focus on performance, ui, and localization.",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "ed99707aa42b07945d4c68c6040c5504d9a618c7"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "MidoriKami"
+            },
+            "6.1.0.3": {
+              "TimeReleased": "2026-11-26T04:24:57.0917982+00:00",
+              "Changelog": "Fix TodoPanel not loading existing configs by mistake.",
               "UsedNeeds": [
                 {
                   "Key": "https://github.com/MidoriKami/KamiToolKit",
@@ -348190,14 +348246,30 @@
           }
         },
         "FateLimit": {
-          "BuiltCommit": "7a62c45efaa634786e71b07a6d7e3a24e583d3a9",
-          "TimeBuilt": "2026-11-04T22:49:37.0370546+00:00",
-          "EffectiveVersion": "0.1.0.0",
+          "BuiltCommit": "bd76c0910e086f2f07c0120221c4e67093d92d52",
+          "TimeBuilt": "2026-11-26T04:24:43.2310763+00:00",
+          "EffectiveVersion": "0.2.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.0.0": {
               "TimeReleased": "2026-11-04T22:49:37.037056+00:00",
               "Changelog": "# Version 0.1.0\n\n- Five Border styles\n- show borders all the time or only when getting closer to the limit\n- Option to only show the border in the fate that you\u0027re currently in\n- borders follow terrain\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "nathanctech",
+              "Submitter": "GitHixy"
+            },
+            "0.2.0.0": {
+              "TimeReleased": "2026-11-26T04:24:43.2310782+00:00",
+              "Changelog": "# Version 0.2.0\n\n- Parts of a border hidden from the camera by hills, walls or rocks now fade out instead of showing through them (Settings \u2192 General \u2192 Hide behind terrain). Suggested by players on the FateLimit Discord.\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -376104,6 +376176,20 @@
       "Version": "ed99707aa42b07945d4c68c6040c5504d9a618c7",
       "ReviewedBy": "nathanctech",
       "ReviewedAt": "2026-11-25T02:30:21.1020637Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Windows.CsWin32",
+      "Version": "0.3.371",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-11-26T04:24:33.0652037Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Windows.SDK.Win32Metadata",
+      "Version": "71.0.45-preview",
+      "ReviewedBy": "nathanctech",
+      "ReviewedAt": "2026-11-26T04:24:33.0652346Z"
     }
   ]
 }
