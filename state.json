@@ -229472,9 +229472,9 @@
           }
         },
         "ShopItemRevealer": {
-          "BuiltCommit": "ed13973f45e9dca091c85fddb6fd868f5f92b153",
-          "TimeBuilt": "2026-04-30T00:36:35.016597+00:00",
-          "EffectiveVersion": "1.2.15.0",
+          "BuiltCommit": "92a8861d39e0713bce33f42e2905b504f718b4b4",
+          "TimeBuilt": "2026-11-28T05:48:19.2685976+00:00",
+          "EffectiveVersion": "1.2.15.1",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.2.0": {
@@ -229640,6 +229640,22 @@
             "1.2.15.0": {
               "TimeReleased": "2026-04-30T00:36:35.0165979+00:00",
               "Changelog": "API 15",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "reiichi001",
+              "Submitter": "nathanctech"
+            },
+            "1.2.15.1": {
+              "TimeReleased": "2026-11-28T05:48:19.2686299+00:00",
+              "Changelog": "Fixes reported issue with missing items from gemstone vendors.",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
